@@ -1,0 +1,552 @@
+# India Semiconductor Facility Tracker — Source of Truth
+# Last updated: 2026-04-03
+#
+# Category: Commercial (ISM Approved) | Research & Strategic
+# Status values: Announced | Approved | Under Construction | Operational | On Hold | Cancelled
+# Type values: Fab | Assembly & Packaging | Compound Semiconductor | Research Fab
+# Investment: total_inr in crore
+
+facilities:
+
+  # --- COMMERCIAL (ISM APPROVED) ---
+
+  - id: micron-sanand
+    name: "Micron ATMP Facility"
+    company: "Micron Technology"
+    category: "Commercial (ISM Approved)"
+    location:
+      city: "Sanand"
+      state: "Gujarat"
+      lat: 22.992
+      lon: 72.371
+    type: "Assembly & Packaging"
+    capability: "Advanced Memory Packaging (DRAM & NAND)"
+    investment:
+      total_inr: 22516
+    status: "Operational"
+    narrative:
+      significance: "India's first operational semiconductor facility. Proved that a global chipmaker would bet on India."
+      what_it_makes: "Packages DRAM and NAND flash memory chips — the memory inside your phone, laptop, and data centre servers. Raw silicon wafers arrive from Micron's fabs abroad and are assembled, tested, and packaged here."
+      why_it_matters: "Memory packaging is the least complex part of chipmaking, but Micron choosing India over other Asian countries was a watershed moment. It signalled to the global industry that India is a credible semiconductor destination. The facility also anchors a cluster of semiconductor units in Sanand, Gujarat."
+    milestones:
+      - date: "2023-06-22"
+        event: "Announced during PM Modi's US state visit; Micron CEO Sanjay Mehrotra commits Rs.22,516 crore"
+      - date: "2023-06-22"
+        event: "Approved by the Union Cabinet under ISM"
+      - date: "2024-09-01"
+        event: "Construction begins at Sanand GIDC"
+      - date: "2025-09-23"
+        event: "Facility inaugurated — India's first semiconductor assembly and test unit goes live"
+      - date: "2026-02-26"
+        event: "Volume production begins — chips rolling off the line at commercial scale"
+    complexity:
+      technology_difficulty: 1
+      foreign_dependence: 2
+      capital_intensity: 2
+    dates:
+      announced: "2023-06-22"
+      approved: "2023-06-22"
+      construction_start: "2024-09-01"
+      original_expected_completion: "2025-06-30"
+      date_completion: "2026-02-26"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2233998&reg=3&lang=1"
+        title: "PIB: Micron begins volume production at India facility"
+        date: "2026-02-26"
+      - url: "https://investors.micron.com/news-releases/news-release-details/micron-celebrates-opening-indias-first-semiconductor-assembly"
+        title: "Micron Celebrates Opening of India's First Semiconductor Assembly and Test Facility"
+        date: "2025-09-23"
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1932960"
+        title: "PIB: Micron to invest in semiconductor ATMP facility in India"
+        date: "2023-06-22"
+
+  - id: tata-psmc-dholera
+    name: "Tata Electronics Semiconductor Fab"
+    company: "Tata Electronics (TEPL)"
+    category: "Commercial (ISM Approved)"
+    partners: ["Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan"]
+    location:
+      city: "Dholera"
+      state: "Gujarat"
+      lat: 22.248
+      lon: 72.189
+    type: "Fab"
+    capability: "28nm-55nm Logic (50,000 Wafers/Month)"
+    investment:
+      total_inr: 91000
+    status: "Under Construction"
+    status_detail: "Behind schedule — no revised completion date announced yet"
+    delay_confirmed: true
+    narrative:
+      significance: "India's first commercial semiconductor fabrication plant. The most ambitious and complex project in the ISM portfolio."
+      what_it_makes: "Will fabricate silicon wafers at 28nm-55nm process nodes — the chips inside cars, IoT devices, industrial equipment, and telecom infrastructure. These are mature-node chips that India currently imports in massive quantities."
+      why_it_matters: "This is the project that will determine whether India can actually make chips, not just package them. A fab is orders of magnitude more complex than an assembly plant. Tata's partnership with Taiwan's PSMC brings process technology know-how, but building and operating a fab requires mastering thousands of manufacturing steps. If Dholera succeeds, it fundamentally changes India's position in the global semiconductor supply chain."
+    milestones:
+      - date: "2024-02-29"
+        event: "Union Cabinet approves Tata-PSMC fab under the Modified Semiconductor Fab Scheme"
+      - date: "2024-03-13"
+        event: "PM Modi lays foundation stone at Dholera Special Investment Region"
+      - date: "2024-03-13"
+        event: "Construction begins — site preparation and civil works"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 3
+      capital_intensity: 3
+    dates:
+      announced: "2024-02-29"
+      approved: "2024-02-29"
+      construction_start: "2024-03-13"
+      original_expected_completion: "2026-12-31"
+      original_completion_source:
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209"
+        title: "PIB: PM lays foundation stone (March 2024)"
+        date: "2024-03-13"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209"
+        title: "PIB: PM lays foundation stone for semiconductor facilities"
+        date: "2024-03-13"
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
+        title: "PIB: SEMICON India 2025 factsheet"
+        date: "2025-09-01"
+
+  - id: cg-power-sanand
+    name: "CG Semi OSAT Facility"
+    company: "CG Power & Industrial Solutions"
+    category: "Commercial (ISM Approved)"
+    partners: ["Renesas Electronics", "Stars Microelectronics"]
+    location:
+      city: "Sanand"
+      state: "Gujarat"
+      lat: 22.988
+      lon: 72.365
+    type: "Assembly & Packaging"
+    capability: "Consumer & Industrial OSAT (15M chips/day)"
+    investment:
+      total_inr: 7600
+    status: "Under Construction"
+    narrative:
+      significance: "Launched India's first end-to-end OSAT pilot line. Partnership with Japan's Renesas brings automotive-grade chip packaging to India."
+      what_it_makes: "Assembles, tests, and packages semiconductor chips for consumer electronics and industrial applications. Partners with Renesas (Japan) for automotive chips and Stars Microelectronics (Thailand) for packaging technology."
+      why_it_matters: "CG Semi's pilot line at Sanand was a proof-of-concept moment — it showed that Indian companies can run semiconductor back-end operations at commercial quality. The Renesas partnership is particularly significant because automotive chips have stringent quality requirements. India producing automotive-grade packages is a stepping stone to becoming a serious player in the global auto supply chain."
+    milestones:
+      - date: "2024-02-29"
+        event: "Union Cabinet approves CG Semi OSAT under ISM"
+      - date: "2024-06-01"
+        event: "Construction begins at Sanand"
+      - date: "2025-08-28"
+        event: "India's first OSAT pilot line inaugurated — G1 facility goes live"
+    complexity:
+      technology_difficulty: 1
+      foreign_dependence: 1
+      capital_intensity: 1
+    dates:
+      announced: "2024-02-29"
+      approved: "2024-02-29"
+      construction_start: "2024-06-01"
+      original_expected_completion: "2026-06-01"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209"
+        title: "PIB: Cabinet approves semiconductor units"
+        date: "2024-03-01"
+      - url: "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2147821"
+        title: "PIB: Inauguration of India's first OSAT Pilot Line at CG Semi, Sanand"
+        date: "2025-08-28"
+
+  - id: tata-morigaon
+    name: "Tata Semiconductor Assembly and Test (TSAT)"
+    company: "Tata Semiconductor Assembly and Test Pvt Ltd"
+    category: "Commercial (ISM Approved)"
+    location:
+      city: "Jagiroad, Morigaon"
+      state: "Assam"
+      lat: 26.234
+      lon: 92.368
+    type: "Assembly & Packaging"
+    capability: "Advanced Packaging (48M chips/day)"
+    investment:
+      total_inr: 27000
+    status: "Under Construction"
+    narrative:
+      significance: "India's first semiconductor facility in the Northeast. Demonstrates that chip manufacturing isn't limited to Gujarat."
+      what_it_makes: "Assembles and tests semiconductor chips at high volume — 48 million chips per day at full capacity. Handles multiple packaging formats for diverse end markets."
+      why_it_matters: "Locating a major semiconductor facility in Assam is a deliberate industrial policy choice. It brings high-tech jobs and supply chain development to the Northeast, a region that has historically been bypassed by India's manufacturing boom. The Rs.27,000 crore investment is also the largest single private-sector industrial investment in the Northeast."
+    milestones:
+      - date: "2024-02-29"
+        event: "Union Cabinet approves TSAT under ISM"
+      - date: "2024-07-01"
+        event: "Construction begins at Jagiroad, Morigaon"
+      - date: "2026-04-30"
+        event: "Phase 1 commissioning expected"
+    complexity:
+      technology_difficulty: 1
+      foreign_dependence: 1
+      capital_intensity: 2
+    dates:
+      announced: "2024-02-29"
+      approved: "2024-02-29"
+      construction_start: "2024-07-01"
+      original_expected_completion: "2026-04-30"
+      date_completion: "2026-04-30"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209"
+        title: "PIB: Cabinet approves semiconductor units"
+        date: "2024-03-01"
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
+        title: "PIB: SEMICON India 2025 factsheet"
+        date: "2025-09-01"
+
+  - id: kaynes-sanand
+    name: "Kaynes Semicon OSAT Facility"
+    company: "Kaynes Semicon Pvt Ltd"
+    category: "Commercial (ISM Approved)"
+    location:
+      city: "Sanand"
+      state: "Gujarat"
+      lat: 22.985
+      lon: 72.360
+    type: "Assembly & Packaging"
+    capability: "OSAT (6.33M chips/day)"
+    investment:
+      total_inr: 3307
+    status: "Operational"
+    narrative:
+      significance: "An Indian EMS company that successfully pivoted into semiconductor OSAT — proof that domestic firms can compete in chipmaking."
+      what_it_makes: "Assembles and tests semiconductor chips for various applications. Kaynes started as an electronics manufacturing services (EMS) company and expanded upstream into chip packaging."
+      why_it_matters: "Most ISM projects involve foreign technology partners. Kaynes is notable as a homegrown Indian company that built OSAT capability — showing that the Indian private sector can move up the semiconductor value chain, not just multinational corporations."
+    milestones:
+      - date: "2024-09-01"
+        event: "Approved under ISM"
+      - date: "2024-12-01"
+        event: "Construction begins at Sanand"
+      - date: "2026-03-31"
+        event: "PM Modi inaugurates Kaynes semiconductor plant — facility goes operational"
+    complexity:
+      technology_difficulty: 1
+      foreign_dependence: 1
+      capital_intensity: 1
+    dates:
+      announced: "2024-09-01"
+      approved: "2024-09-01"
+      construction_start: "2024-12-01"
+      original_expected_completion: "2025-09-01"
+      date_completion: "2026-03-31"
+    sources:
+      - url: "https://ddnews.gov.in/en/pm-modi-inaugurates-kaynes-semiconductor-plant-in-gujarat-flags-push-for-chip-ecosystem/"
+        title: "PM Modi inaugurates Kaynes Semiconductor plant in Gujarat"
+        date: "2026-03-31"
+
+  - id: hcl-foxconn-jewar
+    name: "HCL-Foxconn JV OSAT"
+    company: "HCL-Foxconn JV"
+    category: "Commercial (ISM Approved)"
+    location:
+      city: "Jewar"
+      state: "Uttar Pradesh"
+      lat: 28.131
+      lon: 77.588
+    type: "Assembly & Packaging"
+    capability: "OSAT (36M units/year)"
+    investment:
+      total_inr: 3700
+    status: "Under Construction"
+    narrative:
+      significance: "A joint venture between HCL Group and Foxconn (Taiwan) — India's largest contract manufacturer entering semiconductors."
+      what_it_makes: "Semiconductor assembly and test operations. The facility will handle chip packaging for multiple end markets."
+      why_it_matters: "Foxconn is the world's largest electronics manufacturer (it assembles iPhones) and its entry into India's semiconductor ecosystem signals serious industrial intent. Located near the upcoming Noida International Airport at Jewar, this facility is positioned to serve as an export hub."
+    milestones:
+      - date: "2025-05-01"
+        event: "Approved under ISM"
+      - date: "2025-06-01"
+        event: "Construction begins at Jewar, near Noida International Airport"
+    complexity:
+      technology_difficulty: 1
+      foreign_dependence: 1
+      capital_intensity: 1
+    dates:
+      announced: "2025-05-01"
+      approved: "2025-05-01"
+      original_expected_completion: "2026-12-01"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
+        title: "PIB: SEMICON India 2025 factsheet"
+        date: "2025-09-01"
+
+  - id: sicsem-bhubaneswar
+    name: "SicSem Silicon Carbide Fab"
+    company: "SicSem Private Limited"
+    category: "Commercial (ISM Approved)"
+    location:
+      city: "Bhubaneswar"
+      state: "Odisha"
+      lat: 20.296
+      lon: 85.825
+    type: "Compound Semiconductor"
+    capability: "SiC Power Devices (60k wafers/year)"
+    investment:
+      total_inr: 2066
+    status: "Approved"
+    narrative:
+      significance: "India's first commercial Silicon Carbide fab. A critical technology for defence, EVs, and power infrastructure."
+      what_it_makes: "Fabricates Silicon Carbide (SiC) semiconductor devices — power chips that can handle extreme heat (2,400°C) and high voltages. Used in electric vehicle inverters, missile systems, radar, space electronics, and power grid equipment."
+      why_it_matters: "SiC is a compound semiconductor — fundamentally different from the silicon chips made at Tata-PSMC. It is a niche but strategically vital technology. India currently imports all SiC devices. Having a domestic fab reduces vulnerability in defence supply chains and positions India in the fast-growing EV power electronics market."
+    milestones:
+      - date: "2025-08-01"
+        event: "Approved by Union Cabinet under ISM"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 3
+      capital_intensity: 1
+    dates:
+      announced: "2025-08-01"
+      approved: "2025-08-01"
+      original_expected_completion: "2027-08-01"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
+        title: "PIB: SEMICON India 2025 factsheet"
+        date: "2025-09-01"
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128604"
+        title: "PIB: Cabinet approves new semiconductor projects"
+        date: "2025-08-01"
+
+  - id: 3dglass-bhubaneswar
+    name: "3D Glass Solutions Packaging"
+    company: "3D Glass Solutions Inc."
+    category: "Commercial (ISM Approved)"
+    location:
+      city: "Bhubaneswar"
+      state: "Odisha"
+      lat: 20.300
+      lon: 85.830
+    type: "Assembly & Packaging"
+    capability: "Next-gen Glass Substrates (50M units/year)"
+    investment:
+      total_inr: 1943
+    status: "Approved"
+    narrative:
+      significance: "Brings next-generation glass packaging technology to India — a frontier area even globally."
+      what_it_makes: "Produces advanced packaging using 3D glass substrates instead of traditional silicon or organic materials. Glass offers better signal integrity, thermal performance, and miniaturisation for high-frequency applications (5G, RF, sensors)."
+      why_it_matters: "Glass-based packaging is a next-generation technology that even leading semiconductor companies are still developing. By hosting this facility, India gets an early foothold in a packaging technology that could become industry-standard in the coming decade."
+    milestones:
+      - date: "2025-08-01"
+        event: "Approved by Union Cabinet under ISM"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 1
+    dates:
+      announced: "2025-08-01"
+      approved: "2025-08-01"
+      original_expected_completion: "2027-08-01"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
+        title: "PIB: SEMICON India 2025 factsheet"
+        date: "2025-09-01"
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128604"
+        title: "PIB: Cabinet approves new semiconductor projects"
+        date: "2025-08-01"
+
+  - id: cdil-mohali
+    name: "CDIL Semiconductor Facility"
+    company: "Continental Device India Ltd"
+    category: "Commercial (ISM Approved)"
+    location:
+      city: "Mohali"
+      state: "Punjab"
+      lat: 30.704
+      lon: 76.717
+    type: "Assembly & Packaging"
+    capability: "Discrete Semiconductors (158M units/year)"
+    investment:
+      total_inr: 117
+    status: "Approved"
+    narrative:
+      significance: "One of India's oldest semiconductor companies (founded 1964) expanding under ISM. A survivor of India's earlier, failed semiconductor attempts."
+      what_it_makes: "Discrete semiconductor devices — diodes, transistors, and rectifiers used in power supplies, automotive electronics, and consumer products. These are simpler than integrated circuits but are produced in enormous volumes."
+      why_it_matters: "CDIL has been making semiconductors in India since 1964, long before the current ISM wave. Its survival and expansion under ISM demonstrates continuity in India's semiconductor journey — this isn't starting from zero."
+    milestones:
+      - date: "2025-08-01"
+        event: "Approved by Union Cabinet under ISM"
+    complexity:
+      technology_difficulty: 1
+      foreign_dependence: 1
+      capital_intensity: 1
+    dates:
+      announced: "2025-08-01"
+      approved: "2025-08-01"
+      original_expected_completion: "2026-08-01"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
+        title: "PIB: SEMICON India 2025 factsheet"
+        date: "2025-09-01"
+
+  - id: asip-andhra-pradesh
+    name: "ASIP Advanced Packaging"
+    company: "Advanced System in Package Tech"
+    category: "Commercial (ISM Approved)"
+    location:
+      city: "Tirupati"
+      state: "Andhra Pradesh"
+      lat: 13.629
+      lon: 79.419
+    type: "Assembly & Packaging"
+    capability: "System-in-Package (96M units/year)"
+    investment:
+      total_inr: 468
+    status: "Approved"
+    narrative:
+      significance: "Brings System-in-Package (SiP) technology to South India — key for miniaturised IoT and wearable devices."
+      what_it_makes: "System-in-Package (SiP) assemblies — multiple chips integrated into a single package. Used in smartwatches, wireless earbuds, IoT sensors, and other devices where space is at a premium."
+      why_it_matters: "SiP is where the semiconductor industry is heading — integrating multiple functions (processor, memory, sensors, connectivity) into one tiny package. Having SiP capability in India positions the country for the next wave of electronics miniaturisation."
+    milestones:
+      - date: "2025-08-01"
+        event: "Approved by Union Cabinet under ISM"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 1
+    dates:
+      announced: "2025-08-01"
+      approved: "2025-08-01"
+      original_expected_completion: "2027-08-01"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
+        title: "PIB: SEMICON India 2025 factsheet"
+        date: "2025-09-01"
+
+  # --- PRIVATE (NON-ISM) ---
+
+  - id: rrp-navi-mumbai
+    name: "RRP Electronics Semiconductor Campus"
+    company: "RRP Electronics Ltd"
+    category: "OSAT (Non-ISM)"
+    location:
+      city: "Navi Mumbai"
+      state: "Maharashtra"
+      lat: 19.033
+      lon: 73.030
+    type: "Assembly & Packaging"
+    capability: "OSAT (125,000 wafers/month planned)"
+    investment:
+      total_inr: 12035
+    status: "Announced"
+    narrative:
+      significance: "The first semiconductor fab proposal in Maharashtra — but surrounded by significant feasibility questions."
+      what_it_makes: "Plans to house OSAT production lines and advanced wafer-level packaging. No manufacturing has started as of late 2025."
+      why_it_matters: "RRP Electronics has received 100 acres from the Maharashtra government and announced a phased investment of over Rs.36,000 crore. However, the project faces serious credibility scrutiny — the company disclosed in November 2025 that it had 'yet to start any sort of semiconductor manufacturing activities' and its annual report showed only two full-time employees. This project is tracked here for completeness but should be viewed with caution."
+    milestones:
+      - date: "2024-09-19"
+        event: "Launched Maharashtra's first OSAT/ATMP facility (announcement)"
+      - date: "2025-09-15"
+        event: "Maharashtra government allots 100 acres in Navi Mumbai for semiconductor fab"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 3
+      capital_intensity: 2
+    dates:
+      announced: "2024-09-19"
+      original_expected_completion: "2026-06-30"
+      original_completion_source:
+        url: "https://www.electronicsforyou.biz/industry-buzz/rrp-electronics-gets-land-for-semiconductor-fab-in-navi-mumbai/"
+        title: "RRP Electronics Gets Land For Semiconductor Fab In Navi Mumbai"
+        date: "2025-09-15"
+    sources:
+      - url: "https://www.business-standard.com/content/press-releases-ani/rrp-electronics-ltd-launched-maharashtra-s-first-osatatmp-semiconductor-manufacturing-facility-124091900541_1.html"
+        title: "RRP Electronics Ltd Launched Maharashtra's First OSAT/ATMP Semiconductor Manufacturing Facility"
+        date: "2024-09-19"
+      - url: "https://www.manufacturingtodayindia.com/rrp-electronics-semiconductor-fab"
+        title: "Govt allots 100 acres to RRP Electronics' semiconductor fab"
+        date: "2025-09-15"
+
+  # --- RESEARCH & STRATEGIC ---
+
+  - id: scl-mohali-fab
+    name: "Semi-Conductor Laboratory (SCL)"
+    company: "Government of India (MeitY)"
+    category: "Research & Strategic"
+    location:
+      city: "Mohali"
+      state: "Punjab"
+      lat: 30.708
+      lon: 76.713
+    type: "Fab"
+    capability: "180nm CMOS (Strategic)"
+    investment:
+      total_inr: 0
+    status: "Operational"
+    narrative:
+      significance: "India's only existing semiconductor fab — a government facility dating to the 1980s. Produces chips for strategic (defence/space) applications."
+      what_it_makes: "Fabricates chips at 180nm process node for strategic applications — ISRO satellites, defence systems, and other government programmes. Not a commercial production facility."
+      why_it_matters: "SCL is a reminder that India has had semiconductor fabrication capability for decades, albeit at legacy nodes and small volumes. Its long-planned modernisation has been repeatedly budgeted but never executed — a cautionary tale about the gap between policy intent and implementation."
+    milestones:
+      - date: "1983-01-01"
+        event: "SCL established as a government semiconductor fab"
+    complexity:
+      technology_difficulty: 1
+      foreign_dependence: 1
+      capital_intensity: 1
+    dates:
+      announced: "1983-01-01"
+    sources:
+      - url: "https://www.scl.gov.in/"
+        title: "Semi-Conductor Laboratory official website"
+        date: "2025-01-01"
+
+  - id: iisc-bangalore
+    name: "MNNFC (IISc)"
+    company: "Indian Institute of Science"
+    category: "Research & Strategic"
+    location:
+      city: "Bengaluru"
+      state: "Karnataka"
+      lat: 13.018
+      lon: 77.566
+    type: "Research Fab"
+    capability: "Academic Micro-fabrication"
+    investment:
+      total_inr: 0
+    status: "Operational"
+    narrative:
+      significance: "India's premier academic micro/nano fabrication facility. Trains the next generation of semiconductor researchers."
+      what_it_makes: "Research-grade micro and nano devices for academic research — not commercial production. Used for prototyping MEMS sensors, photonic devices, and novel semiconductor structures."
+      why_it_matters: "A semiconductor industry needs a pipeline of researchers and engineers who understand fabrication at a fundamental level. MNNFC at IISc is where much of this human capital is developed."
+    milestones: []
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 1
+    dates:
+      announced: "2015-01-01"
+    sources:
+      - url: "https://www.iisc.ac.in/research-centres/centre-for-nano-science-and-engineering-cense/"
+        title: "IISc Centre for Nano Science and Engineering"
+        date: "2025-01-01"
+
+  - id: gaetec-hyderabad
+    name: "GAETEC"
+    company: "Gallium Arsenide Enabling Tech Centre"
+    category: "Research & Strategic"
+    location:
+      city: "Hyderabad"
+      state: "Telangana"
+      lat: 17.340
+      lon: 78.470
+    type: "Compound Semiconductor"
+    capability: "GaAs MMICs (Strategic)"
+    investment:
+      total_inr: 0
+    status: "Operational"
+    narrative:
+      significance: "India's strategic Gallium Arsenide fab — produces radar and electronic warfare chips for defence."
+      what_it_makes: "Gallium Arsenide (GaAs) Monolithic Microwave Integrated Circuits (MMICs) — specialised chips used in military radar, electronic warfare systems, and satellite communications."
+      why_it_matters: "GAETEC is a DRDO facility that gives India sovereign capability in GaAs MMICs — chips that cannot be easily procured from abroad due to export controls. It is small-scale and defence-focused, but strategically essential."
+    milestones: []
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 2
+      capital_intensity: 1
+    dates:
+      announced: "2005-01-01"
+    sources:
+      - url: "https://www.drdo.gov.in/labs-and-establishments/gallium-arsenide-enabling-technology-centre-gaetec"
+        title: "DRDO: GAETEC"
+        date: "2025-01-01"

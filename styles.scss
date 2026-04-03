@@ -1,0 +1,190 @@
+/*-- scss:defaults --*/
+
+$primary: #0D1F3C;
+$accent: #B85C00;
+$accent-light: #F5ECE0;
+$success-green: #2E7D32;
+$info-blue: #1565C0;
+$warning-amber: #E65100;
+$neutral-grey: #757575;
+$danger-red: #C62828;
+
+$body-bg: #FAFAFA;
+$body-color: #212121;
+
+/*-- scss:rules --*/
+
+/* ---- Status badges ---- */
+.badge-operational  { background-color: $success-green; color: #fff; }
+.badge-construction { background-color: $info-blue;     color: #fff; }
+.badge-approved     { background-color: $accent;        color: #fff; }
+.badge-announced    { background-color: $neutral-grey;  color: #fff; }
+.badge-onhold       { background-color: $danger-red;    color: #fff; }
+.badge-cancelled    { background-color: $danger-red;    color: #fff; }
+
+.status-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* ---- Summary cards ---- */
+.summary-card {
+  background: #fff;
+  border-left: 4px solid $primary;
+  border-radius: 6px;
+  padding: 1.2em 1.5em;
+  margin-bottom: 1em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.summary-card .card-value {
+  font-size: 2em;
+  font-weight: 700;
+  color: $primary;
+  line-height: 1.1;
+}
+
+.summary-card .card-label {
+  font-size: 0.9em;
+  color: $neutral-grey;
+  margin-top: 0.3em;
+}
+
+/* ---- Complexity indicator ---- */
+.complexity-bar {
+  display: inline-flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.complexity-segment {
+  width: 14px;
+  height: 8px;
+  border-radius: 2px;
+  background-color: #E0E0E0;
+}
+
+.complexity-segment.filled {
+  background-color: $accent;
+}
+
+/* ---- Progress bar for completion tracking ---- */
+.progress-container {
+  position: relative;
+  background: #E0E0E0;
+  border-radius: 4px;
+  height: 20px;
+  min-width: 140px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progress-bar.progress-indeterminate {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.progress-label {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  right: 6px;
+  line-height: 20px;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+}
+
+/* ---- Leaflet popup styling ---- */
+.facility-popup {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.facility-popup h4 {
+  margin: 0 0 6px 0;
+  color: $primary;
+  font-size: 1.05em;
+}
+
+.facility-popup .popup-significance {
+  font-style: italic;
+  color: #444;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #E0E0E0;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.facility-popup .popup-row {
+  margin-bottom: 3px;
+}
+
+.facility-popup .popup-label {
+  font-weight: 600;
+  color: $neutral-grey;
+}
+
+/* ---- Node landscape chart ---- */
+.node-highlight {
+  background: $accent-light;
+  border-left: 3px solid $accent;
+  padding: 0.8em 1em;
+  border-radius: 4px;
+  margin: 1em 0;
+}
+
+/* ---- Slippage badges ---- */
+.slippage-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.badge-on-track { background-color: #E8F5E9; color: $success-green; border: 1px solid $success-green; }
+.badge-minor-delay { background-color: #FFF3E0; color: $warning-amber; border: 1px solid $warning-amber; }
+.badge-major-delay { background-color: #FFEBEE; color: $danger-red; border: 1px solid $danger-red; }
+
+/* ---- Detail buttons ---- */
+.btn-detail {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: $primary;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.btn-detail:hover {
+  background-color: lighten($primary, 10%);
+}
+
+/* ---- General layout ---- */
+.content-block {
+  margin-bottom: 2em;
+}
+
+h1, h2, h3 {
+  color: $primary;
+}

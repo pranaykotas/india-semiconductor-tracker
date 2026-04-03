@@ -1,0 +1,93 @@
+# Budgetary Allocations for India's Semiconductor Industrial Policy
+# Source: Union Budget documents, compiled by Pranay Kotasthane
+# Originally published at: https://publicpolicy.substack.com/i/187199718/india-policy-watch-2-budget-takeaways
+# All amounts in ₹ crore
+# Types: BE = Budget Estimate, Actual = Actual expenditure, RE = Revised Estimate
+# Last updated: 2026-04-02
+
+schemes:
+
+  - id: assembly-specialised-fabs
+    name: "Incentives for Assembly/Specialised Fabs"
+    description: "Subsidies for ATMP, OSAT, and specialised semiconductor facilities"
+    related_facilities:
+      - micron-sanand
+      - cg-power-sanand
+      - tata-morigaon
+      - kaynes-sanand
+      - hcl-foxconn-jewar
+    allocations:
+      - { year: "FY23", type: "BE", amount: 10 }
+      - { year: "FY23", type: "Actual", amount: 10 }
+      - { year: "FY24", type: "BE", amount: 1800 }
+      - { year: "FY24", type: "Actual", amount: 600 }
+      - { year: "FY25", type: "BE", amount: 4200 }
+      - { year: "FY25", type: "Actual", amount: 550 }
+      - { year: "FY26", type: "BE", amount: 3900 }
+      - { year: "FY26", type: "RE", amount: 3200 }
+      - { year: "FY27", type: "BE", amount: 5000 }
+
+  - id: incentives-fabs
+    name: "Incentives for Fabs"
+    description: "Subsidies for semiconductor fabrication plants"
+    related_facilities:
+      - tata-psmc-dholera
+    allocations:
+      - { year: "FY24", type: "BE", amount: 1000 }
+      - { year: "FY24", type: "Actual", amount: 0 }
+      - { year: "FY25", type: "BE", amount: 1500 }
+      - { year: "FY25", type: "Actual", amount: 0 }
+      - { year: "FY26", type: "BE", amount: 2500 }
+      - { year: "FY26", type: "RE", amount: 1000 }
+      - { year: "FY27", type: "BE", amount: 2000 }
+
+  - id: scl-mohali
+    name: "Modernisation of SCL Mohali"
+    description: "Modernisation and commercialisation of the government-owned Semiconductor Complex Limited, Mohali"
+    related_facilities: []
+    allocations:
+      - { year: "FY24", type: "BE", amount: 20 }
+      - { year: "FY24", type: "Actual", amount: 0 }
+      - { year: "FY25", type: "BE", amount: 900 }
+      - { year: "FY25", type: "Actual", amount: 0 }
+      - { year: "FY26", type: "BE", amount: 400 }
+      - { year: "FY26", type: "RE", amount: 0 }
+      - { year: "FY27", type: "BE", amount: 900 }
+
+  - id: fabless-firms
+    name: "Incentives for Fabless Firms"
+    description: "Design-Linked Incentive (DLI) scheme to support semiconductor design startups and firms"
+    related_facilities: []
+    allocations:
+      - { year: "FY23", type: "BE", amount: 200 }
+      - { year: "FY23", type: "Actual", amount: 0 }
+      - { year: "FY24", type: "BE", amount: 200 }
+      - { year: "FY24", type: "Actual", amount: 30 }
+      - { year: "FY25", type: "BE", amount: 250 }
+      - { year: "FY25", type: "Actual", amount: 85 }
+      - { year: "FY26", type: "BE", amount: 200 }
+      - { year: "FY26", type: "RE", amount: 100 }
+      - { year: "FY27", type: "BE", amount: 0 }
+
+  - id: display-fabs
+    name: "Incentives for Display Fabs"
+    description: "Subsidies for display fabrication plants (LCD, OLED)"
+    related_facilities: []
+    allocations:
+      - { year: "FY26", type: "BE", amount: 100 }
+      - { year: "FY26", type: "RE", amount: 0 }
+      - { year: "FY27", type: "BE", amount: 0 }
+
+  - id: ism-2-equipment
+    name: "ISM 2.0 for manufacturing equipment"
+    description: "India Semiconductor Mission 2.0 — focus on semiconductor equipment, materials, and indigenous IP"
+    related_facilities: []
+    allocations:
+      - { year: "FY27", type: "BE", amount: 1000 }
+
+  - id: electronics-component
+    name: "Electronics Component Manufacturing Scheme"
+    description: "Incentives for domestic manufacturing of electronic components — outlay expanded from ₹22,000 crore to ₹40,000 crore"
+    related_facilities: []
+    allocations:
+      - { year: "FY27", type: "BE", amount: 1500 }

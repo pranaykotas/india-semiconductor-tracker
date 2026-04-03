@@ -1,0 +1,69 @@
+---
+title: "RRP Electronics Semiconductor Campus"
+subtitle: "RRP Electronics Ltd | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+The first semiconductor fab proposal in Maharashtra — but surrounded by significant feasibility questions.
+:::
+
+## What does this facility make?
+
+Plans to house OSAT production lines and advanced wafer-level packaging. No manufacturing has started as of late 2025.
+
+## Why does it matter?
+
+RRP Electronics has received 100 acres from the Maharashtra government and announced a phased investment of over Rs.36,000 crore. However, the project faces serious credibility scrutiny — the company disclosed in November 2025 that it had 'yet to start any sort of semiconductor manufacturing activities' and its annual report showed only two full-time employees. This project is tracked here for completeness but should be viewed with caution.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | RRP Electronics Ltd |
+| **Partners** | None |
+| **Type** | Assembly & Packaging |
+| **Capability** | OSAT (125,000 wafers/month planned) |
+| **Status** | Announced |
+| **Investment** | ₹12,035 crore |
+| **Location** | Navi Mumbai, Maharashtra |
+| **Category** | OSAT (Non-ISM) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+Original target: Jun 2026 ([source](https://www.electronicsforyou.biz/industry-buzz/rrp-electronics-gets-land-for-semiconductor-fab-in-navi-mumbai/))
+:::
+:::
+
+## Project Timeline
+
+- **19 Sep 2024** — Launched Maharashtra's first OSAT/ATMP facility (announcement)
+- **15 Sep 2025** — Maharashtra government allots 100 acres in Navi Mumbai for semiconductor fab
+
+## Sources
+
+- [RRP Electronics Ltd Launched Maharashtra's First OSAT/ATMP Semiconductor Manufacturing Facility](https://www.business-standard.com/content/press-releases-ani/rrp-electronics-ltd-launched-maharashtra-s-first-osatatmp-semiconductor-manufacturing-facility-124091900541_1.html) (19 Sep 2024)
+- [Govt allots 100 acres to RRP Electronics' semiconductor fab](https://www.manufacturingtodayindia.com/rrp-electronics-semiconductor-fab) (15 Sep 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

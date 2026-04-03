@@ -1,0 +1,70 @@
+---
+title: "Tata Electronics Semiconductor Fab"
+subtitle: "Tata Electronics (TEPL) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India's first commercial semiconductor fabrication plant. The most ambitious and complex project in the ISM portfolio.
+:::
+
+## What does this facility make?
+
+Will fabricate silicon wafers at 28nm-55nm process nodes — the chips inside cars, IoT devices, industrial equipment, and telecom infrastructure. These are mature-node chips that India currently imports in massive quantities.
+
+## Why does it matter?
+
+This is the project that will determine whether India can actually make chips, not just package them. A fab is orders of magnitude more complex than an assembly plant. Tata's partnership with Taiwan's PSMC brings process technology know-how, but building and operating a fab requires mastering thousands of manufacturing steps. If Dholera succeeds, it fundamentally changes India's position in the global semiconductor supply chain.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Tata Electronics (TEPL) |
+| **Partners** | Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan |
+| **Type** | Fab |
+| **Capability** | 28nm-55nm Logic (50,000 Wafers/Month) |
+| **Status** | Under Construction |
+| **Investment** | ₹91,000 crore |
+| **Location** | Dholera, Gujarat |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.3/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-major-delay">Delay (TBD)</span>
+
+Original target: Dec 2026 ([source](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209))
+:::
+:::
+
+## Project Timeline
+
+- **29 Feb 2024** — Union Cabinet approves Tata-PSMC fab under the Modified Semiconductor Fab Scheme
+- **13 Mar 2024** — PM Modi lays foundation stone at Dholera Special Investment Region
+- **13 Mar 2024** — Construction begins — site preparation and civil works
+
+## Sources
+
+- [PIB: PM lays foundation stone for semiconductor facilities](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (13 Mar 2024)
+- [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

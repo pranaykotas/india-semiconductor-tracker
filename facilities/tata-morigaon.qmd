@@ -1,0 +1,70 @@
+---
+title: "Tata Semiconductor Assembly and Test (TSAT)"
+subtitle: "Tata Semiconductor Assembly and Test Pvt Ltd | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India's first semiconductor facility in the Northeast. Demonstrates that chip manufacturing isn't limited to Gujarat.
+:::
+
+## What does this facility make?
+
+Assembles and tests semiconductor chips at high volume — 48 million chips per day at full capacity. Handles multiple packaging formats for diverse end markets.
+
+## Why does it matter?
+
+Locating a major semiconductor facility in Assam is a deliberate industrial policy choice. It brings high-tech jobs and supply chain development to the Northeast, a region that has historically been bypassed by India's manufacturing boom. The Rs.27,000 crore investment is also the largest single private-sector industrial investment in the Northeast.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Tata Semiconductor Assembly and Test Pvt Ltd |
+| **Partners** | None |
+| **Type** | Assembly & Packaging |
+| **Capability** | Advanced Packaging (48M chips/day) |
+| **Status** | Under Construction |
+| **Investment** | ₹27,000 crore |
+| **Location** | Jagiroad, Morigaon, Assam |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1.3/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1.3/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **29 Feb 2024** — Union Cabinet approves TSAT under ISM
+- **01 Jul 2024** — Construction begins at Jagiroad, Morigaon
+- **30 Apr 2026** — Phase 1 commissioning expected
+
+## Sources
+
+- [PIB: Cabinet approves semiconductor units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (01 Mar 2024)
+- [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

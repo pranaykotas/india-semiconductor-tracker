@@ -1,0 +1,67 @@
+---
+title: "CDIL Semiconductor Facility"
+subtitle: "Continental Device India Ltd | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+One of India's oldest semiconductor companies (founded 1964) expanding under ISM. A survivor of India's earlier, failed semiconductor attempts.
+:::
+
+## What does this facility make?
+
+Discrete semiconductor devices — diodes, transistors, and rectifiers used in power supplies, automotive electronics, and consumer products. These are simpler than integrated circuits but are produced in enormous volumes.
+
+## Why does it matter?
+
+CDIL has been making semiconductors in India since 1964, long before the current ISM wave. Its survival and expansion under ISM demonstrates continuity in India's semiconductor journey — this isn't starting from zero.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Continental Device India Ltd |
+| **Partners** | None |
+| **Type** | Assembly & Packaging |
+| **Capability** | Discrete Semiconductors (158M units/year) |
+| **Status** | Approved |
+| **Investment** | ₹117 crore |
+| **Location** | Mohali, Punjab |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **01 Aug 2025** — Approved by Union Cabinet under ISM
+
+## Sources
+
+- [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

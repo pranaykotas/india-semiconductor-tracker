@@ -1,0 +1,165 @@
+---
+title: "Technology Nodes"
+subtitle: "Where India's semiconductor facilities fit in the global landscape"
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+## The Global Node Landscape
+
+Semiconductor "nodes" refer to the manufacturing process technology. Smaller numbers generally mean more advanced chips, though the relationship between node names and actual transistor dimensions has become less direct over time.
+
+```{r node-chart, echo=FALSE, fig.width=10, fig.height=7, dev="ragg_png"}
+# Hand-crafted data for the node landscape visualization
+nodes <- tibble(
+  node = c("3nm", "5nm", "7nm", "10nm", "14nm", "22nm", "28nm", "40nm", "55nm", "65nm", "90nm", "130nm", "180nm+"),
+  node_nm = c(3, 5, 7, 10, 14, 22, 28, 40, 55, 65, 90, 130, 180),
+  era = c("Cutting Edge", "Cutting Edge", "Advanced", "Advanced", "Advanced",
+          "Mature", "Mature", "Mature", "Mature", "Legacy", "Legacy", "Legacy", "Legacy"),
+  applications = c(
+    "Latest smartphones, AI accelerators",
+    "Flagship mobile SoCs, HPC",
+    "High-performance computing, GPUs",
+    "Mid-range mobile, networking",
+    "Server CPUs, mid-range SoCs",
+    "Embedded, connectivity",
+    "Automotive MCUs, IoT, RF",
+    "Display drivers, sensors",
+    "Power management, analog",
+    "Automotive, industrial",
+    "Legacy industrial, mil-spec",
+    "Analog, power, sensors",
+    "Discrete, power devices"
+  ),
+  key_fabs = c(
+    "TSMC, Samsung",
+    "TSMC, Samsung",
+    "TSMC, Samsung, Intel",
+    "TSMC, Samsung, Intel",
+    "TSMC, Samsung, Intel, GF",
+    "Intel, GF, TSMC",
+    "TSMC, Samsung, GF, SMIC, UMC",
+    "TSMC, UMC, SMIC",
+    "PSMC, UMC, various",
+    "Various (widely available)",
+    "Various",
+    "Various",
+    "Various"
+  ),
+  # Whether India targets this node
+  india_target = c(FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE)
+)
+
+# Assign colors
+era_colors <- c(
+  "Cutting Edge" = "#C62828",
+  "Advanced"     = "#E65100",
+  "Mature"       = "#1565C0",
+  "Legacy"       = "#757575"
+)
+
+# Reverse for bottom-to-top ordering (most advanced at top)
+nodes <- nodes %>%
+  mutate(node = factor(node, levels = rev(node)))
+
+ggplot(nodes, aes(x = node, y = 1, fill = era)) +
+  geom_tile(width = 0.85, height = 0.8, color = "white", linewidth = 1) +
+  # Highlight India's target range
+  geom_tile(
+    data = filter(nodes, india_target),
+    aes(x = node, y = 1),
+    width = 0.85, height = 0.8,
+    fill = NA, color = "#B85C00", linewidth = 2
+  ) +
+  # Node labels
+  geom_text(aes(label = node), fontface = "bold", size = 4, color = "white") +
+  # Application labels on the right
+  geom_text(
+    aes(y = 1.55, label = applications),
+    hjust = 0, size = 3.2, color = "#333"
+  ) +
+  coord_flip(clip = "off") +
+  scale_fill_manual(values = era_colors, name = "Era") +
+  scale_y_continuous(limits = c(0.5, 3.5)) +
+  labs(
+    x = NULL, y = NULL,
+    title = "Semiconductor Process Nodes",
+    subtitle = "Orange borders indicate India's target range (Tata-PSMC fab: 28nm-55nm)"
+  ) +
+  theme_void(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, color = "#0D1F3C"),
+    plot.subtitle = element_text(size = 11, color = "#666", margin = margin(b = 15)),
+    legend.position = "bottom",
+    plot.margin = margin(20, 150, 20, 10)
+  )
+```
+
+## Why 28nm--65nm Matters for India
+
+::: {.node-highlight}
+India's first fab (Tata-PSMC) targets the **28nm--55nm** range.
+:::
+
+### The "sweet spot" argument
+
+**28nm** is the most widely used process node in the world by volume. It is the workhorse of:
+
+- **Automotive microcontrollers** — every modern car uses dozens of chips at 28nm–65nm
+- **IoT and edge devices** — sensors, connectivity modules, smart meters
+- **Industrial control** — factory automation, power grid management
+- **Defence and aerospace** — where reliability and long product lifecycles matter more than performance
+- **5G infrastructure** — RF front-end modules and base station components
+
+These are the chips that India imports in massive quantities today. Building domestic capacity at these nodes directly addresses import dependence.
+
+### Cutting edge vs. mature: a false dichotomy
+
+| Metric | Cutting Edge (3–7nm) | India's Target (28–65nm) |
+|--------|---------------------|-------------------------|
+| Capex per fab | $20–30 billion | $5–11 billion |
+| Equipment availability | Constrained (ASML EUV) | Widely available (DUV) |
+| End markets | Smartphones, AI, HPC | Auto, IoT, industrial, defence |
+| Design ecosystem needed | Very large | Moderate |
+
+### Strategic implications
+
+1. **No EUV dependency**: India's target nodes use DUV (deep ultraviolet) lithography, which is not subject to the same export control restrictions as EUV equipment from ASML.
+
+2. **Broader customer base**: Automotive and industrial chips have longer product cycles (10–20 years vs 2–3 years for mobile), providing revenue stability.
+
+3. **Stepping stone**: Mastering 28nm operations builds the workforce, supply chain, and institutional knowledge needed to move to more advanced nodes over time.
+
+4. **Geopolitical resilience**: As global supply chains reconfigure around US-China tensions, countries with mature-node capacity become more strategically valuable.
+
+### Risks: The 28nm overcapacity question
+
+::: {.callout-warning}
+## The risk India must watch
+28nm is a good starting point, but it is not risk-free. Around 91 fabs are under construction worldwide as of 2025, and a significant share target the mature 28nm–65nm range — precisely where India is betting.
+:::
+
+The biggest concern is **China**. SMIC and other Chinese foundries have massively expanded mature-node capacity, partly in response to US export controls that locked them out of cutting-edge nodes. This flood of Chinese 28nm supply could create a **"China Shock" in semiconductors** — depressing global prices for mature-node chips and making it harder for new entrants like India to compete on cost.
+
+**The scale of the challenge:**
+
+- China added more mature-node capacity in 2023-2025 than the rest of the world combined
+- SMIC's 28nm capacity alone is estimated to exceed 100,000 wafers/month
+- Global mature-node utilisation rates have already dipped below 80% in some quarters
+- India's Tata-PSMC fab (50,000 wafers/month) will enter a market that may already be oversupplied
+
+**Why 28nm is still the right starting point:**
+
+1. **Geopolitical de-risking creates demand**: Many buyers (especially in automotive, defence, and critical infrastructure) actively want non-China supply sources, even at a premium. The "China+1" procurement strategy creates a protected market segment.
+
+2. **India's domestic market is large**: India itself is one of the world's largest importers of semiconductors. A significant portion of Tata-PSMC's output can serve domestic demand, reducing exposure to global price wars.
+
+3. **Quality and reliability differentiation**: Automotive and defence chips require stringent quality certifications (AEC-Q100, MIL-STD). Meeting these standards creates a barrier that low-cost capacity alone cannot overcome.
+
+4. **Learning curve matters more than margins**: Even if initial years are unprofitable, the workforce training, supply chain development, and institutional knowledge gained from operating a fab are irreplaceable.
+
+**The bottom line**: Policymakers should monitor global 28nm capacity additions closely. India's semiconductor strategy should not assume that "build it and they will come" — it needs active demand creation, procurement preferences for domestic chips, and realistic timelines for when these fabs will become self-sustaining.

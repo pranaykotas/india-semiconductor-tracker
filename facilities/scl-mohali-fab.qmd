@@ -1,0 +1,67 @@
+---
+title: "Semi-Conductor Laboratory (SCL)"
+subtitle: "Government of India (MeitY) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India's only existing semiconductor fab — a government facility dating to the 1980s. Produces chips for strategic (defence/space) applications.
+:::
+
+## What does this facility make?
+
+Fabricates chips at 180nm process node for strategic applications — ISRO satellites, defence systems, and other government programmes. Not a commercial production facility.
+
+## Why does it matter?
+
+SCL is a reminder that India has had semiconductor fabrication capability for decades, albeit at legacy nodes and small volumes. Its long-planned modernisation has been repeatedly budgeted but never executed — a cautionary tale about the gap between policy intent and implementation.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Government of India (MeitY) |
+| **Partners** | None |
+| **Type** | Fab |
+| **Capability** | 180nm CMOS (Strategic) |
+| **Status** | Operational |
+| **Investment** | Strategic / Government funded |
+| **Location** | Mohali, Punjab |
+| **Category** | Research & Strategic |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **01 Jan 1983** — SCL established as a government semiconductor fab
+
+## Sources
+
+- [Semi-Conductor Laboratory official website](https://www.scl.gov.in/) (01 Jan 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

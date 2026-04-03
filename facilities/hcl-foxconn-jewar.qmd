@@ -1,0 +1,68 @@
+---
+title: "HCL-Foxconn JV OSAT"
+subtitle: "HCL-Foxconn JV | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+A joint venture between HCL Group and Foxconn (Taiwan) — India's largest contract manufacturer entering semiconductors.
+:::
+
+## What does this facility make?
+
+Semiconductor assembly and test operations. The facility will handle chip packaging for multiple end markets.
+
+## Why does it matter?
+
+Foxconn is the world's largest electronics manufacturer (it assembles iPhones) and its entry into India's semiconductor ecosystem signals serious industrial intent. Located near the upcoming Noida International Airport at Jewar, this facility is positioned to serve as an export hub.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | HCL-Foxconn JV |
+| **Partners** | None |
+| **Type** | Assembly & Packaging |
+| **Capability** | OSAT (36M units/year) |
+| **Status** | Under Construction |
+| **Investment** | ₹3,700 crore |
+| **Location** | Jewar, Uttar Pradesh |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **01 May 2025** — Approved under ISM
+- **01 Jun 2025** — Construction begins at Jewar, near Noida International Airport
+
+## Sources
+
+- [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

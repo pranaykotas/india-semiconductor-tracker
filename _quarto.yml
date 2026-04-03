@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
+
+website:
+  title: "India Semiconductor Manufacturing Tracker"
+  description: "Tracking semiconductor manufacturing facilities across India"
+
+  navbar:
+    background: "#0D1F3C"
+    foreground: "#ffffff"
+    left:
+      - text: "Map & Overview"
+        href: index.qmd
+      - text: "Timeline"
+        href: timeline.qmd
+      - text: "Technology Nodes"
+        href: nodes.qmd
+      - text: "Policy & Budget"
+        href: budget.qmd
+      - text: "About"
+        href: about.qmd
+
+  page-footer:
+    left: |
+      &copy; 2026 Pranay Kotasthane · [Takshashila Institution](https://takshashila.org.in)
+    center: |
+      Made with [Quarto](https://quarto.org) and R
+    right: |
+      [Submit an update](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose)
+
+  search: true
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    toc: true
+    toc-depth: 2
+    mainfont: "DM Sans"
+    monofont: "JetBrains Mono"

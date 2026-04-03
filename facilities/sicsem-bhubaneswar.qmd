@@ -1,0 +1,68 @@
+---
+title: "SicSem Silicon Carbide Fab"
+subtitle: "SicSem Private Limited | Compound Semiconductor"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India's first commercial Silicon Carbide fab. A critical technology for defence, EVs, and power infrastructure.
+:::
+
+## What does this facility make?
+
+Fabricates Silicon Carbide (SiC) semiconductor devices — power chips that can handle extreme heat (2,400°C) and high voltages. Used in electric vehicle inverters, missile systems, radar, space electronics, and power grid equipment.
+
+## Why does it matter?
+
+SiC is a compound semiconductor — fundamentally different from the silicon chips made at Tata-PSMC. It is a niche but strategically vital technology. India currently imports all SiC devices. Having a domestic fab reduces vulnerability in defence supply chains and positions India in the fast-growing EV power electronics market.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | SicSem Private Limited |
+| **Partners** | None |
+| **Type** | Compound Semiconductor |
+| **Capability** | SiC Power Devices (60k wafers/year) |
+| **Status** | Approved |
+| **Investment** | ₹2,066 crore |
+| **Location** | Bhubaneswar, Odisha |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.4/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **01 Aug 2025** — Approved by Union Cabinet under ISM
+
+## Sources
+
+- [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
+- [PIB: Cabinet approves new semiconductor projects](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128604) (01 Aug 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

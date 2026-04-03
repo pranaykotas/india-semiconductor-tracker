@@ -1,0 +1,67 @@
+---
+title: "MNNFC (IISc)"
+subtitle: "Indian Institute of Science | Research Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India's premier academic micro/nano fabrication facility. Trains the next generation of semiconductor researchers.
+:::
+
+## What does this facility make?
+
+Research-grade micro and nano devices for academic research — not commercial production. Used for prototyping MEMS sensors, photonic devices, and novel semiconductor structures.
+
+## Why does it matter?
+
+A semiconductor industry needs a pipeline of researchers and engineers who understand fabrication at a fundamental level. MNNFC at IISc is where much of this human capital is developed.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Indian Institute of Science |
+| **Partners** | None |
+| **Type** | Research Fab |
+| **Capability** | Academic Micro-fabrication |
+| **Status** | Operational |
+| **Investment** | Strategic / Government funded |
+| **Location** | Bengaluru, Karnataka |
+| **Category** | Research & Strategic |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1.7/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1.7/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+*No milestones recorded yet.*
+
+## Sources
+
+- [IISc Centre for Nano Science and Engineering](https://www.iisc.ac.in/research-centres/centre-for-nano-science-and-engineering-cense/) (01 Jan 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

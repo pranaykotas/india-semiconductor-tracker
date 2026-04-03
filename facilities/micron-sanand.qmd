@@ -1,0 +1,73 @@
+---
+title: "Micron ATMP Facility"
+subtitle: "Micron Technology | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India's first operational semiconductor facility. Proved that a global chipmaker would bet on India.
+:::
+
+## What does this facility make?
+
+Packages DRAM and NAND flash memory chips — the memory inside your phone, laptop, and data centre servers. Raw silicon wafers arrive from Micron's fabs abroad and are assembled, tested, and packaged here.
+
+## Why does it matter?
+
+Memory packaging is the least complex part of chipmaking, but Micron choosing India over other Asian countries was a watershed moment. It signalled to the global industry that India is a credible semiconductor destination. The facility also anchors a cluster of semiconductor units in Sanand, Gujarat.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Micron Technology |
+| **Partners** | None |
+| **Type** | Assembly & Packaging |
+| **Capability** | Advanced Memory Packaging (DRAM & NAND) |
+| **Status** | Operational |
+| **Investment** | ₹22,516 crore |
+| **Location** | Sanand, Gujarat |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1.3/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1.3/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-major-delay">7.9m delay</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **22 Jun 2023** — Announced during PM Modi's US state visit; Micron CEO Sanjay Mehrotra commits Rs.22,516 crore
+- **22 Jun 2023** — Approved by the Union Cabinet under ISM
+- **01 Sep 2024** — Construction begins at Sanand GIDC
+- **23 Sep 2025** — Facility inaugurated — India's first semiconductor assembly and test unit goes live
+- **26 Feb 2026** — Volume production begins — chips rolling off the line at commercial scale
+
+## Sources
+
+- [PIB: Micron begins volume production at India facility](https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2233998&reg=3&lang=1) (26 Feb 2026)
+- [Micron Celebrates Opening of India's First Semiconductor Assembly and Test Facility](https://investors.micron.com/news-releases/news-release-details/micron-celebrates-opening-indias-first-semiconductor-assembly) (23 Sep 2025)
+- [PIB: Micron to invest in semiconductor ATMP facility in India](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1932960) (22 Jun 2023)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

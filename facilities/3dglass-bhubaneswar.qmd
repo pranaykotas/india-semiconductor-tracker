@@ -1,0 +1,68 @@
+---
+title: "3D Glass Solutions Packaging"
+subtitle: "3D Glass Solutions Inc. | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Brings next-generation glass packaging technology to India — a frontier area even globally.
+:::
+
+## What does this facility make?
+
+Produces advanced packaging using 3D glass substrates instead of traditional silicon or organic materials. Glass offers better signal integrity, thermal performance, and miniaturisation for high-frequency applications (5G, RF, sensors).
+
+## Why does it matter?
+
+Glass-based packaging is a next-generation technology that even leading semiconductor companies are still developing. By hosting this facility, India gets an early foothold in a packaging technology that could become industry-standard in the coming decade.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | 3D Glass Solutions Inc. |
+| **Partners** | None |
+| **Type** | Assembly & Packaging |
+| **Capability** | Next-gen Glass Substrates (50M units/year) |
+| **Status** | Approved |
+| **Investment** | ₹1,943 crore |
+| **Location** | Bhubaneswar, Odisha |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1.7/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1.7/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **01 Aug 2025** — Approved by Union Cabinet under ISM
+
+## Sources
+
+- [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
+- [PIB: Cabinet approves new semiconductor projects](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128604) (01 Aug 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

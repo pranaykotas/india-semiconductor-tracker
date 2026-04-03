@@ -1,0 +1,70 @@
+---
+title: "CG Semi OSAT Facility"
+subtitle: "CG Power & Industrial Solutions | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Launched India's first end-to-end OSAT pilot line. Partnership with Japan's Renesas brings automotive-grade chip packaging to India.
+:::
+
+## What does this facility make?
+
+Assembles, tests, and packages semiconductor chips for consumer electronics and industrial applications. Partners with Renesas (Japan) for automotive chips and Stars Microelectronics (Thailand) for packaging technology.
+
+## Why does it matter?
+
+CG Semi's pilot line at Sanand was a proof-of-concept moment — it showed that Indian companies can run semiconductor back-end operations at commercial quality. The Renesas partnership is particularly significant because automotive chips have stringent quality requirements. India producing automotive-grade packages is a stepping stone to becoming a serious player in the global auto supply chain.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | CG Power & Industrial Solutions |
+| **Partners** | Renesas Electronics, Stars Microelectronics |
+| **Type** | Assembly & Packaging |
+| **Capability** | Consumer & Industrial OSAT (15M chips/day) |
+| **Status** | Under Construction |
+| **Investment** | ₹7,600 crore |
+| **Location** | Sanand, Gujarat |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **29 Feb 2024** — Union Cabinet approves CG Semi OSAT under ISM
+- **01 Jun 2024** — Construction begins at Sanand
+- **28 Aug 2025** — India's first OSAT pilot line inaugurated — G1 facility goes live
+
+## Sources
+
+- [PIB: Cabinet approves semiconductor units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (01 Mar 2024)
+- [PIB: Inauguration of India's first OSAT Pilot Line at CG Semi, Sanand](https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2147821) (28 Aug 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

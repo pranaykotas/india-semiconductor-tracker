@@ -1,0 +1,243 @@
+---
+title: "India Semiconductor Tracker: Commercial & Research Facilities"
+subtitle: "Tracking commercial volume production units and strategic research fabs"
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(leaflet)
+library(DT)
+library(ggplot2)
+library(scales)
+library(sf)
+library(rnaturalearth)
+
+facilities <- load_facilities("data/facilities.yml")
+```
+
+## The Story So Far
+
+India imports nearly all its semiconductor chips — a vulnerability exposed by the global chip shortage of 2020-21. In response, the government launched the **India Semiconductor Mission (ISM)** with an initial outlay of ₹76,000 crore to build domestic manufacturing capacity.
+
+As of `r format(Sys.Date(), "%B %Y")`, **`r sum(facilities$status == "Operational" & facilities$category == "Commercial (ISM Approved)")` of `r sum(facilities$category == "Commercial (ISM Approved)")` approved commercial facilities are now operational**. India's first fab — the Tata-PSMC plant at Dholera — is under construction. Total approved investment across all ISM projects stands at **₹`r format(sum(facilities$investment_inr[facilities$category == "Commercial (ISM Approved)"]), big.mark = ",")` crore** across **`r length(unique(facilities$state[facilities$category == "Commercial (ISM Approved)"]))`** states.
+
+But the hard part is just beginning. Assembly and packaging projects are moving fast, but [the budget data shows](budget.qmd) a significant gap between allocated funds and actual disbursement — especially for fabrication. India's fab ambitions target [mature 28nm-55nm nodes](nodes.qmd), a deliberate strategic choice that avoids the cutting edge but addresses the chips India actually needs.
+
+This tracker monitors every facility in real time. Explore the map below, or dive into the [timeline](timeline.qmd), [technology context](nodes.qmd), or [budget analysis](budget.qmd).
+
+---
+
+## Recent Developments
+
+```{r recent-developments, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+# Pull the most recent milestones across all facilities from YAML
+raw_facs <- yaml::read_yaml("data/facilities.yml")$facilities
+all_milestones <- do.call(rbind, lapply(raw_facs, function(f) {
+  if (is.null(f$milestones)) return(NULL)
+  do.call(rbind, lapply(f$milestones, function(m) {
+    data.frame(
+      facility = f$name,
+      id = f$id,
+      date = as.Date(m$date),
+      event = m$event,
+      stringsAsFactors = FALSE
+    )
+  }))
+}))
+
+# Show the 5 most recent milestones
+recent <- all_milestones[order(all_milestones$date, decreasing = TRUE), ]
+recent <- head(recent, 5)
+
+for (i in seq_len(nrow(recent))) {
+  r <- recent[i, ]
+  date_label <- format(r$date, "%b %Y")
+  cat(sprintf("- **%s** — %s ([%s](facilities/%s.html))\n",
+              date_label, r$event, r$facility, r$id))
+}
+```
+
+---
+
+## Facility Map
+
+Commercial facilities approved under the **India Semiconductor Mission (ISM)** are coloured by type. Strategic and academic research fabs are marked in [**Slate Grey**]{style="color:#455A64"}. Non-ISM OSAT projects are in [**Teal**]{style="color:#00796B"}.
+
+```{r map, echo=FALSE, warning=FALSE, message=FALSE}
+# Build colour vector, popups, and labels
+colors <- mapply(type_color, facilities$type, facilities$category, USE.NAMES = FALSE)
+popups <- vapply(1:nrow(facilities), function(i) make_popup(facilities[i, ]), character(1))
+labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(facilities[i, ])))
+
+# Get official India boundary overlay (DataMeet composite GeoJSON)
+india <- st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
+
+# Use CartoDB.Positron for a reliable base map and overlay DataMeet boundaries
+leaflet(facilities, options = leafletOptions(minZoom = 4, maxZoom = 10)) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  fitBounds(lng1 = 68, lat1 = 7, lng2 = 97, lat2 = 36) %>%
+  addPolygons(
+    data = india,
+    color = "#0D1F3C",
+    weight = 2,
+    fillColor = "#E8EAF0",
+    fillOpacity = 0.1,
+    group = "Official Boundary"
+  ) %>%
+  addCircleMarkers(
+    lng = ~lon, lat = ~lat,
+    radius = 10,
+    color = colors,
+    fillColor = colors,
+    fillOpacity = 0.8,
+    stroke = TRUE,
+    weight = 1.5,
+    popup = popups,
+    label = labels,
+    labelOptions = labelOptions(
+      style = list("font-size" = "12px", "padding" = "6px 10px"),
+      direction = "auto"
+    ),
+    clusterOptions = markerClusterOptions(
+      maxClusterRadius = 30,
+      spiderfyOnMaxZoom = TRUE,
+      showCoverageOnHover = FALSE,
+      zoomToBoundsOnClick = TRUE
+    )
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    colors = c("#C62828", "#1565C0", "#6A1B9A", "#00796B", "#455A64"),
+    labels = c("Commercial Fab", "Assembly & Packaging", "Compound Semiconductor", "OSAT (Non-ISM)", "Research & Strategic"),
+    title = "Facility Category"
+  )
+```
+
+## Summary: Commercial Units (ISM Approved)
+
+::: {.grid}
+::: {.g-col-3}
+::: {.summary-card}
+[`r sum(facilities$category == "Commercial (ISM Approved)")`]{.card-value}
+[Commercial units]{.card-label}
+:::
+:::
+
+::: {.g-col-3}
+::: {.summary-card}
+[`r paste0("\u20b9", format(sum(facilities$investment_inr), big.mark = ","))`]{.card-value}
+[Planned investment (crore)]{.card-label}
+:::
+:::
+
+::: {.g-col-3}
+::: {.summary-card}
+[`r sum(facilities$category == "Research & Strategic")`]{.card-value}
+[Research/Strategic fabs]{.card-label}
+:::
+:::
+
+::: {.g-col-3}
+::: {.summary-card}
+[`r sum(facilities$status == "Operational" & facilities$category == "Commercial (ISM Approved)")`]{.card-value}
+[Operational (Commercial)]{.card-label}
+:::
+:::
+:::
+
+## Planned Investment by Facility Type (Commercial)
+
+```{r chart-type, echo=FALSE, warning=FALSE, message=FALSE, fig.width=8, fig.height=4, dev="ragg_png"}
+type_data <- facilities %>%
+  filter(category == "Commercial (ISM Approved)") %>%
+  group_by(type) %>%
+  summarise(
+    total_inr = sum(investment_inr),
+    n = n(),
+    .groups = "drop"
+  )
+
+type_colors <- c(
+  "Fab"                    = "#C62828",
+  "Assembly & Packaging"   = "#1565C0",
+  "Compound Semiconductor" = "#6A1B9A"
+)
+
+ggplot(type_data, aes(x = reorder(type, total_inr), y = total_inr, fill = type)) +
+  geom_col(width = 0.6) +
+  geom_text(
+    aes(label = paste0(n, " unit", ifelse(n == 1, "", "s"), "\n\u20b9", format(total_inr, big.mark = ","), " cr")),
+    hjust = -0.1, size = 3.5, color = "#333"
+  ) +
+  coord_flip() +
+  scale_fill_manual(values = type_colors, guide = "none") +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.45))) +
+  labs(x = NULL, y = "Total Planned Investment (INR crore)") +
+  theme_minimal() +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text = element_text(size = 11)
+  )
+```
+
+## All Facilities
+
+```{r table, echo=FALSE, warning=FALSE, message=FALSE}
+table_data <- facilities %>%
+  mutate(
+    Name = paste0('<a href="facilities/', id, '.html">', name, '</a>'),
+    Status = mapply(status_badge_html, status, status_detail),
+    Complexity = sapply(complexity_score, complexity_bar_html),
+    Slippage = sapply(slippage_months, slippage_badge_html),
+    Investment = ifelse(investment_inr > 0, paste0("\u20b9", format(investment_inr, big.mark = ","), " cr"), "Strategic"),
+    Location = paste0(city, ", ", state)
+  ) %>%
+  select(
+    Name,
+    Type = type,
+    Capability = capability,
+    Complexity,
+    Investment,
+    Status,
+    Slippage,
+    Location
+  )
+
+datatable(
+  table_data,
+  escape = FALSE,
+  filter = "top",
+  options = list(
+    pageLength = 15,
+    dom = "ftip",
+    columnDefs = list(
+      list(className = "dt-center", targets = c(3, 5, 6))
+    )
+  ),
+  rownames = FALSE,
+  class = "display compact"
+)
+```
+
+::: {.callout-note}
+## Understanding the Metrics
+- **Technical Complexity:** A weighted score combining **Technical Difficulty (70%)** and **Capital Intensity (30%)**. Benchmarked against a 3nm fab (5/5).
+- **Slippage:** The delay in months calculated from the *original* announced/expected completion date compared to the current actual or expected date.
+:::
+
+::: {.callout-note}
+## Complexity Index
+Scores are benchmarked against a **cutting-edge 3nm fab** (e.g. TSMC Arizona) which would score **5/5** on all three dimensions — technology difficulty, foreign dependence, and capital intensity. India's current projects are substantially less complex than that frontier. A 28nm fab scores ~2.7/5; standard assembly and packaging facilities score ~1/5. See the [About page](about.qmd) for full methodology.
+:::
+
+::: {.callout-note}
+## Data Source
+Data from the [SEMICON India 2025 government factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (September 2025) and PIB press releases.
+:::
+
+::: {.callout-tip}
+## Have an update?
+Know about a status change, a new announcement, or a correction? **[Submit an update via our form](https://forms.gle/FDESu4jRksmr7FTk7)** — it takes 2 minutes, no account required. Or **[open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose)** for detailed contributions.
+:::

@@ -1,0 +1,67 @@
+---
+title: "GAETEC"
+subtitle: "Gallium Arsenide Enabling Tech Centre | Compound Semiconductor"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India's strategic Gallium Arsenide fab — produces radar and electronic warfare chips for defence.
+:::
+
+## What does this facility make?
+
+Gallium Arsenide (GaAs) Monolithic Microwave Integrated Circuits (MMICs) — specialised chips used in military radar, electronic warfare systems, and satellite communications.
+
+## Why does it matter?
+
+GAETEC is a DRDO facility that gives India sovereign capability in GaAs MMICs — chips that cannot be easily procured from abroad due to export controls. It is small-scale and defence-focused, but strategically essential.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Gallium Arsenide Enabling Tech Centre |
+| **Partners** | None |
+| **Type** | Compound Semiconductor |
+| **Capability** | GaAs MMICs (Strategic) |
+| **Status** | Operational |
+| **Investment** | Strategic / Government funded |
+| **Location** | Hyderabad, Telangana |
+| **Category** | Research & Strategic |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.4/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+*No milestones recorded yet.*
+
+## Sources
+
+- [DRDO: GAETEC](https://www.drdo.gov.in/labs-and-establishments/gallium-arsenide-enabling-technology-centre-gaetec) (01 Jan 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

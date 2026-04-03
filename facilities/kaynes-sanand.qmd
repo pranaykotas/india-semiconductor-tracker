@@ -1,0 +1,69 @@
+---
+title: "Kaynes Semicon OSAT Facility"
+subtitle: "Kaynes Semicon Pvt Ltd | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+An Indian EMS company that successfully pivoted into semiconductor OSAT — proof that domestic firms can compete in chipmaking.
+:::
+
+## What does this facility make?
+
+Assembles and tests semiconductor chips for various applications. Kaynes started as an electronics manufacturing services (EMS) company and expanded upstream into chip packaging.
+
+## Why does it matter?
+
+Most ISM projects involve foreign technology partners. Kaynes is notable as a homegrown Indian company that built OSAT capability — showing that the Indian private sector can move up the semiconductor value chain, not just multinational corporations.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Kaynes Semicon Pvt Ltd |
+| **Partners** | None |
+| **Type** | Assembly & Packaging |
+| **Capability** | OSAT (6.33M chips/day) |
+| **Status** | Operational |
+| **Investment** | ₹3,307 crore |
+| **Location** | Sanand, Gujarat |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-major-delay">6.9m delay</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **01 Sep 2024** — Approved under ISM
+- **01 Dec 2024** — Construction begins at Sanand
+- **31 Mar 2026** — PM Modi inaugurates Kaynes semiconductor plant — facility goes operational
+
+## Sources
+
+- [PM Modi inaugurates Kaynes Semiconductor plant in Gujarat](https://ddnews.gov.in/en/pm-modi-inaugurates-kaynes-semiconductor-plant-in-gujarat-flags-push-for-chip-ecosystem/) (31 Mar 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

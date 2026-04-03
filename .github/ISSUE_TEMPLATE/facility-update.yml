@@ -1,0 +1,58 @@
+name: "Facility Update"
+description: "Submit a status update, correction, or new facility"
+title: "[Update]: "
+labels: ["data-update"]
+body:
+  - type: dropdown
+    id: facility
+    attributes:
+      label: Facility
+      description: Which facility does this update relate to?
+      options:
+        - "Tata Electronics Semiconductor Fab (Dholera)"
+        - "Micron ATMP Facility (Sanand)"
+        - "CG Power OSAT Facility (Sanand)"
+        - "Tata Electronics OSAT Facility (Morigaon)"
+        - "Kaynes Semicon OSAT Facility (Hyderabad)"
+        - "New facility (not yet tracked)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: update-type
+    attributes:
+      label: Update type
+      options:
+        - "Status change (e.g., construction started, operational)"
+        - "Correction to existing data"
+        - "New data point (investment, timeline, etc.)"
+        - "New facility to add"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the update. For new facilities, include as much as you know (company, location, type, investment, status, timeline).
+      placeholder: "e.g., Micron's Sanand facility has commenced trial production as of March 2026..."
+    validations:
+      required: true
+
+  - type: input
+    id: source-url
+    attributes:
+      label: Source URL
+      description: Link to a news article, press release, or official document.
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: source-date
+    attributes:
+      label: Date of source
+      description: When was this source published?
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: false

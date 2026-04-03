@@ -1,0 +1,93 @@
+---
+title: "About This Tracker"
+---
+
+## What This Is
+
+The India Semiconductor Manufacturing Tracker is a curated, open-source resource that monitors all announced semiconductor manufacturing facilities in India — fabrication plants (fabs), assembly, testing, marking, and packaging (ATMP) units, and outsourced semiconductor assembly and test (OSAT) facilities.
+
+It is maintained by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila Institution](https://takshashila.org.in), a public policy research and education centre based in Bengaluru, India. 
+
+The tracker has been made using Claude Code and Gemini CLI. Pranay has verified the numbers. If you find any mistakes, please write to us.
+
+## Why This Exists
+
+India's semiconductor manufacturing ambitions are moving fast. The India Semiconductor Mission (ISM) has approved multiple projects, construction is underway at several sites, and new announcements continue. But tracking the current status of each project requires sifting through press releases, news reports, and government updates scattered across dozens of sources.
+
+This tracker brings it all into one place. For more analysis, check Takshashila's [Siliconpolitik Project](https://takshashila.org.in/pages/research-areas/focus-areas/siliconpolitik.html)
+
+## Technical Complexity Index
+
+Each facility is scored on a **Technical Complexity** scale from 1 (low) to 5 (high), benchmarked against a cutting-edge 3nm fab (e.g. TSMC Arizona) which would score 5/5.
+
+The composite score is a weighted measure of two dimensions:
+
+| Dimension | Weight | What It Measures |
+|-----------|--------|-----------------|
+| **Technology difficulty** | 70% | How advanced the manufacturing process is. A 28nm fab scores higher than a standard assembly facility. A 3nm fab would score 5/5. |
+| **Capital intensity** | 30% | The scale of investment and workforce requirements. |
+
+**Formula:** Technical Complexity = (Technology Difficulty x 0.7) + (Capital Intensity x 0.3)
+
+We also track **foreign technology dependence** (reliance on imported equipment, IP, or foreign partners) as a separate dimension in the data, though it is not included in the composite score.
+
+::: {.callout-note}
+Complexity scores are subjective assessments by the tracker's maintainer, not official ratings. They are intended as a rough guide for comparison. India's current projects score between 1 and 2.7 — substantially below the global frontier.
+:::
+
+## Timeliness & Slippage
+
+Each facility is assessed for **slippage** — the delay in months between the originally announced completion target and the current actual or expected completion date.
+
+**Formula:**
+
+- **Operational facilities:** Slippage = (Actual completion date − Original expected completion date) ÷ 30.44
+- **Under-construction facilities past target:** Slippage = (Today − Original expected completion date) ÷ 30.44
+- **All other cases:** Slippage = 0 (on track or insufficient data)
+
+Slippage is rounded to one decimal place and capped at zero (negative values are treated as on-track).
+
+**Thresholds:**
+
+| Badge | Condition |
+|-------|-----------|
+| **On track** | 0 months slippage |
+| **Minor delay** | Less than 6 months |
+| **Major delay** | 6 months or more |
+
+**Source trail:** Original expected completion dates are drawn from official announcements and government press releases. Where available, each facility's profile page links to the source document for its original target date, so readers can verify the baseline independently.
+
+::: {.callout-note}
+Slippage is a rough measure. Government announcements sometimes give vague timelines ("by 2026") rather than specific dates. Where an exact date is unavailable, we use the end of the stated period (e.g. December 2026). These estimates are updated as better information becomes available.
+:::
+
+## Data Sources
+
+This tracker draws on:
+
+- **Government press releases** from the Press Information Bureau (PIB)
+- **India Semiconductor Mission** announcements
+- **Company disclosures** and investor presentations
+- **Credible news reporting** from outlets such as the Economic Times, Business Standard, Mint, and others
+
+Each facility entry includes source URLs so you can verify the data.
+
+## How to Contribute
+
+This tracker relies on community contributions to stay accurate. If you have a status update, a correction, or know about a new facility:
+
+### Quick update (no account needed)
+**[Submit an update via our form](https://forms.gle/FDESu4jRksmr7FTk7)** — takes 2 minutes, no account required.
+
+### Detailed contribution (GitHub)
+**[Open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose)** with:
+
+- Which facility the update is about (or details of a new facility)
+- What changed
+- A source URL or document reference
+
+All submissions are reviewed before being incorporated.
+
+## Licence
+
+The data and visualisations on this site are available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to use, share, and adapt them with attribution.

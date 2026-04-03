@@ -1,0 +1,152 @@
+---
+title: "Policy & Budget"
+subtitle: "Tracking government spending on India's semiconductor industrial policy"
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(ggplot2)
+library(scales)
+library(DT)
+
+budget <- load_budget("data/budget.yml")
+facilities <- load_facilities("data/facilities.yml")
+```
+
+This page tracks budgetary allocations for India's semiconductor industrial policy schemes — from the Union Budget's Budget Estimates (BE) to Revised Estimates (RE) and actual expenditure. The gap between what is budgeted and what is actually spent reveals where policy intent meets implementation reality.
+
+::: {.callout-note}
+## Source
+This analysis was originally published in [#IPW 2: Budget Takeaways](https://publicpolicy.substack.com/i/187199718/india-policy-watch-2-budget-takeaways) by Pranay Kotasthane. Budget data is from Union Budget documents (FY23–FY27).
+:::
+
+## Cumulative Budget: Allocated vs Actual Spending
+
+This chart consolidates all budgetary data from FY23 to FY27 to show the total "intent" (Budget Estimates) versus the "reality" (Actual Expenditure/Revised Estimates) for each policy scheme.
+
+```{r budget-chart-consolidated, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=6, dev="ragg_png"}
+# Summarise total BE and total Actual/RE by scheme
+consolidated_budget <- budget %>%
+  group_by(scheme_name) %>%
+  summarise(
+    Allocated = sum(amount[type == "BE"]),
+    Spent = sum(amount[type %in% c("Actual", "RE")]),
+    .groups = "drop"
+  ) %>%
+  tidyr::pivot_longer(cols = c(Allocated, Spent), names_to = "Category", values_to = "Amount")
+
+# Scheme order by total allocation
+scheme_order <- consolidated_budget %>%
+  filter(Category == "Allocated") %>%
+  arrange(desc(Amount)) %>%
+  pull(scheme_name)
+
+consolidated_budget$scheme_name <- factor(consolidated_budget$scheme_name, levels = scheme_order)
+
+ggplot(consolidated_budget, aes(x = scheme_name, y = Amount, fill = Category)) +
+  geom_col(position = position_dodge(width = 0.7), width = 0.6) +
+  scale_fill_manual(values = c("Allocated" = "#757575", "Spent" = "#1565C0")) +
+  scale_y_continuous(labels = label_comma(prefix = "\u20b9"), expand = expansion(mult = c(0, 0.1))) +
+  labs(
+    title = "Total Budgetary Allocation vs Spending (FY23-FY27)",
+    subtitle = "Grey = Total Budget Estimates | Blue = Total Actual/Revised Expenditure (\u20b9 crore)",
+    x = NULL, y = NULL
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    legend.position = "top",
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 9),
+    plot.title = element_text(face = "bold", size = 13)
+  )
+```
+
+## Budget Utilisation by Scheme
+
+The percentage of allocated funds that were actually spent. Low utilisation indicates project delays or structural barriers in the scheme design.
+
+```{r utilization-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=8, fig.height=4, dev="ragg_png"}
+util_data <- consolidated_budget %>%
+  tidyr::pivot_wider(names_from = Category, values_from = Amount) %>%
+  mutate(
+    pct_utilised = ifelse(Allocated > 0, round(Spent / Allocated * 100, 0), 0)
+  ) %>%
+  arrange(pct_utilised)
+
+util_data$scheme_name <- factor(util_data$scheme_name, levels = util_data$scheme_name)
+
+ggplot(util_data, aes(x = scheme_name, y = pct_utilised)) +
+  geom_col(fill = "#2E7D32", width = 0.6) +
+  geom_text(aes(label = paste0(pct_utilised, "%")), hjust = -0.1, size = 4, fontface = "bold") +
+  coord_flip() +
+  scale_y_continuous(limits = c(0, 110), breaks = seq(0, 100, 25)) +
+  labs(title = "Cumulative Budget Utilisation Rate (%)", x = NULL, y = NULL) +
+  theme_minimal(base_size = 11) +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    plot.title = element_text(face = "bold", size = 13)
+  )
+```
+
+## What the Numbers Tell Us: Analysis
+The latest union budget identified semiconductors as one of the seven strategic and frontier sectors in which the government wants to strengthen India’s manufacturing presence. To realise this vision, the budget speech mentioned a plan to launch a second version of the India Semiconductor Mission (ISM) that will ‘produce equipment and materials, design full-stack Indian IP, and fortify supply chains.’ 
+
+Every financial year has two relevant numbers: the budgeted estimate at the start of the year and the actual disbursements by the end of the year. If the difference is large, it indicates that the project is not going as planned. If the difference is small or negative, it indicates that the spending matches government expectations.
+
+This difference matters all the more for ISM1.0 because spending under these schemes is supposed to occur on an equal footing with firms during the capital acquisition and construction stages. This is unlike Production-linked Incentives (PLI), where financial support is contingent on production. Thus, a large difference between budgeted estimates and actual spending directly suggests slower-than-expected progress. 
+
+In FY27, the government expects to spend approximately ₹8,000 crore—roughly 10 per cent of the total outlay—for projects already approved under ISM 1.0. Breaking down this overall number reveals the health of each of the five sub-schemes.
+
+### Assembly & Packaging: The "Low-Hanging Fruit"
+The standout performer is **Assembly and Packaging**. Allocations have risen steadily from ₹1,800 crore to ₹5,000 crore, and real disbursements are finally following. This is where India's semiconductor story is most tangible—projects like **Micron**, **CG Semi**, and **Kaynes** have moved from paper to production in record time. This segment is less technically complex but vital for building a domestic workforce and proving that India can execute large-scale electronics projects.
+
+### The Fab Gap: Allocated but Unspent
+The **Incentives for Fabs** line tells a more sobering story. Despite massive paper allocations, actual disbursement remains near zero. The FY26 revised estimate is also substantially lower than the budgeted allocations. Thus, it indicates that the project is progressing much more slowly than the government’s own projections.
+
+### SCL
+The government has also been planning to modernise the state-owned R&D fabrication unit at SCL Mohali for several years, with little success. Despite allocating money in multiple budgets, virtually nothing has been spent. In November 2025, a grand ₹4,500 crore modernisation plan was announced, with promises to upgrade the facility to 180nm capability and increase wafer production 100-fold. Yet the pattern of ambitious announcements followed by tepid execution persists.
+
+### The Missing Piece
+A disappointing news concerns a sector where India's comparative advantage actually lies: fabless chip design. The Design-Linked Incentive scheme promised to support 100 start-ups in their go-to-market strategy, but disbursals reveal how far off target it remains. There was no disbursement in FY23. FY24 disbursements stood at 15 per cent of the budgeted ₹200 crore. FY25 disbursements reached only 34 per cent of the budget, and FY26 managed 52 per cent. For FY27, the budgeted expenditure stands at ₹100 crore.
+
+The reasons for this chronic underperformance include strict provisions that disqualify firms that raise substantial foreign capital, confusion over the government's rights to a company's intellectual property, and the decision to entrust a government company—which is itself a player in this domain—as the nodal regulator. Hopefully, ISM2.0 will resolve some of these constraints. 
+
+### Not Begun is Half Undone
+The display fab scheme has attracted no interest whatsoever, and the government has not budgeted any amount for it this year. Display fabs are not strategically critical, and spending taxpayer money on them merely to reduce imports from China is not sensible. If the government has finally decided to abandon this scheme, it would be a welcome instance of policy pragmatism. Letting private players build display fabs on their own dime if they see commercial merit is a better strategy. 
+
+### Strategic Pivots: ISM 2.0 & Components
+The headline announcement is India Semiconductor Mission 2.0, which aims to move beyond fab construction to focus on semiconductor equipment, materials, and full-stack Indian IP development. A budget of ₹1,000 crore has been allocated for FY27, indicating a gradual ramp-up. 
+
+Finally, a related scheme is the Electronics Components Manufacturing Scheme, which is meant to incentivise the production of electronics components apart from chips, such as resistors, multi-layered printed circuit boards, etc. The Finance Minister cited high demand for this programme, and raised its outlay to ₹40,000 crore from ₹22,000 crore, of which ₹1,500 crore spending is planned in the next financial year.
+
+
+## Source Library
+
+Primary sources and official government announcements used for this tracker.
+
+```{r sources-table, echo=FALSE, warning=FALSE, message=FALSE}
+# Extract all sources from facilities YAML
+raw_facs <- yaml::read_yaml("data/facilities.yml")$facilities
+sources_list <- lapply(raw_facs, function(f) {
+  if (is.null(f$sources)) return(NULL)
+  lapply(f$sources, function(s) {
+    tibble(
+      Facility = f$name,
+      Date = as.Date(s$date),
+      Source = paste0('<a href="', s$url, '" target="_blank">', s$title, '</a>')
+    )
+  }) %>% bind_rows()
+}) %>% bind_rows()
+
+sources_list %>%
+  arrange(desc(Date)) %>%
+  datatable(
+    escape = FALSE,
+    options = list(pageLength = 10, dom = "ftp"),
+    rownames = FALSE,
+    class = "display compact"
+  )
+```

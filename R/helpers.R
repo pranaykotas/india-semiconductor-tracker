@@ -1,0 +1,209 @@
+# helpers.R — Shared functions for the India Semiconductor Manufacturing Tracker
+# All data loading, transformation, and HTML rendering lives here.
+
+library(yaml)
+library(dplyr)
+library(tidyr)
+library(glue)
+library(htmltools)
+
+# Helper for null-coalescing
+`%||%` <- function(a, b) if (!is.null(a)) a else b
+
+# ---- Load and flatten facilities YAML into a tibble ----
+load_facilities <- function(path = "data/facilities.yml") {
+  raw <- yaml::read_yaml(path)
+
+  rows <- lapply(raw$facilities, function(f) {
+    tibble(
+      id                    = f$id,
+      name                  = f$name,
+      company               = f$company,
+      category              = f$category %||% "Commercial (ISM Approved)",
+      partners              = paste(f$partners, collapse = ", "),
+      city                  = f$location$city,
+      state                 = f$location$state,
+      lat                   = f$location$lat,
+      lon                   = f$location$lon,
+      type                  = f$type,
+      capability            = f$capability %||% "Not disclosed",
+      technology            = f$technology %||% "",
+      investment_inr        = f$investment$total_inr %||% 0,
+      status                = f$status,
+      status_detail         = f$status_detail %||% "",
+      complexity_tech       = f$complexity$technology_difficulty %||% 1,
+      complexity_foreign    = f$complexity$foreign_dependence %||% 1,
+      complexity_capital    = f$complexity$capital_intensity %||% 1,
+      date_announced        = as.Date(f$dates$announced %||% NA),
+      date_approved         = as.Date(f$dates$approved %||% NA),
+      date_construction     = as.Date(f$dates$construction_start %||% NA),
+      date_completion       = as.Date(f$dates$date_completion %||% NA),
+      date_original_expect  = as.Date(f$dates$original_expected_completion %||% NA),
+      delay_confirmed       = f$delay_confirmed %||% FALSE,
+      notes                 = f$notes %||% "",
+      significance          = f$narrative$significance %||% "",
+      what_it_makes         = f$narrative$what_it_makes %||% "",
+      why_it_matters        = f$narrative$why_it_matters %||% "",
+      completion_source_url   = f$dates$original_completion_source$url %||% "",
+      completion_source_title = f$dates$original_completion_source$title %||% ""
+    )
+  })
+
+  df <- bind_rows(rows)
+
+  # Apply jitter to coordinates for specific clusters
+  # Increase jitter to ~1.5km (0.015 degrees) to ensure visibility
+  set.seed(42)
+  df <- df %>%
+    mutate(
+      lat = lat + runif(n(), -0.015, 0.015),
+      lon = lon + runif(n(), -0.015, 0.015)
+    )
+
+  # Composite technical complexity score:
+  # 70% Technology Difficulty + 30% Capital Intensity
+  df <- df %>%
+    mutate(
+      complexity_score = round((complexity_tech * 0.7) + (complexity_capital * 0.3), 1)
+    )
+
+  # Timeliness Score: Slippage in months
+  today <- Sys.Date()
+  df <- df %>%
+    mutate(
+      slippage_months = case_when(
+        status == "Operational" & !is.na(date_completion) & !is.na(date_original_expect) ~
+          as.numeric(date_completion - date_original_expect) / 30.44,
+        status == "Under Construction" & !is.na(date_original_expect) & today > date_original_expect ~
+          as.numeric(today - date_original_expect) / 30.44,
+        TRUE ~ 0
+      ),
+      slippage_months = round(pmax(0, slippage_months), 1),
+      # -1 is a sentinel: delay confirmed but no revised date yet
+      slippage_months = if_else(delay_confirmed & slippage_months == 0, -1, slippage_months)
+    )
+
+  df
+}
+
+# ---- Map status to display colour ----
+status_color <- function(status) {
+  switch(status,
+    "Operational"        = "#2E7D32",
+    "Under Construction" = "#1565C0",
+    "Approved"           = "#B85C00",
+    "Announced"          = "#757575",
+    "On Hold"            = "#C62828",
+    "Cancelled"          = "#C62828",
+    "#757575"
+  )
+}
+
+# ---- Map facility type to marker colour ----
+type_color <- function(type, category = "Commercial (ISM Approved)") {
+  if (category == "Research & Strategic") return("#455A64")
+  if (category == "OSAT (Non-ISM)") return("#00796B")
+  switch(type,
+    "Fab"                    = "#C62828",
+    "Assembly & Packaging"   = "#1565C0",
+    "Compound Semiconductor" = "#6A1B9A",
+    "Research Fab"           = "#455A64",
+    "#757575"
+  )
+}
+
+# ---- Render an HTML status badge ----
+status_badge_html <- function(status, detail = "") {
+  css_class <- switch(status,
+    "Operational"        = "badge-operational",
+    "Under Construction" = "badge-construction",
+    "Approved"           = "badge-approved",
+    "Announced"          = "badge-announced",
+    "On Hold"            = "badge-onhold",
+    "Cancelled"          = "badge-cancelled",
+    "badge-announced"
+  )
+  title_attr <- if (nchar(detail) > 0) paste0(' title="', detail, '"') else ""
+  glue('<span class="status-badge {css_class}"{title_attr}>{status}</span>')
+}
+
+# ---- Render a complexity bar ----
+complexity_bar_html <- function(score) {
+  filled <- round(score)
+  segments <- vapply(1:5, function(i) {
+    cls <- if (i <= filled) "complexity-segment filled" else "complexity-segment"
+    glue('<span class="{cls}"></span>')
+  }, character(1))
+  glue('<span class="complexity-bar" title="Technical Complexity: {score}/5">{paste(segments, collapse = "")}</span>')
+}
+
+# ---- Render a slippage badge ----
+slippage_badge_html <- function(months) {
+  if (months < 0) return('<span class="slippage-badge badge-major-delay">Delay (TBD)</span>')
+  if (months == 0) return('<span class="slippage-badge badge-on-track">On track</span>')
+  if (months < 6) return(glue('<span class="slippage-badge badge-minor-delay">{months}m delay</span>'))
+  glue('<span class="slippage-badge badge-major-delay">{months}m delay</span>')
+}
+
+# ---- Render a progress bar ----
+progress_bar_html <- function(status, date_construction, date_completion) {
+  today <- Sys.Date()
+  if (status == "Operational") {
+    pct <- 100
+    label <- "Complete"
+    bar_color <- "#2E7D32"
+  } else if (!is.na(date_construction) && !is.na(date_completion)) {
+    total_days <- as.numeric(date_completion - date_construction)
+    elapsed <- as.numeric(today - date_construction)
+    pct <- min(100, max(0, round(elapsed / total_days * 100)))
+    remaining_months <- max(0, round(as.numeric(date_completion - today) / 30.44))
+    label <- paste0(pct, "% (~", remaining_months, "m left)")
+    bar_color <- "#1565C0"
+  } else {
+    pct <- 0; label <- "TBD"; bar_color <- "#757575"
+  }
+  glue('<div class="progress-container" title="{label}"><div class="progress-bar" style="background-color:{bar_color};width:{pct}%"></div><span class="progress-label">{label}</span></div>')
+}
+
+# ---- Build leaflet popup HTML ----
+make_popup <- function(row) {
+  sig_html <- if (nchar(row$significance) > 0) {
+    glue('<div class="popup-significance">{row$significance}</div>')
+  } else ""
+
+  inv_html <- if (row$investment_inr > 0) {
+    glue('<div class="popup-row"><span class="popup-label">Investment:</span> \u20b9{format(row$investment_inr, big.mark = ",")} crore</div>')
+  } else {
+    '<div class="popup-row"><span class="popup-label">Investment:</span> Strategic (govt funded)</div>'
+  }
+
+  glue('
+    <div class="facility-popup">
+      <h4>{row$name}</h4>
+      {sig_html}
+      <div class="popup-row"><span class="popup-label">Company:</span> {row$company}</div>
+      <div class="popup-row"><span class="popup-label">Capability:</span> {row$capability}</div>
+      {inv_html}
+      <div class="popup-row"><span class="popup-label">Status:</span> {status_badge_html(row$status)}</div>
+      <div class="popup-row"><span class="popup-label">Complexity:</span> {complexity_bar_html(row$complexity_score)}</div>
+      <div class="popup-row" style="margin-top:6px;"><a href="facilities/{row$id}.html" class="btn-detail">Full Profile →</a></div>
+    </div>
+  ')
+}
+
+# ---- Build hover label ----
+make_label <- function(row) {
+  glue('<strong>{row$name}</strong><br/>{row$company} | {row$capability}')
+}
+
+# ---- Load budget ----
+load_budget <- function(path = "data/budget.yml") {
+  raw <- yaml::read_yaml(path)
+  rows <- lapply(raw$schemes, function(s) {
+    alloc_rows <- lapply(s$allocations, function(a) {
+      tibble(scheme_id = s$id, scheme_name = s$name, year = a$year, type = a$type, amount = a$amount)
+    })
+    bind_rows(alloc_rows)
+  })
+  bind_rows(rows)
+}
