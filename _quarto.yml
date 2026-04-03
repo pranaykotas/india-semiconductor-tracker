@@ -8,6 +8,7 @@ project:
 website:
   title: "India Semiconductor Manufacturing Tracker"
   description: "Tracking semiconductor manufacturing facilities across India"
+  site-url: "https://fabs.pranaykotas.com"
 
   navbar:
     background: "#0D1F3C"
