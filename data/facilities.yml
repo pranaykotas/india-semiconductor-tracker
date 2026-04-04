@@ -42,7 +42,7 @@ facilities:
     complexity:
       technology_difficulty: 1
       foreign_dependence: 2
-      capital_intensity: 2
+      capital_intensity: 3
     dates:
       announced: "2023-06-22"
       approved: "2023-06-22"
@@ -91,7 +91,7 @@ facilities:
     complexity:
       technology_difficulty: 2
       foreign_dependence: 3
-      capital_intensity: 3
+      capital_intensity: 4
     dates:
       announced: "2024-02-29"
       approved: "2024-02-29"
@@ -138,7 +138,7 @@ facilities:
     complexity:
       technology_difficulty: 1
       foreign_dependence: 1
-      capital_intensity: 1
+      capital_intensity: 2
     dates:
       announced: "2024-02-29"
       approved: "2024-02-29"
@@ -180,7 +180,7 @@ facilities:
     complexity:
       technology_difficulty: 1
       foreign_dependence: 1
-      capital_intensity: 2
+      capital_intensity: 3
     dates:
       announced: "2024-02-29"
       approved: "2024-02-29"
@@ -223,7 +223,7 @@ facilities:
     complexity:
       technology_difficulty: 1
       foreign_dependence: 1
-      capital_intensity: 1
+      capital_intensity: 2
     dates:
       announced: "2024-09-01"
       approved: "2024-09-01"
@@ -261,7 +261,7 @@ facilities:
     complexity:
       technology_difficulty: 1
       foreign_dependence: 1
-      capital_intensity: 1
+      capital_intensity: 2
     dates:
       announced: "2025-05-01"
       approved: "2025-05-01"
@@ -293,7 +293,7 @@ facilities:
       - date: "2025-08-01"
         event: "Approved by Union Cabinet under ISM"
     complexity:
-      technology_difficulty: 3
+      technology_difficulty: 2
       foreign_dependence: 3
       capital_intensity: 1
     dates:
@@ -401,7 +401,7 @@ facilities:
       - date: "2025-08-01"
         event: "Approved by Union Cabinet under ISM"
     complexity:
-      technology_difficulty: 2
+      technology_difficulty: 1
       foreign_dependence: 2
       capital_intensity: 1
     dates:
@@ -442,7 +442,7 @@ facilities:
       - date: "2025-09-15"
         event: "Maharashtra government allots 100 acres in Navi Mumbai for semiconductor fab"
     complexity:
-      technology_difficulty: 2
+      technology_difficulty: 1
       foreign_dependence: 3
       capital_intensity: 2
     dates:
@@ -514,7 +514,7 @@ facilities:
       why_it_matters: "A semiconductor industry needs a pipeline of researchers and engineers who understand fabrication at a fundamental level. MNNFC at IISc is where much of this human capital is developed."
     milestones: []
     complexity:
-      technology_difficulty: 2
+      technology_difficulty: 1
       foreign_dependence: 2
       capital_intensity: 1
     dates:
@@ -544,7 +544,7 @@ facilities:
       why_it_matters: "GAETEC is a DRDO facility that gives India sovereign capability in GaAs MMICs — chips that cannot be easily procured from abroad due to export controls. It is small-scale and defence-focused, but strategically essential."
     milestones: []
     complexity:
-      technology_difficulty: 3
+      technology_difficulty: 1
       foreign_dependence: 2
       capital_intensity: 1
     dates:

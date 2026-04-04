@@ -37,8 +37,8 @@ This is the project that will determine whether India can actually make chips, n
 ::: {.g-col-4}
 
 ### Technical Complexity
-<span class="complexity-bar" title="Technical Complexity: 2.3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
-**2.3/5**
+<span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.9/5**
 
 Benchmarked against a 3nm fab (5/5).
 

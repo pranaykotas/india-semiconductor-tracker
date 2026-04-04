@@ -61,10 +61,10 @@ load_facilities <- function(path = "data/facilities.yml") {
     )
 
   # Composite technical complexity score:
-  # 70% Technology Difficulty + 30% Capital Intensity
+  # 55% Technology Difficulty + 45% Capital Intensity
   df <- df %>%
     mutate(
-      complexity_score = round((complexity_tech * 0.7) + (complexity_capital * 0.3), 1)
+      complexity_score = round((complexity_tech * 0.55) + (complexity_capital * 0.45), 1)
     )
 
   # Timeliness Score: Slippage in months

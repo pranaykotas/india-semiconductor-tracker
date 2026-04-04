@@ -37,8 +37,8 @@ A semiconductor industry needs a pipeline of researchers and engineers who under
 ::: {.g-col-4}
 
 ### Technical Complexity
-<span class="complexity-bar" title="Technical Complexity: 1.7/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
-**1.7/5**
+<span class="complexity-bar" title="Technical Complexity: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1/5**
 
 Benchmarked against a 3nm fab (5/5).
 

@@ -223,13 +223,13 @@ datatable(
 
 ::: {.callout-note}
 ## Understanding the Metrics
-- **Technical Complexity:** A weighted score combining **Technical Difficulty (70%)** and **Capital Intensity (30%)**. Benchmarked against a 3nm fab (5/5).
+- **Technical Complexity:** A weighted score combining **Technical Difficulty (55%)** and **Capital Intensity (45%)**. Benchmarked against a 3nm fab (5/5).
 - **Slippage:** The delay in months calculated from the *original* announced/expected completion date compared to the current actual or expected date.
 :::
 
 ::: {.callout-note}
 ## Complexity Index
-Scores are benchmarked against a **cutting-edge 3nm fab** (e.g. TSMC Arizona) which would score **5/5** on all three dimensions — technology difficulty, foreign dependence, and capital intensity. India's current projects are substantially less complex than that frontier. A 28nm fab scores ~2.7/5; standard assembly and packaging facilities score ~1/5. See the [About page](about.qmd) for full methodology.
+Scores are benchmarked against a **cutting-edge 3nm fab** (e.g. TSMC Arizona) which would score **5/5** on all three dimensions — technology difficulty, foreign dependence, and capital intensity. India's current projects are substantially less complex than that frontier. A 28nm fab scores ~2.9/5; standard assembly and packaging facilities score ~1–1.5/5. See the [About page](about.qmd) for full methodology.
 :::
 
 ::: {.callout-note}

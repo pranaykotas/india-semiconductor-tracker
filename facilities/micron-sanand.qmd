@@ -37,8 +37,8 @@ Memory packaging is the least complex part of chipmaking, but Micron choosing In
 ::: {.g-col-4}
 
 ### Technical Complexity
-<span class="complexity-bar" title="Technical Complexity: 1.3/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
-**1.3/5**
+<span class="complexity-bar" title="Technical Complexity: 1.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1.9/5**
 
 Benchmarked against a 3nm fab (5/5).
 

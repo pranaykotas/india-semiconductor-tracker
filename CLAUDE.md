@@ -51,7 +51,7 @@ Each facility in `data/facilities.yml` has:
 - `status`: `Announced` | `Approved` | `Under Construction` | `Operational` | `On Hold` | `Cancelled`
 - `narrative` (significance, what_it_makes, why_it_matters)
 - `milestones[]` (date, event)
-- `complexity` (technology_difficulty, foreign_dependence, capital_intensity — each 1–5; composite = tech*0.7 + capital*0.3)
+- `complexity` (technology_difficulty, foreign_dependence, capital_intensity — each 1–5; composite = tech*0.55 + capital*0.45)
 - `dates` (announced, approved, construction_start, original_expected_completion, date_completion)
 - `sources[]` (url, title, date)
 

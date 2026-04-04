@@ -24,15 +24,15 @@ The composite score is a weighted measure of two dimensions:
 
 | Dimension | Weight | What It Measures |
 |-----------|--------|-----------------|
-| **Technology difficulty** | 70% | How advanced the manufacturing process is. A 28nm fab scores higher than a standard assembly facility. A 3nm fab would score 5/5. |
-| **Capital intensity** | 30% | The scale of investment and workforce requirements. |
+| **Technology difficulty** | 55% | How advanced the manufacturing process is. A 28nm fab scores higher than a standard assembly facility. A 3nm fab would score 5/5. |
+| **Capital intensity** | 45% | The scale of investment and infrastructure requirements. |
 
-**Formula:** Technical Complexity = (Technology Difficulty x 0.7) + (Capital Intensity x 0.3)
+**Formula:** Technical Complexity = (Technology Difficulty x 0.55) + (Capital Intensity x 0.45)
 
 We also track **foreign technology dependence** (reliance on imported equipment, IP, or foreign partners) as a separate dimension in the data, though it is not included in the composite score.
 
 ::: {.callout-note}
-Complexity scores are subjective assessments by the tracker's maintainer, not official ratings. They are intended as a rough guide for comparison. India's current projects score between 1 and 2.7 — substantially below the global frontier.
+Complexity scores are subjective assessments by the tracker's maintainer, not official ratings. They are intended as a rough guide for comparison. India's current projects score between 1 and 2.9 — substantially below the global frontier.
 :::
 
 ## Timeliness & Slippage
