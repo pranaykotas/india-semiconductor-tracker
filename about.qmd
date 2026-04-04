@@ -72,6 +72,10 @@ This tracker draws on:
 
 Each facility entry includes source URLs so you can verify the data.
 
+::: {.callout-note}
+**What this tracker does not cover:** DRDO operates strategic semiconductor and MEMS fabrication facilities — including SITAR (Society for Integrated Circuit Technology and Applied Research, Chennai) and labs within SSPL (Solid State Physics Laboratory, Delhi) — that produce sensors and components for defence applications. These are excluded because detailed technical and financial data is not in the public domain. Their existence means India's semiconductor manufacturing base is somewhat broader than this tracker shows.
+:::
+
 ## How to Contribute
 
 This tracker relies on community contributions to stay accurate. If you have a status update, a correction, or know about a new facility:
