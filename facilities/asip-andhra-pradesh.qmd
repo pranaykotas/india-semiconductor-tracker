@@ -30,7 +30,7 @@ SiP is where the semiconductor industry is heading — integrating multiple func
 | **Capability** | System-in-Package (96M units/year) |
 | **Status** | Approved |
 | **Investment** | ₹468 crore |
-| **Location** | Tirupati, Andhra Pradesh |
+| **Location** | Visakhapatnam, Andhra Pradesh |
 | **Category** | Commercial (ISM Approved) |
 
 :::
@@ -56,6 +56,7 @@ Benchmarked against a 3nm fab (5/5).
 ## Sources
 
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
+- [IIT Tirupati: ASIP plant to come up in Visakhapatnam](https://x.com/iit_tirupati/status/2031299126680604889) (04 Apr 2026)
 
 ---
 

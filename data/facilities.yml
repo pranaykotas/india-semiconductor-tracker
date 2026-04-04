@@ -384,10 +384,10 @@ facilities:
     company: "Advanced System in Package Tech"
     category: "Commercial (ISM Approved)"
     location:
-      city: "Tirupati"
+      city: "Visakhapatnam"
       state: "Andhra Pradesh"
-      lat: 13.629
-      lon: 79.419
+      lat: 17.686
+      lon: 83.218
     type: "Assembly & Packaging"
     capability: "System-in-Package (96M units/year)"
     investment:
@@ -412,6 +412,9 @@ facilities:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
         title: "PIB: SEMICON India 2025 factsheet"
         date: "2025-09-01"
+      - url: "https://x.com/iit_tirupati/status/2031299126680604889"
+        title: "IIT Tirupati: ASIP plant to come up in Visakhapatnam"
+        date: "2026-04-04"
 
   # --- PRIVATE (NON-ISM) ---
 
