@@ -441,6 +441,8 @@ facilities:
         event: "Launched Maharashtra's first OSAT/ATMP facility (announcement)"
       - date: "2025-09-15"
         event: "Maharashtra government allots 100 acres in Navi Mumbai for semiconductor fab"
+      - date: "2026-04-07"
+        event: "BEL and RRP Group sign MoU on semiconductors and defence technology"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 3
@@ -459,6 +461,9 @@ facilities:
       - url: "https://www.manufacturingtodayindia.com/rrp-electronics-semiconductor-fab"
         title: "Govt allots 100 acres to RRP Electronics' semiconductor fab"
         date: "2025-09-15"
+      - url: "https://bel-india.in/news-bel/bel-and-rrp-group-sign-strategic-mou-to-advance-collaboration-in-semiconductor-unmanned-systems-and-electro-optics/"
+        title: "BEL and RRP Group sign strategic MoU to advance collaboration in semiconductor, unmanned systems and electro-optics"
+        date: "2026-04-07"
 
   # --- RESEARCH & STRATEGIC ---
 
