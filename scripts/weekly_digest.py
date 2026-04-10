@@ -17,6 +17,10 @@ import sys
 import time
 from datetime import date
 
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone, timedelta
+from urllib.parse import quote_plus
+
 import anthropic
 import requests
 import yaml
@@ -129,42 +133,55 @@ def build_facilities_summary(facilities_yaml: str) -> str:
 
 def fetch_snippets(queries: list[str], max_results: int = 3) -> str:
     """
-    Run Google Custom Search queries and return compact snippets.
-    Returns a plain-text block with title, URL, and snippet per result.
-    Requires GOOGLE_API_KEY and GOOGLE_CSE_ID environment variables.
+    Fetch news via Google News RSS (free, no API key, India-focused).
+    Returns a plain-text block with title, URL, and date per result.
+    Only returns articles from the past 7 days.
     """
-    api_key = os.environ["GOOGLE_API_KEY"]
-    cse_id = os.environ["GOOGLE_CSE_ID"]
-    endpoint = "https://www.googleapis.com/customsearch/v1"
-
+    cutoff = datetime.now(timezone.utc) - timedelta(days=7)
     lines = []
+
     for query in queries:
         lines.append(f"\n### Query: {query}")
         try:
-            params = {
-                "key": api_key,
-                "cx": cse_id,
-                "q": query,
-                "num": max_results,
-                "dateRestrict": "w1",  # past 1 week
-                "gl": "in",            # geolocation: India
-                "hl": "en",
-            }
-            resp = requests.get(endpoint, params=params, timeout=10)
+            url = (
+                f"https://news.google.com/rss/search"
+                f"?q={quote_plus(query)}&hl=en-IN&gl=IN&ceid=IN:en"
+            )
+            resp = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
             resp.raise_for_status()
-            items = resp.json().get("items", [])
-            if not items:
-                lines.append("  (no results)")
+
+            root = ET.fromstring(resp.content)
+            items = root.findall(".//item")
+            found = 0
             for item in items:
-                title = item.get("title", "").strip()
-                url = item.get("link", "").strip()
-                snippet = item.get("snippet", "").strip()[:200]
-                lines.append(f"  - {title}")
-                lines.append(f"    URL: {url}")
-                lines.append(f"    {snippet}")
+                if found >= max_results:
+                    break
+                title = (item.findtext("title") or "").strip()
+                link = (item.findtext("link") or "").strip()
+                pub_date_str = (item.findtext("pubDate") or "").strip()
+
+                # Parse and filter by date
+                try:
+                    pub_date = datetime.strptime(pub_date_str, "%a, %d %b %Y %H:%M:%S %Z")
+                    pub_date = pub_date.replace(tzinfo=timezone.utc)
+                    if pub_date < cutoff:
+                        continue
+                    date_label = pub_date.strftime("%Y-%m-%d")
+                except ValueError:
+                    date_label = pub_date_str
+
+                lines.append(f"  - {title} ({date_label})")
+                lines.append(f"    URL: {link}")
+                found += 1
+
+            if found == 0:
+                lines.append("  (no results in past 7 days)")
+
         except Exception as e:
             lines.append(f"  (search failed: {e})")
-        time.sleep(0.5)  # stay within Google's rate limits
+
+        time.sleep(0.5)
+
     return "\n".join(lines)
 
 
