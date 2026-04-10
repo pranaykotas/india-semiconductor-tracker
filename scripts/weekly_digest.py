@@ -2,8 +2,9 @@
 """
 Weekly digest agent for India Semiconductor Manufacturing Tracker.
 
-Calls Claude (claude-sonnet-4-6) with web_search to research the past week's
-news about each tracked facility, then writes the digest to data/digest.txt.
+Architecture: searches run in small independent batches (fresh context each time)
+so web search results never accumulate past the 30k input-token/min rate limit.
+A final synthesis call combines all batch findings into the structured digest.
 
 Run from the repo root:
     ANTHROPIC_API_KEY=... python scripts/weekly_digest.py
@@ -17,104 +18,128 @@ from datetime import date
 import anthropic
 import yaml
 
-PROMPT_TEMPLATE = """\
-You are the weekly digest agent for the India Semiconductor Manufacturing Tracker
-(maintained by Pranay Kotasthane at the Takshashila Institution, live at https://fabs.pranaykotas.com).
+# ---------------------------------------------------------------------------
+# Search batches — each batch runs as a separate API call with fresh context.
+# Max 5 searches per batch to keep input tokens well under the 30k/min limit.
+# ---------------------------------------------------------------------------
+SEARCH_BATCHES = [
+    {
+        "label": "Batch 1 — Tata / Micron / Kaynes / CG Semi",
+        "queries": [
+            '"Tata Electronics" Dholera semiconductor',
+            '"Tata Semiconductor" Jagiroad OR Morigaon',
+            '"Micron" Sanand semiconductor',
+            '"Kaynes Semicon"',
+            '"CG Semi" OR "CG Power" semiconductor',
+        ],
+    },
+    {
+        "label": "Batch 2 — HCL Foxconn / SicSem / 3D Glass / CDIL / ASIP",
+        "queries": [
+            '"HCL Foxconn" semiconductor Jewar',
+            '"SicSem" silicon carbide',
+            '"3D Glass Solutions" India semiconductor',
+            '"CDIL" semiconductor Mohali',
+            '"ASIP" Visakhapatnam semiconductor',
+        ],
+    },
+    {
+        "label": "Batch 3 — RRP + programme-level (ISM approvals / delays)",
+        "queries": [
+            '"RRP Electronics" semiconductor',
+            '"India Semiconductor Mission" approval OR cabinet',
+            '"India semiconductor" delayed OR "behind schedule"',
+            '"Modified Semicon Scheme" approved',
+        ],
+    },
+]
 
-## Current facility state (essential fields only)
+BATCH_PROMPT = """\
+You are a research assistant for the India Semiconductor Manufacturing Tracker.
+
+Run each of the following web searches (past 7 days only) and report what you find.
+For each result, include: facility/topic, what happened, source URL, and publication date.
+Omit anything without a verifiable source URL.
+
+Searches to run:
+{queries}
+
+Return a concise bullet-point summary of findings. Be factual. No hallucination.
+Today's date: {today}
+"""
+
+SYNTHESIS_PROMPT = """\
+You are the editor of the India Semiconductor Manufacturing Tracker weekly digest
+(live at https://fabs.pranaykotas.com, maintained by Pranay Kotasthane, Takshashila Institution).
+
+## Current state of tracked facilities
 
 ```yaml
 {facilities_summary}
 ```
 
+## Research findings from this week's news searches
+
+{batch_findings}
+
 ## Your task
 
-Scan the past 7 days of news for updates relevant to the 14 facilities above, plus
-any new India Semiconductor Mission (ISM) approvals. Produce a concise digest.
+Compare the research findings against the current facility state above and write
+the weekly digest. Only include items that represent a CHANGE from the current YAML state.
 
-## Step 1 — Note the current state
-For each facility, note: current `status`, latest milestone date, `delay_confirmed`
-flag, and `dates.original_expected_completion`.
+Use exactly this format:
 
-## Step 2 — Search for news (past 7 days)
-
-Use web_search for each query below. Prioritise sources: PIB (pib.gov.in),
-Economic Times, Business Standard, Mint, Moneycontrol, Reuters, company press releases.
-
-Facility-specific:
-- "Tata Electronics" Dholera semiconductor
-- "Tata Semiconductor" Jagiroad OR Morigaon
-- "Micron" Sanand semiconductor
-- "Kaynes Semicon"
-- "CG Semi" OR "CG Power" semiconductor
-- "HCL Foxconn" semiconductor Jewar
-- "SicSem" silicon carbide
-- "RRP Electronics" semiconductor
-- "3D Glass Solutions" India semiconductor
-- "CDIL" semiconductor Mohali
-- "ASIP" Visakhapatnam semiconductor
-
-Programme-level (catches new ISM approvals and slippage stories):
-- "India Semiconductor Mission" approval OR cabinet
-- "India semiconductor" delayed OR "behind schedule"
-- "Modified Semicon Scheme" approved
-
-## Step 3 — Compare findings to YAML state
-
-For each news item found:
-- Already reflected in the YAML? Skip.
-- Is it a new milestone, status change, slippage signal, or new facility?
-- Does it have a verifiable source URL? If not, omit it entirely. No URL = no suggestion.
-
-## Step 4 — Write the digest
-
-Use exactly this structure:
+---
 
 ### Likely updates needed
-[Facility name]
+
+For each high-confidence update (clear source, clear change from YAML state):
+
+**[Facility name]**
 - What changed: 1-2 sentences
 - Source: [URL] (date)
 - Suggested YAML edit:
   ```yaml
-  <diff showing only the changed fields>
+  <show only the changed fields>
   ```
 
 ### Possibly relevant (lower confidence)
-Items with weaker sources or unclear relevance. Short bullets with source URLs.
+
+Short bullets for items with weaker sources or unclear relevance. Include source URL.
 
 ### New ISM approvals / new facilities
-Any cabinet decisions or company announcements for facilities not currently tracked.
+
+Any cabinet decisions or company announcements for facilities NOT currently tracked.
 
 ### Confirmed: no news
-Facilities checked with no relevant updates this week. List facility names only.
+
+Facilities checked with no relevant updates. List names only.
 
 ---
 
-## Strict rules
-- Do NOT suggest committing, pushing, or modifying files. This is a read-only digest.
-- Every claim must have a source URL. Hallucinated sources are worse than omissions.
-- Flag uncertainty clearly — put low-confidence items in "Possibly relevant".
-- Keep the digest short enough to triage in 10 minutes.
-- YAML schema for suggested edits: id, name, company, partners[], location, type,
-  category, investment.total_inr, status, status_detail, delay_confirmed, narrative,
-  milestones[].date+event, complexity, dates.{{announced, approved, construction_start,
-  original_expected_completion, date_completion}}, sources[].{{url, title, date}}
+Rules:
+- Every claim must have a source URL from the research findings above.
+- Do not invent or infer updates not present in the findings.
+- YAML schema: id, name, company, partners[], location, type, category,
+  investment.total_inr, status, status_detail, delay_confirmed,
+  milestones[].date+event, dates.{{announced,approved,construction_start,
+  original_expected_completion,date_completion}}, sources[].{{url,title,date}}
 - Today's date: {today}
 """
 
 
 def build_facilities_summary(facilities_yaml: str) -> str:
-    """Extract only the fields needed for comparison — strips narratives, sources, etc."""
+    """Extract only the fields needed for comparison."""
     data = yaml.safe_load(facilities_yaml)
     summary = []
     for f in data.get("facilities", []):
-        last_milestone = ""
         milestones = f.get("milestones") or []
+        last_milestone = ""
         if milestones:
             last = milestones[-1]
             last_milestone = f"{last.get('date', '')} — {last.get('event', '')}"
         dates = f.get("dates") or {}
-        entry = {
+        summary.append({
             "id": f.get("id"),
             "name": f.get("name"),
             "company": f.get("company"),
@@ -125,52 +150,47 @@ def build_facilities_summary(facilities_yaml: str) -> str:
             "original_expected_completion": dates.get("original_expected_completion", ""),
             "date_completion": dates.get("date_completion", ""),
             "last_milestone": last_milestone,
-        }
-        summary.append(entry)
+        })
     return yaml.dump(summary, allow_unicode=True, sort_keys=False)
 
 
-def generate_digest(facilities_yaml: str, today: str) -> str:
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+def run_with_retry(client, **kwargs) -> anthropic.types.Message:
+    """Call client.messages.create with one retry on rate limit (90s wait)."""
+    for attempt in range(3):
+        try:
+            return client.messages.create(**kwargs)
+        except anthropic.RateLimitError:
+            if attempt < 2:
+                wait = 90 * (attempt + 1)
+                print(f"Rate limit hit — waiting {wait}s before retry {attempt + 2}/3...")
+                time.sleep(wait)
+            else:
+                raise
 
-    facilities_summary = build_facilities_summary(facilities_yaml)
-    prompt = PROMPT_TEMPLATE.format(facilities_summary=facilities_summary, today=today)
+
+def run_search_batch(client, batch: dict, today: str) -> str:
+    """Run one search batch with a fresh context. Returns a findings summary."""
+    print(f"  Running {batch['label']}...")
+    queries_text = "\n".join(f"- {q}" for q in batch["queries"])
+    prompt = BATCH_PROMPT.format(queries=queries_text, today=today)
     messages = [{"role": "user", "content": prompt}]
 
-    # Agentic loop — Claude may call web_search multiple times before finishing
-    for turn in range(20):
-        # Retry once on rate limit (wait 65s for the token-per-minute window to reset)
-        for attempt in range(2):
-            try:
-                response = client.messages.create(
-                    model="claude-sonnet-4-6",
-                    max_tokens=8096,
-                    tools=[{
-                        "type": "web_search_20250305",
-                        "name": "web_search",
-                        "max_uses": 20,
-                    }],
-                    messages=messages,
-                )
-                break  # success
-            except anthropic.RateLimitError:
-                if attempt == 0:
-                    print("Rate limit hit — waiting 65 seconds before retry...")
-                    time.sleep(65)
-                else:
-                    raise
+    for _ in range(10):
+        response = run_with_retry(
+            client,
+            model="claude-sonnet-4-6",
+            max_tokens=4096,
+            tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}],
+            messages=messages,
+        )
 
-        # Collect text blocks from this response
         text_blocks = [b.text for b in response.content if hasattr(b, "text") and b.text]
 
         if response.stop_reason == "end_turn":
-            return text_blocks[-1] if text_blocks else "No digest generated."
+            return text_blocks[-1] if text_blocks else "(no findings)"
 
         if response.stop_reason == "tool_use":
-            # Append assistant turn and continue the loop
             messages.append({"role": "assistant", "content": response.content})
-            # For server-side tools the API may not need explicit tool_result,
-            # but include empty ones for safety
             tool_results = [
                 {"type": "tool_result", "tool_use_id": b.id, "content": ""}
                 for b in response.content
@@ -179,9 +199,31 @@ def generate_digest(facilities_yaml: str, today: str) -> str:
             if tool_results:
                 messages.append({"role": "user", "content": tool_results})
         else:
-            return text_blocks[-1] if text_blocks else f"Stopped unexpectedly: {response.stop_reason}"
+            return text_blocks[-1] if text_blocks else f"(stopped: {response.stop_reason})"
 
-    return "Digest generation reached the maximum number of turns without completing."
+    return "(batch reached max turns)"
+
+
+def synthesize_digest(client, batch_findings: list[str], facilities_summary: str, today: str) -> str:
+    """Single synthesis call — no tools, just text. Combines batch findings into digest."""
+    print("  Synthesizing final digest...")
+    combined = "\n\n---\n\n".join(
+        f"**{SEARCH_BATCHES[i]['label']}**\n\n{findings}"
+        for i, findings in enumerate(batch_findings)
+    )
+    prompt = SYNTHESIS_PROMPT.format(
+        facilities_summary=facilities_summary,
+        batch_findings=combined,
+        today=today,
+    )
+    response = run_with_retry(
+        client,
+        model="claude-sonnet-4-6",
+        max_tokens=4096,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    text_blocks = [b.text for b in response.content if hasattr(b, "text") and b.text]
+    return text_blocks[-1] if text_blocks else "No digest generated."
 
 
 def main():
@@ -189,17 +231,27 @@ def main():
         with open("data/facilities.yml") as f:
             facilities_yaml = f.read()
     except FileNotFoundError:
-        print("ERROR: data/facilities.yml not found. Run from the repo root.", file=sys.stderr)
+        print("ERROR: data/facilities.yml not found. Run from repo root.", file=sys.stderr)
         sys.exit(1)
 
     today = date.today().isoformat()
     subject = f"[Semicon Tracker] Weekly digest — {today}"
 
     print(f"Generating weekly digest for {today}...")
-    digest = generate_digest(facilities_yaml, today)
 
-    # Write subject on first line (extracted by workflow for email subject header),
-    # then a blank line, then the body.
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    facilities_summary = build_facilities_summary(facilities_yaml)
+
+    # Step 1: Run all search batches independently
+    batch_findings = []
+    for batch in SEARCH_BATCHES:
+        findings = run_search_batch(client, batch, today)
+        batch_findings.append(findings)
+
+    # Step 2: Synthesize into final digest (no tools — just text)
+    digest = synthesize_digest(client, batch_findings, facilities_summary, today)
+
+    # Write output — subject on first line for workflow to extract
     output = f"{subject}\n\n{digest}"
     os.makedirs("data", exist_ok=True)
     with open("data/digest.txt", "w") as f:
