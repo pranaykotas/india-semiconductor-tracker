@@ -19,7 +19,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install anthropic pyyaml
+        run: pip install anthropic pyyaml duckduckgo-search
 
       - name: Generate digest
         run: python scripts/weekly_digest.py
