@@ -18,8 +18,8 @@ import time
 from datetime import date
 
 import anthropic
+import requests
 import yaml
-from duckduckgo_search import DDGS
 
 # ---------------------------------------------------------------------------
 # Search queries
@@ -129,28 +129,42 @@ def build_facilities_summary(facilities_yaml: str) -> str:
 
 def fetch_snippets(queries: list[str], max_results: int = 3) -> str:
     """
-    Run DuckDuckGo searches and return compact snippets.
+    Run Google Custom Search queries and return compact snippets.
     Returns a plain-text block with title, URL, and snippet per result.
+    Requires GOOGLE_API_KEY and GOOGLE_CSE_ID environment variables.
     """
+    api_key = os.environ["GOOGLE_API_KEY"]
+    cse_id = os.environ["GOOGLE_CSE_ID"]
+    endpoint = "https://www.googleapis.com/customsearch/v1"
+
     lines = []
-    with DDGS() as ddgs:
-        for query in queries:
-            lines.append(f"\n### Query: {query}")
-            try:
-                results = list(ddgs.text(query, timelimit="w", max_results=max_results))
-                if not results:
-                    lines.append("  (no results)")
-                for r in results:
-                    title = r.get("title", "").strip()
-                    url = r.get("href", "").strip()
-                    snippet = r.get("body", "").strip()[:200]
-                    lines.append(f"  - {title}")
-                    lines.append(f"    URL: {url}")
-                    lines.append(f"    {snippet}")
-            except Exception as e:
-                lines.append(f"  (search failed: {e})")
-            # Be polite to DuckDuckGo — avoid rate limiting
-            time.sleep(1)
+    for query in queries:
+        lines.append(f"\n### Query: {query}")
+        try:
+            params = {
+                "key": api_key,
+                "cx": cse_id,
+                "q": query,
+                "num": max_results,
+                "dateRestrict": "w1",  # past 1 week
+                "gl": "in",            # geolocation: India
+                "hl": "en",
+            }
+            resp = requests.get(endpoint, params=params, timeout=10)
+            resp.raise_for_status()
+            items = resp.json().get("items", [])
+            if not items:
+                lines.append("  (no results)")
+            for item in items:
+                title = item.get("title", "").strip()
+                url = item.get("link", "").strip()
+                snippet = item.get("snippet", "").strip()[:200]
+                lines.append(f"  - {title}")
+                lines.append(f"    URL: {url}")
+                lines.append(f"    {snippet}")
+        except Exception as e:
+            lines.append(f"  (search failed: {e})")
+        time.sleep(0.5)  # stay within Google's rate limits
     return "\n".join(lines)
 
 
