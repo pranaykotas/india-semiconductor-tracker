@@ -56,6 +56,10 @@ You are the editor of the India Semiconductor Manufacturing Tracker weekly diges
 {facilities_summary}
 ```
 
+## All tracked facility names (every facility must appear in the digest)
+
+{facility_names}
+
 ## Search results from the past week
 
 {search_results}
@@ -63,7 +67,8 @@ You are the editor of the India Semiconductor Manufacturing Tracker weekly diges
 ## Your task
 
 Compare the search results against the current YAML state and write the weekly digest.
-Only include items that represent a CHANGE from what is already in the YAML.
+Only include updates that represent a CHANGE from what is already in the YAML.
+Every facility listed above must appear in exactly one section of the digest.
 
 Use exactly this format:
 
@@ -91,7 +96,8 @@ Cabinet decisions or announcements for facilities NOT currently tracked.
 
 ### Confirmed: no news
 
-Facilities with no relevant updates found. List names only.
+List every facility from "All tracked facility names" that does not appear in any
+section above. Every facility must be accounted for — do not leave any out.
 
 ---
 
@@ -132,12 +138,14 @@ def build_facilities_summary(facilities_yaml: str) -> str:
     return yaml.dump(summary, allow_unicode=True, sort_keys=False)
 
 
-def get_article_published_date(url: str) -> datetime | None:
+def fetch_article_info(url: str) -> tuple[str, datetime | None]:
     """
-    Fetch the first 5KB of an article and extract its original publication date
-    from meta tags. Returns None if date cannot be determined.
+    Fetch the first 5KB of an article and return:
+      - resolved_url: the final URL after redirects (replaces Google News proxy URLs)
+      - published_date: extracted from meta tags, or None if not found
+
     This catches cases where aggregators (MSN, Yahoo) re-surface old articles
-    with a fresh RSS date.
+    with a fresh RSS date, and resolves Google News proxy links to real URLs.
     """
     patterns = [
         r'<meta[^>]+property=["\']article:published_time["\'][^>]+content=["\']([^"\']+)["\']',
@@ -147,6 +155,7 @@ def get_article_published_date(url: str) -> datetime | None:
     ]
     try:
         resp = requests.get(url, timeout=8, stream=True, headers={"User-Agent": "Mozilla/5.0"})
+        resolved_url = resp.url  # final URL after all redirects
         # Read only the first 5KB — enough for <head> meta tags
         chunk = b""
         for data in resp.iter_content(chunk_size=1024):
@@ -158,14 +167,14 @@ def get_article_published_date(url: str) -> datetime | None:
             match = re.search(pattern, text, re.IGNORECASE)
             if match:
                 raw = match.group(1).strip()
-                # Handle ISO 8601 with various timezone formats
                 raw = re.sub(r"(\d{2}:\d{2}:\d{2})(\+\d{2}:\d{2}|Z)?$",
                              lambda m: m.group(0) if m.group(2) else m.group(1) + "+00:00",
                              raw)
-                return datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                return resolved_url, datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        return resolved_url, None
     except Exception:
         pass
-    return None
+    return url, None  # fall back to original URL if request fails
 
 
 def fetch_snippets(queries: list[str], max_results: int = 3) -> str:
@@ -207,13 +216,13 @@ def fetch_snippets(queries: list[str], max_results: int = 3) -> str:
                 except ValueError:
                     date_label = pub_date_str
 
-                # Verify original article date — catches aggregators re-surfacing old content
-                actual_date = get_article_published_date(link)
+                # Resolve proxy URL + verify original article date
+                resolved_url, actual_date = fetch_article_info(link)
                 if actual_date and actual_date < cutoff:
                     continue  # article is older than 7 days despite fresh RSS date
 
                 lines.append(f"  - {title} ({date_label})")
-                lines.append(f"    URL: {link}")
+                lines.append(f"    URL: {resolved_url}")
                 found += 1
 
             if found == 0:
@@ -228,13 +237,19 @@ def fetch_snippets(queries: list[str], max_results: int = 3) -> str:
 
 
 def generate_digest(facilities_yaml: str, today: str) -> str:
-    print("  Fetching search snippets via DuckDuckGo...")
+    print("  Fetching search snippets via Google News RSS...")
     search_results = fetch_snippets(QUERIES)
 
     facilities_summary = build_facilities_summary(facilities_yaml)
 
+    # Extract facility names for the "Confirmed: no news" section
+    data = yaml.safe_load(facilities_yaml)
+    facility_names = [f.get("name", "") for f in data.get("facilities", [])]
+    names_list = "\n".join(f"- {name}" for name in facility_names)
+
     prompt = SYNTHESIS_PROMPT.format(
         facilities_summary=facilities_summary,
+        facility_names=names_list,
         search_results=search_results,
         today=today,
     )
