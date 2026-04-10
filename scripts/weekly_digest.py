@@ -11,18 +11,20 @@ Run from the repo root:
 
 import os
 import sys
+import time
 from datetime import date
 
 import anthropic
+import yaml
 
 PROMPT_TEMPLATE = """\
 You are the weekly digest agent for the India Semiconductor Manufacturing Tracker
 (maintained by Pranay Kotasthane at the Takshashila Institution, live at https://fabs.pranaykotas.com).
 
-## Current facility data
+## Current facility state (essential fields only)
 
 ```yaml
-{facilities_yaml}
+{facilities_summary}
 ```
 
 ## Your task
@@ -101,24 +103,62 @@ Facilities checked with no relevant updates this week. List facility names only.
 """
 
 
+def build_facilities_summary(facilities_yaml: str) -> str:
+    """Extract only the fields needed for comparison — strips narratives, sources, etc."""
+    data = yaml.safe_load(facilities_yaml)
+    summary = []
+    for f in data.get("facilities", []):
+        last_milestone = ""
+        milestones = f.get("milestones") or []
+        if milestones:
+            last = milestones[-1]
+            last_milestone = f"{last.get('date', '')} — {last.get('event', '')}"
+        dates = f.get("dates") or {}
+        entry = {
+            "id": f.get("id"),
+            "name": f.get("name"),
+            "company": f.get("company"),
+            "type": f.get("type"),
+            "status": f.get("status"),
+            "status_detail": f.get("status_detail", ""),
+            "delay_confirmed": f.get("delay_confirmed", False),
+            "original_expected_completion": dates.get("original_expected_completion", ""),
+            "date_completion": dates.get("date_completion", ""),
+            "last_milestone": last_milestone,
+        }
+        summary.append(entry)
+    return yaml.dump(summary, allow_unicode=True, sort_keys=False)
+
+
 def generate_digest(facilities_yaml: str, today: str) -> str:
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-    prompt = PROMPT_TEMPLATE.format(facilities_yaml=facilities_yaml, today=today)
+    facilities_summary = build_facilities_summary(facilities_yaml)
+    prompt = PROMPT_TEMPLATE.format(facilities_summary=facilities_summary, today=today)
     messages = [{"role": "user", "content": prompt}]
 
     # Agentic loop — Claude may call web_search multiple times before finishing
     for turn in range(20):
-        response = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=8096,
-            tools=[{
-                "type": "web_search_20250305",
-                "name": "web_search",
-                "max_uses": 20,
-            }],
-            messages=messages,
-        )
+        # Retry once on rate limit (wait 65s for the token-per-minute window to reset)
+        for attempt in range(2):
+            try:
+                response = client.messages.create(
+                    model="claude-sonnet-4-6",
+                    max_tokens=8096,
+                    tools=[{
+                        "type": "web_search_20250305",
+                        "name": "web_search",
+                        "max_uses": 20,
+                    }],
+                    messages=messages,
+                )
+                break  # success
+            except anthropic.RateLimitError:
+                if attempt == 0:
+                    print("Rate limit hit — waiting 65 seconds before retry...")
+                    time.sleep(65)
+                else:
+                    raise
 
         # Collect text blocks from this response
         text_blocks = [b.text for b in response.content if hasattr(b, "text") and b.text]

@@ -19,7 +19,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install anthropic
+        run: pip install anthropic pyyaml
 
       - name: Generate digest
         run: python scripts/weekly_digest.py
