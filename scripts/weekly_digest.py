@@ -17,6 +17,7 @@ import sys
 import time
 from datetime import date
 
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from urllib.parse import quote_plus
@@ -131,6 +132,42 @@ def build_facilities_summary(facilities_yaml: str) -> str:
     return yaml.dump(summary, allow_unicode=True, sort_keys=False)
 
 
+def get_article_published_date(url: str) -> datetime | None:
+    """
+    Fetch the first 5KB of an article and extract its original publication date
+    from meta tags. Returns None if date cannot be determined.
+    This catches cases where aggregators (MSN, Yahoo) re-surface old articles
+    with a fresh RSS date.
+    """
+    patterns = [
+        r'<meta[^>]+property=["\']article:published_time["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']article:published_time["\']',
+        r'"datePublished"\s*:\s*"([^"]+)"',
+        r'<meta[^>]+name=["\']pubdate["\'][^>]+content=["\']([^"\']+)["\']',
+    ]
+    try:
+        resp = requests.get(url, timeout=8, stream=True, headers={"User-Agent": "Mozilla/5.0"})
+        # Read only the first 5KB — enough for <head> meta tags
+        chunk = b""
+        for data in resp.iter_content(chunk_size=1024):
+            chunk += data
+            if len(chunk) >= 5120:
+                break
+        text = chunk.decode("utf-8", errors="ignore")
+        for pattern in patterns:
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                raw = match.group(1).strip()
+                # Handle ISO 8601 with various timezone formats
+                raw = re.sub(r"(\d{2}:\d{2}:\d{2})(\+\d{2}:\d{2}|Z)?$",
+                             lambda m: m.group(0) if m.group(2) else m.group(1) + "+00:00",
+                             raw)
+                return datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except Exception:
+        pass
+    return None
+
+
 def fetch_snippets(queries: list[str], max_results: int = 3) -> str:
     """
     Fetch news via Google News RSS (free, no API key, India-focused).
@@ -169,6 +206,11 @@ def fetch_snippets(queries: list[str], max_results: int = 3) -> str:
                     date_label = pub_date.strftime("%Y-%m-%d")
                 except ValueError:
                     date_label = pub_date_str
+
+                # Verify original article date — catches aggregators re-surfacing old content
+                actual_date = get_article_published_date(link)
+                if actual_date and actual_date < cutoff:
+                    continue  # article is older than 7 days despite fresh RSS date
 
                 lines.append(f"  - {title} ({date_label})")
                 lines.append(f"    URL: {link}")
