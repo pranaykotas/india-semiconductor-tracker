@@ -117,28 +117,28 @@ leaflet(facilities, options = leafletOptions(minZoom = 4, maxZoom = 10)) %>%
 ## Summary: Commercial Units (ISM Approved)
 
 ::: {.grid}
-::: {.g-col-3}
+::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
 ::: {.summary-card}
 [`r sum(facilities$category == "Commercial (ISM Approved)")`]{.card-value}
 [Commercial units]{.card-label}
 :::
 :::
 
-::: {.g-col-3}
+::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
 ::: {.summary-card}
 [`r paste0("\u20b9", format(sum(facilities$investment_inr), big.mark = ","))`]{.card-value}
 [Planned investment (crore)]{.card-label}
 :::
 :::
 
-::: {.g-col-3}
+::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
 ::: {.summary-card}
 [`r sum(facilities$category == "Research & Strategic")`]{.card-value}
 [Research/Strategic fabs]{.card-label}
 :::
 :::
 
-::: {.g-col-3}
+::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
 ::: {.summary-card}
 [`r sum(facilities$status == "Operational" & facilities$category == "Commercial (ISM Approved)")`]{.card-value}
 [Operational (Commercial)]{.card-label}
@@ -212,9 +212,48 @@ datatable(
   options = list(
     pageLength = 15,
     dom = "ftip",
+    scrollX = TRUE,
     columnDefs = list(
       list(className = "dt-center", targets = c(3, 5, 6))
-    )
+    ),
+    initComplete = JS("
+      function(settings, json) {
+        var wrapper  = settings.nTableWrapper;
+        var $body    = $(wrapper).find('.dataTables_scrollBody');
+        var $scroll  = $(wrapper).find('.dataTables_scroll');
+        if ($body.length === 0) return;
+
+        // --- top scroll bar ---
+        var $top = $('<div class=\"dt-top-scroll\"><div class=\"dt-top-scroll-inner\"></div></div>');
+        $scroll.before($top);
+        setTimeout(function() {
+          $top.find('.dt-top-scroll-inner').css('width', $body[0].scrollWidth + 'px');
+        }, 150);
+        $top.on('scroll', function() { $body.scrollLeft($top.scrollLeft()); });
+        $body.on('scroll', function() { $top.scrollLeft($body.scrollLeft()); });
+
+        // --- drag to scroll ---
+        var dragging = false, startX, startLeft;
+        $body.css('cursor', 'grab');
+        $body
+          .on('mousedown', function(e) {
+            dragging = true;
+            startX   = e.clientX;
+            startLeft = $body.scrollLeft();
+            $body.css({'cursor': 'grabbing', 'user-select': 'none'});
+          })
+          .on('mouseup mouseleave', function() {
+            if (!dragging) return;
+            dragging = false;
+            $body.css({'cursor': 'grab', 'user-select': ''});
+          })
+          .on('mousemove', function(e) {
+            if (!dragging) return;
+            e.preventDefault();
+            $body.scrollLeft(startLeft - (e.clientX - startX));
+          });
+      }
+    ")
   ),
   rownames = FALSE,
   class = "display compact"

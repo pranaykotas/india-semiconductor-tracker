@@ -180,6 +180,22 @@ $body-color: #212121;
   background-color: lighten($primary, 10%);
 }
 
+/* ---- DataTable top scroll bar ---- */
+.dt-top-scroll {
+  overflow-x: auto;
+  height: 14px;
+  margin-bottom: 3px;
+
+  &::-webkit-scrollbar       { height: 8px; }
+  &::-webkit-scrollbar-track { background: #f0f0f0; border-radius: 4px; }
+  &::-webkit-scrollbar-thumb { background: #aaa;    border-radius: 4px; }
+  &::-webkit-scrollbar-thumb:hover { background: #888; }
+}
+
+.dt-top-scroll-inner {
+  height: 1px;
+}
+
 /* ---- General layout ---- */
 .content-block {
   margin-bottom: 2em;
