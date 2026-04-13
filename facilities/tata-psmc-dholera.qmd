@@ -55,6 +55,29 @@ Original target: Dec 2026 ([source](https://www.pib.gov.in/PressReleasePage.aspx
 - **13 Mar 2024** — PM Modi lays foundation stone at Dholera Special Investment Region
 - **13 Mar 2024** — Construction begins — site preparation and civil works
 
+## OECD Taxonomy Classification
+
+Classification using the OECD's proposed semiconductor production taxonomy. Source: OECD (2024), *[Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection](https://doi.org/10.1787/f68de895-en)*, OECD STI Policy Papers.
+
+| Field | Value |
+|-------|-------|
+| **Location** | Dholera, Gujarat, India |
+| **Owner** | Tata Electronics Private Limited |
+| **Owner headquarters** | India |
+| **Ultimate owner** | Tata Group |
+| **Status** | Under construction |
+| **Start year** | 2026 (expected) |
+| **Business model** | Foundry |
+| **Chip type** | IC-Logic |
+| **Detailed chip type** | Info not available (foundry; depends on customer orders) |
+| **Feature size** | 28nm – 55nm |
+| **Wafer size** | Info not available |
+| **Transistor type** | Planar MOSFET with High-K/Metal Gate (HKMG); 28nm is a pre-FinFET node |
+| **Process technologies** | DUV lithography; High-K dielectrics |
+| **Semiconductor material** | Silicon (Si) |
+| **Wafer capacity** | ~50,000 wafer starts per month (target) |
+| **Cleanroom size** | Info not available |
+
 ## Sources
 
 - [PIB: PM lays foundation stone for semiconductor facilities](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (13 Mar 2024)
