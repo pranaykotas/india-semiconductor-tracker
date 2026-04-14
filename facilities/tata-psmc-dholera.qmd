@@ -57,26 +57,24 @@ Original target: Dec 2026 ([source](https://www.pib.gov.in/PressReleasePage.aspx
 
 ## OECD Taxonomy Classification
 
-Classification using the OECD's proposed semiconductor production taxonomy. Source: OECD (2024), *[Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection](https://doi.org/10.1787/f68de895-en)*, OECD STI Policy Papers.
+Classification using the OECD's proposed semiconductor production taxonomy from [*Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection*](https://doi.org/10.1787/f68de895-en) (OECD STI Policy Paper, August 2024, Figure 7, p. 27). The taxonomy organises front-end wafer fab data into three dimensions: plant information, capability, and capacity.
 
-| Field | Value |
-|-------|-------|
-| **Location** | Dholera, Gujarat, India |
-| **Owner** | Tata Electronics Private Limited |
-| **Owner headquarters** | India |
-| **Ultimate owner** | Tata Group |
-| **Status** | Under construction |
-| **Start year** | 2026 (expected) |
-| **Business model** | Foundry |
-| **Chip type** | IC-Logic |
-| **Detailed chip type** | Info not available (foundry; depends on customer orders) |
-| **Feature size** | 28nm – 55nm |
-| **Wafer size** | Info not available |
-| **Transistor type** | Planar MOSFET with High-K/Metal Gate (HKMG); 28nm is a pre-FinFET node |
-| **Process technologies** | DUV lithography; High-K dielectrics |
-| **Semiconductor material** | Silicon (Si) |
-| **Wafer capacity** | ~50,000 wafer starts per month (target) |
-| **Cleanroom size** | Info not available |
+| Dimension | Field | Value |
+|-----------|-------|-------|
+| **Plant Information** | Location | Dholera, Gujarat, India |
+| | Owner | Tata Electronics Private Limited (India); technology transfer partner: Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan |
+| | Status | Under construction |
+| | Start year | 2026 (expected first wafers; construction began March 2024) |
+| | Business model | Foundry |
+| **Capability** | Chip type | Logic |
+| | Detailed chip type | Info not available (foundry; depends on customer orders — likely MCU, microcontroller, power management, SoC) |
+| | Feature size | 28nm – 55nm |
+| | Wafer size | Info not available |
+| | Transistor type | Planar MOSFET with High-K/Metal Gate (HKMG); 28nm is a pre-FinFET node |
+| | Process technologies | DUV (Deep Ultraviolet) lithography; High-K dielectrics; Metal gate |
+| | Semiconductor material | Silicon (Si) |
+| **Capacity** | Wafer starts per month | ~50,000 wspm (target) |
+| | Cleanroom size | Info not available |
 
 ## Sources
 

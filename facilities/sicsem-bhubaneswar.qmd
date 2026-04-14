@@ -55,26 +55,24 @@ Benchmarked against a 3nm fab (5/5).
 
 ## OECD Taxonomy Classification
 
-Classification using the OECD's proposed semiconductor production taxonomy. Source: OECD (2024), *[Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection](https://doi.org/10.1787/f68de895-en)*, OECD STI Policy Papers.
+Classification using the OECD's proposed semiconductor production taxonomy from [*Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection*](https://doi.org/10.1787/f68de895-en) (OECD STI Policy Paper, August 2024, Figure 7, p. 27). The taxonomy organises front-end wafer fab data into three dimensions: plant information, capability, and capacity.
 
-| Field | Value |
-|-------|-------|
-| **Location** | Bhubaneswar, Odisha, India |
-| **Owner** | SiCSem Private Limited |
-| **Owner headquarters** | India |
-| **Ultimate owner** | Info not available |
-| **Status** | Under construction |
-| **Start year** | Info not available |
-| **Business model** | Info not available |
-| **Chip type** | IC-Analog / Others (Power) |
-| **Detailed chip type** | SiC power devices (MOSFETs, IGBTs) |
-| **Feature size** | Not node-defined; SiC power devices are not characterised by lithographic node |
-| **Wafer size** | Info not available |
-| **Transistor type** | SiC MOSFET / IGBT |
-| **Process technologies** | Info not available |
-| **Semiconductor material** | Silicon Carbide (SiC) |
-| **Wafer capacity** | ~60,000 wafers per year (~5,000 wafer starts per month) |
-| **Cleanroom size** | Info not available |
+| Dimension | Field | Value |
+|-----------|-------|-------|
+| **Plant Information** | Location | Bhubaneswar, Odisha, India |
+| | Owner | SiCSem Private Limited (India); technology partner: Clas-SiC Wafer Fab, Scotland |
+| | Status | Approved; construction not yet started |
+| | Start year | Info not available |
+| | Business model | IDM (Integrated Device Manufacturer) |
+| **Capability** | Chip type | Analog / Others (Power) |
+| | Detailed chip type | SiC power devices — MOSFETs; applications include EV inverters, defence, railways, fast-charging |
+| | Feature size | Not node-defined; SiC power devices are characterised by voltage/current rating, not lithographic node |
+| | Wafer size | Info not available |
+| | Transistor type | SiC MOSFET |
+| | Process technologies | Info not available |
+| | Semiconductor material | Silicon Carbide (SiC) |
+| **Capacity** | Wafer starts per month | ~5,000 wspm (target; 60,000 wafers/year) |
+| | Cleanroom size | Info not available |
 
 ## Sources
 
