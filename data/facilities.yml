@@ -101,6 +101,22 @@ facilities:
         url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209"
         title: "PIB: PM lays foundation stone (March 2024)"
         date: "2024-03-13"
+    oecd_taxonomy:
+      plant_information:
+        owner: "Tata Electronics Private Limited (India); technology partner: Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan"
+        start_year: "2026 (expected first wafers; construction began March 2024)"
+        business_model: "Foundry"
+      capability:
+        chip_type: "Logic"
+        detailed_chip_type: "Info not available (foundry; depends on customer orders — likely MCU, microcontroller, power management, SoC)"
+        feature_size: "28nm – 55nm"
+        wafer_size: "Info not available"
+        transistor_type: "Planar MOSFET with High-K/Metal Gate (HKMG); 28nm is a pre-FinFET node"
+        process_technologies: "DUV (Deep Ultraviolet) lithography; High-K dielectrics; Metal gate"
+        semiconductor_material: "Silicon (Si)"
+      capacity:
+        wafer_starts_per_month: "~50,000 wspm (target)"
+        cleanroom_size: "Info not available"
     sources:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209"
         title: "PIB: PM lays foundation stone for semiconductor facilities"
@@ -300,6 +316,22 @@ facilities:
       announced: "2025-08-01"
       approved: "2025-08-01"
       original_expected_completion: "2027-08-01"
+    oecd_taxonomy:
+      plant_information:
+        owner: "SiCSem Private Limited (India); technology partner: Clas-SiC Wafer Fab, Scotland"
+        start_year: "Info not available"
+        business_model: "IDM (Integrated Device Manufacturer)"
+      capability:
+        chip_type: "Analog / Others (Power)"
+        detailed_chip_type: "SiC power devices — MOSFETs; applications include EV inverters, defence, railways, fast-charging infrastructure"
+        feature_size: "Not node-defined; SiC power devices are characterised by voltage/current rating, not lithographic node"
+        wafer_size: "Info not available"
+        transistor_type: "SiC MOSFET"
+        process_technologies: "Info not available"
+        semiconductor_material: "Silicon Carbide (SiC)"
+      capacity:
+        wafer_starts_per_month: "~5,000 wspm (target; 60,000 wafers/year)"
+        cleanroom_size: "Info not available"
     sources:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
         title: "PIB: SEMICON India 2025 factsheet"

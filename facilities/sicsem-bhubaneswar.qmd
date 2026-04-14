@@ -55,17 +55,17 @@ Benchmarked against a 3nm fab (5/5).
 
 ## OECD Taxonomy Classification
 
-Classification using the OECD's proposed semiconductor production taxonomy from [*Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection*](https://doi.org/10.1787/f68de895-en) (OECD STI Policy Paper, August 2024, Figure 7, p. 27). The taxonomy organises front-end wafer fab data into three dimensions: plant information, capability, and capacity.
+Classification using the OECD's proposed semiconductor production taxonomy from [*Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection*](https://doi.org/10.1787/f68de895-en) (OECD STI Policy Paper, August 2024, Figure 7, p. 27). The taxonomy organises front-end wafer fab data into three dimensions: plant information, capability, and capacity.
 
 | Dimension | Field | Value |
 |-----------|-------|-------|
 | **Plant Information** | Location | Bhubaneswar, Odisha, India |
 | | Owner | SiCSem Private Limited (India); technology partner: Clas-SiC Wafer Fab, Scotland |
-| | Status | Approved; construction not yet started |
+| | Status | Approved |
 | | Start year | Info not available |
 | | Business model | IDM (Integrated Device Manufacturer) |
 | **Capability** | Chip type | Analog / Others (Power) |
-| | Detailed chip type | SiC power devices — MOSFETs; applications include EV inverters, defence, railways, fast-charging |
+| | Detailed chip type | SiC power devices — MOSFETs; applications include EV inverters, defence, railways, fast-charging infrastructure |
 | | Feature size | Not node-defined; SiC power devices are characterised by voltage/current rating, not lithographic node |
 | | Wafer size | Info not available |
 | | Transistor type | SiC MOSFET |

@@ -66,6 +66,8 @@ Benchmarked against a 3nm fab (5/5).
 
 {milestones_section}
 
+{oecd_section}
+
 ## Sources
 
 {source_links}
@@ -130,6 +132,41 @@ for (i in 1:nrow(facilities)) {
     completion_source_text <- ""
   }
 
+  # OECD taxonomy section (only rendered if oecd_taxonomy present in YAML)
+  oecd_section <- ""
+  if (!is.null(this_fac$oecd_taxonomy)) {
+    ot <- this_fac$oecd_taxonomy
+    pi <- ot$plant_information
+    cap <- ot$capability
+    capa <- ot$capacity
+    loc_val <- paste0(f$city, ", ", f$state, ", India")
+    oecd_section <- paste0(
+      '## OECD Taxonomy Classification\n\n',
+      'Classification using the OECD\'s proposed semiconductor production taxonomy from ',
+      '[*Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection*]',
+      '(https://doi.org/10.1787/f68de895-en)',
+      ' (OECD STI Policy Paper, August 2024, Figure 7, p.\u00a027). ',
+      'The taxonomy organises front-end wafer fab data into three dimensions: ',
+      'plant information, capability, and capacity.\n\n',
+      '| Dimension | Field | Value |\n',
+      '|-----------|-------|-------|\n',
+      '| **Plant Information** | Location | ', loc_val, ' |\n',
+      '| | Owner | ', pi$owner, ' |\n',
+      '| | Status | ', f$status, ' |\n',
+      '| | Start year | ', pi$start_year, ' |\n',
+      '| | Business model | ', pi$business_model, ' |\n',
+      '| **Capability** | Chip type | ', cap$chip_type, ' |\n',
+      '| | Detailed chip type | ', cap$detailed_chip_type, ' |\n',
+      '| | Feature size | ', cap$feature_size, ' |\n',
+      '| | Wafer size | ', cap$wafer_size, ' |\n',
+      '| | Transistor type | ', cap$transistor_type, ' |\n',
+      '| | Process technologies | ', cap$process_technologies, ' |\n',
+      '| | Semiconductor material | ', cap$semiconductor_material, ' |\n',
+      '| **Capacity** | Wafer starts per month | ', capa$wafer_starts_per_month, ' |\n',
+      '| | Cleanroom size | ', capa$cleanroom_size, ' |'
+    )
+  }
+
   # Narrative fields
   significance <- if (nchar(f$significance) > 0) f$significance else "Details coming soon."
   what_it_makes <- if (nchar(f$what_it_makes) > 0) f$what_it_makes else "*Details coming soon.*"
@@ -153,6 +190,7 @@ for (i in 1:nrow(facilities)) {
     what_it_makes = what_it_makes,
     why_it_matters = why_it_matters,
     milestones_section = milestones_section,
+    oecd_section = oecd_section,
     source_links = source_links,
     completion_source_text = completion_source_text
   )

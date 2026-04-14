@@ -57,13 +57,13 @@ Original target: Dec 2026 ([source](https://www.pib.gov.in/PressReleasePage.aspx
 
 ## OECD Taxonomy Classification
 
-Classification using the OECD's proposed semiconductor production taxonomy from [*Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection*](https://doi.org/10.1787/f68de895-en) (OECD STI Policy Paper, August 2024, Figure 7, p. 27). The taxonomy organises front-end wafer fab data into three dimensions: plant information, capability, and capacity.
+Classification using the OECD's proposed semiconductor production taxonomy from [*Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection*](https://doi.org/10.1787/f68de895-en) (OECD STI Policy Paper, August 2024, Figure 7, p. 27). The taxonomy organises front-end wafer fab data into three dimensions: plant information, capability, and capacity.
 
 | Dimension | Field | Value |
 |-----------|-------|-------|
 | **Plant Information** | Location | Dholera, Gujarat, India |
-| | Owner | Tata Electronics Private Limited (India); technology transfer partner: Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan |
-| | Status | Under construction |
+| | Owner | Tata Electronics Private Limited (India); technology partner: Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan |
+| | Status | Under Construction |
 | | Start year | 2026 (expected first wafers; construction began March 2024) |
 | | Business model | Foundry |
 | **Capability** | Chip type | Logic |
