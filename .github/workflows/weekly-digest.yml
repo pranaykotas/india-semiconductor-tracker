@@ -19,7 +19,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install anthropic pyyaml requests
+        run: pip install anthropic pyyaml requests markdown
 
       - name: Generate digest
         run: python scripts/weekly_digest.py
@@ -40,4 +40,4 @@ jobs:
           subject: ${{ steps.subject.outputs.subject }}
           to: ${{ secrets.NOTIFICATION_EMAIL }}
           from: ${{ secrets.SMTP_USERNAME }}
-          body: file://data/digest.txt
+          html_body: file://data/digest.html
