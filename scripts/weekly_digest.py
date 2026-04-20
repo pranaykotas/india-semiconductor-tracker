@@ -33,20 +33,38 @@ import yaml
 # Search queries
 # ---------------------------------------------------------------------------
 QUERIES = [
+    # Tata fab (Dholera)
     '"Tata Electronics" Dholera semiconductor',
-    '"Tata Semiconductor" Jagiroad OR Morigaon',
+    # Tata ATMP (Morigaon / Jagiroad / TSAT)
+    '"TSAT" semiconductor OR "Tata Semiconductor Assembly" Morigaon OR Jagiroad',
+    # Micron
     '"Micron" Sanand semiconductor',
-    '"Kaynes Semicon"',
-    '"CG Semi" OR "CG Power" semiconductor',
-    '"HCL Foxconn" semiconductor Jewar',
-    '"SicSem" silicon carbide',
+    # Kaynes
+    '"Kaynes Semicon" OR "Kaynes semiconductor"',
+    # CG Power / CG Semi
+    '"CG Semi" OR "CG Power" semiconductor Sanand',
+    # HCL-Foxconn
+    '"HCL Foxconn" semiconductor Jewar OR "HCL semiconductor"',
+    # SicSem
+    '"SicSem" OR "silicon carbide" India semiconductor fab',
+    # RRP Electronics
     '"RRP Electronics" semiconductor',
-    '"3D Glass Solutions" India semiconductor',
-    '"CDIL" semiconductor Mohali',
-    '"ASIP" Visakhapatnam semiconductor',
-    '"India Semiconductor Mission" approval OR cabinet',
-    '"India semiconductor" delayed OR "behind schedule"',
-    '"Modified Semicon Scheme" approved',
+    # 3D Glass Solutions
+    '"3D Glass Solutions" India semiconductor OR "3DGS" Bhubaneswar',
+    # CDIL
+    '"CDIL" OR "Continental Device India" semiconductor Mohali',
+    # ASIP (Advanced System in Package Tech, Visakhapatnam)
+    '"ASIP" OR "Advanced System in Package" Visakhapatnam semiconductor',
+    # SCL Mohali (Semi-Conductor Laboratory — no query existed before)
+    '"SCL" OR "Semi-Conductor Laboratory" Mohali semiconductor',
+    # GAETEC Hyderabad (no query existed before)
+    '"GAETEC" OR "Gallium Arsenide" India semiconductor Hyderabad',
+    # IISc / MNNFC Bengaluru (no query existed before)
+    '"MNNFC" OR "IISc" semiconductor fab Bengaluru',
+    # ISM policy / approvals
+    '"India Semiconductor Mission" approval OR cabinet OR scheme',
+    '"India semiconductor" delayed OR "behind schedule" OR slippage',
+    '"Modified Semicon Scheme" approved OR disbursement',
 ]
 
 SYNTHESIS_PROMPT = """\
