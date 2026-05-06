@@ -287,6 +287,97 @@ facilities:
         title: "PIB: SEMICON India 2025 factsheet"
         date: "2025-09-01"
 
+  - id: crystal-matrix-dholera
+    name: "Crystal Matrix Mini/Micro-LED Fab"
+    company: "Crystal Matrix Limited"
+    category: "Commercial (ISM Approved)"
+    partners: ["LUMENS Co., Ltd., South Korea"]
+    location:
+      city: "Dholera"
+      state: "Gujarat"
+      lat: 22.252
+      lon: 72.196
+    type: "Compound Semiconductor"
+    capability: "Mini/Micro-LED Display Modules + GaN Foundry (72,000 sq m panels/year)"
+    investment:
+      total_inr: 3068
+    status: "Approved"
+    narrative:
+      significance: "India's first dedicated Mini/Micro-LED display manufacturing project. It pushes the tracker beyond conventional chip packaging into a higher-value optoelectronics segment."
+      what_it_makes: "Plans to make Mini-LED and Micro-LED display modules and panels, while also building Gallium Nitride epitaxy and foundry capability on 6-inch wafers. These technologies sit at the intersection of semiconductors and advanced displays."
+      why_it_matters: "Micro-LED and GaN manufacturing are strategically relevant because they open a path into XR displays, automotive HUDs, wearables, defence displays, and other high-performance optoelectronic applications. Locating the project in Dholera also deepens Gujarat's emerging semiconductor cluster beyond silicon fabs and OSAT."
+    milestones:
+      - date: "2026-05-05"
+        event: "Union Cabinet approves Crystal Matrix's Mini/Micro-LED semiconductor unit under ISM"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 3
+      capital_intensity: 2
+    dates:
+      announced: "2026-05-05"
+      approved: "2026-05-05"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258119"
+        title: "PIB: Cabinet approves two more semiconductor manufacturing units"
+        date: "2026-05-05"
+      - url: "https://www.business-standard.com/india-news/cabinet-approves-two-new-semiconductor-manufacturing-units-in-gujarat-126050500845_1.html"
+        title: "Cabinet approves two new semiconductor manufacturing units in Gujarat"
+        date: "2026-05-05"
+      - url: "https://www.crystalmatrix.in/"
+        title: "Crystal Matrix official website"
+        date: "2026-05-06"
+
+  - id: suchi-semicon-surat
+    name: "Suchi Semicon OSAT Facility"
+    company: "Suchi Semicon Private Limited"
+    category: "Commercial (ISM Approved)"
+    partners: ["ROHM Co., Ltd., Japan"]
+    location:
+      city: "Surat"
+      state: "Gujarat"
+      lat: 21.094
+      lon: 72.956
+    type: "Assembly & Packaging"
+    capability: "Discrete Semiconductor OSAT (1,033.2M chips/year)"
+    investment:
+      total_inr: 868
+    status: "Approved"
+    status_detail: "Company already operates a Surat OSAT base; ISM approval appears to cover the next project phase"
+    narrative:
+      significance: "Brings a domestic Indian player into scaled discrete-semiconductor packaging with explicit ISM backing. It also broadens India's back-end ecosystem beyond multinational-led projects."
+      what_it_makes: "Packages and tests discrete semiconductor devices used in power electronics, consumer electronics, lighting, industrial systems, and automotive applications. The company site also highlights capabilities across small-outline, power, and QFN package families."
+      why_it_matters: "Discrete devices are not glamorous, but they are everywhere in power conversion and electronics manufacturing. A viable domestic OSAT base in this segment matters for supply-chain depth, and Suchi's tie-up with ROHM suggests a route to better process discipline and customer access."
+    milestones:
+      - date: "2025-02-25"
+        event: "Suchi Semicon publicly announces plans for a Surat OSAT facility"
+      - date: "2026-03-01"
+        event: "Suchi Semicon and ROHM enter a partnership for outsourced semiconductor assembly and test"
+      - date: "2026-05-05"
+        event: "Union Cabinet approves Suchi Semicon's discrete semiconductor OSAT unit under ISM"
+    complexity:
+      technology_difficulty: 1
+      foreign_dependence: 2
+      capital_intensity: 1
+    dates:
+      announced: "2025-02-25"
+      approved: "2026-05-05"
+    sources:
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258119"
+        title: "PIB: Cabinet approves two more semiconductor manufacturing units"
+        date: "2026-05-05"
+      - url: "https://www.business-standard.com/india-news/cabinet-approves-two-new-semiconductor-manufacturing-units-in-gujarat-126050500845_1.html"
+        title: "Cabinet approves two new semiconductor manufacturing units in Gujarat"
+        date: "2026-05-05"
+      - url: "https://suchisemicon.com/2025/02/25/suchi-semicon-announces-rs-870-crore-semiconductor-plant-in-surat/"
+        title: "Suchi Semicon announces Rs 870 crore semiconductor plant in Surat"
+        date: "2025-02-25"
+      - url: "https://suchisemicon.com/wp-content/uploads/2026/03/ROHM-and-Suchi-Semicon-Press-Release.pdf"
+        title: "ROHM and Suchi Semicon press release"
+        date: "2026-03-01"
+      - url: "https://suchisemicon.com/what-we-offer/"
+        title: "Suchi Semicon: What We Offer"
+        date: "2026-05-06"
+
   - id: sicsem-bhubaneswar
     name: "SicSem Silicon Carbide Fab"
     company: "SicSem Private Limited"

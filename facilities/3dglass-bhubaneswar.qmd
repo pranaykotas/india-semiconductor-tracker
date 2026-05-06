@@ -53,6 +53,8 @@ Benchmarked against a 3nm fab (5/5).
 
 - **01 Aug 2025** — Approved by Union Cabinet under ISM
 
+
+
 ## Sources
 
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)

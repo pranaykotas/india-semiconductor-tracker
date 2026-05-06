@@ -57,6 +57,8 @@ Benchmarked against a 3nm fab (5/5).
 - **23 Sep 2025** — Facility inaugurated — India's first semiconductor assembly and test unit goes live
 - **26 Feb 2026** — Volume production begins — chips rolling off the line at commercial scale
 
+
+
 ## Sources
 
 - [PIB: Micron begins volume production at India facility](https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2233998&reg=3&lang=1) (26 Feb 2026)

@@ -20,7 +20,7 @@ facilities <- load_facilities("data/facilities.yml")
 
 India imports nearly all its semiconductor chips — a vulnerability exposed by the global chip shortage of 2020-21. In response, the government launched the **India Semiconductor Mission (ISM)** with an initial outlay of ₹76,000 crore to build domestic manufacturing capacity.
 
-As of `r format(Sys.Date(), "%B %Y")`, **`r sum(facilities$status == "Operational" & facilities$category == "Commercial (ISM Approved)")` of `r sum(facilities$category == "Commercial (ISM Approved)")` approved commercial facilities are now operational**. India's first fab — the Tata-PSMC plant at Dholera — is under construction. Total approved investment across all ISM projects stands at **₹`r format(sum(facilities$investment_inr[facilities$category == "Commercial (ISM Approved)"]), big.mark = ",")` crore** across **`r length(unique(facilities$state[facilities$category == "Commercial (ISM Approved)"]))`** states.
+As of `r format(Sys.Date(), "%B %Y")`, **`r sum(facilities$status == "Operational" & facilities$category == "Commercial (ISM Approved)")` of `r sum(facilities$category == "Commercial (ISM Approved)")` approved commercial facilities are now operational**. India's first fab — the Tata-PSMC plant at Dholera — is under construction. Total approved investment across all ISM projects stands at **₹`r format(sum(facilities$investment_inr[facilities$category == "Commercial (ISM Approved)"], na.rm = TRUE), big.mark = ",")` crore** across **`r length(unique(facilities$state[facilities$category == "Commercial (ISM Approved)"]))`** states.
 
 But the hard part is just beginning. Assembly and packaging projects are moving fast, but [the budget data shows](budget.qmd) a significant gap between allocated funds and actual disbursement — especially for fabrication. India's fab ambitions target [mature 28nm-55nm nodes](nodes.qmd), a deliberate strategic choice that avoids the cutting edge but addresses the chips India actually needs.
 
@@ -126,7 +126,7 @@ leaflet(facilities, options = leafletOptions(minZoom = 4, maxZoom = 10)) %>%
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
 ::: {.summary-card}
-[`r paste0("\u20b9", format(sum(facilities$investment_inr), big.mark = ","))`]{.card-value}
+[`r paste0("\u20b9", format(sum(facilities$investment_inr, na.rm = TRUE), big.mark = ","))`]{.card-value}
 [Planned investment (crore)]{.card-label}
 :::
 :::
@@ -153,7 +153,7 @@ type_data <- facilities %>%
   filter(category == "Commercial (ISM Approved)") %>%
   group_by(type) %>%
   summarise(
-    total_inr = sum(investment_inr),
+    total_inr = sum(investment_inr, na.rm = TRUE),
     n = n(),
     .groups = "drop"
   )
@@ -191,7 +191,7 @@ table_data <- facilities %>%
     Status = mapply(status_badge_html, status, status_detail),
     Complexity = sapply(complexity_score, complexity_bar_html),
     Slippage = sapply(slippage_months, slippage_badge_html),
-    Investment = ifelse(investment_inr > 0, paste0("\u20b9", format(investment_inr, big.mark = ","), " cr"), "Strategic"),
+    Investment = mapply(format_investment, investment_inr, category, MoreArgs = list(short = TRUE)),
     Location = paste0(city, ", ", state)
   ) %>%
   select(

@@ -54,6 +54,8 @@ Benchmarked against a 3nm fab (5/5).
 - **01 May 2025** — Approved under ISM
 - **01 Jun 2025** — Construction begins at Jewar, near Noida International Airport
 
+
+
 ## Sources
 
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)

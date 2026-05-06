@@ -43,7 +43,7 @@ Locating a major semiconductor facility in Assam is a deliberate industrial poli
 Benchmarked against a 3nm fab (5/5).
 
 ### Timeliness
-<span class="slippage-badge badge-on-track">On track</span>
+<span class="slippage-badge badge-minor-delay">0.2m delay</span>
 
 
 :::
@@ -54,6 +54,8 @@ Benchmarked against a 3nm fab (5/5).
 - **29 Feb 2024** — Union Cabinet approves TSAT under ISM
 - **01 Jul 2024** — Construction begins at Jagiroad, Morigaon
 - **30 Apr 2026** — Phase 1 commissioning expected
+
+
 
 ## Sources
 

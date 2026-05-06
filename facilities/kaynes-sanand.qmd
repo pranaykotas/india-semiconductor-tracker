@@ -55,6 +55,8 @@ Benchmarked against a 3nm fab (5/5).
 - **01 Dec 2024** — Construction begins at Sanand
 - **31 Mar 2026** — PM Modi inaugurates Kaynes semiconductor plant — facility goes operational
 
+
+
 ## Sources
 
 - [PM Modi inaugurates Kaynes Semiconductor plant in Gujarat](https://ddnews.gov.in/en/pm-modi-inaugurates-kaynes-semiconductor-plant-in-gujarat-flags-push-for-chip-ecosystem/) (31 Mar 2026)

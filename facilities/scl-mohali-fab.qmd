@@ -53,6 +53,8 @@ Benchmarked against a 3nm fab (5/5).
 
 - **01 Jan 1983** — SCL established as a government semiconductor fab
 
+
+
 ## Sources
 
 - [Semi-Conductor Laboratory official website](https://www.scl.gov.in/) (01 Jan 2025)

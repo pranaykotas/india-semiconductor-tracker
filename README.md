@@ -10,7 +10,7 @@ Maintained by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila I
 
 ## What It Tracks
 
-- **14 facilities** across commercial ISM-approved, private non-ISM, and research & strategic categories
+- **16 facilities** across commercial ISM-approved, private non-ISM, and research & strategic categories
 - **Status** (Announced → Approved → Under Construction → Operational)
 - **Slippage** — delay in months from original announced completion date
 - **Technical Complexity** — weighted score benchmarked against a 3nm fab (5/5)

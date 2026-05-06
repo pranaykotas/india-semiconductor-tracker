@@ -53,11 +53,15 @@ Original target: Jun 2026 ([source](https://www.electronicsforyou.biz/industry-b
 
 - **19 Sep 2024** — Launched Maharashtra's first OSAT/ATMP facility (announcement)
 - **15 Sep 2025** — Maharashtra government allots 100 acres in Navi Mumbai for semiconductor fab
+- **07 Apr 2026** — BEL and RRP Group sign MoU on semiconductors and defence technology
+
+
 
 ## Sources
 
 - [RRP Electronics Ltd Launched Maharashtra's First OSAT/ATMP Semiconductor Manufacturing Facility](https://www.business-standard.com/content/press-releases-ani/rrp-electronics-ltd-launched-maharashtra-s-first-osatatmp-semiconductor-manufacturing-facility-124091900541_1.html) (19 Sep 2024)
 - [Govt allots 100 acres to RRP Electronics' semiconductor fab](https://www.manufacturingtodayindia.com/rrp-electronics-semiconductor-fab) (15 Sep 2025)
+- [BEL and RRP Group sign strategic MoU to advance collaboration in semiconductor, unmanned systems and electro-optics](https://bel-india.in/news-bel/bel-and-rrp-group-sign-strategic-mou-to-advance-collaboration-in-semiconductor-unmanned-systems-and-electro-optics/) (07 Apr 2026)
 
 ---
 

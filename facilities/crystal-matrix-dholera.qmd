@@ -1,0 +1,71 @@
+---
+title: "Crystal Matrix Mini/Micro-LED Fab"
+subtitle: "Crystal Matrix Limited | Compound Semiconductor"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India's first dedicated Mini/Micro-LED display manufacturing project. It pushes the tracker beyond conventional chip packaging into a higher-value optoelectronics segment.
+:::
+
+## What does this facility make?
+
+Plans to make Mini-LED and Micro-LED display modules and panels, while also building Gallium Nitride epitaxy and foundry capability on 6-inch wafers. These technologies sit at the intersection of semiconductors and advanced displays.
+
+## Why does it matter?
+
+Micro-LED and GaN manufacturing are strategically relevant because they open a path into XR displays, automotive HUDs, wearables, defence displays, and other high-performance optoelectronic applications. Locating the project in Dholera also deepens Gujarat's emerging semiconductor cluster beyond silicon fabs and OSAT.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Crystal Matrix Limited |
+| **Partners** | LUMENS Co., Ltd., South Korea |
+| **Type** | Compound Semiconductor |
+| **Capability** | Mini/Micro-LED Display Modules + GaN Foundry (72,000 sq m panels/year) |
+| **Status** | Approved |
+| **Investment** | ₹3,068 crore |
+| **Location** | Dholera, Gujarat |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **05 May 2026** — Union Cabinet approves Crystal Matrix's Mini/Micro-LED semiconductor unit under ISM
+
+
+
+## Sources
+
+- [PIB: Cabinet approves two more semiconductor manufacturing units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258119) (05 May 2026)
+- [Cabinet approves two new semiconductor manufacturing units in Gujarat](https://www.business-standard.com/india-news/cabinet-approves-two-new-semiconductor-manufacturing-units-in-gujarat-126050500845_1.html) (05 May 2026)
+- [Crystal Matrix official website](https://www.crystalmatrix.in/) (06 May 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

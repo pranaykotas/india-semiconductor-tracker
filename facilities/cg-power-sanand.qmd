@@ -55,6 +55,8 @@ Benchmarked against a 3nm fab (5/5).
 - **01 Jun 2024** — Construction begins at Sanand
 - **28 Aug 2025** — India's first OSAT pilot line inaugurated — G1 facility goes live
 
+
+
 ## Sources
 
 - [PIB: Cabinet approves semiconductor units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (01 Mar 2024)

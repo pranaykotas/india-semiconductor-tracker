@@ -93,11 +93,7 @@ for (i in 1:nrow(facilities)) {
   partners_text <- if (f$partners != "" && !is.na(f$partners)) f$partners else "None"
 
   # Investment text
-  investment_text <- if (f$investment_inr > 0) {
-    paste0("\u20b9", format(f$investment_inr, big.mark = ","), " crore")
-  } else {
-    "Strategic / Government funded"
-  }
+  investment_text <- format_investment(f$investment_inr, f$category)
 
   # Milestones section
   if (!is.null(this_fac$milestones) && length(this_fac$milestones) > 0) {

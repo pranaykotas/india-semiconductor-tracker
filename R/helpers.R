@@ -28,7 +28,7 @@ load_facilities <- function(path = "data/facilities.yml") {
       type                  = f$type,
       capability            = f$capability %||% "Not disclosed",
       technology            = f$technology %||% "",
-      investment_inr        = f$investment$total_inr %||% 0,
+      investment_inr        = if (!is.null(f$investment) && !is.null(f$investment$total_inr)) f$investment$total_inr else NA_real_,
       status                = f$status,
       status_detail         = f$status_detail %||% "",
       complexity_tech       = f$complexity$technology_difficulty %||% 1,
@@ -84,6 +84,20 @@ load_facilities <- function(path = "data/facilities.yml") {
     )
 
   df
+}
+
+# ---- Format investment for UI surfaces ----
+format_investment <- function(investment_inr, category = "Commercial (ISM Approved)", short = FALSE) {
+  if (category == "Research & Strategic") {
+    return(if (short) "Strategic" else "Strategic / Government funded")
+  }
+
+  if (is.na(investment_inr) || investment_inr <= 0) {
+    return("Not disclosed")
+  }
+
+  suffix <- if (short) " cr" else " crore"
+  paste0("\u20b9", format(investment_inr, big.mark = ","), suffix)
 }
 
 # ---- Map status to display colour ----
@@ -171,11 +185,7 @@ make_popup <- function(row) {
     glue('<div class="popup-significance">{row$significance}</div>')
   } else ""
 
-  inv_html <- if (row$investment_inr > 0) {
-    glue('<div class="popup-row"><span class="popup-label">Investment:</span> \u20b9{format(row$investment_inr, big.mark = ",")} crore</div>')
-  } else {
-    '<div class="popup-row"><span class="popup-label">Investment:</span> Strategic (govt funded)</div>'
-  }
+  inv_html <- glue('<div class="popup-row"><span class="popup-label">Investment:</span> {format_investment(row$investment_inr, row$category)}</div>')
 
   glue('
     <div class="facility-popup">

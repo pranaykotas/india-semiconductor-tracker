@@ -1,0 +1,75 @@
+---
+title: "Suchi Semicon OSAT Facility"
+subtitle: "Suchi Semicon Private Limited | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Brings a domestic Indian player into scaled discrete-semiconductor packaging with explicit ISM backing. It also broadens India's back-end ecosystem beyond multinational-led projects.
+:::
+
+## What does this facility make?
+
+Packages and tests discrete semiconductor devices used in power electronics, consumer electronics, lighting, industrial systems, and automotive applications. The company site also highlights capabilities across small-outline, power, and QFN package families.
+
+## Why does it matter?
+
+Discrete devices are not glamorous, but they are everywhere in power conversion and electronics manufacturing. A viable domestic OSAT base in this segment matters for supply-chain depth, and Suchi's tie-up with ROHM suggests a route to better process discipline and customer access.
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Suchi Semicon Private Limited |
+| **Partners** | ROHM Co., Ltd., Japan |
+| **Type** | Assembly & Packaging |
+| **Capability** | Discrete Semiconductor OSAT (1,033.2M chips/year) |
+| **Status** | Approved |
+| **Investment** | ₹868 crore |
+| **Location** | Surat, Gujarat |
+| **Category** | Commercial (ISM Approved) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **25 Feb 2025** — Suchi Semicon publicly announces plans for a Surat OSAT facility
+- **01 Mar 2026** — Suchi Semicon and ROHM enter a partnership for outsourced semiconductor assembly and test
+- **05 May 2026** — Union Cabinet approves Suchi Semicon's discrete semiconductor OSAT unit under ISM
+
+
+
+## Sources
+
+- [PIB: Cabinet approves two more semiconductor manufacturing units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258119) (05 May 2026)
+- [Cabinet approves two new semiconductor manufacturing units in Gujarat](https://www.business-standard.com/india-news/cabinet-approves-two-new-semiconductor-manufacturing-units-in-gujarat-126050500845_1.html) (05 May 2026)
+- [Suchi Semicon announces Rs 870 crore semiconductor plant in Surat](https://suchisemicon.com/2025/02/25/suchi-semicon-announces-rs-870-crore-semiconductor-plant-in-surat/) (25 Feb 2025)
+- [ROHM and Suchi Semicon press release](https://suchisemicon.com/wp-content/uploads/2026/03/ROHM-and-Suchi-Semicon-Press-Release.pdf) (01 Mar 2026)
+- [Suchi Semicon: What We Offer](https://suchisemicon.com/what-we-offer/) (06 May 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>
