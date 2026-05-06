@@ -58,7 +58,7 @@ Benchmarked against a 3nm fab (5/5).
 ## Sources
 
 - [PIB: Cabinet approves two more semiconductor manufacturing units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258119) (05 May 2026)
-- [Cabinet approves two new semiconductor manufacturing units in Gujarat](https://www.business-standard.com/india-news/cabinet-approves-two-new-semiconductor-manufacturing-units-in-gujarat-126050500845_1.html) (05 May 2026)
+- [Semiconductor projects worth ₹4,000 crore get Cabinet go-ahead](https://www.business-standard.com/economy/news/cabinet-approves-suchi-semicon-crystal-matrix-projects-worth-4-000-crore-126050501335_1.html) (05 May 2026)
 - [Crystal Matrix official website](https://www.crystalmatrix.in/) (06 May 2026)
 
 ---

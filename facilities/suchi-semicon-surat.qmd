@@ -60,7 +60,7 @@ Benchmarked against a 3nm fab (5/5).
 ## Sources
 
 - [PIB: Cabinet approves two more semiconductor manufacturing units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258119) (05 May 2026)
-- [Cabinet approves two new semiconductor manufacturing units in Gujarat](https://www.business-standard.com/india-news/cabinet-approves-two-new-semiconductor-manufacturing-units-in-gujarat-126050500845_1.html) (05 May 2026)
+- [Semiconductor projects worth ₹4,000 crore get Cabinet go-ahead](https://www.business-standard.com/economy/news/cabinet-approves-suchi-semicon-crystal-matrix-projects-worth-4-000-crore-126050501335_1.html) (05 May 2026)
 - [Suchi Semicon announces Rs 870 crore semiconductor plant in Surat](https://suchisemicon.com/2025/02/25/suchi-semicon-announces-rs-870-crore-semiconductor-plant-in-surat/) (25 Feb 2025)
 - [ROHM and Suchi Semicon press release](https://suchisemicon.com/wp-content/uploads/2026/03/ROHM-and-Suchi-Semicon-Press-Release.pdf) (01 Mar 2026)
 - [Suchi Semicon: What We Offer](https://suchisemicon.com/what-we-offer/) (06 May 2026)
