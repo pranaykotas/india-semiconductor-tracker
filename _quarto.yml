@@ -24,6 +24,10 @@ website:
         href: budget.qmd
       - text: "About"
         href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/pranaykotas/india-semiconductor-tracker
+        aria-label: "GitHub repository"
 
   page-footer:
     left: |
