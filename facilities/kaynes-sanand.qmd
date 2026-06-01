@@ -43,9 +43,10 @@ Most ISM projects involve foreign technology partners. Kaynes is notable as a ho
 Benchmarked against a 3nm fab (5/5).
 
 ### Timeliness
-<span class="slippage-badge badge-major-delay">6.9m delay</span>
+<span class="slippage-badge badge-major-delay">6.9m slip → FY2025-26</span>
 
 
+Revised target: FY2025-26 (Mar 2026)
 :::
 :::
 

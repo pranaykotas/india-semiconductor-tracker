@@ -58,7 +58,7 @@ Benchmarked against a 3nm fab (5/5).
 ### Timeliness
 {slippage_badge}
 
-{completion_source_text}
+{completion_source_text}{revised_target_text}
 :::
 :::
 
@@ -128,6 +128,17 @@ for (i in 1:nrow(facilities)) {
     completion_source_text <- ""
   }
 
+  # Revised target text (only when date_completion differs from original)
+  has_revised <- !is.na(f$date_completion) && !is.na(f$date_original_expect) &&
+                 f$date_completion > f$date_original_expect
+  revised_label <- if (has_revised) fy_label(f$date_completion) else NA_character_
+  revised_target_text <- if (has_revised) {
+    paste0("\nRevised target: ", revised_label,
+           " (", format(f$date_completion, "%b %Y"), ")")
+  } else {
+    ""
+  }
+
   # OECD taxonomy section (only rendered if oecd_taxonomy present in YAML)
   oecd_section <- ""
   if (!is.null(this_fac$oecd_taxonomy)) {
@@ -181,14 +192,15 @@ for (i in 1:nrow(facilities)) {
     investment_text = investment_text,
     complexity_bar = complexity_bar_html(f$complexity_score),
     complexity_score = f$complexity_score,
-    slippage_badge = slippage_badge_html(f$slippage_months),
+    slippage_badge = slippage_badge_html(f$slippage_months, revised_label),
     significance = significance,
     what_it_makes = what_it_makes,
     why_it_matters = why_it_matters,
     milestones_section = milestones_section,
     oecd_section = oecd_section,
     source_links = source_links,
-    completion_source_text = completion_source_text
+    completion_source_text = completion_source_text,
+    revised_target_text = revised_target_text
   )
 
   writeLines(page_content, paste0("facilities/", f$id, ".qmd"))

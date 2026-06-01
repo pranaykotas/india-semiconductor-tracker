@@ -43,9 +43,10 @@ Memory packaging is the least complex part of chipmaking, but Micron choosing In
 Benchmarked against a 3nm fab (5/5).
 
 ### Timeliness
-<span class="slippage-badge badge-major-delay">7.9m delay</span>
+<span class="slippage-badge badge-major-delay">7.9m slip → FY2025-26</span>
 
 
+Revised target: FY2025-26 (Feb 2026)
 :::
 :::
 

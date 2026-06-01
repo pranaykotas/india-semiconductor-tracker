@@ -54,6 +54,7 @@ Original target: Dec 2026 ([source](https://www.pib.gov.in/PressReleasePage.aspx
 - **29 Feb 2024** — Union Cabinet approves Tata-PSMC fab under the Modified Semiconductor Fab Scheme
 - **13 Mar 2024** — PM Modi lays foundation stone at Dholera Special Investment Region
 - **13 Mar 2024** — Construction begins — site preparation and civil works
+- **16 May 2026** — Tata Electronics and ASML sign MoU for lithography equipment supply, talent development, and supply chain collaboration for the Dholera fab
 
 ## OECD Taxonomy Classification
 
