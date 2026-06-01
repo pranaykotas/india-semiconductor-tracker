@@ -88,6 +88,12 @@ facilities:
         event: "PM Modi lays foundation stone at Dholera Special Investment Region"
       - date: "2024-03-13"
         event: "Construction begins — site preparation and civil works"
+      - date: "2026-05-16"
+        event: "Tata Electronics and ASML sign MoU for lithography equipment supply, talent development, and supply chain collaboration for the Dholera fab"
+        source:
+          url: "https://www.asml.com/en/news/press-releases/2026/tata-electronics-and-asml-announce-strategic-partnership"
+          title: "Tata Electronics and ASML Announce Strategic Partnership (ASML Press Release)"
+          date: "2026-05-16"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 3
@@ -182,6 +188,8 @@ facilities:
     investment:
       total_inr: 27000
     status: "Under Construction"
+    status_detail: "Phase 1 commissioning expected within FY2026-27 per Minister Vaishnaw (May 2026); original April 2026 target appears to have slipped"
+    delay_confirmed: true
     narrative:
       significance: "India's first semiconductor facility in the Northeast. Demonstrates that chip manufacturing isn't limited to Gujarat."
       what_it_makes: "Assembles and tests semiconductor chips at high volume — 48 million chips per day at full capacity. Handles multiple packaging formats for diverse end markets."
@@ -192,7 +200,13 @@ facilities:
       - date: "2024-07-01"
         event: "Construction begins at Jagiroad, Morigaon"
       - date: "2026-04-30"
-        event: "Phase 1 commissioning expected"
+        event: "Phase 1 commissioning expected (original target)"
+      - date: "2026-05-31"
+        event: "Union Minister Vaishnaw states ₹27,000 Cr Jagiroad semiconductor plant likely to begin operations within current fiscal year (FY2026-27)"
+        source:
+          url: "https://telecom.economictimes.indiatimes.com/amp/news/policy/assams-semiconductor-plant-set-to-begin-production-this-financial-year-minister-ashwini-vaishnaw/131432385"
+          title: "Assam's semiconductor plant set to begin production this financial year: Minister Ashwini Vaishnaw (Economic Times)"
+          date: "2026-05-31"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 1
@@ -202,7 +216,7 @@ facilities:
       approved: "2024-02-29"
       construction_start: "2024-07-01"
       original_expected_completion: "2026-04-30"
-      date_completion: "2026-04-30"
+      date_completion: "2027-03-31"
     sources:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209"
         title: "PIB: Cabinet approves semiconductor units"
@@ -210,6 +224,9 @@ facilities:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
         title: "PIB: SEMICON India 2025 factsheet"
         date: "2025-09-01"
+      - url: "https://telecom.economictimes.indiatimes.com/amp/news/policy/assams-semiconductor-plant-set-to-begin-production-this-financial-year-minister-ashwini-vaishnaw/131432385"
+        title: "Assam's semiconductor plant set to begin production this financial year: Minister Ashwini Vaishnaw (Economic Times)"
+        date: "2026-05-31"
 
   - id: kaynes-sanand
     name: "Kaynes Semicon OSAT Facility"
