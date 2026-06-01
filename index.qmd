@@ -190,7 +190,12 @@ table_data <- facilities %>%
     Name = paste0('<a href="facilities/', id, '.html">', name, '</a>'),
     Status = mapply(status_badge_html, status, status_detail),
     Complexity = sapply(complexity_score, complexity_bar_html),
-    Slippage = sapply(slippage_months, slippage_badge_html),
+    revised_date_label = if_else(
+      !is.na(date_completion) & !is.na(date_original_expect) & date_completion > date_original_expect,
+      sapply(date_completion, fy_label),
+      NA_character_
+    ),
+    Slippage = mapply(slippage_badge_html, slippage_months, revised_date_label),
     Investment = mapply(format_investment, investment_inr, category, MoreArgs = list(short = TRUE)),
     Location = paste0(city, ", ", state)
   ) %>%

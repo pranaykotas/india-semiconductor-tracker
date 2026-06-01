@@ -151,12 +151,26 @@ complexity_bar_html <- function(score) {
   glue('<span class="complexity-bar" title="Technical Complexity: {score}/5">{paste(segments, collapse = "")}</span>')
 }
 
+# ---- Convert a date to Indian fiscal year label (e.g. "FY2026-27") ----
+fy_label <- function(d) {
+  if (is.na(d)) return(NA_character_)
+  yr <- as.integer(format(d, "%Y"))
+  mo <- as.integer(format(d, "%m"))
+  if (mo >= 4) paste0("FY", yr, "-", formatC((yr + 1L) %% 100L, width = 2, flag = "0"))
+  else         paste0("FY", yr - 1L, "-", formatC(yr %% 100L, width = 2, flag = "0"))
+}
+
 # ---- Render a slippage badge ----
-slippage_badge_html <- function(months) {
+# revised_label: e.g. "FY2026-27" when a new completion date is known; NA otherwise
+slippage_badge_html <- function(months, revised_label = NA) {
   if (months < 0) return('<span class="slippage-badge badge-major-delay">Delay (TBD)</span>')
   if (months == 0) return('<span class="slippage-badge badge-on-track">On track</span>')
-  if (months < 6) return(glue('<span class="slippage-badge badge-minor-delay">{months}m delay</span>'))
-  glue('<span class="slippage-badge badge-major-delay">{months}m delay</span>')
+  css <- if (months < 6) "badge-minor-delay" else "badge-major-delay"
+  if (!is.na(revised_label)) {
+    glue('<span class="slippage-badge {css}">{months}m slip → {revised_label}</span>')
+  } else {
+    glue('<span class="slippage-badge {css}">{months}m overdue ↗</span>')
+  }
 }
 
 # ---- Render a progress bar ----
