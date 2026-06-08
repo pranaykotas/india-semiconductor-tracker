@@ -531,7 +531,7 @@ facilities:
 
   - id: asip-andhra-pradesh
     name: "ASIP Advanced Packaging"
-    company: "Advanced System in Package Tech"
+    company: "Advanced System In Package Technologies Pvt Ltd (ASIPTPL)"
     category: "Commercial (ISM Approved)"
     location:
       city: "Visakhapatnam"
@@ -541,15 +541,21 @@ facilities:
     type: "Assembly & Packaging"
     capability: "System-in-Package (96M units/year)"
     investment:
-      total_inr: 468
-    status: "Approved"
+      total_inr: 2388
+    status: "Under Construction"
     narrative:
-      significance: "Brings System-in-Package (SiP) technology to South India — key for miniaturised IoT and wearable devices."
-      what_it_makes: "System-in-Package (SiP) assemblies — multiple chips integrated into a single package. Used in smartwatches, wireless earbuds, IoT sensors, and other devices where space is at a premium."
+      significance: "Andhra Pradesh's first ISM-approved semiconductor project. Brings System-in-Package (SiP) technology to South India — key for miniaturised IoT and wearable devices."
+      what_it_makes: "System-in-Package (SiP) assemblies — multiple chips integrated into a single package. Used in smartwatches, wireless earbuds, IoT sensors, and other devices where space is at a premium. Two-phase project: Phase 1 (₹542 cr), Phase 2 (₹1,846 cr)."
       why_it_matters: "SiP is where the semiconductor industry is heading — integrating multiple functions (processor, memory, sensors, connectivity) into one tiny package. Having SiP capability in India positions the country for the next wave of electronics miniaturisation."
     milestones:
       - date: "2025-08-01"
-        event: "Approved by Union Cabinet under ISM"
+        event: "Approved by Union Cabinet under ISM (central fiscal support: ₹468 crore)"
+      - date: "2026-06-08"
+        event: "Groundbreaking ceremony at Tarluvada village, Anandapuram mandal, Visakhapatnam — Andhra Pradesh's first ISM project breaks ground"
+        source:
+          url: "https://www.thehindu.com/news/cities/Visakhapatnam/vizag-set-to-host-aps-first-india-semiconductor-mission-project/article71056847.ece"
+          title: "Vizag set to host A.P.'s first India Semiconductor Mission project (The Hindu)"
+          date: "2026-06-04"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 2
@@ -557,6 +563,7 @@ facilities:
     dates:
       announced: "2025-08-01"
       approved: "2025-08-01"
+      construction_start: "2026-06-08"
       original_expected_completion: "2027-08-01"
     sources:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
@@ -565,6 +572,9 @@ facilities:
       - url: "https://x.com/iit_tirupati/status/2031299126680604889"
         title: "IIT Tirupati: ASIP plant to come up in Visakhapatnam"
         date: "2026-04-04"
+      - url: "https://www.thehindu.com/news/cities/Visakhapatnam/vizag-set-to-host-aps-first-india-semiconductor-mission-project/article71056847.ece"
+        title: "Vizag set to host A.P.'s first India Semiconductor Mission project (The Hindu)"
+        date: "2026-06-04"
 
   # --- PRIVATE (NON-ISM) ---
 
