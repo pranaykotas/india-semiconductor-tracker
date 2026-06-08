@@ -43,7 +43,7 @@ CG Semi's pilot line at Sanand was a proof-of-concept moment — it showed that 
 Benchmarked against a 3nm fab (5/5).
 
 ### Timeliness
-<span class="slippage-badge badge-on-track">On track</span>
+<span class="slippage-badge badge-minor-delay">0.2m overdue ↗</span>
 
 
 :::

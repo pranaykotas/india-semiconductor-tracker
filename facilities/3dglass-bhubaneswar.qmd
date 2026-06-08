@@ -11,7 +11,7 @@ Brings next-generation glass packaging technology to India — a frontier area e
 
 ## What does this facility make?
 
-Produces advanced packaging using 3D glass substrates instead of traditional silicon or organic materials. Glass offers better signal integrity, thermal performance, and miniaturisation for high-frequency applications (5G, RF, sensors).
+Produces advanced packaging using 3D glass substrates instead of traditional silicon or organic materials. Glass offers better signal integrity, thermal performance, and miniaturisation for high-frequency applications (5G, RF, sensors). Capacity: 70,000 glass panels/year, 50 million assembled units/year, and 13,000 advanced 3D heterogeneous integration modules.
 
 ## Why does it matter?
 
@@ -28,7 +28,7 @@ Glass-based packaging is a next-generation technology that even leading semicond
 | **Partners** | None |
 | **Type** | Assembly & Packaging |
 | **Capability** | Next-gen Glass Substrates (50M units/year) |
-| **Status** | Approved |
+| **Status** | Under Construction |
 | **Investment** | ₹1,943 crore |
 | **Location** | Bhubaneswar, Odisha |
 | **Category** | Commercial (ISM Approved) |
@@ -52,6 +52,7 @@ Benchmarked against a 3nm fab (5/5).
 ## Project Timeline
 
 - **01 Aug 2025** — Approved by Union Cabinet under ISM
+- **19 Apr 2026** — Foundation stone laid at Info Valley, Khordha district, Bhubaneswar — India's first advanced 3D chip packaging unit breaks ground in presence of CM Mohan Charan Majhi and Union Minister Ashwini Vaishnaw
 
 
 
@@ -59,6 +60,7 @@ Benchmarked against a 3nm fab (5/5).
 
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
 - [PIB: Cabinet approves new semiconductor projects](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128604) (01 Aug 2025)
+- [PIB: Groundbreaking of India's First Advanced 3D Semiconductor Packaging Unit in Odisha](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549) (19 Apr 2026)
 
 ---
 

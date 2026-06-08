@@ -461,14 +461,20 @@ facilities:
     capability: "Next-gen Glass Substrates (50M units/year)"
     investment:
       total_inr: 1943
-    status: "Approved"
+    status: "Under Construction"
     narrative:
       significance: "Brings next-generation glass packaging technology to India — a frontier area even globally."
-      what_it_makes: "Produces advanced packaging using 3D glass substrates instead of traditional silicon or organic materials. Glass offers better signal integrity, thermal performance, and miniaturisation for high-frequency applications (5G, RF, sensors)."
+      what_it_makes: "Produces advanced packaging using 3D glass substrates instead of traditional silicon or organic materials. Glass offers better signal integrity, thermal performance, and miniaturisation for high-frequency applications (5G, RF, sensors). Capacity: 70,000 glass panels/year, 50 million assembled units/year, and 13,000 advanced 3D heterogeneous integration modules."
       why_it_matters: "Glass-based packaging is a next-generation technology that even leading semiconductor companies are still developing. By hosting this facility, India gets an early foothold in a packaging technology that could become industry-standard in the coming decade."
     milestones:
       - date: "2025-08-01"
         event: "Approved by Union Cabinet under ISM"
+      - date: "2026-04-19"
+        event: "Foundation stone laid at Info Valley, Khordha district, Bhubaneswar — India's first advanced 3D chip packaging unit breaks ground in presence of CM Mohan Charan Majhi and Union Minister Ashwini Vaishnaw"
+        source:
+          url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549"
+          title: "PIB: Groundbreaking of India's First Advanced 3D Semiconductor Packaging Unit in Odisha"
+          date: "2026-04-19"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 2
@@ -476,7 +482,8 @@ facilities:
     dates:
       announced: "2025-08-01"
       approved: "2025-08-01"
-      original_expected_completion: "2027-08-01"
+      construction_start: "2026-04-19"
+      original_expected_completion: "2028-08-01"
     sources:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
         title: "PIB: SEMICON India 2025 factsheet"
@@ -484,6 +491,9 @@ facilities:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128604"
         title: "PIB: Cabinet approves new semiconductor projects"
         date: "2025-08-01"
+      - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549"
+        title: "PIB: Groundbreaking of India's First Advanced 3D Semiconductor Packaging Unit in Odisha"
+        date: "2026-04-19"
 
   - id: cdil-mohali
     name: "CDIL Semiconductor Facility"
