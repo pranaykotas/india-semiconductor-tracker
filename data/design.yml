@@ -12,6 +12,35 @@ design_firms:
   # INDIAN FABLESS FIRMS
   # =============================================
 
+  - id: agrani-labs
+    name: "Agrani Labs"
+    category: "Indian Fabless"
+    dli_beneficiary: false
+    parent_company: null
+    parent_hq: null
+    founded: 2024
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "AI GPUs"
+    application_domains: ["AI", "Data Centre", "HPC"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: false
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "Founded by ex-Intel and ex-AMD veterans, designing AI GPUs from the ground up. Vinod Dham ('Father of the Pentium') is founding advisor. One of the few Indian startups attempting high-performance GPU design."
+      what_it_designs: "Full-stack AI compute platform — custom GPU hardware plus software stack including compilers, libraries, system software, and AI frameworks."
+    sources:
+      - url: "https://inc42.com/buzz/ai-semiconductor-startup-agrani-labs-raises-8-mn-from-peak-xv-partners/"
+        title: "AI Semiconductor Startup Agrani Labs Raises $8 Mn From Peak XV Partners (Inc42)"
+        date: "2026-01-28"
+
   - id: signalchip
     name: "Signalchip"
     category: "Indian Fabless"
