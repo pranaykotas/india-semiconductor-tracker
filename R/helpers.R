@@ -226,9 +226,10 @@ load_design_firms <- function(path = "data/design.yml") {
 
   rows <- lapply(raw$design_firms, function(f) {
     locs <- f$locations
-    primary <- locs[[1]]
-    cities <- paste(sapply(locs, function(l) l$city), collapse = ", ")
-    states <- paste(unique(sapply(locs, function(l) l$state)), collapse = ", ")
+    has_locs <- length(locs) > 0
+    primary <- if (has_locs) locs[[1]] else list(lat = NA_real_, lon = NA_real_)
+    cities <- if (has_locs) paste(sapply(locs, function(l) l$city), collapse = ", ") else ""
+    states <- if (has_locs) paste(unique(sapply(locs, function(l) l$state)), collapse = ", ") else ""
 
     tibble(
       id                = f$id,
@@ -272,6 +273,7 @@ load_design_locations <- function(path = "data/design.yml") {
   raw <- yaml::read_yaml(path)
 
   rows <- lapply(raw$design_firms, function(f) {
+    if (length(f$locations) == 0) return(list())
     lapply(f$locations, function(loc) {
       tibble(
         id       = f$id,

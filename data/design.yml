@@ -43,8 +43,8 @@ design_firms:
 
   - id: mindgrove
     name: "Mindgrove Technologies"
-    category: "Indian Fabless"
-    dli_beneficiary: false
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
     parent_company: null
     parent_hq: null
     founded: 2021
@@ -59,7 +59,7 @@ design_firms:
     design_scope: "Full chip"
     node_sophistication: "180nm"
     dli:
-      approved: false
+      approved: true
       product: null
       grant_inr: null
     narrative:
@@ -98,6 +98,808 @@ design_firms:
       - url: "https://www.vvdntech.com"
         title: "VVDN Technologies official website"
         date: "2026-01-01"
+
+  # --- DLI Beneficiaries (source: chips-dli.gov.in) ---
+
+  - id: saankhya-labs
+    name: "Saankhya Labs"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: 2007
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "5G broadcast/satellite SoCs"
+    application_domains: ["Telecom", "5G", "Broadcast", "Satellite"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "One of India's earliest fabless chip design companies. Designs SoCs for 5G broadcast convergence and satellite communications."
+      what_it_designs: "Software-defined radio SoCs for 5G NR broadcast, ATSC 3.0, and satellite-terrestrial convergence."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: incore-semi
+    name: "InCore Semiconductors"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: 2018
+    india_headcount: null
+    locations:
+      - city: "Chennai"
+        state: "Tamil Nadu"
+        lat: 13.083
+        lon: 80.270
+    product_focus: "RISC-V processor cores"
+    application_domains: ["Computing", "IoT", "Edge"]
+    design_scope: "IP block"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "IIT Madras spin-off commercialising the SHAKTI RISC-V processor family. Among the first to offer production-ready indigenous RISC-V cores."
+      what_it_designs: "RISC-V processor IP cores for embedded, IoT, and edge computing applications. Derived from the SHAKTI processor programme at IIT Madras."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: morphing-machines
+    name: "Morphing Machines"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: 2007
+    india_headcount: null
+    locations:
+      - city: "Hyderabad"
+        state: "Telangana"
+        lat: 17.385
+        lon: 78.487
+    product_focus: "Reconfigurable processors"
+    application_domains: ["Computing", "HPC", "AI"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "IIT Hyderabad spin-off building reconfigurable processor architectures (REDEFINE). One of the earliest deep-tech semiconductor startups in India."
+      what_it_designs: "Coarse-grained reconfigurable array (CGRA) processors that can be dynamically reconfigured for different workloads — AI inference, signal processing, cryptography."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: wisig
+    name: "WiSig Networks"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations:
+      - city: "Hyderabad"
+        state: "Telangana"
+        lat: 17.385
+        lon: 78.487
+    product_focus: "5G NR chipsets"
+    application_domains: ["Telecom", "5G"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "IIT Hyderabad spin-off designing 5G New Radio chipsets for base stations and user equipment."
+      what_it_designs: "5G NR baseband and RF chipsets."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: terminus-circuits
+    name: "Terminus Circuits"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "High-speed analog/mixed-signal ICs"
+    application_domains: ["Data Centre", "Networking"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "Designs high-speed SerDes and analog interface ICs for data centre and networking applications."
+      what_it_designs: "High-speed serial transceivers (SerDes), data converters, and analog interface chips."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: calligo-tech
+    name: "Calligo Technologies"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "In-memory computing chips"
+    application_domains: ["AI", "Computing"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "Develops processing-in-memory architectures to accelerate AI and data-intensive workloads."
+      what_it_designs: "In-memory computing processor chips for AI inference and data analytics."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: fermionic-design
+    name: "Fermionic Design"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "mmWave/RF ICs"
+    application_domains: ["Telecom", "5G", "Defence"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "Designs millimetre-wave and RF integrated circuits for 5G and defence applications."
+      what_it_designs: "mmWave front-end ICs, RF transceivers, and beamforming chips."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: netrasemi
+    name: "Netrasemi"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "AI vision processors"
+    application_domains: ["AI", "Vision", "Edge"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "Designs AI-optimised vision processing chips for edge inference."
+      what_it_designs: "Vision AI processors for edge devices — surveillance, automotive, and industrial vision applications."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: sandlogic
+    name: "Sandlogic Technologies"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "AI edge inference processors"
+    application_domains: ["AI", "Edge", "IoT"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "Designs low-power AI inference chips for edge deployment."
+      what_it_designs: "Neural network inference accelerators for edge AI applications."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: moschip
+    name: "MoSChip Technologies"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: 1999
+    india_headcount: null
+    locations:
+      - city: "Hyderabad"
+        state: "Telangana"
+        lat: 17.385
+        lon: 78.487
+    product_focus: "SoC/ASIC design, IoT connectivity"
+    application_domains: ["IoT", "Connectivity", "Industrial"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "Publicly listed (BSE/NSE) semiconductor design company. One of the few Indian fabless firms with a long operating history."
+      what_it_designs: "Custom ASICs, SoC designs for IoT connectivity, and turnkey VLSI design services."
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: vervesemi
+    name: "Vervesemi"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "Analog/mixed-signal ICs"
+    application_domains: ["Analog", "Power"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: mbit-wireless
+    name: "MBit Wireless"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "5G modem/baseband"
+    application_domains: ["Telecom", "5G"]
+    design_scope: "Full chip"
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  # --- DLI Beneficiaries with minimal public information ---
+
+  - id: 3rdi-tech
+    name: "3RDi Tech"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: green-pmu-semi
+    name: "Green PMU Semi"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: sense-semi
+    name: "Sense Semi"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: qualivor
+    name: "Qualivor Technologies"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: aagya-vision
+    name: "Aagya Vision"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: vasbeam
+    name: "Vasbeam"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: chipspirit
+    name: "ChipSpirit"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: semiksha
+    name: "Semiksha"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: silizium-circuits
+    name: "Silizium Circuits"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: abcr-labs
+    name: "ABCR Labs"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: ampicq
+    name: "AmpicQ"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: big-endian-semi
+    name: "Big Endian Semi"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: silicon-support-solutions
+    name: "Silicon Support Solutions"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: stt-engineering
+    name: "STT Engineering"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: dheyo-ai
+    name: "Dheyo.ai"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: kris-emi
+    name: "Kris Emi Design Tech"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: quanfluence
+    name: "Quanfluence"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
+
+  - id: sophrosyne-tech
+    name: "Sophrosyne Technologies"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: null
+    india_headcount: null
+    locations: []
+    product_focus: null
+    application_domains: []
+    design_scope: null
+    node_sophistication: null
+    dli:
+      approved: true
+      product: null
+      grant_inr: null
+    narrative:
+      significance: null
+      what_it_designs: null
+    sources:
+      - url: "https://chips-dli.gov.in/DLI/HomePage"
+        title: "DLI Scheme beneficiary list"
+        date: "2026-06-27"
 
   # =============================================
   # GCC DESIGN CENTRES
