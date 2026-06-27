@@ -84,6 +84,8 @@ m
 
 ## Indian Fabless Firms
 
+Design capability is scored on four dimensions (each 1–5): **IP Ownership** (licensed cores → fully custom architecture), **Design Completeness** (single block → full chip tapeout), **Domain Difficulty** (commodity digital → custom analog/RF/GPU), and **Market Readiness** (pre-silicon → volume production). The composite is their equal-weighted average. Firms not yet scored show "—".
+
 ```{r indian-table, echo=FALSE, warning=FALSE, message=FALSE}
 indian <- firms %>%
   filter(category %in% c("Indian Fabless", "DLI Beneficiary")) %>%
@@ -91,12 +93,13 @@ indian <- firms %>%
     Name = name,
     Category = sapply(category, design_category_badge),
     Focus = product_focus,
+    Score = sapply(design_composite, design_score_bar_html),
     Scope = design_scope,
     Node = node_sophistication,
     `Founded` = founded,
     Locations = cities
   ) %>%
-  select(Name, Category, Focus, Scope, Node, Founded, Locations)
+  select(Name, Category, Focus, Score, Scope, Node, Founded, Locations)
 
 DT::datatable(
   indian,
@@ -118,6 +121,8 @@ DT::datatable(
 
 ## GCC Design Centres
 
+GCC design centres are scored differently: **Strategic Depth** (cost centre → India-led product decisions), **Design Completeness** (verification only → full chip tapeout from India), **Domain Difficulty** (same as above), and **India Scale** (headcount: <500 → >10,000).
+
 ```{r gcc-table, echo=FALSE, warning=FALSE, message=FALSE}
 gcc <- firms %>%
   filter(category == "GCC Design Centre") %>%
@@ -125,13 +130,14 @@ gcc <- firms %>%
     Name = name,
     Parent = paste0(parent_company, " (", parent_hq, ")"),
     Focus = product_focus,
+    Score = sapply(design_composite, design_score_bar_html),
     Scope = design_scope,
     Node = node_sophistication,
     `Est.` = founded,
     `Headcount` = ifelse(is.na(india_headcount), "—", paste0("~", format(india_headcount, big.mark = ","))),
     Locations = cities
   ) %>%
-  select(Name, Parent, Focus, Scope, Node, Est., Headcount, Locations)
+  select(Name, Parent, Focus, Score, Scope, Node, Est., Headcount, Locations)
 
 DT::datatable(
   gcc,

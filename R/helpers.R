@@ -252,11 +252,25 @@ load_design_firms <- function(path = "data/design.yml") {
       primary_lon       = primary$lon,
       cities            = cities,
       states            = states,
-      n_locations       = length(locs)
+      n_locations       = length(locs),
+      # Design scores — different dimensions for Indian vs GCC
+      score_dim1 = f$design_score[[1]] %||% NA_real_,
+      score_dim2 = f$design_score[[2]] %||% NA_real_,
+      score_dim3 = f$design_score[[3]] %||% NA_real_,
+      score_dim4 = f$design_score[[4]] %||% NA_real_
     )
   })
 
   df <- bind_rows(rows)
+
+  # Composite design score: equal-weighted average of available dimensions
+  df <- df %>%
+    mutate(
+      design_composite = round(rowMeans(
+        cbind(score_dim1, score_dim2, score_dim3, score_dim4),
+        na.rm = FALSE
+      ), 1)
+    )
 
   set.seed(43)
   df <- df %>%
@@ -309,6 +323,17 @@ design_category_color <- function(category) {
     "GCC Design Centre"  = "#1565C0",
     "#757575"
   )
+}
+
+# ---- Design score bar (reuses complexity-bar CSS) ----
+design_score_bar_html <- function(score) {
+  if (is.na(score)) return('<span class="complexity-bar" title="Not yet scored">—</span>')
+  filled <- round(score)
+  segments <- vapply(1:5, function(i) {
+    cls <- if (i <= filled) "complexity-segment filled" else "complexity-segment"
+    glue('<span class="{cls}"></span>')
+  }, character(1))
+  glue('<span class="complexity-bar" title="Design Score: {score}/5">{paste(segments, collapse = "")}</span>')
 }
 
 # ---- Design category badge ----

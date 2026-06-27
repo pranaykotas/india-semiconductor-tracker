@@ -1,1100 +1,1652 @@
-# India Semiconductor Design Tracker — Fabless Firms & GCC Design Centres
-# Maintained alongside facilities.yml for the India Semiconductor Tracker
-#
-# Two categories:
-#   "Indian Fabless"     — Indian-origin chip design companies
-#   "DLI Beneficiary"    — Subset approved under Design Linked Incentive scheme
-#   "GCC Design Centre"  — India R&D centres of foreign semiconductor companies
-
 design_firms:
-
-  # =============================================
-  # INDIAN FABLESS FIRMS
-  # =============================================
-
-  - id: agrani-labs
-    name: "Agrani Labs"
-    category: "Indian Fabless"
-    dli_beneficiary: false
-    parent_company: null
-    parent_hq: null
-    founded: 2024
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "AI GPUs"
-    application_domains: ["AI", "Data Centre", "HPC"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: false
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "Founded by ex-Intel and ex-AMD veterans, designing AI GPUs from the ground up. Vinod Dham ('Father of the Pentium') is founding advisor. One of the few Indian startups attempting high-performance GPU design."
-      what_it_designs: "Full-stack AI compute platform — custom GPU hardware plus software stack including compilers, libraries, system software, and AI frameworks."
-    sources:
-      - url: "https://inc42.com/buzz/ai-semiconductor-startup-agrani-labs-raises-8-mn-from-peak-xv-partners/"
-        title: "AI Semiconductor Startup Agrani Labs Raises $8 Mn From Peak XV Partners (Inc42)"
-        date: "2026-01-28"
-
-  - id: signalchip
-    name: "Signalchip"
-    category: "Indian Fabless"
-    dli_beneficiary: false
-    parent_company: null
-    parent_hq: null
-    founded: 2008
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "4G/5G modem SoCs"
-    application_domains: ["Telecom", "5G"]
-    design_scope: "Full chip"
-    node_sophistication: "7nm"
-    dli:
-      approved: false
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "One of India's pioneering fabless semiconductor companies. Designed India's first indigenously developed 4G/LTE and 5G NR modem chipsets."
-      what_it_designs: "Multi-standard wireless modem SoCs supporting 4G LTE-Advanced and 5G NR. Targets telecom infrastructure and CPE (Customer Premises Equipment) applications."
-    sources:
-      - url: "https://www.signalchip.com"
-        title: "Signalchip official website"
-        date: "2026-01-01"
-
-  - id: mindgrove
-    name: "Mindgrove Technologies"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: 2021
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "RISC-V SoCs"
-    application_domains: ["IoT", "Edge Computing"]
-    design_scope: "Full chip"
-    node_sophistication: "180nm"
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "IIT Madras spin-off building RISC-V based SoCs. Among the first Indian startups to tape out a production-ready RISC-V chip."
-      what_it_designs: "Secure IoT SoCs based on RISC-V architecture with built-in hardware security features. The Secure IoT chip targets smart metering, industrial automation, and connected devices."
-    sources:
-      - url: "https://mindgrovetech.in"
-        title: "Mindgrove Technologies official website"
-        date: "2026-01-01"
-
-  - id: vvdn
-    name: "VVDN Technologies"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: 2007
-    india_headcount: null
-    locations:
-      - city: "Gurugram"
-        state: "Haryana"
-        lat: 28.459
-        lon: 77.027
-    product_focus: "5G small cell SoCs, networking chips"
-    application_domains: ["Telecom", "5G", "Networking"]
-    design_scope: "Full chip"
-    node_sophistication: "12nm"
-    dli:
-      approved: true
-      product: "5G small cell SoC"
-      grant_inr: null
-    narrative:
-      significance: "One of the early DLI beneficiaries. Product engineering and ODM firm moving into chip design for 5G infrastructure."
-      what_it_designs: "5G small cell baseband and RF front-end SoCs for telecom infrastructure. Also designs networking and IoT chipsets."
-    sources:
-      - url: "https://www.vvdntech.com"
-        title: "VVDN Technologies official website"
-        date: "2026-01-01"
-
-  # --- DLI Beneficiaries (source: chips-dli.gov.in) ---
-
-  - id: saankhya-labs
-    name: "Saankhya Labs"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: 2007
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "5G broadcast/satellite SoCs"
-    application_domains: ["Telecom", "5G", "Broadcast", "Satellite"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "One of India's earliest fabless chip design companies. Designs SoCs for 5G broadcast convergence and satellite communications."
-      what_it_designs: "Software-defined radio SoCs for 5G NR broadcast, ATSC 3.0, and satellite-terrestrial convergence."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: incore-semi
-    name: "InCore Semiconductors"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: 2018
-    india_headcount: null
-    locations:
-      - city: "Chennai"
-        state: "Tamil Nadu"
-        lat: 13.083
-        lon: 80.270
-    product_focus: "RISC-V processor cores"
-    application_domains: ["Computing", "IoT", "Edge"]
-    design_scope: "IP block"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "IIT Madras spin-off commercialising the SHAKTI RISC-V processor family. Among the first to offer production-ready indigenous RISC-V cores."
-      what_it_designs: "RISC-V processor IP cores for embedded, IoT, and edge computing applications. Derived from the SHAKTI processor programme at IIT Madras."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: morphing-machines
-    name: "Morphing Machines"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: 2007
-    india_headcount: null
-    locations:
-      - city: "Hyderabad"
-        state: "Telangana"
-        lat: 17.385
-        lon: 78.487
-    product_focus: "Reconfigurable processors"
-    application_domains: ["Computing", "HPC", "AI"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "IIT Hyderabad spin-off building reconfigurable processor architectures (REDEFINE). One of the earliest deep-tech semiconductor startups in India."
-      what_it_designs: "Coarse-grained reconfigurable array (CGRA) processors that can be dynamically reconfigured for different workloads — AI inference, signal processing, cryptography."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: wisig
-    name: "WiSig Networks"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations:
-      - city: "Hyderabad"
-        state: "Telangana"
-        lat: 17.385
-        lon: 78.487
-    product_focus: "5G NR chipsets"
-    application_domains: ["Telecom", "5G"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "IIT Hyderabad spin-off designing 5G New Radio chipsets for base stations and user equipment."
-      what_it_designs: "5G NR baseband and RF chipsets."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: terminus-circuits
-    name: "Terminus Circuits"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "High-speed analog/mixed-signal ICs"
-    application_domains: ["Data Centre", "Networking"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "Designs high-speed SerDes and analog interface ICs for data centre and networking applications."
-      what_it_designs: "High-speed serial transceivers (SerDes), data converters, and analog interface chips."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: calligo-tech
-    name: "Calligo Technologies"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "In-memory computing chips"
-    application_domains: ["AI", "Computing"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "Develops processing-in-memory architectures to accelerate AI and data-intensive workloads."
-      what_it_designs: "In-memory computing processor chips for AI inference and data analytics."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: fermionic-design
-    name: "Fermionic Design"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "mmWave/RF ICs"
-    application_domains: ["Telecom", "5G", "Defence"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "Designs millimetre-wave and RF integrated circuits for 5G and defence applications."
-      what_it_designs: "mmWave front-end ICs, RF transceivers, and beamforming chips."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: netrasemi
-    name: "Netrasemi"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "AI vision processors"
-    application_domains: ["AI", "Vision", "Edge"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "Designs AI-optimised vision processing chips for edge inference."
-      what_it_designs: "Vision AI processors for edge devices — surveillance, automotive, and industrial vision applications."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: sandlogic
-    name: "Sandlogic Technologies"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "AI edge inference processors"
-    application_domains: ["AI", "Edge", "IoT"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "Designs low-power AI inference chips for edge deployment."
-      what_it_designs: "Neural network inference accelerators for edge AI applications."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: moschip
-    name: "MoSChip Technologies"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: 1999
-    india_headcount: null
-    locations:
-      - city: "Hyderabad"
-        state: "Telangana"
-        lat: 17.385
-        lon: 78.487
-    product_focus: "SoC/ASIC design, IoT connectivity"
-    application_domains: ["IoT", "Connectivity", "Industrial"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "Publicly listed (BSE/NSE) semiconductor design company. One of the few Indian fabless firms with a long operating history."
-      what_it_designs: "Custom ASICs, SoC designs for IoT connectivity, and turnkey VLSI design services."
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: vervesemi
-    name: "Vervesemi"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "Analog/mixed-signal ICs"
-    application_domains: ["Analog", "Power"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: mbit-wireless
-    name: "MBit Wireless"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "5G modem/baseband"
-    application_domains: ["Telecom", "5G"]
-    design_scope: "Full chip"
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  # --- DLI Beneficiaries with minimal public information ---
-
-  - id: 3rdi-tech
-    name: "3RDi Tech"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: green-pmu-semi
-    name: "Green PMU Semi"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: sense-semi
-    name: "Sense Semi"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: qualivor
-    name: "Qualivor Technologies"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: aagya-vision
-    name: "Aagya Vision"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: vasbeam
-    name: "Vasbeam"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: chipspirit
-    name: "ChipSpirit"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: semiksha
-    name: "Semiksha"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: silizium-circuits
-    name: "Silizium Circuits"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: abcr-labs
-    name: "ABCR Labs"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: ampicq
-    name: "AmpicQ"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: big-endian-semi
-    name: "Big Endian Semi"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: silicon-support-solutions
-    name: "Silicon Support Solutions"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: stt-engineering
-    name: "STT Engineering"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: dheyo-ai
-    name: "Dheyo.ai"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: kris-emi
-    name: "Kris Emi Design Tech"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: quanfluence
-    name: "Quanfluence"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  - id: sophrosyne-tech
-    name: "Sophrosyne Technologies"
-    category: "DLI Beneficiary"
-    dli_beneficiary: true
-    parent_company: null
-    parent_hq: null
-    founded: null
-    india_headcount: null
-    locations: []
-    product_focus: null
-    application_domains: []
-    design_scope: null
-    node_sophistication: null
-    dli:
-      approved: true
-      product: null
-      grant_inr: null
-    narrative:
-      significance: null
-      what_it_designs: null
-    sources:
-      - url: "https://chips-dli.gov.in/DLI/HomePage"
-        title: "DLI Scheme beneficiary list"
-        date: "2026-06-27"
-
-  # =============================================
-  # GCC DESIGN CENTRES
-  # =============================================
-
-  - id: qualcomm-india
-    name: "Qualcomm India"
-    category: "GCC Design Centre"
-    dli_beneficiary: false
-    parent_company: "Qualcomm Inc."
-    parent_hq: "United States"
-    founded: 1996
-    india_headcount: 7000
-    locations:
-      - city: "Hyderabad"
-        state: "Telangana"
-        lat: 17.385
-        lon: 78.487
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-      - city: "Chennai"
-        state: "Tamil Nadu"
-        lat: 13.083
-        lon: 80.270
-      - city: "Noida"
-        state: "Uttar Pradesh"
-        lat: 28.535
-        lon: 77.391
-    product_focus: "Mobile SoCs, 5G modems, AI accelerators"
-    application_domains: ["Mobile", "5G", "AI", "Automotive"]
-    design_scope: "Full chip"
-    node_sophistication: "3nm"
-    dli:
-      approved: false
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "One of the earliest and largest semiconductor design operations in India. Hyderabad is Qualcomm's largest engineering centre outside San Diego."
-      what_it_designs: "Snapdragon mobile SoCs, 5G modem chipsets, AI/ML inference engines, and automotive connectivity chips. India teams contribute across the full design cycle — architecture, RTL, verification, physical design, and software."
-    sources:
-      - url: "https://www.qualcomm.com/company/locations/india"
-        title: "Qualcomm India operations"
-        date: "2026-01-01"
-
-  - id: ti-india
-    name: "Texas Instruments India"
-    category: "GCC Design Centre"
-    dli_beneficiary: false
-    parent_company: "Texas Instruments Inc."
-    parent_hq: "United States"
-    founded: 1985
-    india_headcount: 5000
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "Analog, embedded processing, power management"
-    application_domains: ["Industrial", "Automotive", "Power"]
-    design_scope: "Full chip"
-    node_sophistication: "28nm"
-    dli:
-      approved: false
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "TI Bengaluru is one of the longest-running semiconductor design centres in India, operational since 1985. It is a full chip design centre, not just a support office."
-      what_it_designs: "Analog and mixed-signal ICs, power management chips, embedded microcontrollers (MSP430, C2000 series), and industrial interface chips. Bengaluru handles complete chip ownership from concept to production."
-    sources:
-      - url: "https://www.ti.com/about-ti/company/ti-india.html"
-        title: "Texas Instruments India"
-        date: "2026-01-01"
-
-  - id: intel-india
-    name: "Intel India"
-    category: "GCC Design Centre"
-    dli_beneficiary: false
-    parent_company: "Intel Corporation"
-    parent_hq: "United States"
-    founded: 1988
-    india_headcount: 14000
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-      - city: "Hyderabad"
-        state: "Telangana"
-        lat: 17.385
-        lon: 78.487
-    product_focus: "CPU/GPU design, AI accelerators, platform validation"
-    application_domains: ["Computing", "AI", "Data Centre", "Client"]
-    design_scope: "Full chip"
-    node_sophistication: "3nm"
-    dli:
-      approved: false
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "Intel's largest design centre outside the United States. Bengaluru teams have contributed to multiple generations of Core processors and Xeon server chips."
-      what_it_designs: "Core and Xeon CPU microarchitecture, GPU design (Arc), AI accelerator IPs, platform validation, and firmware. India teams are involved in front-end design, verification, physical design, and post-silicon validation."
-    sources:
-      - url: "https://www.intel.in/content/www/in/en/company-overview/company-overview.html"
-        title: "Intel India overview"
-        date: "2026-01-01"
-
-  - id: amd-india
-    name: "AMD India"
-    category: "GCC Design Centre"
-    dli_beneficiary: false
-    parent_company: "Advanced Micro Devices Inc."
-    parent_hq: "United States"
-    founded: 2004
-    india_headcount: 6500
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-      - city: "Hyderabad"
-        state: "Telangana"
-        lat: 17.385
-        lon: 78.487
-    product_focus: "CPU/GPU design, adaptive computing"
-    application_domains: ["Computing", "Data Centre", "Gaming", "FPGA"]
-    design_scope: "Full chip"
-    node_sophistication: "3nm"
-    dli:
-      approved: false
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "AMD's largest R&D centre outside the US, significantly expanded after the Xilinx acquisition. India teams work on Ryzen, EPYC, Radeon, and Versal adaptive SoC product lines."
-      what_it_designs: "CPU (Ryzen, EPYC) and GPU (Radeon) design, adaptive computing platforms (Versal, inherited from Xilinx), and data centre accelerators. India engineers work across RTL design, verification, physical design, and emulation."
-    sources:
-      - url: "https://www.amd.com/en/corporate/locations"
-        title: "AMD global locations"
-        date: "2026-01-01"
-
-  - id: samsung-india-semi
-    name: "Samsung Semiconductor India R&D"
-    category: "GCC Design Centre"
-    dli_beneficiary: false
-    parent_company: "Samsung Electronics"
-    parent_hq: "South Korea"
-    founded: 2007
-    india_headcount: null
-    locations:
-      - city: "Bengaluru"
-        state: "Karnataka"
-        lat: 12.972
-        lon: 77.594
-    product_focus: "Mobile SoCs, modem design, display controllers"
-    application_domains: ["Mobile", "Display", "AI"]
-    design_scope: "Full chip"
-    node_sophistication: "3nm"
-    dli:
-      approved: false
-      product: null
-      grant_inr: null
-    narrative:
-      significance: "Samsung's semiconductor R&D in Bengaluru works on Exynos mobile SoCs and modem design. Part of Samsung's broader India R&D footprint which is its largest outside South Korea."
-      what_it_designs: "Exynos mobile application processors, 5G modem IPs, display driver ICs, and custom neural processing units for on-device AI."
-    sources:
-      - url: "https://research.samsung.com/sri-b"
-        title: "Samsung R&D Institute India - Bengaluru"
-        date: "2026-01-01"
+- id: agrani-labs
+  name: Agrani Labs
+  category: Indian Fabless
+  dli_beneficiary: false
+  parent_company: null
+  parent_hq: null
+  founded: 2024
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: AI GPUs
+  application_domains:
+  - AI
+  - Data Centre
+  - HPC
+  design_scope: Full chip
+  node_sophistication: null
+  design_score:
+    ip_ownership: 5
+    design_completeness: 1
+    domain_difficulty: 5
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Founded by ex-Intel and ex-AMD veterans, designing AI GPUs from the ground up. Vinod Dham ('Father of the
+      Pentium') is founding advisor. One of the few Indian startups attempting high-performance GPU design.
+    what_it_designs: Full-stack AI compute platform — custom GPU hardware plus software stack including compilers, libraries,
+      system software, and AI frameworks.
+  sources:
+  - url: https://inc42.com/buzz/ai-semiconductor-startup-agrani-labs-raises-8-mn-from-peak-xv-partners/
+    title: AI Semiconductor Startup Agrani Labs Raises $8 Mn From Peak XV Partners (Inc42)
+    date: '2026-01-28'
+- id: signalchip
+  name: Signalchip
+  category: Indian Fabless
+  dli_beneficiary: false
+  parent_company: null
+  parent_hq: null
+  founded: 2008
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: 4G/5G modem SoCs
+  application_domains:
+  - Telecom
+  - 5G
+  design_scope: Full chip
+  node_sophistication: 7nm
+  design_score:
+    ip_ownership: 5
+    design_completeness: 5
+    domain_difficulty: 5
+    market_readiness: 3
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: One of India's pioneering fabless semiconductor companies. Designed India's first indigenously developed
+      4G/LTE and 5G NR modem chipsets.
+    what_it_designs: Multi-standard wireless modem SoCs supporting 4G LTE-Advanced and 5G NR. Targets telecom infrastructure
+      and CPE (Customer Premises Equipment) applications.
+  sources:
+  - url: https://www.signalchip.com
+    title: Signalchip official website
+    date: '2026-01-01'
+- id: mindgrove
+  name: Mindgrove Technologies
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: 2021
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: RISC-V SoCs
+  application_domains:
+  - IoT
+  - Edge Computing
+  design_scope: Full chip
+  node_sophistication: 180nm
+  design_score:
+    ip_ownership: 5
+    design_completeness: 4
+    domain_difficulty: 3
+    market_readiness: 2
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: IIT Madras spin-off building RISC-V based SoCs. Among the first Indian startups to tape out a production-ready
+      RISC-V chip.
+    what_it_designs: Secure IoT SoCs based on RISC-V architecture with built-in hardware security features. The Secure IoT
+      chip targets smart metering, industrial automation, and connected devices.
+  sources:
+  - url: https://mindgrovetech.in
+    title: Mindgrove Technologies official website
+    date: '2026-01-01'
+- id: vvdn
+  name: VVDN Technologies
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: 2007
+  india_headcount: null
+  locations:
+  - city: Gurugram
+    state: Haryana
+    lat: 28.459
+    lon: 77.027
+  product_focus: 5G small cell SoCs, networking chips
+  application_domains:
+  - Telecom
+  - 5G
+  - Networking
+  design_scope: Full chip
+  node_sophistication: 12nm
+  design_score:
+    ip_ownership: 4
+    design_completeness: 3
+    domain_difficulty: 4
+    market_readiness: 2
+  dli:
+    approved: true
+    product: 5G small cell SoC
+    grant_inr: null
+  narrative:
+    significance: One of the early DLI beneficiaries. Product engineering and ODM firm moving into chip design for 5G infrastructure.
+    what_it_designs: 5G small cell baseband and RF front-end SoCs for telecom infrastructure. Also designs networking and
+      IoT chipsets.
+  sources:
+  - url: https://www.vvdntech.com
+    title: VVDN Technologies official website
+    date: '2026-01-01'
+- id: saankhya-labs
+  name: Saankhya Labs
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: 2007
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: 5G broadcast/satellite SoCs
+  application_domains:
+  - Telecom
+  - 5G
+  - Broadcast
+  - Satellite
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: One of India's earliest fabless chip design companies. Designs SoCs for 5G broadcast convergence and satellite
+      communications.
+    what_it_designs: Software-defined radio SoCs for 5G NR broadcast, ATSC 3.0, and satellite-terrestrial convergence.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 5
+    design_completeness: 4
+    domain_difficulty: 5
+    market_readiness: 3
+- id: incore-semi
+  name: InCore Semiconductors
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: 2018
+  india_headcount: null
+  locations:
+  - city: Chennai
+    state: Tamil Nadu
+    lat: 13.083
+    lon: 80.27
+  product_focus: RISC-V processor cores
+  application_domains:
+  - Computing
+  - IoT
+  - Edge
+  design_scope: IP block
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: IIT Madras spin-off commercialising the SHAKTI RISC-V processor family. Among the first to offer production-ready
+      indigenous RISC-V cores.
+    what_it_designs: RISC-V processor IP cores for embedded, IoT, and edge computing applications. Derived from the SHAKTI
+      processor programme at IIT Madras.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 5
+    design_completeness: 3
+    domain_difficulty: 3
+    market_readiness: 2
+- id: morphing-machines
+  name: Morphing Machines
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: 2007
+  india_headcount: null
+  locations:
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Reconfigurable processors
+  application_domains:
+  - Computing
+  - HPC
+  - AI
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: IIT Hyderabad spin-off building reconfigurable processor architectures (REDEFINE). One of the earliest deep-tech
+      semiconductor startups in India.
+    what_it_designs: Coarse-grained reconfigurable array (CGRA) processors that can be dynamically reconfigured for different
+      workloads — AI inference, signal processing, cryptography.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 5
+    design_completeness: 3
+    domain_difficulty: 5
+    market_readiness: 1
+- id: wisig
+  name: WiSig Networks
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: 5G NR chipsets
+  application_domains:
+  - Telecom
+  - 5G
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: IIT Hyderabad spin-off designing 5G New Radio chipsets for base stations and user equipment.
+    what_it_designs: 5G NR baseband and RF chipsets.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 4
+    design_completeness: 2
+    domain_difficulty: 4
+    market_readiness: 1
+- id: terminus-circuits
+  name: Terminus Circuits
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: High-speed analog/mixed-signal ICs
+  application_domains:
+  - Data Centre
+  - Networking
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Designs high-speed SerDes and analog interface ICs for data centre and networking applications.
+    what_it_designs: High-speed serial transceivers (SerDes), data converters, and analog interface chips.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 4
+    design_completeness: 3
+    domain_difficulty: 5
+    market_readiness: 2
+- id: calligo-tech
+  name: Calligo Technologies
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: In-memory computing chips
+  application_domains:
+  - AI
+  - Computing
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Develops processing-in-memory architectures to accelerate AI and data-intensive workloads.
+    what_it_designs: In-memory computing processor chips for AI inference and data analytics.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 5
+    design_completeness: 2
+    domain_difficulty: 5
+    market_readiness: 1
+- id: fermionic-design
+  name: Fermionic Design
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: mmWave/RF ICs
+  application_domains:
+  - Telecom
+  - 5G
+  - Defence
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Designs millimetre-wave and RF integrated circuits for 5G and defence applications.
+    what_it_designs: mmWave front-end ICs, RF transceivers, and beamforming chips.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 4
+    design_completeness: 2
+    domain_difficulty: 5
+    market_readiness: 1
+- id: netrasemi
+  name: Netrasemi
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: AI vision processors
+  application_domains:
+  - AI
+  - Vision
+  - Edge
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Designs AI-optimised vision processing chips for edge inference.
+    what_it_designs: Vision AI processors for edge devices — surveillance, automotive, and industrial vision applications.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 4
+    design_completeness: 2
+    domain_difficulty: 4
+    market_readiness: 1
+- id: sandlogic
+  name: Sandlogic Technologies
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: AI edge inference processors
+  application_domains:
+  - AI
+  - Edge
+  - IoT
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Designs low-power AI inference chips for edge deployment.
+    what_it_designs: Neural network inference accelerators for edge AI applications.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 4
+    design_completeness: 2
+    domain_difficulty: 4
+    market_readiness: 1
+- id: moschip
+  name: MoSChip Technologies
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: 1999
+  india_headcount: null
+  locations:
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: SoC/ASIC design, IoT connectivity
+  application_domains:
+  - IoT
+  - Connectivity
+  - Industrial
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Publicly listed (BSE/NSE) semiconductor design company. One of the few Indian fabless firms with a long
+      operating history.
+    what_it_designs: Custom ASICs, SoC designs for IoT connectivity, and turnkey VLSI design services.
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+  design_score:
+    ip_ownership: 3
+    design_completeness: 4
+    domain_difficulty: 3
+    market_readiness: 4
+- id: vervesemi
+  name: Vervesemi
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Analog/mixed-signal ICs
+  application_domains:
+  - Analog
+  - Power
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: mbit-wireless
+  name: MBit Wireless
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: 5G modem/baseband
+  application_domains:
+  - Telecom
+  - 5G
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: 3rdi-tech
+  name: 3RDi Tech
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: green-pmu-semi
+  name: Green PMU Semi
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: sense-semi
+  name: Sense Semi
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: qualivor
+  name: Qualivor Technologies
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: aagya-vision
+  name: Aagya Vision
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: vasbeam
+  name: Vasbeam
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: chipspirit
+  name: ChipSpirit
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: semiksha
+  name: Semiksha
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: silizium-circuits
+  name: Silizium Circuits
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: abcr-labs
+  name: ABCR Labs
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: ampicq
+  name: AmpicQ
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: big-endian-semi
+  name: Big Endian Semi
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: silicon-support-solutions
+  name: Silicon Support Solutions
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: stt-engineering
+  name: STT Engineering
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: dheyo-ai
+  name: Dheyo.ai
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: kris-emi
+  name: Kris Emi Design Tech
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: quanfluence
+  name: Quanfluence
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: sophrosyne-tech
+  name: Sophrosyne Technologies
+  category: DLI Beneficiary
+  dli_beneficiary: true
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: null
+  application_domains: []
+  design_scope: null
+  node_sophistication: null
+  dli:
+    approved: true
+    product: null
+    grant_inr: null
+  narrative:
+    significance: null
+    what_it_designs: null
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Scheme beneficiary list
+    date: '2026-06-27'
+- id: qualcomm-india
+  name: Qualcomm India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Qualcomm Inc.
+  parent_hq: United States
+  founded: 1996
+  india_headcount: 7000
+  locations:
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Chennai
+    state: Tamil Nadu
+    lat: 13.083
+    lon: 80.27
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
+  product_focus: Mobile SoCs, 5G modems, AI accelerators
+  application_domains:
+  - Mobile
+  - 5G
+  - AI
+  - Automotive
+  design_scope: Full chip
+  node_sophistication: 3nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: One of the earliest and largest semiconductor design operations in India. Hyderabad is Qualcomm's largest
+      engineering centre outside San Diego.
+    what_it_designs: Snapdragon mobile SoCs, 5G modem chipsets, AI/ML inference engines, and automotive connectivity chips.
+      India teams contribute across the full design cycle — architecture, RTL, verification, physical design, and software.
+  sources:
+  - url: https://www.qualcomm.com/company/locations/india
+    title: Qualcomm India operations
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 5
+    design_completeness: 5
+    domain_difficulty: 5
+    india_scale: 5
+- id: ti-india
+  name: Texas Instruments India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Texas Instruments Inc.
+  parent_hq: United States
+  founded: 1985
+  india_headcount: 5000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Analog, embedded processing, power management
+  application_domains:
+  - Industrial
+  - Automotive
+  - Power
+  design_scope: Full chip
+  node_sophistication: 28nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: TI Bengaluru is one of the longest-running semiconductor design centres in India, operational since 1985.
+      It is a full chip design centre, not just a support office.
+    what_it_designs: Analog and mixed-signal ICs, power management chips, embedded microcontrollers (MSP430, C2000 series),
+      and industrial interface chips. Bengaluru handles complete chip ownership from concept to production.
+  sources:
+  - url: https://www.ti.com/about-ti/company/ti-india.html
+    title: Texas Instruments India
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 5
+    design_completeness: 5
+    domain_difficulty: 4
+    india_scale: 4
+- id: intel-india
+  name: Intel India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Intel Corporation
+  parent_hq: United States
+  founded: 1988
+  india_headcount: 14000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: CPU/GPU design, AI accelerators, platform validation
+  application_domains:
+  - Computing
+  - AI
+  - Data Centre
+  - Client
+  design_scope: Full chip
+  node_sophistication: 3nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Intel's largest design centre outside the United States. Bengaluru teams have contributed to multiple generations
+      of Core processors and Xeon server chips.
+    what_it_designs: Core and Xeon CPU microarchitecture, GPU design (Arc), AI accelerator IPs, platform validation, and firmware.
+      India teams are involved in front-end design, verification, physical design, and post-silicon validation.
+  sources:
+  - url: https://www.intel.in/content/www/in/en/company-overview/company-overview.html
+    title: Intel India overview
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 5
+    design_completeness: 5
+    domain_difficulty: 5
+    india_scale: 5
+- id: amd-india
+  name: AMD India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Advanced Micro Devices Inc.
+  parent_hq: United States
+  founded: 2004
+  india_headcount: 6500
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: CPU/GPU design, adaptive computing
+  application_domains:
+  - Computing
+  - Data Centre
+  - Gaming
+  - FPGA
+  design_scope: Full chip
+  node_sophistication: 3nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: AMD's largest R&D centre outside the US, significantly expanded after the Xilinx acquisition. India teams
+      work on Ryzen, EPYC, Radeon, and Versal adaptive SoC product lines.
+    what_it_designs: CPU (Ryzen, EPYC) and GPU (Radeon) design, adaptive computing platforms (Versal, inherited from Xilinx),
+      and data centre accelerators. India engineers work across RTL design, verification, physical design, and emulation.
+  sources:
+  - url: https://www.amd.com/en/corporate/locations
+    title: AMD global locations
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 5
+    design_completeness: 5
+    domain_difficulty: 5
+    india_scale: 5
+- id: samsung-india-semi
+  name: Samsung Semiconductor India R&D
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Samsung Electronics
+  parent_hq: South Korea
+  founded: 2007
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Mobile SoCs, modem design, display controllers
+  application_domains:
+  - Mobile
+  - Display
+  - AI
+  design_scope: Full chip
+  node_sophistication: 3nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Samsung's semiconductor R&D in Bengaluru works on Exynos mobile SoCs and modem design. Part of Samsung's
+      broader India R&D footprint which is its largest outside South Korea.
+    what_it_designs: Exynos mobile application processors, 5G modem IPs, display driver ICs, and custom neural processing
+      units for on-device AI.
+  sources:
+  - url: https://research.samsung.com/sri-b
+    title: Samsung R&D Institute India - Bengaluru
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 5
+    domain_difficulty: 5
+    india_scale: 3
+- id: broadcom-india
+  name: Broadcom India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Broadcom Inc.
+  parent_hq: United States
+  founded: 2000
+  india_headcount: 5000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Networking, broadband, wireless, storage controllers
+  application_domains:
+  - Networking
+  - Data Centre
+  - Broadband
+  - Storage
+  design_scope: Full chip
+  node_sophistication: 5nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Major networking and infrastructure chip design centre. India teams design switch ASICs, Memory, and storage
+      controllers that power global data centre infrastructure.
+    what_it_designs: Ethernet switch ASICs (Memory), broadband SoCs, Wi-Fi chipsets, enterprise storage/RAID controllers,
+      and custom silicon for hyperscale data centres.
+  sources:
+  - url: https://www.broadcom.com/company/about-us
+    title: Broadcom company overview
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 5
+    domain_difficulty: 4
+    india_scale: 4
+- id: nxp-india
+  name: NXP Semiconductors India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: NXP Semiconductors N.V.
+  parent_hq: Netherlands
+  founded: 2006
+  india_headcount: 3500
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
+  product_focus: Automotive processors, secure connectivity, NFC
+  application_domains:
+  - Automotive
+  - IoT
+  - Security
+  - Mobile
+  design_scope: Full chip
+  node_sophistication: 5nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: NXP's India centres are among its largest globally. Bengaluru is a key hub for automotive processor and
+      secure element design.
+    what_it_designs: Automotive application processors (S32 family), secure NFC controllers, i.MX application processors,
+      and radar sensor ICs for ADAS.
+  sources:
+  - url: https://www.nxp.com/company/about-nxp/worldwide-locations:WORLDWIDE-LOCATIONS
+    title: NXP worldwide locations
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 5
+    domain_difficulty: 4
+    india_scale: 3
+- id: infineon-india
+  name: Infineon Technologies India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Infineon Technologies AG
+  parent_hq: Germany
+  founded: 2000
+  india_headcount: 2000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Power semiconductors, automotive MCUs, security ICs
+  application_domains:
+  - Automotive
+  - Power
+  - IoT
+  - Security
+  design_scope: Full chip
+  node_sophistication: 28nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Infineon's Bengaluru centre is a core design hub for power management and automotive microcontroller development.
+    what_it_designs: Power MOSFETs, IGBT modules, AURIX automotive microcontrollers, OPTIGA security chips, and PSoC connectivity
+      solutions.
+  sources:
+  - url: https://www.infineon.com/cms/en/about-infineon/company/locations/
+    title: Infineon global locations
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 5
+    domain_difficulty: 4
+    india_scale: 2
+- id: stmicro-india
+  name: STMicroelectronics India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: STMicroelectronics N.V.
+  parent_hq: Switzerland
+  founded: 2003
+  india_headcount: 2500
+  locations:
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: MCUs, MEMS sensors, analog, power
+  application_domains:
+  - Automotive
+  - Industrial
+  - IoT
+  - Consumer
+  design_scope: Full chip
+  node_sophistication: 18nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: ST's India centre in Noida is one of its major design hubs, with significant work on STM32 microcontroller
+      family and MEMS sensor design.
+    what_it_designs: STM32 microcontrollers, MEMS inertial sensors and microphones, power management ICs, and SiC power devices.
+  sources:
+  - url: https://www.st.com/content/st_com/en/about/st_company_information/st-in-india.html
+    title: ST in India
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 5
+    domain_difficulty: 4
+    india_scale: 3
+- id: mediatek-india
+  name: MediaTek India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: MediaTek Inc.
+  parent_hq: Taiwan
+  founded: 2004
+  india_headcount: 1000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
+  product_focus: Mobile SoCs, Wi-Fi, smart TV chips
+  application_domains:
+  - Mobile
+  - Connectivity
+  - Consumer
+  design_scope: Full chip
+  node_sophistication: 3nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: MediaTek's India centre contributes to Dimensity mobile SoC and connectivity chip design. India is a growing
+      design hub for the Taiwanese chipmaker.
+    what_it_designs: Dimensity mobile SoCs, Wi-Fi 7 chipsets, smart TV and streaming media SoCs, and AI processing units for
+      mobile.
+  sources:
+  - url: https://www.mediatek.com/about/locations
+    title: MediaTek locations
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 3
+    design_completeness: 4
+    domain_difficulty: 4
+    india_scale: 2
+- id: synopsys-india
+  name: Synopsys India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Synopsys Inc.
+  parent_hq: United States
+  founded: 1995
+  india_headcount: 6000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
+  product_focus: EDA tools, semiconductor IP, silicon verification
+  application_domains:
+  - EDA
+  - IP
+  - Verification
+  - Security
+  design_scope: IP block
+  node_sophistication: 2nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Synopsys India is one of the company's largest R&D centres globally. India teams develop core EDA tools
+      used by every major chipmaker worldwide, plus DesignWare IP.
+    what_it_designs: EDA tools (synthesis, place-and-route, simulation, verification), DesignWare IP cores (USB, PCIe, DDR,
+      Ethernet), and silicon lifecycle management solutions.
+  sources:
+  - url: https://www.synopsys.com/company/contact-synopsys/office-locations.html
+    title: Synopsys office locations
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 5
+    design_completeness: 5
+    domain_difficulty: 5
+    india_scale: 5
+- id: cadence-india
+  name: Cadence Design Systems India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Cadence Design Systems Inc.
+  parent_hq: United States
+  founded: 1987
+  india_headcount: 4000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
+  - city: Ahmedabad
+    state: Gujarat
+    lat: 23.023
+    lon: 72.571
+  product_focus: EDA tools, system design, semiconductor IP
+  application_domains:
+  - EDA
+  - IP
+  - Verification
+  - PCB
+  design_scope: IP block
+  node_sophistication: 2nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Cadence's India operation is its largest outside the US. Noida and Bengaluru centres develop core EDA tools
+      including Virtuoso, Innovus, and Xcelium.
+    what_it_designs: EDA tools (custom/analog design, digital implementation, verification, emulation), Tensilica processor
+      IP, and system analysis tools for PCB/package design.
+  sources:
+  - url: https://www.cadence.com/en_US/home/company/contact-us/global-offices.html
+    title: Cadence global offices
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 5
+    design_completeness: 5
+    domain_difficulty: 5
+    india_scale: 4
+- id: arm-india
+  name: Arm India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Arm Ltd.
+  parent_hq: United Kingdom
+  founded: 2005
+  india_headcount: 2500
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
+  product_focus: CPU/GPU IP cores, system IP
+  application_domains:
+  - Mobile
+  - Computing
+  - IoT
+  - Automotive
+  design_scope: IP block
+  node_sophistication: 3nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Arm's India centre contributes to the design of Cortex CPU and Mali/Immortalis GPU IP that powers billions
+      of devices globally.
+    what_it_designs: Cortex-A/R/M CPU IP cores, Mali and Immortalis GPU IP, system IP (interconnects, memory controllers),
+      and physical IP for advanced nodes.
+  sources:
+  - url: https://www.arm.com/company/offices
+    title: Arm office locations
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 5
+    domain_difficulty: 5
+    india_scale: 3
+- id: renesas-india
+  name: Renesas Electronics India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Renesas Electronics Corp.
+  parent_hq: Japan
+  founded: 2010
+  india_headcount: 1000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Automotive MCUs, analog, IoT connectivity
+  application_domains:
+  - Automotive
+  - Industrial
+  - IoT
+  design_scope: Full chip
+  node_sophistication: 22nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Renesas India designs automotive microcontrollers and analog ICs. Part of the Japanese chipmaker's global
+      design network for automotive electronics.
+    what_it_designs: RH850 and RL78 automotive microcontrollers, analog power management ICs, and IoT connectivity solutions.
+  sources:
+  - url: https://www.renesas.com/en/about/company/locations
+    title: Renesas global locations
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 3
+    design_completeness: 4
+    domain_difficulty: 3
+    india_scale: 2
+- id: adi-india
+  name: Analog Devices India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Analog Devices Inc.
+  parent_hq: United States
+  founded: 1998
+  india_headcount: 2000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: High-performance analog, mixed-signal, DSP
+  application_domains:
+  - Industrial
+  - Automotive
+  - Healthcare
+  - Communications
+  design_scope: Full chip
+  node_sophistication: 16nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: ADI's India centres design high-performance analog and mixed-signal ICs. Bengaluru is a key hub for precision
+      converter and amplifier design.
+    what_it_designs: Precision data converters (ADC/DAC), amplifiers, power management, RF transceivers, and DSP processors
+      for industrial and communications applications.
+  sources:
+  - url: https://www.analog.com/en/about-adi/our-locations.html
+    title: Analog Devices locations
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 5
+    domain_difficulty: 5
+    india_scale: 2
