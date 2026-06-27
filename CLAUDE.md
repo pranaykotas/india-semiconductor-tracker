@@ -27,18 +27,20 @@ install.packages(c("yaml", "dplyr", "tidyr", "leaflet", "DT", "ggplot2", "scales
 - **Quarto website** configured in `_quarto.yml`, output to `_site/`
 - **Theme:** Cosmo + `styles.scss` (navy `#0D1F3C`, amber `#B85C00`)
 - **All facility data** lives in a single file: `data/facilities.yml`
+- **Design firm data** in `data/design.yml` — Indian fabless firms and GCC design centres (separate schema from facilities)
 - **R helper functions** in `R/helpers.R` — loads YAML, computes complexity scores, generates HTML for popups/badges
-- **5 main pages + 13 facility profiles:** Map & Overview (`index.qmd`), Timeline (`timeline.qmd`), Technology Nodes (`nodes.qmd`), Policy & Budget (`budget.qmd`), About (`about.qmd`)
+- **6 main pages + 13 facility profiles:** Map & Overview (`index.qmd`), Timeline (`timeline.qmd`), Technology Nodes (`nodes.qmd`), Chip Design (`design.qmd`), Policy & Budget (`budget.qmd`), About (`about.qmd`)
 - **Individual facility pages** in `facilities/` — generated from YAML by `Rscript R/generate_facility_pages.R`
 
 ### Data Flow
 
 ```
-data/facilities.yml  →  R/helpers.R (load_facilities())  →  .qmd pages (map, table, charts)
-data/budget.yml      →  R/helpers.R (load_budget())      →  budget.qmd (budget charts, analysis)
+data/facilities.yml  →  R/helpers.R (load_facilities())       →  .qmd pages (map, table, charts)
+data/design.yml      →  R/helpers.R (load_design_firms())     →  design.qmd (map, tables, charts)
+data/budget.yml      →  R/helpers.R (load_budget())           →  budget.qmd (budget charts, analysis)
 ```
 
-Routine updates only require editing `data/facilities.yml` or `data/budget.yml`. No R code changes needed.
+Routine updates only require editing `data/facilities.yml`, `data/design.yml`, or `data/budget.yml`. No R code changes needed.
 
 ### Facility Data Schema
 
@@ -70,3 +72,20 @@ External contributors submit updates via GitHub Issues using the template at `.g
 - `status_color(status)` / `type_color(type)` — colour mappings
 - `status_badge_html(status)` — renders coloured status badge
 - `complexity_bar_html(score)` — renders visual complexity indicator
+- `load_design_firms(path)` — reads design YAML → tibble (one row per firm, primary location)
+- `load_design_locations(path)` — reads design YAML → tibble (one row per location, for mapping)
+- `design_category_color(category)` / `design_category_badge(category)` — colour/badge for design firm categories
+
+### Design Firm Data Schema
+
+Each firm in `data/design.yml` has:
+- `id`, `name`, `category` (`Indian Fabless` | `DLI Beneficiary` | `GCC Design Centre`)
+- `dli_beneficiary` (boolean)
+- `parent_company`, `parent_hq` (for GCCs; null for Indian firms)
+- `founded` (year of India establishment)
+- `india_headcount` (approximate, when known)
+- `locations[]` (city, state, lat, lon — supports multiple)
+- `product_focus`, `application_domains[]`, `design_scope`, `node_sophistication`
+- `dli` (approved, product, grant_inr — for DLI beneficiaries)
+- `narrative` (significance, what_it_designs)
+- `sources[]` (url, title, date)

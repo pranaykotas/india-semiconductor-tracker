@@ -1,0 +1,191 @@
+---
+title: "Chip Design in India: Fabless Firms & GCC Design Centres"
+subtitle: "Tracking Indian fabless companies and global semiconductor design operations in India"
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(leaflet)
+library(DT)
+
+firms <- load_design_firms("data/design.yml")
+locations <- load_design_locations("data/design.yml")
+```
+
+## Overview
+
+India's semiconductor story is not just about manufacturing. Long before the first fab broke ground, India had become one of the world's largest bases for chip *design*. Global semiconductor companies have operated R&D centres in India for decades, and a growing cohort of Indian fabless startups is now designing chips from scratch.
+
+This page tracks two distinct groups:
+
+- **Indian fabless firms** — companies headquartered in India that design their own chips (including beneficiaries of the Design Linked Incentive scheme)
+- **GCC design centres** — India R&D operations of global semiconductor companies
+
+They have different strategic implications. Indian fabless firms build domestic IP ownership; GCCs bring design expertise, talent pipelines, and integration into global supply chains. Both matter, but differently.
+
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$category %in% c("Indian Fabless", "DLI Beneficiary"))` Indian fabless firms** and **`r sum(firms$category == "GCC Design Centre")` GCC design centres** across **`r length(unique(firms$states))`** states.
+
+---
+
+## Design Centre Map
+
+```{r map, echo=FALSE, warning=FALSE, message=FALSE, fig.height=6}
+m <- leaflet(locations, width = "100%") %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  setView(lng = 78.5, lat = 20, zoom = 5)
+
+categories <- unique(locations$category)
+for (cat in categories) {
+  subset <- locations[locations$category == cat, ]
+  colour <- design_category_color(cat)
+
+  m <- m %>%
+    addCircleMarkers(
+      data = subset,
+      lng = ~lon, lat = ~lat,
+      radius = 7,
+      color = colour,
+      fillColor = colour,
+      fillOpacity = 0.7,
+      stroke = TRUE,
+      weight = 1,
+      label = ~lapply(paste0("<strong>", name, "</strong><br/>", city, " | ", product_focus), htmltools::HTML),
+      popup = ~paste0(
+        '<div class="facility-popup">',
+        '<h4>', name, '</h4>',
+        '<div class="popup-row">', sapply(category, design_category_badge), '</div>',
+        '<div class="popup-row"><span class="popup-label">City:</span> ', city, '</div>',
+        '<div class="popup-row"><span class="popup-label">Focus:</span> ', product_focus, '</div>',
+        '<div class="popup-row"><span class="popup-label">Scope:</span> ', design_scope, '</div>',
+        '</div>'
+      ),
+      group = cat
+    )
+}
+
+m <- m %>%
+  addLegend(
+    position = "bottomright",
+    colors = sapply(c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre"), design_category_color),
+    labels = c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre"),
+    title = "Category",
+    opacity = 0.8
+  ) %>%
+  addLayersControl(
+    overlayGroups = categories,
+    options = layersControlOptions(collapsed = FALSE)
+  )
+
+m
+```
+
+---
+
+## Indian Fabless Firms
+
+```{r indian-table, echo=FALSE, warning=FALSE, message=FALSE}
+indian <- firms %>%
+  filter(category %in% c("Indian Fabless", "DLI Beneficiary")) %>%
+  mutate(
+    Name = name,
+    Category = sapply(category, design_category_badge),
+    Focus = product_focus,
+    Scope = design_scope,
+    Node = node_sophistication,
+    `Founded` = founded,
+    Locations = cities
+  ) %>%
+  select(Name, Category, Focus, Scope, Node, Founded, Locations)
+
+DT::datatable(
+  indian,
+  escape = FALSE,
+  rownames = FALSE,
+  options = list(
+    pageLength = 25,
+    dom = 'ftip',
+    order = list(list(0, 'asc')),
+    columnDefs = list(
+      list(className = 'dt-left', targets = '_all')
+    )
+  ),
+  class = "display compact stripe"
+)
+```
+
+---
+
+## GCC Design Centres
+
+```{r gcc-table, echo=FALSE, warning=FALSE, message=FALSE}
+gcc <- firms %>%
+  filter(category == "GCC Design Centre") %>%
+  mutate(
+    Name = name,
+    Parent = paste0(parent_company, " (", parent_hq, ")"),
+    Focus = product_focus,
+    Scope = design_scope,
+    Node = node_sophistication,
+    `Est.` = founded,
+    `Headcount` = ifelse(is.na(india_headcount), "—", paste0("~", format(india_headcount, big.mark = ","))),
+    Locations = cities
+  ) %>%
+  select(Name, Parent, Focus, Scope, Node, Est., Headcount, Locations)
+
+DT::datatable(
+  gcc,
+  escape = FALSE,
+  rownames = FALSE,
+  options = list(
+    pageLength = 25,
+    dom = 'ftip',
+    order = list(list(6, 'desc')),
+    columnDefs = list(
+      list(className = 'dt-left', targets = '_all')
+    )
+  ),
+  class = "display compact stripe"
+)
+```
+
+---
+
+## City-wise Concentration
+
+```{r city-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.height=4}
+library(ggplot2)
+
+city_counts <- locations %>%
+  count(city, category) %>%
+  arrange(desc(n))
+
+ggplot(city_counts, aes(x = reorder(city, n, sum), y = n, fill = category)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_manual(values = c(
+    "Indian Fabless" = "#E65100",
+    "DLI Beneficiary" = "#2E7D32",
+    "GCC Design Centre" = "#1565C0"
+  )) +
+  labs(
+    title = "Semiconductor Design Centres by City",
+    x = NULL, y = "Number of centres",
+    fill = "Category"
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(size = 14, face = "bold")
+  )
+```
+
+---
+
+::: {.callout-note}
+## Data Coverage & Sources
+
+This tracker is a work in progress. We aim to cover all DLI beneficiaries (~30 firms) and major GCC design centres (~15-20). If you know of a firm or centre that should be listed, please [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose) or [submit via our form](https://forms.gle/FDESu4jRksmr7FTk7).
+
+Primary sources: MeitY DLI scheme announcements, company websites, IESA reports, press releases.
+:::

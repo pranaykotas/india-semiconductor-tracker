@@ -220,6 +220,129 @@ make_label <- function(row) {
   glue('<strong>{row$name}</strong><br/>{row$company} | {row$capability}')
 }
 
+# ---- Load and flatten design firms YAML into a tibble ----
+load_design_firms <- function(path = "data/design.yml") {
+  raw <- yaml::read_yaml(path)
+
+  rows <- lapply(raw$design_firms, function(f) {
+    locs <- f$locations
+    primary <- locs[[1]]
+    cities <- paste(sapply(locs, function(l) l$city), collapse = ", ")
+    states <- paste(unique(sapply(locs, function(l) l$state)), collapse = ", ")
+
+    tibble(
+      id                = f$id,
+      name              = f$name,
+      category          = f$category,
+      dli_beneficiary   = f$dli_beneficiary %||% FALSE,
+      parent_company    = f$parent_company %||% NA_character_,
+      parent_hq         = f$parent_hq %||% NA_character_,
+      founded           = f$founded %||% NA_integer_,
+      india_headcount   = f$india_headcount %||% NA_integer_,
+      product_focus     = f$product_focus %||% "",
+      application_domains = paste(f$application_domains, collapse = ", "),
+      design_scope      = f$design_scope %||% "",
+      node_sophistication = f$node_sophistication %||% "",
+      dli_product       = f$dli$product %||% NA_character_,
+      dli_grant_inr     = f$dli$grant_inr %||% NA_real_,
+      significance      = f$narrative$significance %||% "",
+      what_it_designs   = f$narrative$what_it_designs %||% "",
+      primary_lat       = primary$lat,
+      primary_lon       = primary$lon,
+      cities            = cities,
+      states            = states,
+      n_locations       = length(locs)
+    )
+  })
+
+  df <- bind_rows(rows)
+
+  set.seed(43)
+  df <- df %>%
+    mutate(
+      primary_lat = primary_lat + runif(n(), -0.015, 0.015),
+      primary_lon = primary_lon + runif(n(), -0.015, 0.015)
+    )
+
+  df
+}
+
+# ---- Load all design firm locations (one row per location) for mapping ----
+load_design_locations <- function(path = "data/design.yml") {
+  raw <- yaml::read_yaml(path)
+
+  rows <- lapply(raw$design_firms, function(f) {
+    lapply(f$locations, function(loc) {
+      tibble(
+        id       = f$id,
+        name     = f$name,
+        category = f$category,
+        city     = loc$city,
+        state    = loc$state,
+        lat      = loc$lat,
+        lon      = loc$lon,
+        product_focus = f$product_focus %||% "",
+        design_scope  = f$design_scope %||% ""
+      )
+    })
+  })
+
+  df <- bind_rows(unlist(rows, recursive = FALSE))
+
+  set.seed(44)
+  df <- df %>%
+    mutate(
+      lat = lat + runif(n(), -0.02, 0.02),
+      lon = lon + runif(n(), -0.02, 0.02)
+    )
+
+  df
+}
+
+# ---- Map design category to marker colour ----
+design_category_color <- function(category) {
+  switch(category,
+    "Indian Fabless"     = "#E65100",
+    "DLI Beneficiary"    = "#2E7D32",
+    "GCC Design Centre"  = "#1565C0",
+    "#757575"
+  )
+}
+
+# ---- Design category badge ----
+design_category_badge <- function(category) {
+  css_class <- switch(category,
+    "Indian Fabless"     = "badge-approved",
+    "DLI Beneficiary"    = "badge-operational",
+    "GCC Design Centre"  = "badge-construction",
+    "badge-announced"
+  )
+  glue('<span class="status-badge {css_class}">{category}</span>')
+}
+
+# ---- Build leaflet popup for design firms ----
+make_design_popup <- function(row) {
+  parent_html <- if (!is.na(row$parent_company)) {
+    glue('<div class="popup-row"><span class="popup-label">Parent:</span> {row$parent_company} ({row$parent_hq})</div>')
+  } else ""
+
+  headcount_html <- if (!is.na(row$india_headcount)) {
+    glue('<div class="popup-row"><span class="popup-label">India headcount:</span> ~{format(row$india_headcount, big.mark = ",")}</div>')
+  } else ""
+
+  glue('
+    <div class="facility-popup">
+      <h4>{row$name}</h4>
+      <div class="popup-row">{design_category_badge(row$category)}</div>
+      {parent_html}
+      <div class="popup-row"><span class="popup-label">Focus:</span> {row$product_focus}</div>
+      <div class="popup-row"><span class="popup-label">Scope:</span> {row$design_scope}</div>
+      <div class="popup-row"><span class="popup-label">Node:</span> {row$node_sophistication}</div>
+      {headcount_html}
+    </div>
+  ')
+}
+
 # ---- Load budget ----
 load_budget <- function(path = "data/budget.yml") {
   raw <- yaml::read_yaml(path)

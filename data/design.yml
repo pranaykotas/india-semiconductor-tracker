@@ -1,0 +1,269 @@
+# India Semiconductor Design Tracker — Fabless Firms & GCC Design Centres
+# Maintained alongside facilities.yml for the India Semiconductor Tracker
+#
+# Two categories:
+#   "Indian Fabless"     — Indian-origin chip design companies
+#   "DLI Beneficiary"    — Subset approved under Design Linked Incentive scheme
+#   "GCC Design Centre"  — India R&D centres of foreign semiconductor companies
+
+design_firms:
+
+  # =============================================
+  # INDIAN FABLESS FIRMS
+  # =============================================
+
+  - id: signalchip
+    name: "Signalchip"
+    category: "Indian Fabless"
+    dli_beneficiary: false
+    parent_company: null
+    parent_hq: null
+    founded: 2008
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "4G/5G modem SoCs"
+    application_domains: ["Telecom", "5G"]
+    design_scope: "Full chip"
+    node_sophistication: "7nm"
+    dli:
+      approved: false
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "One of India's pioneering fabless semiconductor companies. Designed India's first indigenously developed 4G/LTE and 5G NR modem chipsets."
+      what_it_designs: "Multi-standard wireless modem SoCs supporting 4G LTE-Advanced and 5G NR. Targets telecom infrastructure and CPE (Customer Premises Equipment) applications."
+    sources:
+      - url: "https://www.signalchip.com"
+        title: "Signalchip official website"
+        date: "2026-01-01"
+
+  - id: mindgrove
+    name: "Mindgrove Technologies"
+    category: "Indian Fabless"
+    dli_beneficiary: false
+    parent_company: null
+    parent_hq: null
+    founded: 2021
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "RISC-V SoCs"
+    application_domains: ["IoT", "Edge Computing"]
+    design_scope: "Full chip"
+    node_sophistication: "180nm"
+    dli:
+      approved: false
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "IIT Madras spin-off building RISC-V based SoCs. Among the first Indian startups to tape out a production-ready RISC-V chip."
+      what_it_designs: "Secure IoT SoCs based on RISC-V architecture with built-in hardware security features. The Secure IoT chip targets smart metering, industrial automation, and connected devices."
+    sources:
+      - url: "https://mindgrovetech.in"
+        title: "Mindgrove Technologies official website"
+        date: "2026-01-01"
+
+  - id: vvdn
+    name: "VVDN Technologies"
+    category: "DLI Beneficiary"
+    dli_beneficiary: true
+    parent_company: null
+    parent_hq: null
+    founded: 2007
+    india_headcount: null
+    locations:
+      - city: "Gurugram"
+        state: "Haryana"
+        lat: 28.459
+        lon: 77.027
+    product_focus: "5G small cell SoCs, networking chips"
+    application_domains: ["Telecom", "5G", "Networking"]
+    design_scope: "Full chip"
+    node_sophistication: "12nm"
+    dli:
+      approved: true
+      product: "5G small cell SoC"
+      grant_inr: null
+    narrative:
+      significance: "One of the early DLI beneficiaries. Product engineering and ODM firm moving into chip design for 5G infrastructure."
+      what_it_designs: "5G small cell baseband and RF front-end SoCs for telecom infrastructure. Also designs networking and IoT chipsets."
+    sources:
+      - url: "https://www.vvdntech.com"
+        title: "VVDN Technologies official website"
+        date: "2026-01-01"
+
+  # =============================================
+  # GCC DESIGN CENTRES
+  # =============================================
+
+  - id: qualcomm-india
+    name: "Qualcomm India"
+    category: "GCC Design Centre"
+    dli_beneficiary: false
+    parent_company: "Qualcomm Inc."
+    parent_hq: "United States"
+    founded: 1996
+    india_headcount: 7000
+    locations:
+      - city: "Hyderabad"
+        state: "Telangana"
+        lat: 17.385
+        lon: 78.487
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+      - city: "Chennai"
+        state: "Tamil Nadu"
+        lat: 13.083
+        lon: 80.270
+      - city: "Noida"
+        state: "Uttar Pradesh"
+        lat: 28.535
+        lon: 77.391
+    product_focus: "Mobile SoCs, 5G modems, AI accelerators"
+    application_domains: ["Mobile", "5G", "AI", "Automotive"]
+    design_scope: "Full chip"
+    node_sophistication: "3nm"
+    dli:
+      approved: false
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "One of the earliest and largest semiconductor design operations in India. Hyderabad is Qualcomm's largest engineering centre outside San Diego."
+      what_it_designs: "Snapdragon mobile SoCs, 5G modem chipsets, AI/ML inference engines, and automotive connectivity chips. India teams contribute across the full design cycle — architecture, RTL, verification, physical design, and software."
+    sources:
+      - url: "https://www.qualcomm.com/company/locations/india"
+        title: "Qualcomm India operations"
+        date: "2026-01-01"
+
+  - id: ti-india
+    name: "Texas Instruments India"
+    category: "GCC Design Centre"
+    dli_beneficiary: false
+    parent_company: "Texas Instruments Inc."
+    parent_hq: "United States"
+    founded: 1985
+    india_headcount: 5000
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "Analog, embedded processing, power management"
+    application_domains: ["Industrial", "Automotive", "Power"]
+    design_scope: "Full chip"
+    node_sophistication: "28nm"
+    dli:
+      approved: false
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "TI Bengaluru is one of the longest-running semiconductor design centres in India, operational since 1985. It is a full chip design centre, not just a support office."
+      what_it_designs: "Analog and mixed-signal ICs, power management chips, embedded microcontrollers (MSP430, C2000 series), and industrial interface chips. Bengaluru handles complete chip ownership from concept to production."
+    sources:
+      - url: "https://www.ti.com/about-ti/company/ti-india.html"
+        title: "Texas Instruments India"
+        date: "2026-01-01"
+
+  - id: intel-india
+    name: "Intel India"
+    category: "GCC Design Centre"
+    dli_beneficiary: false
+    parent_company: "Intel Corporation"
+    parent_hq: "United States"
+    founded: 1988
+    india_headcount: 14000
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+      - city: "Hyderabad"
+        state: "Telangana"
+        lat: 17.385
+        lon: 78.487
+    product_focus: "CPU/GPU design, AI accelerators, platform validation"
+    application_domains: ["Computing", "AI", "Data Centre", "Client"]
+    design_scope: "Full chip"
+    node_sophistication: "3nm"
+    dli:
+      approved: false
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "Intel's largest design centre outside the United States. Bengaluru teams have contributed to multiple generations of Core processors and Xeon server chips."
+      what_it_designs: "Core and Xeon CPU microarchitecture, GPU design (Arc), AI accelerator IPs, platform validation, and firmware. India teams are involved in front-end design, verification, physical design, and post-silicon validation."
+    sources:
+      - url: "https://www.intel.in/content/www/in/en/company-overview/company-overview.html"
+        title: "Intel India overview"
+        date: "2026-01-01"
+
+  - id: amd-india
+    name: "AMD India"
+    category: "GCC Design Centre"
+    dli_beneficiary: false
+    parent_company: "Advanced Micro Devices Inc."
+    parent_hq: "United States"
+    founded: 2004
+    india_headcount: 6500
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+      - city: "Hyderabad"
+        state: "Telangana"
+        lat: 17.385
+        lon: 78.487
+    product_focus: "CPU/GPU design, adaptive computing"
+    application_domains: ["Computing", "Data Centre", "Gaming", "FPGA"]
+    design_scope: "Full chip"
+    node_sophistication: "3nm"
+    dli:
+      approved: false
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "AMD's largest R&D centre outside the US, significantly expanded after the Xilinx acquisition. India teams work on Ryzen, EPYC, Radeon, and Versal adaptive SoC product lines."
+      what_it_designs: "CPU (Ryzen, EPYC) and GPU (Radeon) design, adaptive computing platforms (Versal, inherited from Xilinx), and data centre accelerators. India engineers work across RTL design, verification, physical design, and emulation."
+    sources:
+      - url: "https://www.amd.com/en/corporate/locations"
+        title: "AMD global locations"
+        date: "2026-01-01"
+
+  - id: samsung-india-semi
+    name: "Samsung Semiconductor India R&D"
+    category: "GCC Design Centre"
+    dli_beneficiary: false
+    parent_company: "Samsung Electronics"
+    parent_hq: "South Korea"
+    founded: 2007
+    india_headcount: null
+    locations:
+      - city: "Bengaluru"
+        state: "Karnataka"
+        lat: 12.972
+        lon: 77.594
+    product_focus: "Mobile SoCs, modem design, display controllers"
+    application_domains: ["Mobile", "Display", "AI"]
+    design_scope: "Full chip"
+    node_sophistication: "3nm"
+    dli:
+      approved: false
+      product: null
+      grant_inr: null
+    narrative:
+      significance: "Samsung's semiconductor R&D in Bengaluru works on Exynos mobile SoCs and modem design. Part of Samsung's broader India R&D footprint which is its largest outside South Korea."
+      what_it_designs: "Exynos mobile application processors, 5G modem IPs, display driver ICs, and custom neural processing units for on-device AI."
+    sources:
+      - url: "https://research.samsung.com/sri-b"
+        title: "Samsung R&D Institute India - Bengaluru"
+        date: "2026-01-01"

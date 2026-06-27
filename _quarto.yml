@@ -20,6 +20,8 @@ website:
         href: timeline.qmd
       - text: "Technology Nodes"
         href: nodes.qmd
+      - text: "Chip Design"
+        href: design.qmd
       - text: "Policy & Budget"
         href: budget.qmd
       - text: "About"
