@@ -1,0 +1,73 @@
+name: "Design Firm Update"
+description: "Submit an update about an Indian fabless company or GCC design centre"
+title: "[Design]: "
+labels: ["data-update", "design"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of firm is this about?
+      options:
+        - "Indian Fabless"
+        - "DLI Beneficiary"
+        - "GCC Design Centre"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: update-type
+    attributes:
+      label: Update type
+      options:
+        - "New firm to add"
+        - "Update to existing firm (headcount, location, product focus, etc.)"
+        - "Correction to existing data"
+        - "DLI scheme announcement"
+    validations:
+      required: true
+
+  - type: input
+    id: firm-name
+    attributes:
+      label: Firm name
+      placeholder: "e.g., Qualcomm India, Mindgrove Technologies"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: >
+        For new firms, include as much as you know: company name, category,
+        parent company (for GCCs), India locations, product focus, design scope,
+        node sophistication, headcount, DLI status.
+      placeholder: |
+        Company: Mindgrove Technologies
+        Category: Indian Fabless
+        Location: Bengaluru, Karnataka
+        Product focus: RISC-V SoCs for IoT
+        Design scope: Full chip
+        Node: 180nm
+        Founded: 2021
+    validations:
+      required: true
+
+  - type: input
+    id: source-url
+    attributes:
+      label: Source URL
+      description: Link to a news article, press release, or official document.
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: source-date
+    attributes:
+      label: Date of source
+      description: When was this source published?
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: false

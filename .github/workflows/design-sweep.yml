@@ -1,0 +1,42 @@
+name: Quarterly design firm sweep
+
+on:
+  schedule:
+    # 1st of Jan, Apr, Jul, Oct at 02:00 UTC = 07:30 IST
+    - cron: '0 2 1 1,4,7,10 *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install anthropic pyyaml requests markdown
+
+      - name: Run design sweep
+        run: python scripts/design_sweep.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Extract subject line
+        id: subject
+        run: echo "subject=$(head -1 data/design-sweep.txt)" >> $GITHUB_OUTPUT
+
+      - name: Send email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: ${{ steps.subject.outputs.subject }}
+          to: ${{ secrets.NOTIFICATION_EMAIL }}
+          from: ${{ secrets.SMTP_USERNAME }}
+          html_body: file://data/design-sweep.html
