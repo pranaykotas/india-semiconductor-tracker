@@ -79,7 +79,7 @@ External contributors submit updates via GitHub Issues using the template at `.g
 ### Design Firm Data Schema
 
 Each firm in `data/design.yml` has:
-- `id`, `name`, `category` (`Indian Fabless` | `DLI Beneficiary` | `GCC Design Centre`)
+- `id`, `name`, `category` (`Indian Fabless` | `DLI Beneficiary` | `GCC Design Centre` | `EDA & IP Provider`)
 - `dli_beneficiary` (boolean)
 - `parent_company`, `parent_hq` (for GCCs; null for Indian firms)
 - `founded` (year of India establishment)

@@ -321,6 +321,7 @@ design_category_color <- function(category) {
     "Indian Fabless"     = "#E65100",
     "DLI Beneficiary"    = "#2E7D32",
     "GCC Design Centre"  = "#1565C0",
+    "EDA & IP Provider"  = "#6A1B9A",
     "#757575"
   )
 }
@@ -342,6 +343,7 @@ design_category_badge <- function(category) {
     "Indian Fabless"     = "badge-approved",
     "DLI Beneficiary"    = "badge-operational",
     "GCC Design Centre"  = "badge-construction",
+    "EDA & IP Provider"  = "badge-onhold",
     "badge-announced"
   )
   glue('<span class="status-badge {css_class}">{category}</span>')

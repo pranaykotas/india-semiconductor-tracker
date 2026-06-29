@@ -54,6 +54,7 @@ QUERIES = [
     '"Infineon" India semiconductor design',
     '"STMicroelectronics" India semiconductor',
     '"MediaTek" India semiconductor design',
+    # EDA & IP providers
     '"Synopsys" India semiconductor',
     '"Cadence" India semiconductor',
     '"ARM" India semiconductor design OR R&D',

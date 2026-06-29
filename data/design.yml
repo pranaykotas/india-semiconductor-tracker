@@ -1431,7 +1431,7 @@ design_firms:
     india_scale: 2
 - id: synopsys-india
   name: Synopsys India
-  category: GCC Design Centre
+  category: EDA & IP Provider
   dli_beneficiary: false
   parent_company: Synopsys Inc.
   parent_hq: United States
@@ -1478,7 +1478,7 @@ design_firms:
     india_scale: 5
 - id: cadence-india
   name: Cadence Design Systems India
-  category: GCC Design Centre
+  category: EDA & IP Provider
   dli_beneficiary: false
   parent_company: Cadence Design Systems Inc.
   parent_hq: United States

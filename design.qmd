@@ -17,14 +17,15 @@ locations <- load_design_locations("data/design.yml")
 
 India's semiconductor story is not just about manufacturing. Long before the first fab broke ground, India had become one of the world's largest bases for chip *design*. Global semiconductor companies have operated R&D centres in India for decades, and a growing cohort of Indian fabless startups is now designing chips from scratch.
 
-This page tracks two distinct groups:
+This page tracks three distinct groups:
 
 - **Indian fabless firms** — companies headquartered in India that design their own chips (including beneficiaries of the Design Linked Incentive scheme)
-- **GCC design centres** — India R&D operations of global semiconductor companies
+- **GCC design centres** — India R&D operations of global semiconductor companies that design chips
+- **EDA & IP providers** — companies that build the tools and IP blocks used by chip designers (not chip designers themselves)
 
-They have different strategic implications. Indian fabless firms build domestic IP ownership; GCCs bring design expertise, talent pipelines, and integration into global supply chains. Both matter, but differently.
+They have different strategic implications. Indian fabless firms build domestic IP ownership; GCCs bring design expertise, talent pipelines, and integration into global supply chains; EDA & IP providers underpin the entire design ecosystem. All matter, but differently.
 
-As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$category %in% c("Indian Fabless", "DLI Beneficiary"))` Indian fabless firms** and **`r sum(firms$category == "GCC Design Centre")` GCC design centres** across **`r length(unique(firms$states))`** states.
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$category %in% c("Indian Fabless", "DLI Beneficiary"))` Indian fabless firms**, **`r sum(firms$category == "GCC Design Centre")` GCC design centres**, and **`r sum(firms$category == "EDA & IP Provider")` EDA & IP providers** across **`r length(unique(firms$states))`** states.
 
 ---
 
@@ -67,8 +68,8 @@ for (cat in categories) {
 m <- m %>%
   addLegend(
     position = "bottomright",
-    colors = sapply(c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre"), design_category_color),
-    labels = c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre"),
+    colors = sapply(c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider"), design_category_color),
+    labels = c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider"),
     title = "Category",
     opacity = 0.8
   ) %>%
@@ -157,6 +158,43 @@ DT::datatable(
 
 ---
 
+## EDA & IP Providers
+
+These are not chip design firms — they build the electronic design automation (EDA) tools and semiconductor IP blocks that chip designers use. Their India operations are massive, often among the largest R&D centres outside the US, and they train a significant share of India's semiconductor design workforce.
+
+```{r eda-table, echo=FALSE, warning=FALSE, message=FALSE}
+eda <- firms %>%
+  filter(category == "EDA & IP Provider") %>%
+  mutate(
+    Name = name,
+    Parent = paste0(parent_company, " (", parent_hq, ")"),
+    Focus = product_focus,
+    Scope = design_scope,
+    Node = node_sophistication,
+    `Est.` = founded,
+    `Headcount` = ifelse(is.na(india_headcount), "—", paste0("~", format(india_headcount, big.mark = ","))),
+    Locations = cities
+  ) %>%
+  select(Name, Parent, Focus, Scope, Node, Est., Headcount, Locations)
+
+DT::datatable(
+  eda,
+  escape = FALSE,
+  rownames = FALSE,
+  options = list(
+    pageLength = 10,
+    dom = 'ftip',
+    order = list(list(0, 'asc')),
+    columnDefs = list(
+      list(className = 'dt-left', targets = '_all')
+    )
+  ),
+  class = "display compact stripe"
+)
+```
+
+---
+
 ## City-wise Concentration
 
 ```{r city-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.height=4}
@@ -172,7 +210,8 @@ ggplot(city_counts, aes(x = reorder(city, n, sum), y = n, fill = category)) +
   scale_fill_manual(values = c(
     "Indian Fabless" = "#E65100",
     "DLI Beneficiary" = "#2E7D32",
-    "GCC Design Centre" = "#1565C0"
+    "GCC Design Centre" = "#1565C0",
+    "EDA & IP Provider" = "#6A1B9A"
   )) +
   labs(
     title = "Semiconductor Design Centres by City",
