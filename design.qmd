@@ -61,7 +61,12 @@ for (cat in categories) {
         '<div class="popup-row"><span class="popup-label">Scope:</span> ', design_scope, '</div>',
         '</div>'
       ),
-      group = cat
+      group = cat,
+      clusterOptions = markerClusterOptions(
+        showCoverageOnHover = FALSE,
+        maxClusterRadius = 30,
+        spiderfyOnMaxZoom = TRUE
+      )
     )
 }
 
