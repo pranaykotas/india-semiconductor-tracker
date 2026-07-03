@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Launched India's first end-to-end OSAT pilot line. Partnership with Japan's Renesas brings automotive-grade chip packaging to India.
+India's first commercial semiconductor packaging facility. Began exporting assembled chips to Malaysia before formal inauguration — a milestone for India's semiconductor ecosystem.
 :::
 
 ## What does this facility make?
@@ -15,7 +15,7 @@ Assembles, tests, and packages semiconductor chips for consumer electronics and 
 
 ## Why does it matter?
 
-CG Semi's pilot line at Sanand was a proof-of-concept moment — it showed that Indian companies can run semiconductor back-end operations at commercial quality. The Renesas partnership is particularly significant because automotive chips have stringent quality requirements. India producing automotive-grade packages is a stepping stone to becoming a serious player in the global auto supply chain.
+CG Semi's progression from pilot line to commercial production and exports within a year demonstrated that Indian companies can run semiconductor back-end operations at commercial quality and global competitiveness. The Renesas partnership is particularly significant because automotive chips have stringent quality requirements. India producing automotive-grade packages is a stepping stone to becoming a serious player in the global auto supply chain.
 
 ## Key Facts
 
@@ -28,7 +28,7 @@ CG Semi's pilot line at Sanand was a proof-of-concept moment — it showed that 
 | **Partners** | Renesas Electronics, Stars Microelectronics |
 | **Type** | Assembly & Packaging |
 | **Capability** | Consumer & Industrial OSAT (15M chips/day) |
-| **Status** | Under Construction |
+| **Status** | Operational |
 | **Investment** | ₹7,600 crore |
 | **Location** | Sanand, Gujarat |
 | **Category** | Commercial (ISM Approved) |
@@ -43,9 +43,10 @@ CG Semi's pilot line at Sanand was a proof-of-concept moment — it showed that 
 Benchmarked against a 3nm fab (5/5).
 
 ### Timeliness
-<span class="slippage-badge badge-minor-delay">0.2m overdue ↗</span>
+<span class="slippage-badge badge-minor-delay">1.1m slip → FY2026-27</span>
 
 
+Revised target: FY2026-27 (Jul 2026)
 :::
 :::
 
@@ -54,6 +55,8 @@ Benchmarked against a 3nm fab (5/5).
 - **29 Feb 2024** — Union Cabinet approves CG Semi OSAT under ISM
 - **01 Jun 2024** — Construction begins at Sanand
 - **28 Aug 2025** — India's first OSAT pilot line inaugurated — G1 facility goes live
+- **01 Jul 2026** — Begins overseas chip exports to Malaysia
+- **04 Jul 2026** — PM Modi inaugurates commercial production at Sanand
 
 
 
@@ -61,6 +64,7 @@ Benchmarked against a 3nm fab (5/5).
 
 - [PIB: Cabinet approves semiconductor units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (01 Mar 2024)
 - [PIB: Inauguration of India's first OSAT Pilot Line at CG Semi, Sanand](https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2147821) (28 Aug 2025)
+- [CG Semi begins chip exports ahead of PM Modi launching commercial production](https://www.moneycontrol.com/news/business/companies/cg-semi-begins-chip-exports-ahead-of-pm-modi-launching-commercial-production-at-sanand-13964530.html) (03 Jul 2026)
 
 ---
 

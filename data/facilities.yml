@@ -145,11 +145,11 @@ facilities:
     capability: "Consumer & Industrial OSAT (15M chips/day)"
     investment:
       total_inr: 7600
-    status: "Under Construction"
+    status: "Operational"
     narrative:
-      significance: "Launched India's first end-to-end OSAT pilot line. Partnership with Japan's Renesas brings automotive-grade chip packaging to India."
+      significance: "India's first commercial semiconductor packaging facility. Began exporting assembled chips to Malaysia before formal inauguration — a milestone for India's semiconductor ecosystem."
       what_it_makes: "Assembles, tests, and packages semiconductor chips for consumer electronics and industrial applications. Partners with Renesas (Japan) for automotive chips and Stars Microelectronics (Thailand) for packaging technology."
-      why_it_matters: "CG Semi's pilot line at Sanand was a proof-of-concept moment — it showed that Indian companies can run semiconductor back-end operations at commercial quality. The Renesas partnership is particularly significant because automotive chips have stringent quality requirements. India producing automotive-grade packages is a stepping stone to becoming a serious player in the global auto supply chain."
+      why_it_matters: "CG Semi's progression from pilot line to commercial production and exports within a year demonstrated that Indian companies can run semiconductor back-end operations at commercial quality and global competitiveness. The Renesas partnership is particularly significant because automotive chips have stringent quality requirements. India producing automotive-grade packages is a stepping stone to becoming a serious player in the global auto supply chain."
     milestones:
       - date: "2024-02-29"
         event: "Union Cabinet approves CG Semi OSAT under ISM"
@@ -157,6 +157,10 @@ facilities:
         event: "Construction begins at Sanand"
       - date: "2025-08-28"
         event: "India's first OSAT pilot line inaugurated — G1 facility goes live"
+      - date: "2026-07-01"
+        event: "Begins overseas chip exports to Malaysia"
+      - date: "2026-07-04"
+        event: "PM Modi inaugurates commercial production at Sanand"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 1
@@ -166,6 +170,7 @@ facilities:
       approved: "2024-02-29"
       construction_start: "2024-06-01"
       original_expected_completion: "2026-06-01"
+      date_completion: "2026-07-04"
     sources:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209"
         title: "PIB: Cabinet approves semiconductor units"
@@ -173,6 +178,9 @@ facilities:
       - url: "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2147821"
         title: "PIB: Inauguration of India's first OSAT Pilot Line at CG Semi, Sanand"
         date: "2025-08-28"
+      - url: "https://www.moneycontrol.com/news/business/companies/cg-semi-begins-chip-exports-ahead-of-pm-modi-launching-commercial-production-at-sanand-13964530.html"
+        title: "CG Semi begins chip exports ahead of PM Modi launching commercial production"
+        date: "2026-07-03"
 
   - id: tata-morigaon
     name: "Tata Semiconductor Assembly and Test (TSAT)"
