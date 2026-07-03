@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-India's first commercial semiconductor packaging facility. Began exporting assembled chips to Malaysia before formal inauguration — a milestone for India's semiconductor ecosystem.
+First ISM-approved facility to begin overseas chip exports. Began shipping assembled chips to Malaysia before formal inauguration — a milestone for India's semiconductor ecosystem.
 :::
 
 ## What does this facility make?
