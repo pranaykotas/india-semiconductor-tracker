@@ -32,55 +32,41 @@ As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$catego
 ## Design Centre Map
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE, fig.height=6}
+locations$colour <- sapply(locations$category, design_category_color)
+
 m <- leaflet(locations, width = "100%") %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
-  setView(lng = 78.5, lat = 20, zoom = 5)
-
-categories <- unique(locations$category)
-for (cat in categories) {
-  subset <- locations[locations$category == cat, ]
-  colour <- design_category_color(cat)
-
-  m <- m %>%
-    addCircleMarkers(
-      data = subset,
-      lng = ~lon, lat = ~lat,
-      radius = 7,
-      color = colour,
-      fillColor = colour,
-      fillOpacity = 0.7,
-      stroke = TRUE,
-      weight = 1,
-      label = ~lapply(paste0("<strong>", name, "</strong><br/>", city, " | ", product_focus), htmltools::HTML),
-      popup = ~paste0(
-        '<div class="facility-popup">',
-        '<h4>', name, '</h4>',
-        '<div class="popup-row">', sapply(category, design_category_badge), '</div>',
-        '<div class="popup-row"><span class="popup-label">City:</span> ', city, '</div>',
-        '<div class="popup-row"><span class="popup-label">Focus:</span> ', product_focus, '</div>',
-        '<div class="popup-row"><span class="popup-label">Scope:</span> ', design_scope, '</div>',
-        '</div>'
-      ),
-      group = cat,
-      clusterOptions = markerClusterOptions(
-        showCoverageOnHover = FALSE,
-        maxClusterRadius = 30,
-        spiderfyOnMaxZoom = TRUE
-      )
+  setView(lng = 78.5, lat = 20, zoom = 5) %>%
+  addCircleMarkers(
+    lng = ~lon, lat = ~lat,
+    radius = 7,
+    color = ~colour,
+    fillColor = ~colour,
+    fillOpacity = 0.7,
+    stroke = TRUE,
+    weight = 1,
+    label = ~lapply(paste0("<strong>", name, "</strong><br/>", city, " | ", product_focus), htmltools::HTML),
+    popup = ~paste0(
+      '<div class="facility-popup">',
+      '<h4>', name, '</h4>',
+      '<div class="popup-row">', sapply(category, design_category_badge), '</div>',
+      '<div class="popup-row"><span class="popup-label">City:</span> ', city, '</div>',
+      '<div class="popup-row"><span class="popup-label">Focus:</span> ', product_focus, '</div>',
+      '<div class="popup-row"><span class="popup-label">Scope:</span> ', design_scope, '</div>',
+      '</div>'
+    ),
+    clusterOptions = markerClusterOptions(
+      showCoverageOnHover = FALSE,
+      maxClusterRadius = 40,
+      spiderfyOnMaxZoom = TRUE
     )
-}
-
-m <- m %>%
+  ) %>%
   addLegend(
     position = "bottomright",
     colors = sapply(c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider"), design_category_color),
     labels = c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider"),
     title = "Category",
     opacity = 0.8
-  ) %>%
-  addLayersControl(
-    overlayGroups = categories,
-    options = layersControlOptions(collapsed = FALSE)
   )
 
 m
