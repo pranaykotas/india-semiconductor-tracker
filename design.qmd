@@ -8,6 +8,7 @@ date: last-modified
 source("R/helpers.R")
 library(leaflet)
 library(DT)
+library(sf)
 
 firms <- load_design_firms("data/design.yml")
 locations <- load_design_locations("data/design.yml")
@@ -33,10 +34,19 @@ As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$catego
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE, fig.height=6}
 locations$colour <- sapply(locations$category, design_category_color)
+india <- st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
 
-m <- leaflet(locations, width = "100%") %>%
+m <- leaflet(locations, width = "100%", options = leafletOptions(minZoom = 4, maxZoom = 10)) %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
-  setView(lng = 78.5, lat = 20, zoom = 5) %>%
+  fitBounds(lng1 = 68, lat1 = 7, lng2 = 97, lat2 = 36) %>%
+  addPolygons(
+    data = india,
+    color = "#0D1F3C",
+    weight = 2,
+    fillColor = "#E8EAF0",
+    fillOpacity = 0.1,
+    group = "Official Boundary"
+  ) %>%
   addCircleMarkers(
     lng = ~lon, lat = ~lat,
     radius = 7,
