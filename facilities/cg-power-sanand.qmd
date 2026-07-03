@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-First ISM-approved facility to begin overseas chip exports. Began shipping assembled chips to Malaysia before formal inauguration — a milestone for India's semiconductor ecosystem.
+Murugappa Group's OSAT facility, built with Renesas and Stars Microelectronics partnerships. Began exporting assembled chips to Malaysia ahead of formal commercial production inauguration.
 :::
 
 ## What does this facility make?
