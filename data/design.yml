@@ -409,36 +409,41 @@ design_firms:
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: null
-  india_headcount: null
+  founded: 2020
+  india_headcount: 61
   locations:
-  - city: Bengaluru
-    state: Karnataka
-    lat: 12.972
-    lon: 77.594
-  product_focus: AI vision processors
+  - city: Thiruvananthapuram
+    state: Kerala
+    lat: 8.524
+    lon: 76.936
+  product_focus: Edge AI vision processors
   application_domains:
   - AI
   - Vision
   - Edge
+  - Automotive
+  - Robotics
   design_scope: Full chip
-  node_sophistication: null
+  node_sophistication: 12nm (TSMC)
   dli:
     approved: true
-    product: null
+    product: "Netra-A4000 (64 TOPS edge AI SoC)"
     grant_inr: null
   narrative:
-    significance: Designs AI-optimised vision processing chips for edge inference.
-    what_it_designs: Vision AI processors for edge devices — surveillance, automotive, and industrial vision applications.
+    significance: "One of the first DLI-backed startups to have chips fabricated at TSMC on 12nm. Product line spans sub-1W IoT chips to 64 TOPS autonomous vehicle processors. Partnering with Zoho on R&D."
+    what_it_designs: "Family of edge AI SoCs: Netra-R1000 (RISC-V, <1W, smart sensors), Netra-A2000 (4-8 TOPS, vision + H.26x codec), and Netra-A4000 (ARM-based, 64 TOPS, robotics and autonomous vehicles). Custom Tej-NPU neural processor IP core."
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: DLI Scheme beneficiary list
     date: '2026-06-27'
+  - url: https://neuromorphiccore.ai/insights/netrasemi/
+    title: "Netrasemi company profile (NeuromorphicCore)"
+    date: '2026-03-01'
   design_score:
     ip_ownership: 4
-    design_completeness: 2
+    design_completeness: 4
     domain_difficulty: 4
-    market_readiness: 1
+    market_readiness: 2
 - id: sandlogic
   name: Sandlogic Technologies
   category: DLI Beneficiary
