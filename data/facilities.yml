@@ -541,29 +541,32 @@ facilities:
     name: "ASIP Advanced Packaging"
     company: "Advanced System In Package Technologies Pvt Ltd (ASIPTPL)"
     category: "Commercial (ISM Approved)"
+    partners: ["APACT Co. (South Korea)"]
     location:
       city: "Visakhapatnam"
       state: "Andhra Pradesh"
       lat: 17.686
       lon: 83.218
     type: "Assembly & Packaging"
-    capability: "System-in-Package (96M units/year)"
+    capability: "Advanced Packaging (96M chips/year)"
     investment:
-      total_inr: 2388
+      total_inr: 2500
     status: "Under Construction"
     narrative:
-      significance: "Andhra Pradesh's first ISM-approved semiconductor project. Brings System-in-Package (SiP) technology to South India — key for miniaturised IoT and wearable devices."
-      what_it_makes: "System-in-Package (SiP) assemblies — multiple chips integrated into a single package. Used in smartwatches, wireless earbuds, IoT sensors, and other devices where space is at a premium. Two-phase project: Phase 1 (₹542 cr), Phase 2 (₹1,846 cr)."
-      why_it_matters: "SiP is where the semiconductor industry is heading — integrating multiple functions (processor, memory, sensors, connectivity) into one tiny package. Having SiP capability in India positions the country for the next wave of electronics miniaturisation."
+      significance: "Andhra Pradesh's first ISM-approved semiconductor project. 30-acre facility at Tarluvada, built with South Korea's APACT Co. as technology partner."
+      what_it_makes: "Wire-bond, flip-chip, and ball grid array (BGA) packaging initially. Plans to introduce 2.5D and 3D advanced packaging within two to three years. Targets AI, high-performance computing, data centre, and communications chips. Two-phase project: Phase 1 (~₹460 cr initial investment), Phase 2 (expansion to ₹2,500 cr total)."
+      why_it_matters: "Brings advanced packaging capability to South India with a roadmap to 2.5D/3D — the packaging technologies needed for AI and HPC chips. Academic partnerships with IIT Tirupati and IIT Hyderabad, plus an in-house training centre, aim to build a local semiconductor workforce pipeline."
     milestones:
       - date: "2025-08-01"
         event: "Approved by Union Cabinet under ISM (central fiscal support: ₹468 crore)"
       - date: "2026-06-08"
-        event: "Groundbreaking ceremony at Tarluvada village, Anandapuram mandal, Visakhapatnam — Andhra Pradesh's first ISM project breaks ground"
+        event: "Groundbreaking ceremony at Tarluvada village, Anandapuram mandal, Visakhapatnam"
         source:
           url: "https://www.thehindu.com/news/cities/Visakhapatnam/vizag-set-to-host-aps-first-india-semiconductor-mission-project/article71056847.ece"
           title: "Vizag set to host A.P.'s first India Semiconductor Mission project (The Hindu)"
           date: "2026-06-04"
+      - date: "2026-08-01"
+        event: "PM Modi lays foundation stone and unveils plaque; CM Chandrababu Naidu joins virtually"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 2
@@ -583,6 +586,9 @@ facilities:
       - url: "https://www.thehindu.com/news/cities/Visakhapatnam/vizag-set-to-host-aps-first-india-semiconductor-mission-project/article71056847.ece"
         title: "Vizag set to host A.P.'s first India Semiconductor Mission project (The Hindu)"
         date: "2026-06-04"
+      - url: "https://www.business-standard.com/india-news/pm-modi-lays-foundation-stone-asip-semiconductor-plant-visakhapatnam-126080100662_1.html"
+        title: "PM Modi lays foundation stone for ₹2,500 cr ASIP chip facility in Vizag (Business Standard)"
+        date: "2026-08-01"
 
   # --- PRIVATE (NON-ISM) ---
 

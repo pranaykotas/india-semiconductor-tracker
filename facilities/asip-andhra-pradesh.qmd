@@ -6,16 +6,16 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Andhra Pradesh's first ISM-approved semiconductor project. Brings System-in-Package (SiP) technology to South India — key for miniaturised IoT and wearable devices.
+Andhra Pradesh's first ISM-approved semiconductor project. 30-acre facility at Tarluvada, built with South Korea's APACT Co. as technology partner.
 :::
 
 ## What does this facility make?
 
-System-in-Package (SiP) assemblies — multiple chips integrated into a single package. Used in smartwatches, wireless earbuds, IoT sensors, and other devices where space is at a premium. Two-phase project: Phase 1 (₹542 cr), Phase 2 (₹1,846 cr).
+Wire-bond, flip-chip, and ball grid array (BGA) packaging initially. Plans to introduce 2.5D and 3D advanced packaging within two to three years. Targets AI, high-performance computing, data centre, and communications chips. Two-phase project: Phase 1 (~₹460 cr initial investment), Phase 2 (expansion to ₹2,500 cr total).
 
 ## Why does it matter?
 
-SiP is where the semiconductor industry is heading — integrating multiple functions (processor, memory, sensors, connectivity) into one tiny package. Having SiP capability in India positions the country for the next wave of electronics miniaturisation.
+Brings advanced packaging capability to South India with a roadmap to 2.5D/3D — the packaging technologies needed for AI and HPC chips. Academic partnerships with IIT Tirupati and IIT Hyderabad, plus an in-house training centre, aim to build a local semiconductor workforce pipeline.
 
 ## Key Facts
 
@@ -25,11 +25,11 @@ SiP is where the semiconductor industry is heading — integrating multiple func
 | | |
 |---|---|
 | **Company** | Advanced System In Package Technologies Pvt Ltd (ASIPTPL) |
-| **Partners** | None |
+| **Partners** | APACT Co. (South Korea) |
 | **Type** | Assembly & Packaging |
-| **Capability** | System-in-Package (96M units/year) |
+| **Capability** | Advanced Packaging (96M chips/year) |
 | **Status** | Under Construction |
-| **Investment** | ₹2,388 crore |
+| **Investment** | ₹2,500 crore |
 | **Location** | Visakhapatnam, Andhra Pradesh |
 | **Category** | Commercial (ISM Approved) |
 
@@ -52,7 +52,8 @@ Benchmarked against a 3nm fab (5/5).
 ## Project Timeline
 
 - **01 Aug 2025** — Approved by Union Cabinet under ISM (central fiscal support: ₹468 crore)
-- **08 Jun 2026** — Groundbreaking ceremony at Tarluvada village, Anandapuram mandal, Visakhapatnam — Andhra Pradesh's first ISM project breaks ground
+- **08 Jun 2026** — Groundbreaking ceremony at Tarluvada village, Anandapuram mandal, Visakhapatnam
+- **01 Aug 2026** — PM Modi lays foundation stone and unveils plaque; CM Chandrababu Naidu joins virtually
 
 
 
@@ -61,6 +62,7 @@ Benchmarked against a 3nm fab (5/5).
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
 - [IIT Tirupati: ASIP plant to come up in Visakhapatnam](https://x.com/iit_tirupati/status/2031299126680604889) (04 Apr 2026)
 - [Vizag set to host A.P.'s first India Semiconductor Mission project (The Hindu)](https://www.thehindu.com/news/cities/Visakhapatnam/vizag-set-to-host-aps-first-india-semiconductor-mission-project/article71056847.ece) (04 Jun 2026)
+- [PM Modi lays foundation stone for ₹2,500 cr ASIP chip facility in Vizag (Business Standard)](https://www.business-standard.com/india-news/pm-modi-lays-foundation-stone-asip-semiconductor-plant-visakhapatnam-126080100662_1.html) (01 Aug 2026)
 
 ---
 

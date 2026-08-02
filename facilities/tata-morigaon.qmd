@@ -43,7 +43,7 @@ Locating a major semiconductor facility in Assam is a deliberate industrial poli
 Benchmarked against a 3nm fab (5/5).
 
 ### Timeliness
-<span class="slippage-badge badge-minor-delay">2.1m slip → FY2026-27</span>
+<span class="slippage-badge badge-minor-delay">3.1m slip → FY2026-27</span>
 
 
 Revised target: FY2026-27 (Mar 2027)
