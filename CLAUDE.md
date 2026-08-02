@@ -25,7 +25,7 @@ install.packages(c("yaml", "dplyr", "tidyr", "leaflet", "DT", "ggplot2", "scales
 ## Architecture
 
 - **Quarto website** configured in `_quarto.yml`, output to `_site/`
-- **Theme:** Cosmo + `styles.scss` (Takshashila brand: Llama maroon `#620d3c`, Marigold gold `#f1a222`, Lora serif headings, Inter sans body)
+- **Theme:** Cosmo + `styles.scss` (Takshashila brand tokens synced with `takshashila-base-20260723.css`: Llama maroon `#620d3c`, Marigold gold `#f1a222`, Inter for all text, Roboto Mono for meta/eyebrow)
 - **All facility data** lives in a single file: `data/facilities.yml`
 - **Design firm data** in `data/design.yml` — Indian fabless firms and GCC design centres (separate schema from facilities)
 - **R helper functions** in `R/helpers.R` — loads YAML, computes complexity scores, generates HTML for popups/badges
