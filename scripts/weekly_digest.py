@@ -65,6 +65,10 @@ QUERIES = [
     '"India Semiconductor Mission" approval OR cabinet OR scheme',
     '"India semiconductor" delayed OR "behind schedule" OR slippage',
     '"Modified Semicon Scheme" approved OR disbursement',
+    # PIB press releases (reliable via Google News indexing)
+    'site:pib.gov.in semiconductor',
+    'site:pib.gov.in "India Semiconductor Mission"',
+    'site:pib.gov.in MeitY chip OR fab OR OSAT OR ATMP',
 ]
 
 SYNTHESIS_PROMPT = """\

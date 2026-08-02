@@ -63,6 +63,9 @@ QUERIES = [
     # General design ecosystem
     'India semiconductor design centre expansion OR new',
     'India chip design GCC headcount OR hiring',
+    # PIB press releases
+    'site:pib.gov.in semiconductor design OR DLI OR fabless',
+    'site:pib.gov.in MeitY chip design OR "Design Linked Incentive"',
 ]
 
 SYNTHESIS_PROMPT = """\
