@@ -73,7 +73,7 @@ ggplot(nodes, aes(x = node, y = 1, fill = era)) +
     data = filter(nodes, india_target),
     aes(x = node, y = 1),
     width = 0.85, height = 0.8,
-    fill = NA, color = "#B85C00", linewidth = 2
+    fill = NA, color = "#f1a222", linewidth = 2
   ) +
   # Node labels
   geom_text(aes(label = node), fontface = "bold", size = 4, color = "white") +
@@ -92,7 +92,7 @@ ggplot(nodes, aes(x = node, y = 1, fill = era)) +
   ) +
   theme_void(base_size = 12) +
   theme(
-    plot.title = element_text(face = "bold", size = 16, color = "#0D1F3C"),
+    plot.title = element_text(face = "bold", size = 16, color = "#620d3c"),
     plot.subtitle = element_text(size = 11, color = "#666", margin = margin(b = 15)),
     legend.position = "bottom",
     plot.margin = margin(20, 150, 20, 10)

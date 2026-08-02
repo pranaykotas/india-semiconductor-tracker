@@ -1,23 +1,54 @@
 /*-- scss:defaults --*/
 
-$primary: #0D1F3C;
-$accent: #B85C00;
-$accent-light: #F5ECE0;
+// Takshashila brand palette
+$primary: #620d3c;        // Llama maroon — headers, dark panels, primary emphasis
+$accent: #f1a222;         // Marigold gold — buttons, icons, single highlight
+$surface-alt: #fffbe2;    // Pale yellow — warm alternate background
+$text-primary: #2a2a2a;   // Body copy, data labels
+$text-muted: #6b6b6b;     // Captions, axis labels, secondary metadata
+$hairline: #e6e0d8;       // Table rules, chart gridlines, dividers
+
+// Functional status colours (categorical data encoding — permitted per style guide)
 $success-green: #2E7D32;
 $info-blue: #1565C0;
 $warning-amber: #E65100;
 $neutral-grey: #757575;
 $danger-red: #C62828;
 
-$body-bg: #FAFAFA;
-$body-color: #212121;
+$body-bg: #ffffff;
+$body-color: $text-primary;
 
 /*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ---- Typography ---- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", Georgia, serif;
+  color: $primary;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Inter", "Lato", sans-serif;
+  color: $text-primary;
+  line-height: 1.6;
+}
+
+/* ---- Navbar branding ---- */
+.navbar {
+  font-family: "Inter", "Lato", sans-serif;
+}
+
+.navbar-title {
+  font-family: "Lora", Georgia, serif !important;
+  font-weight: 600;
+}
 
 /* ---- Status badges ---- */
 .badge-operational  { background-color: $success-green; color: #fff; }
 .badge-construction { background-color: $info-blue;     color: #fff; }
-.badge-approved     { background-color: $accent;        color: #fff; }
+.badge-approved     { background-color: $accent;        color: $primary; }
 .badge-announced    { background-color: $neutral-grey;  color: #fff; }
 .badge-onhold       { background-color: $danger-red;    color: #fff; }
 .badge-cancelled    { background-color: $danger-red;    color: #fff; }
@@ -29,6 +60,7 @@ $body-color: #212121;
   font-size: 0.8em;
   font-weight: 600;
   letter-spacing: 0.3px;
+  font-family: "Inter", "Lato", sans-serif;
 }
 
 /* ---- Summary cards ---- */
@@ -38,7 +70,7 @@ $body-color: #212121;
   border-radius: 6px;
   padding: 1.2em 1.5em;
   margin-bottom: 1em;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }
 
 .summary-card .card-value {
@@ -46,15 +78,20 @@ $body-color: #212121;
   font-weight: 700;
   color: $primary;
   line-height: 1.1;
+  font-family: "Inter", "Lato", sans-serif;
+  font-variant-numeric: tabular-nums;
 }
 
 .summary-card .card-label {
-  font-size: 0.9em;
-  color: $neutral-grey;
+  font-size: 0.85em;
+  color: $text-muted;
   margin-top: 0.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
 }
 
-/* ---- Complexity indicator ---- */
+/* ---- Complexity / score indicator ---- */
 .complexity-bar {
   display: inline-flex;
   gap: 2px;
@@ -65,17 +102,17 @@ $body-color: #212121;
   width: 14px;
   height: 8px;
   border-radius: 2px;
-  background-color: #E0E0E0;
+  background-color: $hairline;
 }
 
 .complexity-segment.filled {
   background-color: $accent;
 }
 
-/* ---- Progress bar for completion tracking ---- */
+/* ---- Progress bar ---- */
 .progress-container {
   position: relative;
-  background: #E0E0E0;
+  background: $hairline;
   border-radius: 4px;
   height: 20px;
   min-width: 140px;
@@ -105,13 +142,14 @@ $body-color: #212121;
   line-height: 20px;
   font-size: 0.75em;
   font-weight: 600;
-  color: #333;
+  color: $text-primary;
   white-space: nowrap;
+  font-variant-numeric: tabular-nums;
 }
 
 /* ---- Leaflet popup styling ---- */
 .facility-popup {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", "Lato", sans-serif;
   font-size: 0.9em;
   line-height: 1.5;
 }
@@ -119,15 +157,16 @@ $body-color: #212121;
 .facility-popup h4 {
   margin: 0 0 6px 0;
   color: $primary;
+  font-family: "Lora", Georgia, serif;
   font-size: 1.05em;
 }
 
 .facility-popup .popup-significance {
   font-style: italic;
-  color: #444;
+  color: $text-muted;
   margin-bottom: 8px;
   padding-bottom: 6px;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid $hairline;
   font-size: 0.9em;
   line-height: 1.4;
 }
@@ -138,12 +177,12 @@ $body-color: #212121;
 
 .facility-popup .popup-label {
   font-weight: 600;
-  color: $neutral-grey;
+  color: $text-muted;
 }
 
-/* ---- Node landscape chart ---- */
+/* ---- Node landscape ---- */
 .node-highlight {
-  background: $accent-light;
+  background: $surface-alt;
   border-left: 3px solid $accent;
   padding: 0.8em 1em;
   border-radius: 4px;
@@ -158,6 +197,8 @@ $body-color: #212121;
   font-size: 0.8em;
   font-weight: 700;
   text-transform: uppercase;
+  font-family: "Inter", "Lato", sans-serif;
+  font-variant-numeric: tabular-nums;
 }
 
 .badge-on-track { background-color: #E8F5E9; color: $success-green; border: 1px solid $success-green; }
@@ -167,20 +208,21 @@ $body-color: #212121;
 /* ---- Detail buttons ---- */
 .btn-detail {
   display: inline-block;
-  padding: 4px 12px;
-  background-color: $primary;
-  color: #fff !important;
+  padding: 4px 14px;
+  background-color: $accent;
+  color: $primary !important;
   text-decoration: none !important;
   border-radius: 4px;
   font-size: 0.85em;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: "Inter", "Lato", sans-serif;
 }
 
 .btn-detail:hover {
-  background-color: lighten($primary, 10%);
+  background-color: darken($accent, 8%);
 }
 
-/* ---- DataTable top scroll bar ---- */
+/* ---- DataTable styling ---- */
 .dt-top-scroll {
   overflow-x: auto;
   height: 14px;
@@ -196,11 +238,38 @@ $body-color: #212121;
   height: 1px;
 }
 
+/* ---- Callout boxes (Quarto) ---- */
+.callout-note {
+  border-left-color: $primary;
+}
+
+/* ---- Tables ---- */
+table {
+  border-color: $hairline;
+}
+
+th {
+  font-family: "Inter", "Lato", sans-serif;
+  font-weight: 600;
+  color: $text-primary;
+  border-bottom: 2px solid $primary;
+}
+
+/* ---- Page footer ---- */
+.nav-footer {
+  border-top: 1px solid $hairline;
+}
+
 /* ---- General layout ---- */
 .content-block {
   margin-bottom: 2em;
 }
 
-h1, h2, h3 {
+/* ---- Links ---- */
+a {
   color: $primary;
+}
+
+a:hover {
+  color: darken($primary, 10%);
 }

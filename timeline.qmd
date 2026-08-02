@@ -39,7 +39,7 @@ gantt_data <- facilities %>%
 status_colors <- c(
   "Operational"        = "#2E7D32",
   "Under Construction" = "#1565C0",
-  "Approved"           = "#B85C00",
+  "Approved"           = "#f1a222",
   "Announced"          = "#757575"
 )
 
@@ -66,7 +66,7 @@ p <- ggplot(gantt_data, aes(y = reorder(name_label, desc(date_announced)))) +
     data = filter(gantt_data, !is.na(date_original_expect)),
     aes(x = date_original_expect,
         y = reorder(name_label, desc(date_announced))),
-    shape = "|", size = 4, color = "#0D1F3C"
+    shape = "|", size = 4, color = "#620d3c"
   ) +
   # Diamond markers for announcement date
   geom_point(
@@ -75,9 +75,9 @@ p <- ggplot(gantt_data, aes(y = reorder(name_label, desc(date_announced)))) +
   ) +
   # Today line
   geom_vline(xintercept = as.numeric(Sys.Date()),
-             linetype = "dashed", color = "#0D1F3C", linewidth = 0.4) +
+             linetype = "dashed", color = "#620d3c", linewidth = 0.4) +
   annotate("text", x = Sys.Date(), y = Inf, label = "Today",
-           hjust = -0.15, vjust = 1.5, size = 3, color = "#0D1F3C",
+           hjust = -0.15, vjust = 1.5, size = 3, color = "#620d3c",
            fontface = "italic") +
   # Facet by facility type
   facet_grid(type ~ ., scales = "free_y", space = "free_y", switch = "y") +
@@ -94,9 +94,9 @@ p <- ggplot(gantt_data, aes(y = reorder(name_label, desc(date_announced)))) +
   theme(
     panel.grid.major.y = element_blank(),
     panel.grid.minor = element_blank(),
-    strip.text.y.left = element_text(face = "bold", size = 10, color = "#0D1F3C", angle = 0),
+    strip.text.y.left = element_text(face = "bold", size = 10, color = "#620d3c", angle = 0),
     strip.placement = "outside",
-    plot.title = element_text(face = "bold", size = 14, color = "#0D1F3C"),
+    plot.title = element_text(face = "bold", size = 14, color = "#620d3c"),
     plot.subtitle = element_text(size = 9.5, color = "#666", margin = margin(b = 12)),
     legend.position = "top",
     axis.text.y = element_text(size = 9),

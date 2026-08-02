@@ -41,7 +41,7 @@ m <- leaflet(locations, width = "100%", options = leafletOptions(minZoom = 4, ma
   fitBounds(lng1 = 68, lat1 = 7, lng2 = 97, lat2 = 36) %>%
   addPolygons(
     data = india,
-    color = "#0D1F3C",
+    color = "#620d3c",
     weight = 2,
     fillColor = "#E8EAF0",
     fillOpacity = 0.1,

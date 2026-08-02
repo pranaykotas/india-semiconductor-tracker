@@ -11,7 +11,7 @@ website:
   site-url: "https://fabs.pranaykotas.com"
 
   navbar:
-    background: "#0D1F3C"
+    background: "#620d3c"
     foreground: "#ffffff"
     left:
       - text: "Map & Overview"
@@ -33,9 +33,9 @@ website:
 
   page-footer:
     left: |
-      &copy; 2026 Pranay Kotasthane · [Takshashila Institution](https://takshashila.org.in)
+      &copy; 2026 [Pranay Kotasthane](https://pranaykotas.com) · [Takshashila Institution](https://takshashila.org.in)
     center: |
-      Made with [Quarto](https://quarto.org) and R
+      Part of the [Siliconpolitik Project](https://takshashila.org.in/pages/research-areas/focus-areas/siliconpolitik.html)
     right: |
       [Submit an update](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose)
 
@@ -47,5 +47,5 @@ format:
       light: [cosmo, styles.scss]
     toc: true
     toc-depth: 2
-    mainfont: "DM Sans"
+    mainfont: "Inter"
     monofont: "JetBrains Mono"

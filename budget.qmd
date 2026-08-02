@@ -82,11 +82,11 @@ consolidated_budget$scheme_name <- factor(consolidated_budget$scheme_name, level
 
 ggplot(consolidated_budget, aes(x = scheme_name, y = Amount, fill = Category)) +
   geom_col(position = position_dodge(width = 0.7), width = 0.6) +
-  scale_fill_manual(values = c("Allocated" = "#757575", "Spent" = "#1565C0")) +
+  scale_fill_manual(values = c("Allocated" = "#6b6b6b", "Spent" = "#620d3c")) +
   scale_y_continuous(labels = label_comma(prefix = "\u20b9"), expand = expansion(mult = c(0, 0.1))) +
   labs(
     title = "Total Budgetary Allocation vs Spending (FY23-FY27)",
-    subtitle = "Grey = Total Budget Estimates | Blue = Total Actual/Revised Expenditure (\u20b9 crore)",
+    subtitle = "Grey = Total Budget Estimates | Maroon = Total Actual/Revised Expenditure (\u20b9 crore)",
     x = NULL, y = NULL
   ) +
   theme_minimal(base_size = 11) +
@@ -114,7 +114,7 @@ util_data <- consolidated_budget %>%
 util_data$scheme_name <- factor(util_data$scheme_name, levels = util_data$scheme_name)
 
 ggplot(util_data, aes(x = scheme_name, y = pct_utilised)) +
-  geom_col(fill = "#2E7D32", width = 0.6) +
+  geom_col(fill = "#620d3c", width = 0.6) +
   geom_text(aes(label = paste0(pct_utilised, "%")), hjust = -0.1, size = 4, fontface = "bold") +
   coord_flip() +
   scale_y_continuous(limits = c(0, 110), breaks = seq(0, 100, 25)) +

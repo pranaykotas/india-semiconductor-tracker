@@ -190,7 +190,7 @@ progress_bar_html <- function(status, date_construction, date_completion) {
   } else {
     pct <- 0; label <- "TBD"; bar_color <- "#757575"
   }
-  glue('<div class="progress-container" title="{label}"><div class="progress-bar" style="background-color:{bar_color};width:{pct}%"></div><span class="progress-label">{label}</span></div>')
+  glue('<div class="progress-container" title="{label}"><div class="progress-bar" style="background:{bar_color};width:{pct}%"></div><span class="progress-label">{label}</span></div>')
 }
 
 # ---- Build leaflet popup HTML ----

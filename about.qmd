@@ -6,7 +6,9 @@ title: "About This Tracker"
 
 The India Semiconductor Manufacturing Tracker is a curated, open-source resource that monitors all announced semiconductor manufacturing facilities in India — fabrication plants (fabs), assembly, testing, marking, and packaging (ATMP) units, and outsourced semiconductor assembly and test (OSAT) facilities.
 
-It is maintained by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila Institution](https://takshashila.org.in), a public policy research and education centre based in Bengaluru, India. 
+It is maintained by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila Institution](https://takshashila.org.in), a public policy research and education centre based in Bengaluru, India.
+
+This tracker is part of Takshashila's **[Siliconpolitik Project](https://takshashila.org.in/pages/research-areas/focus-areas/siliconpolitik.html)** — a research programme studying semiconductor geopolitics, industrial policy, and India's place in the global chip supply chain. For deeper analysis, policy briefs, and discussion documents on these topics, visit the [Siliconpolitik page](https://takshashila.org.in/pages/research-areas/focus-areas/siliconpolitik.html) or [Pranay's work](https://pranaykotas.com).
 
 The tracker has been made using Claude Code and Gemini CLI. Pranay has verified the numbers. If you find any mistakes, please write to us.
 
@@ -14,7 +16,7 @@ The tracker has been made using Claude Code and Gemini CLI. Pranay has verified 
 
 India's semiconductor manufacturing ambitions are moving fast. The India Semiconductor Mission (ISM) has approved multiple projects, construction is underway at several sites, and new announcements continue. But tracking the current status of each project requires sifting through press releases, news reports, and government updates scattered across dozens of sources.
 
-This tracker brings it all into one place. For more analysis, check Takshashila's [Siliconpolitik Project](https://takshashila.org.in/pages/research-areas/focus-areas/siliconpolitik.html)
+This tracker brings it all into one place.
 
 ## Technical Complexity Index
 
