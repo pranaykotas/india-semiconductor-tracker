@@ -21,6 +21,42 @@ This page tracks budgetary allocations for India's semiconductor industrial poli
 This analysis was originally published in [#IPW 2: Budget Takeaways](https://publicpolicy.substack.com/i/187199718/india-policy-watch-2-budget-takeaways) by Pranay Kotasthane. Budget data is from Union Budget documents (FY23–FY27).
 :::
 
+---
+
+## Policy Timeline
+
+India's semiconductor industrial policy has evolved through three distinct phases:
+
+| Date | Event | Details |
+|------|-------|---------|
+| **Dec 2021** | **ISM 1.0 launched** | ₹76,000 crore outlay to build domestic semiconductor manufacturing. Schemes for fabs, ATMP/OSAT, display fabs, and the Design-Linked Incentive (DLI) scheme for fabless startups. |
+| **Sep 2022** | **ISM 1.0 revised** | Scheme restructured after initial rounds attracted limited credible interest. Modified Semicon India Programme with revised incentive structures and eligibility criteria. |
+| **Jul 15, 2026** | **ISM 2.0 approved** | Union Cabinet approves Semicon 2.0 with ₹1,27,500 crore outlay — a six-pillar strategy covering design, equipment & materials, new fabs, ATMP expansion, R&D, and talent development. Programme timeline extended from 5 to 12 years. |
+
+---
+
+## ISM 2.0: Six Pillars
+
+The Union Budget 2026–27 announced India Semiconductor Mission 2.0, and the Union Cabinet chaired by PM Modi approved it on July 15, 2026 with a total outlay of ₹1,27,500 crore.
+
+**ISM 1.0 progress at the time of ISM 2.0 approval:** 12 manufacturing units approved with cumulative investment of over ₹1.64 lakh crore — one silicon fab, one silicon carbide fab, an integrated GaN Micro LED display fab, and nine packaging units. Three companies (Micron, Kaynes, CG Semi) had started commercial production. On the design side, 24 semiconductor design projects had been approved for financial support and 105 startups/MSMEs granted access to industry-standard EDA tools.
+
+**The six pillars of ISM 2.0:**
+
+1. **Design** — Build on the initial DLI success. With 105 startups already developing chips, the focus shifts to deepening the design ecosystem — developing IPs, chip designs, and systems to position India as a key semiconductor design IP country.
+
+2. **Machines & Materials** — Incentivise companies involved in manufacturing and R&D of semiconductor equipment, materials, chemicals, and gases. This lays the foundation for sustainable growth and develops India's precision manufacturing industry.
+
+3. **More Fabs** — With the first fab (Tata-PSMC Dholera) scheduled for commissioning in 2028, attract more manufacturers to set up silicon fabs, compound semiconductor fabs, discrete component fabs, and display fabs in India.
+
+4. **Strengthening ATMP/OSAT** — Build on ATMP success by encouraging advanced packaging technologies, as the world increasingly looks at India as an alternative ATMP/OSAT location.
+
+5. **Research & Development** — Move beyond the initial 28nm–110nm nodes toward more advanced nodes and technologies, in collaboration with leading R&D centres within and outside India.
+
+6. **Talent Development** — Scale up the training pipeline: 315 universities already train students on chip design using EDA tools, with ~68,000 students trained. Deepen this further and expand into clean room, fab construction, and ecosystem training.
+
+---
+
 ## Cumulative Budget: Allocated vs Actual Spending
 
 This chart consolidates all budgetary data from FY23 to FY27 to show the total "intent" (Budget Estimates) versus the "reality" (Actual Expenditure/Revised Estimates) for each policy scheme.
@@ -92,7 +128,7 @@ ggplot(util_data, aes(x = scheme_name, y = pct_utilised)) +
 ```
 
 ## What the Numbers Tell Us: Analysis
-The latest union budget identified semiconductors as one of the seven strategic and frontier sectors in which the government wants to strengthen India’s manufacturing presence. To realise this vision, the budget speech mentioned a plan to launch a second version of the India Semiconductor Mission (ISM) that will ‘produce equipment and materials, design full-stack Indian IP, and fortify supply chains.’ 
+The latest union budget identified semiconductors as one of the seven strategic and frontier sectors in which the government wants to strengthen India’s manufacturing presence. The budget speech announced ISM 2.0, which was subsequently approved by the Union Cabinet on July 15, 2026 with a ₹1,27,500 crore outlay to ‘produce equipment and materials, design full-stack Indian IP, and fortify supply chains.’ 
 
 Every financial year has two relevant numbers: the budgeted estimate at the start of the year and the actual disbursements by the end of the year. If the difference is large, it indicates that the project is not going as planned. If the difference is small or negative, it indicates that the spending matches government expectations.
 
@@ -118,9 +154,9 @@ The reasons for this chronic underperformance include strict provisions that dis
 The display fab scheme has attracted no interest whatsoever, and the government has not budgeted any amount for it this year. Display fabs are not strategically critical, and spending taxpayer money on them merely to reduce imports from China is not sensible. If the government has finally decided to abandon this scheme, it would be a welcome instance of policy pragmatism. Letting private players build display fabs on their own dime if they see commercial merit is a better strategy. 
 
 ### Strategic Pivots: ISM 2.0 & Components
-The headline announcement is India Semiconductor Mission 2.0, which aims to move beyond fab construction to focus on semiconductor equipment, materials, and full-stack Indian IP development. A budget of ₹1,000 crore has been allocated for FY27, indicating a gradual ramp-up. 
+The Union Budget 2026–27 first signalled ISM 2.0, and on July 15, 2026, the Union Cabinet approved it with a total outlay of ₹1,27,500 crore — nearly doubling the ₹76,000 crore of ISM 1.0. ISM 2.0 goes beyond fab construction to cover equipment and materials, design IP, advanced nodes R&D, and talent development across a 12-year programme horizon. For FY27, ₹1,000 crore has been allocated specifically for the equipment and materials pillar, indicating a gradual ramp-up. See the [ISM 2.0 section above](#ism-2.0-six-pillars) for full details.
 
-Finally, a related scheme is the Electronics Components Manufacturing Scheme, which is meant to incentivise the production of electronics components apart from chips, such as resistors, multi-layered printed circuit boards, etc. The Finance Minister cited high demand for this programme, and raised its outlay to ₹40,000 crore from ₹22,000 crore, of which ₹1,500 crore spending is planned in the next financial year.
+A related scheme is the Electronics Components Manufacturing Scheme, which incentivises the production of electronics components apart from chips, such as resistors and multi-layered printed circuit boards. The Finance Minister cited high demand for this programme and raised its outlay to ₹40,000 crore from ₹22,000 crore, of which ₹1,500 crore spending is planned in the next financial year.
 
 
 ## Source Library
