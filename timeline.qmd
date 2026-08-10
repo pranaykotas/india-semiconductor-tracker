@@ -37,10 +37,10 @@ gantt_data <- facilities %>%
 
 # Status colours matching site palette
 status_colors <- c(
-  "Operational"        = "#2E7D32",
+  "Operational"        = "#2f6b4a",
   "Under Construction" = "#1565C0",
   "Approved"           = "#f1a222",
-  "Announced"          = "#757575"
+  "Announced"          = "#8C8480"
 )
 
 # Build the Gantt chart

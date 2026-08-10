@@ -1,6 +1,6 @@
-# India Semiconductor Manufacturing Tracker
+# India Semiconductor Tracker
 
-An interactive, open-source tracker for every announced semiconductor manufacturing facility in India — fabrication plants (fabs), assembly & packaging (ATMP/OSAT), and compound semiconductor units.
+An interactive, open-source tracker for India's semiconductor sector — manufacturing facilities (fabs, ATMP/OSAT), chip design firms, and policy developments.
 
 **Live site:** [fabs.pranaykotas.com](https://fabs.pranaykotas.com)
 

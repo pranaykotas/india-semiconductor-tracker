@@ -56,10 +56,10 @@ nodes <- tibble(
 
 # Assign colors
 era_colors <- c(
-  "Cutting Edge" = "#C62828",
-  "Advanced"     = "#E65100",
-  "Mature"       = "#1565C0",
-  "Legacy"       = "#757575"
+  "Cutting Edge" = "#620d3c",
+  "Advanced"     = "#a3282d",
+  "Mature"       = "#2f6b6b",
+  "Legacy"       = "#8C8480"
 )
 
 # Reverse for bottom-to-top ordering (most advanced at top)

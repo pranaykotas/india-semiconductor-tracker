@@ -108,7 +108,7 @@ leaflet(facilities, options = leafletOptions(minZoom = 4, maxZoom = 10)) %>%
   ) %>%
   addLegend(
     position = "bottomright",
-    colors = c("#C62828", "#1565C0", "#6A1B9A", "#00796B", "#455A64"),
+    colors = c("#620d3c", "#2f6b6b", "#6A1B9A", "#00796B", "#455A64"),
     labels = c("Commercial Fab", "Assembly & Packaging", "Compound Semiconductor", "OSAT (Non-ISM)", "Research & Strategic"),
     title = "Facility Category"
   )
@@ -159,9 +159,9 @@ type_data <- facilities %>%
   )
 
 type_colors <- c(
-  "Fab"                    = "#C62828",
-  "Assembly & Packaging"   = "#1565C0",
-  "Compound Semiconductor" = "#6A1B9A"
+  "Fab"                    = "#620d3c",
+  "Assembly & Packaging"   = "#2f6b6b",
+  "Compound Semiconductor" = "#4a5a7a"
 )
 
 ggplot(type_data, aes(x = reorder(type, total_inr), y = total_inr, fill = type)) +

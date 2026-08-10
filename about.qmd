@@ -4,7 +4,7 @@ title: "About This Tracker"
 
 ## What This Is
 
-The India Semiconductor Manufacturing Tracker is a curated, open-source resource that monitors all announced semiconductor manufacturing facilities in India — fabrication plants (fabs), assembly, testing, marking, and packaging (ATMP) units, and outsourced semiconductor assembly and test (OSAT) facilities.
+The India Semiconductor Tracker is a curated, open-source resource that monitors all announced semiconductor manufacturing facilities in India — fabrication plants (fabs), assembly, testing, marking, and packaging (ATMP) units, and outsourced semiconductor assembly and test (OSAT) facilities.
 
 It is maintained by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila Institution](https://takshashila.org.in), a public policy research and education centre based in Bengaluru, India.
 

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- IC package body -->
+  <rect x="16" y="16" width="32" height="32" fill="#620d3c" rx="2"/>
+  <!-- Die -->
+  <rect x="24" y="24" width="16" height="16" fill="#f1a222" rx="1"/>
+  <!-- Pins — top -->
+  <rect x="22" y="10" width="3" height="8" fill="#620d3c" rx="0.5"/>
+  <rect x="30.5" y="10" width="3" height="8" fill="#620d3c" rx="0.5"/>
+  <rect x="39" y="10" width="3" height="8" fill="#620d3c" rx="0.5"/>
+  <!-- Pins — bottom -->
+  <rect x="22" y="46" width="3" height="8" fill="#620d3c" rx="0.5"/>
+  <rect x="30.5" y="46" width="3" height="8" fill="#620d3c" rx="0.5"/>
+  <rect x="39" y="46" width="3" height="8" fill="#620d3c" rx="0.5"/>
+  <!-- Pins — left -->
+  <rect x="10" y="22" width="8" height="3" fill="#620d3c" rx="0.5"/>
+  <rect x="10" y="30.5" width="8" height="3" fill="#620d3c" rx="0.5"/>
+  <rect x="10" y="39" width="8" height="3" fill="#620d3c" rx="0.5"/>
+  <!-- Pins — right -->
+  <rect x="46" y="22" width="8" height="3" fill="#620d3c" rx="0.5"/>
+  <rect x="46" y="30.5" width="8" height="3" fill="#620d3c" rx="0.5"/>
+  <rect x="46" y="39" width="8" height="3" fill="#620d3c" rx="0.5"/>
+  <!-- Pin 1 marker -->
+  <circle cx="20" cy="20" r="1.5" fill="#f5e6ec"/>
+</svg>

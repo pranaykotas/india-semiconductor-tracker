@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-**India Semiconductor Manufacturing Tracker** — an interactive Quarto website that tracks all announced semiconductor manufacturing facilities in India (fabs, ATMP, OSAT) under the India Semiconductor Mission and related initiatives.
+**India Semiconductor Tracker** — an interactive Quarto website that tracks semiconductor manufacturing facilities, chip design firms, and policy developments in India under the India Semiconductor Mission and related initiatives.
 
 Maintained by Pranay Kotasthane at the Takshashila Institution.
 

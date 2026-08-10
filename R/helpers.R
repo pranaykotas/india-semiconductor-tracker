@@ -1,4 +1,4 @@
-# helpers.R — Shared functions for the India Semiconductor Manufacturing Tracker
+# helpers.R — Shared functions for the India Semiconductor Tracker
 # All data loading, transformation, and HTML rendering lives here.
 
 library(yaml)
@@ -103,13 +103,13 @@ format_investment <- function(investment_inr, category = "Commercial (ISM Approv
 # ---- Map status to display colour ----
 status_color <- function(status) {
   switch(status,
-    "Operational"        = "#2E7D32",
+    "Operational"        = "#2f6b4a",
     "Under Construction" = "#1565C0",
-    "Approved"           = "#B85C00",
-    "Announced"          = "#757575",
-    "On Hold"            = "#C62828",
-    "Cancelled"          = "#C62828",
-    "#757575"
+    "Approved"           = "#f1a222",
+    "Announced"          = "#8C8480",
+    "On Hold"            = "#a3282d",
+    "Cancelled"          = "#a3282d",
+    "#8C8480"
   )
 }
 
@@ -118,8 +118,8 @@ type_color <- function(type, category = "Commercial (ISM Approved)") {
   if (category == "Research & Strategic") return("#455A64")
   if (category == "OSAT (Non-ISM)") return("#00796B")
   switch(type,
-    "Fab"                    = "#C62828",
-    "Assembly & Packaging"   = "#1565C0",
+    "Fab"                    = "#620d3c",
+    "Assembly & Packaging"   = "#2f6b6b",
     "Compound Semiconductor" = "#6A1B9A",
     "Research Fab"           = "#455A64",
     "#757575"
@@ -179,7 +179,7 @@ progress_bar_html <- function(status, date_construction, date_completion) {
   if (status == "Operational") {
     pct <- 100
     label <- "Complete"
-    bar_color <- "#2E7D32"
+    bar_color <- "#2f6b4a"
   } else if (!is.na(date_construction) && !is.na(date_completion)) {
     total_days <- as.numeric(date_completion - date_construction)
     elapsed <- as.numeric(today - date_construction)
@@ -188,7 +188,7 @@ progress_bar_html <- function(status, date_construction, date_completion) {
     label <- paste0(pct, "% (~", remaining_months, "m left)")
     bar_color <- "#1565C0"
   } else {
-    pct <- 0; label <- "TBD"; bar_color <- "#757575"
+    pct <- 0; label <- "TBD"; bar_color <- "#8C8480"
   }
   glue('<div class="progress-container" title="{label}"><div class="progress-bar" style="background:{bar_color};width:{pct}%"></div><span class="progress-label">{label}</span></div>')
 }
@@ -318,11 +318,11 @@ load_design_locations <- function(path = "data/design.yml") {
 # ---- Map design category to marker colour ----
 design_category_color <- function(category) {
   switch(category,
-    "Indian Fabless"     = "#E65100",
-    "DLI Beneficiary"    = "#2E7D32",
-    "GCC Design Centre"  = "#1565C0",
-    "EDA & IP Provider"  = "#6A1B9A",
-    "#757575"
+    "Indian Fabless"     = "#620d3c",
+    "DLI Beneficiary"    = "#2f6b4a",
+    "GCC Design Centre"  = "#2f6b6b",
+    "EDA & IP Provider"  = "#4a5a7a",
+    "#8C8480"
   )
 }
 

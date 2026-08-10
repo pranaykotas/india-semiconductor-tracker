@@ -6,8 +6,9 @@ project:
     - "!CLAUDE.md"
 
 website:
-  title: "India Semiconductor Manufacturing Tracker"
-  description: "Tracking semiconductor manufacturing facilities across India"
+  title: "India Semiconductor Tracker"
+  description: "Tracking semiconductor facilities and chip design across India"
+  favicon: "images/favicon.svg"
   site-url: "https://fabs.pranaykotas.com"
 
   navbar:
@@ -27,6 +28,9 @@ website:
       - text: "About"
         href: about.qmd
     right:
+      - text: "Takshashila"
+        href: https://takshashila.org.in
+        aria-label: "Takshashila Institution"
       - icon: github
         href: https://github.com/pranaykotas/india-semiconductor-tracker
         aria-label: "GitHub repository"
@@ -48,4 +52,4 @@ format:
     toc: true
     toc-depth: 2
     mainfont: "Inter"
-    monofont: "JetBrains Mono"
+    monofont: "Roboto Mono"
