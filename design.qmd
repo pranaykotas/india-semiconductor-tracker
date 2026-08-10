@@ -211,8 +211,8 @@ ggplot(city_counts, aes(x = reorder(city, n, sum), y = n, fill = category)) +
   scale_fill_manual(values = c(
     "Indian Fabless" = "#620d3c",
     "DLI Beneficiary" = "#2f6b4a",
-    "GCC Design Centre" = "#2f6b6b",
-    "EDA & IP Provider" = "#4a5a7a"
+    "GCC Design Centre" = "#1565C0",
+    "EDA & IP Provider" = "#f1a222"
   )) +
   labs(
     title = "Semiconductor Design Centres by City",

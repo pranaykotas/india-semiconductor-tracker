@@ -320,8 +320,8 @@ design_category_color <- function(category) {
   switch(category,
     "Indian Fabless"     = "#620d3c",
     "DLI Beneficiary"    = "#2f6b4a",
-    "GCC Design Centre"  = "#2f6b6b",
-    "EDA & IP Provider"  = "#4a5a7a",
+    "GCC Design Centre"  = "#1565C0",
+    "EDA & IP Provider"  = "#f1a222",
     "#8C8480"
   )
 }

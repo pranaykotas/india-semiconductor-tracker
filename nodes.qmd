@@ -99,17 +99,17 @@ ggplot(nodes, aes(x = node, y = 1, fill = era)) +
   )
 ```
 
-## Why 28nm--65nm Matters for India
+## Why 28nm--90nm Matters for India
 
 ::: {.node-highlight}
-India's first fab (Tata-PSMC) targets the **28nm--55nm** range.
+India's first fab (Tata-PSMC) targets the **28nm--90nm** range.
 :::
 
 ### The "sweet spot" argument
 
 **28nm** is the most widely used process node in the world by volume. It is the workhorse of:
 
-- **Automotive microcontrollers** — every modern car uses dozens of chips at 28nm–65nm
+- **Automotive microcontrollers** — every modern car uses dozens of chips at 28nm–90nm
 - **IoT and edge devices** — sensors, connectivity modules, smart meters
 - **Industrial control** — factory automation, power grid management
 - **Defence and aerospace** — where reliability and long product lifecycles matter more than performance
@@ -119,7 +119,7 @@ These are the chips that India imports in massive quantities today. Building dom
 
 ### Cutting edge vs. mature: a false dichotomy
 
-| Metric | Cutting Edge (3–7nm) | India's Target (28–65nm) |
+| Metric | Cutting Edge (3–7nm) | India's Target (28–90nm) |
 |--------|---------------------|-------------------------|
 | Capex per fab | $20–30 billion | $5–11 billion |
 | Equipment availability | Constrained (ASML EUV) | Widely available (DUV) |
@@ -140,7 +140,7 @@ These are the chips that India imports in massive quantities today. Building dom
 
 ::: {.callout-warning}
 ## The risk India must watch
-28nm is a good starting point, but it is not risk-free. Around 91 fabs are under construction worldwide as of 2025, and a significant share target the mature 28nm–65nm range — precisely where India is betting.
+28nm is a good starting point, but it is not risk-free. Around 91 fabs are under construction worldwide as of 2025, and a significant share target the mature 28nm–90nm range — precisely where India is betting.
 :::
 
 The biggest concern is **China**. SMIC and other Chinese foundries have massively expanded mature-node capacity, partly in response to US export controls that locked them out of cutting-edge nodes. This flood of Chinese 28nm supply could create a **"China Shock" in semiconductors** — depressing global prices for mature-node chips and making it harder for new entrants like India to compete on cost.
