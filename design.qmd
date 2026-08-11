@@ -64,6 +64,11 @@ m <- leaflet(locations, width = "100%", options = leafletOptions(minZoom = 4, ma
       '<div class="popup-row"><span class="popup-label">Focus:</span> ', product_focus, '</div>',
       '<div class="popup-row"><span class="popup-label">Scope:</span> ', design_scope, '</div>',
       '</div>'
+    ),
+    clusterOptions = markerClusterOptions(
+      showCoverageOnHover = FALSE,
+      maxClusterRadius = 40,
+      disableClusteringAtZoom = 9
     )
   ) %>%
   addLegend(

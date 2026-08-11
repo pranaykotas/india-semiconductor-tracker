@@ -308,8 +308,8 @@ load_design_locations <- function(path = "data/design.yml") {
   set.seed(44)
   df <- df %>%
     mutate(
-      lat = lat + runif(n(), -0.02, 0.02),
-      lon = lon + runif(n(), -0.02, 0.02)
+      lat = lat + runif(n(), -0.06, 0.06),
+      lon = lon + runif(n(), -0.06, 0.06)
     )
 
   df
