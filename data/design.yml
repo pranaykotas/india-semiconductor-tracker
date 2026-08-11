@@ -1655,3 +1655,375 @@ design_firms:
     design_completeness: 5
     domain_difficulty: 5
     india_scale: 2
+- id: nvidia-india
+  name: NVIDIA India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: NVIDIA Corporation
+  parent_hq: United States
+  founded: 2004
+  india_headcount: 2500
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Pune
+    state: Maharashtra
+    lat: 18.52
+    lon: 73.855
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: GPU architecture, AI accelerators, deep learning frameworks
+  application_domains:
+  - AI/ML
+  - Data Centre
+  - Automotive
+  - Gaming
+  design_scope: Full chip
+  node_sophistication: 3nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: India accounts for 18% of NVIDIA's global workforce. Bengaluru and Pune together employ over 2,300 staff focused
+      on GPU software, deep learning, and system software engineering.
+    what_it_designs: GPU architecture and verification, CUDA software stack, AI/ML frameworks, autonomous vehicle computing
+      platforms, and system software for data centre accelerators.
+  sources:
+  - url: https://www.nvidia.com/en-in/contact/asia/
+    title: NVIDIA India offices
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 4
+    domain_difficulty: 5
+    india_scale: 3
+- id: marvell-india
+  name: Marvell India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Marvell Technology Inc.
+  parent_hq: United States
+  founded: 2006
+  india_headcount: 2000
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  - city: Pune
+    state: Maharashtra
+    lat: 18.52
+    lon: 73.855
+  product_focus: Data infrastructure semiconductors, networking, storage, custom silicon
+  application_domains:
+  - Data Centre
+  - 5G
+  - Cloud
+  - AI
+  design_scope: Full chip
+  node_sophistication: 2nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: India is Marvell's second-largest R&D hub globally. In July 2026, Marvell announced a $250 million investment
+      to double its India workforce and expand Bengaluru and Hyderabad campuses. Teams work on 2nm-and-beyond process nodes.
+    what_it_designs: Custom data centre ASICs, 5G baseband processors, networking switches, storage controllers, and high-speed
+      analog IP. Hyderabad focuses on security solutions; Pune on embedded development for networking and storage.
+  sources:
+  - url: https://indiawest.com/us-chipmaker-marvell-to-invest-250-million-in-bengaluru-hyderabad/
+    title: Marvell to invest $250M in Bengaluru, Hyderabad R&D
+    date: '2026-07-29'
+  design_score:
+    strategic_depth: 5
+    design_completeness: 5
+    domain_difficulty: 5
+    india_scale: 3
+- id: apple-india
+  name: Apple India (Silicon Engineering)
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Apple Inc.
+  parent_hq: United States
+  founded: 2019
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: SoC design, wireless modem silicon
+  application_domains:
+  - Mobile
+  - Consumer Electronics
+  design_scope: Full chip
+  node_sophistication: 3nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Apple's Bengaluru silicon team was seeded by the 2019 acquisition of Intel's smartphone modem business, which
+      brought ~160 modem engineers. The team works on SoC platform architecture and wireless silicon development.
+    what_it_designs: Wireless modem silicon, SoC platform architecture, and hardware verification for Apple's custom processors
+      used in iPhone, iPad, and Mac products.
+  sources:
+  - url: https://www.ilounge.com/news/apple-chip-design-bengaluru
+    title: Apple starts chip-designing in Bengaluru
+    date: '2025-01-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 3
+    domain_difficulty: 5
+    india_scale: 1
+- id: google-india-silicon
+  name: Google India (gChips)
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Alphabet Inc.
+  parent_hq: United States
+  founded: 2023
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Tensor SoC design, custom server processors
+  application_domains:
+  - Mobile
+  - AI/ML
+  - Cloud
+  design_scope: Full chip
+  node_sophistication: 3nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Google's gChips team in Bengaluru designs custom silicon for Pixel devices and cloud infrastructure. The team
+      was built by hiring senior engineers from Intel, Qualcomm, Broadcom, and NVIDIA.
+    what_it_designs: Tensor mobile SoCs for Pixel phones, TPU (Tensor Processing Unit) components for cloud AI, and custom
+      server silicon. Bengaluru handles architecture, RTL design, and verification.
+  sources:
+  - url: https://www.datacenterknowledge.com/data-center-chips/google-said-to-be-on-a-chip-engineer-hiring-spree-in-india
+    title: Google on chip engineer hiring spree in India
+    date: '2025-06-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 3
+    domain_difficulty: 5
+    india_scale: 1
+- id: microchip-india
+  name: Microchip Technology India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Microchip Technology Inc.
+  parent_hq: United States
+  founded: 2000
+  india_headcount: 2500
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Chennai
+    state: Tamil Nadu
+    lat: 13.083
+    lon: 80.27
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Microcontrollers, FPGAs, networking, security, analog
+  application_domains:
+  - Industrial
+  - Automotive
+  - Aerospace & Defence
+  - IoT
+  design_scope: Full chip
+  node_sophistication: 28nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Microchip has operated in India for 25 years. In 2025, it announced a $300 million investment to expand its India
+      operations, including a new Bengaluru facility that can accommodate 3,000+ employees. India supports design for MCUs,
+      FPGAs, networking, and security products.
+    what_it_designs: 8/16/32-bit microcontrollers, microprocessors, FPGA development, networking and data centre solutions,
+      security and authentication products, wired and wireless connectivity solutions.
+  sources:
+  - url: https://www.microchip.com/en-us/about/news-releases/corporate/microchip-launches-300m-investment-in-india
+    title: Microchip launches $300M investment in India
+    date: '2025-11-01'
+  design_score:
+    strategic_depth: 4
+    design_completeness: 5
+    domain_difficulty: 4
+    india_scale: 3
+- id: microsoft-india-silicon
+  name: Microsoft India (Silicon Engineering)
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Microsoft Corporation
+  parent_hq: United States
+  founded: 2019
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Custom AI accelerators, Arm-based cloud processors
+  application_domains:
+  - Cloud
+  - AI/ML
+  - Data Centre
+  design_scope: Subsystem
+  node_sophistication: 5nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Microsoft's SCHIE (Silicon, Cloud Hardware, and Infrastructure Engineering) team in India contributes to custom
+      silicon for Azure, including work related to the Maia AI accelerator and Cobalt Arm-based CPU programmes.
+    what_it_designs: Silicon engineering for Azure custom chips, including design verification, physical design, and firmware
+      for cloud infrastructure processors.
+  sources:
+  - url: https://careers.microsoft.com/v2/global/en/locations/bengaluru.html
+    title: Microsoft Bengaluru careers — silicon engineering roles
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 3
+    design_completeness: 3
+    domain_difficulty: 5
+    india_scale: 2
+- id: meta-india-silicon
+  name: Meta India (Infra Silicon)
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Meta Platforms Inc.
+  parent_hq: United States
+  founded: 2022
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Custom data centre ASICs, AI accelerators
+  application_domains:
+  - AI/ML
+  - Data Centre
+  design_scope: Subsystem
+  node_sophistication: 5nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Meta's Infra Silicon team in Bengaluru designs custom ASICs for data centre workloads including video
+      transcoding and AI inference. Actively hiring ASIC design and verification engineers.
+    what_it_designs: Domain-specific SoCs and ASICs for Meta's data centres, covering architecture, RTL design, verification,
+      and physical design for AI/ML inference and video processing accelerators.
+  sources:
+  - url: https://www.foundit.in/job/asic-engineer-design-meta-bengaluru-bangalore-47072024
+    title: Meta ASIC Engineer Design — Bengaluru
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 3
+    design_completeness: 3
+    domain_difficulty: 5
+    india_scale: 1
+- id: cisco-india-silicon
+  name: Cisco India (Silicon Engineering)
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: Cisco Systems Inc.
+  parent_hq: United States
+  founded: 2005
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Networking ASICs, switching silicon
+  application_domains:
+  - Networking
+  - Data Centre
+  design_scope: Subsystem
+  node_sophistication: 7nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Cisco invested $150 million to expand its Bengaluru facility into a full chip design centre. India teams
+      contribute to networking ASIC design for enterprise and data centre switches and routers.
+    what_it_designs: Networking ASIC design, verification, and physical design for Cisco's switching and routing platforms.
+      Bengaluru is being expanded to support full chip design capabilities.
+  sources:
+  - url: https://www.eetimes.com/cisco-to-begin-chip-design-in-india/
+    title: Cisco to begin chip design in India
+    date: '2025-01-01'
+  design_score:
+    strategic_depth: 3
+    design_completeness: 3
+    domain_difficulty: 4
+    india_scale: 2
+- id: onsemi-india
+  name: onsemi India
+  category: GCC Design Centre
+  dli_beneficiary: false
+  parent_company: onsemi (ON Semiconductor)
+  parent_hq: United States
+  founded: 2009
+  india_headcount: 400
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Image sensors, power management, analog
+  application_domains:
+  - Automotive
+  - Industrial
+  - IoT
+  design_scope: Full chip
+  node_sophistication: 28nm
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Bengaluru India Development Centre (BIDC) was established through the 2009 acquisition of PulseCore
+      Semiconductor, expanded via the 2011 Cypress image sensing acquisition. Supports the global Intelligent Sensing
+      and Analog Solutions groups.
+    what_it_designs: Image sensor ICs for automotive ADAS and industrial machine vision, power management ICs, and analog
+      signal conditioning circuits.
+  sources:
+  - url: https://www.onsemi.com/company/about-onsemi/locations/bangalore-india
+    title: onsemi Bangalore India
+    date: '2026-01-01'
+  design_score:
+    strategic_depth: 3
+    design_completeness: 4
+    domain_difficulty: 4
+    india_scale: 1
