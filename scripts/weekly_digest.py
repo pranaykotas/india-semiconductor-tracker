@@ -93,6 +93,13 @@ You are the editor of the India Semiconductor Manufacturing Tracker weekly diges
 
 Compare the search results against the current YAML state and write the weekly digest.
 Only include updates that represent a CHANGE from what is already in the YAML.
+Before flagging anything, check the facility's FULL milestones[] list above (not
+just the most recent entry) — news outlets frequently re-report an old
+groundbreaking, foundation-stone, or inauguration event days or weeks later with a
+fresh publish date. If the event, investment figure, or partner in a search result
+already appears anywhere in that facility's milestones/investment/partners, it is
+NOT an update — put it under "Confirmed: no news" (or omit), not "Likely updates
+needed".
 Every facility listed above must appear in exactly one section of the digest.
 
 Use exactly this format:
@@ -181,11 +188,15 @@ def build_facilities_summary(facilities_yaml: str) -> str:
     summary = []
     for f in data.get("facilities", []):
         milestones = f.get("milestones") or []
-        last_milestone = ""
-        if milestones:
-            m = milestones[-1]
-            last_milestone = f"{m.get('date', '')} — {m.get('event', '')}"
+        # Send the full milestone history, not just the last one — otherwise
+        # the synthesis step can't tell an already-logged event (e.g. an
+        # earlier inauguration or foundation-stone) apart from genuine news,
+        # and re-flags recycled articles as "new" updates.
+        milestone_log = [
+            f"{m.get('date', '')} — {m.get('event', '')}" for m in milestones
+        ]
         dates = f.get("dates") or {}
+        investment = f.get("investment") or {}
         summary.append({
             "id": f.get("id"),
             "name": f.get("name"),
@@ -194,9 +205,11 @@ def build_facilities_summary(facilities_yaml: str) -> str:
             "status": f.get("status"),
             "status_detail": f.get("status_detail", ""),
             "delay_confirmed": f.get("delay_confirmed", False),
+            "investment_total_inr_cr": investment.get("total_inr", ""),
+            "partners": f.get("partners") or [],
             "original_expected_completion": dates.get("original_expected_completion", ""),
             "date_completion": dates.get("date_completion", ""),
-            "last_milestone": last_milestone,
+            "milestones": milestone_log,
         })
     return yaml.dump(summary, allow_unicode=True, sort_keys=False)
 

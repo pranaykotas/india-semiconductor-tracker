@@ -299,6 +299,12 @@ facilities:
         event: "Approved under ISM"
       - date: "2025-06-01"
         event: "Construction begins at Jewar, near Noida International Airport"
+      - date: "2026-02-21"
+        event: "PM Modi virtually lays foundation stone for India Chip Pvt Ltd (HCL-Foxconn JV OSAT facility)"
+        source:
+          url: https://www.newsonair.gov.in/pm-modi-virtually-lays-foundation-stone-of-hcl-foxconn-joint-venture-project-india-chip-pvt-ltd
+          title: "PM Modi virtually lays foundation stone of HCL-Foxconn joint venture project India Chip Pvt Ltd"
+          date: "2026-02-21"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 1
