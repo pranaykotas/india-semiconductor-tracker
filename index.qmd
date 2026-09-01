@@ -73,10 +73,22 @@ labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(faci
 # Get official India boundary overlay (DataMeet composite GeoJSON)
 india <- st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
 
-# CartoDB.Positron now requires an API key for anonymous use (CARTO retired
-# free tiles) — Esri.WorldGrayCanvas gives a similar light base map, no key needed.
+# CartoDB Positron via leaflet-providers now serves an "API key required"
+# watermark — CARTO retired anonymous free tiles. Use their current raster
+# endpoint directly with a free API key (fair-use tier), read from an env
+# var (set in .Renviron locally / CARTO_API_KEY secret in CI) so the key
+# never lands in a git-tracked file. This basemap includes state boundaries,
+# unlike Esri.WorldGrayCanvas.
+carto_key <- Sys.getenv("CARTO_API_KEY")
+positron_url <- paste0(
+  "https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png?key=",
+  carto_key
+)
 leaflet(facilities, options = leafletOptions(minZoom = 4, maxZoom = 10)) %>%
-  addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
+  addTiles(
+    urlTemplate = positron_url,
+    attribution = '&copy; <a href="https://carto.com/attributions">CARTO</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  ) %>%
   fitBounds(lng1 = 68, lat1 = 7, lng2 = 97, lat2 = 36) %>%
   addPolygons(
     data = india,

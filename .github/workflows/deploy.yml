@@ -51,6 +51,8 @@ jobs:
 
       - name: Render site
         run: quarto render
+        env:
+          CARTO_API_KEY: ${{ secrets.CARTO_API_KEY }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
