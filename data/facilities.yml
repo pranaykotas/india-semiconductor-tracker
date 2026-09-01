@@ -519,14 +519,14 @@ facilities:
       lat: 30.704
       lon: 76.717
     type: "Assembly & Packaging"
-    capability: "Discrete Semiconductors (158M units/year)"
+    capability: "High-power discrete semiconductors — MOSFETs, IGBTs, Schottky bypass diodes, transistors, in Silicon and Silicon Carbide (158.38M units/year)"
     investment:
       total_inr: 117
     status: "Approved"
     narrative:
-      significance: "One of India's oldest semiconductor companies (founded 1964) expanding under ISM. A survivor of India's earlier, failed semiconductor attempts."
-      what_it_makes: "Discrete semiconductor devices — diodes, transistors, and rectifiers used in power supplies, automotive electronics, and consumer products. These are simpler than integrated circuits but are produced in enormous volumes."
-      why_it_matters: "CDIL has been making semiconductors in India since 1964, long before the current ISM wave. Its survival and expansion under ISM demonstrates continuity in India's semiconductor journey — this isn't starting from zero."
+      significance: "Brownfield expansion of CDIL's existing discrete-semiconductor plant at Mohali (founded 1964) — not a new facility. A survivor of India's earlier, failed semiconductor attempts, now scaling up under ISM."
+      what_it_makes: "High-power discrete semiconductor devices — MOSFETs, IGBTs, Schottky bypass diodes, and transistors — in both Silicon and Silicon Carbide, for automotive electronics (including EVs and charging infrastructure), renewable energy systems, power conversion, industrial applications, and communication infrastructure."
+      why_it_matters: "CDIL has been making semiconductors in India since 1964, long before the current ISM wave. This expansion — its move into Silicon Carbide devices for EVs and renewables — shows an existing player scaling into higher-value power semiconductors rather than a new entrant starting from zero."
     milestones:
       - date: "2025-08-01"
         event: "Approved by Union Cabinet under ISM"
