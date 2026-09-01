@@ -73,9 +73,10 @@ labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(faci
 # Get official India boundary overlay (DataMeet composite GeoJSON)
 india <- st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
 
-# Use CartoDB.Positron for a reliable base map and overlay DataMeet boundaries
+# CartoDB.Positron now requires an API key for anonymous use (CARTO retired
+# free tiles) — Esri.WorldGrayCanvas gives a similar light base map, no key needed.
 leaflet(facilities, options = leafletOptions(minZoom = 4, maxZoom = 10)) %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
+  addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
   fitBounds(lng1 = 68, lat1 = 7, lng2 = 97, lat2 = 36) %>%
   addPolygons(
     data = india,

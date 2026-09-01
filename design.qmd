@@ -36,8 +36,10 @@ As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$catego
 locations$colour <- sapply(locations$category, design_category_color)
 india <- st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
 
+# CartoDB.Positron now requires an API key for anonymous use (CARTO retired
+# free tiles) — Esri.WorldGrayCanvas gives a similar light base map, no key needed.
 m <- leaflet(locations, width = "100%", options = leafletOptions(minZoom = 4, maxZoom = 10)) %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
+  addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
   fitBounds(lng1 = 68, lat1 = 7, lng2 = 97, lat2 = 36) %>%
   addPolygons(
     data = india,
