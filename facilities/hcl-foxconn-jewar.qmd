@@ -53,6 +53,7 @@ Benchmarked against a 3nm fab (5/5).
 
 - **01 May 2025** — Approved under ISM
 - **01 Jun 2025** — Construction begins at Jewar, near Noida International Airport
+- **21 Feb 2026** — PM Modi virtually lays foundation stone for India Chip Pvt Ltd (HCL-Foxconn JV OSAT facility)
 
 
 

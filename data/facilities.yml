@@ -369,15 +369,15 @@ facilities:
       lat: 21.094
       lon: 72.956
     type: "Assembly & Packaging"
-    capability: "Discrete Semiconductor OSAT (1,033.2M chips/year)"
+    capability: "Discrete Semiconductor OSAT — producing at 300,000 chips/day as of Sept 2026, targeting 1 billion chips/year within 36 months (ISM-approved capacity: 1,033.2M chips/year)"
     investment:
       total_inr: 868
-    status: "Approved"
-    status_detail: "Company already operates a Surat OSAT base; ISM approval appears to cover the next project phase"
+    status: "Operational"
+    status_detail: "First production inaugurated Sept 2026; ramping toward its ISM-approved capacity over the next three years"
     narrative:
       significance: "Brings a domestic Indian player into scaled discrete-semiconductor packaging with explicit ISM backing. It also broadens India's back-end ecosystem beyond multinational-led projects."
       what_it_makes: "Packages and tests discrete semiconductor devices used in power electronics, consumer electronics, lighting, industrial systems, and automotive applications. The company site also highlights capabilities across small-outline, power, and QFN package families."
-      why_it_matters: "Discrete devices are not glamorous, but they are everywhere in power conversion and electronics manufacturing. A viable domestic OSAT base in this segment matters for supply-chain depth, and Suchi's tie-up with ROHM suggests a route to better process discipline and customer access."
+      why_it_matters: "Discrete devices are not glamorous, but they are everywhere in power conversion and electronics manufacturing. A viable domestic OSAT base in this segment matters for supply-chain depth, and Suchi's tie-up with ROHM suggests a route to better process discipline and customer access. Suchi went from Cabinet approval to first production in about four months — one of the faster approval-to-output turnarounds in the tracker, helped by three years of prior groundwork (equipment sourcing, staff training, product validation) done while the ISM application was still pending."
     milestones:
       - date: "2025-02-25"
         event: "Suchi Semicon publicly announces plans for a Surat OSAT facility"
@@ -385,6 +385,12 @@ facilities:
         event: "Suchi Semicon and ROHM enter a partnership for outsourced semiconductor assembly and test"
       - date: "2026-05-05"
         event: "Union Cabinet approves Suchi Semicon's discrete semiconductor OSAT unit under ISM"
+      - date: "2026-09-17"
+        event: "PM Modi virtually inaugurates first production at the facility, on the opening day of Semicon India 2026"
+        source:
+          url: "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/how-suchi-semicon-went-from-an-idea-to-commercial-production-in-just-3-years/134364000"
+          title: "How Suchi Semicon went from an idea to commercial production in just 3 years (ET Manufacturing)"
+          date: "2026-09-19"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 2
@@ -392,6 +398,7 @@ facilities:
     dates:
       announced: "2025-02-25"
       approved: "2026-05-05"
+      date_completion: "2026-09-17"
     sources:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258119"
         title: "PIB: Cabinet approves two more semiconductor manufacturing units"
@@ -408,6 +415,9 @@ facilities:
       - url: "https://suchisemicon.com/what-we-offer/"
         title: "Suchi Semicon: What We Offer"
         date: "2026-05-06"
+      - url: "https://manufacturing.economictimes.indiatimes.com/news/hi-tech/how-suchi-semicon-went-from-an-idea-to-commercial-production-in-just-3-years/134364000"
+        title: "How Suchi Semicon went from an idea to commercial production in just 3 years (ET Manufacturing)"
+        date: "2026-09-19"
 
   - id: sicsem-bhubaneswar
     name: "SicSem Silicon Carbide Fab"

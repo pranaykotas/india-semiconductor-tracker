@@ -6,16 +6,16 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-One of India's oldest semiconductor companies (founded 1964) expanding under ISM. A survivor of India's earlier, failed semiconductor attempts.
+Brownfield expansion of CDIL's existing discrete-semiconductor plant at Mohali (founded 1964) — not a new facility. A survivor of India's earlier, failed semiconductor attempts, now scaling up under ISM.
 :::
 
 ## What does this facility make?
 
-Discrete semiconductor devices — diodes, transistors, and rectifiers used in power supplies, automotive electronics, and consumer products. These are simpler than integrated circuits but are produced in enormous volumes.
+High-power discrete semiconductor devices — MOSFETs, IGBTs, Schottky bypass diodes, and transistors — in both Silicon and Silicon Carbide, for automotive electronics (including EVs and charging infrastructure), renewable energy systems, power conversion, industrial applications, and communication infrastructure.
 
 ## Why does it matter?
 
-CDIL has been making semiconductors in India since 1964, long before the current ISM wave. Its survival and expansion under ISM demonstrates continuity in India's semiconductor journey — this isn't starting from zero.
+CDIL has been making semiconductors in India since 1964, long before the current ISM wave. This expansion — its move into Silicon Carbide devices for EVs and renewables — shows an existing player scaling into higher-value power semiconductors rather than a new entrant starting from zero.
 
 ## Key Facts
 
@@ -27,7 +27,7 @@ CDIL has been making semiconductors in India since 1964, long before the current
 | **Company** | Continental Device India Ltd |
 | **Partners** | None |
 | **Type** | Assembly & Packaging |
-| **Capability** | Discrete Semiconductors (158M units/year) |
+| **Capability** | High-power discrete semiconductors — MOSFETs, IGBTs, Schottky bypass diodes, transistors, in Silicon and Silicon Carbide (158.38M units/year) |
 | **Status** | Approved |
 | **Investment** | ₹117 crore |
 | **Location** | Mohali, Punjab |

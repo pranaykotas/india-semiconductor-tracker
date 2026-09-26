@@ -15,7 +15,7 @@ Packages and tests discrete semiconductor devices used in power electronics, con
 
 ## Why does it matter?
 
-Discrete devices are not glamorous, but they are everywhere in power conversion and electronics manufacturing. A viable domestic OSAT base in this segment matters for supply-chain depth, and Suchi's tie-up with ROHM suggests a route to better process discipline and customer access.
+Discrete devices are not glamorous, but they are everywhere in power conversion and electronics manufacturing. A viable domestic OSAT base in this segment matters for supply-chain depth, and Suchi's tie-up with ROHM suggests a route to better process discipline and customer access. Suchi went from Cabinet approval to first production in about four months — one of the faster approval-to-output turnarounds in the tracker, helped by three years of prior groundwork (equipment sourcing, staff training, product validation) done while the ISM application was still pending.
 
 ## Key Facts
 
@@ -27,8 +27,8 @@ Discrete devices are not glamorous, but they are everywhere in power conversion 
 | **Company** | Suchi Semicon Private Limited |
 | **Partners** | ROHM Co., Ltd., Japan |
 | **Type** | Assembly & Packaging |
-| **Capability** | Discrete Semiconductor OSAT (1,033.2M chips/year) |
-| **Status** | Approved |
+| **Capability** | Discrete Semiconductor OSAT — producing at 300,000 chips/day as of Sept 2026, targeting 1 billion chips/year within 36 months (ISM-approved capacity: 1,033.2M chips/year) |
+| **Status** | Operational |
 | **Investment** | ₹868 crore |
 | **Location** | Surat, Gujarat |
 | **Category** | Commercial (ISM Approved) |
@@ -54,6 +54,7 @@ Benchmarked against a 3nm fab (5/5).
 - **25 Feb 2025** — Suchi Semicon publicly announces plans for a Surat OSAT facility
 - **01 Mar 2026** — Suchi Semicon and ROHM enter a partnership for outsourced semiconductor assembly and test
 - **05 May 2026** — Union Cabinet approves Suchi Semicon's discrete semiconductor OSAT unit under ISM
+- **17 Sep 2026** — PM Modi virtually inaugurates first production at the facility, on the opening day of Semicon India 2026
 
 
 
@@ -64,6 +65,7 @@ Benchmarked against a 3nm fab (5/5).
 - [Suchi Semicon announces Rs 870 crore semiconductor plant in Surat](https://suchisemicon.com/2025/02/25/suchi-semicon-announces-rs-870-crore-semiconductor-plant-in-surat/) (25 Feb 2025)
 - [ROHM and Suchi Semicon press release](https://suchisemicon.com/wp-content/uploads/2026/03/ROHM-and-Suchi-Semicon-Press-Release.pdf) (01 Mar 2026)
 - [Suchi Semicon: What We Offer](https://suchisemicon.com/what-we-offer/) (06 May 2026)
+- [How Suchi Semicon went from an idea to commercial production in just 3 years (ET Manufacturing)](https://manufacturing.economictimes.indiatimes.com/news/hi-tech/how-suchi-semicon-went-from-an-idea-to-commercial-production-in-just-3-years/134364000) (19 Sep 2026)
 
 ---
 

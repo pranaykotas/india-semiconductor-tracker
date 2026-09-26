@@ -28,7 +28,10 @@ gantt_data <- facilities %>%
   mutate(
     bar_start = coalesce(date_construction, date_announced),
     bar_end = coalesce(date_completion, date_original_expect, Sys.Date()),
-    has_construction = !is.na(date_construction),
+    # Solid bar = under construction or complete (per legend). Some facilities
+    # (e.g. brownfield OSAT expansions) reach Operational without a separately
+    # tracked construction-start date, so check status too, not just the date.
+    has_construction = !is.na(date_construction) | status == "Operational",
     # Short labels for y-axis
     name_label = gsub(" Semiconductor| Facility| Campus", "", name),
     type = factor(type, levels = c("Fab", "Assembly & Packaging", "Compound Semiconductor"))
