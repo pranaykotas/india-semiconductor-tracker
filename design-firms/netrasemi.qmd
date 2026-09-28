@@ -1,0 +1,46 @@
+---
+title: "Netrasemi"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+One of the first DLI-backed startups to have chips fabricated at TSMC on 12nm. Product line spans sub-1W IoT chips to 64 TOPS autonomous vehicle processors. Partnering with Zoho on R&D.
+:::
+
+## What does this firm design?
+
+Family of edge AI SoCs: Netra-R1000 (RISC-V, <1W, smart sensors), Netra-A2000 (4-8 TOPS, vision + H.26x codec), and Netra-A4000 (ARM-based, 64 TOPS, robotics and autonomous vehicles). Custom Tej-NPU neural processor IP core.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2020 |
+| **India Headcount** | ~61 |
+| **Locations** | Thiruvananthapuram |
+| **Product Focus** | Edge AI vision processors |
+| **Application Domains** | AI, Vision, Edge, Automotive, Robotics |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 12nm (TSMC) |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Netrasemi company profile (NeuromorphicCore)](https://neuromorphiccore.ai/insights/netrasemi/) (01 Mar 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

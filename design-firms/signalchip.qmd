@@ -1,0 +1,45 @@
+---
+title: "Signalchip"
+subtitle: "Indian Fabless"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+One of India's pioneering fabless semiconductor companies. Designed India's first indigenously developed 4G/LTE and 5G NR modem chipsets.
+:::
+
+## What does this firm design?
+
+Multi-standard wireless modem SoCs supporting 4G LTE-Advanced and 5G NR. Targets telecom infrastructure and CPE (Customer Premises Equipment) applications.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Indian Fabless |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2008 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | 4G/5G modem SoCs |
+| **Application Domains** | Telecom, 5G |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 7nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**
+
+## Sources
+
+- [Signalchip official website](https://www.signalchip.com) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

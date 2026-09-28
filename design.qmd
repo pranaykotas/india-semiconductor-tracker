@@ -77,6 +77,7 @@ m <- leaflet(locations, width = "100%", options = leafletOptions(minZoom = 4, ma
       '<div class="popup-row"><span class="popup-label">City:</span> ', city, '</div>',
       '<div class="popup-row"><span class="popup-label">Focus:</span> ', product_focus, '</div>',
       '<div class="popup-row"><span class="popup-label">Scope:</span> ', design_scope, '</div>',
+      '<div class="popup-row" style="margin-top:6px;"><a href="design-firms/', id, '.html" class="btn-detail">Full Profile →</a></div>',
       '</div>'
     ),
     clusterOptions = markerClusterOptions(
@@ -106,7 +107,7 @@ Design capability is scored on four dimensions (each 1–5): **IP Ownership** (l
 indian <- firms %>%
   filter(category %in% c("Indian Fabless", "DLI Beneficiary")) %>%
   mutate(
-    Name = name,
+    Name = paste0('<a href="design-firms/', id, '.html">', name, '</a>'),
     Category = sapply(category, design_category_badge),
     Focus = product_focus,
     Score = sapply(design_composite, design_score_bar_html),
@@ -143,7 +144,7 @@ GCC design centres are scored differently: **Strategic Depth** (cost centre → 
 gcc <- firms %>%
   filter(category == "GCC Design Centre") %>%
   mutate(
-    Name = name,
+    Name = paste0('<a href="design-firms/', id, '.html">', name, '</a>'),
     Parent = paste0(parent_company, " (", parent_hq, ")"),
     Focus = product_focus,
     Score = sapply(design_composite, design_score_bar_html),
@@ -181,7 +182,7 @@ These are not chip design firms — they build the electronic design automation 
 eda <- firms %>%
   filter(category == "EDA & IP Provider") %>%
   mutate(
-    Name = name,
+    Name = paste0('<a href="design-firms/', id, '.html">', name, '</a>'),
     Parent = paste0(parent_company, " (", parent_hq, ")"),
     Focus = product_focus,
     Scope = design_scope,

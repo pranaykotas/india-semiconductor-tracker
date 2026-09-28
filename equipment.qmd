@@ -1,0 +1,155 @@
+---
+title: "Equipment & Materials"
+subtitle: "Tracking semiconductor equipment, gases, chemicals, and materials investments in India"
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(leaflet)
+library(DT)
+library(sf)
+library(ggplot2)
+
+equip <- load_equipment("data/equipment_materials.yml")
+```
+
+## Overview
+
+Semicon 2.0 — India's ₹1.27 lakh crore semiconductor programme approved in July 2026 — explicitly names **equipment and materials** as one of six pillars, alongside chip design, fabrication, advanced packaging, R&D, and talent. This is the supply chain that feeds every fab and OSAT tracked elsewhere on this site: the machines that deposit, etch, and pattern silicon, and the gases, chemicals, and substrates those machines consume.
+
+This page tracks equipment makers, gas and chemical suppliers, materials and substrate producers, and infrastructure/process-engineering firms with a **concrete India investment or facility of their own** — not merely a company that has signed a supply agreement with a tracked fab (those relationships are recorded as milestones on the buyer's own facility page, e.g. Tata Electronics' Dholera fab page lists its ASML, FUJIFILM, and Kelington MoUs).
+
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(equip)` firms** across **`r length(unique(equip$state))`** states, representing **`r format(sum(equip$investment_inr, na.rm = TRUE), big.mark = ",")` crore** in disclosed rupee-denominated investment plus **$`r format(sum(equip$investment_usd_m, na.rm = TRUE), big.mark = ",")`M** in dollar-denominated commitments.
+
+::: {.callout-note}
+This is a new, early-stage tracker (added September 2026) — coverage will grow as more equipment/materials investments are announced and researched. If you know of a firm that should be listed, please [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose) or [submit via our form](https://forms.gle/FDESu4jRksmr7FTk7).
+:::
+
+---
+
+## Equipment & Materials Map
+
+```{r map, echo=FALSE, warning=FALSE, message=FALSE, fig.height=6}
+equip$colour <- sapply(equip$category, equipment_category_color)
+india <- st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
+
+carto_key <- Sys.getenv("CARTO_API_KEY")
+positron_url <- paste0(
+  "https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png?key=",
+  carto_key
+)
+
+m <- leaflet(equip, width = "100%", options = leafletOptions(minZoom = 4, maxZoom = 10)) %>%
+  addTiles(
+    urlTemplate = positron_url,
+    attribution = '&copy; <a href="https://carto.com/attributions">CARTO</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  ) %>%
+  fitBounds(lng1 = 68, lat1 = 7, lng2 = 97, lat2 = 36) %>%
+  addPolygons(
+    data = india,
+    color = "#620d3c",
+    weight = 2,
+    fillColor = "#E8EAF0",
+    fillOpacity = 0.1,
+    group = "Official Boundary"
+  ) %>%
+  addCircleMarkers(
+    lng = ~lon, lat = ~lat,
+    radius = 8,
+    color = "#ffffff",
+    fillColor = ~colour,
+    fillOpacity = 0.85,
+    stroke = TRUE,
+    weight = 1.5,
+    label = ~lapply(paste0("<strong>", name, "</strong><br/>", city, " | ", category), htmltools::HTML),
+    popup = ~paste0(
+      '<div class="facility-popup">',
+      '<h4>', name, '</h4>',
+      '<div class="popup-row">', sapply(category, equipment_category_badge), '</div>',
+      '<div class="popup-row"><span class="popup-label">City:</span> ', city, '</div>',
+      '<div class="popup-row"><span class="popup-label">Status:</span> ', sapply(status, status_badge_html), '</div>',
+      '<div class="popup-row"><span class="popup-label">Investment:</span> ', mapply(format_equipment_investment, investment_inr, investment_usd_m), '</div>',
+      '<div class="popup-row" style="margin-top:6px;"><a href="equipment-firms/', id, '.html" class="btn-detail">Full Profile →</a></div>',
+      '</div>'
+    ),
+    clusterOptions = markerClusterOptions(
+      showCoverageOnHover = FALSE,
+      maxClusterRadius = 40,
+      disableClusteringAtZoom = 9
+    )
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    colors = sapply(c("Equipment Manufacturer", "Gases & Chemicals", "Materials & Substrates", "Infrastructure & Services"), equipment_category_color),
+    labels = c("Equipment Manufacturer", "Gases & Chemicals", "Materials & Substrates", "Infrastructure & Services"),
+    title = "Category",
+    opacity = 0.8
+  )
+
+m
+```
+
+---
+
+## All Firms
+
+```{r table, echo=FALSE, warning=FALSE, message=FALSE}
+tbl <- equip %>%
+  mutate(
+    Name = paste0('<a href="equipment-firms/', id, '.html">', name, '</a>'),
+    Category = sapply(category, equipment_category_badge),
+    Parent = ifelse(is.na(parent_company), "Indian-origin", paste0(parent_company, " (", parent_hq, ")")),
+    Status = sapply(status, status_badge_html),
+    Investment = mapply(format_equipment_investment, investment_inr, investment_usd_m),
+    Location = paste0(city, ", ", state),
+    Supplies = ifelse(supplies_to == "", "General / not facility-specific", supplies_to)
+  ) %>%
+  select(Name, Category, Parent, Status, Investment, Location, Supplies)
+
+DT::datatable(
+  tbl,
+  escape = FALSE,
+  rownames = FALSE,
+  options = list(
+    pageLength = 25,
+    dom = 'ftip',
+    order = list(list(0, 'asc')),
+    columnDefs = list(
+      list(className = 'dt-left', targets = '_all')
+    )
+  ),
+  class = "display compact stripe"
+)
+```
+
+---
+
+## By Category
+
+```{r category-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.height=3.5}
+cat_counts <- equip %>% count(category)
+
+ggplot(cat_counts, aes(x = reorder(category, n), y = n, fill = category)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_manual(values = c(
+    "Equipment Manufacturer"    = "#620d3c",
+    "Gases & Chemicals"         = "#1565C0",
+    "Materials & Substrates"    = "#2f6b4a",
+    "Infrastructure & Services" = "#f1a222"
+  )) +
+  labs(title = NULL, x = NULL, y = "Number of firms") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+---
+
+::: {.callout-note}
+## Data Coverage & Sources
+
+This tracker only includes firms with their own disclosed India investment or facility — not every company that has signed a supply MoU with a tracked fab or OSAT (those appear as milestones on that facility's own page instead). Coverage is expected to grow significantly as Semicon 2.0's equipment-and-materials pillar matures.
+
+Primary sources: company press releases, SEMICON India event coverage, and business press reporting.
+:::

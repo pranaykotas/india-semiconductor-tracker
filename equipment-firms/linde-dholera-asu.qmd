@@ -1,0 +1,42 @@
+---
+title: "Linde India — Dholera Air Separation Unit"
+subtitle: "Gases & Chemicals | Linde plc"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Dedicated industrial-gas supply for Tata Electronics' Dholera fab — bulk gases (oxygen, nitrogen, argon) are a basic but essential fab input; without a local ASU, Tata's fab would depend on trucked-in supply, a real bottleneck at fab scale.
+:::
+
+## What does this facility supply?
+
+Bulk industrial gases (oxygen, nitrogen, argon) via on-site air separation, piped directly to Tata's Dholera fab.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Gases & Chemicals |
+| **Parent Company** | Linde plc (Ireland) |
+| **Location** | Dholera, Gujarat |
+| **Investment** | Not disclosed |
+| **Status** | Under Construction |
+| **Supplies** | tata-psmc-dholera |
+
+## Project Timeline
+
+- **16 Sep 2026** — Reported under construction, targeting operational readiness in H2 2027 ahead of Tata's fab ramp
+
+## Sources
+
+- [India's Semiconductor Ecosystem Is Maturing—and ASML Is Taking Notice](https://carnegieendowment.org/india/posts/2026/06/indias-semiconductor-ecosystem-is-maturingand-asml-is-taking-notice) (01 Jun 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this facility?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../equipment.html" class="btn btn-primary">Back to Equipment & Materials</a>

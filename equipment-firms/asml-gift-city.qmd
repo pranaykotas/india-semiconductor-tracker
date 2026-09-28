@@ -1,0 +1,44 @@
+---
+title: "ASML India — GIFT City Customer Support Office"
+subtitle: "Infrastructure & Services | ASML Holding N.V."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+ASML's first standalone India presence — a legal entity plus a customer-support office in GIFT City, Gujarat, hiring 20-30 engineering graduates initially. Distinct from (and a step beyond) its lithography-supply MoU with Tata's Dholera fab, which remains tracked as a milestone on Tata's own facility page. Growth here is explicitly tied to Dholera's success, so treat this as an early, small-scale support footprint rather than a major manufacturing investment.
+:::
+
+## What does this facility supply?
+
+Customer support and service operations for ASML's lithography systems supplied to Indian fabs, primarily Tata's Dholera fab.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Infrastructure & Services |
+| **Parent Company** | ASML Holding N.V. (Netherlands) |
+| **Location** | Gandhinagar (GIFT City), Gujarat |
+| **Investment** | Not disclosed |
+| **Status** | Announced |
+| **Supplies** | tata-psmc-dholera |
+
+## Project Timeline
+
+- **01 Sep 2026** — ASML establishes an Indian legal entity and begins India operations
+- **19 Sep 2026** — ASML confirms plans for a customer support office in GIFT City, Gujarat, hiring 20-30 engineering graduates initially
+
+## Sources
+
+- [Dutch Chip Giant ASML Plans Support Office in India's GIFT City](https://www.angelone.in/news/market-updates/dutch-chip-giant-asml-plans-support-office-in-india-s-gift-city) (19 Sep 2026)
+- [ASML Begins India Operations](https://www.gktoday.in/asml-begins-india-operations/) (01 Sep 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this facility?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../equipment.html" class="btn btn-primary">Back to Equipment & Materials</a>

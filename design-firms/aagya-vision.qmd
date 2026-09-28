@@ -1,0 +1,46 @@
+---
+title: "Aagya Vision"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Founded 2022 in Bengaluru by Gaurab Banerjee (IISc). Backed by an AMD India deep-tech innovation fund.
+:::
+
+## What does this firm design?
+
+All-weather radar-on-chip products for safety, security, smart infrastructure, edge computing, drone detection, and emerging 6G sensor networks — one base design addressing multiple applications.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2022 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Radar-on-chip |
+| **Application Domains** | Defence, Drone Detection, Smart Infrastructure, 6G Sensing |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [AMD India Funds Semiconductor Startup AAGYAVISION to Accelerate Deep-Tech Innovation](https://www.thebridgechronicle.com/tech/amd-india-funds-semiconductor-startup-aagyavision-2025) (01 Jan 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

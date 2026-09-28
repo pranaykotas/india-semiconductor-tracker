@@ -1,0 +1,46 @@
+---
+title: "ChipSpirit"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Bengaluru-based ASIC design services firm founded 2018. Won the Ministry of Defence's iDEX challenge in March 2019 and co-develops hardware security solutions with Indian Defence under Make in India.
+:::
+
+## What does this firm design?
+
+Custom ASIC design/turnkey services, plus its own hardware-only security ICs (VLSI-only, no software layer) designed to eliminate software-based backdoors.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2018 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | ASIC design services; hardware-only security ICs |
+| **Application Domains** | Defence, Security |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Chipspirit Technologies official website](https://www.chipspirit.com/) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

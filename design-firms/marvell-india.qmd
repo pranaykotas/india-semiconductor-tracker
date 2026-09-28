@@ -1,0 +1,45 @@
+---
+title: "Marvell India"
+subtitle: "GCC Design Centre | Marvell Technology Inc."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India is Marvell's second-largest R&D hub globally. In July 2026, Marvell announced a $250 million investment to double its India workforce and expand Bengaluru and Hyderabad campuses. Teams work on 2nm-and-beyond process nodes.
+:::
+
+## What does this firm design?
+
+Custom data centre ASICs, 5G baseband processors, networking switches, storage controllers, and high-speed analog IP. Hyderabad focuses on security solutions; Pune on embedded development for networking and storage.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Marvell Technology Inc. (United States) |
+| **Founded** | 2006 |
+| **India Headcount** | ~2,000 |
+| **Locations** | Bengaluru, Hyderabad, Pune |
+| **Product Focus** | Data infrastructure semiconductors, networking, storage, custom silicon |
+| **Application Domains** | Data Centre, 5G, Cloud, AI |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 2nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**
+
+## Sources
+
+- [Marvell to invest $250M in Bengaluru, Hyderabad R&D](https://indiawest.com/us-chipmaker-marvell-to-invest-250-million-in-bengaluru-hyderabad/) (29 Jul 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

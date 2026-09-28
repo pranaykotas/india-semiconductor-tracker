@@ -1,0 +1,42 @@
+---
+title: "Teradyne India — Bengaluru Office"
+subtitle: "Infrastructure & Services | Teradyne, Inc."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+A modest but concrete marker of Teradyne (automated test equipment) deepening its India commitment beyond sales — a dedicated local hub for customer engagement, applications support, and training, at Bagmane Cosmos Tech Park.
+:::
+
+## What does this facility supply?
+
+Applications support, training, and strategic-partnership engagement for semiconductor test equipment customers in India.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Infrastructure & Services |
+| **Parent Company** | Teradyne, Inc. (United States) |
+| **Location** | Bengaluru, Karnataka |
+| **Investment** | Not disclosed |
+| **Status** | Operational |
+| **Supplies** | General / not tied to one facility |
+
+## Project Timeline
+
+- **15 Sep 2026** — Teradyne opens its India office in Bengaluru
+
+## Sources
+
+- [Teradyne Opens Office in India, Deepening Commitment to the Country's Growing Semiconductor Ecosystem](https://investors.teradyne.com/news-events/press-releases/detail/449/teradyne-opens-office-in-india-deepening-commitment-to-the-countrys-growing-semiconductor-ecosystem) (15 Sep 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this facility?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../equipment.html" class="btn btn-primary">Back to Equipment & Materials</a>

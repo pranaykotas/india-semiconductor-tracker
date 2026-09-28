@@ -1,0 +1,43 @@
+---
+title: "INOX Air Products — Dholera Electronic Specialty Gas Hub"
+subtitle: "Gases & Chemicals | INOX Air Products Ltd. (JV: Air Products and Chemicals Inc., US + INOXCVA, India)"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+₹500cr Ultra High Purity (UHP) gas hub aimed at closing a real gap: INOX currently makes ~12 of the ~30-45 specialty gases the industry needs domestically, with the rest imported. This expands domestic UHP gas coverage rather than just adding bulk-gas capacity.
+:::
+
+## What does this facility supply?
+
+UHP bulk and specialty gases — nitrogen, oxygen, argon, hydrogen — for fabs and OSAT units.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Gases & Chemicals |
+| **Parent Company** | INOX Air Products Ltd. (JV: Air Products and Chemicals Inc., US + INOXCVA, India) (United States / India (joint venture)) |
+| **Location** | Dholera, Gujarat |
+| **Investment** | ₹500 crore |
+| **Status** | Under Construction |
+| **Supplies** | tata-psmc-dholera |
+
+## Project Timeline
+
+- **06 Oct 2025** — INOX Air Products begins building ₹500cr specialty gas hub in Dholera; land secured earlier in 2025
+
+## Sources
+
+- [INOX Air Products starts building Rs. 500 crore specialty gas hub in Dholera for semiconductor industry](https://www.indianchemicalnews.com/gas/inox-air-products-starts-building-rs-500-crore-specialty-gas-hub-in-dholera-for-semiconductor-industry-27718) (06 Oct 2025)
+- [INOX Air Products Launches Major Investment in Dholera to Strengthen India's Semiconductor Supply Chain](https://themachinemaker.com/news/inox-air-products-launches-major-investment-in-dholera-to-strengthen-indias-semiconductor-supply-chain/) (01 Sep 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this facility?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../equipment.html" class="btn btn-primary">Back to Equipment & Materials</a>

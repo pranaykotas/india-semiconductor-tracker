@@ -1,0 +1,46 @@
+---
+title: "Samsung Semiconductor India R&D"
+subtitle: "GCC Design Centre | Samsung Electronics"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Samsung's semiconductor R&D in Bengaluru works on Exynos mobile SoCs and modem design. Part of Samsung's broader India R&D footprint which is its largest outside South Korea.
+:::
+
+## What does this firm design?
+
+Exynos mobile application processors, 5G modem IPs, display driver ICs, and custom neural processing units for on-device AI.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Samsung Electronics (South Korea) |
+| **Founded** | 2007 |
+| **India Headcount** | ~4,500 |
+| **Locations** | Bengaluru |
+| **Product Focus** | Mobile SoCs, modem design, display controllers |
+| **Application Domains** | Mobile, Display, AI |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 3nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**
+
+## Sources
+
+- [Samsung R&D Institute India - Bengaluru](https://research.samsung.com/sri-b) (01 Jan 2026)
+- [Samsung Semiconductor India (SSIR) headcount — over 4,500 employees (BW People)](https://www.bwpeople.in/article/samsung-semiconductor-india-to-hire-over-700-employees-at-new-rd-facility-511630) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

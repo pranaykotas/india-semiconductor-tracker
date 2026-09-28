@@ -1,0 +1,47 @@
+---
+title: "IndieSemiC"
+subtitle: "Indian Fabless"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Founded 2022 in Ahmedabad by Nikul Shah and Jinal Shah. Entered via RF/SiP modules (Bluetooth, Wi-Fi, LoRa — 15+ certified modules, tens of thousands of deployments) to fund a longer-term push toward an indigenous, low-cost general-purpose SoC aimed at the ultra-cheap chip segment India currently imports from China. Signed an OSAT collaboration MoU with Kaynes Semicon (Sept 2026) covering package qualification, assembly/testing, and co-development.
+:::
+
+## What does this firm design?
+
+RF/SiP connectivity modules for smart metering and smart-city applications, and the ISC-VEGA-SOM — a module built around its own ISC-R1 quad-core AI processor with integrated LoRa connectivity.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Indian Fabless |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2022 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Ahmedabad |
+| **Product Focus** | RF/SiP connectivity modules; ISC-R1 indigenous quad-core AI SoC |
+| **Application Domains** | IoT, Smart Metering, Smart City |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 2.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **2.8/5**
+
+## Sources
+
+- [Can IndieSemiC Win China's 20-Cent Chip Challenge To India? (Inc42)](https://inc42.com/startups/can-indiesemic-win-chinas-20-cent-chip-challenge-to-india/) (01 Sep 2026)
+- [IndieSemiC, Kaynes Semicon sign pact for OSAT collaboration](https://electronics.economictimes.indiatimes.com/news/manufacturing/indiesemic-kaynes-semicon-sign-pact-for-osat-collaboration/134346313) (19 Sep 2026)
+- [IndieSemiC unveils ISC-VEGA-SOM with indigenous processor and LoRa connectivity](https://www.manufacturingtodayindia.com/indiesemic-unveils-isc-vega-som-with-indigenous-processor-and-lora-connectivity) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

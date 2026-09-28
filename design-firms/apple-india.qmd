@@ -1,0 +1,45 @@
+---
+title: "Apple India (Silicon Engineering)"
+subtitle: "GCC Design Centre | Apple Inc."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Apple's Bengaluru silicon team was seeded by the 2019 acquisition of Intel's smartphone modem business, which brought ~160 modem engineers. The team works on SoC platform architecture and wireless silicon development.
+:::
+
+## What does this firm design?
+
+Wireless modem silicon, SoC platform architecture, and hardware verification for Apple's custom processors used in iPhone, iPad, and Mac products.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Apple Inc. (United States) |
+| **Founded** | 2019 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | SoC design, wireless modem silicon |
+| **Application Domains** | Mobile, Consumer Electronics |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 3nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **3.2/5**
+
+## Sources
+
+- [Apple starts chip-designing in Bengaluru](https://www.ilounge.com/news/apple-chip-design-bengaluru) (01 Jan 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

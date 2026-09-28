@@ -1,0 +1,45 @@
+---
+title: "Google India (gChips)"
+subtitle: "GCC Design Centre | Alphabet Inc."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Google's gChips team in Bengaluru designs custom silicon for Pixel devices and cloud infrastructure. The team was built by hiring senior engineers from Intel, Qualcomm, Broadcom, and NVIDIA.
+:::
+
+## What does this firm design?
+
+Tensor mobile SoCs for Pixel phones, TPU (Tensor Processing Unit) components for cloud AI, and custom server silicon. Bengaluru handles architecture, RTL design, and verification.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Alphabet Inc. (United States) |
+| **Founded** | 2023 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Tensor SoC design, custom server processors |
+| **Application Domains** | Mobile, AI/ML, Cloud |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 3nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **3.2/5**
+
+## Sources
+
+- [Google on chip engineer hiring spree in India](https://www.datacenterknowledge.com/data-center-chips/google-said-to-be-on-a-chip-engineer-hiring-spree-in-india) (01 Jun 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

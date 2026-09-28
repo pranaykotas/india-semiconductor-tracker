@@ -1,0 +1,45 @@
+---
+title: "AMD India"
+subtitle: "GCC Design Centre | Advanced Micro Devices Inc."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+AMD's largest R&D centre outside the US, significantly expanded after the Xilinx acquisition. India teams work on Ryzen, EPYC, Radeon, and Versal adaptive SoC product lines.
+:::
+
+## What does this firm design?
+
+CPU (Ryzen, EPYC) and GPU (Radeon) design, adaptive computing platforms (Versal, inherited from Xilinx), and data centre accelerators. India engineers work across RTL design, verification, physical design, and emulation.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Advanced Micro Devices Inc. (United States) |
+| **Founded** | 2004 |
+| **India Headcount** | ~6,500 |
+| **Locations** | Bengaluru, Hyderabad |
+| **Product Focus** | CPU/GPU design, adaptive computing |
+| **Application Domains** | Computing, Data Centre, Gaming, FPGA |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 3nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> **5/5**
+
+## Sources
+
+- [AMD global locations](https://www.amd.com/en/corporate/locations) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

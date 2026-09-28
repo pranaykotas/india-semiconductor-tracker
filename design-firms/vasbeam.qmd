@@ -1,0 +1,46 @@
+---
+title: "Vasbeam"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Pune-based, founded 2022. iDEX (Ministry of Defence) awardee, taped out its core beamforming IC under the DLI scheme.
+:::
+
+## What does this firm design?
+
+Beamforming ASICs (800 MHz–18 GHz) and electronically steered antenna systems for radar, satellite, 5G, and defence applications, plus an antenna-testing device (VASATD1).
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2022 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Pune |
+| **Product Focus** | Beamforming ICs for electronically steered antennas |
+| **Application Domains** | Defence, Aerospace, Satellite, 5G |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [About Company – VASBEAM](https://vasbeam.com/about-company/) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -1,0 +1,45 @@
+---
+title: "Infineon Technologies India"
+subtitle: "GCC Design Centre | Infineon Technologies AG"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Infineon's Bengaluru centre is a core design hub for power management and automotive microcontroller development.
+:::
+
+## What does this firm design?
+
+Power MOSFETs, IGBT modules, AURIX automotive microcontrollers, OPTIGA security chips, and PSoC connectivity solutions.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Infineon Technologies AG (Germany) |
+| **Founded** | 2000 |
+| **India Headcount** | ~2,000 |
+| **Locations** | Bengaluru |
+| **Product Focus** | Power semiconductors, automotive MCUs, security ICs |
+| **Application Domains** | Automotive, Power, IoT, Security |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 28nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**
+
+## Sources
+
+- [Infineon global locations](https://www.infineon.com/cms/en/about-infineon/company/locations/) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

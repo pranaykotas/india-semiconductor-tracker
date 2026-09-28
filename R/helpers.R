@@ -132,6 +132,7 @@ status_badge_html <- function(status, detail = "") {
     "Operational"        = "badge-operational",
     "Under Construction" = "badge-construction",
     "Approved"           = "badge-approved",
+    "MoU Signed"         = "badge-approved",
     "Announced"          = "badge-announced",
     "On Hold"            = "badge-onhold",
     "Cancelled"          = "badge-cancelled",
@@ -368,6 +369,94 @@ make_design_popup <- function(row) {
       <div class="popup-row"><span class="popup-label">Scope:</span> {row$design_scope}</div>
       <div class="popup-row"><span class="popup-label">Node:</span> {row$node_sophistication}</div>
       {headcount_html}
+      <div class="popup-row" style="margin-top:6px;"><a href="design-firms/{row$id}.html" class="btn-detail">Full Profile →</a></div>
+    </div>
+  ')
+}
+
+# ---- Load and flatten equipment/materials YAML into a tibble ----
+load_equipment <- function(path = "data/equipment_materials.yml") {
+  raw <- yaml::read_yaml(path)
+
+  rows <- lapply(raw$equipment_materials, function(f) {
+    tibble(
+      id                = f$id,
+      name              = f$name,
+      category          = f$category,
+      parent_company    = f$parent_company %||% NA_character_,
+      parent_hq         = f$parent_hq %||% NA_character_,
+      city              = f$location$city,
+      state             = f$location$state,
+      lat               = f$location$lat,
+      lon               = f$location$lon,
+      investment_inr    = if (!is.null(f$investment) && !is.null(f$investment$total_inr)) f$investment$total_inr else NA_real_,
+      investment_usd_m  = if (!is.null(f$investment) && !is.null(f$investment$total_usd_million)) f$investment$total_usd_million else NA_real_,
+      status            = f$status,
+      supplies_to       = paste(f$supplies_to, collapse = ", "),
+      significance      = f$narrative$significance %||% "",
+      what_it_supplies  = f$narrative$what_it_supplies %||% ""
+    )
+  })
+
+  df <- bind_rows(rows)
+
+  set.seed(45)
+  df <- df %>%
+    mutate(
+      lat = lat + runif(n(), -0.015, 0.015),
+      lon = lon + runif(n(), -0.015, 0.015)
+    )
+
+  df
+}
+
+# ---- Format equipment/materials investment (₹ crore and/or $ million) ----
+format_equipment_investment <- function(inr, usd_m) {
+  parts <- c()
+  if (!is.na(inr) && inr > 0) parts <- c(parts, paste0("₹", format(inr, big.mark = ","), " crore"))
+  if (!is.na(usd_m) && usd_m > 0) parts <- c(parts, paste0("$", format(usd_m, big.mark = ","), "M"))
+  if (length(parts) == 0) return("Not disclosed")
+  paste(parts, collapse = " / ")
+}
+
+# ---- Map equipment/materials category to marker colour ----
+equipment_category_color <- function(category) {
+  switch(category,
+    "Equipment Manufacturer"    = "#620d3c",
+    "Gases & Chemicals"         = "#1565C0",
+    "Materials & Substrates"    = "#2f6b4a",
+    "Infrastructure & Services" = "#f1a222",
+    "#8C8480"
+  )
+}
+
+# ---- Equipment/materials category badge ----
+equipment_category_badge <- function(category) {
+  css_class <- switch(category,
+    "Equipment Manufacturer"    = "badge-approved",
+    "Gases & Chemicals"         = "badge-construction",
+    "Materials & Substrates"    = "badge-operational",
+    "Infrastructure & Services" = "badge-onhold",
+    "badge-announced"
+  )
+  glue('<span class="status-badge {css_class}">{category}</span>')
+}
+
+# ---- Build leaflet popup for equipment/materials firms ----
+make_equipment_popup <- function(row) {
+  parent_html <- if (!is.na(row$parent_company)) {
+    glue('<div class="popup-row"><span class="popup-label">Parent:</span> {row$parent_company} ({row$parent_hq})</div>')
+  } else ""
+
+  glue('
+    <div class="facility-popup">
+      <h4>{row$name}</h4>
+      <div class="popup-row">{equipment_category_badge(row$category)}</div>
+      {parent_html}
+      <div class="popup-row"><span class="popup-label">Investment:</span> {format_equipment_investment(row$investment_inr, row$investment_usd_m)}</div>
+      <div class="popup-row"><span class="popup-label">Status:</span> {status_badge_html(row$status)}</div>
+      <div class="popup-row"><span class="popup-label">Supplies:</span> {row$what_it_supplies}</div>
+      <div class="popup-row" style="margin-top:6px;"><a href="equipment-firms/{row$id}.html" class="btn-detail">Full Profile →</a></div>
     </div>
   ')
 }

@@ -1,0 +1,46 @@
+---
+title: "Green PMU Semi"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+IIT Hyderabad-incubated fabless startup founded by Sumit Bhat and R Sai Chandra Teja, specialising in power-management ICs for battery-free IoT.
+:::
+
+## What does this firm design?
+
+Multi-input energy-harvesting power management ICs that let IoT devices run without batteries, harvesting power from multiple ambient sources.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2021 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Hyderabad |
+| **Product Focus** | Energy-harvesting power management ICs |
+| **Application Domains** | IoT, Power |
+| **Design Scope** | IP block |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [About | Green PMU Semi](https://greenpmusemi.com/about.html) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

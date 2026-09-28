@@ -4,6 +4,11 @@ on:
   schedule:
     # 1st of Jan, Apr, Jul, Oct at 02:00 UTC = 07:30 IST
     - cron: '0 2 1 1,4,7,10 *'
+    # Post-Semicon India catch-up: the flagship event runs each September
+    # and reliably generates a cluster of MoUs/launches the quarterly
+    # cadence alone would miss for weeks. Fixed date is an approximation —
+    # adjust if the event's actual dates shift in a given year.
+    - cron: '0 2 25 9 *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:

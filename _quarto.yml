@@ -23,6 +23,8 @@ website:
         href: nodes.qmd
       - text: "Chip Design"
         href: design.qmd
+      - text: "Equipment & Materials"
+        href: equipment.qmd
       - text: "Policy & Budget"
         href: budget.qmd
       - text: "About"

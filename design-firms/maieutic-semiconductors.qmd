@@ -1,0 +1,46 @@
+---
+title: "Maieutic Semiconductors"
+subtitle: "EDA & IP Provider"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Founded April 2025 by Gireesh Rajendran, Ashish Lachhwani, Rakesh Kumar, and Krishna Sankar — veterans of Steradian Semiconductors (an imaging-radar startup acquired by Renesas in 2022). One of the few Indian-origin EDA companies, rather than the foreign-MNC design centres that dominate this category. Closed a $6M seed round (Endiya Partners, Exfinity Venture Partners, Japan's UTEC) in July 2025.
+:::
+
+## What does this firm design?
+
+Not a chip itself — a generative-AI assistant embedded in existing EDA workflows to accelerate early-stage analog IC design, automate design review, and help engineers navigate performance trade-offs. Analog design still resists automation more than digital design does, which is the gap this targets.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | EDA & IP Provider |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2025 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Generative-AI copilot for analog/mixed-signal IC design |
+| **Application Domains** | EDA, Analog Design |
+| **Design Scope** | Design Tool |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 2.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **2.8/5**
+
+## Sources
+
+- [Maieutic Semiconductors seed funding announcement](https://www.maieuticsemi.com/news/maieutic-funding-6-mil) (03 Jul 2025)
+- [Bengaluru startup taps AI to speed up analog chip development (Business Standard)](https://www.business-standard.com/technology/tech-news/bengaluru-startup-maieutic-ai-chip-design-automation-125102100283_1.html) (21 Oct 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

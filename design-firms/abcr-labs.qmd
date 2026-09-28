@@ -1,0 +1,46 @@
+---
+title: "ABCR Labs"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Full name Aryabhata Circuits and Research Labs (ABCRL). Founded 2019 in Bengaluru by Rajesh Jagasia, later joined by semiconductor veteran Tushar K. Bhattacharyya. Also backed by MeitY's Chips-to-Startup (C2S) scheme.
+:::
+
+## What does this firm design?
+
+Tire Synapse, a tire-monitoring ASIC with integrated Bluetooth for tire-wear prediction, road-condition detection, load detection, and wheel-alignment/balance assessment in vehicles.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2019 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Tire-monitoring ASIC with integrated Bluetooth (Tire Synapse) |
+| **Application Domains** | Automotive |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Success Story of AB Circuits and Research Labs](https://www.sfalcoe.com/success-story-ab-circuits-and-research-labs/) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

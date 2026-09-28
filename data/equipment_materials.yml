@@ -1,0 +1,255 @@
+equipment_materials:
+- id: applied-materials-india
+  name: "Applied Materials India — Bengaluru Signature Business Park"
+  category: "Equipment Manufacturer"
+  parent_company: "Applied Materials Inc."
+  parent_hq: "United States"
+  location:
+    city: "Bengaluru"
+    state: "Karnataka"
+    lat: 12.972
+    lon: 77.594
+  investment:
+    total_inr: 3600
+    total_usd_million: 5000
+  status: "Announced"
+  supplies_to: []
+  narrative:
+    significance: "Applied Materials' largest India commitment to date — a 140-acre advanced semiconductor research park combining cleanroom capability, R&D, and a 10x expansion of India-based supply-chain capacity. Reported from two angles a day apart: Karnataka's government framed it as a ₹3,600cr/1,000-job state deal (16 Sept 2026); the company's own 'India Vision 2035' framing the next day put it at $5B over a decade. Same location, same 10-year timeframe, same focus (R&D + equipment manufacturing) — near-certainly one commitment described at state vs. global level, not two additive investments. Both figures are given here since neither source explicitly reconciles them."
+    what_it_supplies: "Semiconductor process equipment R&D, engineering design, and manufacturing/testing of chip-making tools; collaborative R&D space for customers and suppliers on one site."
+  milestones:
+    - date: "2026-09-16"
+      event: "Karnataka government announces ₹3,600cr Applied Materials investment in Bengaluru Signature Business Park (R&D, equipment manufacturing, software), ~1,000 jobs"
+    - date: "2026-09-17"
+      event: "Applied Materials announces 'India Vision 2035' — $5B over a decade, 140-acre research park, 10x supply-chain expansion — at SEMICON India 2026"
+  sources:
+    - url: "https://www.communicationstoday.co.in/applied-materials-to-invest-%E2%82%B93600-crore-in-karnataka/"
+      title: "Applied Materials to invest ₹3,600 crore in Karnataka"
+      date: "2026-09-16"
+    - url: "https://www.newsbytesapp.com/news/business/applied-materials-unveils-5-billion-india-vision-2035-investment-plan/tldr"
+      title: "Applied Materials unveils $5 billion India Vision 2035 investment plan"
+      date: "2026-09-17"
+
+- id: lam-research-india
+  name: "Lam Research — India Silicon Component Manufacturing Facility"
+  category: "Equipment Manufacturer"
+  parent_company: "Lam Research Corporation"
+  parent_hq: "United States"
+  location:
+    city: "Bengaluru"
+    state: "Karnataka"
+    lat: 12.972
+    lon: 77.594
+  investment:
+    total_inr: 10000
+    total_usd_million: 1200
+  status: "Announced"
+  supplies_to: []
+  narrative:
+    significance: "Lam's first India manufacturing facility (vs. its existing Bengaluru R&D-only India Center for Engineering) — positions India as a silicon-component manufacturing and export base for Lam's global operations, not just a service/engineering hub. Exact facility site not disclosed at announcement; location given here is Lam's existing Bengaluru base and should be confirmed once a specific site is announced."
+    what_it_supplies: "Silicon ingot production and processing components for advanced/leading-edge semiconductor process equipment; also funds R&D expansion and training up to 60,000 students via IISc and ISM partnerships."
+  milestones:
+    - date: "2026-09-17"
+      event: "Lam Research announces ₹10,000cr investment for India's first silicon component manufacturing facility, at SEMICON India 2026"
+  sources:
+    - url: "https://analyticsindiamag.com/ai-news/lam-research-to-invest-10000-cr-in-india-for-silicon-manufacturing"
+      title: "Lam Research to Invest ₹10,000 Cr in India for Silicon Manufacturing"
+      date: "2026-09-17"
+    - url: "https://yourstory.com/2026/09/lam-research-rs-10000-cr-set-up-silicon-component-manufacturing-facility"
+      title: "Lam Research to invest Rs 10,000 Cr in India, set up first silicon component manufacturing facility"
+      date: "2026-09-17"
+
+- id: linde-dholera-asu
+  name: "Linde India — Dholera Air Separation Unit"
+  category: "Gases & Chemicals"
+  parent_company: "Linde plc"
+  parent_hq: "Ireland"
+  location:
+    city: "Dholera"
+    state: "Gujarat"
+    lat: 22.248
+    lon: 72.189
+  investment:
+    total_inr: null
+    total_usd_million: null
+  status: "Under Construction"
+  supplies_to: ["tata-psmc-dholera"]
+  narrative:
+    significance: "Dedicated industrial-gas supply for Tata Electronics' Dholera fab — bulk gases (oxygen, nitrogen, argon) are a basic but essential fab input; without a local ASU, Tata's fab would depend on trucked-in supply, a real bottleneck at fab scale."
+    what_it_supplies: "Bulk industrial gases (oxygen, nitrogen, argon) via on-site air separation, piped directly to Tata's Dholera fab."
+  milestones:
+    - date: "2026-09-16"
+      event: "Reported under construction, targeting operational readiness in H2 2027 ahead of Tata's fab ramp"
+  sources:
+    - url: "https://carnegieendowment.org/india/posts/2026/06/indias-semiconductor-ecosystem-is-maturingand-asml-is-taking-notice"
+      title: "India's Semiconductor Ecosystem Is Maturing—and ASML Is Taking Notice"
+      date: "2026-06-01"
+
+- id: linde-sanand-gas-facility
+  name: "Linde India — Sanand Specialty Gas Facility"
+  category: "Gases & Chemicals"
+  parent_company: "Linde plc"
+  parent_hq: "Ireland"
+  location:
+    city: "Sanand"
+    state: "Gujarat"
+    lat: 22.985
+    lon: 72.360
+  investment:
+    total_inr: null
+    total_usd_million: null
+  status: "Announced"
+  supplies_to: ["micron-sanand", "cg-power-sanand", "kaynes-sanand"]
+  narrative:
+    significance: "A second, distinct Linde facility from the Dholera ASU — an 8-acre high-purity chip-packaging gas plant specifically sized for Sanand's OSAT cluster (Micron, CG Power, Kaynes), rather than a fab. Together with Dholera, Linde is building what the company calls a 'dense regional gas supply network' across Gujarat's two semiconductor hubs."
+    what_it_supplies: "High-purity specialty gases for chip packaging/assembly-and-test operations."
+  milestones:
+    - date: "2026-09-28"
+      event: "Linde India secures ~8-acre land parcel in Sanand for a dedicated semiconductor-packaging gas facility"
+  sources:
+    - url: "https://www.sahi.com/news/linde-india-secures-sanand-land-for-semiconductor-gas-facility"
+      title: "Linde India Secures Sanand Land For Semiconductor Gas Facility"
+      date: "2026-09-28"
+
+- id: inox-air-products-dholera
+  name: "INOX Air Products — Dholera Electronic Specialty Gas Hub"
+  category: "Gases & Chemicals"
+  parent_company: "INOX Air Products Ltd. (JV: Air Products and Chemicals Inc., US + INOXCVA, India)"
+  parent_hq: "United States / India (joint venture)"
+  location:
+    city: "Dholera"
+    state: "Gujarat"
+    lat: 22.248
+    lon: 72.189
+  investment:
+    total_inr: 500
+    total_usd_million: null
+  status: "Under Construction"
+  supplies_to: ["tata-psmc-dholera"]
+  narrative:
+    significance: "₹500cr Ultra High Purity (UHP) gas hub aimed at closing a real gap: INOX currently makes ~12 of the ~30-45 specialty gases the industry needs domestically, with the rest imported. This expands domestic UHP gas coverage rather than just adding bulk-gas capacity."
+    what_it_supplies: "UHP bulk and specialty gases — nitrogen, oxygen, argon, hydrogen — for fabs and OSAT units."
+  milestones:
+    - date: "2025-10-06"
+      event: "INOX Air Products begins building ₹500cr specialty gas hub in Dholera; land secured earlier in 2025"
+  sources:
+    - url: "https://www.indianchemicalnews.com/gas/inox-air-products-starts-building-rs-500-crore-specialty-gas-hub-in-dholera-for-semiconductor-industry-27718"
+      title: "INOX Air Products starts building Rs. 500 crore specialty gas hub in Dholera for semiconductor industry"
+      date: "2025-10-06"
+    - url: "https://themachinemaker.com/news/inox-air-products-launches-major-investment-in-dholera-to-strengthen-indias-semiconductor-supply-chain/"
+      title: "INOX Air Products Launches Major Investment in Dholera to Strengthen India's Semiconductor Supply Chain"
+      date: "2026-09-01"
+
+- id: kla-chennai-campus
+  name: "KLA — Chennai R&D and Innovation Campus"
+  category: "Equipment Manufacturer"
+  parent_company: "KLA Corporation"
+  parent_hq: "United States"
+  location:
+    city: "Chennai"
+    state: "Tamil Nadu"
+    lat: 13.083
+    lon: 80.27
+  investment:
+    total_inr: 3600
+    total_usd_million: 400
+  status: "Announced"
+  supplies_to: []
+  narrative:
+    significance: "One of the largest semiconductor-focused investments in Tamil Nadu to date, and a marker of India moving beyond chip design into equipment technology-development and manufacturing-support infrastructure — KLA is the process-control/metrology equipment leader, a segment India had essentially no domestic presence in."
+    what_it_supplies: "Advanced semiconductor R&D — process-control and metrology engineering, innovation, next-generation manufacturing technology development. Expected to create up to 4,000 jobs."
+  milestones:
+    - date: "2026-02-13"
+      event: "KLA signs MoU with Tamil Nadu's Guidance TN investment agency for a $400M (~₹3,600cr) Chennai R&D and Innovation Campus"
+  sources:
+    - url: "https://www.businesstoday.in/india/story/us-chip-equipment-giant-kla-to-tnvest-rs3600-crore-in-chennai-rd-campus-516128-2026-02-13"
+      title: "US chip equipment giant KLA to invest ₹3,600 crore in Chennai R&D campus"
+      date: "2026-02-13"
+
+- id: tokyo-electron-india
+  name: "Tokyo Electron India — Bengaluru Development Centre & Gujarat Training Centre"
+  category: "Equipment Manufacturer"
+  parent_company: "Tokyo Electron Limited"
+  parent_hq: "Japan"
+  location:
+    city: "Bengaluru"
+    state: "Karnataka"
+    lat: 12.972
+    lon: 77.594
+  investment:
+    total_inr: null
+    total_usd_million: null
+  status: "Announced"
+  supplies_to: []
+  narrative:
+    significance: "Distinct from TEL's 2024 equipment-supply MoU with Tata (which stays as a milestone on Tata's own facility page) — this is TEL's own India footprint: a Bengaluru software/equipment-design R&D centre plus a Gujarat training centre backed by Japan's METI to build a fab-engineer talent pipeline. No investment figure disclosed for either."
+    what_it_supplies: "Software development, equipment design and simulation for semiconductor manufacturing tools; separately, engineer training for fab and equipment maintenance roles."
+  milestones:
+    - date: "2025-09-10"
+      event: "Tokyo Electron announces a Bengaluru development centre focused on software, simulation, and equipment design for semiconductor manufacturing"
+    - date: "2026-09-20"
+      event: "Tokyo Electron confirms a semiconductor training centre in Gujarat, opening 2027, backed by Japan's METI"
+  sources:
+    - url: "https://www.blackridgeresearch.com/news-releases/tokyo-electron-establish-semiconductor-development-center-bengaluru"
+      title: "Tokyo Electron Develop Semiconductor R&D Center in Bengaluru"
+      date: "2025-09-10"
+    - url: "https://www.businessworld.in/article/tokyo-electron-to-set-up-semiconductor-training-centre-in-gujarat-in-2027-624155"
+      title: "Tokyo Electron To Set Up Semiconductor Training Centre In Gujarat In 2027"
+      date: "2026-09-20"
+
+- id: teradyne-india-office
+  name: "Teradyne India — Bengaluru Office"
+  category: "Infrastructure & Services"
+  parent_company: "Teradyne, Inc."
+  parent_hq: "United States"
+  location:
+    city: "Bengaluru"
+    state: "Karnataka"
+    lat: 12.972
+    lon: 77.594
+  investment:
+    total_inr: null
+    total_usd_million: null
+  status: "Operational"
+  supplies_to: []
+  narrative:
+    significance: "A modest but concrete marker of Teradyne (automated test equipment) deepening its India commitment beyond sales — a dedicated local hub for customer engagement, applications support, and training, at Bagmane Cosmos Tech Park."
+    what_it_supplies: "Applications support, training, and strategic-partnership engagement for semiconductor test equipment customers in India."
+  milestones:
+    - date: "2026-09-15"
+      event: "Teradyne opens its India office in Bengaluru"
+  sources:
+    - url: "https://investors.teradyne.com/news-events/press-releases/detail/449/teradyne-opens-office-in-india-deepening-commitment-to-the-countrys-growing-semiconductor-ecosystem"
+      title: "Teradyne Opens Office in India, Deepening Commitment to the Country's Growing Semiconductor Ecosystem"
+      date: "2026-09-15"
+
+- id: asml-gift-city
+  name: "ASML India — GIFT City Customer Support Office"
+  category: "Infrastructure & Services"
+  parent_company: "ASML Holding N.V."
+  parent_hq: "Netherlands"
+  location:
+    city: "Gandhinagar (GIFT City)"
+    state: "Gujarat"
+    lat: 23.161
+    lon: 72.686
+  investment:
+    total_inr: null
+    total_usd_million: null
+  status: "Announced"
+  supplies_to: ["tata-psmc-dholera"]
+  narrative:
+    significance: "ASML's first standalone India presence — a legal entity plus a customer-support office in GIFT City, Gujarat, hiring 20-30 engineering graduates initially. Distinct from (and a step beyond) its lithography-supply MoU with Tata's Dholera fab, which remains tracked as a milestone on Tata's own facility page. Growth here is explicitly tied to Dholera's success, so treat this as an early, small-scale support footprint rather than a major manufacturing investment."
+    what_it_supplies: "Customer support and service operations for ASML's lithography systems supplied to Indian fabs, primarily Tata's Dholera fab."
+  milestones:
+    - date: "2026-09-01"
+      event: "ASML establishes an Indian legal entity and begins India operations"
+    - date: "2026-09-19"
+      event: "ASML confirms plans for a customer support office in GIFT City, Gujarat, hiring 20-30 engineering graduates initially"
+  sources:
+    - url: "https://www.angelone.in/news/market-updates/dutch-chip-giant-asml-plans-support-office-in-india-s-gift-city"
+      title: "Dutch Chip Giant ASML Plans Support Office in India's GIFT City"
+      date: "2026-09-19"
+    - url: "https://www.gktoday.in/asml-begins-india-operations/"
+      title: "ASML Begins India Operations"
+      date: "2026-09-01"

@@ -1,0 +1,47 @@
+---
+title: "Big Endian Semi"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Founded May 2024 in Bengaluru by CEO Sunil Kumar (formerly of Arm, Broadcom, Intel). Taped out test chips in 2025; raised $9M total (a $3M seed led by Vertex Ventures SEA & India in Aug 2024, plus a $6M pre-Series A).
+:::
+
+## What does this firm design?
+
+Sovereign AI vision chips for surveillance and CCTV, featuring an indigenous end-to-end security stack, a privacy/authenticity engine, and a dual-sensor edge-AI ISP designed with a zero-backdoor architecture.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2024 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Sovereign AI vision SoCs for surveillance |
+| **Application Domains** | Surveillance, AI, Security |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **3.2/5**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [BigEndian Semiconductors Raises $6M to Strengthen India's Fabless Semiconductor Ecosystem](https://www.vertexventures.sg/news/bigendian-semiconductors-raises-6m-to-strengthen-india-s-fabless-semiconductor-ecosystem/) (01 Jan 2026)
+- [BigEndian embarks on surveillance chip development from India (TechCrunch)](https://techcrunch.com/2024/09/02/bigendian-embarks-on-surveillance-chip-development-from-india) (02 Sep 2024)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

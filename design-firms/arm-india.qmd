@@ -1,0 +1,45 @@
+---
+title: "Arm India"
+subtitle: "GCC Design Centre | Arm Ltd."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Arm's India centre contributes to the design of Cortex CPU and Mali/Immortalis GPU IP that powers billions of devices globally.
+:::
+
+## What does this firm design?
+
+Cortex-A/R/M CPU IP cores, Mali and Immortalis GPU IP, system IP (interconnects, memory controllers), and physical IP for advanced nodes.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Arm Ltd. (United Kingdom) |
+| **Founded** | 2005 |
+| **India Headcount** | ~2,500 |
+| **Locations** | Bengaluru, Noida |
+| **Product Focus** | CPU/GPU IP cores, system IP |
+| **Application Domains** | Mobile, Computing, IoT, Automotive |
+| **Design Scope** | IP block |
+| **Node Sophistication** | 3nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**
+
+## Sources
+
+- [Arm office locations](https://www.arm.com/company/offices) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

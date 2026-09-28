@@ -1,0 +1,47 @@
+---
+title: "3RDi Tech"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+IIT Delhi-incubated fabless startup (co-founder Dr Mukul Sarkar) and an inaugural winner of the Ministry of Defence's iDEX programme. Has raised over ₹300 crore in VC funding (including DLI support) and taped out test chips in 2025. Partnered with General Atomics-Aeronautical Systems since 2021 on co-designed defence electronics.
+:::
+
+## What does this firm design?
+
+Indigenous SoC solutions for critical applications including surveillance and CCTV cameras.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | New Delhi |
+| **Product Focus** | Defence-grade SoCs for surveillance/imaging |
+| **Application Domains** | Defence, Surveillance |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [GA-ASI and 3rdiTech Announce Joint Strategic Partnership (General Atomics)](https://www.ga.com/ga-asi-and-3rditech-announce-joint-strategic-partnership-for-cutting-edge-semiconductor-technologies) (27 Sep 2022)
+- [DLI For Semiconductors: Should India's Chip Design Scheme Chase Innovation Or Numbers? (Swarajya)](https://swarajyamag.com/technology/dli-for-semiconductors-should-indias-chip-design-scheme-chase-innovation-or-numbers) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -1,0 +1,45 @@
+---
+title: "Texas Instruments India"
+subtitle: "GCC Design Centre | Texas Instruments Inc."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+TI Bengaluru is one of the longest-running semiconductor design centres in India, operational since 1985. It is a full chip design centre, not just a support office.
+:::
+
+## What does this firm design?
+
+Analog and mixed-signal ICs, power management chips, embedded microcontrollers (MSP430, C2000 series), and industrial interface chips. Bengaluru handles complete chip ownership from concept to production.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Texas Instruments Inc. (United States) |
+| **Founded** | 1985 |
+| **India Headcount** | ~5,000 |
+| **Locations** | Bengaluru |
+| **Product Focus** | Analog, embedded processing, power management |
+| **Application Domains** | Industrial, Automotive, Power |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 28nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**
+
+## Sources
+
+- [Texas Instruments India](https://www.ti.com/about-ti/company/ti-india.html) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

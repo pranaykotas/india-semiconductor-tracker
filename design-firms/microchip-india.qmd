@@ -1,0 +1,45 @@
+---
+title: "Microchip Technology India"
+subtitle: "GCC Design Centre | Microchip Technology Inc."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Microchip has operated in India for 25 years. In 2025, it announced a $300 million investment to expand its India operations, including a new Bengaluru facility that can accommodate 3,000+ employees. India supports design for MCUs, FPGAs, networking, and security products.
+:::
+
+## What does this firm design?
+
+8/16/32-bit microcontrollers, microprocessors, FPGA development, networking and data centre solutions, security and authentication products, wired and wireless connectivity solutions.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Microchip Technology Inc. (United States) |
+| **Founded** | 2000 |
+| **India Headcount** | ~2,500 |
+| **Locations** | Bengaluru, Chennai, Hyderabad |
+| **Product Focus** | Microcontrollers, FPGAs, networking, security, analog |
+| **Application Domains** | Industrial, Automotive, Aerospace & Defence, IoT |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 28nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
+
+## Sources
+
+- [Microchip launches $300M investment in India](https://www.microchip.com/en-us/about/news-releases/corporate/microchip-launches-300m-investment-in-india) (01 Nov 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

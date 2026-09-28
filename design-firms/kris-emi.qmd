@@ -1,0 +1,46 @@
+---
+title: "Kris Emi Design Tech"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+KriSemi Design Technologies, incorporated 2018 in Hyderabad. Primarily a design-services provider (~35 employees) to semiconductor and EDA companies, alongside its own IP work.
+:::
+
+## What does this firm design?
+
+ASIC design services spanning analog/mixed-signal design, physical design, RTL verification, photonic integrated circuits, FPGA, and firmware for telecom systems.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2018 |
+| **India Headcount** | ~35 |
+| **Locations** | Hyderabad |
+| **Product Focus** | ASIC design, mixed-signal IP, and design services |
+| **Application Domains** | Telecom, Photonics |
+| **Design Scope** | IP block |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Krisemi Design Technologies official website](https://krisemidesigntech.com/) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

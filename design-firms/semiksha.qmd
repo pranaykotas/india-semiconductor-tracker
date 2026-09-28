@@ -1,0 +1,46 @@
+---
+title: "Semiksha"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Semiconductor services company founded 2018 by Vijay Gudi, based in a Tier-II Indian city (not disclosed on its own site). Started as a design-services shop, redirected toward its own product development during the pandemic.
+:::
+
+## What does this firm design?
+
+SoC/ASIC chipsets and embedded products for wireless/IoT, mechatronics, medical devices, environmental monitoring, and electric/autonomous-vehicle applications — has launched two embedded products and two test chips to date.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2018 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Not yet documented |
+| **Product Focus** | SoC/ASIC chipset development for Mechatronics and IoT |
+| **Application Domains** | IoT, Wireless, Medical, Transportation |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [About Us – SEMIKSHA](https://semiksha.com/about-us/) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

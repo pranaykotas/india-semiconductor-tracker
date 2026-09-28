@@ -1,0 +1,46 @@
+---
+title: "AmpicQ"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+amPICQ, founded 2022 in Hyderabad. Named 'Best Semiconductor Startup of the Year' at IESA's 2025 Vision Summit; joined the Luminate accelerator cohort. Uses compound semiconductors and a proprietary thin-film deposition/circuit-integration platform to shrink quantum-communication hardware onto a single chip — a 10x reduction in size, weight, cost, and power versus discrete implementations.
+:::
+
+## What does this firm design?
+
+Miniaturised photonic integrated circuits (PICs) for Quantum Key Distribution (QKD) and Quantum Random Number Generation (QRNG), aimed at secure data protection in defence, finance, healthcare, and telecom.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2022 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Hyderabad |
+| **Product Focus** | Photonic integrated circuits (PICs) for quantum-safe communication |
+| **Application Domains** | Defence, Finance, Healthcare, Telecom |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [amPICQ secures the future of data with quantum-safe photonic chips](https://rbj.net/2025/10/20/ampicq-secures-the-future-of-data-with-quantum-safe-photonic-chips/) (20 Oct 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

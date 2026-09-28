@@ -1,0 +1,45 @@
+---
+title: "Qualcomm India"
+subtitle: "GCC Design Centre | Qualcomm Inc."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+One of the earliest and largest semiconductor design operations in India. Hyderabad is Qualcomm's largest engineering centre outside San Diego.
+:::
+
+## What does this firm design?
+
+Snapdragon mobile SoCs, 5G modem chipsets, AI/ML inference engines, and automotive connectivity chips. India teams contribute across the full design cycle — architecture, RTL, verification, physical design, and software.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Qualcomm Inc. (United States) |
+| **Founded** | 1996 |
+| **India Headcount** | ~7,000 |
+| **Locations** | Hyderabad, Bengaluru, Chennai, Noida |
+| **Product Focus** | Mobile SoCs, 5G modems, AI accelerators |
+| **Application Domains** | Mobile, 5G, AI, Automotive |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 3nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> **5/5**
+
+## Sources
+
+- [Qualcomm India operations](https://www.qualcomm.com/company/locations/india) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

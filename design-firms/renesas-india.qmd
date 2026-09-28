@@ -1,0 +1,45 @@
+---
+title: "Renesas Electronics India"
+subtitle: "GCC Design Centre | Renesas Electronics Corp."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Renesas India designs automotive microcontrollers and analog ICs. Part of the Japanese chipmaker's global design network for automotive electronics.
+:::
+
+## What does this firm design?
+
+RH850 and RL78 automotive microcontrollers, analog power management ICs, and IoT connectivity solutions.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | Renesas Electronics Corp. (Japan) |
+| **Founded** | 2010 |
+| **India Headcount** | ~1,000 |
+| **Locations** | Bengaluru, Hyderabad |
+| **Product Focus** | Automotive MCUs, analog, IoT connectivity |
+| **Application Domains** | Automotive, Industrial, IoT |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 22nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **3/5**
+
+## Sources
+
+- [Renesas global locations](https://www.renesas.com/en/about/company/locations) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

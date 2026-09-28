@@ -1,0 +1,45 @@
+---
+title: "NVIDIA India"
+subtitle: "GCC Design Centre | NVIDIA Corporation"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+India accounts for 18% of NVIDIA's global workforce. Bengaluru and Pune together employ over 2,300 staff focused on GPU software, deep learning, and system software engineering.
+:::
+
+## What does this firm design?
+
+GPU architecture and verification, CUDA software stack, AI/ML frameworks, autonomous vehicle computing platforms, and system software for data centre accelerators.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | NVIDIA Corporation (United States) |
+| **Founded** | 2004 |
+| **India Headcount** | ~2,500 |
+| **Locations** | Bengaluru, Pune, Hyderabad |
+| **Product Focus** | GPU architecture, AI accelerators, deep learning frameworks |
+| **Application Domains** | AI/ML, Data Centre, Automotive, Gaming |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 3nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
+
+## Sources
+
+- [NVIDIA India offices](https://www.nvidia.com/en-in/contact/asia/) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

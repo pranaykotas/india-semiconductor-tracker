@@ -1,0 +1,42 @@
+---
+title: "KLA — Chennai R&D and Innovation Campus"
+subtitle: "Equipment Manufacturer | KLA Corporation"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+One of the largest semiconductor-focused investments in Tamil Nadu to date, and a marker of India moving beyond chip design into equipment technology-development and manufacturing-support infrastructure — KLA is the process-control/metrology equipment leader, a segment India had essentially no domestic presence in.
+:::
+
+## What does this facility supply?
+
+Advanced semiconductor R&D — process-control and metrology engineering, innovation, next-generation manufacturing technology development. Expected to create up to 4,000 jobs.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Equipment Manufacturer |
+| **Parent Company** | KLA Corporation (United States) |
+| **Location** | Chennai, Tamil Nadu |
+| **Investment** | ₹3,600 crore / $400M |
+| **Status** | Announced |
+| **Supplies** | General / not tied to one facility |
+
+## Project Timeline
+
+- **13 Feb 2026** — KLA signs MoU with Tamil Nadu's Guidance TN investment agency for a $400M (~₹3,600cr) Chennai R&D and Innovation Campus
+
+## Sources
+
+- [US chip equipment giant KLA to invest ₹3,600 crore in Chennai R&D campus](https://www.businesstoday.in/india/story/us-chip-equipment-giant-kla-to-tnvest-rs3600-crore-in-chennai-rd-campus-516128-2026-02-13) (13 Feb 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this facility?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../equipment.html" class="btn btn-primary">Back to Equipment & Materials</a>

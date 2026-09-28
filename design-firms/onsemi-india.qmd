@@ -1,0 +1,45 @@
+---
+title: "onsemi India"
+subtitle: "GCC Design Centre | onsemi (ON Semiconductor)"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Bengaluru India Development Centre (BIDC) was established through the 2009 acquisition of PulseCore Semiconductor, expanded via the 2011 Cypress image sensing acquisition. Supports the global Intelligent Sensing and Analog Solutions groups.
+:::
+
+## What does this firm design?
+
+Image sensor ICs for automotive ADAS and industrial machine vision, power management ICs, and analog signal conditioning circuits.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | GCC Design Centre |
+| **Parent Company** | onsemi (ON Semiconductor) (United States) |
+| **Founded** | 2009 |
+| **India Headcount** | ~400 |
+| **Locations** | Bengaluru |
+| **Product Focus** | Image sensors, power management, analog |
+| **Application Domains** | Automotive, Industrial, IoT |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | 28nm |
+| **DLI Beneficiary** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **3/5**
+
+## Sources
+
+- [onsemi Bangalore India](https://www.onsemi.com/company/about-onsemi/locations/bangalore-india) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

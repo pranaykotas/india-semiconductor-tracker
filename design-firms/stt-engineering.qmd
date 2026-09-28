@@ -1,0 +1,45 @@
+---
+title: "STT Engineering"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Details coming soon — this firm is tracked via the DLI beneficiary list but has not yet been independently researched.
+:::
+
+## What does this firm design?
+
+*Details coming soon.*
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Not yet documented |
+| **Product Focus** | *Details coming soon.* |
+| **Application Domains** | Not yet documented |
+| **Design Scope** | Not yet documented |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

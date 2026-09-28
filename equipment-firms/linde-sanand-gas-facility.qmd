@@ -1,0 +1,42 @@
+---
+title: "Linde India — Sanand Specialty Gas Facility"
+subtitle: "Gases & Chemicals | Linde plc"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+A second, distinct Linde facility from the Dholera ASU — an 8-acre high-purity chip-packaging gas plant specifically sized for Sanand's OSAT cluster (Micron, CG Power, Kaynes), rather than a fab. Together with Dholera, Linde is building what the company calls a 'dense regional gas supply network' across Gujarat's two semiconductor hubs.
+:::
+
+## What does this facility supply?
+
+High-purity specialty gases for chip packaging/assembly-and-test operations.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Gases & Chemicals |
+| **Parent Company** | Linde plc (Ireland) |
+| **Location** | Sanand, Gujarat |
+| **Investment** | Not disclosed |
+| **Status** | Announced |
+| **Supplies** | micron-sanand, cg-power-sanand, kaynes-sanand |
+
+## Project Timeline
+
+- **28 Sep 2026** — Linde India secures ~8-acre land parcel in Sanand for a dedicated semiconductor-packaging gas facility
+
+## Sources
+
+- [Linde India Secures Sanand Land For Semiconductor Gas Facility](https://www.sahi.com/news/linde-india-secures-sanand-land-for-semiconductor-gas-facility) (28 Sep 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this facility?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../equipment.html" class="btn btn-primary">Back to Equipment & Materials</a>

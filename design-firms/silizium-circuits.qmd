@@ -1,0 +1,46 @@
+---
+title: "Silizium Circuits"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Kochi-based fabless IP venture aiming to become India's largest analog/RF/mixed-signal IP exporter by 2030. Also backed by MeitY's Chips-to-Startup (C2S) programme and a ₹7.59 crore DoT Telecom Technology Development Fund grant for LEO satellite-communication chips. Works with IIT Hyderabad, IIT Bombay, IIT Delhi, IIT Guwahati, and CUSAT.
+:::
+
+## What does this firm design?
+
+Analog, RF, and mixed-signal semiconductor IP; completed end-to-end design of a GaAs-based 5G low-noise amplifier/front-end module, and is developing LEO satellite-communication chips.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Kochi |
+| **Product Focus** | Analog/RF/mixed-signal semiconductor IP; GaAs 5G front-end modules |
+| **Application Domains** | Telecom, 5G, Satellite |
+| **Design Scope** | IP block |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [India's Silizium Circuits develops GaAs 5G front-end chip as RF localization advances (DigiTimes)](https://www.digitimes.com/news/a20251006VL200/silizium-circuits-5g-gaas-design-india-startup.html) (06 Oct 2025)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

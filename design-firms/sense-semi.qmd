@@ -1,0 +1,46 @@
+---
+title: "Sense Semi"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Founded 2014 by Vijay Muktamath and Namit Varma (as Sensesemi Technologies). Raised ₹25 crore in January 2026 for tape-outs and reference-design work.
+:::
+
+## What does this firm design?
+
+SenseSoC integrates AI inferencing, wireless mesh connectivity, precision analog front-end, an MCU, and security into a single chip, targeting wearables and connected medical devices.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2014 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Ultra-low-power AI-inference SoCs (SenseSoC) |
+| **Application Domains** | IoT, Wearables, Healthcare |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Indian Semiconductor Startup Sensesemi Bags ₹25 Cr to Build Power-Efficient Edge-AI Chips](https://bharatfast.com/english/start-up/indian-semiconductor-startup-sensesemi-bags-%E2%82%B925-cr-to-build-power-efficient-edge-ai-chips/31030/) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -1,0 +1,46 @@
+---
+title: "Sophrosyne Technologies"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Founded 2022 by Manish Srivastava. Raised $2M seed funding from Bluehill Capital shortly after securing a ~$1.2M (₹10 crore) DLI grant from MeitY. R&D and product-design centre based in Udupi.
+:::
+
+## What does this firm design?
+
+A multi-vital biosensing SoC consolidating ECG, PPG, respiration, and temperature monitoring into a single ultra-low-power chip for compact, energy-efficient medical wearables.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2022 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Udupi |
+| **Product Focus** | Multi-vital biosensing SoC for wearables |
+| **Application Domains** | Healthcare, Wearables |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Semiconductor Startup Sophrosyne Bags $2 Mn From Bluehill VC (Inc42)](https://inc42.com/buzz/semiconductor-startup-sophrosyne-bags-2-mn-from-bluehill-vc/) (01 Jan 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

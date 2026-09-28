@@ -1,0 +1,44 @@
+---
+title: "Applied Materials India — Bengaluru Signature Business Park"
+subtitle: "Equipment Manufacturer | Applied Materials Inc."
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Applied Materials' largest India commitment to date — a 140-acre advanced semiconductor research park combining cleanroom capability, R&D, and a 10x expansion of India-based supply-chain capacity. Reported from two angles a day apart: Karnataka's government framed it as a ₹3,600cr/1,000-job state deal (16 Sept 2026); the company's own 'India Vision 2035' framing the next day put it at $5B over a decade. Same location, same 10-year timeframe, same focus (R&D + equipment manufacturing) — near-certainly one commitment described at state vs. global level, not two additive investments. Both figures are given here since neither source explicitly reconciles them.
+:::
+
+## What does this facility supply?
+
+Semiconductor process equipment R&D, engineering design, and manufacturing/testing of chip-making tools; collaborative R&D space for customers and suppliers on one site.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Equipment Manufacturer |
+| **Parent Company** | Applied Materials Inc. (United States) |
+| **Location** | Bengaluru, Karnataka |
+| **Investment** | ₹3,600 crore / $5,000M |
+| **Status** | Announced |
+| **Supplies** | General / not tied to one facility |
+
+## Project Timeline
+
+- **16 Sep 2026** — Karnataka government announces ₹3,600cr Applied Materials investment in Bengaluru Signature Business Park (R&D, equipment manufacturing, software), ~1,000 jobs
+- **17 Sep 2026** — Applied Materials announces 'India Vision 2035' — $5B over a decade, 140-acre research park, 10x supply-chain expansion — at SEMICON India 2026
+
+## Sources
+
+- [Applied Materials to invest ₹3,600 crore in Karnataka](https://www.communicationstoday.co.in/applied-materials-to-invest-%E2%82%B93600-crore-in-karnataka/) (16 Sep 2026)
+- [Applied Materials unveils $5 billion India Vision 2035 investment plan](https://www.newsbytesapp.com/news/business/applied-materials-unveils-5-billion-india-vision-2035-investment-plan/tldr) (17 Sep 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this facility?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../equipment.html" class="btn btn-primary">Back to Equipment & Materials</a>

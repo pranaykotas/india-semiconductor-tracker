@@ -1,0 +1,44 @@
+---
+title: "Tokyo Electron India — Bengaluru Development Centre & Gujarat Training Centre"
+subtitle: "Equipment Manufacturer | Tokyo Electron Limited"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Distinct from TEL's 2024 equipment-supply MoU with Tata (which stays as a milestone on Tata's own facility page) — this is TEL's own India footprint: a Bengaluru software/equipment-design R&D centre plus a Gujarat training centre backed by Japan's METI to build a fab-engineer talent pipeline. No investment figure disclosed for either.
+:::
+
+## What does this facility supply?
+
+Software development, equipment design and simulation for semiconductor manufacturing tools; separately, engineer training for fab and equipment maintenance roles.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Equipment Manufacturer |
+| **Parent Company** | Tokyo Electron Limited (Japan) |
+| **Location** | Bengaluru, Karnataka |
+| **Investment** | Not disclosed |
+| **Status** | Announced |
+| **Supplies** | General / not tied to one facility |
+
+## Project Timeline
+
+- **10 Sep 2025** — Tokyo Electron announces a Bengaluru development centre focused on software, simulation, and equipment design for semiconductor manufacturing
+- **20 Sep 2026** — Tokyo Electron confirms a semiconductor training centre in Gujarat, opening 2027, backed by Japan's METI
+
+## Sources
+
+- [Tokyo Electron Develop Semiconductor R&D Center in Bengaluru](https://www.blackridgeresearch.com/news-releases/tokyo-electron-establish-semiconductor-development-center-bengaluru) (10 Sep 2025)
+- [Tokyo Electron To Set Up Semiconductor Training Centre In Gujarat In 2027](https://www.businessworld.in/article/tokyo-electron-to-set-up-semiconductor-training-centre-in-gujarat-in-2027-624155) (20 Sep 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this facility?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../equipment.html" class="btn btn-primary">Back to Equipment & Materials</a>
