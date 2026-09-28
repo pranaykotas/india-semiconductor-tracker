@@ -74,6 +74,48 @@ design_firms:
   - url: https://www.signalchip.com
     title: Signalchip official website
     date: '2026-01-01'
+- id: indiesemic
+  name: IndieSemiC
+  category: Indian Fabless
+  dli_beneficiary: false
+  parent_company: null
+  parent_hq: null
+  founded: 2022
+  india_headcount: null
+  locations:
+  - city: Ahmedabad
+    state: Gujarat
+    lat: 23.023
+    lon: 72.571
+  product_focus: RF/SiP connectivity modules; ISC-R1 indigenous quad-core AI SoC
+  application_domains:
+  - IoT
+  - Smart Metering
+  - Smart City
+  design_scope: Full chip
+  node_sophistication: null
+  design_score:
+    ip_ownership: 3
+    design_completeness: 3
+    domain_difficulty: 2
+    market_readiness: 3
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: "Founded 2022 in Ahmedabad by Nikul Shah and Jinal Shah. Entered via RF/SiP modules (Bluetooth, Wi-Fi, LoRa — 15+ certified modules, tens of thousands of deployments) to fund a longer-term push toward an indigenous, low-cost general-purpose SoC aimed at the ultra-cheap chip segment India currently imports from China. Signed an OSAT collaboration MoU with Kaynes Semicon (Sept 2026) covering package qualification, assembly/testing, and co-development."
+    what_it_designs: "RF/SiP connectivity modules for smart metering and smart-city applications, and the ISC-VEGA-SOM — a module built around its own ISC-R1 quad-core AI processor with integrated LoRa connectivity."
+  sources:
+  - url: https://inc42.com/startups/can-indiesemic-win-chinas-20-cent-chip-challenge-to-india/
+    title: "Can IndieSemiC Win China's 20-Cent Chip Challenge To India? (Inc42)"
+    date: '2026-09-01'
+  - url: https://electronics.economictimes.indiatimes.com/news/manufacturing/indiesemic-kaynes-semicon-sign-pact-for-osat-collaboration/134346313
+    title: "IndieSemiC, Kaynes Semicon sign pact for OSAT collaboration"
+    date: '2026-09-19'
+  - url: https://www.manufacturingtodayindia.com/indiesemic-unveils-isc-vega-som-with-indigenous-processor-and-lora-connectivity
+    title: "IndieSemiC unveils ISC-VEGA-SOM with indigenous processor and LoRa connectivity"
+    date: '2026-01-01'
 - id: mindgrove
   name: Mindgrove Technologies
   category: DLI Beneficiary
@@ -1528,6 +1570,44 @@ design_firms:
     design_completeness: 5
     domain_difficulty: 5
     india_scale: 4
+- id: maieutic-semiconductors
+  name: Maieutic Semiconductors
+  category: EDA & IP Provider
+  dli_beneficiary: false
+  parent_company: null
+  parent_hq: null
+  founded: 2025
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Generative-AI copilot for analog/mixed-signal IC design
+  application_domains:
+  - EDA
+  - Analog Design
+  design_scope: Design Tool
+  node_sophistication: null
+  design_score:
+    strategic_depth: 3
+    design_completeness: 2
+    domain_difficulty: 5
+    india_scale: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: "Founded April 2025 by Gireesh Rajendran, Ashish Lachhwani, Rakesh Kumar, and Krishna Sankar — veterans of Steradian Semiconductors (an imaging-radar startup acquired by Renesas in 2022). One of the few Indian-origin EDA companies, rather than the foreign-MNC design centres that dominate this category. Closed a $6M seed round (Endiya Partners, Exfinity Venture Partners, Japan's UTEC) in July 2025."
+    what_it_designs: "Not a chip itself — a generative-AI assistant embedded in existing EDA workflows to accelerate early-stage analog IC design, automate design review, and help engineers navigate performance trade-offs. Analog design still resists automation more than digital design does, which is the gap this targets."
+  sources:
+  - url: https://www.maieuticsemi.com/news/maieutic-funding-6-mil
+    title: "Maieutic Semiconductors seed funding announcement"
+    date: '2025-07-03'
+  - url: https://www.business-standard.com/technology/tech-news/bengaluru-startup-maieutic-ai-chip-design-automation-125102100283_1.html
+    title: "Bengaluru startup taps AI to speed up analog chip development (Business Standard)"
+    date: '2025-10-21'
 - id: arm-india
   name: Arm India
   category: GCC Design Centre
