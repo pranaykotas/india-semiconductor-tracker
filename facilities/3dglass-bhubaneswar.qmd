@@ -25,7 +25,7 @@ Glass-based packaging is a next-generation technology that even leading semicond
 | | |
 |---|---|
 | **Company** | 3D Glass Solutions Inc. |
-| **Partners** | None |
+| **Partners** | Intel Corporation (technology partner for proposed $3.3bn follow-on facility, MoU stage — not yet ISM-approved) |
 | **Type** | Assembly & Packaging |
 | **Capability** | Next-gen Glass Substrates (50M units/year) |
 | **Status** | Under Construction |
@@ -53,6 +53,7 @@ Benchmarked against a 3nm fab (5/5).
 
 - **01 Aug 2025** — Approved by Union Cabinet under ISM
 - **19 Apr 2026** — Foundation stone laid at Info Valley, Khordha district, Bhubaneswar — India's first advanced 3D chip packaging unit breaks ground in presence of CM Mohan Charan Majhi and Union Minister Ashwini Vaishnaw
+- **29 May 2026** — Intel, 3DGS, and the Government of Odisha sign an MoU for a proposed, separate $3.3 billion (~₹27,500 crore) advanced substrate facility at the same Bhubaneswar-Khurda site — a much larger follow-on proposal, with Intel as technology partner (process expertise, technology licensing, quality systems, workforce development), not yet Cabinet-approved under ISM. Distinct from the ₹1,943 crore ISM-approved project above, which is already under construction.
 
 
 
@@ -61,6 +62,8 @@ Benchmarked against a 3nm fab (5/5).
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
 - [PIB: Cabinet approves new semiconductor projects](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128604) (01 Aug 2025)
 - [PIB: Groundbreaking of India's First Advanced 3D Semiconductor Packaging Unit in Odisha](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549) (19 Apr 2026)
+- [Intel and 3DGS announce plans for $3.3 billion semiconductor substrate manufacturing facility](https://finance.yahoo.com/sectors/technology/articles/intel-3dgs-announce-plans-3-112103906.html) (29 May 2026)
+- [Intel to set up $3.3Bn substrate manufacturing plant in India, partners with 3DGS](https://thetechportal.com/2026/05/29/intel-to-set-up-3-3bn-substrate-manufacturing-plant-in-india-partners-with-3dgs/) (29 May 2026)
 
 ---
 

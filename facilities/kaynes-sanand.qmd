@@ -55,12 +55,16 @@ Revised target: FY2025-26 (Mar 2026)
 - **01 Sep 2024** — Approved under ISM
 - **01 Dec 2024** — Construction begins at Sanand
 - **31 Mar 2026** — PM Modi inaugurates Kaynes semiconductor plant — facility goes operational
+- **19 Sep 2026** — IndieSemiC (fabless design startup) and Kaynes Semicon sign an MoU for OSAT collaboration — qualification, assembly, and testing of QFN/BGA and other packages for IndieSemiC's low-power SiP modules and discrete devices, plus joint work on design-for-manufacturability and new package introduction
+- **24 Sep 2026** — Company guidance (CEO Raghu Panicker): Unit 2 at Sanand targeted to become operational in December 2026, including a ~$50 million automotive-grade reliability and failure-analysis lab — one of the first of its kind in Asia, starting with automotive qualification before expanding to space-grade semiconductors. Forward guidance, not yet confirmed by an inauguration.
 
 
 
 ## Sources
 
 - [PM Modi inaugurates Kaynes Semiconductor plant in Gujarat](https://ddnews.gov.in/en/pm-modi-inaugurates-kaynes-semiconductor-plant-in-gujarat-flags-push-for-chip-ecosystem/) (31 Mar 2026)
+- [IndieSemiC, Kaynes Semicon sign pact for OSAT collaboration](https://electronics.economictimes.indiatimes.com/news/manufacturing/indiesemic-kaynes-semicon-sign-pact-for-osat-collaboration/134346313) (19 Sep 2026)
+- [Exclusive: Kaynes To Invest $50 Million In Automotive Chip Lab (Autocar Professional)](https://www.autocarpro.in/news/exclusive-kaynes-to-invest-$50-million-in-automotive-chip-lab-134879) (24 Sep 2026)
 
 ---
 

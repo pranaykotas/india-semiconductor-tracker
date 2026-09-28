@@ -25,7 +25,7 @@ This is the project that will determine whether India can actually make chips, n
 | | |
 |---|---|
 | **Company** | Tata Electronics (TEPL) |
-| **Partners** | Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan |
+| **Partners** | Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan, Kelington Group Berhad, Malaysia (fab infrastructure/process systems), FUJIFILM Corporation, Japan (semiconductor materials supply) |
 | **Type** | Fab |
 | **Capability** | 28nm-55nm Logic (50,000 Wafers/Month) |
 | **Status** | Under Construction |
@@ -55,6 +55,8 @@ Original target: Dec 2026 ([source](https://www.pib.gov.in/PressReleasePage.aspx
 - **13 Mar 2024** — PM Modi lays foundation stone at Dholera Special Investment Region
 - **13 Mar 2024** — Construction begins — site preparation and civil works
 - **16 May 2026** — Tata Electronics and ASML sign MoU for lithography equipment supply, talent development, and supply chain collaboration for the Dholera fab
+- **17 Sep 2026** — Tata Electronics and FUJIFILM sign MoU; FUJIFILM to invest ~₹800 crore in a semiconductor-materials plant in Dholera SIR to supply high-purity chemicals (e.g. photoresists) for the fab, and to work with Indian chemical manufacturers to localise raw-material production
+- **18 Sep 2026** — Tata Electronics and Kelington Group (Malaysia) sign MoU; Kelington to supply ultra-high-purity process piping and critical fab infrastructure/gas-delivery systems to accelerate the fab's operational readiness
 
 ## OECD Taxonomy Classification
 
@@ -81,6 +83,8 @@ Classification using the OECD's proposed semiconductor production taxonomy from 
 
 - [PIB: PM lays foundation stone for semiconductor facilities](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (13 Mar 2024)
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
+- [Fujifilm and Tata Electronics Announce Strategic Partnership to Accelerate Semiconductor Materials Ecosystem in India](https://www.fujifilm.com/tw/en/news/hq/13953) (17 Sep 2026)
+- [Tata Electronics and Kelington Collaborate to Accelerate Operational Readiness of Dholera Fab](https://www.tataelectronics.com/w/tata-electronics-and-kelington-collaborate-to-accelerate-operational-readiness-of-dholera-fab) (18 Sep 2026)
 
 ---
 

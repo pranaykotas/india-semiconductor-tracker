@@ -64,7 +64,7 @@ facilities:
     name: "Tata Electronics Semiconductor Fab"
     company: "Tata Electronics (TEPL)"
     category: "Commercial (ISM Approved)"
-    partners: ["Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan"]
+    partners: ["Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan", "Kelington Group Berhad, Malaysia (fab infrastructure/process systems)", "FUJIFILM Corporation, Japan (semiconductor materials supply)"]
     location:
       city: "Dholera"
       state: "Gujarat"
@@ -94,6 +94,18 @@ facilities:
           url: "https://www.asml.com/en/news/press-releases/2026/tata-electronics-and-asml-announce-strategic-partnership"
           title: "Tata Electronics and ASML Announce Strategic Partnership (ASML Press Release)"
           date: "2026-05-16"
+      - date: "2026-09-17"
+        event: "Tata Electronics and FUJIFILM sign MoU; FUJIFILM to invest ~₹800 crore in a semiconductor-materials plant in Dholera SIR to supply high-purity chemicals (e.g. photoresists) for the fab, and to work with Indian chemical manufacturers to localise raw-material production"
+        source:
+          url: "https://www.fujifilm.com/tw/en/news/hq/13953"
+          title: "Fujifilm and Tata Electronics Announce Strategic Partnership to Accelerate Semiconductor Materials Ecosystem in India"
+          date: "2026-09-17"
+      - date: "2026-09-18"
+        event: "Tata Electronics and Kelington Group (Malaysia) sign MoU; Kelington to supply ultra-high-purity process piping and critical fab infrastructure/gas-delivery systems to accelerate the fab's operational readiness"
+        source:
+          url: "https://www.tataelectronics.com/w/tata-electronics-and-kelington-collaborate-to-accelerate-operational-readiness-of-dholera-fab"
+          title: "Tata Electronics and Kelington Collaborate to Accelerate Operational Readiness of Dholera Fab"
+          date: "2026-09-18"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 3
@@ -130,6 +142,12 @@ facilities:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468"
         title: "PIB: SEMICON India 2025 factsheet"
         date: "2025-09-01"
+      - url: "https://www.fujifilm.com/tw/en/news/hq/13953"
+        title: "Fujifilm and Tata Electronics Announce Strategic Partnership to Accelerate Semiconductor Materials Ecosystem in India"
+        date: "2026-09-17"
+      - url: "https://www.tataelectronics.com/w/tata-electronics-and-kelington-collaborate-to-accelerate-operational-readiness-of-dholera-fab"
+        title: "Tata Electronics and Kelington Collaborate to Accelerate Operational Readiness of Dholera Fab"
+        date: "2026-09-18"
 
   - id: cg-power-sanand
     name: "CG Semi OSAT Facility"
@@ -261,6 +279,18 @@ facilities:
         event: "Construction begins at Sanand"
       - date: "2026-03-31"
         event: "PM Modi inaugurates Kaynes semiconductor plant — facility goes operational"
+      - date: "2026-09-19"
+        event: "IndieSemiC (fabless design startup) and Kaynes Semicon sign an MoU for OSAT collaboration — qualification, assembly, and testing of QFN/BGA and other packages for IndieSemiC's low-power SiP modules and discrete devices, plus joint work on design-for-manufacturability and new package introduction"
+        source:
+          url: "https://electronics.economictimes.indiatimes.com/news/manufacturing/indiesemic-kaynes-semicon-sign-pact-for-osat-collaboration/134346313"
+          title: "IndieSemiC, Kaynes Semicon sign pact for OSAT collaboration"
+          date: "2026-09-19"
+      - date: "2026-09-24"
+        event: "Company guidance (CEO Raghu Panicker): Unit 2 at Sanand targeted to become operational in December 2026, including a ~$50 million automotive-grade reliability and failure-analysis lab — one of the first of its kind in Asia, starting with automotive qualification before expanding to space-grade semiconductors. Forward guidance, not yet confirmed by an inauguration."
+        source:
+          url: "https://www.autocarpro.in/news/exclusive-kaynes-to-invest-$50-million-in-automotive-chip-lab-134879"
+          title: "Exclusive: Kaynes To Invest $50 Million In Automotive Chip Lab (Autocar Professional)"
+          date: "2026-09-24"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 1
@@ -275,6 +305,12 @@ facilities:
       - url: "https://ddnews.gov.in/en/pm-modi-inaugurates-kaynes-semiconductor-plant-in-gujarat-flags-push-for-chip-ecosystem/"
         title: "PM Modi inaugurates Kaynes Semiconductor plant in Gujarat"
         date: "2026-03-31"
+      - url: "https://electronics.economictimes.indiatimes.com/news/manufacturing/indiesemic-kaynes-semicon-sign-pact-for-osat-collaboration/134346313"
+        title: "IndieSemiC, Kaynes Semicon sign pact for OSAT collaboration"
+        date: "2026-09-19"
+      - url: "https://www.autocarpro.in/news/exclusive-kaynes-to-invest-$50-million-in-automotive-chip-lab-134879"
+        title: "Exclusive: Kaynes To Invest $50 Million In Automotive Chip Lab (Autocar Professional)"
+        date: "2026-09-24"
 
   - id: hcl-foxconn-jewar
     name: "HCL-Foxconn JV OSAT"
@@ -476,6 +512,7 @@ facilities:
     name: "3D Glass Solutions Packaging"
     company: "3D Glass Solutions Inc."
     category: "Commercial (ISM Approved)"
+    partners: ["Intel Corporation (technology partner for proposed $3.3bn follow-on facility, MoU stage — not yet ISM-approved)"]
     location:
       city: "Bhubaneswar"
       state: "Odisha"
@@ -499,6 +536,12 @@ facilities:
           url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549"
           title: "PIB: Groundbreaking of India's First Advanced 3D Semiconductor Packaging Unit in Odisha"
           date: "2026-04-19"
+      - date: "2026-05-29"
+        event: "Intel, 3DGS, and the Government of Odisha sign an MoU for a proposed, separate $3.3 billion (~₹27,500 crore) advanced substrate facility at the same Bhubaneswar-Khurda site — a much larger follow-on proposal, with Intel as technology partner (process expertise, technology licensing, quality systems, workforce development), not yet Cabinet-approved under ISM. Distinct from the ₹1,943 crore ISM-approved project above, which is already under construction."
+        source:
+          url: "https://finance.yahoo.com/sectors/technology/articles/intel-3dgs-announce-plans-3-112103906.html"
+          title: "Intel and 3DGS announce plans for $3.3 billion semiconductor substrate manufacturing facility"
+          date: "2026-05-29"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 2
@@ -518,6 +561,12 @@ facilities:
       - url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549"
         title: "PIB: Groundbreaking of India's First Advanced 3D Semiconductor Packaging Unit in Odisha"
         date: "2026-04-19"
+      - url: "https://finance.yahoo.com/sectors/technology/articles/intel-3dgs-announce-plans-3-112103906.html"
+        title: "Intel and 3DGS announce plans for $3.3 billion semiconductor substrate manufacturing facility"
+        date: "2026-05-29"
+      - url: "https://thetechportal.com/2026/05/29/intel-to-set-up-3-3bn-substrate-manufacturing-plant-in-india-partners-with-3dgs/"
+        title: "Intel to set up $3.3Bn substrate manufacturing plant in India, partners with 3DGS"
+        date: "2026-05-29"
 
   - id: cdil-mohali
     name: "CDIL Semiconductor Facility"
