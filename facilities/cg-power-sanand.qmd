@@ -60,6 +60,12 @@ Revised target: FY2026-27 (Jul 2026)
 
 
 
+## Supply Chain
+
+Equipment, gas, and materials suppliers with their own tracked India facility feeding this project:
+
+- **[Linde India — Sanand Specialty Gas Facility](../equipment-firms/linde-sanand-gas-facility.html)** — High-purity specialty gases for chip packaging/assembly-and-test operations.
+
 ## Sources
 
 - [PIB: Cabinet approves semiconductor units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (01 Mar 2024)

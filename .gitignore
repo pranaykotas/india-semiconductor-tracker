@@ -5,5 +5,6 @@ _freeze/
 .RData
 .DS_Store
 .Renviron
+__pycache__/
 
 /.quarto/

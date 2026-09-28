@@ -7,6 +7,16 @@ library(glue)
 facilities <- load_facilities("data/facilities.yml")
 raw_facs <- yaml::read_yaml("data/facilities.yml")$facilities
 
+# Reverse lookup: equipment/materials firms that name this facility in
+# their own supplies_to[] — rendered as a "Supply Chain" section so the
+# relationship is visible from both directions, not just the supplier's
+# own page.
+raw_equipment <- if (file.exists("data/equipment_materials.yml")) {
+  yaml::read_yaml("data/equipment_materials.yml")$equipment_materials
+} else {
+  list()
+}
+
 # Ensure facilities directory exists
 if (!dir.exists("facilities")) dir.create("facilities")
 
@@ -67,6 +77,8 @@ Benchmarked against a 3nm fab (5/5).
 {milestones_section}
 
 {oecd_section}
+
+{supply_chain_section}
 
 ## Sources
 
@@ -174,6 +186,22 @@ for (i in 1:nrow(facilities)) {
     )
   }
 
+  # Supply chain section — equipment/materials firms that name this
+  # facility in their own supplies_to[] (reverse of the lookup on their page)
+  suppliers <- Filter(function(e) f$id %in% (e$supplies_to %||% character(0)), raw_equipment)
+  supply_chain_section <- if (length(suppliers) > 0) {
+    supplier_lines <- sapply(suppliers, function(s) {
+      paste0(
+        "- **[", s$name, "](../equipment-firms/", s$id, ".html)** — ",
+        (s$narrative$what_it_supplies %||% "")
+      )
+    })
+    paste0("## Supply Chain\n\nEquipment, gas, and materials suppliers with their own tracked India facility feeding this project:\n\n",
+           paste(supplier_lines, collapse = "\n"))
+  } else {
+    ""
+  }
+
   # Narrative fields
   significance <- if (nchar(f$significance) > 0) f$significance else "Details coming soon."
   what_it_makes <- if (nchar(f$what_it_makes) > 0) f$what_it_makes else "*Details coming soon.*"
@@ -198,6 +226,7 @@ for (i in 1:nrow(facilities)) {
     why_it_matters = why_it_matters,
     milestones_section = milestones_section,
     oecd_section = oecd_section,
+    supply_chain_section = supply_chain_section,
     source_links = source_links,
     completion_source_text = completion_source_text,
     revised_target_text = revised_target_text

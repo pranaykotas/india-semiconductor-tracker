@@ -60,6 +60,12 @@ Revised target: FY2025-26 (Feb 2026)
 
 
 
+## Supply Chain
+
+Equipment, gas, and materials suppliers with their own tracked India facility feeding this project:
+
+- **[Linde India — Sanand Specialty Gas Facility](../equipment-firms/linde-sanand-gas-facility.html)** — High-purity specialty gases for chip packaging/assembly-and-test operations.
+
 ## Sources
 
 - [PIB: Micron begins volume production at India facility](https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2233998&reg=3&lang=1) (26 Feb 2026)

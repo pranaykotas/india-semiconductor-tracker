@@ -55,6 +55,8 @@ Benchmarked against a 3nm fab (5/5).
 
 
 
+
+
 ## Sources
 
 - [Semi-Conductor Laboratory official website](https://www.scl.gov.in/) (01 Jan 2025)

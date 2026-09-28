@@ -60,6 +60,12 @@ Revised target: FY2025-26 (Mar 2026)
 
 
 
+## Supply Chain
+
+Equipment, gas, and materials suppliers with their own tracked India facility feeding this project:
+
+- **[Linde India — Sanand Specialty Gas Facility](../equipment-firms/linde-sanand-gas-facility.html)** — High-purity specialty gases for chip packaging/assembly-and-test operations.
+
 ## Sources
 
 - [PM Modi inaugurates Kaynes Semiconductor plant in Gujarat](https://ddnews.gov.in/en/pm-modi-inaugurates-kaynes-semiconductor-plant-in-gujarat-flags-push-for-chip-ecosystem/) (31 Mar 2026)

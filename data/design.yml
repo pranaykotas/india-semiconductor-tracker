@@ -1019,7 +1019,7 @@ design_firms:
     date: '2026-06-27'
   - url: https://www.vertexventures.sg/news/bigendian-semiconductors-raises-6m-to-strengthen-india-s-fabless-semiconductor-ecosystem/
     title: "BigEndian Semiconductors Raises $6M to Strengthen India's Fabless Semiconductor Ecosystem"
-    date: '2026-01-01'
+    date: '2026-05-06'
   - url: https://techcrunch.com/2024/09/02/bigendian-embarks-on-surveillance-chip-development-from-india
     title: "BigEndian embarks on surveillance chip development from India (TechCrunch)"
     date: '2024-09-02'
@@ -1408,7 +1408,7 @@ design_firms:
     date: '2026-01-01'
   - url: https://www.bwpeople.in/article/samsung-semiconductor-india-to-hire-over-700-employees-at-new-rd-facility-511630
     title: "Samsung Semiconductor India (SSIR) headcount — over 4,500 employees (BW People)"
-    date: '2026-01-01'
+    date: '2024-02-29'
   design_score:
     strategic_depth: 4
     design_completeness: 5
@@ -2010,7 +2010,7 @@ design_firms:
   sources:
   - url: https://www.ilounge.com/news/apple-chip-design-bengaluru
     title: Apple starts chip-designing in Bengaluru
-    date: '2025-01-01'
+    date: '2019-10-24'
   design_score:
     strategic_depth: 4
     design_completeness: 3
@@ -2212,7 +2212,7 @@ design_firms:
   sources:
   - url: https://www.eetimes.com/cisco-to-begin-chip-design-in-india/
     title: Cisco to begin chip design in India
-    date: '2025-01-01'
+    date: '2000-08-17'
   design_score:
     strategic_depth: 3
     design_completeness: 3

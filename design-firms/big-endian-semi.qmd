@@ -34,7 +34,7 @@ Sovereign AI vision chips for surveillance and CCTV, featuring an indigenous end
 ## Sources
 
 - [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
-- [BigEndian Semiconductors Raises $6M to Strengthen India's Fabless Semiconductor Ecosystem](https://www.vertexventures.sg/news/bigendian-semiconductors-raises-6m-to-strengthen-india-s-fabless-semiconductor-ecosystem/) (01 Jan 2026)
+- [BigEndian Semiconductors Raises $6M to Strengthen India's Fabless Semiconductor Ecosystem](https://www.vertexventures.sg/news/bigendian-semiconductors-raises-6m-to-strengthen-india-s-fabless-semiconductor-ecosystem/) (06 May 2026)
 - [BigEndian embarks on surveillance chip development from India (TechCrunch)](https://techcrunch.com/2024/09/02/bigendian-embarks-on-surveillance-chip-development-from-india) (02 Sep 2024)
 
 ---

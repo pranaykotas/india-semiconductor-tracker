@@ -34,7 +34,7 @@ Exynos mobile application processors, 5G modem IPs, display driver ICs, and cust
 ## Sources
 
 - [Samsung R&D Institute India - Bengaluru](https://research.samsung.com/sri-b) (01 Jan 2026)
-- [Samsung Semiconductor India (SSIR) headcount — over 4,500 employees (BW People)](https://www.bwpeople.in/article/samsung-semiconductor-india-to-hire-over-700-employees-at-new-rd-facility-511630) (01 Jan 2026)
+- [Samsung Semiconductor India (SSIR) headcount — over 4,500 employees (BW People)](https://www.bwpeople.in/article/samsung-semiconductor-india-to-hire-over-700-employees-at-new-rd-facility-511630) (29 Feb 2024)
 
 ---
 

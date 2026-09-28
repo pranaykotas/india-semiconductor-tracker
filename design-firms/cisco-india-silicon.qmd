@@ -33,7 +33,7 @@ Networking ASIC design, verification, and physical design for Cisco's switching 
 
 ## Sources
 
-- [Cisco to begin chip design in India](https://www.eetimes.com/cisco-to-begin-chip-design-in-india/) (01 Jan 2025)
+- [Cisco to begin chip design in India](https://www.eetimes.com/cisco-to-begin-chip-design-in-india/) (17 Aug 2000)
 
 ---
 

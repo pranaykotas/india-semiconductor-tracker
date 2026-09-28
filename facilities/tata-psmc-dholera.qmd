@@ -79,6 +79,14 @@ Classification using the OECD's proposed semiconductor production taxonomy from 
 | **Capacity** | Wafer starts per month | ~50,000 wspm (target) |
 | | Cleanroom size | Info not available |
 
+## Supply Chain
+
+Equipment, gas, and materials suppliers with their own tracked India facility feeding this project:
+
+- **[Linde India — Dholera Air Separation Unit](../equipment-firms/linde-dholera-asu.html)** — Bulk industrial gases (oxygen, nitrogen, argon) via on-site air separation, piped directly to Tata's Dholera fab.
+- **[INOX Air Products — Dholera Electronic Specialty Gas Hub](../equipment-firms/inox-air-products-dholera.html)** — UHP bulk and specialty gases — nitrogen, oxygen, argon, hydrogen — for fabs and OSAT units.
+- **[ASML India — GIFT City Customer Support Office](../equipment-firms/asml-gift-city.html)** — Customer support and service operations for ASML's lithography systems supplied to Indian fabs, primarily Tata's Dholera fab.
+
 ## Sources
 
 - [PIB: PM lays foundation stone for semiconductor facilities](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (13 Mar 2024)

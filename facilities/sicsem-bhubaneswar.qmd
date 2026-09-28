@@ -74,6 +74,8 @@ Classification using the OECD's proposed semiconductor production taxonomy from 
 | **Capacity** | Wafer starts per month | ~5,000 wspm (target; 60,000 wafers/year) |
 | | Cleanroom size | Info not available |
 
+
+
 ## Sources
 
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)

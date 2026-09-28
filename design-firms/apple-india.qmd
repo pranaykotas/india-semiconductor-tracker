@@ -33,7 +33,7 @@ Wireless modem silicon, SoC platform architecture, and hardware verification for
 
 ## Sources
 
-- [Apple starts chip-designing in Bengaluru](https://www.ilounge.com/news/apple-chip-design-bengaluru) (01 Jan 2025)
+- [Apple starts chip-designing in Bengaluru](https://www.ilounge.com/news/apple-chip-design-bengaluru) (24 Oct 2019)
 
 ---
 

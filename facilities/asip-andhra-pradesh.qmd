@@ -57,6 +57,8 @@ Benchmarked against a 3nm fab (5/5).
 
 
 
+
+
 ## Sources
 
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
