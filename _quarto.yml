@@ -17,14 +17,16 @@ website:
     left:
       - text: "Map & Overview"
         href: index.qmd
-      - text: "Timeline"
-        href: timeline.qmd
-      - text: "Technology Nodes"
-        href: nodes.qmd
-      - text: "Chip Design"
-        href: design.qmd
-      - text: "Equipment & Materials"
-        href: equipment.qmd
+      - text: "Trackers"
+        menu:
+          - text: "Timeline"
+            href: timeline.qmd
+          - text: "Technology Nodes"
+            href: nodes.qmd
+          - text: "Chip Design"
+            href: design.qmd
+          - text: "Equipment & Materials"
+            href: equipment.qmd
       - text: "Policy & Budget"
         href: budget.qmd
       - text: "About"
