@@ -64,7 +64,7 @@ facilities:
     name: "Tata Electronics Semiconductor Fab"
     company: "Tata Electronics (TEPL)"
     category: "Commercial (ISM Approved)"
-    partners: ["Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan", "Kelington Group Berhad, Malaysia (fab infrastructure/process systems)", "FUJIFILM Corporation, Japan (semiconductor materials supply)"]
+    partners: ["Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan", "Kelington Group Berhad, Malaysia (fab infrastructure/process systems)", "FUJIFILM Corporation, Japan (semiconductor materials supply)", "Sumitomo Chemical Co., Ltd., Japan (semiconductor materials supply)"]
     location:
       city: "Dholera"
       state: "Gujarat"
@@ -105,6 +105,12 @@ facilities:
         source:
           url: "https://www.tataelectronics.com/w/tata-electronics-and-kelington-collaborate-to-accelerate-operational-readiness-of-dholera-fab"
           title: "Tata Electronics and Kelington Collaborate to Accelerate Operational Readiness of Dholera Fab"
+          date: "2026-09-18"
+      - date: "2026-09-18"
+        event: "Tata Electronics and Sumitomo Chemical sign MoU to explore supplying the Dholera fab with photoresists, functional chemicals, and high-purity chemicals (hydrogen peroxide, isopropyl alcohol, ammonia water, sulfuric acid), and to explore Sumitomo manufacturing semiconductor materials locally in India — no India facility or investment committed yet"
+        source:
+          url: "https://www.tataelectronics.com/w/tata-electronics-and-sumitomo-chemical-sign-mou-for-high-quality-semiconductor-materials"
+          title: "Tata Electronics and Sumitomo Chemical Sign MoU for High-Quality Semiconductor Materials"
           date: "2026-09-18"
     complexity:
       technology_difficulty: 2
@@ -147,6 +153,9 @@ facilities:
         date: "2026-09-17"
       - url: "https://www.tataelectronics.com/w/tata-electronics-and-kelington-collaborate-to-accelerate-operational-readiness-of-dholera-fab"
         title: "Tata Electronics and Kelington Collaborate to Accelerate Operational Readiness of Dholera Fab"
+        date: "2026-09-18"
+      - url: "https://www.tataelectronics.com/w/tata-electronics-and-sumitomo-chemical-sign-mou-for-high-quality-semiconductor-materials"
+        title: "Tata Electronics and Sumitomo Chemical Sign MoU for High-Quality Semiconductor Materials"
         date: "2026-09-18"
 
   - id: cg-power-sanand
