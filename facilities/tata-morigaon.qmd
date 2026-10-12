@@ -25,7 +25,7 @@ Locating a major semiconductor facility in Assam is a deliberate industrial poli
 | | |
 |---|---|
 | **Company** | Tata Semiconductor Assembly and Test Pvt Ltd |
-| **Partners** | None |
+| **Partners** | Nexperia, Netherlands (discrete semiconductor assembly & test partnership) |
 | **Type** | Assembly & Packaging |
 | **Capability** | Advanced Packaging (48M chips/day) |
 | **Status** | Under Construction |
@@ -56,6 +56,7 @@ Revised target: FY2026-27 (Mar 2027)
 - **01 Jul 2024** — Construction begins at Jagiroad, Morigaon
 - **30 Apr 2026** — Phase 1 commissioning expected (original target)
 - **31 May 2026** — Union Minister Vaishnaw states ₹27,000 Cr Jagiroad semiconductor plant likely to begin operations within current fiscal year (FY2026-27)
+- **17 Sep 2026** — Tata Electronics and Nexperia announce strategic partnership; Nexperia discrete semiconductor products (MOSFETs) to be assembled and tested at TSAT Jagiroad (back-end), alongside front-end MOSFET production groundwork at Tata's Dholera fab — a framework for long-term cooperation, not a standalone Nexperia India facility or investment
 
 
 
@@ -66,6 +67,7 @@ Revised target: FY2026-27 (Mar 2027)
 - [PIB: Cabinet approves semiconductor units](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012209) (01 Mar 2024)
 - [PIB: SEMICON India 2025 factsheet](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128468) (01 Sep 2025)
 - [Assam's semiconductor plant set to begin production this financial year: Minister Ashwini Vaishnaw (Economic Times)](https://telecom.economictimes.indiatimes.com/amp/news/policy/assams-semiconductor-plant-set-to-begin-production-this-financial-year-minister-ashwini-vaishnaw/131432385) (31 May 2026)
+- [Nexperia and Tata Electronics Announce Strategic Partnership Across Semiconductor Manufacturing, Technology and Innovation](https://www.nexperia.com/about/news-events/press-releases/Nexperia-and-Tata-Electronics-announce-strategic-partnership-across-semiconductor-manufacturing-technology-and-innovation) (17 Sep 2026)
 
 ---
 

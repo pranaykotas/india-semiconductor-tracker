@@ -64,7 +64,7 @@ facilities:
     name: "Tata Electronics Semiconductor Fab"
     company: "Tata Electronics (TEPL)"
     category: "Commercial (ISM Approved)"
-    partners: ["Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan", "Kelington Group Berhad, Malaysia (fab infrastructure/process systems)", "FUJIFILM Corporation, Japan (semiconductor materials supply)", "Sumitomo Chemical Co., Ltd., Japan (semiconductor materials supply)"]
+    partners: ["Powerchip Semiconductor Manufacturing Corp (PSMC), Taiwan", "Kelington Group Berhad, Malaysia (fab infrastructure/process systems)", "FUJIFILM Corporation, Japan (semiconductor materials supply)", "Sumitomo Chemical Co., Ltd., Japan (semiconductor materials supply)", "Nexperia, Netherlands (MOSFET production partnership)"]
     location:
       city: "Dholera"
       state: "Gujarat"
@@ -99,6 +99,12 @@ facilities:
         source:
           url: "https://www.fujifilm.com/tw/en/news/hq/13953"
           title: "Fujifilm and Tata Electronics Announce Strategic Partnership to Accelerate Semiconductor Materials Ecosystem in India"
+          date: "2026-09-17"
+      - date: "2026-09-17"
+        event: "Tata Electronics and Nexperia announce strategic partnership; Nexperia to lay groundwork for producing its MOSFET portfolio at Tata's Dholera fab (front-end), alongside assembly/test of Nexperia discretes at Tata's Jagiroad, Assam OSAT (back-end) — a framework for long-term cooperation, not a standalone Nexperia India facility or investment"
+        source:
+          url: "https://www.nexperia.com/about/news-events/press-releases/Nexperia-and-Tata-Electronics-announce-strategic-partnership-across-semiconductor-manufacturing-technology-and-innovation"
+          title: "Nexperia and Tata Electronics Announce Strategic Partnership Across Semiconductor Manufacturing, Technology and Innovation"
           date: "2026-09-17"
       - date: "2026-09-18"
         event: "Tata Electronics and Kelington Group (Malaysia) sign MoU; Kelington to supply ultra-high-purity process piping and critical fab infrastructure/gas-delivery systems to accelerate the fab's operational readiness"
@@ -157,6 +163,9 @@ facilities:
       - url: "https://www.tataelectronics.com/w/tata-electronics-and-sumitomo-chemical-sign-mou-for-high-quality-semiconductor-materials"
         title: "Tata Electronics and Sumitomo Chemical Sign MoU for High-Quality Semiconductor Materials"
         date: "2026-09-18"
+      - url: "https://www.nexperia.com/about/news-events/press-releases/Nexperia-and-Tata-Electronics-announce-strategic-partnership-across-semiconductor-manufacturing-technology-and-innovation"
+        title: "Nexperia and Tata Electronics Announce Strategic Partnership Across Semiconductor Manufacturing, Technology and Innovation"
+        date: "2026-09-17"
 
   - id: cg-power-sanand
     name: "CG Semi OSAT Facility"
@@ -213,6 +222,7 @@ facilities:
     name: "Tata Semiconductor Assembly and Test (TSAT)"
     company: "Tata Semiconductor Assembly and Test Pvt Ltd"
     category: "Commercial (ISM Approved)"
+    partners: ["Nexperia, Netherlands (discrete semiconductor assembly & test partnership)"]
     location:
       city: "Jagiroad, Morigaon"
       state: "Assam"
@@ -242,6 +252,12 @@ facilities:
           url: "https://telecom.economictimes.indiatimes.com/amp/news/policy/assams-semiconductor-plant-set-to-begin-production-this-financial-year-minister-ashwini-vaishnaw/131432385"
           title: "Assam's semiconductor plant set to begin production this financial year: Minister Ashwini Vaishnaw (Economic Times)"
           date: "2026-05-31"
+      - date: "2026-09-17"
+        event: "Tata Electronics and Nexperia announce strategic partnership; Nexperia discrete semiconductor products (MOSFETs) to be assembled and tested at TSAT Jagiroad (back-end), alongside front-end MOSFET production groundwork at Tata's Dholera fab — a framework for long-term cooperation, not a standalone Nexperia India facility or investment"
+        source:
+          url: "https://www.nexperia.com/about/news-events/press-releases/Nexperia-and-Tata-Electronics-announce-strategic-partnership-across-semiconductor-manufacturing-technology-and-innovation"
+          title: "Nexperia and Tata Electronics Announce Strategic Partnership Across Semiconductor Manufacturing, Technology and Innovation"
+          date: "2026-09-17"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 1
@@ -262,6 +278,9 @@ facilities:
       - url: "https://telecom.economictimes.indiatimes.com/amp/news/policy/assams-semiconductor-plant-set-to-begin-production-this-financial-year-minister-ashwini-vaishnaw/131432385"
         title: "Assam's semiconductor plant set to begin production this financial year: Minister Ashwini Vaishnaw (Economic Times)"
         date: "2026-05-31"
+      - url: "https://www.nexperia.com/about/news-events/press-releases/Nexperia-and-Tata-Electronics-announce-strategic-partnership-across-semiconductor-manufacturing-technology-and-innovation"
+        title: "Nexperia and Tata Electronics Announce Strategic Partnership Across Semiconductor Manufacturing, Technology and Innovation"
+        date: "2026-09-17"
 
   - id: kaynes-sanand
     name: "Kaynes Semicon OSAT Facility"
