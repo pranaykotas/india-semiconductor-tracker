@@ -1,30 +1,30 @@
 ---
 title: "Silicon Support Solutions"
-subtitle: "Indian Fabless"
+subtitle: "Design Services"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Details coming soon — this firm is tracked via the DLI beneficiary list but has not yet been independently researched.
+Listed on the Chips-DLI portal (not among the 24 PDLI projects). Provides EDA-flow, yield-learning and ATE test services and lists one SerDes receiver IP; no chip of its own and no public address found.
 :::
 
 ## What does this firm design?
 
-*Details coming soon.*
+EDA flow support, yield-learning and automated test-equipment services.
 
 ## Key Facts
 
 | | |
 |---|---|
-| **Category** | Indian Fabless |
+| **Category** | Design Services |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Not yet documented |
-| **Product Focus** | *Details coming soon.* |
+| **Product Focus** | EDA flow support, yield learning and ATE test services |
 | **Application Domains** | Not yet documented |
-| **Design Scope** | Not yet documented |
+| **Design Scope** | Services |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
@@ -35,6 +35,9 @@ Details coming soon — this firm is tracked via the DLI beneficiary list but ha
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Silicon Support Solutions home](https://sites.google.com/siliconsupportsolutions.com/silicon-support-solutions/home)
+- [Silicon Support Solutions - Purpose](https://sites.google.com/siliconsupportsolutions.com/silicon-support-solutions/purpose)
+- [Contact details (email only: eda@siliconsupportsolutions.com)](https://sites.google.com/siliconsupportsolutions.com/silicon-support-solutions/contact-us/contact-details)
 
 ---
 

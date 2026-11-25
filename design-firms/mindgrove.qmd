@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-IIT Madras spin-off building RISC-V based SoCs. Among the first Indian startups to tape out a production-ready RISC-V chip.
+IIT Madras-incubated startup (founders Shashwath T R and Sharan Srinivas J) building microcontrollers on the Shakti RISC-V core. Its Secure IoT S2401 taped out first-time-right in May 2024 at 28nm; customer sampling is under way (Pinetics is a named customer) and commercial production was being readied in 2026.
 :::
 
 ## What does this firm design?
 
-Secure IoT SoCs based on RISC-V architecture with built-in hardware security features. The Secure IoT chip targets smart metering, industrial automation, and connected devices.
+RISC-V microcontrollers and SoCs: the Secure IoT S2401 for smart metering and industrial IoT, and the V2600 vision SoC for edge computing (its DLI project).
 
 ## Key Facts
 
@@ -21,24 +21,27 @@ Secure IoT SoCs based on RISC-V architecture with built-in hardware security fea
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2021 |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | Bengaluru |
+| **Locations** | Chennai |
 | **Product Focus** | RISC-V SoCs |
 | **Application Domains** | IoT, Edge Computing |
 | **Design Scope** | Full chip |
-| **Node Sophistication** | 180nm |
+| **Node Sophistication** | 28nm |
 | **DLI Beneficiary** | Yes |
 
 ### Design Scores
 
 | | Score | Made up of |
 |---|---|---|
-| **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 3, IP ownership 5 |
-| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 4, market readiness 2 |
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 3, IP ownership 4 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 3, market readiness 3 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
-- [Mindgrove Technologies official website](https://mindgrovetech.in) (01 Jan 2026)
+- [Mindgrove Technologies official website](https://mindgrovetech.in)
+- [Mindgrove Technologies official website](https://www.mindgrovetech.in)
+- [Mindgrove - About us (milestones)](https://www.mindgrovetech.in/about-us)
+- [Mindgrove Secure IoT S2401](https://www.mindgrovetech.in/s2401-secure-iot)
 
 ---
 

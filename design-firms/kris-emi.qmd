@@ -1,30 +1,30 @@
 ---
 title: "Kris Emi Design Tech"
-subtitle: "Indian Fabless"
+subtitle: "EDA & IP Provider"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-KriSemi Design Technologies, incorporated 2018 in Hyderabad. Primarily a design-services provider (~35 employees) to semiconductor and EDA companies, alongside its own IP work.
+Krisemi Design Technologies, Hyderabad (registered at Gowlidoddi) with a Bengaluru office and a Malaysia presence. Lists 20 IO/PHY/analog IP blocks, 19 of them silicon-proven from 130nm to 10nm, alongside design services and a GAGAN receiver board.
 :::
 
 ## What does this firm design?
 
-ASIC design services spanning analog/mixed-signal design, physical design, RTL verification, photonic integrated circuits, FPGA, and firmware for telecom systems.
+IO, PHY, SerDes, PLL and analog IP blocks; ASIC design services; GAGAN/GNSS receiver products.
 
 ## Key Facts
 
 | | |
 |---|---|
-| **Category** | Indian Fabless |
+| **Category** | EDA & IP Provider |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2018 |
-| **India Headcount** | ~35 |
-| **Locations** | Hyderabad |
-| **Product Focus** | ASIC design, mixed-signal IP, and design services |
-| **Application Domains** | Telecom, Photonics |
-| **Design Scope** | IP block |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Hyderabad, Bengaluru |
+| **Product Focus** | Analog/mixed-signal IO and PHY IP, plus ASIC design services |
+| **Application Domains** | Space, GNSS, Computing |
+| **Design Scope** | IP blocks |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
@@ -35,7 +35,10 @@ ASIC design services spanning analog/mixed-signal design, physical design, RTL v
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
-- [Krisemi Design Technologies official website](https://krisemidesigntech.com/) (01 Jan 2026)
+- [Krisemi Design Technologies official website](https://krisemidesigntech.com/)
+- [Krisemi - Contact Us (office addresses)](https://krisemidesigntech.com/contact-us)
+- [Krisemi IP catalogue](https://krisemidesigntech.com/krisemi-ip)
+- [Krisemi - GAGAN Receiver](https://krisemidesigntech.com/gagan-receiver)
 
 ---
 

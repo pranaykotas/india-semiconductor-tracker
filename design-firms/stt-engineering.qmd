@@ -1,30 +1,30 @@
 ---
-title: "STT Engineering"
-subtitle: "Indian Fabless"
+title: "Stteereng Silicon"
+subtitle: "EDA & IP Provider"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Details coming soon — this firm is tracked via the DLI beneficiary list but has not yet been independently researched.
+Bengaluru (Hebbal) silicon-IP firm, listed on the Chips-DLI portal (earlier recorded here as 'STT Engineering'). Sells chiplet and memory-interface IP offered at 28 to 12nm.
 :::
 
 ## What does this firm design?
 
-*Details coming soon.*
+UCIe, DDR/LPDDR, HBM3E and SerDes PHY IP, plus IO libraries, PLLs and power-management IP.
 
 ## Key Facts
 
 | | |
 |---|---|
-| **Category** | Indian Fabless |
+| **Category** | EDA & IP Provider |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | Not yet documented |
-| **Product Focus** | *Details coming soon.* |
+| **Locations** | Bengaluru |
+| **Product Focus** | High-speed interface and analog silicon IP (UCIe, DDR/LPDDR, HBM3E, SerDes PHYs) |
 | **Application Domains** | Not yet documented |
-| **Design Scope** | Not yet documented |
+| **Design Scope** | IP blocks |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
@@ -35,6 +35,9 @@ Details coming soon — this firm is tracked via the DLI beneficiary list but ha
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Stteereng Silicon home](https://www.stteereng.com/)
+- [Stteereng - About Us](https://www.stteereng.com/about.html)
+- [Stteereng - Silicon IPs](https://www.stteereng.com/service.html)
 
 ---
 

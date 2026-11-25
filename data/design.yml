@@ -29,51 +29,70 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Founded by ex-Intel and ex-AMD veterans, designing AI GPUs from the ground up. Vinod Dham ('Father of the
-      Pentium') is founding advisor. One of the few Indian startups attempting high-performance GPU design.
+    significance: Founded December 2024 in Bengaluru by ex-Intel and ex-AMD engineers Dheemanth Nagaraj (CEO), Ashok Jagannathan,
+      Srikanth Nimmagadda and Rajesh Vivekanandham, with Vinod Dham ('Father of the Pentium') as founding advisor. Raised
+      an $8M seed round led by Peak XV Partners (January 2026). Pre-silicon.
     what_it_designs: Full-stack AI compute platform — custom GPU hardware plus software stack including compilers, libraries,
       system software, and AI frameworks.
   sources:
   - url: https://inc42.com/buzz/ai-semiconductor-startup-agrani-labs-raises-8-mn-from-peak-xv-partners/
     title: AI Semiconductor Startup Agrani Labs Raises $8 Mn From Peak XV Partners (Inc42)
     date: '2026-01-28'
+  - url: https://agranilabs.com
+    title: Agrani Labs official website
+    date: null
+  - url: https://india.entrepreneur.com/news-and-trends/ai-semiconductor-startup-agrani-labs-secures-usd-8-mn-seed/502266
+    title: AI Semiconductor Startup Agrani Labs Secures USD 8 Mn Seed Funding (Entrepreneur India)
+    date: '2026-01-29'
+  website: https://agranilabs.com
 - id: signalchip
   name: Signalchip
   category: Indian Fabless
   dli_beneficiary: false
   parent_company: null
   parent_hq: null
-  founded: 2008
+  founded: 2010
   india_headcount: null
   locations:
   - city: Bengaluru
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  product_focus: 4G/5G modem SoCs
+  product_focus: 4G LTE / 5G NR base-station baseband and RF transceiver chips; NavIC receiver
   application_domains:
   - Telecom
   - 5G
   design_scope: Full chip
-  node_sophistication: 7nm
+  node_sophistication: null
   design_score:
     ip_ownership: 5
-    design_completeness: 5
-    domain_difficulty: 5
-    market_readiness: 3
+    design_completeness: 4
+    domain_difficulty: 4
+    market_readiness: 2
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: One of India's pioneering fabless semiconductor companies. Designed India's first indigenously developed
-      4G/LTE and 5G NR modem chipsets.
-    what_it_designs: Multi-standard wireless modem SoCs supporting 4G LTE-Advanced and 5G NR. Targets telecom infrastructure
-      and CPE (Customer Premises Equipment) applications.
+    significance: Founded 2010 in Bengaluru by Himamshu Khasnis. In February 2019 it unveiled the SCBM34xx/SCRF34xx family
+      of LTE baseband and RF transceiver chips, which the company described as India's first indigenous 4G/5G modem chips.
+      No public product news in 2025–26.
+    what_it_designs: Baseband and RF transceiver chips for 4G LTE and 5G NR small cells, base stations and CPE; its product
+      page also lists a NavIC receiver and a RISC-V microcontroller.
   sources:
   - url: https://www.signalchip.com
     title: Signalchip official website
-    date: '2026-01-01'
+    date: null
+  - url: https://www.signalchip.com/about-signalchip/
+    title: About Signalchip
+    date: null
+  - url: https://www.signalchip.com/products/
+    title: Signalchip products
+    date: null
+  - url: https://www.signalchip.com/press-release/
+    title: Signalchip press release (27 Feb 2019)
+    date: '2019-02-27'
+  website: https://www.signalchip.com
 - id: indiesemic
   name: IndieSemiC
   category: Indian Fabless
@@ -92,30 +111,43 @@ design_firms:
   - IoT
   - Smart Metering
   - Smart City
-  design_scope: Full chip
+  design_scope: Modules + SoC
   node_sophistication: null
   design_score:
-    ip_ownership: 3
-    design_completeness: 3
-    domain_difficulty: 2
+    ip_ownership: 2
+    design_completeness: 2
+    domain_difficulty: 3
     market_readiness: 3
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: "Founded 2022 in Ahmedabad by Nikul Shah and Jinal Shah. Entered via RF/SiP modules (Bluetooth, Wi-Fi, LoRa — 15+ certified modules, tens of thousands of deployments) to fund a longer-term push toward an indigenous, low-cost general-purpose SoC aimed at the ultra-cheap chip segment India currently imports from China. Signed an OSAT collaboration MoU with Kaynes Semicon (Sept 2026) covering package qualification, assembly/testing, and co-development."
-    what_it_designs: "RF/SiP connectivity modules for smart metering and smart-city applications, and the ISC-VEGA-SOM — a module built around its own ISC-R1 quad-core AI processor with integrated LoRa connectivity."
+    significance: Ahmedabad firm (founder Nikul Shah) that entered through certified RF/IoT modules (15+ certified, about
+      60,000 units shipped in a year) to fund a push toward its own low-cost RISC-V SoC aimed at the ultra-cheap chip segment
+      India imports from China. Bootstrapped; signed an OSAT collaboration MoU with Kaynes Semicon in April 2026.
+    what_it_designs: Certified BLE, Wi-Fi, LoRa, GNSS and Zigbee modules and SiPs; the ISC-VEGA-SOM module built on C-DAC's
+      VEGA Thejas32 processor; and a first in-house 32-bit RISC-V MCU at prototype stage.
   sources:
   - url: https://inc42.com/startups/can-indiesemic-win-chinas-20-cent-chip-challenge-to-india/
-    title: "Can IndieSemiC Win China's 20-Cent Chip Challenge To India? (Inc42)"
-    date: '2026-09-01'
+    title: Can IndieSemiC Win China's 20-Cent Chip Challenge To India? (Inc42)
+    date: '2026-04-23'
   - url: https://electronics.economictimes.indiatimes.com/news/manufacturing/indiesemic-kaynes-semicon-sign-pact-for-osat-collaboration/134346313
-    title: "IndieSemiC, Kaynes Semicon sign pact for OSAT collaboration"
+    title: IndieSemiC, Kaynes Semicon sign pact for OSAT collaboration
     date: '2026-09-19'
   - url: https://www.manufacturingtodayindia.com/indiesemic-unveils-isc-vega-som-with-indigenous-processor-and-lora-connectivity
-    title: "IndieSemiC unveils ISC-VEGA-SOM with indigenous processor and LoRa connectivity"
+    title: IndieSemiC unveils ISC-VEGA-SOM with indigenous processor and LoRa connectivity
     date: '2026-01-01'
+  - url: https://www.indiesemic.com
+    title: IndieSemiC official website
+    date: null
+  - url: https://www.indiesemic.com/socmodule
+    title: IndieSemiC SoC page
+    date: null
+  - url: https://www.indiesemic.com/news-and-events
+    title: IndieSemiC News & Events
+    date: null
+  website: https://www.indiesemic.com
 - id: mindgrove
   name: Mindgrove Technologies
   category: DLI Beneficiary
@@ -125,41 +157,52 @@ design_firms:
   founded: 2021
   india_headcount: null
   locations:
-  - city: Bengaluru
-    state: Karnataka
-    lat: 12.972
-    lon: 77.594
+  - city: Chennai
+    state: Tamil Nadu
+    lat: 13.083
+    lon: 80.271
   product_focus: RISC-V SoCs
   application_domains:
   - IoT
   - Edge Computing
   design_scope: Full chip
-  node_sophistication: 180nm
+  node_sophistication: 28nm
   design_score:
-    ip_ownership: 5
-    design_completeness: 4
+    ip_ownership: 4
+    design_completeness: 3
     domain_difficulty: 3
-    market_readiness: 2
+    market_readiness: 3
   dli:
     approved: true
-    product: "Vision SoC using Shakti processor for Edge Computing"
+    product: Vision SoC using Shakti processor for Edge Computing
     project_outlay_inr_lakh: 4786.11
     grant_inr: null
   narrative:
-    significance: IIT Madras spin-off building RISC-V based SoCs. Among the first Indian startups to tape out a production-ready
-      RISC-V chip.
-    what_it_designs: Secure IoT SoCs based on RISC-V architecture with built-in hardware security features. The Secure IoT
-      chip targets smart metering, industrial automation, and connected devices.
+    significance: IIT Madras-incubated startup (founders Shashwath T R and Sharan Srinivas J) building microcontrollers on
+      the Shakti RISC-V core. Its Secure IoT S2401 taped out first-time-right in May 2024 at 28nm; customer sampling is under
+      way (Pinetics is a named customer) and commercial production was being readied in 2026.
+    what_it_designs: 'RISC-V microcontrollers and SoCs: the Secure IoT S2401 for smart metering and industrial IoT, and the
+      V2600 vision SoC for edge computing (its DLI project).'
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://mindgrovetech.in
     title: Mindgrove Technologies official website
-    date: '2026-01-01'
+    date: null
+  - url: https://www.mindgrovetech.in
+    title: Mindgrove Technologies official website
+    date: null
+  - url: https://www.mindgrovetech.in/about-us
+    title: Mindgrove - About us (milestones)
+    date: null
+  - url: https://www.mindgrovetech.in/s2401-secure-iot
+    title: Mindgrove Secure IoT S2401
+    date: null
+  website: https://www.mindgrovetech.in
 - id: vvdn
   name: VVDN Technologies
-  category: Indian Fabless
+  category: Design Services
   dli_beneficiary: false
   parent_company: null
   parent_hq: null
@@ -170,36 +213,40 @@ design_firms:
     state: Haryana
     lat: 28.459
     lon: 77.027
-  product_focus: 5G small cell SoCs, networking chips
+  product_focus: Product engineering, ODM/EMS and silicon-engineering services
   application_domains:
   - Telecom
   - 5G
   - Networking
-  design_scope: Full chip
-  node_sophistication: 12nm
-  design_score:
-    ip_ownership: 4
-    design_completeness: 3
-    domain_difficulty: 4
-    market_readiness: 2
+  design_scope: Services
+  node_sophistication: null
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: Listed on the Chips-DLI portal but not among the 24 PDLI financial-support projects (Nov 2026). Product engineering and ODM firm moving into chip design for 5G infrastructure.
-    what_it_designs: 5G small cell baseband and RF front-end SoCs for telecom infrastructure. Also designs networking and
-      IoT chipsets.
+    significance: Manesar-based product-engineering, ODM and electronics-manufacturing firm founded by Bhupender Saharan.
+      Its silicon work is services for client chip companies (FPGA design, pre-silicon verification, post-silicon validation);
+      no chip of its own is publicly documented. Listed on the Chips-DLI portal but not among the 24 PDLI projects.
+    what_it_designs: Silicon-engineering services and ODM/EMS for networking, 5G, IoT and camera products; not an own-chip
+      designer.
   sources:
   - url: https://www.vvdntech.com
     title: VVDN Technologies official website
-    date: '2026-01-01'
+    date: null
+  - url: https://www.vvdntech.com/about-us
+    title: VVDN - About us
+    date: null
+  - url: https://www.vvdntech.com/product-engineering/silicon-engineering
+    title: VVDN Silicon Engineering services
+    date: null
+  website: https://www.vvdntech.com
 - id: saankhya-labs
   name: Saankhya Labs
   category: DLI Beneficiary
   dli_beneficiary: true
-  parent_company: null
-  parent_hq: null
+  parent_company: Tejas Networks
+  parent_hq: India
   founded: 2007
   india_headcount: null
   locations:
@@ -214,25 +261,37 @@ design_firms:
   - Broadcast
   - Satellite
   design_scope: Full chip
-  node_sophistication: null
+  node_sophistication: 28nm
   dli:
     approved: true
-    product: "SoC for Baseband Processing for 5G Telecom infrastructure"
+    product: SoC for Baseband Processing for 5G Telecom infrastructure
     project_outlay_inr_lakh: 2558.77
     grant_inr: null
   narrative:
-    significance: One of India's earliest fabless chip design companies. Designs SoCs for 5G broadcast convergence and satellite
-      communications.
-    what_it_designs: Software-defined radio SoCs for 5G NR broadcast, ATSC 3.0, and satellite-terrestrial convergence.
+    significance: Bengaluru fabless pioneer whose Pruthvi software-defined radio chips launched in 2015; Pruthvi-3 (28nm FD-SOI)
+      followed in December 2018. Tejas Networks (Tata group) acquired a 64.4% stake in 2022. Clients have included ISRO and
+      BEL; its DLI project is a 5G baseband SoC.
+    what_it_designs: Software-defined radio SoCs for broadcast (ATSC 3.0, 5G broadcast), satellite-terrestrial communications
+      and 5G telecom baseband.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
+  - url: https://dqindia.com/saankhya-labs-launches-indigenous-pruthvi-3-chipsets
+    title: Saankhya Labs launches indigenous Pruthvi-3 chipsets (DQ India)
+    date: '2018-12-28'
+  - url: https://www.lightreading.com/business-management/tata-s-tejas-networks-to-acquire-majority-stake-in-saankhya-labs
+    title: Tata's Tejas Networks to acquire majority stake in Saankhya Labs (Light Reading)
+    date: '2022-04-04'
+  - url: https://www.tejasnetworks.com/resource/saankhya-labs-with-isro-bel-as-its-clients-this-wireless-and-semiconductor-company-is-seeing-rs-75-cr-turnover/
+    title: 'Saankhya Labs: With ISRO, BEL as its clients... Rs 75 Cr turnover (Tejas Networks)'
+    date: '2020-06-25'
   design_score:
     ip_ownership: 5
     design_completeness: 4
-    domain_difficulty: 5
+    domain_difficulty: 4
     market_readiness: 3
+  website: https://www.saankhyalabs.com
 - id: incore-semi
   name: InCore Semiconductors
   category: DLI Beneficiary
@@ -245,42 +304,61 @@ design_firms:
   - city: Chennai
     state: Tamil Nadu
     lat: 13.083
-    lon: 80.27
+    lon: 80.271
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
   product_focus: RISC-V processor cores
   application_domains:
   - Computing
   - IoT
   - Edge
-  design_scope: IP block
-  node_sophistication: null
+  design_scope: IP + SoC
+  node_sophistication: 40nm
   dli:
     approved: true
-    product: "RISC-V multi-core super scalar processor for smartphones and edge AI."
+    product: RISC-V multi-core super scalar processor for smartphones and edge AI.
     project_outlay_inr_lakh: 1743.0
     grant_inr: null
   narrative:
-    significance: IIT Madras spin-off commercialising the SHAKTI RISC-V processor family. Among the first to offer production-ready
-      indigenous RISC-V cores.
-    what_it_designs: RISC-V processor IP cores for embedded, IoT, and edge computing applications. Derived from the SHAKTI
-      processor programme at IIT Madras.
+    significance: IIT Madras spin-off (G.S. Madhusudan, Neel Gala) commercialising RISC-V processor cores derived from the
+      SHAKTI programme. Its SoC Generator platform produced a six-core heterogeneous RISC-V test chip on TSMC 40nm, silicon-validated
+      in June 2025.
+    what_it_designs: Configurable RISC-V core generators (Azurite, Calcite), an automated SoC Generator, and licensable reference
+      SoCs; its DLI project is a multi-core superscalar RISC-V processor for smartphones and edge AI.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
+  - url: https://incoresemi.com
+    title: InCore Semiconductors official website
+    date: null
+  - url: https://incoresemi.com/about-us/
+    title: InCore - About us
+    date: null
+  - url: https://incoresemi.com/contact/
+    title: InCore - Contact
+    date: null
   design_score:
     ip_ownership: 5
     design_completeness: 3
     domain_difficulty: 3
-    market_readiness: 2
+    market_readiness: 3
+  website: https://incoresemi.com
 - id: morphing-machines
   name: Morphing Machines
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: 2007
+  founded: 2005
   india_headcount: null
   locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
   - city: Hyderabad
     state: Telangana
     lat: 17.385
@@ -291,40 +369,52 @@ design_firms:
   - HPC
   - AI
   design_scope: Full chip
-  node_sophistication: null
+  node_sophistication: 28nm
   dli:
     approved: true
-    product: "SoC, IP and Acclerator card powered by REDEFINE architecture and Ecosystem"
+    product: SoC, IP and Acclerator card powered by REDEFINE architecture and Ecosystem
     project_outlay_inr_lakh: 2048.83
     grant_inr: null
   narrative:
-    significance: IIT Hyderabad spin-off building reconfigurable processor architectures (REDEFINE). One of the earliest deep-tech
-      semiconductor startups in India.
-    what_it_designs: Coarse-grained reconfigurable array (CGRA) processors that can be dynamically reconfigured for different
-      workloads — AI inference, signal processing, cryptography.
+    significance: Bengaluru firm founded 2005 out of its founders' research at IISc (CEO Deepak Shapeti, CTO Dr Ranjani Narayan;
+      Prof S.K. Nandy of IISc as mentor). Its MuDRA-1 test chip — 16 RISC-V cores on the REDEFINE architecture, TSMC 28nm
+      — taped out and was unveiled at SEMICON India in September 2026; bring-up is pending and commercial MuDRA is planned
+      for late 2027.
+    what_it_designs: REDEFINE many-core reconfigurable processors with dynamic scheduling, delivered as SoCs, IP and accelerator
+      cards for AI and signal-processing workloads.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
+  - url: https://morphing.in/
+    title: Morphing Machines home page
+    date: null
+  - url: https://morphing.in/about
+    title: Morphing Machines - About
+    date: null
+  - url: https://circuitdigest.com/news/morphing-machines-unveils-mudra-1-first-silicon-for-an-architecture-aiming-for-asic-performance-fpga-flexibility
+    title: Morphing Machines Unveils MuDRA-1, First Silicon (CircuitDigest)
+    date: '2026-09-24'
   design_score:
     ip_ownership: 5
     design_completeness: 3
     domain_difficulty: 5
-    market_readiness: 1
+    market_readiness: 2
+  website: https://morphing.in/
 - id: wisig
   name: WiSig Networks
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2016
   india_headcount: null
   locations:
   - city: Hyderabad
     state: Telangana
     lat: 17.385
     lon: 78.487
-  product_focus: 5G NR chipsets
+  product_focus: Cellular IoT (NB-IoT / NTN) SoCs; 5G RAN and satellite modem platforms
   application_domains:
   - Telecom
   - 5G
@@ -332,24 +422,36 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "A 5G NB-IoT based SoC for Terrestrial and Satcom Applications"
+    product: A 5G NB-IoT based SoC for Terrestrial and Satcom Applications
     project_outlay_inr_lakh: 2555.57
     grant_inr: null
   narrative:
-    significance: IIT Hyderabad spin-off designing 5G New Radio chipsets for base stations and user equipment.
-    what_it_designs: 5G NR baseband and RF chipsets.
+    significance: Hyderabad firm founded July 2016 (IIT Hyderabad ecosystem). Its Koala NB-IoT SoC, built on a licensed CEVA
+      Dragonfly platform with Cyient handling IC design and production, was announced in June 2021. Its 5G base-station radios
+      are FPGA-based. The DLI project is a 5G NB-IoT SoC for terrestrial and satellite links.
+    what_it_designs: NB-IoT and non-terrestrial-network (satellite) IoT SoCs, plus FPGA-based 5G RAN and satellite modem platforms.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
+  - url: https://www.wisig.com/
+    title: WiSig Networks home page
+    date: null
+  - url: https://www.wisig.com/about.html
+    title: About WiSig
+    date: null
+  - url: https://www.wisig.com/news.html
+    title: WiSig News & press
+    date: null
   design_score:
-    ip_ownership: 4
-    design_completeness: 2
+    ip_ownership: 3
+    design_completeness: 4
     domain_difficulty: 4
-    market_readiness: 1
+    market_readiness: 3
+  website: https://www.wisig.com/
 - id: terminus-circuits
   name: Terminus Circuits
-  category: Indian Fabless
+  category: EDA & IP Provider
   dli_beneficiary: false
   parent_company: null
   parent_hq: null
@@ -360,42 +462,48 @@ design_firms:
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  product_focus: High-speed analog/mixed-signal ICs
+  product_focus: High-speed SerDes and PHY interface IP
   application_domains:
   - Data Centre
   - Networking
-  design_scope: Full chip
+  design_scope: IP blocks
   node_sophistication: null
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: Designs high-speed SerDes and analog interface ICs for data centre and networking applications.
-    what_it_designs: High-speed serial transceivers (SerDes), data converters, and analog interface chips.
+    significance: Bengaluru semiconductor-IP company that has delivered silicon-proven SerDes and PHY IP since 2010, verified
+      on TSMC, GlobalFoundries and Samsung processes from 65nm to 12nm. Licenses IP; does not sell chips of its own.
+    what_it_designs: High-speed SerDes, PHY and analog interface IP licensed to chip companies.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
-  design_score:
-    ip_ownership: 4
-    design_completeness: 3
-    domain_difficulty: 5
-    market_readiness: 2
+  - url: https://www.terminuscircuits.com/
+    title: Terminus Circuits home page
+    date: null
+  - url: https://www.terminuscircuits.com/about_us.php
+    title: Terminus Circuits - About
+    date: null
+  - url: https://www.terminuscircuits.com/contact_us.php
+    title: Terminus Circuits - Contact
+    date: null
+  website: https://www.terminuscircuits.com/
 - id: calligo-tech
   name: Calligo Technologies
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2012
   india_headcount: null
   locations:
   - city: Bengaluru
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  product_focus: In-memory computing chips
+  product_focus: Posit-arithmetic RISC-V processors and accelerator cards
   application_domains:
   - AI
   - Computing
@@ -403,35 +511,48 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "SoC with RISC V and POSIT Coprocessor based Accelerator Card with Software Ecosystem"
+    product: SoC with RISC V and POSIT Coprocessor based Accelerator Card with Software Ecosystem
     project_outlay_inr_lakh: 4192.75
     grant_inr: null
   narrative:
-    significance: Develops processing-in-memory architectures to accelerate AI and data-intensive workloads.
-    what_it_designs: In-memory computing processor chips for AI inference and data analytics.
+    significance: Bengaluru firm founded 2012 (HPC/AI focus since 2014) designing processors that use the Posit number format
+      instead of floating point. Its TUNGA chip — an 8-core Posit-enabled RISC-V CPU built on C-DAC's VEGA core — taped out
+      and powers the TUNGA accelerator card shown at ISC High Performance 2025.
+    what_it_designs: Posit-arithmetic RISC-V CPUs and accelerator cards for HPC, AI and big-data workloads; the DLI project
+      is an SoC with a POSIT coprocessor.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
+  - url: https://calligotech.com/
+    title: Calligo Technologies home page
+    date: null
+  - url: https://calligotech.com/calligo/
+    title: Calligo - About
+    date: null
+  - url: http://calligotech.com/news/
+    title: Calligo - News
+    date: null
   design_score:
-    ip_ownership: 5
-    design_completeness: 2
-    domain_difficulty: 5
-    market_readiness: 1
+    ip_ownership: 3
+    design_completeness: 3
+    domain_difficulty: 4
+    market_readiness: 2
+  website: https://calligotech.com/
 - id: fermionic-design
-  name: Fermionic Design
+  name: FermionIC Design
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2020
   india_headcount: null
   locations:
   - city: Bengaluru
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  product_focus: mmWave/RF ICs
+  product_focus: X-band RF beamformer ICs for phased-array radar and satcom
   application_domains:
   - Telecom
   - 5G
@@ -440,21 +561,32 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "A 4-channel Mux-Demux Gain Phase Shifter for Hybrid Beamformer in 8-12GHz for satellite communication and 5G Antenna Array systems"
+    product: A 4-channel Mux-Demux Gain Phase Shifter for Hybrid Beamformer in 8-12GHz for satellite communication and 5G
+      Antenna Array systems
     project_outlay_inr_lakh: 1047.19
     grant_inr: null
   narrative:
-    significance: Designs millimetre-wave and RF integrated circuits for 5G and defence applications.
-    what_it_designs: mmWave front-end ICs, RF transceivers, and beamforming chips.
+    significance: Bengaluru RF-IC firm founded 2020. In September 2025 it announced staggered volume production from Q4 2025
+      of its FD3R4411 4-channel X-band beamformer, with Tata Electronics handling assembly and test (per a company press release;
+      independent confirmation of volume shipments not found).
+    what_it_designs: X-band (8–12 GHz) beamformer and RF front-end ICs for phased-array radar, satellite communications and
+      5G antenna arrays.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
+  - url: https://www.tribuneindia.com/news/business/fermionic-design-and-tata-electronics-partner-to-deliver-indias-first-4-channel-x-band-beamformer-ic-for-phased-array-radar-applications
+    title: Fermionic Design and Tata Electronics partner on 4-channel X-band beamformer IC (press release via Tribune)
+    date: '2025-09-11'
+  - url: https://www.mwrf.com/companies/company/55387745/fermionic-design
+    title: Fermionic Design - Microwaves & RF company directory
+    date: null
   design_score:
     ip_ownership: 4
-    design_completeness: 2
+    design_completeness: 4
     domain_difficulty: 5
-    market_readiness: 1
+    market_readiness: 3
+  website: https://fermionicdesign.com/
 - id: netrasemi
   name: Netrasemi
   category: DLI Beneficiary
@@ -462,7 +594,7 @@ design_firms:
   parent_company: null
   parent_hq: null
   founded: 2020
-  india_headcount: 61
+  india_headcount: null
   locations:
   - city: Thiruvananthapuram
     state: Kerala
@@ -476,35 +608,50 @@ design_firms:
   - Automotive
   - Robotics
   design_scope: Full chip
-  node_sophistication: 12nm (TSMC)
+  node_sophistication: 12nm
   dli:
     approved: true
-    product: "A High-End Edge-AI SoC with on-chip video analytics and vector processing computing.; Development of ML Acceleration chip with Programmable Hardware Infrastructure for Robots, Drones, Industrial automation and Video Analytics systems (64 TOPS AI performance) on 12nm, TSMC"
+    product: A High-End Edge-AI SoC with on-chip video analytics and vector processing computing.; Development of ML Acceleration
+      chip with Programmable Hardware Infrastructure for Robots, Drones, Industrial automation and Video Analytics systems
+      (64 TOPS AI performance) on 12nm, TSMC
     project_outlay_inr_lakh: 10555.0
     grant_inr: null
   narrative:
-    significance: "One of the first DLI-backed startups to have chips fabricated at TSMC on 12nm. Product line spans sub-1W IoT chips to 64 TOPS autonomous vehicle processors. Partnering with Zoho on R&D."
-    what_it_designs: "Family of edge AI SoCs: Netra-R1000 (RISC-V, <1W, smart sensors), Netra-A2000 (4-8 TOPS, vision + H.26x codec), and Netra-A4000 (ARM-based, 64 TOPS, robotics and autonomous vehicles). Custom Tej-NPU neural processor IP core."
+    significance: Thiruvananthapuram edge-AI chip firm founded 2020 (Jyothis Indirabhai, Deepa Geetha, Sreejith Varma) and
+      the only firm with two PDLI projects. Its NETRA A2000 (12 TOPS, TSMC 12nm) achieved silicon bring-up and launched in
+      May 2026 for customer trials; commercial production is targeted for late 2026–27.
+    what_it_designs: 'Edge-AI SoCs and chiplets: NETRA A2000 (12 TOPS) and R1000 (1 TOPS edge MCU), plus C1000/C2000 parts
+      for video analytics and vision.'
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://neuromorphiccore.ai/insights/netrasemi/
-    title: "Netrasemi company profile (NeuromorphicCore)"
+    title: Netrasemi company profile (NeuromorphicCore)
     date: '2026-03-01'
+  - url: https://netrasemi.com/
+    title: Netrasemi home page
+    date: null
+  - url: https://netrasemi.com/about
+    title: Netrasemi - About
+    date: null
+  - url: https://netrasemi.com/productlist
+    title: Netrasemi - Products
+    date: null
   design_score:
     ip_ownership: 4
-    design_completeness: 4
+    design_completeness: 3
     domain_difficulty: 4
-    market_readiness: 2
+    market_readiness: 3
+  website: https://netrasemi.com/
 - id: sandlogic
   name: Sandlogic Technologies
   category: Indian Fabless
   dli_beneficiary: false
   parent_company: null
   parent_hq: null
-  founded: null
-  india_headcount: null
+  founded: 2018
+  india_headcount: 80
   locations:
   - city: Bengaluru
     state: Karnataka
@@ -515,24 +662,35 @@ design_firms:
   - AI
   - Edge
   - IoT
-  design_scope: Full chip
+  design_scope: IP block (SoC in design)
   node_sophistication: null
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: Designs low-power AI inference chips for edge deployment.
-    what_it_designs: Neural network inference accelerators for edge AI applications.
+    significance: Bengaluru AI company founded 2018 (about 80 staff, mostly software). Its ExSLerate NPU IP is FPGA-validated;
+      the Krsna AI SoC is in design with first silicon expected in 2026. No tape-out yet.
+    what_it_designs: Edge-AI NPU IP (ExSLerate), the Krsna AI SoC in development, and AI models and software tools.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
+  - url: https://www.sandlogic.com/
+    title: SandLogic home page
+    date: null
+  - url: https://www.sandlogic.com/krsna
+    title: SandLogic - Krsna SoC
+    date: null
+  - url: https://www.sandlogic.com/about
+    title: SandLogic - About
+    date: null
   design_score:
     ip_ownership: 4
-    design_completeness: 2
+    design_completeness: 1
     domain_difficulty: 4
     market_readiness: 1
+  website: https://www.sandlogic.com/
 - id: moschip
   name: MoSChip Technologies
   category: DLI Beneficiary
@@ -546,7 +704,7 @@ design_firms:
     state: Telangana
     lat: 17.385
     lon: 78.487
-  product_focus: SoC/ASIC design, IoT connectivity
+  product_focus: Turnkey ASIC and silicon-engineering services; own smart-meter IC (VIDYUT100)
   application_domains:
   - IoT
   - Connectivity
@@ -555,35 +713,47 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "Smart Energy Meter IC-VIDYUT"
+    product: Smart Energy Meter IC-VIDYUT
     project_outlay_inr_lakh: 4000.0
     grant_inr: null
   narrative:
-    significance: Publicly listed (BSE/NSE) semiconductor design company. One of the few Indian fabless firms with a long
-      operating history.
-    what_it_designs: Custom ASICs, SoC designs for IoT connectivity, and turnkey VLSI design services.
+    significance: Hyderabad-listed semiconductor design-services firm (founded 1999; 1,500+ engineers company-wide across
+      India and the US). Its own DLI chip, the VIDYUT100 smart energy meter IC, taped out in April–June 2026 and completed
+      initial bring-up in September 2026; commercial availability awaits qualification.
+    what_it_designs: Turnkey ASIC and silicon-engineering services for global clients, and the VIDYUT100 smart energy meter
+      IC.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
+  - url: https://moschip.com/
+    title: MosChip Technologies home
+    date: null
+  - url: https://moschip.com/about-us/
+    title: About MosChip
+    date: null
+  - url: https://themachinemaker.com/news/moschip-announces-initial-bring-up-results-of-vidyut100-smart-energy-meter-ic/
+    title: MosChip Announces Initial Bring-Up Results of VIDYUT100 Smart Energy Meter IC (The Machine Maker)
+    date: '2026-09-19'
   design_score:
     ip_ownership: 3
-    design_completeness: 4
+    design_completeness: 3
     domain_difficulty: 3
-    market_readiness: 4
+    market_readiness: 2
+  website: https://moschip.com/
 - id: vervesemi
   name: Vervesemi
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: null
-  india_headcount: null
+  founded: 2017
+  india_headcount: 45
   locations:
-  - city: Bengaluru
-    state: Karnataka
-    lat: 12.972
-    lon: 77.594
+  - city: Greater Noida
+    state: Uttar Pradesh
+    lat: 28.474
+    lon: 77.504
   product_focus: Analog/mixed-signal ICs
   application_domains:
   - Analog
@@ -592,30 +762,47 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "A Mixed Signal Microcontroller for Motor Control and Smart Power Applications"
+    product: A Mixed Signal Microcontroller for Motor Control and Smart Power Applications
     project_outlay_inr_lakh: 2964.0
     grant_inr: null
   narrative:
-    significance: null
-    what_it_designs: null
+    significance: Greater Noida analog/mixed-signal firm founded 2017 (about 45 engineers, Feb 2025) with 110+ analog IP blocks.
+      Among the earliest DLI approvals (2023); its motor-control and metering ICs were at sampling stage in 2025–26.
+    what_it_designs: 'Analog and mixed-signal ICs and IP: motor-control MCUs, analog front-ends, data converters and smart-metering
+      ASICs.'
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
+  - url: http://www.vervesemi.com/
+    title: Vervesemi home
+    date: null
+  - url: https://www.dqindia.com/esdm/vervesemi-microelectronics-unveils-roadmap-ics-to-strengthen-indias-semiconductor-self-reliance-9699506
+    title: Vervesemi Microelectronics unveils roadmap ICs (DQ India)
+    date: '2025-08-22'
+  - url: https://www.tribuneindia.com/news/business/vervesemi-microelectronics-unveils-portfolio-of-ics-to-strengthen-indias-semiconductor-self-reliance
+    title: Vervesemi unveils portfolio of ICs (Tribune)
+    date: '2025-08-22'
+  website: http://www.vervesemi.com/
+  design_score:
+    ip_ownership: 4
+    design_completeness: 2
+    domain_difficulty: 3
+    market_readiness: 2
 - id: mbit-wireless
   name: MBit Wireless
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2007
   india_headcount: null
   locations:
-  - city: Bengaluru
-    state: Karnataka
-    lat: 12.972
-    lon: 77.594
-  product_focus: 5G modem/baseband
+  - city: Chennai
+    state: Tamil Nadu
+    lat: 13.083
+    lon: 80.271
+  product_focus: 4G LTE and NB-IoT cellular modem chipsets
   application_domains:
   - Telecom
   - 5G
@@ -623,59 +810,40 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "Dualmode LTE Cat bis and NBIoT Baseband chipset for IoT applications"
+    product: Dualmode LTE Cat bis and NBIoT Baseband chipset for IoT applications
     project_outlay_inr_lakh: 6536.0
     grant_inr: null
   narrative:
-    significance: null
-    what_it_designs: null
+    significance: 'Cellular-modem chip designer whose Indian entity is registered in Chennai (2007). Product line: Skylark
+      400 (LTE Cat 1/Cat 4) and Sunlark 420/422 (LTE Cat-M and NB-IoT). Its DLI project is a dual-mode LTE Cat 1bis / NB-IoT
+      baseband.'
+    what_it_designs: 4G LTE and NB-IoT baseband and modem chipsets for IoT and fixed-wireless devices.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
-- id: 3rdi-tech
-  name: 3RDi Tech
-  category: Indian Fabless
-  dli_beneficiary: false
-  parent_company: null
-  parent_hq: null
-  founded: null
-  india_headcount: null
-  locations:
-  - city: New Delhi
-    state: Delhi
-    lat: 28.613
-    lon: 77.209
-  product_focus: Defence-grade SoCs for surveillance/imaging
-  application_domains:
-  - Defence
-  - Surveillance
-  design_scope: Full chip
-  node_sophistication: null
-  dli:
-    approved: false
-    product: null
-    grant_inr: null
-  narrative:
-    significance: "IIT Delhi-incubated fabless startup (co-founder Dr Mukul Sarkar) and an inaugural winner of the Ministry of Defence's iDEX programme. Has raised over ₹300 crore in VC funding (including DLI support) and taped out test chips in 2025. Partnered with General Atomics-Aeronautical Systems since 2021 on co-designed defence electronics."
-    what_it_designs: "Indigenous SoC solutions for critical applications including surveillance and CCTV cameras."
-  sources:
-  - url: https://chips-dli.gov.in/DLI/HomePage
-    title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
-    date: '2026-06-27'
-  - url: https://www.ga.com/ga-asi-and-3rditech-announce-joint-strategic-partnership-for-cutting-edge-semiconductor-technologies
-    title: "GA-ASI and 3rdiTech Announce Joint Strategic Partnership (General Atomics)"
-    date: '2022-09-27'
-  - url: https://swarajyamag.com/technology/dli-for-semiconductors-should-indias-chip-design-scheme-chase-innovation-or-numbers
-    title: "DLI For Semiconductors: Should India's Chip Design Scheme Chase Innovation Or Numbers? (Swarajya)"
-    date: '2026-01-01'
+  - url: https://www.mbitwireless.com/
+    title: MBit Wireless home
+    date: null
+  - url: https://www.mbitwireless.com/products
+    title: MBit Wireless products
+    date: null
+  - url: https://www.easyleadz.com/company/mbit-wireless/gst
+    title: Mbit Wireless Private Limited company/GST record (EasyLeadz)
+    date: null
+  website: https://www.mbitwireless.com/
+  design_score:
+    ip_ownership: 4
+    design_completeness: 2
+    domain_difficulty: 4
+    market_readiness: 2
 - id: green-pmu-semi
   name: Green PMU Semi
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: 2021
+  founded: null
   india_headcount: null
   locations:
   - city: Hyderabad
@@ -686,25 +854,38 @@ design_firms:
   application_domains:
   - IoT
   - Power
-  design_scope: IP block
+  design_scope: Full chip
   node_sophistication: null
   dli:
     approved: true
-    product: "Energy-Harvesting power management Chip for IoT applications"
+    product: Energy-Harvesting power management Chip for IoT applications
     project_outlay_inr_lakh: 986.0
     grant_inr: null
   narrative:
-    significance: "IIT Hyderabad-incubated fabless startup founded by Sumit Bhat and R Sai Chandra Teja, specialising in power-management ICs for battery-free IoT."
-    what_it_designs: "Multi-input energy-harvesting power management ICs that let IoT devices run without batteries, harvesting power from multiple ambient sources."
+    significance: 'Hyderabad power-management IC startup with links to IIT Hyderabad (IITH faculty advisers, IITH-alumni staff).
+      Leadership: Prakash Easwaran (CEO), Sumit Bhat (CTO), R Sai Chandra Teja (COO). No tape-out publicly reported yet.'
+    what_it_designs: Multi-input energy-harvesting power-management ICs that let IoT devices run without batteries.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://greenpmusemi.com/about.html
-    title: "About | Green PMU Semi"
+    title: About | Green PMU Semi
     date: '2026-01-01'
+  - url: https://greenpmusemi.com/team
+    title: Team | Green PMU Semi
+    date: null
+  - url: https://swarajyamag.com/technology/dli-for-semiconductors-should-indias-chip-design-scheme-chase-innovation-or-numbers
+    title: DLI For Semiconductors (Swarajya) - lists Green PMU Semi (Hyderabad)
+    date: '2025-02-25'
+  website: https://greenpmusemi.com/
+  design_score:
+    ip_ownership: 4
+    design_completeness: 1
+    domain_difficulty: 2
+    market_readiness: 1
 - id: sense-semi
-  name: Sense Semi
+  name: Sensesemi Technologies
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
@@ -725,30 +906,54 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "SenseSoC-200 SoC for IOT and Medical Applications"
+    product: SenseSoC-200 SoC for IOT and Medical Applications
     project_outlay_inr_lakh: 3907.02
     grant_inr: null
   narrative:
-    significance: "Founded 2014 by Vijay Muktamath and Namit Varma (as Sensesemi Technologies). Raised ₹25 crore in January 2026 for tape-outs and reference-design work."
-    what_it_designs: "SenseSoC integrates AI inferencing, wireless mesh connectivity, precision analog front-end, an MCU, and security into a single chip, targeting wearables and connected medical devices."
+    significance: Bengaluru firm designing ultra-low-power edge-AI SoCs. Raised ₹25 crore in January 2026 to fund two test-chip
+      tape-outs during 2026, with a production chip targeted for 2027. Partner in the 3rdiTech–Kaynes–SPARSHIQ vision-systems
+      consortium (Sept 2025).
+    what_it_designs: SenseSoC ultra-low-power SoCs combining AI inference, wireless connectivity and analog front-ends for
+      IoT, wearables and medical devices.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://bharatfast.com/english/start-up/indian-semiconductor-startup-sensesemi-bags-%E2%82%B925-cr-to-build-power-efficient-edge-ai-chips/31030/
-    title: "Indian Semiconductor Startup Sensesemi Bags ₹25 Cr to Build Power-Efficient Edge-AI Chips"
+    title: Indian Semiconductor Startup Sensesemi Bags ₹25 Cr to Build Power-Efficient Edge-AI Chips
     date: '2026-01-01'
+  - url: https://www.sensesemi.com/
+    title: Sensesemi home
+    date: null
+  - url: https://inc42.com/?p=545791
+    title: Semiconductor Startup Sensesemi Raises INR 25 Cr To Build Edge AI Chips (Inc42)
+    date: '2026-01-21'
+  - url: https://cxotoday.com/media-coverage/3rditech-a-bharat-semi-company-kaynes-semicon-and-sparshiq-sign-mou-along-with-other-consortium-partners-to-strengthen-indias-semiconductor-vision-systems-ecosystem/
+    title: 3rdiTech/Kaynes/SPARSHIQ MoU with Sensesemi as consortium partner (CXOToday)
+    date: '2025-09-04'
+  website: https://www.sensesemi.com/
+  design_score:
+    ip_ownership: 3
+    design_completeness: 1
+    domain_difficulty: 3
+    market_readiness: 1
 - id: qualivor
-  name: Qualivor Technologies
+  name: Qualivon Technologies
   category: Indian Fabless
   dli_beneficiary: false
   parent_company: null
   parent_hq: null
   founded: null
   india_headcount: null
-  locations: []
-  product_focus: null
-  application_domains: []
+  locations:
+  - city: Bhubaneswar
+    state: Odisha
+    lat: 20.296
+    lon: 85.825
+  product_focus: Silicon-photonics gas-sensor chips
+  application_domains:
+  - Industrial
+  - Environmental Sensing
   design_scope: null
   node_sophistication: null
   dli:
@@ -756,19 +961,33 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: null
-    what_it_designs: null
+    significance: Bhubaneswar startup incubated at KIIT-TBI designing silicon-photonics integrated circuits for gas sensing;
+      supported through the Chips-DLI programme (not among the 24 PDLI projects). Earlier listed in this tracker under the
+      incorrect name 'Qualivor'.
+    what_it_designs: Silicon-photonics (PIC) single- and multi-gas sensor chips for industrial and environmental monitoring.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
+  - url: https://www.qualivontechnologies.com/
+    title: Qualivon Technologies home
+    date: null
+  - url: https://www.b2match.com/e/meet-thedutch-at-semicon-india-2026/participations/804164
+    title: Qualivon Technologies - Meet the Dutch at Semicon India 2026 (B2Match)
+    date: '2026-09-04'
+  website: https://www.qualivontechnologies.com/
+  design_score:
+    ip_ownership: 4
+    design_completeness: 1
+    domain_difficulty: 3
+    market_readiness: 1
 - id: aagya-vision
   name: Aagya Vision
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: 2022
+  founded: null
   india_headcount: null
   locations:
   - city: Bengaluru
@@ -785,19 +1004,37 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "Radar RF chips for edge applications"
+    product: Radar RF chips for edge applications
     project_outlay_inr_lakh: 2547.9
     grant_inr: null
   narrative:
-    significance: "Founded 2022 in Bengaluru by Gaurab Banerjee (IISc). Backed by an AMD India deep-tech innovation fund."
-    what_it_designs: "All-weather radar-on-chip products for safety, security, smart infrastructure, edge computing, drone detection, and emerging 6G sensor networks — one base design addressing multiple applications."
+    significance: 'IISc-incubated radar-on-chip startup (CEO Suchismita Banerjee), commercialising radar ICs developed in
+      Prof Gaurab Banerjee''s IISc lab, where two CMOS radar chips were fabricated. Supported by an AMD India CSR grant through
+      the IISc incubator (FSID); MeitY DLI financial approval in November 2025. Prototype system: ''Ananta''.'
+    what_it_designs: FMCW radar-on-chip ICs with radar hardware and AI software for drone detection, security, smart infrastructure
+      and edge sensing.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://www.thebridgechronicle.com/tech/amd-india-funds-semiconductor-startup-aagyavision-2025
-    title: "AMD India Funds Semiconductor Startup AAGYAVISION to Accelerate Deep-Tech Innovation"
+    title: AMD India Funds Semiconductor Startup AAGYAVISION to Accelerate Deep-Tech Innovation
     date: '2025-01-01'
+  - url: https://www.aagyavision.com/
+    title: AAGYAVISION website (under maintenance)
+    date: '2026-11-25'
+  - url: https://www.devdiscourse.com/article/technology/3702837-aagyavision-gets-meity-financial-approval-under-dli-scheme
+    title: AAGYAVISION gets MeitY financial approval under DLI scheme (PTI via Devdiscourse)
+    date: '2025-11-19'
+  - url: https://digitalterminal.in/startup/amd-india-supports-iisc-incubated-start-up-aagyavision-through-csr-initiative
+    title: AMD India Supports IISc-Incubated Start-up AAGYAVISION Through CSR Initiative
+    date: '2025-06-26'
+  website: https://www.aagyavision.com/
+  design_score:
+    ip_ownership: 4
+    design_completeness: 3
+    domain_difficulty: 4
+    market_readiness: 2
 - id: vasbeam
   name: Vasbeam
   category: Indian Fabless
@@ -824,18 +1061,35 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: "Pune-based, founded 2022. iDEX (Ministry of Defence) awardee, taped out its core beamforming IC under the DLI scheme."
-    what_it_designs: "Beamforming ASICs (800 MHz–18 GHz) and electronically steered antenna systems for radar, satellite, 5G, and defence applications, plus an antenna-testing device (VASATD1)."
+    significance: 'Pune firm designing beamforming ASICs and electronically steered antennas. Its VAS7308 beamforming ASIC
+      is described by the company as foundry-proven and in production (TRL 7). Government support verified: a Department of
+      Telecommunications DCIS grant. Company website unavailable at last check (Nov 2026).'
+    what_it_designs: Beamforming ASICs (VAS7308) and electronically steered AESA/satcom antennas.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
   - url: https://vasbeam.com/about-company/
-    title: "About Company – VASBEAM"
+    title: About Company – VASBEAM
     date: '2026-01-01'
+  - url: https://dcis.dot.gov.in/page/versatile
+    title: DCIS – Versatile Antenna Systems (VAS7308)
+    date: null
+  - url: https://dcis.dot.gov.in/page/vasbeam23
+    title: DCIS – Vasbeam Private Limited project profile
+    date: null
+  - url: https://dcis.dot.gov.in/document/1714045817_ac36a2f13db1b022701a.pdf
+    title: DCIS startup compendium (Versatile Antenna Systems entry, project lead Amit Borundiya)
+    date: null
+  website: https://vasbeam.com/
+  design_score:
+    ip_ownership: 4
+    design_completeness: 4
+    domain_difficulty: 4
+    market_readiness: 3
 - id: chipspirit
   name: ChipSpirit
-  category: Indian Fabless
+  category: Design Services
   dli_beneficiary: false
   parent_company: null
   parent_hq: null
@@ -846,26 +1100,33 @@ design_firms:
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  product_focus: ASIC design services; hardware-only security ICs
+  product_focus: Hardware network-encryption devices; ASIC front-end design services
   application_domains:
   - Defence
   - Security
-  design_scope: Full chip
+  design_scope: Systems (FPGA-based)
   node_sophistication: null
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: "Bengaluru-based ASIC design services firm founded 2018. Won the Ministry of Defence's iDEX challenge in March 2019 and co-develops hardware security solutions with Indian Defence under Make in India."
-    what_it_designs: "Custom ASIC design/turnkey services, plus its own hardware-only security ICs (VLSI-only, no software layer) designed to eliminate software-based backdoors."
+    significance: Bengaluru firm founded 2018 by Mohan Jindal (ex-Intel); iDEX DISC1 winner with about ₹8.2 crore in government
+      grants. Its ABHED-1 encryptor and Data Diode are FPGA/custom-circuit appliances supplied to Indian defence; no ASIC
+      tape-out of its own is reported.
+    what_it_designs: Hardware-only network encryption appliances (ABHED-1, Data Diode) and ASIC front-end design/verification
+      services.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
   - url: https://www.chipspirit.com/
-    title: "Chipspirit Technologies official website"
-    date: '2026-01-01'
+    title: Chipspirit Technologies official website
+    date: null
+  - url: https://www.electronicsforu.com/india-corner/hardware-based-security-that-software-cannot-match
+    title: Hardware-Based Security That Software Cannot Match (Electronics For You)
+    date: '2026-01-21'
+  website: https://www.chipspirit.com/
 - id: semiksha
   name: Semiksha
   category: Indian Fabless
@@ -873,8 +1134,12 @@ design_firms:
   parent_company: null
   parent_hq: null
   founded: 2018
-  india_headcount: null
-  locations: []
+  india_headcount: 30
+  locations:
+  - city: Hubballi
+    state: Karnataka
+    lat: 15.364
+    lon: 75.124
   product_focus: SoC/ASIC chipset development for Mechatronics and IoT
   application_domains:
   - IoT
@@ -888,22 +1153,38 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: "Semiconductor services company founded 2018 by Vijay Gudi, based in a Tier-II Indian city (not disclosed on its own site). Started as a design-services shop, redirected toward its own product development during the pandemic."
-    what_it_designs: "SoC/ASIC chipsets and embedded products for wireless/IoT, mechatronics, medical devices, environmental monitoring, and electric/autonomous-vehicle applications — has launched two embedded products and two test chips to date."
+    significance: Hubballi startup incubated at KLE Technological University's CTIE (founding year given as both 2018 and
+      2019 on its own site). Has taped out two test chips in its MATOMAC line of M2M/automation ICs; about 30 staff (Dec 2023).
+    what_it_designs: MATOMAC SoC/ASIC chipsets for machine-to-machine automation, and embedded IoT products (Jalvidha, e-cods).
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
   - url: https://semiksha.com/about-us/
-    title: "About Us – SEMIKSHA"
+    title: About Us – SEMIKSHA
     date: '2026-01-01'
+  - url: https://semiksha.com/
+    title: SEMIKSHA home
+    date: '2026-11-25'
+  - url: https://semiksha.com/contact-us/
+    title: Contact Us – SEMIKSHA
+    date: '2026-11-25'
+  - url: https://bizzbuzz.news/bizz-talk/fab-plant-in-india-can-give-wings-to-indias-semiconductor-startups-1273871
+    title: Fab plant in India can give wings to India's semiconductor startups (Bizz Buzz interview with Vijay Gudi)
+    date: '2023-12-16'
+  website: https://semiksha.com/
+  design_score:
+    ip_ownership: 3
+    design_completeness: 2
+    domain_difficulty: 3
+    market_readiness: 2
 - id: silizium-circuits
   name: Silizium Circuits
   category: Indian Fabless
   dli_beneficiary: false
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2020
   india_headcount: null
   locations:
   - city: Kochi
@@ -915,22 +1196,39 @@ design_firms:
   - Telecom
   - 5G
   - Satellite
-  design_scope: IP block
+  design_scope: IP + Full chip
   node_sophistication: null
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: "Kochi-based fabless IP venture aiming to become India's largest analog/RF/mixed-signal IP exporter by 2030. Also backed by MeitY's Chips-to-Startup (C2S) programme and a ₹7.59 crore DoT Telecom Technology Development Fund grant for LEO satellite-communication chips. Works with IIT Hyderabad, IIT Bombay, IIT Delhi, IIT Guwahati, and CUSAT."
-    what_it_designs: "Analog, RF, and mixed-signal semiconductor IP; completed end-to-end design of a GaAs-based 5G low-noise amplifier/front-end module, and is developing LEO satellite-communication chips."
+    significance: Founded 2020 (registered in Kanhangad, Kasaragod; R&D team in Kochi) by Rijin John and Dr Arun Ashok. Taped
+      out its SC2391 GNSS/5G front-end module in August 2022; ₹7.59 crore government grant (credited to C-DOT on its site,
+      DoT TTDF by DigiTimes). IESA Technovision 2022 'Most Promising Start-Up'.
+    what_it_designs: Analog/RF/mixed-signal hard IP and RF front-end modules for GNSS, 5G and Ka-band LEO satellite communications.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
   - url: https://www.digitimes.com/news/a20251006VL200/silizium-circuits-5g-gaas-design-india-startup.html
-    title: "India's Silizium Circuits develops GaAs 5G front-end chip as RF localization advances (DigiTimes)"
+    title: India's Silizium Circuits develops GaAs 5G front-end chip as RF localization advances (DigiTimes)
     date: '2025-10-06'
+  - url: https://siliziumcircuits.com/
+    title: Silizium Circuits home
+    date: '2026-11-25'
+  - url: https://siliziumcircuits.com/about-us.html
+    title: Silizium Circuits – About Us
+    date: '2026-11-25'
+  - url: https://siliziumcircuits.com/news-updates.html
+    title: Silizium Circuits – News & Updates
+    date: '2026-11-25'
+  website: https://siliziumcircuits.com/
+  design_score:
+    ip_ownership: 4
+    design_completeness: 3
+    domain_difficulty: 4
+    market_readiness: 3
 - id: abcr-labs
   name: ABCR Labs
   category: DLI Beneficiary
@@ -951,19 +1249,34 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "Next Generation IC for Advanced Tire Monitoring System (TMS)"
+    product: Next Generation IC for Advanced Tire Monitoring System (TMS)
     project_outlay_inr_lakh: 4095.49
     grant_inr: null
   narrative:
-    significance: "Full name Aryabhata Circuits and Research Labs (ABCRL). Founded 2019 in Bengaluru by Rajesh Jagasia, later joined by semiconductor veteran Tushar K. Bhattacharyya. Also backed by MeitY's Chips-to-Startup (C2S) scheme."
-    what_it_designs: "Tire Synapse, a tire-monitoring ASIC with integrated Bluetooth for tire-wear prediction, road-condition detection, load detection, and wheel-alignment/balance assessment in vehicles."
+    significance: Aryabhata Circuits and Research Labs (ABCRL), Bengaluru, founded 2019; Tushar K. Bhattacharyya is co-founder
+      and CEO. Also backed by MeitY's Chips-to-Startup (C2S) programme. TireSynapse was in advanced design in 2022; no tape-out
+      publicly reported.
+    what_it_designs: TireSynapse, a tire-monitoring sensing SoC with integrated Bluetooth for wear prediction, road-condition
+      and load detection.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
-  - url: https://www.sfalcoe.com/success-story-ab-circuits-and-research-labs/
-    title: "Success Story of AB Circuits and Research Labs"
-    date: '2026-01-01'
+  - url: https://asia.morningpitch.com/startups-1/axejj4azmjd6m4r-37rn5-a5yp8-h64mc
+    title: MorningPitch – ABCRL profile (TireSynapse)
+    date: null
+  - url: https://www.businesstoday.in/amp/magazine/technology/story/indian-semiconductor-design-start-ups-are-struggling-to-raise-funds-whats-wrong-346513-2022-09-06
+    title: Indian Semiconductor Design Start-Ups are Struggling to Raise Funds (Business Today)
+    date: '2022-09-06'
+  - url: https://yourstory.com/companies/ab-circuits-and-research-labs
+    title: 'YourStory – AB Circuits and Research Labs (search snippet only: founded 2019, TireIQ; page returned 403)'
+    date: null
+  website: https://abcrlabs.com/
+  design_score:
+    ip_ownership: 4
+    design_completeness: 1
+    domain_difficulty: 3
+    market_readiness: 1
 - id: ampicq
   name: AmpicQ
   category: Indian Fabless
@@ -990,15 +1303,34 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: "amPICQ, founded 2022 in Hyderabad. Named 'Best Semiconductor Startup of the Year' at IESA's 2025 Vision Summit; joined the Luminate accelerator cohort. Uses compound semiconductors and a proprietary thin-film deposition/circuit-integration platform to shrink quantum-communication hardware onto a single chip — a 10x reduction in size, weight, cost, and power versus discrete implementations."
-    what_it_designs: "Miniaturised photonic integrated circuits (PICs) for Quantum Key Distribution (QKD) and Quantum Random Number Generation (QRNG), aimed at secure data protection in defence, finance, healthcare, and telecom."
+    significance: Founded 2022 in Hyderabad (IIIT-Hyderabad incubation; CEO Dr Madhav Pulipati) to build photonic chips for
+      quantum-safe communication; QKD receiver chip taped out by December 2023. Through the Luminate accelerator it moved
+      its headquarters and optical manufacturing to Rochester, New York (Oct 2025), and has an office in Eindhoven. Kept here
+      as Indian-founded; India operations to be re-checked.
+    what_it_designs: Photonic integrated circuits for quantum key distribution (QKD) transmitters/receivers and quantum random-number
+      generation.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
   - url: https://rbj.net/2025/10/20/ampicq-secures-the-future-of-data-with-quantum-safe-photonic-chips/
-    title: "amPICQ secures the future of data with quantum-safe photonic chips"
+    title: amPICQ secures the future of data with quantum-safe photonic chips
     date: '2025-10-20'
+  - url: https://bits-chips.com/artikel/indias-ampicq-has-a-soft-spot-for-the-netherlands/
+    title: India's Ampicq has a soft spot for the Netherlands (Bits&Chips)
+    date: '2023-12-04'
+  - url: https://cie.iiit.ac.in/ampicq-securing-the-quantum-future-with-photonic-cryptography/
+    title: 'amPICQ: Securing the Quantum Future with Photonic Cryptography (CIE IIIT-H)'
+    date: null
+  - url: https://startupintros.com/orgs/ampicq-private-limited
+    title: amPICQ Private Limited – StartupIntros profile
+    date: null
+  website: https://ampicq.com/
+  design_score:
+    ip_ownership: 4
+    design_completeness: 3
+    domain_difficulty: 4
+    market_readiness: 3
 - id: big-endian-semi
   name: Big Endian Semi
   category: DLI Beneficiary
@@ -1018,135 +1350,207 @@ design_firms:
   - AI
   - Security
   design_scope: Full chip
-  node_sophistication: null
+  node_sophistication: 28nm
   design_score:
-    ip_ownership: 4
+    ip_ownership: 3
     design_completeness: 3
-    domain_difficulty: 4
+    domain_difficulty: 3
     market_readiness: 2
   dli:
     approved: true
-    product: "SoC for Video Audio Surveillance Unit, Design and Development"
+    product: SoC for Video Audio Surveillance Unit, Design and Development
     project_outlay_inr_lakh: 3108.0
     grant_inr: null
   narrative:
-    significance: "Founded May 2024 in Bengaluru by CEO Sunil Kumar (formerly of Arm, Broadcom, Intel). Taped out test chips in 2025; raised $9M total (a $3M seed led by Vertex Ventures SEA & India in Aug 2024, plus a $6M pre-Series A)."
-    what_it_designs: "Sovereign AI vision chips for surveillance and CCTV, featuring an indigenous end-to-end security stack, a privacy/authenticity engine, and a dual-sensor edge-AI ISP designed with a zero-backdoor architecture."
+    significance: Bengaluru (Whitefield) startup founded 2024 building secure surveillance-camera SoCs. MPW tape-out in October
+      2025 under Cadence's Project VASU partnership; first commercial chip tape-out (UMC 28nm) announced May 2026. Raised
+      $6M seed (Vertex Ventures, May 2026).
+    what_it_designs: Secure IP-camera and surveillance SoCs with on-chip edge AI.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://www.vertexventures.sg/news/bigendian-semiconductors-raises-6m-to-strengthen-india-s-fabless-semiconductor-ecosystem/
-    title: "BigEndian Semiconductors Raises $6M to Strengthen India's Fabless Semiconductor Ecosystem"
+    title: BigEndian Semiconductors Raises $6M to Strengthen India's Fabless Semiconductor Ecosystem
     date: '2026-05-06'
   - url: https://techcrunch.com/2024/09/02/bigendian-embarks-on-surveillance-chip-development-from-india
-    title: "BigEndian embarks on surveillance chip development from India (TechCrunch)"
+    title: BigEndian embarks on surveillance chip development from India (TechCrunch)
     date: '2024-09-02'
+  - url: https://bigendiansemi.com/
+    title: BigEndian Semiconductors home page
+    date: null
+  - url: https://bigendiansemi.com/news/
+    title: BigEndian news page (Cadence Project VASU; seed coverage; UMC 28nm)
+    date: null
+  - url: https://telecomlive.in/web/?p=982704
+    title: Fabless chip companies eye surveillance market play via edge-AI silicon (Telecomlive)
+    date: '2025-12-29'
+  website: https://bigendiansemi.com/
 - id: silicon-support-solutions
   name: Silicon Support Solutions
-  category: Indian Fabless
+  category: Design Services
   dli_beneficiary: false
   parent_company: null
   parent_hq: null
   founded: null
   india_headcount: null
   locations: []
-  product_focus: null
+  product_focus: EDA flow support, yield learning and ATE test services
   application_domains: []
-  design_scope: null
+  design_scope: Services
   node_sophistication: null
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: null
-    what_it_designs: null
+    significance: Listed on the Chips-DLI portal (not among the 24 PDLI projects). Provides EDA-flow, yield-learning and ATE
+      test services and lists one SerDes receiver IP; no chip of its own and no public address found.
+    what_it_designs: EDA flow support, yield-learning and automated test-equipment services.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
+  - url: https://sites.google.com/siliconsupportsolutions.com/silicon-support-solutions/home
+    title: Silicon Support Solutions home
+    date: null
+  - url: https://sites.google.com/siliconsupportsolutions.com/silicon-support-solutions/purpose
+    title: Silicon Support Solutions - Purpose
+    date: null
+  - url: https://sites.google.com/siliconsupportsolutions.com/silicon-support-solutions/contact-us/contact-details
+    title: 'Contact details (email only: eda@siliconsupportsolutions.com)'
+    date: null
+  website: https://www.siliconsupportsolutions.com/
 - id: stt-engineering
-  name: STT Engineering
-  category: Indian Fabless
+  name: Stteereng Silicon
+  category: EDA & IP Provider
   dli_beneficiary: false
   parent_company: null
   parent_hq: null
   founded: null
   india_headcount: null
-  locations: []
-  product_focus: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: High-speed interface and analog silicon IP (UCIe, DDR/LPDDR, HBM3E, SerDes PHYs)
   application_domains: []
-  design_scope: null
+  design_scope: IP blocks
   node_sophistication: null
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: null
-    what_it_designs: null
+    significance: Bengaluru (Hebbal) silicon-IP firm, listed on the Chips-DLI portal (earlier recorded here as 'STT Engineering').
+      Sells chiplet and memory-interface IP offered at 28 to 12nm.
+    what_it_designs: UCIe, DDR/LPDDR, HBM3E and SerDes PHY IP, plus IO libraries, PLLs and power-management IP.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
+  - url: https://www.stteereng.com/
+    title: Stteereng Silicon home
+    date: null
+  - url: https://www.stteereng.com/about.html
+    title: Stteereng - About Us
+    date: null
+  - url: https://www.stteereng.com/service.html
+    title: Stteereng - Silicon IPs
+    date: null
+  website: https://www.stteereng.com/
 - id: dheyo-ai
   name: Dheyo.ai
-  category: Indian Fabless
+  category: Design Services
   dli_beneficiary: false
-  parent_company: null
-  parent_hq: null
+  parent_company: Dheyo AI Inc.
+  parent_hq: United States
   founded: null
   india_headcount: null
-  locations: []
-  product_focus: null
-  application_domains: []
-  design_scope: null
-  node_sophistication: null
-  dli:
-    approved: false
-    product: null
-    grant_inr: null
-  narrative:
-    significance: null
-    what_it_designs: null
-  sources:
-  - url: https://chips-dli.gov.in/DLI/HomePage
-    title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
-    date: '2026-06-27'
-- id: kris-emi
-  name: Kris Emi Design Tech
-  category: Indian Fabless
-  dli_beneficiary: false
-  parent_company: null
-  parent_hq: null
-  founded: 2018
-  india_headcount: 35
   locations:
   - city: Hyderabad
     state: Telangana
     lat: 17.385
     lon: 78.487
-  product_focus: ASIC design, mixed-signal IP, and design services
-  application_domains:
-  - Telecom
-  - Photonics
-  design_scope: IP block
+  product_focus: Generative-AI software (compilers, heterogeneous-compute scheduling, video generation)
+  application_domains: []
+  design_scope: Software
   node_sophistication: null
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: "KriSemi Design Technologies, incorporated 2018 in Hyderabad. Primarily a design-services provider (~35 employees) to semiconductor and EDA companies, alongside its own IP work."
-    what_it_designs: "ASIC design services spanning analog/mixed-signal design, physical design, RTL verification, photonic integrated circuits, FPGA, and firmware for telecom systems."
+    significance: Palo Alto-headquartered AI-software company (Dheyo AI Inc.) with an India office in Hyderabad; listed on
+      the Chips-DLI portal. No chip design or tape-out found — its products are AI compilers, GPU scheduling and video-generation
+      software.
+    what_it_designs: 'Generative-AI software: compilers, heterogeneous-compute scheduling and video generation. Not a chip
+      designer.'
+  sources:
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
+    date: '2026-06-27'
+  - url: https://dheyo.ai/
+    title: Dheyo AI home
+    date: null
+  - url: https://dheyo.ai/blog
+    title: Dheyo AI blog
+    date: '2025-03-15'
+  - url: https://wellfound.com/company/dheyoai
+    title: Dheyo AI on Wellfound
+    date: null
+  website: https://dheyo.ai/
+- id: kris-emi
+  name: Kris Emi Design Tech
+  category: EDA & IP Provider
+  dli_beneficiary: false
+  parent_company: null
+  parent_hq: null
+  founded: 2018
+  india_headcount: null
+  locations:
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Analog/mixed-signal IO and PHY IP, plus ASIC design services
+  application_domains:
+  - Space
+  - GNSS
+  - Computing
+  design_scope: IP blocks
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Krisemi Design Technologies, Hyderabad (registered at Gowlidoddi) with a Bengaluru office and a Malaysia
+      presence. Lists 20 IO/PHY/analog IP blocks, 19 of them silicon-proven from 130nm to 10nm, alongside design services
+      and a GAGAN receiver board.
+    what_it_designs: IO, PHY, SerDes, PLL and analog IP blocks; ASIC design services; GAGAN/GNSS receiver products.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
   - url: https://krisemidesigntech.com/
-    title: "Krisemi Design Technologies official website"
-    date: '2026-01-01'
+    title: Krisemi Design Technologies official website
+    date: null
+  - url: https://krisemidesigntech.com/contact-us
+    title: Krisemi - Contact Us (office addresses)
+    date: null
+  - url: https://krisemidesigntech.com/krisemi-ip
+    title: Krisemi IP catalogue
+    date: null
+  - url: https://krisemidesigntech.com/gagan-receiver
+    title: Krisemi - GAGAN Receiver
+    date: null
+  website: https://krisemidesigntech.com/
 - id: quanfluence
   name: Quanfluence
   category: Indian Fabless
@@ -1160,10 +1564,6 @@ design_firms:
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  - city: Pune
-    state: Maharashtra
-    lat: 18.52
-    lon: 73.855
   product_focus: Photonic quantum computing hardware (Optical Ising Machine)
   application_domains:
   - Quantum Computing
@@ -1175,15 +1575,34 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: "Founded 2021 by a six-person team of ex-Texas Instruments engineers (CEO Sujoy Chakravarty and co-founders), with offices in Bengaluru and Pune. One of only two Indian companies building commercial quantum computers (the other being QpiAI), and the only one using a room-temperature, photonics-based approach rather than superconducting circuits requiring deep cryogenic cooling."
-    what_it_designs: "A photonics-based Optical Ising Machine — a room-temperature hardware optimiser currently handling up to 20,000 variables (next-gen version targeting 100,000), with a full qubit-based system roadmapped for 2029."
+    significance: 'Founded 2021 in Bengaluru by Sujoy Chakravarty, Ravi Mehta and Biman Chattopadhyay (ex-Texas Instruments;
+      earlier co-founded Silabtech, sold to Synopsys in 2018), with Aditi Vaidya, Prof Anil Prabhakar (IIT Madras) and Prof
+      Sandeep Goyal (IISER Mohali). Building room-temperature photonic quantum and Ising-machine hardware; raised $10M led
+      by Chiratae (October 2026). Roadmap: early processors 2027, larger systems 2029.'
+    what_it_designs: A time-multiplexed coherent (optical) Ising machine handling up to 100,000 variables, and photonic integrated
+      circuits for quantum computing.
   sources:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
   - url: https://yourstory.com/2025/11/pune-deep-tech-startup-quanfluence-quantum-computer-techsparks-2025-tech30
-    title: "Pune deep-tech startup Quanfluence is building a quantum computer (YourStory)"
+    title: Pune deep-tech startup Quanfluence is building a quantum computer (YourStory)
     date: '2025-11-01'
+  - url: https://quanfluence.com/
+    title: Quanfluence home (Bengaluru address, products)
+    date: null
+  - url: https://quanfluence.com/category/news/
+    title: Quanfluence news
+    date: '2026-10-07'
+  - url: https://quanfluence.com/time-multiplexed-coherent-ising-machine/
+    title: Quanfluence - Coherent Ising Machine (up to 100,000 variables)
+    date: null
+  website: https://quanfluence.com/
+  design_score:
+    ip_ownership: 5
+    design_completeness: 3
+    domain_difficulty: 5
+    market_readiness: 3
 - id: sophrosyne-tech
   name: Sophrosyne Technologies
   category: DLI Beneficiary
@@ -1191,33 +1610,55 @@ design_firms:
   parent_company: null
   parent_hq: null
   founded: 2022
-  india_headcount: null
+  india_headcount: 30
   locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
   - city: Udupi
     state: Karnataka
     lat: 13.341
-    lon: 74.746
+    lon: 74.747
   product_focus: Multi-vital biosensing SoC for wearables
   application_domains:
   - Healthcare
   - Wearables
   design_scope: Full chip
-  node_sophistication: null
+  node_sophistication: 65nm
   dli:
     approved: true
-    product: "High-precision, Ultra-low-power SoC for real-time monitoring of cardiac activity and other vital health parameters"
+    product: High-precision, Ultra-low-power SoC for real-time monitoring of cardiac activity and other vital health parameters
     project_outlay_inr_lakh: 2147.1
     grant_inr: 10
   narrative:
-    significance: "Founded 2022 by Manish Srivastava. Raised $2M seed funding from Bluehill Capital shortly after securing a ~$1.2M (₹10 crore) DLI grant from MeitY. R&D and product-design centre based in Udupi."
-    what_it_designs: "A multi-vital biosensing SoC consolidating ECG, PPG, respiration, and temperature monitoring into a single ultra-low-power chip for compact, energy-efficient medical wearables."
+    significance: Founded 2022 by Manish Srivastava with co-founder Jatin Gupta; headquartered in Bengaluru (HSR Layout) with
+      an R&D centre in Udupi (about 30 staff, Dec 2025). Raised $2M from Bluehill Capital after its DLI approval. Its first
+      SPARSH chip (ECG) taped out on TSMC 65nm in April 2026 and has been validated; v2 adds PPG, bio-impedance and temperature.
+    what_it_designs: SPARSH ultra-low-power biosensing SoCs for medical wearables; v1 captures ECG, v2 targets multi-vital
+      monitoring.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://inc42.com/buzz/semiconductor-startup-sophrosyne-bags-2-mn-from-bluehill-vc/
-    title: "Semiconductor Startup Sophrosyne Bags $2 Mn From Bluehill VC (Inc42)"
-    date: '2026-01-01'
+    title: Semiconductor Startup Sophrosyne Bags $2 Mn From Bluehill VC (Inc42)
+    date: '2025-11-21'
+  - url: https://sophrosynetechnologies.com/
+    title: Sophrosyne Technologies home (Bengaluru address)
+    date: null
+  - url: https://sophrosynetechnologies.com/founders-profile
+    title: Sophrosyne - Founder's Profile
+    date: null
+  - url: https://newskarnataka.com/karnataka/udupi/healthcare-semiconductor-startup-sets-up-major-rd-centre-in-udupi/22122025/
+    title: Healthcare semiconductor startup sets up major R&D centre in Udupi (NewsKarnataka)
+    date: '2025-12-22'
+  website: https://sophrosynetechnologies.com/
+  design_score:
+    ip_ownership: 3
+    design_completeness: 3
+    domain_difficulty: 3
+    market_readiness: 2
 - id: qualcomm-india
   name: Qualcomm India
   category: GCC Design Centre
@@ -1427,7 +1868,7 @@ design_firms:
     title: Samsung R&D Institute India - Bengaluru
     date: '2026-01-01'
   - url: https://www.bwpeople.in/article/samsung-semiconductor-india-to-hire-over-700-employees-at-new-rd-facility-511630
-    title: "Samsung Semiconductor India (SSIR) headcount — over 4,500 employees (BW People)"
+    title: Samsung Semiconductor India (SSIR) headcount — over 4,500 employees (BW People)
     date: '2024-02-29'
   design_score:
     strategic_depth: 4
@@ -1769,14 +2210,19 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: "Founded April 2025 by Gireesh Rajendran, Ashish Lachhwani, Rakesh Kumar, and Krishna Sankar — veterans of Steradian Semiconductors (an imaging-radar startup acquired by Renesas in 2022). One of the few Indian-origin EDA companies, rather than the foreign-MNC design centres that dominate this category. Closed a $6M seed round (Endiya Partners, Exfinity Venture Partners, Japan's UTEC) in July 2025."
-    what_it_designs: "Not a chip itself — a generative-AI assistant embedded in existing EDA workflows to accelerate early-stage analog IC design, automate design review, and help engineers navigate performance trade-offs. Analog design still resists automation more than digital design does, which is the gap this targets."
+    significance: Founded April 2025 by Gireesh Rajendran, Ashish Lachhwani, Rakesh Kumar, and Krishna Sankar — veterans of
+      Steradian Semiconductors (an imaging-radar startup acquired by Renesas in 2022). One of the few Indian-origin EDA companies,
+      rather than the foreign-MNC design centres that dominate this category. Closed a $6M seed round (Endiya Partners, Exfinity
+      Venture Partners, Japan's UTEC) in July 2025.
+    what_it_designs: Not a chip itself — a generative-AI assistant embedded in existing EDA workflows to accelerate early-stage
+      analog IC design, automate design review, and help engineers navigate performance trade-offs. Analog design still resists
+      automation more than digital design does, which is the gap this targets.
   sources:
   - url: https://www.maieuticsemi.com/news/maieutic-funding-6-mil
-    title: "Maieutic Semiconductors seed funding announcement"
+    title: Maieutic Semiconductors seed funding announcement
     date: '2025-07-03'
   - url: https://www.business-standard.com/technology/tech-news/bengaluru-startup-maieutic-ai-chip-design-automation-125102100283_1.html
-    title: "Bengaluru startup taps AI to speed up analog chip development (Business Standard)"
+    title: Bengaluru startup taps AI to speed up analog chip development (Business Standard)
     date: '2025-10-21'
 - id: arm-india
   name: Arm India
@@ -1939,8 +2385,8 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: India accounts for 18% of NVIDIA's global workforce. Bengaluru and Pune together employ over 2,300 staff focused
-      on GPU software, deep learning, and system software engineering.
+    significance: India accounts for 18% of NVIDIA's global workforce. Bengaluru and Pune together employ over 2,300 staff
+      focused on GPU software, deep learning, and system software engineering.
     what_it_designs: GPU architecture and verification, CUDA software stack, AI/ML frameworks, autonomous vehicle computing
       platforms, and system software for data centre accelerators.
   sources:
@@ -2023,8 +2469,8 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Apple's Bengaluru silicon team was seeded by the 2019 acquisition of Intel's smartphone modem business, which
-      brought ~160 modem engineers. The team works on SoC platform architecture and wireless silicon development.
+    significance: Apple's Bengaluru silicon team was seeded by the 2019 acquisition of Intel's smartphone modem business,
+      which brought ~160 modem engineers. The team works on SoC platform architecture and wireless silicon development.
     what_it_designs: Wireless modem silicon, SoC platform architecture, and hardware verification for Apple's custom processors
       used in iPhone, iPad, and Mac products.
   sources:
@@ -2061,8 +2507,8 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Google's gChips team in Bengaluru designs custom silicon for Pixel devices and cloud infrastructure. The team
-      was built by hiring senior engineers from Intel, Qualcomm, Broadcom, and NVIDIA.
+    significance: Google's gChips team in Bengaluru designs custom silicon for Pixel devices and cloud infrastructure. The
+      team was built by hiring senior engineers from Intel, Qualcomm, Broadcom, and NVIDIA.
     what_it_designs: Tensor mobile SoCs for Pixel phones, TPU (Tensor Processing Unit) components for cloud AI, and custom
       server silicon. Bengaluru handles architecture, RTL design, and verification.
   sources:
@@ -2108,9 +2554,9 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Microchip has operated in India for 25 years. In 2025, it announced a $300 million investment to expand its India
-      operations, including a new Bengaluru facility that can accommodate 3,000+ employees. India supports design for MCUs,
-      FPGAs, networking, and security products.
+    significance: Microchip has operated in India for 25 years. In 2025, it announced a $300 million investment to expand
+      its India operations, including a new Bengaluru facility that can accommodate 3,000+ employees. India supports design
+      for MCUs, FPGAs, networking, and security products.
     what_it_designs: 8/16/32-bit microcontrollers, microprocessors, FPGA development, networking and data centre solutions,
       security and authentication products, wired and wireless connectivity solutions.
   sources:
@@ -2151,8 +2597,8 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Microsoft's SCHIE (Silicon, Cloud Hardware, and Infrastructure Engineering) team in India contributes to custom
-      silicon for Azure, including work related to the Maia AI accelerator and Cobalt Arm-based CPU programmes.
+    significance: Microsoft's SCHIE (Silicon, Cloud Hardware, and Infrastructure Engineering) team in India contributes to
+      custom silicon for Azure, including work related to the Maia AI accelerator and Cobalt Arm-based CPU programmes.
     what_it_designs: Silicon engineering for Azure custom chips, including design verification, physical design, and firmware
       for cloud infrastructure processors.
   sources:
@@ -2188,8 +2634,8 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Meta's Infra Silicon team in Bengaluru designs custom ASICs for data centre workloads including video
-      transcoding and AI inference. Actively hiring ASIC design and verification engineers.
+    significance: Meta's Infra Silicon team in Bengaluru designs custom ASICs for data centre workloads including video transcoding
+      and AI inference. Actively hiring ASIC design and verification engineers.
     what_it_designs: Domain-specific SoCs and ASICs for Meta's data centres, covering architecture, RTL design, verification,
       and physical design for AI/ML inference and video processing accelerators.
   sources:
@@ -2263,9 +2709,9 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Bengaluru India Development Centre (BIDC) was established through the 2009 acquisition of PulseCore
-      Semiconductor, expanded via the 2011 Cypress image sensing acquisition. Supports the global Intelligent Sensing
-      and Analog Solutions groups.
+    significance: Bengaluru India Development Centre (BIDC) was established through the 2009 acquisition of PulseCore Semiconductor,
+      expanded via the 2011 Cypress image sensing acquisition. Supports the global Intelligent Sensing and Analog Solutions
+      groups.
     what_it_designs: Image sensor ICs for automotive ADAS and industrial machine vision, power management ICs, and analog
       signal conditioning circuits.
   sources:
@@ -2298,15 +2744,18 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "A Digital Multiphase Controller IC for Enterprise Server Power"
+    product: A Digital Multiphase Controller IC for Enterprise Server Power
     project_outlay_inr_lakh: 8375.2
     grant_inr: null
   narrative:
-    significance: "Largest PDLI project by outlay. Raised a $16.7M Series A (Peak XV, TDK Ventures), then acquired by Germany's Infineon (announced August 2026, completed October 2026) — the first test of what happens to a DLI-funded firm's domestic-status condition after a foreign acquisition."
+    significance: Largest PDLI project by outlay. Founded June 2024 by Vikram Gakhar, Preetam Tadeparthy and Ram Anant; raised
+      a $16.7M Series A (Peak XV, TDK Ventures). Taped out its first smart power stage in May 2026 (tape-out of the DLI controller
+      IC not confirmed). Acquired by Germany's Infineon (announced August, completed October 2026) — a test of the DLI domestic-status
+      condition after a foreign acquisition.
     what_it_designs: Software-defined multiphase controllers and smart power stages for server and AI data-centre power delivery.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://yourstory.com/2026/08/germanys-infineon-is-acquiring-bengaluru-based-c2i-semiconductors
     title: Germany's Infineon is acquiring Bengaluru's C2i Semiconductors (YourStory)
@@ -2314,6 +2763,21 @@ design_firms:
   - url: https://technode.global/2026/10/12/infineon-completes-c2i-acquisition-ai-data-center-power-india/
     title: Infineon completes C2i acquisition (Technode Global)
     date: '2026-10-12'
+  - url: https://www.c2isemi.com
+    title: C2i Semiconductors official site (Coming Soon page)
+    date: null
+  - url: https://www.electronicsforu.com/electronics-startups/bengaluru-startup-targets-ai-data-centre-power-delivery
+    title: Bengaluru startup targets AI data centre power delivery (EFY)
+    date: null
+  - url: https://inc42.com/?p=549104
+    title: C2i bags additional funding from TDK Ventures to close Series A at $16.7 Mn (Inc42)
+    date: '2026-05-28'
+  website: https://www.c2isemi.com
+  design_score:
+    ip_ownership: 4
+    design_completeness: 3
+    domain_difficulty: 3
+    market_readiness: 1
 - id: mmrfic
   name: MMRFIC Technology
   category: DLI Beneficiary
@@ -2327,7 +2791,7 @@ design_firms:
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  product_focus: mm-wave RF ICs and radar subsystems
+  product_focus: RF and mm-wave MMICs, RF front-ends and subsystems (GaAs/GaN)
   application_domains:
   - Defence
   - Radar
@@ -2336,19 +2800,36 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "Indigenous Ka-Band Beamformer RADAR Chip"
+    product: Indigenous Ka-Band Beamformer RADAR Chip
     project_outlay_inr_lakh: 1253.04
     grant_inr: null
   narrative:
-    significance: Bengaluru mm-wave fabless firm with strategic investment from Sansera Engineering; opened a new R&D facility in Bengaluru in 2024.
+    significance: Bengaluru (Whitefield) mm-wave firm founded 2014, now described by Sansera Engineering as a group company.
+      Its June 2024 facility (US$4M outlay) adds packaging, assembly and test to R&D. No public confirmation yet that the
+      DLI Ka-band beamformer chip has taped out.
     what_it_designs: Millimetre-wave chips and subsystems for radar, 5G/6G communications and wireless connectivity.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://startup.outlookindia.com/sector/saas/sansera-signs-a-definitive-agreement-for-strategic-investment-in-mmrfic-technology-news-7931
     title: Sansera signs definitive agreement for strategic investment in MMRFIC Technology (Outlook Startup)
     date: null
+  - url: https://www.mmrfic.com
+    title: MMRFIC official site (home)
+    date: null
+  - url: https://www.mmrfic.com/about-us
+    title: MMRFIC - About Us
+    date: null
+  - url: https://equitybulls.com/category.php?id=347574
+    title: Sansera Engineering's MMRFIC opens new R&D facility in Bangalore (Equitybulls)
+    date: '2024-06-04'
+  website: https://www.mmrfic.com
+  design_score:
+    ip_ownership: 3
+    design_completeness: 2
+    domain_difficulty: 5
+    market_readiness: 3
 - id: aheesa
   name: Aheesa Digital Innovations
   category: DLI Beneficiary
@@ -2356,7 +2837,7 @@ design_firms:
   parent_company: null
   parent_hq: null
   founded: 2021
-  india_headcount: null
+  india_headcount: 30
   locations:
   - city: Chennai
     state: Tamil Nadu
@@ -2367,22 +2848,40 @@ design_firms:
   - Telecom
   - Broadband
   design_scope: Full chip
-  node_sophistication: null
+  node_sophistication: 28nm
   dli:
     approved: true
-    product: "VEGA Processor based GPON ONT and Network SoC for FTTX and Broadband applications"
+    product: VEGA Processor based GPON ONT and Network SoC for FTTX and Broadband applications
     project_outlay_inr_lakh: 4140.0
     grant_inr: null
   narrative:
-    significance: "Its VIHAAN-I broadband SoC, built on C-DAC's VEGA RISC-V core and fabricated at UMC, reported first-pass silicon success in 2026; production tape-out targeted for 2027. Tamil Nadu's Emerging Sector Seed Fund has invested ₹20 crore."
+    significance: Chennai startup founded 2021. Its VIHAAN-I broadband SoC, built on C-DAC's VEGA RISC-V core and fabricated
+      at UMC 28nm, taped out in January 2026 and reported first-pass silicon success in August 2026; production tape-out targeted
+      for 2027. About 60% of the chip is licensed IP. Raised about ₹40 crore in 2026, including ₹20 crore from Tamil Nadu's
+      Emerging Sector Seed Fund.
     what_it_designs: GPON/EPON optical network terminal SoCs integrating compute, broadband access and system control.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
   - url: https://www.electronicsforu.com/news/indigenous-broadband-soc-clears-first-silicon-test
     title: Indigenous broadband SoC clears first silicon test (EFY)
     date: null
+  - url: https://www.aheesa.com
+    title: Aheesa official site
+    date: null
+  - url: https://swarajyamag.com/amp/story/tech%2Findias-vihaan-broadband-chip-achieves-first-pass-silicon-success-production-tapeout-targeted-for-2027
+    title: India's VIHAAN broadband chip achieves first-pass silicon success (Swarajya)
+    date: null
+  - url: https://www.indiandefensenews.in/2026/06/aheesa-tapes-out-indias-first-risc-v.html
+    title: Aheesa tapes out India's first RISC-V broadband network SoC (Indian Defence News)
+    date: null
+  website: https://www.aheesa.com
+  design_score:
+    ip_ownership: 3
+    design_completeness: 3
+    domain_difficulty: 3
+    market_readiness: 2
 - id: multi-nano-sense
   name: Multi Nano Sense Technologies
   category: DLI Beneficiary
@@ -2392,10 +2891,10 @@ design_firms:
   founded: 2017
   india_headcount: null
   locations:
-  - city: Thane
+  - city: Nagpur
     state: Maharashtra
-    lat: 19.218
-    lon: 72.978
+    lat: 21.146
+    lon: 79.088
   product_focus: Gas sensors and sensor-interface SoCs
   application_domains:
   - Industrial
@@ -2404,19 +2903,33 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "MEMS Platform Gas Sensors and CMOS Data Acquisition AFE SoC"
+    product: MEMS Platform Gas Sensors and CMOS Data Acquisition AFE SoC
     project_outlay_inr_lakh: 2953.0
     grant_inr: null
   narrative:
-    significance: Thane-based sensor company (hydrogen detection and platform gas sensors) moving into a companion CMOS analog front-end SoC under DLI.
+    significance: Nagpur sensor company founded 2017 (CEO Shashank Kumar; Prof R. Vasant Kumar of Cambridge is a director).
+      Makes hydrogen detectors; its CMOS-MEMS gas-sensor platform is licensed from Cambridge Enterprise and was prototyped
+      at IIT Bombay's nanofab. The DLI project adds a CMOS analog front-end SoC.
     what_it_designs: Gas sensors and a CMOS data-acquisition analog front-end SoC to read them out.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
-  - url: https://www.cbinsights.com/company/multi-nano-sense-technologies
-    title: Multi Nano Sense Technologies company profile (CB Insights)
-    date: '2026-11-25'
+  - url: https://www.multinanosense.com
+    title: Multi Nano Sense Technologies official site
+    date: null
+  - url: https://www.multinanosense.com/about-us
+    title: Multi Nano Sense - About Us
+    date: null
+  - url: https://www.siliconindia.com/startup/vendor/deep-tech-startups-2022-multi-nano-sense-technologies-cid-17290.html
+    title: Multi Nano Sense Technologies profile (SiliconIndia Deep Tech Startups 2022)
+    date: null
+  website: https://www.multinanosense.com
+  design_score:
+    ip_ownership: 3
+    design_completeness: 2
+    domain_difficulty: 3
+    market_readiness: 3
 - id: incise-infotech
   name: Incise Infotech
   category: DLI Beneficiary
@@ -2426,11 +2939,15 @@ design_firms:
   founded: 2010
   india_headcount: null
   locations:
-  - city: Greater Noida
+  - city: Noida
     state: Uttar Pradesh
-    lat: 28.474
-    lon: 77.504
-  product_focus: LED driver ICs
+    lat: 28.535
+    lon: 77.391
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Design services and VIP/IP; own LED-driver IC (INC2106)
   application_domains:
   - Lighting
   - Power Management
@@ -2438,76 +2955,77 @@ design_firms:
   node_sophistication: null
   dli:
     approved: true
-    product: "A Linear LED Driver IC."
+    product: A Linear LED Driver IC.
     project_outlay_inr_lakh: 428.0
     grant_inr: null
   narrative:
-    significance: Smallest PDLI project by outlay (₹4.28 crore). Registered in Delhi (2010); the DLI list places the project in Uttar Pradesh, where the company has a Greater Noida office.
-    what_it_designs: Linear LED driver ICs.
+    significance: Incise Infotech Limited (incorporated 2010, registered in Delhi; offices in Noida and Bengaluru). Mainly
+      a design-services and IP firm; its own product is the INC2106 linear LED driver IC, the smallest PDLI project by outlay
+      (₹4.28 crore).
+    what_it_designs: Semiconductor design services and verification IP, plus its INC2106 linear LED driver IC.
   sources:
   - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
+    title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
-- id: dv2js-innovation
-  name: DV2JS Innovation
+  - url: https://incise.in
+    title: Incise Infotech official site
+    date: null
+  - url: https://incise.in/led-driver-ic
+    title: Incise - LED Driver IC (INC2106)
+    date: null
+  - url: https://www.infyner.com/company/incise-infotech/U46521DL2010PLC204618
+    title: Incise Infotech Limited - company overview (Infyner, MCA data)
+    date: '2025-12-23'
+  website: https://incise.in
+  design_score:
+    ip_ownership: 2
+    design_completeness: 2
+    domain_difficulty: 2
+    market_readiness: 2
+- id: bharat-semi
+  name: Bharat Semi (3rdiTech, DV2JS Innovation)
   category: DLI Beneficiary
   dli_beneficiary: true
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2018
   india_headcount: null
   locations:
   - city: New Delhi
     state: Delhi
     lat: 28.614
     lon: 77.209
-  product_focus: Low-light image sensors
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Programmable AI image sensors and low-light CMOS image sensors
   application_domains:
-  - Security
+  - Defence
+  - Surveillance
+  - Industrial
+  - Aerospace
   - Automotive
-  - Imaging
   design_scope: Full chip
   node_sophistication: null
   dli:
     approved: true
-    product: "LowLight Image Sensor with SinglePhoton Detection for Security, Surveillance, Automobile Cameras"
+    product: LowLight Image Sensor with SinglePhoton Detection for Security, Surveillance, Automobile Cameras
     project_outlay_inr_lakh: 748.0
     grant_inr: null
   narrative:
-    significance: Delhi-based LLP with a PDLI-approved single-photon image sensor project. Little public information beyond the DLI listing.
-    what_it_designs: Low-light CMOS image sensors with single-photon detection.
-  sources:
-  - url: https://chips-dli.gov.in/DLI/financialSupport
-    title: "DLI — Applications approved for financial support (PDLI), MeitY"
-    date: '2026-11-25'
-- id: bharat-semi
-  name: Bharat Semi
-  category: Indian Fabless
-  dli_beneficiary: false
-  parent_company: null
-  parent_hq: null
-  founded: 2021
-  india_headcount: null
-  locations:
-  - city: New Delhi
-    state: Delhi
-    lat: 28.614
-    lon: 77.209
-  product_focus: Programmable AI image sensors (capture, processing and AI on one chip)
-  application_domains:
-  - Industrial
-  - Surveillance
-  - Aerospace
-  - Consumer Electronics
-  design_scope: Full chip
-  node_sophistication: null
-  dli:
-    approved: false
-    product: null
-    grant_inr: null
-  narrative:
-    significance: "Raised a $24M all-equity seed round in November 2026 (led by Info Edge, South Park Commons and Indusbridge Ventures; Micromax, Valour Capital and Gaingels participating). About 75 staff across India and Santa Clara; CTO Boyd Fowler was previously CTO at OmniVision. Design wins with General Atomics and Kaynes Semicon; pre-revenue, with commercial production targeted for 2027. Stays fabless for sensors; a separate fab project announced in 2024 with a US Space Force technology partnership 'remains in development' and is not funded by this round."
-    what_it_designs: Image sensors that integrate image capture, signal processing and AI inference on a single chip, replacing a separate sensor, ISP and SoC — the company claims at least 70% lower system cost. Gen-1 in prototyping; Gen-2 prototypes expected mid-2027.
+    significance: 'One group, three names: Bharat Semi (founded late 2021), its design division 3rdiTech (IIT Delhi-linked;
+      iDEX winner; co-founder Dr Mukul Sarkar), and DV2JS Innovation LLP (incorporated January 2018), the entity on the official
+      PDLI list. All share partners Vrinda Kapoor and Vinayak Dalmia. Raised a $24M all-equity seed round in November 2026
+      (Info Edge, South Park Commons, Indusbridge Ventures; Micromax, Valour Capital, Gaingels). About 75 staff across New
+      Delhi, Bengaluru and Santa Clara; CTO Boyd Fowler was previously CTO at OmniVision. Design wins with General Atomics
+      and Kaynes Semicon; 3rdiTech signed a vision-systems MoU with Kaynes Semicon and SPARSHIQ (Sept 2025). A separate fab
+      project announced in 2024 with a US Space Force technology partnership remains in development and is not funded by the
+      seed round. The group link is inferred from shared partners and press descriptions; no single page states all three
+      relationships.'
+    what_it_designs: Programmable image sensors that integrate capture, signal processing and AI inference on one chip (Gen-1
+      in prototyping, Gen-2 prototypes expected mid-2027), and — via the DLI project — a low-light image sensor with single-photon
+      detection for security, surveillance and automotive cameras.
   sources:
   - url: https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/
     title: Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market (TechCrunch)
@@ -2515,3 +3033,30 @@ design_firms:
   - url: https://yourstory.com/2026/11/bharat-semi-raises-24m-to-develop-ai-enabled-sensors
     title: Bharat Semi raises $24M to develop AI-enabled sensors (YourStory)
     date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
+    date: '2026-06-27'
+  - url: https://www.ga.com/ga-asi-and-3rditech-announce-joint-strategic-partnership-for-cutting-edge-semiconductor-technologies
+    title: GA-ASI and 3rdiTech Announce Joint Strategic Partnership (General Atomics)
+    date: '2022-09-27'
+  - url: https://swarajyamag.com/technology/dli-for-semiconductors-should-indias-chip-design-scheme-chase-innovation-or-numbers
+    title: 'DLI For Semiconductors: Should India''s Chip Design Scheme Chase Innovation Or Numbers? (Swarajya)'
+    date: '2026-01-01'
+  - url: https://chips-dli.gov.in/DLI/financialSupport
+    title: DLI — Applications approved for financial support (PDLI), MeitY
+    date: '2026-11-25'
+  - url: https://themachinemaker.com/news/3rditech-ceo-aims-to-start-chip-plant-construction-by-q1-next-year/
+    title: 3rdiTech CEO aims to start chip plant construction by Q1 next year (The Machine Maker)
+    date: '2024-09-30'
+  - url: https://cxotoday.com/media-coverage/3rditech-a-bharat-semi-company-kaynes-semicon-and-sparshiq-sign-mou-along-with-other-consortium-partners-to-strengthen-indias-semiconductor-vision-systems-ecosystem/
+    title: 3rdiTech, Kaynes Semicon and SPARSHIQ sign MoU (CXOToday)
+    date: '2025-09-04'
+  - url: https://www.tofler.in/dv2js-innovation-llp/company/AAL-8271
+    title: DV2JS Innovation LLP - company profile (Tofler, MCA data)
+    date: null
+  website: https://bharatsemi.ai
+  design_score:
+    ip_ownership: 4
+    design_completeness: 2
+    domain_difficulty: 4
+    market_readiness: 3

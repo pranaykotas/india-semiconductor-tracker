@@ -1,43 +1,43 @@
 ---
 title: "Terminus Circuits"
-subtitle: "Indian Fabless"
+subtitle: "EDA & IP Provider"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Designs high-speed SerDes and analog interface ICs for data centre and networking applications.
+Bengaluru semiconductor-IP company that has delivered silicon-proven SerDes and PHY IP since 2010, verified on TSMC, GlobalFoundries and Samsung processes from 65nm to 12nm. Licenses IP; does not sell chips of its own.
 :::
 
 ## What does this firm design?
 
-High-speed serial transceivers (SerDes), data converters, and analog interface chips.
+High-speed SerDes, PHY and analog interface IP licensed to chip companies.
 
 ## Key Facts
 
 | | |
 |---|---|
-| **Category** | Indian Fabless |
+| **Category** | EDA & IP Provider |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
-| **Product Focus** | High-speed analog/mixed-signal ICs |
+| **Product Focus** | High-speed SerDes and PHY interface IP |
 | **Application Domains** | Data Centre, Networking |
-| **Design Scope** | Full chip |
+| **Design Scope** | IP blocks |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
 ### Design Scores
 
-| | Score | Made up of |
-|---|---|---|
-| **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 5, IP ownership 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
+*Not yet scored.*
 
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Terminus Circuits home page](https://www.terminuscircuits.com/)
+- [Terminus Circuits - About](https://www.terminuscircuits.com/about_us.php)
+- [Terminus Circuits - Contact](https://www.terminuscircuits.com/contact_us.php)
 
 ---
 

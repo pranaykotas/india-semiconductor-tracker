@@ -1,17 +1,17 @@
 ---
-title: "Sense Semi"
+title: "Sensesemi Technologies"
 subtitle: "DLI Beneficiary"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2014 by Vijay Muktamath and Namit Varma (as Sensesemi Technologies). Raised ₹25 crore in January 2026 for tape-outs and reference-design work.
+Bengaluru firm designing ultra-low-power edge-AI SoCs. Raised ₹25 crore in January 2026 to fund two test-chip tape-outs during 2026, with a production chip targeted for 2027. Partner in the 3rdiTech–Kaynes–SPARSHIQ vision-systems consortium (Sept 2025).
 :::
 
 ## What does this firm design?
 
-SenseSoC integrates AI inferencing, wireless mesh connectivity, precision analog front-end, an MCU, and security into a single chip, targeting wearables and connected medical devices.
+SenseSoC ultra-low-power SoCs combining AI inference, wireless connectivity and analog front-ends for IoT, wearables and medical devices.
 
 ## Key Facts
 
@@ -30,12 +30,18 @@ SenseSoC integrates AI inferencing, wireless mesh connectivity, precision analog
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, IP ownership 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [Indian Semiconductor Startup Sensesemi Bags ₹25 Cr to Build Power-Efficient Edge-AI Chips](https://bharatfast.com/english/start-up/indian-semiconductor-startup-sensesemi-bags-%E2%82%B925-cr-to-build-power-efficient-edge-ai-chips/31030/) (01 Jan 2026)
+- [Sensesemi home](https://www.sensesemi.com/)
+- [Semiconductor Startup Sensesemi Raises INR 25 Cr To Build Edge AI Chips (Inc42)](https://inc42.com/?p=545791) (21 Jan 2026)
+- [3rdiTech/Kaynes/SPARSHIQ MoU with Sensesemi as consortium partner (CXOToday)](https://cxotoday.com/media-coverage/3rditech-a-bharat-semi-company-kaynes-semicon-and-sparshiq-sign-mou-along-with-other-consortium-partners-to-strengthen-indias-semiconductor-vision-systems-ecosystem/) (04 Sep 2025)
 
 ---
 

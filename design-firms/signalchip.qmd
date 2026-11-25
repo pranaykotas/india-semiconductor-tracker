@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-One of India's pioneering fabless semiconductor companies. Designed India's first indigenously developed 4G/LTE and 5G NR modem chipsets.
+Founded 2010 in Bengaluru by Himamshu Khasnis. In February 2019 it unveiled the SCBM34xx/SCRF34xx family of LTE baseband and RF transceiver chips, which the company described as India's first indigenous 4G/5G modem chips. No public product news in 2025–26.
 :::
 
 ## What does this firm design?
 
-Multi-standard wireless modem SoCs supporting 4G LTE-Advanced and 5G NR. Targets telecom infrastructure and CPE (Customer Premises Equipment) applications.
+Baseband and RF transceiver chips for 4G LTE and 5G NR small cells, base stations and CPE; its product page also lists a NavIC receiver and a RISC-V microcontroller.
 
 ## Key Facts
 
@@ -19,25 +19,28 @@ Multi-standard wireless modem SoCs supporting 4G LTE-Advanced and 5G NR. Targets
 |---|---|
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | 2008 |
+| **Founded** | 2010 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
-| **Product Focus** | 4G/5G modem SoCs |
+| **Product Focus** | 4G LTE / 5G NR base-station baseband and RF transceiver chips; NavIC receiver |
 | **Application Domains** | Telecom, 5G |
 | **Design Scope** | Full chip |
-| **Node Sophistication** | 7nm |
+| **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
 ### Design Scores
 
 | | Score | Made up of |
 |---|---|---|
-| **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, IP ownership 5 |
-| **Progress** | <span class="complexity-bar" title="Progress: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Design completeness 5, market readiness 3 |
+| **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 4, IP ownership 5 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 4, market readiness 2 |
 
 ## Sources
 
-- [Signalchip official website](https://www.signalchip.com) (01 Jan 2026)
+- [Signalchip official website](https://www.signalchip.com)
+- [About Signalchip](https://www.signalchip.com/about-signalchip/)
+- [Signalchip products](https://www.signalchip.com/products/)
+- [Signalchip press release (27 Feb 2019)](https://www.signalchip.com/press-release/) (27 Feb 2019)
 
 ---
 

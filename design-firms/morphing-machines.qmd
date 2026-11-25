@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-IIT Hyderabad spin-off building reconfigurable processor architectures (REDEFINE). One of the earliest deep-tech semiconductor startups in India.
+Bengaluru firm founded 2005 out of its founders' research at IISc (CEO Deepak Shapeti, CTO Dr Ranjani Narayan; Prof S.K. Nandy of IISc as mentor). Its MuDRA-1 test chip — 16 RISC-V cores on the REDEFINE architecture, TSMC 28nm — taped out and was unveiled at SEMICON India in September 2026; bring-up is pending and commercial MuDRA is planned for late 2027.
 :::
 
 ## What does this firm design?
 
-Coarse-grained reconfigurable array (CGRA) processors that can be dynamically reconfigured for different workloads — AI inference, signal processing, cryptography.
+REDEFINE many-core reconfigurable processors with dynamic scheduling, delivered as SoCs, IP and accelerator cards for AI and signal-processing workloads.
 
 ## Key Facts
 
@@ -19,13 +19,13 @@ Coarse-grained reconfigurable array (CGRA) processors that can be dynamically re
 |---|---|
 | **Category** | DLI Beneficiary |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | 2007 |
+| **Founded** | 2005 |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | Hyderabad |
+| **Locations** | Bengaluru, Hyderabad |
 | **Product Focus** | Reconfigurable processors |
 | **Application Domains** | Computing, HPC, AI |
 | **Design Scope** | Full chip |
-| **Node Sophistication** | Not applicable / not disclosed |
+| **Node Sophistication** | 28nm |
 | **DLI Beneficiary** | Yes |
 
 ### Design Scores
@@ -33,11 +33,14 @@ Coarse-grained reconfigurable array (CGRA) processors that can be dynamically re
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, IP ownership 5 |
-| **Progress** | <span class="complexity-bar" title="Progress: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Design completeness 3, market readiness 1 |
+| **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
+- [Morphing Machines home page](https://morphing.in/)
+- [Morphing Machines - About](https://morphing.in/about)
+- [Morphing Machines Unveils MuDRA-1, First Silicon (CircuitDigest)](https://circuitdigest.com/news/morphing-machines-unveils-mudra-1-first-silicon-for-an-architecture-aiming-for-asic-performance-fpga-flexibility) (24 Sep 2026)
 
 ---
 

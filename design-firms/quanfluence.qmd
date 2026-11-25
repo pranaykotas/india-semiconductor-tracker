@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2021 by a six-person team of ex-Texas Instruments engineers (CEO Sujoy Chakravarty and co-founders), with offices in Bengaluru and Pune. One of only two Indian companies building commercial quantum computers (the other being QpiAI), and the only one using a room-temperature, photonics-based approach rather than superconducting circuits requiring deep cryogenic cooling.
+Founded 2021 in Bengaluru by Sujoy Chakravarty, Ravi Mehta and Biman Chattopadhyay (ex-Texas Instruments; earlier co-founded Silabtech, sold to Synopsys in 2018), with Aditi Vaidya, Prof Anil Prabhakar (IIT Madras) and Prof Sandeep Goyal (IISER Mohali). Building room-temperature photonic quantum and Ising-machine hardware; raised $10M led by Chiratae (October 2026). Roadmap: early processors 2027, larger systems 2029.
 :::
 
 ## What does this firm design?
 
-A photonics-based Optical Ising Machine — a room-temperature hardware optimiser currently handling up to 20,000 variables (next-gen version targeting 100,000), with a full qubit-based system roadmapped for 2029.
+A time-multiplexed coherent (optical) Ising machine handling up to 100,000 variables, and photonic integrated circuits for quantum computing.
 
 ## Key Facts
 
@@ -21,7 +21,7 @@ A photonics-based Optical Ising Machine — a room-temperature hardware optimise
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2021 |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | Bengaluru, Pune |
+| **Locations** | Bengaluru |
 | **Product Focus** | Photonic quantum computing hardware (Optical Ising Machine) |
 | **Application Domains** | Quantum Computing, HPC |
 | **Design Scope** | Subsystem |
@@ -30,12 +30,18 @@ A photonics-based Optical Ising Machine — a room-temperature hardware optimise
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, IP ownership 5 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 3, market readiness 3 |
 
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [Pune deep-tech startup Quanfluence is building a quantum computer (YourStory)](https://yourstory.com/2025/11/pune-deep-tech-startup-quanfluence-quantum-computer-techsparks-2025-tech30) (01 Nov 2025)
+- [Quanfluence home (Bengaluru address, products)](https://quanfluence.com/)
+- [Quanfluence news](https://quanfluence.com/category/news/) (07 Oct 2026)
+- [Quanfluence - Coherent Ising Machine (up to 100,000 variables)](https://quanfluence.com/time-multiplexed-coherent-ising-machine/)
 
 ---
 

@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Largest PDLI project by outlay. Raised a $16.7M Series A (Peak XV, TDK Ventures), then acquired by Germany's Infineon (announced August 2026, completed October 2026) — the first test of what happens to a DLI-funded firm's domestic-status condition after a foreign acquisition.
+Largest PDLI project by outlay. Founded June 2024 by Vikram Gakhar, Preetam Tadeparthy and Ram Anant; raised a $16.7M Series A (Peak XV, TDK Ventures). Taped out its first smart power stage in May 2026 (tape-out of the DLI controller IC not confirmed). Acquired by Germany's Infineon (announced August, completed October 2026) — a test of the DLI domestic-status condition after a foreign acquisition.
 :::
 
 ## What does this firm design?
@@ -30,13 +30,19 @@ Software-defined multiphase controllers and smart power stages for server and AI
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 3, IP ownership 4 |
+| **Progress** | <span class="complexity-bar" title="Progress: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Design completeness 3, market readiness 1 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [Germany's Infineon is acquiring Bengaluru's C2i Semiconductors (YourStory)](https://yourstory.com/2026/08/germanys-infineon-is-acquiring-bengaluru-based-c2i-semiconductors)
 - [Infineon completes C2i acquisition (Technode Global)](https://technode.global/2026/10/12/infineon-completes-c2i-acquisition-ai-data-center-power-india/) (12 Oct 2026)
+- [C2i Semiconductors official site (Coming Soon page)](https://www.c2isemi.com)
+- [Bengaluru startup targets AI data centre power delivery (EFY)](https://www.electronicsforu.com/electronics-startups/bengaluru-startup-targets-ai-data-centre-power-delivery)
+- [C2i bags additional funding from TDK Ventures to close Series A at $16.7 Mn (Inc42)](https://inc42.com/?p=549104) (28 May 2026)
 
 ---
 

@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded by ex-Intel and ex-AMD veterans, designing AI GPUs from the ground up. Vinod Dham ('Father of the Pentium') is founding advisor. One of the few Indian startups attempting high-performance GPU design.
+Founded December 2024 in Bengaluru by ex-Intel and ex-AMD engineers Dheemanth Nagaraj (CEO), Ashok Jagannathan, Srikanth Nimmagadda and Rajesh Vivekanandham, with Vinod Dham ('Father of the Pentium') as founding advisor. Raised an $8M seed round led by Peak XV Partners (January 2026). Pre-silicon.
 :::
 
 ## What does this firm design?
@@ -38,6 +38,8 @@ Full-stack AI compute platform — custom GPU hardware plus software stack inclu
 ## Sources
 
 - [AI Semiconductor Startup Agrani Labs Raises $8 Mn From Peak XV Partners (Inc42)](https://inc42.com/buzz/ai-semiconductor-startup-agrani-labs-raises-8-mn-from-peak-xv-partners/) (28 Jan 2026)
+- [Agrani Labs official website](https://agranilabs.com)
+- [AI Semiconductor Startup Agrani Labs Secures USD 8 Mn Seed Funding (Entrepreneur India)](https://india.entrepreneur.com/news-and-trends/ai-semiconductor-startup-agrani-labs-secures-usd-8-mn-seed/502266) (29 Jan 2026)
 
 ---
 

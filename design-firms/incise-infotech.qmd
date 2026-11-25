@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Smallest PDLI project by outlay (₹4.28 crore). Registered in Delhi (2010); the DLI list places the project in Uttar Pradesh, where the company has a Greater Noida office.
+Incise Infotech Limited (incorporated 2010, registered in Delhi; offices in Noida and Bengaluru). Mainly a design-services and IP firm; its own product is the INC2106 linear LED driver IC, the smallest PDLI project by outlay (₹4.28 crore).
 :::
 
 ## What does this firm design?
 
-Linear LED driver ICs.
+Semiconductor design services and verification IP, plus its INC2106 linear LED driver IC.
 
 ## Key Facts
 
@@ -21,8 +21,8 @@ Linear LED driver ICs.
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2010 |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | Greater Noida |
-| **Product Focus** | LED driver ICs |
+| **Locations** | Noida, Bengaluru |
+| **Product Focus** | Design services and VIP/IP; own LED-driver IC (INC2106) |
 | **Application Domains** | Lighting, Power Management |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
@@ -30,11 +30,17 @@ Linear LED driver ICs.
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Domain difficulty 2, IP ownership 2 |
+| **Progress** | <span class="complexity-bar" title="Progress: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Design completeness 2, market readiness 2 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
+- [Incise Infotech official site](https://incise.in)
+- [Incise - LED Driver IC (INC2106)](https://incise.in/led-driver-ic)
+- [Incise Infotech Limited - company overview (Infyner, MCA data)](https://www.infyner.com/company/incise-infotech/U46521DL2010PLC204618) (23 Dec 2025)
 
 ---
 

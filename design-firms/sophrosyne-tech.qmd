@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2022 by Manish Srivastava. Raised $2M seed funding from Bluehill Capital shortly after securing a ~$1.2M (₹10 crore) DLI grant from MeitY. R&D and product-design centre based in Udupi.
+Founded 2022 by Manish Srivastava with co-founder Jatin Gupta; headquartered in Bengaluru (HSR Layout) with an R&D centre in Udupi (about 30 staff, Dec 2025). Raised $2M from Bluehill Capital after its DLI approval. Its first SPARSH chip (ECG) taped out on TSMC 65nm in April 2026 and has been validated; v2 adds PPG, bio-impedance and temperature.
 :::
 
 ## What does this firm design?
 
-A multi-vital biosensing SoC consolidating ECG, PPG, respiration, and temperature monitoring into a single ultra-low-power chip for compact, energy-efficient medical wearables.
+SPARSH ultra-low-power biosensing SoCs for medical wearables; v1 captures ECG, v2 targets multi-vital monitoring.
 
 ## Key Facts
 
@@ -20,22 +20,28 @@ A multi-vital biosensing SoC consolidating ECG, PPG, respiration, and temperatur
 | **Category** | DLI Beneficiary |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2022 |
-| **India Headcount** | Not publicly disclosed |
-| **Locations** | Udupi |
+| **India Headcount** | ~30 |
+| **Locations** | Bengaluru, Udupi |
 | **Product Focus** | Multi-vital biosensing SoC for wearables |
 | **Application Domains** | Healthcare, Wearables |
 | **Design Scope** | Full chip |
-| **Node Sophistication** | Not applicable / not disclosed |
+| **Node Sophistication** | 65nm |
 | **DLI Beneficiary** | Yes |
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, IP ownership 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
-- [Semiconductor Startup Sophrosyne Bags $2 Mn From Bluehill VC (Inc42)](https://inc42.com/buzz/semiconductor-startup-sophrosyne-bags-2-mn-from-bluehill-vc/) (01 Jan 2026)
+- [Semiconductor Startup Sophrosyne Bags $2 Mn From Bluehill VC (Inc42)](https://inc42.com/buzz/semiconductor-startup-sophrosyne-bags-2-mn-from-bluehill-vc/) (21 Nov 2025)
+- [Sophrosyne Technologies home (Bengaluru address)](https://sophrosynetechnologies.com/)
+- [Sophrosyne - Founder's Profile](https://sophrosynetechnologies.com/founders-profile)
+- [Healthcare semiconductor startup sets up major R&D centre in Udupi (NewsKarnataka)](https://newskarnataka.com/karnataka/udupi/healthcare-semiconductor-startup-sets-up-major-rd-centre-in-udupi/22122025/) (22 Dec 2025)
 
 ---
 

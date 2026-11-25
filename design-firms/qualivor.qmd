@@ -1,17 +1,17 @@
 ---
-title: "Qualivor Technologies"
+title: "Qualivon Technologies"
 subtitle: "Indian Fabless"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Details coming soon — this firm is tracked via the DLI beneficiary list but has not yet been independently researched.
+Bhubaneswar startup incubated at KIIT-TBI designing silicon-photonics integrated circuits for gas sensing; supported through the Chips-DLI programme (not among the 24 PDLI projects). Earlier listed in this tracker under the incorrect name 'Qualivor'.
 :::
 
 ## What does this firm design?
 
-*Details coming soon.*
+Silicon-photonics (PIC) single- and multi-gas sensor chips for industrial and environmental monitoring.
 
 ## Key Facts
 
@@ -21,20 +21,25 @@ Details coming soon — this firm is tracked via the DLI beneficiary list but ha
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | Not yet documented |
-| **Product Focus** | *Details coming soon.* |
-| **Application Domains** | Not yet documented |
+| **Locations** | Bhubaneswar |
+| **Product Focus** | Silicon-photonics gas-sensor chips |
+| **Application Domains** | Industrial, Environmental Sensing |
 | **Design Scope** | Not yet documented |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 3, IP ownership 4 |
+| **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Qualivon Technologies home](https://www.qualivontechnologies.com/)
+- [Qualivon Technologies - Meet the Dutch at Semicon India 2026 (B2Match)](https://www.b2match.com/e/meet-thedutch-at-semicon-india-2026/participations/804164) (04 Sep 2026)
 
 ---
 

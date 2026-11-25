@@ -1,30 +1,30 @@
 ---
 title: "Dheyo.ai"
-subtitle: "Indian Fabless"
+subtitle: "Design Services | Dheyo AI Inc."
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Details coming soon — this firm is tracked via the DLI beneficiary list but has not yet been independently researched.
+Palo Alto-headquartered AI-software company (Dheyo AI Inc.) with an India office in Hyderabad; listed on the Chips-DLI portal. No chip design or tape-out found — its products are AI compilers, GPU scheduling and video-generation software.
 :::
 
 ## What does this firm design?
 
-*Details coming soon.*
+Generative-AI software: compilers, heterogeneous-compute scheduling and video generation. Not a chip designer.
 
 ## Key Facts
 
 | | |
 |---|---|
-| **Category** | Indian Fabless |
-| **Parent Company** | None (Indian-origin) |
+| **Category** | Design Services |
+| **Parent Company** | Dheyo AI Inc. (United States) |
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | Not yet documented |
-| **Product Focus** | *Details coming soon.* |
+| **Locations** | Hyderabad |
+| **Product Focus** | Generative-AI software (compilers, heterogeneous-compute scheduling, video generation) |
 | **Application Domains** | Not yet documented |
-| **Design Scope** | Not yet documented |
+| **Design Scope** | Software |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
@@ -35,6 +35,9 @@ Details coming soon — this firm is tracked via the DLI beneficiary list but ha
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Dheyo AI home](https://dheyo.ai/)
+- [Dheyo AI blog](https://dheyo.ai/blog) (15 Mar 2025)
+- [Dheyo AI on Wellfound](https://wellfound.com/company/dheyoai)
 
 ---
 

@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-One of the first DLI-backed startups to have chips fabricated at TSMC on 12nm. Product line spans sub-1W IoT chips to 64 TOPS autonomous vehicle processors. Partnering with Zoho on R&D.
+Thiruvananthapuram edge-AI chip firm founded 2020 (Jyothis Indirabhai, Deepa Geetha, Sreejith Varma) and the only firm with two PDLI projects. Its NETRA A2000 (12 TOPS, TSMC 12nm) achieved silicon bring-up and launched in May 2026 for customer trials; commercial production is targeted for late 2026–27.
 :::
 
 ## What does this firm design?
 
-Family of edge AI SoCs: Netra-R1000 (RISC-V, <1W, smart sensors), Netra-A2000 (4-8 TOPS, vision + H.26x codec), and Netra-A4000 (ARM-based, 64 TOPS, robotics and autonomous vehicles). Custom Tej-NPU neural processor IP core.
+Edge-AI SoCs and chiplets: NETRA A2000 (12 TOPS) and R1000 (1 TOPS edge MCU), plus C1000/C2000 parts for video analytics and vision.
 
 ## Key Facts
 
@@ -20,12 +20,12 @@ Family of edge AI SoCs: Netra-R1000 (RISC-V, <1W, smart sensors), Netra-A2000 (4
 | **Category** | DLI Beneficiary |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2020 |
-| **India Headcount** | ~61 |
+| **India Headcount** | Not publicly disclosed |
 | **Locations** | Thiruvananthapuram |
 | **Product Focus** | Edge AI vision processors |
 | **Application Domains** | AI, Vision, Edge, Automotive, Robotics |
 | **Design Scope** | Full chip |
-| **Node Sophistication** | 12nm (TSMC) |
+| **Node Sophistication** | 12nm |
 | **DLI Beneficiary** | Yes |
 
 ### Design Scores
@@ -33,12 +33,15 @@ Family of edge AI SoCs: Netra-R1000 (RISC-V, <1W, smart sensors), Netra-A2000 (4
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 4, market readiness 2 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 3, market readiness 3 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [Netrasemi company profile (NeuromorphicCore)](https://neuromorphiccore.ai/insights/netrasemi/) (01 Mar 2026)
+- [Netrasemi home page](https://netrasemi.com/)
+- [Netrasemi - About](https://netrasemi.com/about)
+- [Netrasemi - Products](https://netrasemi.com/productlist)
 
 ---
 

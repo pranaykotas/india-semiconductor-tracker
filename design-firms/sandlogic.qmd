@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Designs low-power AI inference chips for edge deployment.
+Bengaluru AI company founded 2018 (about 80 staff, mostly software). Its ExSLerate NPU IP is FPGA-validated; the Krsna AI SoC is in design with first silicon expected in 2026. No tape-out yet.
 :::
 
 ## What does this firm design?
 
-Neural network inference accelerators for edge AI applications.
+Edge-AI NPU IP (ExSLerate), the Krsna AI SoC in development, and AI models and software tools.
 
 ## Key Facts
 
@@ -19,12 +19,12 @@ Neural network inference accelerators for edge AI applications.
 |---|---|
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
-| **India Headcount** | Not publicly disclosed |
+| **Founded** | 2018 |
+| **India Headcount** | ~80 |
 | **Locations** | Bengaluru |
 | **Product Focus** | AI edge inference processors |
 | **Application Domains** | AI, Edge, IoT |
-| **Design Scope** | Full chip |
+| **Design Scope** | IP block (SoC in design) |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
@@ -33,11 +33,14 @@ Neural network inference accelerators for edge AI applications.
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 1.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1.5/5 | Design completeness 2, market readiness 1 |
+| **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [SandLogic home page](https://www.sandlogic.com/)
+- [SandLogic - Krsna SoC](https://www.sandlogic.com/krsna)
+- [SandLogic - About](https://www.sandlogic.com/about)
 
 ---
 

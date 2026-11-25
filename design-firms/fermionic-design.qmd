@@ -1,17 +1,17 @@
 ---
-title: "Fermionic Design"
+title: "FermionIC Design"
 subtitle: "DLI Beneficiary"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Designs millimetre-wave and RF integrated circuits for 5G and defence applications.
+Bengaluru RF-IC firm founded 2020. In September 2025 it announced staggered volume production from Q4 2025 of its FD3R4411 4-channel X-band beamformer, with Tata Electronics handling assembly and test (per a company press release; independent confirmation of volume shipments not found).
 :::
 
 ## What does this firm design?
 
-mmWave front-end ICs, RF transceivers, and beamforming chips.
+X-band (8–12 GHz) beamformer and RF front-end ICs for phased-array radar, satellite communications and 5G antenna arrays.
 
 ## Key Facts
 
@@ -19,10 +19,10 @@ mmWave front-end ICs, RF transceivers, and beamforming chips.
 |---|---|
 | **Category** | DLI Beneficiary |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2020 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
-| **Product Focus** | mmWave/RF ICs |
+| **Product Focus** | X-band RF beamformer ICs for phased-array radar and satcom |
 | **Application Domains** | Telecom, 5G, Defence |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
@@ -33,11 +33,13 @@ mmWave front-end ICs, RF transceivers, and beamforming chips.
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 5, IP ownership 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 1.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1.5/5 | Design completeness 2, market readiness 1 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
+- [Fermionic Design and Tata Electronics partner on 4-channel X-band beamformer IC (press release via Tribune)](https://www.tribuneindia.com/news/business/fermionic-design-and-tata-electronics-partner-to-deliver-indias-first-4-channel-x-band-beamformer-ic-for-phased-array-radar-applications) (11 Sep 2025)
+- [Fermionic Design - Microwaves & RF company directory](https://www.mwrf.com/companies/company/55387745/fermionic-design)
 
 ---
 

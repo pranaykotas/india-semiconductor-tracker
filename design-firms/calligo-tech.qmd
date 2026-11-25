@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Develops processing-in-memory architectures to accelerate AI and data-intensive workloads.
+Bengaluru firm founded 2012 (HPC/AI focus since 2014) designing processors that use the Posit number format instead of floating point. Its TUNGA chip — an 8-core Posit-enabled RISC-V CPU built on C-DAC's VEGA core — taped out and powers the TUNGA accelerator card shown at ISC High Performance 2025.
 :::
 
 ## What does this firm design?
 
-In-memory computing processor chips for AI inference and data analytics.
+Posit-arithmetic RISC-V CPUs and accelerator cards for HPC, AI and big-data workloads; the DLI project is an SoC with a POSIT coprocessor.
 
 ## Key Facts
 
@@ -19,10 +19,10 @@ In-memory computing processor chips for AI inference and data analytics.
 |---|---|
 | **Category** | DLI Beneficiary |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2012 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
-| **Product Focus** | In-memory computing chips |
+| **Product Focus** | Posit-arithmetic RISC-V processors and accelerator cards |
 | **Application Domains** | AI, Computing |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
@@ -32,12 +32,15 @@ In-memory computing processor chips for AI inference and data analytics.
 
 | | Score | Made up of |
 |---|---|---|
-| **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, IP ownership 5 |
-| **Progress** | <span class="complexity-bar" title="Progress: 1.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1.5/5 | Design completeness 2, market readiness 1 |
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 4, IP ownership 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
+- [Calligo Technologies home page](https://calligotech.com/)
+- [Calligo - About](https://calligotech.com/calligo/)
+- [Calligo - News](http://calligotech.com/news/)
 
 ---
 

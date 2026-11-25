@@ -23,10 +23,11 @@ This page tracks three distinct groups:
 - **Indian fabless firms** — companies headquartered in India that design their own chips (including beneficiaries of the Design Linked Incentive scheme)
 - **GCC design centres** — India R&D operations of global semiconductor companies that design chips
 - **EDA & IP providers** — companies that build the tools and IP blocks used by chip designers (not chip designers themselves)
+- **Design services & other** — firms on the Chips-DLI portal or in earlier lists that, on current evidence, do not design chips of their own (kept so readers can see why they are excluded from the fabless count)
 
 They have different strategic implications. Indian fabless firms build domestic IP ownership; GCCs bring design expertise, talent pipelines, and integration into global supply chains; EDA & IP providers underpin the entire design ecosystem. All matter, but differently.
 
-As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$category %in% c("Indian Fabless", "DLI Beneficiary"))` Indian fabless firms**, **`r sum(firms$category == "GCC Design Centre")` GCC design centres**, and **`r sum(firms$category == "EDA & IP Provider")` EDA & IP providers** across **`r length(unique(firms$states))`** states.
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$category %in% c("Indian Fabless", "DLI Beneficiary"))` Indian fabless firms**, **`r sum(firms$category == "GCC Design Centre")` GCC design centres**, and **`r sum(firms$category == "EDA & IP Provider")` EDA & IP providers** (plus `r sum(firms$category == "Design Services")` design-services firms listed separately) across **`r length(unique(firms$states))`** states.
 
 ---
 
@@ -88,8 +89,8 @@ m <- leaflet(locations, width = "100%", options = leafletOptions(minZoom = 4, ma
   ) %>%
   addLegend(
     position = "bottomright",
-    colors = sapply(c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider"), design_category_color),
-    labels = c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider"),
+    colors = sapply(c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider", "Design Services"), design_category_color),
+    labels = c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider", "Design Services"),
     title = "Category",
     opacity = 0.8
   )
@@ -110,17 +111,19 @@ Firms not yet scored show "—".
 
 ### Ambition vs Progress
 
-```{r ambition-progress, echo=FALSE, warning=FALSE, message=FALSE, fig.height=6.5, fig.width=8}
+```{r ambition-progress, echo=FALSE, warning=FALSE, message=FALSE, fig.height=8, fig.width=10}
 library(ggplot2)
 library(ggrepel)
 
 # Scored Indian fabless firms only (GCCs use different dimensions)
 scored <- firms %>%
-  filter(category %in% c("Indian Fabless", "DLI Beneficiary"), !is.na(ambition), !is.na(progress))
+  filter(category %in% c("Indian Fabless", "DLI Beneficiary"), !is.na(ambition), !is.na(progress)) %>%
+  # Short labels so ~30 names fit: drop corporate suffixes and parentheticals
+  mutate(short = gsub(" \\(.*\\)| Technologies| Technology| Semiconductors| Digital Innovations| Networks| Infotech", "", name))
 
 # Quadrant labels sit in the corners; midpoint of the 1–5 scale is 3
 quads <- tibble::tibble(
-  x = c(1.05, 4.95, 1.05, 4.95), y = c(5.05, 5.05, 0.62, 0.62),
+  x = c(1.55, 5.25, 1.55, 5.25), y = c(5.05, 5.05, 0.62, 0.62),
   hjust = c(0, 1, 0, 1), vjust = c(1, 1, 0, 0),
   label = c("Shipping simpler chips", "Delivering hard chips",
             "Early and modest", "Big bets, yet to deliver")
@@ -129,18 +132,18 @@ quads <- tibble::tibble(
 # No jitter: firms with identical scores share one dot (labels fan out), so no firm
 # is pushed across a quadrant line. A score of exactly 3 counts as "high".
 ggplot(scored, aes(x = ambition, y = progress)) +
-  annotate("rect", xmin = 3, xmax = 5.1, ymin = 0.6, ymax = 3, fill = "#f1a222", alpha = 0.08) +
+  annotate("rect", xmin = 3, xmax = 5.3, ymin = 0.6, ymax = 3, fill = "#f1a222", alpha = 0.08) +
   geom_hline(yintercept = 3, colour = "#cfc8c3", linewidth = 0.4) +
   geom_vline(xintercept = 3, colour = "#cfc8c3", linewidth = 0.4) +
   geom_text(data = quads, aes(x = x, y = y, label = label, hjust = hjust, vjust = vjust),
             inherit.aes = FALSE, colour = "#8C8480", size = 3.4, fontface = "italic") +
   geom_point(aes(colour = category), size = 3, alpha = 0.85) +
-  geom_text_repel(aes(label = name), size = 3, colour = "#2b2b2b", seed = 7,
-                  max.overlaps = Inf, min.segment.length = 0, box.padding = 0.4) +
+  geom_text_repel(aes(label = short), size = 3.1, colour = "#2b2b2b", seed = 7,
+                  max.overlaps = Inf, min.segment.length = 0, box.padding = 0.5,
+                  force = 3, max.iter = 20000, segment.colour = "#9a918c") +
   scale_colour_manual(values = c("Indian Fabless" = "#f1a222", "DLI Beneficiary" = "#2f6b4a"), name = NULL) +
-  scale_x_continuous("Ambition (domain difficulty + IP ownership)", limits = c(0.9, 5.1), breaks = 1:5) +
+  scale_x_continuous("Ambition (domain difficulty + IP ownership)", limits = c(1.5, 5.3), breaks = 1:5) +
   scale_y_continuous("Progress (design completeness + market readiness)", limits = c(0.6, 5.1), breaks = 1:5) +
-  coord_fixed() +
   theme_minimal(base_size = 11) +
   theme(panel.grid.minor = element_blank(), legend.position = "top")
 ```
@@ -255,6 +258,26 @@ DT::datatable(
 )
 ```
 
+## Design Services & Non-Chip Firms
+
+These firms appear on the Chips-DLI portal or in earlier versions of this tracker, but a review of their own websites (November 2026) found no chip of their own. They offer silicon-engineering services, FPGA-based systems or software. They are not counted as Indian fabless firms and are not scored.
+
+```{r services-table, echo=FALSE, warning=FALSE, message=FALSE}
+services <- firms %>%
+  filter(category == "Design Services") %>%
+  mutate(
+    Name = paste0('<a href="design-firms/', id, '.html">', name, '</a>'),
+    Focus = product_focus,
+    Scope = design_scope,
+    Locations = cities
+  ) %>%
+  select(Name, Focus, Scope, Locations)
+
+DT::datatable(services, escape = FALSE, rownames = FALSE,
+  options = list(pageLength = 10, dom = 't', order = list(list(0, 'asc'))),
+  class = "display compact stripe")
+```
+
 ---
 
 ## City-wise Concentration
@@ -273,7 +296,8 @@ ggplot(city_counts, aes(x = reorder(city, n, sum), y = n, fill = category)) +
     "Indian Fabless" = "#620d3c",
     "DLI Beneficiary" = "#2f6b4a",
     "GCC Design Centre" = "#1565C0",
-    "EDA & IP Provider" = "#f1a222"
+    "EDA & IP Provider" = "#f1a222",
+    "Design Services" = "#8C8480"
   )) +
   labs(
     title = "Semiconductor Design Centres by City",

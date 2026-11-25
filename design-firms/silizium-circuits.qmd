@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Kochi-based fabless IP venture aiming to become India's largest analog/RF/mixed-signal IP exporter by 2030. Also backed by MeitY's Chips-to-Startup (C2S) programme and a ₹7.59 crore DoT Telecom Technology Development Fund grant for LEO satellite-communication chips. Works with IIT Hyderabad, IIT Bombay, IIT Delhi, IIT Guwahati, and CUSAT.
+Founded 2020 (registered in Kanhangad, Kasaragod; R&D team in Kochi) by Rijin John and Dr Arun Ashok. Taped out its SC2391 GNSS/5G front-end module in August 2022; ₹7.59 crore government grant (credited to C-DOT on its site, DoT TTDF by DigiTimes). IESA Technovision 2022 'Most Promising Start-Up'.
 :::
 
 ## What does this firm design?
 
-Analog, RF, and mixed-signal semiconductor IP; completed end-to-end design of a GaAs-based 5G low-noise amplifier/front-end module, and is developing LEO satellite-communication chips.
+Analog/RF/mixed-signal hard IP and RF front-end modules for GNSS, 5G and Ka-band LEO satellite communications.
 
 ## Key Facts
 
@@ -19,23 +19,29 @@ Analog, RF, and mixed-signal semiconductor IP; completed end-to-end design of a 
 |---|---|
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2020 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Kochi |
 | **Product Focus** | Analog/RF/mixed-signal semiconductor IP; GaAs 5G front-end modules |
 | **Application Domains** | Telecom, 5G, Satellite |
-| **Design Scope** | IP block |
+| **Design Scope** | IP + Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 3, market readiness 3 |
 
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [India's Silizium Circuits develops GaAs 5G front-end chip as RF localization advances (DigiTimes)](https://www.digitimes.com/news/a20251006VL200/silizium-circuits-5g-gaas-design-india-startup.html) (06 Oct 2025)
+- [Silizium Circuits home](https://siliziumcircuits.com/) (25 Nov 2026)
+- [Silizium Circuits – About Us](https://siliziumcircuits.com/about-us.html) (25 Nov 2026)
+- [Silizium Circuits – News & Updates](https://siliziumcircuits.com/news-updates.html) (25 Nov 2026)
 
 ---
 

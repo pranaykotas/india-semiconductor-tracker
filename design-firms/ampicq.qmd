@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-amPICQ, founded 2022 in Hyderabad. Named 'Best Semiconductor Startup of the Year' at IESA's 2025 Vision Summit; joined the Luminate accelerator cohort. Uses compound semiconductors and a proprietary thin-film deposition/circuit-integration platform to shrink quantum-communication hardware onto a single chip — a 10x reduction in size, weight, cost, and power versus discrete implementations.
+Founded 2022 in Hyderabad (IIIT-Hyderabad incubation; CEO Dr Madhav Pulipati) to build photonic chips for quantum-safe communication; QKD receiver chip taped out by December 2023. Through the Luminate accelerator it moved its headquarters and optical manufacturing to Rochester, New York (Oct 2025), and has an office in Eindhoven. Kept here as Indian-founded; India operations to be re-checked.
 :::
 
 ## What does this firm design?
 
-Miniaturised photonic integrated circuits (PICs) for Quantum Key Distribution (QKD) and Quantum Random Number Generation (QRNG), aimed at secure data protection in defence, finance, healthcare, and telecom.
+Photonic integrated circuits for quantum key distribution (QKD) transmitters/receivers and quantum random-number generation.
 
 ## Key Facts
 
@@ -30,12 +30,18 @@ Miniaturised photonic integrated circuits (PICs) for Quantum Key Distribution (Q
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 3, market readiness 3 |
 
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [amPICQ secures the future of data with quantum-safe photonic chips](https://rbj.net/2025/10/20/ampicq-secures-the-future-of-data-with-quantum-safe-photonic-chips/) (20 Oct 2025)
+- [India's Ampicq has a soft spot for the Netherlands (Bits&Chips)](https://bits-chips.com/artikel/indias-ampicq-has-a-soft-spot-for-the-netherlands/) (04 Dec 2023)
+- [amPICQ: Securing the Quantum Future with Photonic Cryptography (CIE IIIT-H)](https://cie.iiit.ac.in/ampicq-securing-the-quantum-future-with-photonic-cryptography/)
+- [amPICQ Private Limited – StartupIntros profile](https://startupintros.com/orgs/ampicq-private-limited)
 
 ---
 

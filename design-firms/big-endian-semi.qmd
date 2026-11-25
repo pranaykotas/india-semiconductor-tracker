@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded May 2024 in Bengaluru by CEO Sunil Kumar (formerly of Arm, Broadcom, Intel). Taped out test chips in 2025; raised $9M total (a $3M seed led by Vertex Ventures SEA & India in Aug 2024, plus a $6M pre-Series A).
+Bengaluru (Whitefield) startup founded 2024 building secure surveillance-camera SoCs. MPW tape-out in October 2025 under Cadence's Project VASU partnership; first commercial chip tape-out (UMC 28nm) announced May 2026. Raised $6M seed (Vertex Ventures, May 2026).
 :::
 
 ## What does this firm design?
 
-Sovereign AI vision chips for surveillance and CCTV, featuring an indigenous end-to-end security stack, a privacy/authenticity engine, and a dual-sensor edge-AI ISP designed with a zero-backdoor architecture.
+Secure IP-camera and surveillance SoCs with on-chip edge AI.
 
 ## Key Facts
 
@@ -25,14 +25,14 @@ Sovereign AI vision chips for surveillance and CCTV, featuring an indigenous end
 | **Product Focus** | Sovereign AI vision SoCs for surveillance |
 | **Application Domains** | Surveillance, AI, Security |
 | **Design Scope** | Full chip |
-| **Node Sophistication** | Not applicable / not disclosed |
+| **Node Sophistication** | 28nm |
 | **DLI Beneficiary** | Yes |
 
 ### Design Scores
 
 | | Score | Made up of |
 |---|---|---|
-| **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, IP ownership 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
 
 ## Sources
@@ -40,6 +40,9 @@ Sovereign AI vision chips for surveillance and CCTV, featuring an indigenous end
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [BigEndian Semiconductors Raises $6M to Strengthen India's Fabless Semiconductor Ecosystem](https://www.vertexventures.sg/news/bigendian-semiconductors-raises-6m-to-strengthen-india-s-fabless-semiconductor-ecosystem/) (06 May 2026)
 - [BigEndian embarks on surveillance chip development from India (TechCrunch)](https://techcrunch.com/2024/09/02/bigendian-embarks-on-surveillance-chip-development-from-india) (02 Sep 2024)
+- [BigEndian Semiconductors home page](https://bigendiansemi.com/)
+- [BigEndian news page (Cadence Project VASU; seed coverage; UMC 28nm)](https://bigendiansemi.com/news/)
+- [Fabless chip companies eye surveillance market play via edge-AI silicon (Telecomlive)](https://telecomlive.in/web/?p=982704) (29 Dec 2025)
 
 ---
 

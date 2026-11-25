@@ -331,6 +331,7 @@ design_category_color <- function(category) {
     "DLI Beneficiary"    = "#2f6b4a",
     "GCC Design Centre"  = "#1565C0",
     "EDA & IP Provider"  = "#f1a222",
+    "Design Services"    = "#8C8480",
     "#8C8480"
   )
 }
@@ -353,6 +354,7 @@ design_category_badge <- function(category) {
     "DLI Beneficiary"    = "badge-operational",
     "GCC Design Centre"  = "badge-construction",
     "EDA & IP Provider"  = "badge-onhold",
+    "Design Services"    = "badge-announced",
     "badge-announced"
   )
   glue('<span class="status-badge {css_class}">{category}</span>')

@@ -1,43 +1,46 @@
 ---
 title: "Saankhya Labs"
-subtitle: "DLI Beneficiary"
+subtitle: "DLI Beneficiary | Tejas Networks"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-One of India's earliest fabless chip design companies. Designs SoCs for 5G broadcast convergence and satellite communications.
+Bengaluru fabless pioneer whose Pruthvi software-defined radio chips launched in 2015; Pruthvi-3 (28nm FD-SOI) followed in December 2018. Tejas Networks (Tata group) acquired a 64.4% stake in 2022. Clients have included ISRO and BEL; its DLI project is a 5G baseband SoC.
 :::
 
 ## What does this firm design?
 
-Software-defined radio SoCs for 5G NR broadcast, ATSC 3.0, and satellite-terrestrial convergence.
+Software-defined radio SoCs for broadcast (ATSC 3.0, 5G broadcast), satellite-terrestrial communications and 5G telecom baseband.
 
 ## Key Facts
 
 | | |
 |---|---|
 | **Category** | DLI Beneficiary |
-| **Parent Company** | None (Indian-origin) |
+| **Parent Company** | Tejas Networks (India) |
 | **Founded** | 2007 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
 | **Product Focus** | 5G broadcast/satellite SoCs |
 | **Application Domains** | Telecom, 5G, Broadcast, Satellite |
 | **Design Scope** | Full chip |
-| **Node Sophistication** | Not applicable / not disclosed |
+| **Node Sophistication** | 28nm |
 | **DLI Beneficiary** | Yes |
 
 ### Design Scores
 
 | | Score | Made up of |
 |---|---|---|
-| **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, IP ownership 5 |
+| **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 4, IP ownership 5 |
 | **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
 
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
+- [Saankhya Labs launches indigenous Pruthvi-3 chipsets (DQ India)](https://dqindia.com/saankhya-labs-launches-indigenous-pruthvi-3-chipsets) (28 Dec 2018)
+- [Tata's Tejas Networks to acquire majority stake in Saankhya Labs (Light Reading)](https://www.lightreading.com/business-management/tata-s-tejas-networks-to-acquire-majority-stake-in-saankhya-labs) (04 Apr 2022)
+- [Saankhya Labs: With ISRO, BEL as its clients... Rs 75 Cr turnover (Tejas Networks)](https://www.tejasnetworks.com/resource/saankhya-labs-with-isro-bel-as-its-clients-this-wireless-and-semiconductor-company-is-seeing-rs-75-cr-turnover/) (25 Jun 2020)
 
 ---
 

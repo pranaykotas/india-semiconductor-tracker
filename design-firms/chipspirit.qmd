@@ -1,30 +1,30 @@
 ---
 title: "ChipSpirit"
-subtitle: "Indian Fabless"
+subtitle: "Design Services"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Bengaluru-based ASIC design services firm founded 2018. Won the Ministry of Defence's iDEX challenge in March 2019 and co-develops hardware security solutions with Indian Defence under Make in India.
+Bengaluru firm founded 2018 by Mohan Jindal (ex-Intel); iDEX DISC1 winner with about ₹8.2 crore in government grants. Its ABHED-1 encryptor and Data Diode are FPGA/custom-circuit appliances supplied to Indian defence; no ASIC tape-out of its own is reported.
 :::
 
 ## What does this firm design?
 
-Custom ASIC design/turnkey services, plus its own hardware-only security ICs (VLSI-only, no software layer) designed to eliminate software-based backdoors.
+Hardware-only network encryption appliances (ABHED-1, Data Diode) and ASIC front-end design/verification services.
 
 ## Key Facts
 
 | | |
 |---|---|
-| **Category** | Indian Fabless |
+| **Category** | Design Services |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2018 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
-| **Product Focus** | ASIC design services; hardware-only security ICs |
+| **Product Focus** | Hardware network-encryption devices; ASIC front-end design services |
 | **Application Domains** | Defence, Security |
-| **Design Scope** | Full chip |
+| **Design Scope** | Systems (FPGA-based) |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
@@ -35,7 +35,8 @@ Custom ASIC design/turnkey services, plus its own hardware-only security ICs (VL
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
-- [Chipspirit Technologies official website](https://www.chipspirit.com/) (01 Jan 2026)
+- [Chipspirit Technologies official website](https://www.chipspirit.com/)
+- [Hardware-Based Security That Software Cannot Match (Electronics For You)](https://www.electronicsforu.com/india-corner/hardware-based-security-that-software-cannot-match) (21 Jan 2026)
 
 ---
 

@@ -1,41 +1,51 @@
 ---
-title: "Bharat Semi"
-subtitle: "Indian Fabless"
+title: "Bharat Semi (3rdiTech, DV2JS Innovation)"
+subtitle: "DLI Beneficiary"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Raised a $24M all-equity seed round in November 2026 (led by Info Edge, South Park Commons and Indusbridge Ventures; Micromax, Valour Capital and Gaingels participating). About 75 staff across India and Santa Clara; CTO Boyd Fowler was previously CTO at OmniVision. Design wins with General Atomics and Kaynes Semicon; pre-revenue, with commercial production targeted for 2027. Stays fabless for sensors; a separate fab project announced in 2024 with a US Space Force technology partnership 'remains in development' and is not funded by this round.
+One group, three names: Bharat Semi (founded late 2021), its design division 3rdiTech (IIT Delhi-linked; iDEX winner; co-founder Dr Mukul Sarkar), and DV2JS Innovation LLP (incorporated January 2018), the entity on the official PDLI list. All share partners Vrinda Kapoor and Vinayak Dalmia. Raised a $24M all-equity seed round in November 2026 (Info Edge, South Park Commons, Indusbridge Ventures; Micromax, Valour Capital, Gaingels). About 75 staff across New Delhi, Bengaluru and Santa Clara; CTO Boyd Fowler was previously CTO at OmniVision. Design wins with General Atomics and Kaynes Semicon; 3rdiTech signed a vision-systems MoU with Kaynes Semicon and SPARSHIQ (Sept 2025). A separate fab project announced in 2024 with a US Space Force technology partnership remains in development and is not funded by the seed round. The group link is inferred from shared partners and press descriptions; no single page states all three relationships.
 :::
 
 ## What does this firm design?
 
-Image sensors that integrate image capture, signal processing and AI inference on a single chip, replacing a separate sensor, ISP and SoC — the company claims at least 70% lower system cost. Gen-1 in prototyping; Gen-2 prototypes expected mid-2027.
+Programmable image sensors that integrate capture, signal processing and AI inference on one chip (Gen-1 in prototyping, Gen-2 prototypes expected mid-2027), and — via the DLI project — a low-light image sensor with single-photon detection for security, surveillance and automotive cameras.
 
 ## Key Facts
 
 | | |
 |---|---|
-| **Category** | Indian Fabless |
+| **Category** | DLI Beneficiary |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | 2021 |
+| **Founded** | 2018 |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | New Delhi |
-| **Product Focus** | Programmable AI image sensors (capture, processing and AI on one chip) |
-| **Application Domains** | Industrial, Surveillance, Aerospace, Consumer Electronics |
+| **Locations** | New Delhi, Bengaluru |
+| **Product Focus** | Programmable AI image sensors and low-light CMOS image sensors |
+| **Application Domains** | Defence, Surveillance, Industrial, Aerospace, Automotive |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Beneficiary** | Yes |
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
+| **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 2, market readiness 3 |
 
 ## Sources
 
 - [Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market (TechCrunch)](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/) (15 Nov 2026)
 - [Bharat Semi raises $24M to develop AI-enabled sensors (YourStory)](https://yourstory.com/2026/11/bharat-semi-raises-24m-to-develop-ai-enabled-sensors)
+- [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [GA-ASI and 3rdiTech Announce Joint Strategic Partnership (General Atomics)](https://www.ga.com/ga-asi-and-3rditech-announce-joint-strategic-partnership-for-cutting-edge-semiconductor-technologies) (27 Sep 2022)
+- [DLI For Semiconductors: Should India's Chip Design Scheme Chase Innovation Or Numbers? (Swarajya)](https://swarajyamag.com/technology/dli-for-semiconductors-should-indias-chip-design-scheme-chase-innovation-or-numbers) (01 Jan 2026)
+- [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
+- [3rdiTech CEO aims to start chip plant construction by Q1 next year (The Machine Maker)](https://themachinemaker.com/news/3rditech-ceo-aims-to-start-chip-plant-construction-by-q1-next-year/) (30 Sep 2024)
+- [3rdiTech, Kaynes Semicon and SPARSHIQ sign MoU (CXOToday)](https://cxotoday.com/media-coverage/3rditech-a-bharat-semi-company-kaynes-semicon-and-sparshiq-sign-mou-along-with-other-consortium-partners-to-strengthen-indias-semiconductor-vision-systems-ecosystem/) (04 Sep 2025)
+- [DV2JS Innovation LLP - company profile (Tofler, MCA data)](https://www.tofler.in/dv2js-innovation-llp/company/AAL-8271)
 
 ---
 

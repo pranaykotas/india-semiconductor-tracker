@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Pune-based, founded 2022. iDEX (Ministry of Defence) awardee, taped out its core beamforming IC under the DLI scheme.
+Pune firm designing beamforming ASICs and electronically steered antennas. Its VAS7308 beamforming ASIC is described by the company as foundry-proven and in production (TRL 7). Government support verified: a Department of Telecommunications DCIS grant. Company website unavailable at last check (Nov 2026).
 :::
 
 ## What does this firm design?
 
-Beamforming ASICs (800 MHz–18 GHz) and electronically steered antenna systems for radar, satellite, 5G, and defence applications, plus an antenna-testing device (VASATD1).
+Beamforming ASICs (VAS7308) and electronically steered AESA/satcom antennas.
 
 ## Key Facts
 
@@ -30,12 +30,18 @@ Beamforming ASICs (800 MHz–18 GHz) and electronically steered antenna systems 
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
 
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [About Company – VASBEAM](https://vasbeam.com/about-company/) (01 Jan 2026)
+- [DCIS – Versatile Antenna Systems (VAS7308)](https://dcis.dot.gov.in/page/versatile)
+- [DCIS – Vasbeam Private Limited project profile](https://dcis.dot.gov.in/page/vasbeam23)
+- [DCIS startup compendium (Versatile Antenna Systems entry, project lead Amit Borundiya)](https://dcis.dot.gov.in/document/1714045817_ac36a2f13db1b022701a.pdf)
 
 ---
 

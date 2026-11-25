@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Semiconductor services company founded 2018 by Vijay Gudi, based in a Tier-II Indian city (not disclosed on its own site). Started as a design-services shop, redirected toward its own product development during the pandemic.
+Hubballi startup incubated at KLE Technological University's CTIE (founding year given as both 2018 and 2019 on its own site). Has taped out two test chips in its MATOMAC line of M2M/automation ICs; about 30 staff (Dec 2023).
 :::
 
 ## What does this firm design?
 
-SoC/ASIC chipsets and embedded products for wireless/IoT, mechatronics, medical devices, environmental monitoring, and electric/autonomous-vehicle applications — has launched two embedded products and two test chips to date.
+MATOMAC SoC/ASIC chipsets for machine-to-machine automation, and embedded IoT products (Jalvidha, e-cods).
 
 ## Key Facts
 
@@ -20,8 +20,8 @@ SoC/ASIC chipsets and embedded products for wireless/IoT, mechatronics, medical 
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2018 |
-| **India Headcount** | Not publicly disclosed |
-| **Locations** | Not yet documented |
+| **India Headcount** | ~30 |
+| **Locations** | Hubballi |
 | **Product Focus** | SoC/ASIC chipset development for Mechatronics and IoT |
 | **Application Domains** | IoT, Wireless, Medical, Transportation |
 | **Design Scope** | Full chip |
@@ -30,12 +30,18 @@ SoC/ASIC chipsets and embedded products for wireless/IoT, mechatronics, medical 
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, IP ownership 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Design completeness 2, market readiness 2 |
 
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [About Us – SEMIKSHA](https://semiksha.com/about-us/) (01 Jan 2026)
+- [SEMIKSHA home](https://semiksha.com/) (25 Nov 2026)
+- [Contact Us – SEMIKSHA](https://semiksha.com/contact-us/) (25 Nov 2026)
+- [Fab plant in India can give wings to India's semiconductor startups (Bizz Buzz interview with Vijay Gudi)](https://bizzbuzz.news/bizz-talk/fab-plant-in-india-can-give-wings-to-indias-semiconductor-startups-1273871) (16 Dec 2023)
 
 ---
 
