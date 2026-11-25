@@ -8,3 +8,10 @@ _freeze/
 __pycache__/
 
 /.quarto/
+
+# Local tool config (not part of the site)
+opencode.json
+.claude/
+
+# Generated at render time by R/write_data_date.R
+_variables.yml
