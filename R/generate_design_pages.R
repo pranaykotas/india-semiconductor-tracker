@@ -39,8 +39,9 @@ date: last-modified
 | **Node Sophistication** | {node_text} |
 | **DLI Beneficiary** | {dli_text} |
 
-### Design Score
-{score_bar} **{composite_text}**
+### Design Scores
+
+{score_block}
 
 ## Sources
 
@@ -71,8 +72,26 @@ for (i in 1:nrow(firms)) {
   node_text <- if (nchar(f$node_sophistication) > 0) f$node_sophistication else "Not applicable / not disclosed"
   dli_text <- if (isTRUE(f$dli_beneficiary)) "Yes" else "No"
 
-  composite_text <- if (!is.na(f$design_composite)) paste0(f$design_composite, "/5") else "Not yet scored"
-  score_bar <- design_score_bar_html(f$design_composite)
+  # Two scores (see design.qmd): Ambition = what the firm attempts; Progress = what it has delivered.
+  # Each row shows the bar, the score and the two dimensions it averages.
+  score_row <- function(label, score, parts) {
+    paste0("| **", label, "** | ", design_score_bar_html(score, label), " ", score, "/5 | ", parts, " |")
+  }
+  if (is.na(f$ambition) || is.na(f$progress)) {
+    score_block <- "*Not yet scored.*"
+  } else if (isTRUE(f$is_gcc)) {
+    score_block <- paste(
+      "| | Score | Made up of |", "|---|---|---|",
+      score_row("Ambition", f$ambition, paste0("Domain difficulty ", f$domain_difficulty, ", strategic depth ", f$strategic_depth)),
+      score_row("Progress", f$progress, paste0("Design completeness ", f$design_completeness, ", India scale ", f$india_scale)),
+      sep = "\n")
+  } else {
+    score_block <- paste(
+      "| | Score | Made up of |", "|---|---|---|",
+      score_row("Ambition", f$ambition, paste0("Domain difficulty ", f$domain_difficulty, ", IP ownership ", f$ip_ownership)),
+      score_row("Progress", f$progress, paste0("Design completeness ", f$design_completeness, ", market readiness ", f$market_readiness)),
+      sep = "\n")
+  }
 
   significance <- if (nchar(f$significance) > 0) f$significance else "Details coming soon — this firm is tracked via the DLI beneficiary list but has not yet been independently researched."
   what_it_designs <- if (nchar(f$what_it_designs) > 0) f$what_it_designs else "*Details coming soon.*"
@@ -102,8 +121,7 @@ for (i in 1:nrow(firms)) {
     design_scope = design_scope_text,
     node_text = node_text,
     dli_text = dli_text,
-    score_bar = score_bar,
-    composite_text = composite_text,
+    score_block = score_block,
     significance = significance,
     what_it_designs = what_it_designs,
     source_links = source_links

@@ -28,8 +28,9 @@ A photonics-based Optical Ising Machine — a room-temperature hardware optimise
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
-### Design Score
-<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+### Design Scores
+
+*Not yet scored.*
 
 ## Sources
 

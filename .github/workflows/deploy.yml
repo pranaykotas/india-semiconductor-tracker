@@ -39,6 +39,7 @@ jobs:
             any::leaflet
             any::DT
             any::ggplot2
+            any::ggrepel
             any::scales
             any::glue
             any::htmltools

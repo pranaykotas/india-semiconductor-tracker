@@ -28,8 +28,9 @@ Millimetre-wave chips and subsystems for radar, 5G/6G communications and wireles
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | Yes |
 
-### Design Score
-<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+### Design Scores
+
+*Not yet scored.*
 
 ## Sources
 

@@ -28,8 +28,9 @@ Beamforming ASICs (800 MHz–18 GHz) and electronically steered antenna systems 
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
-### Design Score
-<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+### Design Scores
+
+*Not yet scored.*
 
 ## Sources
 

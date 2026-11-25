@@ -28,8 +28,9 @@ Multi-input energy-harvesting power management ICs that let IoT devices run with
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | Yes |
 
-### Design Score
-<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+### Design Scores
+
+*Not yet scored.*
 
 ## Sources
 

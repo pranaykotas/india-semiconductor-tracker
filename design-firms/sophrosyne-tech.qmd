@@ -28,8 +28,9 @@ A multi-vital biosensing SoC consolidating ECG, PPG, respiration, and temperatur
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | Yes |
 
-### Design Score
-<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+### Design Scores
+
+*Not yet scored.*
 
 ## Sources
 

@@ -28,8 +28,9 @@ SoC/ASIC chipsets and embedded products for wireless/IoT, mechatronics, medical 
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Beneficiary** | No |
 
-### Design Score
-<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+### Design Scores
+
+*Not yet scored.*
 
 ## Sources
 

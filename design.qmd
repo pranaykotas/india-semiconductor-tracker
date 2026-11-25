@@ -101,7 +101,51 @@ m
 
 ## Indian Fabless Firms
 
-Design capability is scored on four dimensions (each 1–5): **IP Ownership** (licensed cores → fully custom architecture), **Design Completeness** (single block → full chip tapeout), **Domain Difficulty** (commodity digital → custom analog/RF/GPU), and **Market Readiness** (pre-silicon → volume production). The composite is their equal-weighted average. Firms not yet scored show "—".
+Each firm gets two scores (1–5), kept separate so that a hard, unfinished bet and a simpler, shipped product are not averaged into the same number:
+
+- **Ambition**, what the firm is attempting: the average of **Domain Difficulty** (commodity digital → custom analog/RF/GPU) and **IP Ownership** (licensed cores → fully custom architecture).
+- **Progress**, what it has delivered: the average of **Design Completeness** (single block → full-chip tape-out) and **Market Readiness** (pre-silicon → volume production).
+
+Firms not yet scored show "—".
+
+### Ambition vs Progress
+
+```{r ambition-progress, echo=FALSE, warning=FALSE, message=FALSE, fig.height=6.5, fig.width=8}
+library(ggplot2)
+library(ggrepel)
+
+# Scored Indian fabless firms only (GCCs use different dimensions)
+scored <- firms %>%
+  filter(category %in% c("Indian Fabless", "DLI Beneficiary"), !is.na(ambition), !is.na(progress))
+
+# Quadrant labels sit in the corners; midpoint of the 1–5 scale is 3
+quads <- tibble::tibble(
+  x = c(1.05, 4.95, 1.05, 4.95), y = c(5.05, 5.05, 0.62, 0.62),
+  hjust = c(0, 1, 0, 1), vjust = c(1, 1, 0, 0),
+  label = c("Shipping simpler chips", "Delivering hard chips",
+            "Early and modest", "Big bets, yet to deliver")
+)
+
+# No jitter: firms with identical scores share one dot (labels fan out), so no firm
+# is pushed across a quadrant line. A score of exactly 3 counts as "high".
+ggplot(scored, aes(x = ambition, y = progress)) +
+  annotate("rect", xmin = 3, xmax = 5.1, ymin = 0.6, ymax = 3, fill = "#f1a222", alpha = 0.08) +
+  geom_hline(yintercept = 3, colour = "#cfc8c3", linewidth = 0.4) +
+  geom_vline(xintercept = 3, colour = "#cfc8c3", linewidth = 0.4) +
+  geom_text(data = quads, aes(x = x, y = y, label = label, hjust = hjust, vjust = vjust),
+            inherit.aes = FALSE, colour = "#8C8480", size = 3.4, fontface = "italic") +
+  geom_point(aes(colour = category), size = 3, alpha = 0.85) +
+  geom_text_repel(aes(label = name), size = 3, colour = "#2b2b2b", seed = 7,
+                  max.overlaps = Inf, min.segment.length = 0, box.padding = 0.4) +
+  scale_colour_manual(values = c("Indian Fabless" = "#f1a222", "DLI Beneficiary" = "#2f6b4a"), name = NULL) +
+  scale_x_continuous("Ambition (domain difficulty + IP ownership)", limits = c(0.9, 5.1), breaks = 1:5) +
+  scale_y_continuous("Progress (design completeness + market readiness)", limits = c(0.6, 5.1), breaks = 1:5) +
+  coord_fixed() +
+  theme_minimal(base_size = 11) +
+  theme(panel.grid.minor = element_blank(), legend.position = "top")
+```
+
+`r n_big <- sum(scored$ambition >= 3 & scored$progress < 3); n_big` of `r nrow(scored)` scored Indian firms sit in the shaded *big bets, yet to deliver* quadrant: high ambition, low progress. India's design constraint is commercialisation, not talent or ambition.
 
 ```{r indian-table, echo=FALSE, warning=FALSE, message=FALSE}
 indian <- firms %>%
@@ -110,13 +154,14 @@ indian <- firms %>%
     Name = paste0('<a href="design-firms/', id, '.html">', name, '</a>'),
     Category = sapply(category, design_category_badge),
     Focus = product_focus,
-    Score = sapply(design_composite, design_score_bar_html),
+    Ambition = mapply(design_score_bar_html, ambition, "Ambition"),
+    Progress = mapply(design_score_bar_html, progress, "Progress"),
     Scope = design_scope,
     Node = node_sophistication,
     `Founded` = founded,
     Locations = cities
   ) %>%
-  select(Name, Category, Focus, Score, Scope, Node, Founded, Locations)
+  select(Name, Category, Focus, Ambition, Progress, Scope, Node, Founded, Locations)
 
 DT::datatable(
   indian,
@@ -138,7 +183,7 @@ DT::datatable(
 
 ## GCC Design Centres
 
-GCC design centres are scored differently: **Strategic Depth** (cost centre → India-led product decisions), **Design Completeness** (verification only → full chip tapeout from India), **Domain Difficulty** (same as above), and **India Scale** (headcount: <500 → >10,000).
+GCC design centres use different dimensions. **Ambition** averages **Domain Difficulty** (same as above) and **Strategic Depth** (cost centre → India-led product decisions). **Progress** averages **Design Completeness** (verification only → full-chip tape-out from India) and **India Scale** (headcount: <500 → >10,000).
 
 ```{r gcc-table, echo=FALSE, warning=FALSE, message=FALSE}
 gcc <- firms %>%
@@ -147,14 +192,15 @@ gcc <- firms %>%
     Name = paste0('<a href="design-firms/', id, '.html">', name, '</a>'),
     Parent = paste0(parent_company, " (", parent_hq, ")"),
     Focus = product_focus,
-    Score = sapply(design_composite, design_score_bar_html),
+    Ambition = mapply(design_score_bar_html, ambition, "Ambition"),
+    Progress = mapply(design_score_bar_html, progress, "Progress"),
     Scope = design_scope,
     Node = node_sophistication,
     `Est.` = founded,
     `Headcount` = ifelse(is.na(india_headcount), "—", paste0("~", format(india_headcount, big.mark = ","))),
     Locations = cities
   ) %>%
-  select(Name, Parent, Focus, Score, Scope, Node, Est., Headcount, Locations)
+  select(Name, Parent, Focus, Ambition, Progress, Scope, Node, Est., Headcount, Locations)
 
 DT::datatable(
   gcc,
@@ -163,7 +209,7 @@ DT::datatable(
   options = list(
     pageLength = 25,
     dom = 'ftip',
-    order = list(list(6, 'desc')),
+    order = list(list(7, 'desc')),
     columnDefs = list(
       list(className = 'dt-left', targets = '_all')
     )

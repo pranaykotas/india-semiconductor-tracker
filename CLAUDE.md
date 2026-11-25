@@ -15,11 +15,11 @@ quarto render          # build site into _site/
 quarto preview         # live preview with auto-reload
 ```
 
-**R packages required:** `yaml`, `dplyr`, `tidyr`, `leaflet`, `DT`, `ggplot2`, `scales`, `glue`, `htmltools`
+**R packages required:** `yaml`, `dplyr`, `tidyr`, `leaflet`, `DT`, `ggplot2`, `ggrepel`, `scales`, `glue`, `htmltools`
 
 Install all at once:
 ```r
-install.packages(c("yaml", "dplyr", "tidyr", "leaflet", "DT", "ggplot2", "scales", "glue", "htmltools"))
+install.packages(c("yaml", "dplyr", "tidyr", "leaflet", "DT", "ggplot2", "ggrepel", "scales", "glue", "htmltools"))
 ```
 
 ## Architecture

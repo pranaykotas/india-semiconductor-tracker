@@ -254,23 +254,31 @@ load_design_firms <- function(path = "data/design.yml") {
       cities            = cities,
       states            = states,
       n_locations       = length(locs),
-      # Design scores — different dimensions for Indian vs GCC
-      score_dim1 = f$design_score[[1]] %||% NA_real_,
-      score_dim2 = f$design_score[[2]] %||% NA_real_,
-      score_dim3 = f$design_score[[3]] %||% NA_real_,
-      score_dim4 = f$design_score[[4]] %||% NA_real_
+      # Design score dimensions, read by name (each 1–5; NA if not scored).
+      # Indian firms use ip_ownership + market_readiness; GCCs use strategic_depth + india_scale.
+      ip_ownership        = f$design_score$ip_ownership        %||% NA_real_,
+      strategic_depth     = f$design_score$strategic_depth     %||% NA_real_,
+      domain_difficulty   = f$design_score$domain_difficulty   %||% NA_real_,
+      design_completeness = f$design_score$design_completeness %||% NA_real_,
+      market_readiness    = f$design_score$market_readiness    %||% NA_real_,
+      india_scale         = f$design_score$india_scale         %||% NA_real_
     )
   })
 
   df <- bind_rows(rows)
 
-  # Composite design score: equal-weighted average of available dimensions
+  # Two scores instead of one composite, so ambition and delivery are not averaged away:
+  #   Ambition = what the firm attempts: domain difficulty + IP ownership
+  #              (GCCs: domain difficulty + strategic depth of the India centre)
+  #   Progress = what it has delivered: design completeness + market readiness
+  #              (GCCs: design completeness + India scale)
   df <- df %>%
     mutate(
-      design_composite = round(rowMeans(
-        cbind(score_dim1, score_dim2, score_dim3, score_dim4),
-        na.rm = FALSE
-      ), 1)
+      is_gcc = category == "GCC Design Centre",
+      ambition = round(ifelse(is_gcc, (domain_difficulty + strategic_depth) / 2,
+                                      (domain_difficulty + ip_ownership) / 2), 1),
+      progress = round(ifelse(is_gcc, (design_completeness + india_scale) / 2,
+                                      (design_completeness + market_readiness) / 2), 1)
     )
 
   set.seed(43)
@@ -328,14 +336,14 @@ design_category_color <- function(category) {
 }
 
 # ---- Design score bar (reuses complexity-bar CSS) ----
-design_score_bar_html <- function(score) {
+design_score_bar_html <- function(score, label = "Design Score") {
   if (is.na(score)) return('<span class="complexity-bar" title="Not yet scored">—</span>')
   filled <- round(score)
   segments <- vapply(1:5, function(i) {
     cls <- if (i <= filled) "complexity-segment filled" else "complexity-segment"
     glue('<span class="{cls}"></span>')
   }, character(1))
-  glue('<span class="complexity-bar" title="Design Score: {score}/5">{paste(segments, collapse = "")}</span>')
+  glue('<span class="complexity-bar" title="{label}: {score}/5">{paste(segments, collapse = "")}</span>')
 }
 
 # ---- Design category badge ----
