@@ -1,12 +1,12 @@
-name: Quarterly design firm sweep
+name: Monthly design firm sweep
 
 on:
   schedule:
-    # 1st of Jan, Apr, Jul, Oct at 02:00 UTC = 07:30 IST
-    - cron: '0 2 1 1,4,7,10 *'
+    # 1st of every month at 02:00 UTC = 07:30 IST (was quarterly until Nov 2026)
+    - cron: '0 2 1 * *'
     # Post-Semicon India catch-up: the flagship event runs each September
     # and reliably generates a cluster of MoUs/launches the quarterly
-    # cadence alone would miss for weeks. Fixed date is an approximation —
+    # cadence alone could miss for weeks. Fixed date is an approximation —
     # adjust if the event's actual dates shift in a given year.
     - cron: '0 2 25 9 *'
   workflow_dispatch: # Allow manual trigger

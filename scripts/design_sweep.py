@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """
-Quarterly sweep for Indian fabless firms and GCC design centre updates.
+Monthly sweep for Indian fabless firms and GCC design centre updates.
+
+Also appends a deterministic 'data gaps' section (no LLM) listing tracked firms
+with missing headcount, node, product or DLI detail, so gaps get filled deliberately.
 
 Architecture (mirrors weekly_digest.py):
   1. Python fetches search snippets via Google News RSS
@@ -24,6 +27,9 @@ import anthropic
 import markdown
 import requests
 import yaml
+
+# Monthly cadence with a few days' overlap so nothing falls between runs
+LOOKBACK_DAYS = 35
 
 # ---------------------------------------------------------------------------
 # Search queries — broader than weekly digest, covers design ecosystem
@@ -63,6 +69,22 @@ QUERIES = [
     # General design ecosystem
     'India semiconductor design centre expansion OR new',
     'India chip design GCC headcount OR hiring',
+    # Industry bodies & accelerators (IESA, SEMI, Karnataka SFAL)
+    '"IESA" semiconductor design startup OR fabless',
+    '"India Electronics and Semiconductor Association" chip design',
+    'site:iesaonline.org semiconductor design',
+    '"SEMI India" OR "SEMICON India" chip design startup',
+    '"Semiconductor Fabless Accelerator Lab" OR "SFAL" Karnataka',
+    # Semicon 2.0 design pillar (seed, equity, royalty, deployment incentive)
+    '"Semicon 2.0" chip design startup OR fabless',
+    '"India Semiconductor Mission" equity OR seed chip design startup',
+    'site:chips-dli.gov.in',
+    # Funding rounds and tape-outs (startup press)
+    'semiconductor startup India raises funding chip design',
+    'site:inc42.com semiconductor chip design startup',
+    'site:entrackr.com semiconductor OR chip startup',
+    'site:yourstory.com semiconductor chip design startup',
+    'Indian chip "tape-out" OR "taped out" startup',
     # PIB press releases
     'site:pib.gov.in semiconductor design OR DLI OR fabless',
     'site:pib.gov.in MeitY chip design OR "Design Linked Incentive"',
@@ -79,7 +101,7 @@ Takshashila Institution).
 {design_summary}
 ```
 
-## Search results from the past 90 days
+## Search results from the past {lookback_days} days
 
 {search_results}
 
@@ -199,7 +221,7 @@ def resolve_google_news_url(url: str) -> str:
     return url
 
 
-def fetch_snippets(queries: list[str], max_results: int = 5, lookback_days: int = 90) -> str:
+def fetch_snippets(queries: list[str], max_results: int = 5, lookback_days: int = LOOKBACK_DAYS) -> str:
     cutoff = datetime.now(timezone.utc) - timedelta(days=lookback_days)
     lines = []
 
@@ -266,13 +288,35 @@ def build_design_summary(design_yaml: str) -> str:
     return yaml.dump(summary, allow_unicode=True, sort_keys=False)
 
 
+def build_data_gaps(design_yaml: str) -> str:
+    """List tracked firms with missing fields, grouped by field. No LLM involved."""
+    firms = yaml.safe_load(design_yaml).get("design_firms", [])
+    indian = [f for f in firms if f.get("category") in ("Indian Fabless", "DLI Beneficiary")]
+    checks = {
+        "India headcount missing": [f for f in firms if not f.get("india_headcount")],
+        "Node sophistication missing (Indian fabless)": [f for f in indian if not f.get("node_sophistication")],
+        "Product focus missing": [f for f in firms if not f.get("product_focus")],
+        "DLI product not recorded (DLI-approved firms)": [
+            f for f in firms if (f.get("dli") or {}).get("approved") and not (f.get("dli") or {}).get("product")],
+        "Only one source": [f for f in firms if len(f.get("sources") or []) < 2],
+    }
+    dli_count = sum(1 for f in firms if (f.get("dli") or {}).get("approved"))
+    lines = ["### Data gaps in design.yml", "",
+             (f"- DLI-approved firms in tracker: **{dli_count}** "
+              "(official figure: 24 projects, PIB, January 2026 - reconcile if these differ)"), ""]
+    for label, items in checks.items():
+        names = ", ".join(sorted(f.get("name", "?") for f in items)) or "none"
+        lines.append(f"- **{label}** ({len(items)}): {names}")
+    return "\n".join(lines)
+
+
 def to_html(subject: str, digest_md: str) -> str:
     content = markdown.markdown(digest_md, extensions=["fenced_code"])
     return HTML_TEMPLATE.format(subject=subject, content=content)
 
 
 def generate_sweep(design_yaml: str, today: str) -> str:
-    print("  Fetching search snippets (90-day lookback)...")
+    print(f"  Fetching search snippets ({LOOKBACK_DAYS}-day lookback)...")
     search_results = fetch_snippets(QUERIES)
 
     design_summary = build_design_summary(design_yaml)
@@ -280,6 +324,7 @@ def generate_sweep(design_yaml: str, today: str) -> str:
     prompt = SYNTHESIS_PROMPT.format(
         design_summary=design_summary,
         search_results=search_results,
+        lookback_days=LOOKBACK_DAYS,
         today=today,
     )
 
@@ -309,6 +354,7 @@ def main():
 
     print(f"Running design firm sweep for {today}...")
     sweep = generate_sweep(design_yaml, today)
+    sweep += "\n\n---\n\n" + build_data_gaps(design_yaml)
 
     os.makedirs("data", exist_ok=True)
 
