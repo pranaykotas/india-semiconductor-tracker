@@ -2480,3 +2480,38 @@ design_firms:
   - url: https://chips-dli.gov.in/DLI/financialSupport
     title: "DLI — Applications approved for financial support (PDLI), MeitY"
     date: '2026-11-25'
+- id: bharat-semi
+  name: Bharat Semi
+  category: Indian Fabless
+  dli_beneficiary: false
+  parent_company: null
+  parent_hq: null
+  founded: 2021
+  india_headcount: null
+  locations:
+  - city: New Delhi
+    state: Delhi
+    lat: 28.614
+    lon: 77.209
+  product_focus: Programmable AI image sensors (capture, processing and AI on one chip)
+  application_domains:
+  - Industrial
+  - Surveillance
+  - Aerospace
+  - Consumer Electronics
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: "Raised a $24M all-equity seed round in November 2026 (led by Info Edge, South Park Commons and Indusbridge Ventures; Micromax, Valour Capital and Gaingels participating). About 75 staff across India and Santa Clara; CTO Boyd Fowler was previously CTO at OmniVision. Design wins with General Atomics and Kaynes Semicon; pre-revenue, with commercial production targeted for 2027. Stays fabless for sensors; a separate fab project announced in 2024 with a US Space Force technology partnership 'remains in development' and is not funded by this round."
+    what_it_designs: Image sensors that integrate image capture, signal processing and AI inference on a single chip, replacing a separate sensor, ISP and SoC — the company claims at least 70% lower system cost. Gen-1 in prototyping; Gen-2 prototypes expected mid-2027.
+  sources:
+  - url: https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/
+    title: Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market (TechCrunch)
+    date: '2026-11-15'
+  - url: https://yourstory.com/2026/11/bharat-semi-raises-24m-to-develop-ai-enabled-sensors
+    title: Bharat Semi raises $24M to develop AI-enabled sensors (YourStory)
+    date: null
