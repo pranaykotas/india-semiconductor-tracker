@@ -1,0 +1,60 @@
+---
+title: "Assessing the Government of India's Design Linked Incentive Scheme"
+author: "Pranay Kotasthane"
+date: 2021-12-24
+---
+
+::: {.callout-note}
+## Originally published
+[LinkedIn](https://www.linkedin.com/pulse/assessing-government-indias-design-linked-incentive-pranay-kotasthane/), 24 December 2021. Republished here with the original text. [← All analysis & writing](../analysis.qmd)
+:::
+
+The MEITy (Ministry of Electronics & Information Technology, GoI) notified the programme details for semiconductors on 21 December 2021, six days after the Cabinet approved the much-awaited 'comprehensive program for the development of a sustainable semiconductor and display ecosystem'.
+
+Now, let us dive into the specifics of one of the four notifications related to incentives for semiconductor design, termed as Design Linked Incentive (DLI) Scheme. The [scheme document](https://egazette.nic.in/WriteReadData/2021/232055.pdf) is the source for the key ideas below.
+
+## Scheme Background
+
+The scheme acknowledges that semiconductor design is India's comparative advantage. It acknowledges that nearly 20% of the world's design engineers are in India and that India has a thriving semiconductor design ecosystem.
+
+The problems identified under the scheme are:
+
+- Not a lot of Intellectual Property (IP) belongs to Indian companies. This is problematic as countries are known to put strict export controls in this domain. So, even if a foreign company X has a design house in India, the country where X is headquartered can forbid an Indian customer from using the products made by X in India.
+- The cumulative revenue of domestic semiconductor design companies is really really small, less than Rs 150 crore.
+- No specific incentive for semiconductor design firms earlier.
+
+## Scheme Details
+
+The gazette notification details three initiatives that comprise the DLI. C-DAC is responsible for creating the Design Infrastructure.
+
+PDLI reimbursement covers:
+
+> Expenses of approved applicants relating to design, development, testing, fabrication, validation, prototype development, product development, filing of Intellectual Property Rights etc. shall be considered as eligible expenditure for reimbursement under Product Design Linked Incentive component of the scheme. Design and development of EDA Tools shall also be covered under this component of the scheme.
+
+The Deployment Linked Incentive will be based on the net sales and return filing every year.
+
+## Timeline
+
+- Companies can apply, starting 01.01.2022 until 31.12.2024.
+- Applications will be approved on an ongoing basis.
+
+## Positives — My initial assessment
+
+- Focus on Design Infrastructure is great. A lot of companies feel that the high costs of EDA licenses are an entry barrier.
+- A fixed 5-year time period can prevent the 'evergreening' of such incentives and sets clear priorities.
+- There are no overly granular requirements on outputs that companies should make. The government has been prudent in supporting semiconductor design broadly.
+- Picks many players (up to 100) rather than focus on just a couple. This design prevents policy capture by a few dominant firms.
+
+## Concerns — My initial assessment
+
+### Regarding the objectives
+
+- The logic of self-reliance can lead the government to raise trade barriers. Such barriers might help a few companies but will hurt consumers and the business environment in India.
+- Import substitution of semiconductors is not a realisable goal. As manufacturing capability increases, imports also will increase. For instance, Taiwan imports a lot of electronic products and semiconductor manufacturing equipment in order to export chips.
+
+### Regarding the tools
+
+- There's no mention of design services companies. This sector is where a lot of India's design engineers work. Design services companies can be brought under the design infrastructure support section of the DLI.
+- There's a line that the government might consider "increasing the tenure of the scheme and changing its financial outlay" after a 2-year review. This might open the doors for companies that are availing the incentives to change the scheme such that it blocks new competitors.
+- Product Design Linked incentives are provided for designs that have "demonstrated in an operational environment and are ready for volume production." I am sceptical that this approach will lead to investment in safer companies rather than early-stage start-ups working on breakthrough IP design ideas. The incentives should be provided for some riskier adventures as well while accepting a certain rate of failure.
+- Administering industrial policy requires immense regulatory capacity. I'm not sure how well CDAC can perform this regulatory role. I would have preferred a group under the proposed Indian Semiconductor Mission (ISM) to manage this DLI fund.

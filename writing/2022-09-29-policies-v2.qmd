@@ -1,0 +1,52 @@
+---
+title: "Analysing India's Semiconductor Policies v2.0"
+author: "Pranay Kotasthane"
+date: 2022-09-29
+---
+
+::: {.callout-note}
+## Originally published
+[LinkedIn](https://www.linkedin.com/pulse/analysing-indias-semiconductor-policies-v20-pranay-kotasthane/), 29 September 2022. Republished here with the original text. [← All analysis & writing](../analysis.qmd)
+:::
+
+Last week, the Union Cabinet approved modifications to three of the four schemes introduced in December 2021 for developing a domestic semiconductor ecosystem. Several news websites have claimed that with the government "sweetening the deal", investments in this sector will be more forthcoming. I agree, but not without some fundamental reservations. Here's why.
+
+## Semiconductor Fabs
+
+To attract chip manufacturing companies, the original programme promised up to 50% upfront financial support for leading-edge nodes (28 nanometres and below). The promised fiscal support for trailing-edge nodes employing older technologies dropped commensurately, going down to 30% for a fab that produces chips at the 45-65 nanometre nodes. (The node size is a rough measure for the size of a building block in a chip. The smaller that number, the more building blocks that can be packed in the same area resulting in higher performance).
+
+Under the new scheme, the government promises upfront fiscal support of 50% for all node sizes. The change reflects two realities. First, trailing-edge fabs are crucial for India. The demand for older node sizes will not disappear anytime soon. Future applications such as 5G radios and electric vehicles will continue to require manufacturing at these nodes. Most current defence applications also require trailing-edge chips.
+
+Second, many countries are wooing the leading-edge node foundries with much larger incentive packages. Companies such as TSMC are being courted by all major powers, and it's unlikely they will pick India for the most-advanced nodes. India's chances are better for securing older technologies.
+
+## Display Fabs
+
+Most display panel manufacturers are located in East Asia — companies from China, Taiwan, South Korea, and Japan dominate this industry. The scheme was designed with the explicit aim of import substitution. The original scheme promised up to 50% upfront financial support subject to a cap of ₹12,000 crores. As part of the changes, this upper cap has been struck off.
+
+To me, this scheme didn't make sense even when it was announced. I have four reasons for the scepticism.
+
+1. Even during the high peak of supply chain disruptions during COVID-19, there was no shortage of display panels, indicating that there are no constraints to increasing production, as is the case for chips. (The only shortage related to displays was for the driver chip, not the panels by themselves).
+2. Apart from China and Taiwan, South Korea and Japan have leadership in specific segments of displays. So we aren't dependent on one vulnerable source, as in the case of chips.
+3. Import dependence on China won't go away. Even if these fabs manufacture displays in India, the input materials will have to be imported from elsewhere. So the bottlenecks will shift but don't disappear.
+4. The industry is moving to newer technologies apart from LCDs and AMOLEDs. Samsung is focusing on Quantum-dot displays instead of LCDs. The scheme might be able to get old-tech here, but for newer technologies, imports might continue.
+
+Thus, to spend ₹12000 crores for a product in the pursuit of a failed notion of import substitution doesn't justify the opportunity costs. Moreover, removing the upper cap after Vedanta-Foxconn got into this game raises concerns about rent-seeking — the tendency of businesses to distort policies to serve their own interests.
+
+## Assembly, Test, Packaging Units, and Specialised Low-volume Fabs
+
+For assembly, test and packaging firms, & compound fabs, the promised financial support has increased substantially, from 30% to 50%. More importantly, the original scheme allowed disbursal once a facility had begun production. Under the modified scheme, the financial support will be upfront. Prepaid, not postpaid.
+
+These changes again warrant scrutiny. Is it another case of rent-seeking?
+
+At the margin, I am okay with the changes in this segment. India has a potential advantage because of the need for a large, mid-level trained workforce for this segment of the supply chain, in comparison to conventional semiconductor fabs.
+
+## Semiconductor Design
+
+Surprisingly, there were no modifications in the one area where India does have a comparative advantage — semiconductor design and design services. The capital requirement for this segment is at least two orders of magnitude lower than the first three segments. And yet, the response to the scheme for encouraging design firms seems less than lukewarm. We proposed two changes in the policy for that segment in an article for Hindustan Times earlier this month:
+
+1. To receive deployment-linked incentives under the current scheme, a design firm has to be registered in India with a 50% local stake. That clause could be watered down. Companies should qualify as long as the workforce is majorly Indian and the development happens here.
+2. Reducing tariff and non-tariff barriers are also crucial for India's semiconductor design companies to increase operations in India.
+
+On both these counts, the status quo prevails.
+
+To summarise, the modifications reflect the government's seriousness in attracting investment in this sector. Through these changes, the government is acknowledging that India must start its chip manufacturing journey at the lower end and climb its way up. Getting good at this game takes a couple of decades. At the same time, a thin line separates responsive government policies from regulatory capture by businesses. All industrial policies run this risk, and we need to be vigilant.

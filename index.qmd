@@ -24,7 +24,20 @@ As of `r format(Sys.Date(), "%B %Y")`, **`r sum(facilities$status == "Operationa
 
 But the hard part is just beginning. Assembly and packaging projects are moving fast, but [the budget data shows](budget.qmd) a significant gap between allocated funds and actual disbursement — especially for fabrication. India's fab ambitions target [mature 28nm-55nm nodes](nodes.qmd), a deliberate strategic choice that avoids the cutting edge but addresses the chips India actually needs.
 
-This tracker monitors every facility in real time. Explore the map below, or dive into the [timeline](timeline.qmd), [technology context](nodes.qmd), or [budget analysis](budget.qmd).
+This tracker monitors every facility in real time. Explore the map below, or dive into the [timeline](timeline.qmd), [technology context](nodes.qmd), or [budget analysis](budget.qmd). For what all of this adds up to, read the [analysis](analysis.qmd).
+
+```{r watch-strip, echo=FALSE, results='asis'}
+# Compact "What to Watch" strip: the three pending signposts due soonest (open-ended ones last)
+sp <- load_signposts("data/signposts.yml")$signposts
+sp <- sp[sp$status == "Pending", ]
+sp <- sp[order(is.na(sp$due), sp$due), ][seq_len(min(3, nrow(sp))), ]
+items <- paste0("<li>", sp$signpost,
+                ifelse(is.na(sp$due), "", paste0(' <span class="tk-meta-sm">(due ', format(sp$due, "%b %Y"), ")</span>")),
+                "</li>", collapse = "")
+cat('<div class="callout callout-style-simple callout-note"><div class="callout-body">',
+    '<p><strong>What to watch</strong></p><ul>', items, '</ul>',
+    '<p><a href="watch.qmd">All signposts →</a></p></div></div>', sep = "")
+```
 
 ---
 

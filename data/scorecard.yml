@@ -1,0 +1,86 @@
+# Recommendations made in Pranay Kotasthane's writing (data/writing.yml) and whether
+# Semicon 2.0 (notified 31 Aug 2026) adopted them. Rendered on analysis.qmd.
+#
+#   verdict: Adopted | Partly adopted | Not adopted | Open
+#   first_made / repeated: ids from data/writing.yml
+
+recommendations:
+- id: delink-ownership
+  recommendation: Fund any India-registered design firm; delink support from foreign-shareholding limits
+  first_made: linkedin-2022-policies-v2
+  repeated: [hindu-2024-overhaul-dli, takshashila-2026-semicon2-big-things, ht-2026-semicon2-gets-it-right]
+  verdict: Partly adopted
+  what_happened: >-
+    The 50% FDI cap is gone and OCIs qualify, but an "owned and controlled by citizens/OCIs" test replaces it.
+
+- id: replace-cdac
+  recommendation: Move design support from C-DAC (a market player) to a body under ISM
+  first_made: linkedin-2021-dli
+  repeated: [hindu-2024-overhaul-dli]
+  verdict: Partly adopted
+  what_happened: >-
+    ISM is now nodal for the whole value chain, but C-DAC runs Category 1 bidding and co-owns the resulting IP.
+
+- id: fund-early-stage
+  recommendation: Fund risky early-stage designs, not only volume-ready products; tolerate failure
+  first_made: linkedin-2021-dli
+  repeated: [legion-2021-four-schemes, hindu-2024-overhaul-dli]
+  verdict: Adopted
+  what_happened: >-
+    Milestone-linked seed funding up to ₹15 crore, followed by equity or royalty financing.
+
+- id: bigger-design-outlay
+  recommendation: Substantially raise the outlay for chip design
+  first_made: hindu-2024-overhaul-dli
+  repeated: []
+  verdict: Adopted
+  what_happened: >-
+    Design is now the first of six pillars, with three categories and a 9% deployment incentive (cap ₹120 crore per company).
+
+- id: drop-display-fabs
+  recommendation: Drop subsidies for display fabs; they are not a supply-chain constraint
+  first_made: legion-2021-four-schemes
+  repeated: [linkedin-2022-policies-v2]
+  verdict: Not adopted
+  what_happened: >-
+    Display fabs retained at 35% of capex with an open three-year window, despite zero takers under Semicon 1.0.
+
+- id: trailing-edge-fabs
+  recommendation: Support trailing-edge nodes, where India's chances are better
+  first_made: linkedin-2022-policies-v2
+  repeated: []
+  verdict: Adopted
+  what_happened: >-
+    Flat 40% support for silicon fabs regardless of node (down from 50%).
+
+- id: packaging-research
+  recommendation: Prioritise research in advanced packaging, not just ATMP units
+  first_made: legion-2021-four-schemes
+  repeated: []
+  verdict: Adopted
+  what_happened: >-
+    Advanced packaging (2.5D/3D, chiplets) gets 35% vs 25% for legacy; R&D pillar funds chiplet research at up to 75%.
+
+- id: passive-equity
+  recommendation: Hold equity passively alongside SEBI-registered AIFs, as in ANRF's RDI scheme
+  first_made: takshashila-2026-semicon2-big-things
+  repeated: [ht-2026-semicon2-gets-it-right, lossfunk-2026-game-on]
+  verdict: Open
+  what_happened: >-
+    Depends on the Category 2 guidelines, not yet published.
+
+- id: demand-instrument
+  recommendation: Add a demand instrument (anchor procurement, trusted offtake) to the supply subsidy
+  first_made: takshashila-2026-semicon2-big-things
+  repeated: [lossfunk-2026-game-on]
+  verdict: Not adopted
+  what_happened: >-
+    Category 3 lowers the Indian chip's price (9% of net sales) but does not make any OEM buy it.
+
+- id: ism-capacity
+  recommendation: Build the administering agency's capacity before widening its mandate
+  first_made: linkedin-2021-dli
+  repeated: [hindu-2024-overhaul-dli, takshashila-2026-semicon2-big-things, ht-2026-semicon2-gets-it-right, lossfunk-2026-game-on]
+  verdict: Open
+  what_happened: >-
+    ISM's mandate has widened to ten categories plus an equity and royalty portfolio; no matching capacity plan announced.

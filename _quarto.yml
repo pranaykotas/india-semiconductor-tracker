@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: _site
+  # Copy static files (e.g. slide decks embedded on analysis.qmd) into _site/
+  resources:
+    - "assets/*"
+  # Stamp the footer with the date the data last changed (writes _variables.yml)
+  pre-render: Rscript R/write_data_date.R
   render:
     - "*.qmd"
     - "!CLAUDE.md"
@@ -28,7 +33,13 @@ website:
           - text: "Equipment & Materials"
             href: equipment.qmd
       - text: "Policy & Budget"
-        href: budget.qmd
+        menu:
+          - text: "Budget & Schemes"
+            href: budget.qmd
+          - text: "Analysis & Writing"
+            href: analysis.qmd
+          - text: "What to Watch"
+            href: watch.qmd
       - text: "About"
         href: about.qmd
     right:
@@ -41,7 +52,7 @@ website:
 
   page-footer:
     left: |
-      &copy; 2026 [Pranay Kotasthane](https://pranaykotas.com) · [Takshashila Institution](https://takshashila.org.in)
+      &copy; 2026 [Pranay Kotasthane](https://pranaykotas.com) · [Takshashila Institution](https://takshashila.org.in)<br>Data last updated: {{< var data_updated >}}
     center: |
       Part of the [Siliconpolitik Project](https://takshashila.org.in/pages/research-areas/focus-areas/siliconpolitik.html) · [Subscribe for monthly updates](https://hightechir.substack.com/s/siliconpolitik)
     right: |

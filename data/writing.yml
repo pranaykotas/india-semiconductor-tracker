@@ -1,0 +1,118 @@
+# Pranay Kotasthane's analysis of India's semiconductor policy, newest first.
+# Rendered on analysis.qmd (Policy & Budget → Analysis & Writing).
+#
+# Fields:
+#   id          unique slug
+#   title       title as originally published
+#   authors     list, as bylined in the original
+#   outlet      where it originally appeared
+#   date        original publication date (YYYY-MM-DD)
+#   type        Op-ed | Blog | Talk
+#   url         canonical link to the original
+#   local_page  path to the full text republished on this site (null if summary only;
+#               newspaper op-eds are summary + link to respect the outlet's rights)
+#   summary     2–3 sentence summary, written for this site
+#   policy      which scheme(s) the piece assesses
+
+writing:
+- id: lossfunk-2026-game-on
+  title: "Game On: The State of India's Semiconductor Ecosystem"
+  authors: [Pranay Kotasthane]
+  outlet: Talk at Lossfunk, Bengaluru (slides)
+  date: '2026-11-24'
+  type: Talk
+  url: assets/ISM2-Lossfunk.pdf
+  local_page: null
+  policy: Semicon 1.0 and 2.0
+  summary: >-
+    A 45-slide stock-take. India has built what is easiest to build (assembly and packaging);
+    the Dholera fab is the real test. India is strong at chip design but weak at owning it. Semicon 2.0
+    is more coherent but turns the state from subsidiser into shareholder, and ISM's administrative
+    capacity is the binding constraint.
+
+- id: ht-2026-semicon2-gets-it-right
+  title: Semicon 2.0 gets it right on the issues that matter
+  authors: [Pranay Kotasthane]
+  outlet: Hindustan Times
+  date: '2026-09-09'
+  type: Op-ed
+  url: https://www.hindustantimes.com/opinion/semicon-2-0-gets-it-right-on-the-issues-that-matter-101788885452464.html
+  local_page: null
+  policy: Semicon 2.0
+  summary: >-
+    Semicon 2.0 puts chip design front and centre, moves design from C-DAC to ISM, funds research and
+    talent (including operating costs), and trims capex support to a 30–40% band. The control test that
+    replaces the FDI cap, state equity under public-finance scrutiny, and C-DAC co-owning Category 1 IP
+    are the weak spots. The largest risk is the administrative load on ISM.
+
+- id: takshashila-2026-semicon2-big-things
+  title: Semicon 2.0 Gets the Big Things Right
+  authors: [Pranay Kotasthane]
+  outlet: Takshashila Institution (blog)
+  date: '2026-08-31'
+  type: Blog
+  url: https://takshashila.org.in/content/blogs/20260831-semicon2-gets-big-v2.html
+  local_page: writing/2026-08-31-semicon2-big-things.qmd
+  policy: Semicon 2.0
+  summary: >-
+    A pillar-by-pillar reading of the Semicon 2.0 notification against the 2021 schemes. Funding for
+    people, research and shared tools is worth defending; government equity, co-owned IP and Cabinet
+    routing are worth watching. Suggests ISM route equity passively alongside SEBI-registered AIFs, as
+    in ANRF's RDI scheme.
+
+- id: hindu-2024-overhaul-dli
+  title: The need to overhaul a semiconductor scheme
+  authors: [Satya S. Sahu, Pranay Kotasthane]
+  outlet: The Hindu
+  date: '2024-01-24'
+  type: Op-ed
+  url: https://www.thehindu.com/opinion/op-ed/the-need-to-overhaul-a-semiconductor-scheme/article67768726.ece
+  local_page: null
+  policy: Design Linked Incentive
+  summary: >-
+    Written ahead of the DLI mid-term appraisal, when only seven start-ups had been approved against a
+    target of 100. Argues for delinking ownership from eligibility (fund any India-registered design
+    entity), a larger outlay, and replacing C-DAC as nodal agency with an SFAL-style body under ISM that
+    tolerates failure.
+
+- id: linkedin-2022-policies-v2
+  title: Analysing India's Semiconductor Policies v2.0
+  authors: [Pranay Kotasthane]
+  outlet: LinkedIn
+  date: '2022-09-29'
+  type: Blog
+  url: https://www.linkedin.com/pulse/analysing-indias-semiconductor-policies-v20-pranay-kotasthane/
+  local_page: writing/2022-09-29-policies-v2.qmd
+  policy: Semicon 1.0 (September 2022 revision)
+  summary: >-
+    Assesses the September 2022 changes: a flat 50% for fabs of all nodes (sensible, given trailing-edge
+    demand), the display-fab cap removed (rent-seeking risk), and upfront 50% support for ATMP. Notes that
+    design, India's real advantage, saw no changes at all.
+
+- id: linkedin-2021-dli
+  title: Assessing the Government of India's Design Linked Incentive Scheme
+  authors: [Pranay Kotasthane]
+  outlet: LinkedIn
+  date: '2021-12-24'
+  type: Blog
+  url: https://www.linkedin.com/pulse/assessing-government-indias-design-linked-incentive-pranay-kotasthane/
+  local_page: writing/2021-12-24-dli-assessment.qmd
+  policy: Design Linked Incentive
+  summary: >-
+    First read of the DLI notification. Welcomes the focus on design infrastructure and the breadth of up
+    to 100 firms; worries about import-substitution logic, the bias toward volume-ready products over
+    risky early-stage designs, and C-DAC's capacity to act as regulator.
+
+- id: legion-2021-four-schemes
+  title: Assessing GoI's Four Schemes for Building a Semiconductor Ecosystem
+  authors: [Pranay Kotasthane]
+  outlet: Takshashila Institution (Legion blog)
+  date: '2021-12-21'
+  type: Blog
+  url: https://legion.takshashila.org.in/blogs/assessing-gois-four-schemes-for-building-a-semiconductor-ecosystem
+  local_page: writing/2021-12-21-four-schemes.qmd
+  policy: Semicon 1.0
+  summary: >-
+    Scheme-by-scheme assessment of the four December 2021 notifications (DLI, compound/ATMP, display fabs,
+    silicon fabs). Design is the comparative advantage; display fabs make the least strategic sense; two
+    or three fabs will not be enough on their own, so plurilateral work through the Quad matters.

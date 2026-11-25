@@ -1,0 +1,48 @@
+---
+title: "What to Watch"
+subtitle: "Signposts that will show whether India's semiconductor policy is working"
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+source("R/helpers.R")
+sp <- load_signposts("data/signposts.yml")
+signposts <- sp$signposts
+facilities <- load_facilities("data/facilities.yml")
+```
+
+Announcements are cheap; these five events are not. Each one tests a claim made in the [analysis](analysis.qmd). Signposts are reviewed as news comes in and were last reviewed on **`r format(sp$last_reviewed, "%d %B %Y")`**.
+
+```{r signpost-table, echo=FALSE, results='asis'}
+# Link a signpost to its facility profile page when it has one
+related_link <- function(id) {
+  if (is.na(id) || !(id %in% facilities$id)) return("")
+  paste0('<br><a href="facilities/', id, '.html" class="tk-meta-sm">Facility profile →</a>')
+}
+
+rows <- vapply(seq_len(nrow(signposts)), function(i) {
+  s <- signposts[i, ]
+  due <- if (is.na(s$due)) "Open" else format(s$due, "%b %Y")
+  latest <- if (is.na(s$latest_note)) "—" else
+    paste0('<span class="tk-meta-sm">', format(s$latest_date, "%d %b %Y"), ":</span> ", s$latest_note)
+  paste0("<tr><td><strong>", s$signpost, "</strong>", related_link(s$related),
+         "</td><td>", s$why, "</td><td>", due, "</td><td>", signpost_badge_html(s$status),
+         "</td><td>", latest, "</td></tr>")
+}, character(1))
+
+cat('<div class="table-responsive"><table class="table table-sm">',
+    "<thead><tr><th>Signpost</th><th>Why it matters</th><th>Due</th><th>Status</th><th>Latest</th></tr></thead><tbody>",
+    paste(rows, collapse = "\n"), "</tbody></table></div>", sep = "\n")
+```
+
+## How a Signpost Resolves
+
+```{r resolve-list, echo=FALSE, results='asis'}
+for (i in seq_len(nrow(signposts))) {
+  cat("- **", signposts$signpost[i], "**: ", signposts$resolves_when[i], "\n", sep = "")
+}
+```
+
+**Status key:** *Pending*, not yet due or not yet resolved · *Met*, happened as expected · *Slipped*, happened late or the target date was pushed · *Missed*, the due date passed without it happening.
+
+Spend data is reviewed once a year, when the Union Budget is presented. See [Policy & Budget](budget.qmd).

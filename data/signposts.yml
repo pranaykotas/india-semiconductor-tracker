@@ -1,0 +1,62 @@
+# "What to Watch" — signposts for India's semiconductor policy over the next 12 months.
+# Rendered on watch.qmd and as a strip on index.qmd.
+#
+#   status: Pending | Met | Missed | Slipped
+#   due:    date by which we expect resolution (YYYY-MM-DD); null if open-ended
+#   resolves_when: what counts as the signpost being met
+#   related: optional id in facilities.yml / design.yml / equipment_materials.yml
+#   updates[]: dated notes as evidence comes in (newest last)
+
+last_reviewed: '2026-11-25'
+
+signposts:
+- id: kaynes-unit-2
+  signpost: Kaynes Unit 2 at Sanand opens in December 2026, as guided
+  why: Is packaging moving up the value chain?
+  due: '2026-12-31'
+  status: Pending
+  resolves_when: Inauguration or start of commercial production at Unit 2, reported by the company or PIB
+  related: kaynes-sanand
+  updates:
+  - date: '2026-11-25'
+    note: Company guidance (CEO Raghu Panicker) targets December 2026, including an automotive reliability and failure-analysis lab.
+
+- id: dholera-revised-date
+  signpost: A revised completion date for the Tata-PSMC Dholera fab
+  why: The first commercial fab is the real test of Semicon 1.0
+  due: null
+  status: Pending
+  resolves_when: Tata Electronics, MeitY or ISM publicly states a revised commissioning date
+  related: tata-psmc-dholera
+  updates:
+  - date: '2026-11-25'
+    note: Behind its original schedule; no revised date announced.
+
+- id: first-cat2-equity
+  signpost: The first Category 2 equity co-investment under Semicon 2.0
+  why: Who sets the valuation, on what terms, and does the state stay passive?
+  due: null
+  status: Pending
+  resolves_when: ISM announces an equity or royalty deal with a named chip-design firm
+  related: null
+  updates:
+  - date: '2026-11-25'
+    note: Scheme notified 31 August 2026; guidelines for equity and royalty financing awaited.
+
+- id: fy28-fab-actuals
+  signpost: Fab-line actuals in the Union Budget 2027–28
+  why: Actuals, not estimates, show whether the fab subsidy is being disbursed
+  due: '2027-02-01'
+  status: Pending
+  resolves_when: Budget documents publish FY26 actuals and FY27 revised estimates for the fab incentive line
+  related: null
+  updates: []
+
+- id: rd-guidelines
+  signpost: Guidelines for the Semicon 2.0 R&D pillar (Category 9)
+  why: Can academic labs actually draw the money?
+  due: null
+  status: Pending
+  resolves_when: MeitY/ISM publishes operational guidelines with eligibility and disbursal rules for Category 9
+  related: null
+  updates: []

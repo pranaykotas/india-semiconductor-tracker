@@ -1,0 +1,96 @@
+---
+title: "Analysis & Writing"
+subtitle: "Pranay Kotasthane's assessments of India's semiconductor policy, 2021–2026"
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+source("R/helpers.R")
+
+writing   <- load_writing("data/writing.yml")
+scorecard <- load_scorecard("data/scorecard.yml")
+
+# Lookup: writing id → "Outlet, Mon YYYY" with link (used in the scorecard)
+cite_link <- function(ids) {
+  if (length(ids) == 0) return("")
+  w <- writing[match(ids, writing$id), ]
+  href <- ifelse(is.na(w$local_page), w$url, sub("\\.qmd$", ".html", w$local_page))
+  paste0('<a href="', href, '">', w$outlet, ", ", format(w$date, "%b %Y"), "</a>",
+         collapse = "; ")
+}
+```
+
+This page collects my analysis of India's semiconductor policy since the first schemes were notified in December 2021. The data on the rest of this site is the evidence; this is the argument. Each piece notes where it originally appeared.
+
+## The Bottom Line (November 2026)
+
+1. **India has built what is easiest to build.** Assembly and packaging progress is real; the Dholera fab is the test.
+2. **Execution is the binding constraint.** The fab incentive line spent nothing for two years ([budget data](budget.qmd)).
+3. **India is strong at chip design, weak at owning it.** The constraint is commercialisation, not talent ([design tracker](design.qmd)).
+4. **Semicon 2.0 is more coherent, but it turns the state into an investor.** Watch the cap table, the IP clauses and the Cabinet queue.
+5. **State capacity is the leverage point.** Everything else depends on it.
+
+What to look for next is on the [What to Watch](watch.qmd) page.
+
+---
+
+## What I Recommended, and What the Government Did
+
+Recommendations from the pieces below, scored against the Semicon 2.0 notification of 31 August 2026.
+
+```{r scorecard, echo=FALSE, results='asis'}
+# Build an HTML table: recommendation | first made (and repeated) | verdict | what happened
+rows <- vapply(seq_len(nrow(scorecard)), function(i) {
+  r <- scorecard[i, ]
+  repeated <- r$repeated[[1]]
+  where <- cite_link(r$first_made)
+  if (length(repeated)) where <- paste0(where, '<br><small class="text-muted">Also in: ', cite_link(repeated), "</small>")
+  paste0("<tr><td>", r$recommendation, "</td><td>", where, "</td><td>",
+         verdict_badge_html(r$verdict), "</td><td>", r$what_happened, "</td></tr>")
+}, character(1))
+
+cat('<div class="table-responsive"><table class="table table-sm scorecard-table">',
+    "<thead><tr><th>Recommendation</th><th>First made</th><th>Verdict</th><th>What Semicon 2.0 did</th></tr></thead><tbody>",
+    paste(rows, collapse = "\n"), "</tbody></table></div>", sep = "\n")
+
+# One-line tally under the table
+tally <- table(factor(scorecard$verdict, levels = c("Adopted", "Partly adopted", "Not adopted", "Open")))
+cat(sprintf('\n\n<p class="tk-meta-sm">%d adopted · %d partly adopted · %d not adopted · %d still open</p>\n',
+            tally[[1]], tally[[2]], tally[[3]], tally[[4]]))
+```
+
+---
+
+## Latest Talk: "Game On" (Lossfunk, November 2026)
+
+A 45-slide stock-take of manufacturing, design, Semicon 2.0 and geopolitics. Most charts are drawn from this tracker.
+
+<div class="ratio" style="--bs-aspect-ratio: 62%;">
+<iframe src="assets/ISM2-Lossfunk.pdf" title="Game On: The State of India's Semiconductor Ecosystem (slides)" loading="lazy" style="border:1px solid #e5e0dc;"></iframe>
+</div>
+
+<p style="margin-top:0.5rem;"><a href="assets/ISM2-Lossfunk.pdf" class="btn-detail" download>Download slides (PDF)</a></p>
+
+---
+
+## All Writing
+
+```{r writing-list, echo=FALSE, results='asis'}
+# One block per piece, newest first. Full text is on this site where we hold the rights;
+# newspaper op-eds link to the original outlet.
+for (i in seq_len(nrow(writing))) {
+  w <- writing[i, ]
+  if (w$type == "Talk") next  # the talk is embedded above
+  read_here <- if (!is.na(w$local_page)) {
+    paste0(' · <a href="', sub("\\.qmd$", ".html", w$local_page), '">Read full text here</a>')
+  } else ""
+  cat(paste0(
+    '\n<div class="content-block writing-item">\n',
+    '<h3 class="writing-title">', w$title, '</h3>\n',
+    '<p class="tk-meta-sm">', w$authors, ' · <strong>Originally published in ', w$outlet, '</strong>, ',
+    format(w$date, "%d %B %Y"), ' · ', w$policy, '</p>\n',
+    '<p>', w$summary, '</p>\n',
+    '<p><a href="', w$url, '" target="_blank" rel="noopener">Read the original</a>', read_here, '</p>\n',
+    '</div>\n'))
+}
+```

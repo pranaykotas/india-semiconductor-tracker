@@ -1,0 +1,137 @@
+---
+title: "Semicon 2.0 Gets the Big Things Right"
+author: "Pranay Kotasthane"
+date: 2026-08-31
+toc: true
+---
+
+::: {.callout-note}
+## Originally published
+[Takshashila Institution blog](https://takshashila.org.in/content/blogs/20260831-semicon2-gets-big-v2.html), 31 August 2026. Republished here with the original text. [← All analysis & writing](../analysis.qmd)
+:::
+
+On 31 August 2026, the Ministry of Electronics & Information Technology (MeitY) notified [Semicon 2.0 – Scheme for the development of Semiconductor Design and Manufacturing Ecosystem in India](https://egazette.gov.in/WriteReadData/2026/275860.pdf). While Semicon 1.0 in 2021 arrived as four separate notifications—the Design Linked Incentive (DLI), a compound-semiconductor/ATMP scheme, a display-fab scheme, and a silicon-fab scheme—Semicon 2.0 consolidates the whole thing into a single scheme with six pillars and ten categories, spanning design, materials, fabrication, packaging, R&D and talent.
+
+I had analysed all four 2021 schemes [here](https://legion.takshashila.org.in/blogs/assessing-gois-four-schemes-for-building-a-semiconductor-ecosystem), [here](https://www.linkedin.com/pulse/assessing-government-indias-design-linked-incentive-pranay-kotasthane/?trackingId=%2FV5HvmyWQiqJ2d9Xqb6RWg%3D%3D) and [here](https://www.linkedin.com/pulse/analysing-indias-semiconductor-policies-v20-pranay-kotasthane/?trackingId=S5R%2BleMgTpKMB1PQ1bYNng%3D%3D). This post revisits those concerns, sets out what has changed, and flags the risks that come with the new regime. My frame of reference remains public policy design, and my motivation is the Indian national interest.
+
+## What the Scheme Does
+
+The stated objective is to build a “self-reliant and globally competitive semiconductor chip design and manufacturing ecosystem” that supports economic growth, strengthens national security through supply-chain resilience, and establishes technological leadership in critical sectors.
+
+And to do this, the scope and scale of government involvement have increased with Semicon 2.0. **The India Semiconductor Mission (ISM) is now the single nodal agency for the entire value chain, with C-DAC assisting only on the design and deployment categories**. The scheme is open for applications for an initial three years, projects run up to six years, and a mid-term appraisal is due after three years. Approvals under ₹100 crore go to the MeitY Secretary; ₹100–500 crore to the Minister; and anything above ₹500 crore, plus all manufacturing categories, to the Cabinet.
+
+The table below gives a one-shot view of all that has changed.
+
+| Dimension | Semicon 1.0 (four separate schemes) | Semicon 2.0 (2026, one scheme) |
+|----|----|----|
+| Structure | Four standalone notifications: DLI, Compound/ATMP, Display fabs, Silicon fabs | Single scheme, 6 pillars, 10 categories, full value chain |
+| Objective framing | “Sustainable semiconductor and display ecosystem” | “Self-reliant… national security… sovereign technologies” |
+| Review clause | 2-year review (DLI); no end date (Compound/ATMP) | Mid-term appraisal after 3 years; standing power to amend |
+| Nodal agency | ISM for the three manufacturing schemes; C-DAC for DLI | ISM for everything; C-DAC assists only on design/deployment |
+| Design-linked incentive model | Reimbursement of up to 50% eligible expenditure (PDLI) capped at ₹15 cr + deployment incentive on net sales of 4-6% with a cap of ₹30 cr per applicant | Seed funding, government equity co-investment, royalty financing, plus 9% deployment incentive on net sales (cap ₹30 cr/application, ₹120 cr/company) |
+| Early-stage support for chip design | Tilted toward volume-ready products; only 24 of the goal of 100 start-ups got PDLI support | Explicit milestone-linked seed funding for startups/MSMEs (up to ₹15 cr) |
+| IP ownership for chip design | Applicant-owned; concern was too little Indian IP | Category 1 strategic IP co-owned with C-DAC |
+| Ownership eligibility (chip design) | ~51% Indian ownership: 3-year domestic-status lock, max 50% FDI | Numeric FDI cap dropped; qualitative “owned and controlled by Indian citizens” (Cat 1) or “citizens or OCIs” (Cat 2) |
+| Fab support model | Upfront, pari-passu capital support (ISM 1.0, firmed up 2022) | Upfront, pari-passu capital support retained — quantum reduced |
+| Silicon fab support | 50% (after the Sept 2022 change); ₹20,000 cr min | Flat 40% of capex; ₹20,000 cr min capex, ₹7,500 cr revenue, 300mm / 40,000 WSPM |
+| Display fab support | Up to 50% of project cost; two fabs; 45-day window | 35% of capex; OLED/microLED/LCD; ongoing 3-year window |
+| Compound/ATMP support | 50% capex (after the Sept 2022 change) | Compound/photonics/sensors 35%; ATMP advanced 35%, legacy 25%; plus equipment PLI (10/8/6/4/2% of BOM from FY2028-29) |
+| R&D and talent | Not a distinct funded stream | Two dedicated pillars, each up to 75% of project cost |
+| Approval routing | Per-scheme evaluation | Tiered: \<₹100 cr Secretary, ₹100–500 cr Minister, \>₹500 cr and all manufacturing to Cabinet |
+
+## The Gory Details
+
+### Pillar 1: Chip Design
+
+Chip design is front and centre of Semicon 2.0 and has three categories.
+
+#### Category 1: Strategic & National Priorities
+
+This category targets mission-critical silicon (defence, telecom, critical infrastructure) via competitive bidding managed by C-DAC. Crucially, the notification mandates that all resulting IP rights be co-owned by the applicant company and C-DAC.
+
+**The Positive**: Secures sovereign control over critical IP, mitigating risks of export-control blockades and ensuring state-funded IP cannot be liquidated overseas.
+
+**The Risk**: Co-ownership with a state entity is structurally incompatible with global venture capital, which requires unencumbered IP to underwrite subsequent funding rounds. This effectively restricts Category 1 to traditional defence contractors or heavily subsidised state consortia. Since C-DAC both runs the Category 1 bidding and co-owns the output, the old conflict-of-interest concern survives in a new form.
+
+#### Category 2: Commercial Sector Fabless Design
+
+Stated objective: “To position India as a globally competitive hub for fabless semiconductor chip design, fostering innovation, creation of intellectual property and product ownership by way of extending fiscal and chip design infrastructure support, as well as catalysing venture capital funding for domestic semiconductor chip design companies.”
+
+This category offers centralised access to a national EDA tools grid, multi-project wafer fabrication, IP cores, and post-silicon validation. It proposes a hybrid capital stack: Seed Funding (up to ₹15 crore), and Equity Co-Investment or Royalty Financing if demand is higher. The previous strict 50% FDI cap has been removed, making Overseas Citizens of India (OCIs) eligible, provided the company remains “owned and controlled” by citizens/OCIs. Royalty Financing has been included to provide upfront support to firms that might not want to dilute their equity.
+
+- **The Positives:**
+
+  - Moving away from pure reimbursement grants to flexible equity/royalty structures allows startups to access critical early-stage risk capital. Centralised design infrastructure significantly lowers the initial capex barriers.
+
+  - Allows Indian firms to bid in consortium mode with global companies, R&D organisations, and academic institutions
+
+  - The rules for exiting the financing options are clear, so firms can choose to take the government off their cap table as they scale up.
+
+- **The Risks:**
+
+  - Equity co-investment and royalty financing turn the government into a quasi-VC holding stakes in private chip-design firms. This raises problems the reimbursement model avoided: how stakes are valued, how and when the government exits, whether public money crowds out or merely rides on private VC. It also puts the state on the cap table of companies it is selecting for incentives and regulates.
+
+  - OCI founders now qualify, and the notification has no hard FDI percentage, which is good news. But the clause has not disappeared. The constraint has shifted from a capital-share line to a control test. A startup can raise substantial foreign VC or PE — the scheme even anticipates this, since Category 2’s equity co-investment beyond ₹15 crore is reserved for companies that have already secured VC/PE funding — but only up to the point where citizens or OCIs still own and control it. That reconciles the government’s understandable reluctance to fund a foreign-controlled firm, but it stops short of the reform I had hoped for - delinking ownership entirely and funding any entity registered in India, on the logic that design capability comes first and home-grown IP follows. Semicon 2.0 adopted half of that.
+
+  - The policy mandates that all IP rights and design files remain strictly within India. This conflicts with the realities of global deep-tech financing, where VCs frequently require startups to “flip” IP to jurisdictions like Delaware or Singapore for cross-border M&A and global licensing.
+
+  - The exit clauses for royalty financing require a steep 1.5x to 2.0x repayment penalty, punishing startups that need to pivot during industry down-cycles.
+
+**A Speculation**:
+
+Venture capital relies on a power-law distribution where the vast majority of early-stage startups fail, and only a rare few succeed. Conversely, standard Indian public finance rules (overseen by the CAG, CVC, and CBI) treat the loss of public funds as potential impropriety. Thus, bureaucrats negotiating equity valuations will likely be overcautious. Also, deep-tech startups frequently face dilution. State entities lack the legal and administrative agility to approve rapid equity write-downs or bridge rounds, forcing promising startups into bankruptcy.
+
+To mitigate this, I think ISM might avoid direct stock selection (this will only be clear once the scheme guidelines are released). ISM might follow the Research and Development Incentive (RDI) scheme of the ANRF, where capital is routed passively as “automated matching funds” alongside SEBI-registered, private Alternative Investment Funds (AIFs). The private lead investor negotiates the valuation and conducts due diligence, while the state takes non-voting, pari-passu equity shares, shielding public officials from direct audit scrutiny.
+
+#### Category 3: Deployment-Linked Incentive (DLI)
+
+Offers a 9% reimbursement on net sales for 5 years to help startups offset the costs of commercialising their chips.
+
+- **The Positive:** The aggressive 9% margin buffer allows nascent Indian chipmakers to compete aggressively on price against established global incumbents during early customer trials.
+
+- **The Risk:** The DLI subsidises chip supply but does not address demand-side risk aversion. Indian OEMs prefer incumbent foreign vendors due to proven reliability. Without domestic procurement, the subsidy may struggle to generate actual market traction.
+
+### Pillar 2: Machines and Materials
+
+This scheme is meant for raw materials and equipment used in a fabrication facility. For firms doing this, the scheme introduces a 30% capex support and a Production Linked Incentive (PLI) ranging from 2% to 10% on domestic BoM-sourced equipment (starting FY29).
+
+**The positive:** This is arguably the most critical addition to the policy. A fab cannot be globally competitive without a localised, ultra-pure supply chain. Tying the PLI to domestic BoM sourcing aggressively promotes backward integration.
+
+**The risk**: Another PLI to manage for ISM.
+
+### Pillar 3: Silicon and Display Fabs
+
+- Category 5 (silicon wafer fabs: 300mm, 40,000 wafers/month, ₹20,000 crore minimum capital) gets 40% upfront capital support)
+
+- Category 6 (compound/photonics/sensor/discrete fabs) get upfront capital support at 35%, plus an equipment PLI from FY29), and
+
+- Category 7 (OLED/microLED/LCD display fabs) get upfront capital support at 35%
+
+- **Assessment:** Not much change here apart from a minor change in the quantum of support. But it is not clear to me why display fabs are strategic. But we are well past the point of asking that question given how industrial policy has become the default in a mercantilistic world.
+
+### Pillar 4: Chip assembly, packaging, and testing
+
+Category 8 establishes a graded structure: 35% for Advanced Packaging (2.5D/3D, chiplets) and 25% for Legacy Packaging.
+
+**Assessment:** This granularity is excellent. By offering a premium for advanced packaging, India aligns itself with the global shift toward heterogeneous integration, positioning the ecosystem for the next decade of semiconductor evolution. However, the ₹1000 crore minimum investment requirement may lock out agile, mid-sized domestic testing players.
+
+This is a domain in which India has built up some base-level capacity, so it’s good to aim higher here, especially because packaging is where the action has moved in order to save Moore’s Law.
+
+### Pillar 5: R&D
+
+Category 9: up to 75% of project cost for developing technologies such as advanced processes, silicon photonics and chiplet technologies for semiconductor companies, either on their own or in a consortium with academic institutions or R&D organisations,\*\* \*\*etc.
+
+**Assessment**: A lot will depend on the guidelines because the qualifying criteria are quite vague. Nevertheless, focusing on R&D is overall a move in the right direction.
+
+### Pillar 6: Talent Development
+
+Category 10: up to 75% for design-tools access, training infrastructure, and strengthening national nanofabrication labs.
+
+Assessment: Funding opex alongside capex is a major victory. Historically, Indian institutions secured funds for expensive capital equipment but lacked sustained operational budgets to run them effectively. Success here will depend entirely on ISM’s ability to establish low-friction disbursement channels to academic labs.
+
+## Bottom line
+
+Semicon 2.0 is a more coherent instrument than its predecessor. There is one agency, money on the table for people and research, and a move towards early-stage risk-taking. But it also expands the state’s role from paying costs to owning equity and IP. The parts that fund talent, research, and shared tools are the parts worth defending. The parts that put the government on the cap table and route billion-rupee decisions through the Cabinet are the ones to watch.
+
+**The single-most important leverage point here is ISM’s administrative capacity.** Handing ISM the whole value chain — ten categories, equity management, royalty tracking and investing mechanics—is a far larger capacity ask than the 2021 split. The concern I raised about C-DAC now applies, at greater scale, to ISM.
+

@@ -472,3 +472,72 @@ load_budget <- function(path = "data/budget.yml") {
   })
   bind_rows(rows)
 }
+
+# =====================================================================
+# Analysis & Writing, Scorecard, Signposts (added Nov 2026)
+# =====================================================================
+
+# ---- Load writing list (data/writing.yml) → tibble, newest first ----
+load_writing <- function(path = "data/writing.yml") {
+  raw <- yaml::read_yaml(path)$writing
+  bind_rows(lapply(raw, function(w) tibble(
+    id = w$id, title = w$title,
+    authors = paste(w$authors, collapse = " & "),
+    outlet = w$outlet, date = as.Date(w$date), type = w$type,
+    url = w$url, local_page = w$local_page %||% NA_character_,
+    policy = w$policy %||% NA_character_, summary = trimws(w$summary)
+  ))) %>% arrange(desc(date))
+}
+
+# ---- Load recommendation scorecard (data/scorecard.yml) ----
+load_scorecard <- function(path = "data/scorecard.yml") {
+  raw <- yaml::read_yaml(path)$recommendations
+  bind_rows(lapply(raw, function(r) tibble(
+    id = r$id, recommendation = r$recommendation,
+    first_made = r$first_made,
+    repeated = list(unlist(r$repeated) %||% character(0)),
+    verdict = r$verdict, what_happened = trimws(r$what_happened)
+  )))
+}
+
+# ---- Verdict badge for scorecard (reuses status badge colours) ----
+verdict_badge_html <- function(verdict) {
+  css_class <- switch(verdict,
+    "Adopted"        = "badge-operational",
+    "Partly adopted" = "badge-approved",
+    "Not adopted"    = "badge-onhold",
+    "Open"           = "badge-announced",
+    "badge-announced"
+  )
+  glue('<span class="status-badge {css_class}">{verdict}</span>')
+}
+
+# ---- Load signposts (data/signposts.yml) → list(last_reviewed, tibble) ----
+load_signposts <- function(path = "data/signposts.yml") {
+  raw <- yaml::read_yaml(path)
+  tbl <- bind_rows(lapply(raw$signposts, function(s) {
+    ups <- s$updates %||% list()
+    latest <- if (length(ups)) ups[[length(ups)]] else NULL
+    tibble(
+      id = s$id, signpost = s$signpost, why = s$why,
+      due = if (is.null(s$due)) as.Date(NA) else as.Date(s$due),
+      status = s$status, resolves_when = s$resolves_when,
+      related = s$related %||% NA_character_,
+      latest_date = if (is.null(latest)) as.Date(NA) else as.Date(latest$date),
+      latest_note = if (is.null(latest)) NA_character_ else latest$note
+    )
+  }))
+  list(last_reviewed = as.Date(raw$last_reviewed), signposts = tbl)
+}
+
+# ---- Signpost status badge ----
+signpost_badge_html <- function(status) {
+  css_class <- switch(status,
+    "Met"     = "badge-operational",
+    "Pending" = "badge-construction",
+    "Slipped" = "badge-approved",
+    "Missed"  = "badge-onhold",
+    "badge-announced"
+  )
+  glue('<span class="status-badge {css_class}">{status}</span>')
+}

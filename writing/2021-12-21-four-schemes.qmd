@@ -1,0 +1,238 @@
+---
+title: "Assessing GoI's Four Schemes for Building a Semiconductor Ecosystem"
+author: "Pranay Kotasthane"
+date: 2021-12-21
+toc: true
+---
+
+::: {.callout-note}
+## Originally published
+[Takshashila Institution, Legion blog (High-Tech Geopolitics)](https://legion.takshashila.org.in/blogs/assessing-gois-four-schemes-for-building-a-semiconductor-ecosystem), 21 December 2021. Republished here with the original text; the DLI scheme table from the gazette notification is omitted — see the [notification](https://egazette.nic.in/WriteReadData/2021/232055.pdf). [← All analysis & writing](../analysis.qmd)
+:::
+
+The Ministry of Electronics & Information Technology (MeitY), GoI, notified four separate schemes for building a semiconductor ecosystem in India on 21st December 2021, six days after the union cabinet approved the much-awaited ‘comprehensive program for the development of a sustainable semiconductor and display ecosystem’. We had analysed the press release after it came out <a href="https://www.news18.com/news/opinion/rs-76000-crore-push-to-semiconductors-in-software-obsessed-india-hardware-finally-gets-place-in-the-sun-4563878.html" target="_blank">here</a> and [here](https://publish.obsidian.md/takshashila/Notes/Assessing+GoI's+comprehensive+program+for+semiconductors).
+
+This post analyses the four notifications systematically. First, I list the scheme motivation and details. Then I assess the scheme, listing down the positive aspects and highlighting a few concerns. The primary frame of reference for this analysis is public policy design and my motivation is the Indian national interest.
+
+## Scheme 1: Design Linked Incentive (DLI) Scheme
+
+The full scheme document can be found <a href="https://egazette.nic.in/WriteReadData/2021/232055.pdf" target="_blank">here</a>
+
+### Scheme Background
+
+The scheme acknowledges that semiconductor design is India’s comparative advantage. It says that:
+
+1.  Nearly 20% of the world’s design engineers are in India
+
+2.  India has a thriving semiconductor design ecosystem.
+
+The problems identified under the scheme are:
+
+1.  Not a lot of Intellectual Property (IP) belongs to Indian companies. This is problematic as countries are known to put strict export controls in this domain. So, even if a foreign company X has a design house in India, the country where X is headquartered can forbid an Indian customer from using the products made by X in India.
+
+2.  The cumulative revenue of domestic semiconductor design companies is really really small, less than ₹150 crores.
+
+3.  no specific incentive for semiconductor design firms earlier.
+
+### Scheme Details
+
+This table from the gazette notification details the three initiatives that comprise the DLI.
+
+*[Table: DLI scheme details from the MeitY notification — omitted here; see the gazette notification linked above.]*
+
+C-DAC is responsible for creating the Design Infrastructure Support for Startups mentioned in the first row of the table above. The Deployment Linked Incentive (last row in the table) will be based on the net sales and return filing every year while the Product Design Linked Incentive reimbursement covers:
+
+> Expenses of approved applicants relating to design, development, testing, fabrication, validation, prototype development, product development, filing of Intellectual Property Rights etc. shall be considered as eligible expenditure for reimbursement under Product Design Linked Incentive component of the scheme. Design and development of EDA Tools shall also be covered under this component of the scheme.
+
+### Timeline
+
+1.  Companies can apply starting 01.01.2022 until 31.12.2024.
+
+2.  Applications will be approved on an ongoing basis.
+
+### Positives
+
+1.  Focus on Design Infrastructure is great. A lot of companies feel that the high costs of EDA licenses are an entry barrier.
+
+2.  A fixed 5-year time period can prevent the ‘evergreening’ of such incentives and helps set clear priorities.
+
+3.  There are no overly granular requirements on outputs that companies should make. The government has been prudent in supporting semiconductor design broadly.
+
+4.  Picks many players (up to 100) rather than focus on just a couple. This design prevents policy capture by a few dominant firms.
+
+### Concerns
+
+#### 1. Regarding the objectives
+
+1.  The logic of self-reliance can lead the government to raise trade barriers. Such barriers might help a few companies but will hurt the market in India.
+
+2.  Import substitution of semiconductors is not a realisable goal. As manufacturing capability increases, imports also will increase. For instance, Taiwan imports a lot of electronic products and semiconductor manufacturing equipment in order to export chips.
+
+#### 2. Regarding the instruments proposed
+
+1.  There’s no mention of design services companies. This sector is where a lot of India’s design engineers work. Design services companies can be brought under the design infrastructure support section of the DLI.
+
+2.  There’s a line that the government might consider “increasing the tenure of the scheme and changing its financial outlay” after a 2-year review. This might open the doors for companies that are availing the incentives to change the scheme such that it blocks new competitors.
+
+3.  Product Design Linked incentives are provided for designs that have “demonstrated in an operational environment and are ready for volume production.” I am sceptical that this approach will lead to investment in safer companies rather than early-stage start-ups working on breakthrough IP design ideas. The incentives should be provided for some riskier adventures as well while accepting a certain rate of failure.
+
+4.  Administering industrial policy requires immense regulatory capacity. I’m not sure how well CDAC can perform a regulatory role. I would have preferred a group under the proposed Indian Semiconductor Mission (ISM) to manage this DLI fund, as is the case with the remaining three schemes.
+
+## Scheme 2: Scheme for setting up of Compound Semiconductors, Silicon Photonics, Sensors Fab and Semiconductor Assembly, Testing, Marking and Packaging (ATMP), OSAT facilities in India
+
+Scheme document can be found <a href="https://egazette.nic.in/WriteReadData/2021/232047.pdf" target="_blank">here</a>
+
+### Scheme Background
+
+The scheme provides incentives for broadly two unrelated things. One, for specialised fabs used to manufacture high frequency, high power, optoelectronic devices. Two, for units that do Assembly, Test, Marking, and Packaging (ATMP) of conventional silicon semiconductor chips.
+
+- Specialised Fabs included under this policy relate to:
+
+  1.  compound semiconductors: The use of compound semiconductors is expected to grow for high voltage applications, LED-powered appliances etc.
+
+      - For instance, the use of GaN for chargers is beneficial as it can operate at higher voltages without conduction losses. These products also switch more efficiently, and hence low switching losses. The overall effect is that devices such as power chargers can be made much smaller using compound semiconductors because the heat to be dissipated is much lower. For more, read <a href="https://finance.yahoo.com/news/stmicroelectronics-introduces-first-powergan-products-140000940.html" target="_blank">this</a> by STMicro.
+
+      - GaAs is used for Surface-mounted Device LEDs used in our bulbs. Silicon semiconductors emit energy in the infrared range and hence are not suitable for such applications.
+
+  2.  SiPho Fab. Silicon Photonics allows for higher interconnect speeds, supporting higher data rates. A lot of energy in information processing apparently is used up in the communications — not logic — over a chip because conventional interconnects need to be discharged and charged for data transfer. Optical communication offers hope here. For more, see this article in *Physics World* The promise of silicon photonics – Physics World
+
+  3.  MEMS (Microelectromechanical Systems): expected to find more applications in healthcare, EVs.
+
+- ATMP units: OSAT (Outsourced Semiconductor Assembly and Test) is a stage of the conventional semiconductor production process. This is where India has a potential advantage because of the need for a large, mid-level trained workforce for this stage, in comparison to logic or memory fabs. This stage does require high-end equipment but the recurring capital investment required is lesser than silicon logic or memory fabs. Of course, cost margins are also lower.
+
+### Scheme Details
+
+1.  The specialised fabs, companies or joint ventures (not necessarily Indians) with relevant past experience need to commit to a minimum capital investment threshold of ₹100 crores. The capacity commitment is roughly 500 Wafer Starts Per Month for 150/200mm wafer size. After evaluating all applications, the union government will provide financial support of 30% capital expenditure.
+
+2.  For the ATMP, companies or joint ventures (not necessarily Indians) with relevant past experience need to commit to a minimum capital investment threshold of ₹50 crores. After evaluating all applications, the union government will provide financial support of 30% capital expenditure.
+
+3.  Tenure: the scheme is open for applications initially for a period of three years starting 01-01-2022.
+
+4.  The disbursement of the financial support begins after the capital investment threshold has been crossed and commercial production has begun.
+
+### Positives
+
+1.  The scope is broad and the scheme design is not complicated. It’s designed as a simple (in theory at least) industrial policy of reimbursing a portion of the capital expenditure.
+
+2.  The scheme picks a few areas of strategic importance for incentives, without too many qualifying criteria complicating the execution.
+
+### Concerns
+
+- The scheme hasn’t specified an end date for the financial incentives.
+
+- The change from the previous version of this scheme (<a href="https://www.meity.gov.in/writereaddata/files/scheme_for_promotion_of_manufacturing_of_electronic_components_and_semiconductors.pdf" target="_blank">SPECS</a>) is as follows. One, the qualifying capital investment threshold values have changed. Two, the incentive has been increased from 25% to 30%. Three, SPECS asks companies to claim recurring reimbursements after the first tranche on a six-month basis for five years while this scheme asks companies to claim recurring reimbursements on a quarterly basis for five years. A company that applies under this scheme is not eligible for getting benefits under SPECS. The improvement over SPECS seems to be marginal to me.
+
+- Most ATMP units are coupled with strong fab linkages for cost reasons. Without a fab in India, wafers will need to be imported, packaged here, and then re-export if the OEM is not in India. This flow will increase costs. Higher import tariffs will hurt further.
+
+- The nature of packaging itself is changing. Given the limited improvements from node scaling, packaging is becoming a hot area for increasing the density of chips. Besides encouraging ATMP units, research in this area also needs to be prioritised. Probably, a good project for the Quad semiconductor supply chain initiative to consider. Getting a Taiwan OSAT firm should also be a focus of the bilateral talks (instead of the attention being focused on getting a Taiwanese foundry here).
+
+- The scheme guidelines mention that “the Nodal Agency shall have the right to carry physical inspection of an applicant’s manufacturing units and offices through site visits for purpose of verification of claims.” In the past, this design has led to labour-inspector raj scenarios. It is important to have checks and balances to prevent corruption, delays, and rent-seeking in this policy design. Not an easy task.
+
+## Scheme 3: Scheme for Setting up of Display Fabs in India
+
+The scheme document is <a href="https://egazette.nic.in/WriteReadData/2021/232048.pdf" target="_blank">here</a>
+
+### Scheme Background
+
+The logic behind this scheme seems to purely be import substitution. The scheme document says:
+
+> Displays constitute a significant portion of the total Bill of Materials (BoM) of electronic products. For instance, displays account for over 25% of the BoM in case of smartphones and over 50% in case of LCD / LED TVs. As per estimates, India’s display panel market is estimated to be ~USD 7 Billion (₹ 52.5 thousand crore) and is expected to grow to ~USD 15 Billion (₹1.13 lakh crore) by 2025. Current requirements are met exclusively through imports.
+
+And:
+
+> Having domestic capabilities in display manufacturing is an imperative for industrial growth, digital sovereignty, and technological leadership
+
+Further, the document goes on to say that the reason display fabs haven’t succeeded is that manufacturers here face a 10% cost disadvantage due to “the lack of adequate infrastructure, domestic supply chain and logistics; high cost of finance; and focus on R&D by the industry; and inadequacies in skill development.” To compensate for this disability, an industrial policy instrument of part-financing two display fabs has been conceived.
+
+Most of the display panel manufacturers are located in East Asia — companies from China, Taiwan, South Korea, and Japan dominate this industry. A *Business Standard* <a href="https://www.business-standard.com/article/companies/vedanta-group-in-talks-with-govt-to-set-up-display-fabrication-unit-121041200023_1.html" target="_blank">report</a> claims that:
+
+- displays account for 25 per cent cost of mobile devices and 50 per cent cost of LED/LCD TV Sets.
+
+- The LCD market is dominated by China while the OLED market is dominated by Samsung and LG (both South Korean companies).
+
+- The strategic case seems to be to reduce import dependence on China.
+
+### Scheme Details
+
+- For companies willing to invest a minimum of Rs 10,000 crores in manufacturing AMOLED or TFT LCD screens in India, the union government is committing fiscal support of up to 50 per cent of the project cost.
+
+- Applications are open for 45 days initially starting 1 Jan 2022. Support will be extended at most to two display fab manufacturers.
+
+- Disbursement is on a pari-passu basis, which means (I think) that the union government will match the capital investments by investors at a predefined ratio, not exceeding 50 per cent.
+
+- Selection of applicants will be on Quality and Cost Based Criteria (QCBS), not L1. Evaluation will be done by the newly proposed India Semiconductor Mission. Composed of industry experts, this body is tasked with “driving the long-term strategies for developing sustainable semiconductors and display ecosystem”.
+
+### Positives
+
+- seems to be a straightforward subsidy on capital investment.
+
+- the short application deadline suggests there are already a few companies in line.
+
+- Given that display assembly has already begun in India, there is a greater incentive for manufacturers to do upstream production of panels as well.
+
+- Having the ISM as a nodal agency instead of an existing government department or company will inspire confidence in investors.
+
+### Concerns
+
+1.  Of the four, this scheme makes the least strategic sense to me for these reasons:
+
+    1.  Even during the high peak of supply chain disruptions during COVID-19, there was no shortage of display panels, indicating that there are no constraints to increasing production, as is the case for ICs. (The only shortage related to displays was for the driver chip, not the panels by themselves)
+
+    2.  Apart from China and Taiwan, South Korea and Japan also have leadership in certain segments of displays. So we aren’t dependent on one vulnerable source as in the case of ICs.
+
+    3.  Import dependence on China won’t go away. Even if these fabs manufacture displays in India, the input materials will need to be imported from elsewhere. So the bottlenecks shift but don’t disappear.
+
+    4.  The industry is moving to newer technologies apart from LCDs and AMOLEDs. Samsung is focusing on Quantum-dot displays instead of LCDs. The scheme might be able to get old-tech here but for newer technologies, imports might still continue.
+
+2.  Incurring a cost of Rs 12000 crore for getting a display fab for a product that’s not a supply chain constraint as of now seems to be a high opportunity cost to pay.
+
+3.  The scheme guidelines mention that “the Nodal Agency shall have the right to carry physical inspection of an applicant’s manufacturing units and offices through site visits for purpose of verification of claims.” In the past, this design has led to labour-inspector raj scenarios. It is important to have checks and balances to prevent corruption, delays, and rent-seeking in this policy design. Not an easy task.
+
+### Supplementary Reading
+
+1.  <a href="https://www.meity.gov.in/writereaddata/files/EoI%20for%20Display%20Fab%20-%2016_03_2021.pdf" target="_blank">Expression of Interest document of MeitY for display fabs</a>
+
+## Scheme 4: Scheme for Setting up of Semiconductor Fabs in India
+
+The scheme document is <a href="https://egazette.nic.in/WriteReadData/2021/232055.pdf" target="_blank">here</a>
+
+### Scheme Background
+
+The strategic logic behind fabs is clear. The ongoing shortage has brought the geoeconomic, geopolitical, and technological meta-criticality of semiconductors to the surface. Building a more resilient semiconductor manufacturing stage is in the interest of many nation-states and companies.
+
+MeitY had floated an <a href="https://www.meity.gov.in/writereaddata/files/EoI_Semiconductor_FAB_dated-15122020.pdf" target="_blank">Expression of Interest</a> in Dec’20 inviting applicants to list their demands from the government.
+
+### Scheme Details
+
+- For companies willing to invest a minimum of Rs 20,000 crores in a logic/memory/analog/Mixed-signal fab at \<=65nm in India, the union government is committing fiscal support of up to:
+
+  - 50 per cent of project cost for 28nm or lower
+
+  - 40 per cent of project cost for 28nm to 45nm
+
+  - 30 per cent of project cost for 45nm to 65nm
+
+- Applications are open for 45 days initially starting 1 Jan 2022. Support will be extended to at least two applicants for six years.
+
+- Disbursement is on a pari-passu basis, which means (I think) that the union government will match the capital investments by investors at a predefined ratio, not exceeding 50 per cent. The upper limit for the total financial support by the government is not mentioned in the scheme document. If support is structured in the form of equity, companies have been reassured that government equity will never exceed 49%.
+
+- Selection of applicants will be on Quality and Cost Based Criteria (QCBS), not L1. Evaluation will be done by the newly proposed India Semiconductor Mission. Composed of industry experts, this body is tasked with “driving the long-term strategies for developing sustainable semiconductors and display ecosystem”.
+
+### Positives
+
+- the big concern of consortia in the past was that support should be upfront and not as a reimbursement. The government has committed to upfront support on an equal footing basis.
+
+- the short application deadline suggests there are already a few companies in line.
+
+- the scheme does not exclusively focus on the leading-edge nodes and hence gives a good opportunity for setting up slightly lower-cost speciality analog fabs at trailing nodes.
+
+- Having the ISM as a nodal agency instead of an existing government department or company will inspire confidence in investors.
+
+### Concerns
+
+1.  Though the strategic need is clear, it should be acknowledged that two-three fabs with a capacity of 40000 wafer starts per month are not enough for India’s needs. Companies will still continue to import chips manufactured at fabs outside India. No country for that matter can become fully self-reliant.
+
+2.  Silicon manufacturing is undergoing a lot of changes because of marginal returns on performance at each subsequent leading-edge node. India must be plugged into the research and development ecosystem as well. The Quad semiconductor Supply Chain Initiative can be used to that effect. In parallel to building two fabs here, India needs to work with trusted partners to build a resilient semiconductor ecosystem. In this domain, plurilateralism is a necessity, not a choice.
+
+3.  The scheme guidelines mention that “the Nodal Agency shall have the right to carry physical inspection of an applicant’s manufacturing units and offices through site visits for purpose of verification of claims.” In the past, this design has led to labour-inspector raj scenarios. It is important to have checks and balances to prevent corruption, delays, and rent-seeking in this policy design. Not an easy task.
+
