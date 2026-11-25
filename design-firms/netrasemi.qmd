@@ -33,7 +33,7 @@ Family of edge AI SoCs: Netra-R1000 (RISC-V, <1W, smart sensors), Netra-A2000 (4
 
 ## Sources
 
-- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [Netrasemi company profile (NeuromorphicCore)](https://neuromorphiccore.ai/insights/netrasemi/) (01 Mar 2026)
 
 ---

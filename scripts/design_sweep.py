@@ -303,7 +303,7 @@ def build_data_gaps(design_yaml: str) -> str:
     dli_count = sum(1 for f in firms if (f.get("dli") or {}).get("approved"))
     lines = ["### Data gaps in design.yml", "",
              (f"- DLI-approved firms in tracker: **{dli_count}** "
-              "(official figure: 24 projects, PIB, January 2026 - reconcile if these differ)"), ""]
+              "(official PDLI list: 24 projects from 23 firms - Netrasemi has two; reconcile if these differ)"), ""]
     for label, items in checks.items():
         names = ", ".join(sorted(f.get("name", "?") for f in items)) or "none"
         lines.append(f"- **{label}** ({len(items)}): {names}")

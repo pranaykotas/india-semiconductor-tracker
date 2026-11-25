@@ -33,7 +33,7 @@ RISC-V processor IP cores for embedded, IoT, and edge computing applications. De
 
 ## Sources
 
-- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 
 ---
 

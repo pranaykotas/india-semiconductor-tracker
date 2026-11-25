@@ -33,7 +33,7 @@ Tire Synapse, a tire-monitoring ASIC with integrated Bluetooth for tire-wear pre
 
 ## Sources
 
-- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [Success Story of AB Circuits and Research Labs](https://www.sfalcoe.com/success-story-ab-circuits-and-research-labs/) (01 Jan 2026)
 
 ---

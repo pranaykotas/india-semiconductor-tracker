@@ -1,6 +1,6 @@
 ---
 title: "3RDi Tech"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Indigenous SoC solutions for critical applications including surveillance and CC
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
@@ -26,14 +26,14 @@ Indigenous SoC solutions for critical applications including surveillance and CC
 | **Application Domains** | Defence, Surveillance |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Beneficiary** | No |
 
 ### Design Score
 <span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
 
 ## Sources
 
-- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [GA-ASI and 3rdiTech Announce Joint Strategic Partnership (General Atomics)](https://www.ga.com/ga-asi-and-3rditech-announce-joint-strategic-partnership-for-cutting-edge-semiconductor-technologies) (27 Sep 2022)
 - [DLI For Semiconductors: Should India's Chip Design Scheme Chase Innovation Or Numbers? (Swarajya)](https://swarajyamag.com/technology/dli-for-semiconductors-should-indias-chip-design-scheme-chase-innovation-or-numbers) (01 Jan 2026)
 

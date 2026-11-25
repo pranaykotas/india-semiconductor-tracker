@@ -1,6 +1,6 @@
 ---
 title: "Semiksha"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ SoC/ASIC chipsets and embedded products for wireless/IoT, mechatronics, medical 
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2018 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,14 +26,14 @@ SoC/ASIC chipsets and embedded products for wireless/IoT, mechatronics, medical 
 | **Application Domains** | IoT, Wireless, Medical, Transportation |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Beneficiary** | No |
 
 ### Design Score
 <span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
 
 ## Sources
 
-- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [About Us – SEMIKSHA](https://semiksha.com/about-us/) (01 Jan 2026)
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Silizium Circuits"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Analog, RF, and mixed-signal semiconductor IP; completed end-to-end design of a 
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
@@ -26,14 +26,14 @@ Analog, RF, and mixed-signal semiconductor IP; completed end-to-end design of a 
 | **Application Domains** | Telecom, 5G, Satellite |
 | **Design Scope** | IP block |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Beneficiary** | No |
 
 ### Design Score
 <span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
 
 ## Sources
 
-- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [India's Silizium Circuits develops GaAs 5G front-end chip as RF localization advances (DigiTimes)](https://www.digitimes.com/news/a20251006VL200/silizium-circuits-5g-gaas-design-india-startup.html) (06 Oct 2025)
 
 ---

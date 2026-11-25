@@ -33,7 +33,7 @@ A multi-vital biosensing SoC consolidating ECG, PPG, respiration, and temperatur
 
 ## Sources
 
-- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [Semiconductor Startup Sophrosyne Bags $2 Mn From Bluehill VC (Inc42)](https://inc42.com/buzz/semiconductor-startup-sophrosyne-bags-2-mn-from-bluehill-vc/) (01 Jan 2026)
 
 ---

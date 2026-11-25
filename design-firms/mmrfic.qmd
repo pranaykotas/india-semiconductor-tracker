@@ -1,0 +1,46 @@
+---
+title: "MMRFIC Technology"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Bengaluru mm-wave fabless firm with strategic investment from Sansera Engineering; opened a new R&D facility in Bengaluru in 2024.
+:::
+
+## What does this firm design?
+
+Millimetre-wave chips and subsystems for radar, 5G/6G communications and wireless connectivity.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2014 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | mm-wave RF ICs and radar subsystems |
+| **Application Domains** | Defence, Radar, Telecom |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
+- [Sansera signs definitive agreement for strategic investment in MMRFIC Technology (Outlook Startup)](https://startup.outlookindia.com/sector/saas/sansera-signs-a-definitive-agreement-for-strategic-investment-in-mmrfic-technology-news-7931)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

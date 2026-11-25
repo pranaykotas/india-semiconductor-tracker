@@ -1,0 +1,45 @@
+---
+title: "Incise Infotech"
+subtitle: "DLI Beneficiary"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Smallest PDLI project by outlay (₹4.28 crore). Registered in Delhi (2010); the DLI list places the project in Uttar Pradesh, where the company has a Greater Noida office.
+:::
+
+## What does this firm design?
+
+Linear LED driver ICs.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | DLI Beneficiary |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2010 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Greater Noida |
+| **Product Focus** | LED driver ICs |
+| **Application Domains** | Lighting, Power Management |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Beneficiary** | Yes |
+
+### Design Score
+<span class="complexity-bar" title="Not yet scored">—</span> **Not yet scored**
+
+## Sources
+
+- [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

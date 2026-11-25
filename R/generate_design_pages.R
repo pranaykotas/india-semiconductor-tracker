@@ -79,6 +79,8 @@ for (i in 1:nrow(firms)) {
 
   if (!is.null(this_firm$sources) && length(this_firm$sources) > 0) {
     source_lines <- sapply(this_firm$sources, function(s) {
+      # Omit the date suffix when a source has no known publication date
+      if (is.null(s$date)) return(paste0("- [", s$title, "](", s$url, ")"))
       date_str <- tryCatch(format(as.Date(s$date), "%d %b %Y"), error = function(e) s$date)
       paste0("- [", s$title, "](", s$url, ") (", date_str, ")")
     })

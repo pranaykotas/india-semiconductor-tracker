@@ -33,7 +33,7 @@ Software-defined radio SoCs for 5G NR broadcast, ATSC 3.0, and satellite-terrest
 
 ## Sources
 
-- [DLI Scheme beneficiary list](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
+- [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 
 ---
 
