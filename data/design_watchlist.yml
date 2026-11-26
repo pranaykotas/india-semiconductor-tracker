@@ -1,0 +1,63 @@
+# Firms on the Chips-DLI beneficiary list (chips-dli.gov.in/DLI/HomePage) that are NOT yet in design.yml.
+# The monthly design sweep (scripts/design_sweep.py) searches news for each of them and reports
+# anything that would change the decision. Move a firm into design.yml (and delete it here) once
+# we decide to add it.
+#
+# reason: Integrator / systems | Design services | Location unverified | Unclear product | Site down
+last_checked: '2026-11-26'
+source: https://chips-dli.gov.in/DLI/HomePage
+firms:
+# ---- Build systems or boards from others' chips, or not semiconductor businesses ----
+- {name: Vicharak, website: https://vicharak.in, reason: Integrator / systems, note: FPGA-based reconfigurable computing boards (Vaaman, Axon)}
+- {name: Astrome, website: https://astrome.co, reason: Integrator / systems, note: Satellite and terrestrial communication systems}
+- {name: Asnaviram Networks, website: https://www.asnaviram.in, reason: Integrator / systems, note: Software-defined radio boards and FPGA gateware}
+- {name: Syrma SGS, website: https://syrmasgs.com, reason: Integrator / systems, note: Electronics manufacturing services (EMS)}
+- {name: Terafence, website: https://terafence.in, reason: Integrator / systems, note: FPGA-based data diodes}
+- {name: CitiLight, website: https://www.citilight.co, reason: Integrator / systems, note: Smart street-lighting IoT controllers}
+- {name: SmartKosh Technologies, website: https://www.smartkosh.com, reason: Integrator / systems, note: Battery-management systems (boards)}
+- {name: Synchronous Drives & Inverters, website: https://syncmotor.com, reason: Integrator / systems, note: EV motor controllers; says it plans semiconductors}
+- {name: CIMware, website: https://cimware.in, reason: Integrator / systems, note: Memory-centric top-of-rack data-centre switch}
+- {name: SecureMachines, website: https://securemachines.in, reason: Integrator / systems, note: Post-quantum HSMs; mentions secure silicon components}
+- {name: TriSpace Technologies, website: https://trispacetech.com, reason: Integrator / systems, note: Products built on partner chipsets; thermal/battery IP}
+- {name: A-One Defence & Aerospace, website: https://www.aonedefence.com, reason: Integrator / systems, note: Ammunition, UAVs, aerospace components}
+- {name: Aries Biomed Technology, website: https://www.ariesbiomed.com, reason: Integrator / systems, note: Respiratory-care and biomedical test devices}
+- {name: Banashree Renewable Energy Systems, website: https://banashreesystems.com, reason: Integrator / systems, note: Battery refurbishment and clean-tech}
+- {name: Reslink Energy, website: https://www.reslink.org, reason: Integrator / systems, note: Solar design software}
+- {name: ADG Catalyst, website: https://adgcatalyst.com, reason: Integrator / systems, note: Healthcare consultancy}
+- {name: Vanik Semiconductors, website: https://vaniksemi.com, reason: Integrator / systems, note: Plans a fab; no design product}
+- {name: Semicon Design Technologies, website: https://semicondesign.com, reason: Integrator / systems, note: Agritech, drone and maritime solutions; lists 'chip development'}
+# ---- Design services (no chip of their own found) ----
+- {name: Bitsilica, website: https://bitsilica.com, reason: Design services, note: Acquired by Quest Global}
+- {name: LeadSoC, website: https://leadsoc.com, reason: Design services}
+- {name: KeenHeads, website: https://keenheads.com, reason: Design services}
+- {name: IntSemi Technologies, website: https://www.intsemi.com, reason: Design services}
+- {name: Aritrak, website: https://aritrak.com, reason: Design services}
+- {name: ChipexTech, website: https://chipextech.com, reason: Design services, note: Turnkey ASIC; Rambus IP partner}
+- {name: Ciliconchip, website: https://ciliconchip.com, reason: Design services}
+- {name: SiCrest Semiconductors, website: https://sicrestsemiconductors.com, reason: Design services, note: Verification and RF validation}
+- {name: WnP, website: https://www.wnp.io, reason: Design services, note: Mixed-signal design and layout}
+- {name: Spintronics AI Semiconductors, website: https://spintronicsai.com, reason: Design services, note: Founded 2024; Bengaluru, Hyderabad, Toronto}
+- {name: Nevxoaulio Ventures, website: https://nevxoaulio.com, reason: Design services, note: IT services incl. VLSI}
+- {name: Trellisign Technologies, website: https://www.trellisign.com, reason: Design services, note: Cadence/Dassault reseller, not an EDA developer}
+# ---- Likely IP firms; location or details not confirmed ----
+- {name: SmartDV Technologies, website: https://smart-dv.com, reason: Location unverified, note: Verification and design IP}
+- {name: Synergy Quantum, website: https://synergyquantum.in, reason: Location unverified, note: Quantum-safe silicon IP for RISC-V SoCs (June 2026 release)}
+- {name: Maxvy Technologies, website: https://maxvytech.com, reason: Location unverified, note: Design and verification IP; site has placeholder text}
+# ---- May design chips; too little public information ----
+- {name: Manjeera Digital Systems, website: https://www.manjeerads.com, reason: Unclear product, note: Hyderabad; UMA computing architecture demonstrated with Intel}
+- {name: Nanojoules, website: http://www.nanojoules.com, reason: Unclear product, note: Bengaluru; says it makes silicon products for Indian OEMs}
+- {name: GTS25, website: https://gts25.com, reason: Unclear product, note: Site title claims a secure edge-vision SoC}
+- {name: Manovega AI, website: https://manovega.ai, reason: Unclear product, note: Reconfigurable RISC-V silicon for edge inference}
+- {name: Pentarisc Systems, website: https://pentarisc.systems, reason: Unclear product, note: In stealth}
+# ---- Website down or blocked when checked ----
+- {name: LineSemi, website: http://www.linesemi.co.in, reason: Site down}
+- {name: Memrym, website: https://memrym.com, reason: Site down}
+- {name: Panache Digilife, website: https://www.panachedigilife.com, reason: Site down}
+- {name: Prime SoC & iSOC Technologies, website: https://www.primesoctechnologies.com, reason: Site down}
+- {name: Qailsh, website: https://qailsh.com, reason: Site down}
+- {name: InQuantumShift, website: https://www.quantumshift.in, reason: Site down}
+- {name: Seleneantech, website: http://www.seleneantech.com, reason: Site down}
+- {name: Sikern, website: https://sikern.com, reason: Site down}
+- {name: Speedbus Semiconductors, website: https://speedbussemiconductors.com, reason: Site down}
+- {name: Univision Tech Solutions, website: https://univisiontechsolutions.com, reason: Site down}
+- {name: vConnect Tech Systems, website: https://www.vconnectechsystems.com, reason: Site down}

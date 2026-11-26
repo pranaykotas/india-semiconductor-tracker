@@ -97,6 +97,10 @@ External contributors submit updates via GitHub Issues using the template at `.g
 - `format_equipment_investment(inr, usd_m)` — formats ₹ crore and/or $ million investment figures
 - `equipment_category_color(category)` / `equipment_category_badge(category)` — colour/badge for equipment/materials categories
 
+### Design Watchlist
+
+`data/design_watchlist.yml` lists firms on the Chips-DLI beneficiary list that are not yet in `design.yml` (integrators, design-services firms, unclear products, sites down), each with a `reason`. The monthly design sweep searches news for every one and reports anything that changes the decision. When a firm is added to `design.yml`, delete it from the watchlist (the validator flags overlaps).
+
 ### Design Firm Data Schema
 
 Each firm in `data/design.yml` has:

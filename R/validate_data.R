@@ -80,6 +80,17 @@ for (x in des) {
   check_sources("design.yml", id, x$sources)
 }
 
+# ---- design_watchlist.yml (DLI-listed firms not yet added) ------------------
+wl <- read_yaml("data/design_watchlist.yml")$firms
+wl_names <- vapply(wl, function(w) w$name, character(1))
+for (n in wl_names[duplicated(wl_names)]) err("design_watchlist.yml", n, "duplicate name")
+tracked <- tolower(vapply(des, function(x) x$name, character(1)))
+for (w in wl) {
+  check_enum("design_watchlist.yml", w$name, "reason", w$reason,
+             c("Integrator / systems", "Design services", "Location unverified", "Unclear product", "Site down"))
+  if (tolower(w$name) %in% tracked) err("design_watchlist.yml", w$name, "already in design.yml; remove from watchlist")
+}
+
 # ---- equipment_materials.yml -----------------------------------------------
 eq <- read_yaml("data/equipment_materials.yml")$equipment_materials
 invisible(check_unique_ids("equipment_materials.yml", eq))

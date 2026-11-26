@@ -101,6 +101,12 @@ Takshashila Institution).
 {design_summary}
 ```
 
+## Watchlist: DLI-listed firms not yet tracked (with why they were left out)
+
+```yaml
+{watchlist}
+```
+
 ## Search results from the past {lookback_days} days
 
 {search_results}
@@ -141,6 +147,20 @@ For each tracked firm with new information:
   ```yaml
   field_name: new_value
   ```
+
+### Watchlist firms
+
+For each watchlist firm that appears in the search results, say whether the news
+changes the decision to leave it out (e.g. a tape-out or own chip product for an
+"Integrator / systems" or "Design services" firm, a confirmed location for
+"Location unverified", product details for "Unclear product"). Format:
+
+**[Firm name]** — current reason: [reason]
+- What's new: 1-2 sentences
+- Source: [URL] (date)
+- Recommendation: Add as Indian Fabless / Add as EDA & IP Provider / Keep watching
+
+Omit watchlist firms with no news.
 
 ### No news found
 
@@ -220,6 +240,20 @@ def resolve_google_news_url(url: str) -> str:
         pass
 
     return url
+
+
+def load_watchlist(path: str = "data/design_watchlist.yml") -> list[dict]:
+    """DLI-listed firms we have not added yet; the sweep checks them for news every month."""
+    try:
+        with open(path) as f:
+            return (yaml.safe_load(f) or {}).get("firms", [])
+    except FileNotFoundError:
+        return []
+
+
+def watchlist_queries(watchlist: list[dict]) -> list[str]:
+    # One quoted-name query per firm keeps results specific
+    return [f'"{w["name"]}" chip OR semiconductor' for w in watchlist]
 
 
 def fetch_snippets(queries: list[str], max_results: int = 5, lookback_days: int = LOOKBACK_DAYS) -> str:
@@ -302,7 +336,9 @@ def build_data_gaps(design_yaml: str) -> str:
         "Only one source": [f for f in firms if len(f.get("sources") or []) < 2],
     }
     dli_count = sum(1 for f in firms if (f.get("dli") or {}).get("approved"))
+    watch = load_watchlist()
     lines = ["### Data gaps in design.yml", "",
+             f"- Watchlist (DLI-listed firms not yet added, data/design_watchlist.yml): **{len(watch)}**", "",
              (f"- DLI-approved firms in tracker: **{dli_count}** "
               "(official PDLI list: 24 projects from 23 firms - Netrasemi has two; reconcile if these differ)"), ""]
     for label, items in checks.items():
@@ -318,12 +354,14 @@ def to_html(subject: str, digest_md: str) -> str:
 
 def generate_sweep(design_yaml: str, today: str) -> str:
     print(f"  Fetching search snippets ({LOOKBACK_DAYS}-day lookback)...")
-    search_results = fetch_snippets(QUERIES)
+    watchlist = load_watchlist()
+    search_results = fetch_snippets(QUERIES + watchlist_queries(watchlist), max_results=3)
 
     design_summary = build_design_summary(design_yaml)
 
     prompt = SYNTHESIS_PROMPT.format(
         design_summary=design_summary,
+        watchlist=yaml.dump(watchlist, allow_unicode=True, sort_keys=False),
         search_results=search_results,
         lookback_days=LOOKBACK_DAYS,
         today=today,
