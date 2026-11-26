@@ -19,7 +19,7 @@ facilities <- load_facilities("data/facilities.yml")
 
 Each row represents a facility. **Bars** show the span from construction start (or announcement, if construction hasn't begun) to expected or actual completion. **Diamond markers (◆)** mark the announcement date. **Vertical ticks (|)** show the original target completion date where known. The **dashed line** marks today.
 
-Research and strategic facilities (SCL Mohali, GAETEC, IISc MNNFC) predate the ISM timeline and are not shown here — see the [main table](index.qmd) for the full list.
+Research and strategic facilities (SCL Mohali, GAETEC, IISc CeNSE) predate the ISM timeline and are not shown here — see the [main table](index.qmd) for the full list.
 
 ```{r gantt-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=12, fig.height=7.5, dev="ragg_png"}
 # Filter to ISM-era facilities (post-2023 announcements)

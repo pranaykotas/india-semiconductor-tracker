@@ -1,0 +1,52 @@
+---
+title: "AGNIT Semiconductors"
+subtitle: "Indian Fabless"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+IISc Bengaluru spin-off (CEO Hareesh Chandrasekar, co-founder Srinivasan Raghavan) built on over 15 years of GaN research at IISc. Not strictly fabless; it owns the whole GaN chain from epitaxial wafers to devices, which are made at IISc's MeitY-funded GaN Ecosystem Enabling Centre and Incubator (GEECI), housed in CeNSE (see the facility page). Raised a $3.5 million seed round (3one4 Capital, Zephyr Peacock) in October 2024 and a $2.6 million extension (Shastra VC) in March 2026. It runs customer pilots, has begun pilot wafer exports, holds an iDEX contract for GaN wireless transmitters, and targets 1 lakh chips a year; it has also said it wants a GaN factory under Semicon 2.0.
+:::
+
+## What does this firm design?
+
+GaN-on-silicon/SiC epitaxial wafers, RF transistors and power devices for defence radar and communications, telecom base stations and power electronics.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Indian Fabless |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2019 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Gallium nitride (GaN) RF and power devices |
+| **Application Domains** | Defence, Telecom, Power Electronics |
+| **Design Scope** | Vertically integrated (epitaxy, device design, fabrication) |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | — |
+
+### Design Scores
+
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 4, IP ownership 5 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
+
+## Sources
+
+- [AGNIT Semiconductor aims to scale GaN chip production to 1 lakh units — Business Standard](https://www.business-standard.com/india-news/agnit-semiconductor-aims-to-scale-gan-chip-production-to-1-lakh-units-126031701251_1.html) (17 Mar 2026)
+- [AGNIT Semiconductors nets $2.6 Mn to foray into telecom, power electronics — Inc42](https://inc42.com/buzz/agnit-semiconductors-nets-2-6-mn-to-foray-into-telecom-power-electronics) (17 Mar 2026)
+- [AGNIT Semiconductors bags $3.5M in seed round — YourStory](https://yourstory.com/2024/10/agnit-semiconductors-bags-3-5m-seed-round-co-led-3one4-capital-zephyr-peacock) (17 Oct 2024)
+- [AGNIT, IISc startup aims to put India on GaN map — ThePrint](https://theprint.in/ground-reports/agnit-iisc-startup-aims-to-put-india-on-gan-map/3029287/)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -1,21 +1,21 @@
 ---
-title: "MNNFC (IISc)"
+title: "CeNSE nanofab & GaN centre (IISc)"
 subtitle: "Indian Institute of Science | Research Fab"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-India's premier academic micro/nano fabrication facility. Trains the next generation of semiconductor researchers.
+IISc's Centre for Nano Science and Engineering (CeNSE) houses India's main academic nanofabrication facility and, since 2022, the MeitY-funded Gallium Nitride Ecosystem Enabling Centre and Incubator (GEECI), run by IISc's incubation arm FSID. GEECI is a low-volume GaN development-line foundry for RF and power devices, and the site where AGNIT Semiconductors, an IISc spin-off, makes its chips.
 :::
 
 ## What does this facility make?
 
-Research-grade micro and nano devices for academic research — not commercial production. Used for prototyping MEMS sensors, photonic devices, and novel semiconductor structures.
+Research-grade micro and nano devices (MEMS, photonics, novel semiconductor structures) for academic work, plus GaN epitaxial wafers and GaN RF and power transistors on the GEECI pilot line. AGNIT is scaling this line to 4-inch wafers and has begun pilot wafer exports.
 
 ## Why does it matter?
 
-A semiconductor industry needs a pipeline of researchers and engineers who understand fabrication at a fundamental level. MNNFC at IISc is where much of this human capital is developed.
+Besides training fabrication engineers, CeNSE is one of the few sites in India where GaN devices are made today; the other main one is the defence-run GAETEC in Hyderabad. Whether AGNIT can grow from this shared academic line into its own factory, as it says it wants to under Semicon 2.0, is a test of how lab-to-fab transitions work in India.
 
 ## Key Facts
 
@@ -25,9 +25,9 @@ A semiconductor industry needs a pipeline of researchers and engineers who under
 | | |
 |---|---|
 | **Company** | Indian Institute of Science |
-| **Partners** | None |
+| **Partners** | AGNIT Semiconductors, Foundation for Science, Innovation and Development (FSID), IISc |
 | **Type** | Research Fab |
-| **Capability** | Academic Micro-fabrication |
+| **Capability** | Academic micro-fabrication + GaN RF/power development-line foundry (GEECI) |
 | **Status** | Operational |
 | **Investment** | Strategic / Government funded |
 | **Location** | Bengaluru, Karnataka |
@@ -51,7 +51,10 @@ Benchmarked against a 3nm fab (5/5).
 
 ## Project Timeline
 
-*No milestones recorded yet.*
+- **13 Mar 2022** — MoS Rajeev Chandrasekhar visits the MeitY-funded GaN technology centre (GEECI) at IISc
+- **30 Jun 2023** — Oxford Instruments supplies GaN plasma-processing tools for the GEECI power and RF pilot line
+- **17 Oct 2024** — AGNIT Semiconductors, which makes its chips at GEECI, raises a $3.5 million seed round
+- **17 Mar 2026** — AGNIT raises a $2.6 million seed extension; targets 1 lakh GaN chips and says it wants its own GaN factory under Semicon 2.0
 
 
 
@@ -60,6 +63,10 @@ Benchmarked against a 3nm fab (5/5).
 ## Sources
 
 - [IISc Centre for Nano Science and Engineering](https://www.iisc.ac.in/research-centres/centre-for-nano-science-and-engineering-cense/) (01 Jan 2025)
+- [The Great Indian GaN — IISc Connect](https://connect.iisc.ac.in/2024/12/the-great-indian-gan/) (01 Dec 2024)
+- [MoS visits Gallium Nitride technology centre at IISc — PIB, MeitY](https://pib.gov.in/PressReleasePage.aspx?PRID=1805535) ()
+- [Oxford Instruments plasma processing solutions for IISc](https://www.oxinst.com/news/plasma-processing-solutions-for-iisc/) (30 Jun 2023)
+- [AGNIT aims to scale GaN chip production to 1 lakh units — Business Standard](https://www.business-standard.com/india-news/agnit-semiconductor-aims-to-scale-gan-chip-production-to-1-lakh-units-126031701251_1.html) (17 Mar 2026)
 
 ---
 

@@ -767,8 +767,11 @@ facilities:
         date: "2025-01-01"
 
   - id: iisc-bangalore
-    name: "MNNFC (IISc)"
+    name: "CeNSE nanofab & GaN centre (IISc)"
     company: "Indian Institute of Science"
+    partners:
+      - "AGNIT Semiconductors"
+      - "Foundation for Science, Innovation and Development (FSID), IISc"
     category: "Research & Strategic"
     location:
       city: "Bengaluru"
@@ -776,15 +779,23 @@ facilities:
       lat: 13.018
       lon: 77.566
     type: "Research Fab"
-    capability: "Academic Micro-fabrication"
+    capability: "Academic micro-fabrication + GaN RF/power development-line foundry (GEECI)"
     investment:
       total_inr: 0
     status: "Operational"
     narrative:
-      significance: "India's premier academic micro/nano fabrication facility. Trains the next generation of semiconductor researchers."
-      what_it_makes: "Research-grade micro and nano devices for academic research — not commercial production. Used for prototyping MEMS sensors, photonic devices, and novel semiconductor structures."
-      why_it_matters: "A semiconductor industry needs a pipeline of researchers and engineers who understand fabrication at a fundamental level. MNNFC at IISc is where much of this human capital is developed."
-    milestones: []
+      significance: "IISc's Centre for Nano Science and Engineering (CeNSE) houses India's main academic nanofabrication facility and, since 2022, the MeitY-funded Gallium Nitride Ecosystem Enabling Centre and Incubator (GEECI), run by IISc's incubation arm FSID. GEECI is a low-volume GaN development-line foundry for RF and power devices, and the site where AGNIT Semiconductors, an IISc spin-off, makes its chips."
+      what_it_makes: "Research-grade micro and nano devices (MEMS, photonics, novel semiconductor structures) for academic work, plus GaN epitaxial wafers and GaN RF and power transistors on the GEECI pilot line. AGNIT is scaling this line to 4-inch wafers and has begun pilot wafer exports."
+      why_it_matters: "Besides training fabrication engineers, CeNSE is one of the few sites in India where GaN devices are made today; the other main one is the defence-run GAETEC in Hyderabad. Whether AGNIT can grow from this shared academic line into its own factory, as it says it wants to under Semicon 2.0, is a test of how lab-to-fab transitions work in India."
+    milestones:
+      - date: "2022-03-13"
+        event: "MoS Rajeev Chandrasekhar visits the MeitY-funded GaN technology centre (GEECI) at IISc"
+      - date: "2023-06-30"
+        event: "Oxford Instruments supplies GaN plasma-processing tools for the GEECI power and RF pilot line"
+      - date: "2024-10-17"
+        event: "AGNIT Semiconductors, which makes its chips at GEECI, raises a $3.5 million seed round"
+      - date: "2026-03-17"
+        event: "AGNIT raises a $2.6 million seed extension; targets 1 lakh GaN chips and says it wants its own GaN factory under Semicon 2.0"
     complexity:
       technology_difficulty: 1
       foreign_dependence: 2
@@ -795,6 +806,18 @@ facilities:
       - url: "https://www.iisc.ac.in/research-centres/centre-for-nano-science-and-engineering-cense/"
         title: "IISc Centre for Nano Science and Engineering"
         date: "2025-01-01"
+      - url: "https://connect.iisc.ac.in/2024/12/the-great-indian-gan/"
+        title: "The Great Indian GaN — IISc Connect"
+        date: "2024-12-01"
+      - url: "https://pib.gov.in/PressReleasePage.aspx?PRID=1805535"
+        title: "MoS visits Gallium Nitride technology centre at IISc — PIB, MeitY"
+        date: null
+      - url: "https://www.oxinst.com/news/plasma-processing-solutions-for-iisc/"
+        title: "Oxford Instruments plasma processing solutions for IISc"
+        date: "2023-06-30"
+      - url: "https://www.business-standard.com/india-news/agnit-semiconductor-aims-to-scale-gan-chip-production-to-1-lakh-units-126031701251_1.html"
+        title: "AGNIT aims to scale GaN chip production to 1 lakh units — Business Standard"
+        date: "2026-03-17"
 
   - id: gaetec-hyderabad
     name: "GAETEC"

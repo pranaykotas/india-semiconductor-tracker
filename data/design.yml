@@ -1,4 +1,56 @@
 design_firms:
+- id: agnit-semiconductors
+  name: AGNIT Semiconductors
+  category: Indian Fabless
+  dli_support: null
+  parent_company: null
+  parent_hq: null
+  founded: 2019
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 13.0219
+    lon: 77.5671
+  product_focus: Gallium nitride (GaN) RF and power devices
+  application_domains:
+  - Defence
+  - Telecom
+  - Power Electronics
+  design_scope: Vertically integrated (epitaxy, device design, fabrication)
+  node_sophistication: null
+  design_score:
+    ip_ownership: 5
+    design_completeness: 4
+    domain_difficulty: 4
+    market_readiness: 3
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: IISc Bengaluru spin-off (CEO Hareesh Chandrasekar, co-founder Srinivasan Raghavan) built on over 15 years
+      of GaN research at IISc. Not strictly fabless; it owns the whole GaN chain from epitaxial wafers to devices, which are
+      made at IISc's MeitY-funded GaN Ecosystem Enabling Centre and Incubator (GEECI), housed in CeNSE (see the facility page). Raised a $3.5 million seed round
+      (3one4 Capital, Zephyr Peacock) in October 2024 and a $2.6 million extension (Shastra VC) in March 2026. It runs
+      customer pilots, has begun pilot wafer exports, holds an iDEX contract for GaN wireless transmitters, and targets
+      1 lakh chips a year; it has also said it wants a GaN factory under Semicon 2.0.
+    what_it_designs: GaN-on-silicon/SiC epitaxial wafers, RF transistors and power devices for defence radar and
+      communications, telecom base stations and power electronics.
+  sources:
+  - url: https://www.business-standard.com/india-news/agnit-semiconductor-aims-to-scale-gan-chip-production-to-1-lakh-units-126031701251_1.html
+    title: AGNIT Semiconductor aims to scale GaN chip production to 1 lakh units — Business Standard
+    date: '2026-03-17'
+  - url: https://inc42.com/buzz/agnit-semiconductors-nets-2-6-mn-to-foray-into-telecom-power-electronics
+    title: AGNIT Semiconductors nets $2.6 Mn to foray into telecom, power electronics — Inc42
+    date: '2026-03-17'
+  - url: https://yourstory.com/2024/10/agnit-semiconductors-bags-3-5m-seed-round-co-led-3one4-capital-zephyr-peacock
+    title: AGNIT Semiconductors bags $3.5M in seed round — YourStory
+    date: '2024-10-17'
+  - url: https://theprint.in/ground-reports/agnit-iisc-startup-aims-to-put-india-on-gan-map/3029287/
+    title: AGNIT, IISc startup aims to put India on GaN map — ThePrint
+    date: null
+  website: https://agnitsemi.com
 - id: agrani-labs
   name: Agrani Labs
   category: Indian Fabless
