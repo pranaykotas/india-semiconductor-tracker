@@ -1,0 +1,71 @@
+---
+title: "Sahasra Semiconductors ATMP/OSAT"
+subtitle: "Sahasra Semiconductors Pvt. Ltd. | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+A small, export-led packaging unit in the ELCINA electronics cluster at Bhiwadi, Rajasthan's first semiconductor plant. PIB calls it the first SME to start commercial production of semiconductor chips in India. It was set up with support under MeitY's SPECS component scheme, not the India Semiconductor Mission.
+:::
+
+## What does this facility make?
+
+Packages memory chips for microSD cards and flash storage, plus LED driver ICs, eSIMs and RFID products, in a 57,000 sq ft unit with Class 10K and 100K cleanrooms. Capacity is 60 million units a year, with plans for 400-600 million in two to three years. The company says it is starting its own product R&D, including LED driver chips.
+
+## Why does it matter?
+
+Over 60% of output is exported (US, Germany, France, Eastern Europe, China, Nepal), so this is working commercial OSAT capacity today, unlike several larger announced projects. It is low-complexity packaging, but it shows that mid-sized firms can enter the industry through smaller schemes like SPECS and state policy (Rajasthan's Semiconductor Policy, March 2026).
+
+## Key Facts
+
+::: {.grid}
+::: {.g-col-8}
+
+| | |
+|---|---|
+| **Company** | Sahasra Semiconductors Pvt. Ltd. |
+| **Partners** | None |
+| **Type** | Assembly & Packaging |
+| **Capability** | Memory (microSD/flash), LED driver IC, eSIM and RFID packaging (60M units/year; 400-600M planned) |
+| **Status** | Operational |
+| **Investment** | ₹150 crore |
+| **Location** | Bhiwadi, Rajasthan |
+| **Category** | OSAT (Non-ISM) |
+
+:::
+::: {.g-col-4}
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1/5**
+
+Benchmarked against a 3nm fab (5/5).
+
+### Timeliness
+<span class="slippage-badge badge-on-track">On track</span>
+
+
+:::
+:::
+
+## Project Timeline
+
+- **15 May 2026** — Facility inaugurated (virtually) by Union Minister Ashwini Vaishnaw along with the ELCINA EMC at Salarpur, Bhiwadi
+
+
+
+
+
+## Sources
+
+- [PIB: Rajasthan gets its first Semiconductor Plant (Sahasra Semiconductors, Bhiwadi)](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2261509) (15 May 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this project?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>
