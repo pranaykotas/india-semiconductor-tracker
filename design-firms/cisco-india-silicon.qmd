@@ -27,6 +27,7 @@ Networking ASIC design, verification, and physical design for Cisco's switching 
 | **Design Scope** | Subsystem |
 | **Node Sophistication** | 7nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

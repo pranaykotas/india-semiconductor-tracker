@@ -27,6 +27,7 @@ Full-stack AI compute platform — custom GPU hardware plus software stack inclu
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

@@ -26,7 +26,8 @@ Not a chip itself — a generative-AI assistant embedded in existing EDA workflo
 | **Application Domains** | EDA, Analog Design |
 | **Design Scope** | Design Tool |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | — |
 
 ### Design Scores
 

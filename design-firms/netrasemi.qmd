@@ -27,6 +27,7 @@ Edge-AI SoCs and chiplets: NETRA A2000 (12 TOPS) and R1000 (1 TOPS edge MCU), pl
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 12nm |
 | **DLI Support** | PDLI grant — A High-End Edge-AI SoC with on-chip video analytics and vector processing computing.; Development of ML Acceleration chip with Programmable Hardware Infrastructure for Robots, Drones, Industrial automation and Video Analytics systems (64 TOPS AI performance) on 12nm, TSMC |
+| **C2S Project** | A Shakti CPU based smart vision SoC (with College of Engineering Trivandrum) |
 
 ### Design Scores
 
@@ -37,6 +38,7 @@ Edge-AI SoCs and chiplets: NETRA A2000 (12 TOPS) and R1000 (1 TOPS edge MCU), pl
 
 ## Sources
 
+- [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [Netrasemi company profile (NeuromorphicCore)](https://neuromorphiccore.ai/insights/netrasemi/) (01 Mar 2026)
 - [Netrasemi home page](https://netrasemi.com/)

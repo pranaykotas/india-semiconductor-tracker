@@ -27,6 +27,7 @@ Software-defined radio SoCs for broadcast (ATSC 3.0, 5G broadcast), satellite-te
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
 | **DLI Support** | PDLI grant — SoC for Baseband Processing for 5G Telecom infrastructure |
+| **C2S Project** | — |
 
 ### Design Scores
 

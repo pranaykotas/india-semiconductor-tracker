@@ -26,7 +26,8 @@ Pin-to-pin compatible ICs, power-gate and custom IP, and ESD-monitoring systems.
 | **Application Domains** | Defence, Automotive, Industrial |
 | **Design Scope** | Full chip + services |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | — |
 
 ### Design Scores
 

@@ -26,7 +26,8 @@ Not yet documented.
 | **Application Domains** | Not yet documented |
 | **Design Scope** | Site down |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | Programmable gain amplifier and reconfigurable ADC SoCs (with VES Institute of Technology, Mumbai) |
 
 ### Design Scores
 
@@ -34,6 +35,7 @@ Not yet documented.
 
 ## Sources
 
+- [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
 - [Panache Digilife — company website](https://www.panachedigilife.com)
 - [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
 

@@ -27,6 +27,7 @@ Turnkey ASIC and silicon-engineering services for global clients, and the VIDYUT
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — Smart Energy Meter IC-VIDYUT |
+| **C2S Project** | — |
 
 ### Design Scores
 

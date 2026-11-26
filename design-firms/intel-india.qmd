@@ -27,6 +27,7 @@ Core and Xeon CPU microarchitecture, GPU design (Arc), AI accelerator IPs, platf
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

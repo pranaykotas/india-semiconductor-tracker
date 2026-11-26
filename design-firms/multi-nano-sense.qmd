@@ -27,6 +27,7 @@ Gas sensors and a CMOS data-acquisition analog front-end SoC to read them out.
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — MEMS Platform Gas Sensors and CMOS Data Acquisition AFE SoC |
+| **C2S Project** | — |
 
 ### Design Scores
 

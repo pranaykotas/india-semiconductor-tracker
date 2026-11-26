@@ -27,6 +27,7 @@ Analog and mixed-signal ICs, power management chips, embedded microcontrollers (
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

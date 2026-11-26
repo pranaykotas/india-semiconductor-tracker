@@ -27,6 +27,7 @@ Microchip has operated in India for 25 years. In 2025, it announced a $300 milli
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

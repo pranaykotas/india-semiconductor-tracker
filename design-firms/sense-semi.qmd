@@ -27,6 +27,7 @@ SenseSoC ultra-low-power SoCs combining AI inference, wireless connectivity and 
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — SenseSoC-200 SoC for IOT and Medical Applications |
+| **C2S Project** | — |
 
 ### Design Scores
 

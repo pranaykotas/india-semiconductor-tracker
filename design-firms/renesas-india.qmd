@@ -27,6 +27,7 @@ RH850 and RL78 automotive microcontrollers, analog power management ICs, and IoT
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 22nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

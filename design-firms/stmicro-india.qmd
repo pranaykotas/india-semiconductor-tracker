@@ -27,6 +27,7 @@ STM32 microcontrollers, MEMS inertial sensors and microphones, power management 
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 18nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

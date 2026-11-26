@@ -26,7 +26,8 @@ RF front-end chips (phase shifters, radar front-ends, CMOS/BiCMOS RFIC IP), GaN 
 | **Application Domains** | Defence, Satellite, Telecom |
 | **Design Scope** | Full chip + modules |
 | **Node Sophistication** | 65nm |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | — |
 
 ### Design Scores
 

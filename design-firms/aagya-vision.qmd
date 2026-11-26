@@ -27,6 +27,7 @@ FMCW radar-on-chip ICs with radar hardware and AI software for drone detection, 
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — Radar RF chips for edge applications |
+| **C2S Project** | — |
 
 ### Design Scores
 

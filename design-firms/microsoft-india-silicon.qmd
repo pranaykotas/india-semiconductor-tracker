@@ -27,6 +27,7 @@ Silicon engineering for Azure custom chips, including design verification, physi
 | **Design Scope** | Subsystem |
 | **Node Sophistication** | 5nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

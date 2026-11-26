@@ -26,7 +26,8 @@ MATOMAC SoC/ASIC chipsets for machine-to-machine automation, and embedded IoT pr
 | **Application Domains** | IoT, Wireless, Medical, Transportation |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | MATOMAC: LPWAN ASIC/SoC (with KLE Technological University, Hubballi) |
 
 ### Design Scores
 
@@ -37,6 +38,7 @@ MATOMAC SoC/ASIC chipsets for machine-to-machine automation, and embedded IoT pr
 
 ## Sources
 
+- [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [About Us – SEMIKSHA](https://semiksha.com/about-us/) (01 Jan 2026)
 - [SEMIKSHA home](https://semiksha.com/) (25 Nov 2026)

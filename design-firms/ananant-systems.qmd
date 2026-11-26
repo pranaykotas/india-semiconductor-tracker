@@ -26,7 +26,8 @@ Deterministic RISC-V/DSP compute and 5G small-cell connectivity chips, with a pe
 | **Application Domains** | Telecom, Industrial, Edge AI |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | — |
 
 ### Design Scores
 

@@ -26,7 +26,8 @@ A time-multiplexed coherent (optical) Ising machine handling up to 100,000 varia
 | **Application Domains** | Quantum Computing, HPC |
 | **Design Scope** | Subsystem |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | — |
 
 ### Design Scores
 

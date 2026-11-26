@@ -27,6 +27,7 @@ TireSynapse, a tire-monitoring sensing SoC with integrated Bluetooth for wear pr
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — Next Generation IC for Advanced Tire Monitoring System (TMS) |
+| **C2S Project** | Tire pressure and temperature monitoring system based on the Shakti microprocessor (with IIT Dharwad) |
 
 ### Design Scores
 
@@ -37,6 +38,7 @@ TireSynapse, a tire-monitoring sensing SoC with integrated Bluetooth for wear pr
 
 ## Sources
 
+- [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [MorningPitch – ABCRL profile (TireSynapse)](https://asia.morningpitch.com/startups-1/axejj4azmjd6m4r-37rn5-a5yp8-h64mc)
 - [Indian Semiconductor Design Start-Ups are Struggling to Raise Funds (Business Today)](https://www.businesstoday.in/amp/magazine/technology/story/indian-semiconductor-design-start-ups-are-struggling-to-raise-funds-whats-wrong-346513-2022-09-06) (06 Sep 2022)

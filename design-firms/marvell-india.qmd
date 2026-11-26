@@ -27,6 +27,7 @@ Custom data centre ASICs, 5G baseband processors, networking switches, storage c
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 2nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

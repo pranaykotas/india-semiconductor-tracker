@@ -26,7 +26,8 @@ The Palani platform: analog in-memory-compute NPUs and SoCs with chip-to-chip op
 | **Application Domains** | Edge AI, Data Centre |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 12nm |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | — |
 
 ### Design Scores
 

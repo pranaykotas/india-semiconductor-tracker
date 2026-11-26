@@ -379,6 +379,9 @@ design_firms:
     product: RISC-V multi-core super scalar processor for smartphones and edge AI.
     project_outlay_inr_lakh: 1743.0
     grant_inr: null
+  c2s:
+    partner: "CUSAT, Kochi (with PES University)"
+    project: "DSP and AI workload tuned embedded RISC-V processors"
   narrative:
     significance: IIT Madras spin-off (G.S. Madhusudan, Neel Gala) commercialising RISC-V processor cores derived from the
       SHAKTI programme. Its SoC Generator platform produced a six-core heterogeneous RISC-V test chip on TSMC 40nm, silicon-validated
@@ -386,6 +389,9 @@ design_firms:
     what_it_designs: Configurable RISC-V core generators (Azurite, Calcite), an automated SoC Generator, and licensable reference
       SoCs; its DLI project is a multi-core superscalar RISC-V processor for smartphones and edge AI.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://chips-dli.gov.in/DLI/financialSupport
     title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
@@ -433,6 +439,9 @@ design_firms:
     product: SoC, IP and Acclerator card powered by REDEFINE architecture and Ecosystem
     project_outlay_inr_lakh: 2048.83
     grant_inr: null
+  c2s:
+    partner: "IISc Bangalore"
+    project: "Verification, validation and prototyping of REDEFINE many-core IP for AI/ML acceleration"
   narrative:
     significance: Bengaluru firm founded 2005 out of its founders' research at IISc (CEO Deepak Shapeti, CTO Dr Ranjani Narayan;
       Prof S.K. Nandy of IISc as mentor). Its MuDRA-1 test chip — 16 RISC-V cores on the REDEFINE architecture, TSMC 28nm
@@ -441,6 +450,9 @@ design_firms:
     what_it_designs: REDEFINE many-core reconfigurable processors with dynamic scheduling, delivered as SoCs, IP and accelerator
       cards for AI and signal-processing workloads.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://chips-dli.gov.in/DLI/financialSupport
     title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
@@ -674,6 +686,9 @@ design_firms:
       (64 TOPS AI performance) on 12nm, TSMC
     project_outlay_inr_lakh: 10555.0
     grant_inr: null
+  c2s:
+    partner: "College of Engineering Trivandrum"
+    project: "A Shakti CPU based smart vision SoC"
   narrative:
     significance: Thiruvananthapuram edge-AI chip firm founded 2020 (Jyothis Indirabhai, Deepa Geetha, Sreejith Varma) and
       the only firm with two PDLI projects. Its NETRA A2000 (12 TOPS, TSMC 12nm) achieved silicon bring-up and launched in
@@ -681,6 +696,9 @@ design_firms:
     what_it_designs: 'Edge-AI SoCs and chiplets: NETRA A2000 (12 TOPS) and R1000 (1 TOPS edge MCU), plus C1000/C2000 parts
       for video analytics and vision.'
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://chips-dli.gov.in/DLI/financialSupport
     title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
@@ -726,11 +744,17 @@ design_firms:
     approved: false
     product: null
     grant_inr: null
+  c2s:
+    partner: "C-DAC Noida"
+    project: "Reconfigurable and scalable deep learning accelerator (RDFS_DLA) IP and chip"
   narrative:
     significance: Bengaluru AI company founded 2018 (about 80 staff, mostly software). Its ExSLerate NPU IP is FPGA-validated;
       the Krsna AI SoC is in design with first silicon expected in 2026. No tape-out yet.
     what_it_designs: Edge-AI NPU IP (ExSLerate), the Krsna AI SoC in development, and AI models and software tools.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
@@ -1168,6 +1192,9 @@ design_firms:
     approved: false
     product: null
     grant_inr: null
+  c2s:
+    partner: "IIT Bombay"
+    project: "Global navigation receiver SoC for NavIC and GPS"
   narrative:
     significance: Bengaluru firm founded 2018 by Mohan Jindal (ex-Intel); iDEX DISC1 winner with about ₹8.2 crore in government
       grants. Its ABHED-1 encryptor and Data Diode are FPGA/custom-circuit appliances supplied to Indian defence; no ASIC
@@ -1175,6 +1202,9 @@ design_firms:
     what_it_designs: Hardware-only network encryption appliances (ABHED-1, Data Diode) and ASIC front-end design/verification
       services.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
@@ -1210,11 +1240,17 @@ design_firms:
     approved: false
     product: null
     grant_inr: null
+  c2s:
+    partner: "KLE Technological University, Hubballi"
+    project: "MATOMAC: LPWAN ASIC/SoC"
   narrative:
     significance: Hubballi startup incubated at KLE Technological University's CTIE (founding year given as both 2018 and
       2019 on its own site). Has taped out two test chips in its MATOMAC line of M2M/automation ICs; about 30 staff (Dec 2023).
     what_it_designs: MATOMAC SoC/ASIC chipsets for machine-to-machine automation, and embedded IoT products (Jalvidha, e-cods).
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
@@ -1260,12 +1296,18 @@ design_firms:
     approved: false
     product: null
     grant_inr: null
+  c2s:
+    partner: "IIT Kanpur"
+    project: "RF Transceiver SoC with DSP for 27MHz to 1.05 GHz"
   narrative:
     significance: Founded 2020 (registered in Kanhangad, Kasaragod; R&D team in Kochi) by Rijin John and Dr Arun Ashok. Taped
       out its SC2391 GNSS/5G front-end module in August 2022; ₹7.59 crore government grant (credited to C-DOT on its site,
       DoT TTDF by DigiTimes). IESA Technovision 2022 'Most Promising Start-Up'.
     what_it_designs: Analog/RF/mixed-signal hard IP and RF front-end modules for GNSS, 5G and Ka-band LEO satellite communications.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)
     date: '2026-06-27'
@@ -1310,6 +1352,9 @@ design_firms:
     product: Next Generation IC for Advanced Tire Monitoring System (TMS)
     project_outlay_inr_lakh: 4095.49
     grant_inr: null
+  c2s:
+    partner: "IIT Dharwad"
+    project: "Tire pressure and temperature monitoring system based on the Shakti microprocessor"
   narrative:
     significance: Aryabhata Circuits and Research Labs (ABCRL), Bengaluru, founded 2019; Tushar K. Bhattacharyya is co-founder
       and CEO. Also backed by MeitY's Chips-to-Startup (C2S) programme. TireSynapse was in advanced design in 2022; no tape-out
@@ -1317,6 +1362,9 @@ design_firms:
     what_it_designs: TireSynapse, a tire-monitoring sensing SoC with integrated Bluetooth for wear prediction, road-condition
       and load detection.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://chips-dli.gov.in/DLI/financialSupport
     title: DLI — Applications approved for financial support (PDLI), MeitY
     date: '2026-11-25'
@@ -3074,6 +3122,9 @@ design_firms:
     product: LowLight Image Sensor with SinglePhoton Detection for Security, Surveillance, Automobile Cameras
     project_outlay_inr_lakh: 748.0
     grant_inr: null
+  c2s:
+    partner: "IIT Delhi"
+    project: "High temporal resolution sensors for collision detection in automotive applications (DV2JS)"
   narrative:
     significance: 'One group, three names: Bharat Semi (founded late 2021), its design division 3rdiTech (IIT Delhi-linked;
       iDEX winner; co-founder Dr Mukul Sarkar), and DV2JS Innovation LLP (incorporated January 2018), the entity on the official
@@ -3088,6 +3139,9 @@ design_firms:
       in prototyping, Gen-2 prototypes expected mid-2027), and — via the DLI project — a low-light image sensor with single-photon
       detection for security, surveillance and automotive cameras.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/
     title: Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market (TechCrunch)
     date: '2026-11-15'
@@ -4376,11 +4430,17 @@ design_firms:
     approved: false
     product: null
     grant_inr: null
+  c2s:
+    partner: "Dr. Mahalingam College of Engineering and Technology, Coimbatore"
+    project: "16-channel neural signal amplifier front end for EEG (SCL 180nm)"
   narrative:
     significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
       chips of its own, on current evidence. Respiratory-care and biomedical test devices.
     what_it_designs: Respiratory-care and biomedical test devices.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://www.ariesbiomed.com
     title: Aries Biomed Technology — company website
     date: null
@@ -4637,11 +4697,17 @@ design_firms:
     approved: false
     product: null
     grant_inr: null
+  c2s:
+    partner: "Cambridge Institute of Technology, Bengaluru (with BMSCE, REVA, SNS)"
+    project: "Ground penetrating radar with on-field reconfiguration"
   narrative:
     significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
       its own found.
     what_it_designs: Not yet documented.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://www.intsemi.com
     title: IntSemi Technologies — company website
     date: null
@@ -5208,11 +5274,17 @@ design_firms:
     approved: false
     product: null
     grant_inr: null
+  c2s:
+    partner: "VES Institute of Technology, Mumbai"
+    project: "Programmable gain amplifier and reconfigurable ADC SoCs"
   narrative:
     significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
       (November 2026); not yet classified.
     what_it_designs: Not yet documented.
   sources:
+  - url: https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp
+    title: List of proposals selected under C2S — MeitY Chips to Startup programme
+    date: '2026-11-26'
   - url: https://www.panachedigilife.com
     title: Panache Digilife — company website
     date: null

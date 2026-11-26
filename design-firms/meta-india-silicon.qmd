@@ -27,6 +27,7 @@ Domain-specific SoCs and ASICs for Meta's data centres, covering architecture, R
 | **Design Scope** | Subsystem |
 | **Node Sophistication** | 5nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

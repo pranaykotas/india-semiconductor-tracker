@@ -27,6 +27,7 @@ Cellular-modem chip designer whose Indian entity is registered in Chennai (2007)
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — Dualmode LTE Cat bis and NBIoT Baseband chipset for IoT applications |
+| **C2S Project** | — |
 
 ### Design Scores
 

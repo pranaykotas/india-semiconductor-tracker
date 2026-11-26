@@ -27,6 +27,7 @@ X-band (8–12 GHz) beamformer and RF front-end ICs for phased-array radar, sate
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — A 4-channel Mux-Demux Gain Phase Shifter for Hybrid Beamformer in 8-12GHz for satellite communication and 5G Antenna Array systems |
+| **C2S Project** | — |
 
 ### Design Scores
 

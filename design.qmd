@@ -104,7 +104,9 @@ m
 
 ### Two Tiers of DLI Support
 
-The Design Linked Incentive (DLI) scheme reaches far more firms than its grants do. Its **Product Design Linked Incentive (PDLI)** — financial support of up to 50% of eligible design expenditure — has gone to `r n_pdli <- sum(firms$dli_support %in% "PDLI grant"); n_pdli` firms (24 projects; [official list](https://chips-dli.gov.in/DLI/financialSupport)). Another `r n_listed <- sum(firms$category == "Indian Fabless" & firms$dli_support %in% "Listed as DLI beneficiary"); n_listed` Indian fabless firms tracked here appear on the scheme's [beneficiary list](https://chips-dli.gov.in/DLI/HomePage) without a PDLI grant. The portal does not say what each received; the scheme's other strand — design infrastructure such as EDA tools, IP and fabrication runs through C-DAC's ChipIN centre — is the likely form. The scheme's reach is wide; its money is narrow.
+The Design Linked Incentive (DLI) scheme reaches far more firms than its grants do. Its **Product Design Linked Incentive (PDLI)** — financial support of up to 50% of eligible design expenditure — has gone to `r n_pdli <- sum(firms$dli_support %in% "PDLI grant"); n_pdli` firms (24 projects; [official list](https://chips-dli.gov.in/DLI/financialSupport)). Another `r n_listed <- sum(firms$category == "Indian Fabless" & firms$dli_support %in% "Listed as DLI beneficiary"); n_listed` Indian fabless firms tracked here appear on the scheme's [beneficiary list](https://chips-dli.gov.in/DLI/HomePage) without a PDLI grant. The portal does not itemise what each received, but MeitY [counts 95 startups under the DLI scheme](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jan/doc2026118760301.pdf) among the users of the shared EDA tools at C-DAC's ChipIN centre: that design infrastructure is the scheme's other strand. The scheme's reach is wide; its money is narrow.
+
+Some firms also hold an R&D project under MeitY's separate [Chips to Startup (C2S)](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) programme, run jointly with an academic institution; firm profiles note these.
 
 Each firm gets two scores (1–5), kept separate so that a hard, unfinished bet and a simpler, shipped product are not averaged into the same number:
 
@@ -133,9 +135,27 @@ quads <- tibble::tibble(
             "Early and modest", "Big bets, yet to deliver")
 )
 
-# No jitter: firms with identical scores share one dot (labels fan out), so no firm
-# is pushed across a quadrant line. A score of exactly 3 counts as "high".
-ggplot(scored, aes(x = ambition, y = progress)) +
+# Firms with identical scores would sit on one dot and hide each other's colour.
+# Spread each such group on a small ring around the true point. On a quadrant line
+# (score exactly 3, which counts as "high") the offset only points into the high side,
+# so no firm appears to cross a line. Labels and tooltips still use the true scores.
+r_off <- 0.07
+scored <- scored %>%
+  group_by(ambition, progress) %>%
+  mutate(k = row_number(), n_same = n(),
+         # Fan the group over a half-circle if it sits on a quadrant line, else a full circle
+         on_x = ambition == 3, on_y = progress == 3,
+         span = ifelse(on_x | on_y, pi, 2 * pi),
+         start = case_when(on_x & on_y ~ 0, on_x ~ -pi / 2, on_y ~ 0, TRUE ~ pi / 2),
+         theta = start + span * (k - 0.5) / n_same,
+         dx = ifelse(n_same > 1, r_off * cos(theta), 0),
+         dy = ifelse(n_same > 1, r_off * 1.2 * sin(theta), 0),
+         dx = ifelse(on_x, abs(dx), dx),
+         dy = ifelse(on_y, abs(dy), dy),
+         x_plot = ambition + dx, y_plot = progress + dy) %>%
+  ungroup()
+
+ggplot(scored, aes(x = x_plot, y = y_plot)) +
   annotate("rect", xmin = 3, xmax = 5.3, ymin = 0.6, ymax = 3, fill = "#f1a222", alpha = 0.08) +
   geom_hline(yintercept = 3, colour = "#cfc8c3", linewidth = 0.4) +
   geom_vline(xintercept = 3, colour = "#cfc8c3", linewidth = 0.4) +

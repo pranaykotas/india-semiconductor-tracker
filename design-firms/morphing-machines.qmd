@@ -27,6 +27,7 @@ REDEFINE many-core reconfigurable processors with dynamic scheduling, delivered 
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
 | **DLI Support** | PDLI grant — SoC, IP and Acclerator card powered by REDEFINE architecture and Ecosystem |
+| **C2S Project** | Verification, validation and prototyping of REDEFINE many-core IP for AI/ML acceleration (with IISc Bangalore) |
 
 ### Design Scores
 
@@ -37,6 +38,7 @@ REDEFINE many-core reconfigurable processors with dynamic scheduling, delivered 
 
 ## Sources
 
+- [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [Morphing Machines home page](https://morphing.in/)
 - [Morphing Machines - About](https://morphing.in/about)

@@ -27,6 +27,7 @@ Analog and mixed-signal ICs and IP: motor-control MCUs, analog front-ends, data 
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — A Mixed Signal Microcontroller for Motor Control and Smart Power Applications |
+| **C2S Project** | — |
 
 ### Design Scores
 

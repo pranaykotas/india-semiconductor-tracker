@@ -27,6 +27,7 @@ Exynos mobile application processors, 5G modem IPs, display driver ICs, and cust
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

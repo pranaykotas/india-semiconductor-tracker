@@ -26,7 +26,8 @@ Certified BLE, Wi-Fi, LoRa, GNSS and Zigbee modules and SiPs; the ISC-VEGA-SOM m
 | **Application Domains** | IoT, Smart Metering, Smart City |
 | **Design Scope** | Modules + SoC |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | — |
 
 ### Design Scores
 

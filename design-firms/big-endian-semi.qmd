@@ -27,6 +27,7 @@ Secure IP-camera and surveillance SoCs with on-chip edge AI.
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
 | **DLI Support** | PDLI grant — SoC for Video Audio Surveillance Unit, Design and Development |
+| **C2S Project** | — |
 
 ### Design Scores
 

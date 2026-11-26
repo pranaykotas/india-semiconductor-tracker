@@ -27,6 +27,7 @@ Wireless modem silicon, SoC platform architecture, and hardware verification for
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

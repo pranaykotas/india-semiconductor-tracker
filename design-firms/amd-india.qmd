@@ -27,6 +27,7 @@ CPU (Ryzen, EPYC) and GPU (Radeon) design, adaptive computing platforms (Versal,
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

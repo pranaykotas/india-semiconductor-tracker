@@ -27,6 +27,7 @@ GPON/EPON optical network terminal SoCs integrating compute, broadband access an
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
 | **DLI Support** | PDLI grant — VEGA Processor based GPON ONT and Network SoC for FTTX and Broadband applications |
+| **C2S Project** | — |
 
 ### Design Scores
 

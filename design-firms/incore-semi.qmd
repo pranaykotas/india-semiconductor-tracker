@@ -27,6 +27,7 @@ Configurable RISC-V core generators (Azurite, Calcite), an automated SoC Generat
 | **Design Scope** | IP + SoC |
 | **Node Sophistication** | 40nm |
 | **DLI Support** | PDLI grant — RISC-V multi-core super scalar processor for smartphones and edge AI. |
+| **C2S Project** | DSP and AI workload tuned embedded RISC-V processors (with CUSAT, Kochi (with PES University)) |
 
 ### Design Scores
 
@@ -37,6 +38,7 @@ Configurable RISC-V core generators (Azurite, Calcite), an automated SoC Generat
 
 ## Sources
 
+- [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
 - [InCore Semiconductors official website](https://incoresemi.com)
 - [InCore - About us](https://incoresemi.com/about-us/)

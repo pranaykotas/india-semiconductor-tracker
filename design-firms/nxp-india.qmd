@@ -27,6 +27,7 @@ Automotive application processors (S32 family), secure NFC controllers, i.MX app
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 5nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

@@ -27,6 +27,7 @@ Power MOSFETs, IGBT modules, AURIX automotive microcontrollers, OPTIGA security 
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

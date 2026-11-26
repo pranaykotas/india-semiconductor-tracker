@@ -238,6 +238,9 @@ load_design_firms <- function(path = "data/design.yml") {
       category          = f$category,
       # DLI tier: "PDLI grant" | "Listed as DLI beneficiary" | NA (see design.qmd)
       dli_support       = f$dli_support %||% NA_character_,
+      # C2S (Chips to Startup) R&D project with an academic partner, if any
+      c2s_partner       = f$c2s$partner %||% NA_character_,
+      c2s_project       = f$c2s$project %||% NA_character_,
       parent_company    = f$parent_company %||% NA_character_,
       parent_hq         = f$parent_hq %||% NA_character_,
       founded           = f$founded %||% NA_integer_,

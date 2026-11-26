@@ -27,6 +27,7 @@ Semiconductor design services and verification IP, plus its INC2106 linear LED d
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — A Linear LED Driver IC. |
+| **C2S Project** | — |
 
 ### Design Scores
 

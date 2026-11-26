@@ -27,6 +27,7 @@ RISC-V microcontrollers and SoCs: the Secure IoT S2401 for smart metering and in
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
 | **DLI Support** | PDLI grant — Vision SoC using Shakti processor for Edge Computing |
+| **C2S Project** | — |
 
 ### Design Scores
 

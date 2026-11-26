@@ -27,6 +27,7 @@ Software-defined multiphase controllers and smart power stages for server and AI
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — A Digital Multiphase Controller IC for Enterprise Server Power |
+| **C2S Project** | — |
 
 ### Design Scores
 

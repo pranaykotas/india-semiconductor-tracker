@@ -27,6 +27,7 @@ NB-IoT and non-terrestrial-network (satellite) IoT SoCs, plus FPGA-based 5G RAN 
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — A 5G NB-IoT based SoC for Terrestrial and Satcom Applications |
+| **C2S Project** | — |
 
 ### Design Scores
 

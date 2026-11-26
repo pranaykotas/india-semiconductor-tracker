@@ -27,6 +27,7 @@ GaN-on-silicon/SiC epitaxial wafers, RF transistors and power devices for defenc
 | **Design Scope** | Vertically integrated (epitaxy, device design, fabrication) |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

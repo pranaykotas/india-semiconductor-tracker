@@ -106,6 +106,7 @@ External contributors submit updates via GitHub Issues using the template at `.g
 Each firm in `data/design.yml` has:
 - `id`, `name`, `category` (`Indian Fabless` | `GCC Design Centre` | `EDA & IP Provider` | `Design Services` — firms with no chip of their own; listed but not scored or counted as fabless)
 - `dli_support`: `PDLI grant` (financial support; official list of 24 projects at chips-dli.gov.in/DLI/financialSupport, must match `dli.approved`) | `Listed as DLI beneficiary` (on the portal's beneficiary logos, chips-dli.gov.in/DLI/HomePage, but no PDLI grant — likely EDA/infrastructure support, not stated) | null
+- `c2s` (partner, project): MeitY Chips to Startup R&D project held jointly with an academic institution (official list: c2s.gov.in/list_of_proposals_selected_under_c2s.jsp); optional, independent of `dli_support`
 - `parent_company`, `parent_hq` (for GCCs; null for Indian firms)
 - `founded` (year of India establishment)
 - `india_headcount` (approximate, when known)

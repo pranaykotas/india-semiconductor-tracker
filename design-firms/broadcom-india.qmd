@@ -27,6 +27,7 @@ Ethernet switch ASICs (Memory), broadband SoCs, Wi-Fi chipsets, enterprise stora
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 5nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

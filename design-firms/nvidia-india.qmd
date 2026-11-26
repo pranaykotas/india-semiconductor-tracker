@@ -27,6 +27,7 @@ GPU architecture and verification, CUDA software stack, AI/ML frameworks, autono
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

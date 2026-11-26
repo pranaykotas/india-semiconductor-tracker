@@ -27,6 +27,7 @@ Cortex-A/R/M CPU IP cores, Mali and Immortalis GPU IP, system IP (interconnects,
 | **Design Scope** | IP block |
 | **Node Sophistication** | 3nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

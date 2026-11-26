@@ -27,6 +27,7 @@ SPARSH ultra-low-power biosensing SoCs for medical wearables; v1 captures ECG, v
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 65nm |
 | **DLI Support** | PDLI grant — High-precision, Ultra-low-power SoC for real-time monitoring of cardiac activity and other vital health parameters |
+| **C2S Project** | — |
 
 ### Design Scores
 

@@ -27,6 +27,7 @@ Precision data converters (ADC/DAC), amplifiers, power management, RF transceive
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 16nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

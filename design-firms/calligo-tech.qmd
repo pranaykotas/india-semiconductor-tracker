@@ -27,6 +27,7 @@ Posit-arithmetic RISC-V CPUs and accelerator cards for HPC, AI and big-data work
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — SoC with RISC V and POSIT Coprocessor based Accelerator Card with Software Ecosystem |
+| **C2S Project** | — |
 
 ### Design Scores
 

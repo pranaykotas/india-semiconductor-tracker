@@ -27,6 +27,7 @@ Silicon-engineering services and ODM/EMS for networking, 5G, IoT and camera prod
 | **Design Scope** | Services |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

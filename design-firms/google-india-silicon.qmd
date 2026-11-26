@@ -27,6 +27,7 @@ Tensor mobile SoCs for Pixel phones, TPU (Tensor Processing Unit) components for
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

@@ -26,7 +26,8 @@ Analog/RF/mixed-signal hard IP and RF front-end modules for GNSS, 5G and Ka-band
 | **Application Domains** | Telecom, 5G, Satellite |
 | **Design Scope** | IP + Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | RF Transceiver SoC with DSP for 27MHz to 1.05 GHz (with IIT Kanpur) |
 
 ### Design Scores
 
@@ -37,6 +38,7 @@ Analog/RF/mixed-signal hard IP and RF front-end modules for GNSS, 5G and Ka-band
 
 ## Sources
 
+- [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [India's Silizium Circuits develops GaAs 5G front-end chip as RF localization advances (DigiTimes)](https://www.digitimes.com/news/a20251006VL200/silizium-circuits-5g-gaas-design-india-startup.html) (06 Oct 2025)
 - [Silizium Circuits home](https://siliziumcircuits.com/) (25 Nov 2026)

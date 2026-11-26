@@ -27,6 +27,7 @@ Dimensity mobile SoCs, Wi-Fi 7 chipsets, smart TV and streaming media SoCs, and 
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
 | **DLI Support** | — |
+| **C2S Project** | — |
 
 ### Design Scores
 

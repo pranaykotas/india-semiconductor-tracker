@@ -27,6 +27,7 @@ Programmable image sensors that integrate capture, signal processing and AI infe
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — LowLight Image Sensor with SinglePhoton Detection for Security, Surveillance, Automobile Cameras |
+| **C2S Project** | High temporal resolution sensors for collision detection in automotive applications (DV2JS) (with IIT Delhi) |
 
 ### Design Scores
 
@@ -37,6 +38,7 @@ Programmable image sensors that integrate capture, signal processing and AI infe
 
 ## Sources
 
+- [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
 - [Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market (TechCrunch)](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/) (15 Nov 2026)
 - [Bharat Semi raises $24M to develop AI-enabled sensors (YourStory)](https://yourstory.com/2026/11/bharat-semi-raises-24m-to-develop-ai-enabled-sensors)
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)

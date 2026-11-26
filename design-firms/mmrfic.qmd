@@ -27,6 +27,7 @@ Millimetre-wave chips and subsystems for radar, 5G/6G communications and wireles
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | PDLI grant — Indigenous Ka-Band Beamformer RADAR Chip |
+| **C2S Project** | — |
 
 ### Design Scores
 

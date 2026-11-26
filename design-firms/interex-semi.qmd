@@ -26,7 +26,8 @@ Silicon IP blocks and turnkey ASIC/FPGA design.
 | **Application Domains** | Computing, Embedded |
 | **Design Scope** | IP blocks + services |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | — |
 
 ### Design Scores
 

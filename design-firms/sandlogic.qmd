@@ -26,7 +26,8 @@ Edge-AI NPU IP (ExSLerate), the Krsna AI SoC in development, and AI models and s
 | **Application Domains** | AI, Edge, IoT |
 | **Design Scope** | IP block (SoC in design) |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
+| **C2S Project** | Reconfigurable and scalable deep learning accelerator (RDFS_DLA) IP and chip (with C-DAC Noida) |
 
 ### Design Scores
 
@@ -37,6 +38,7 @@ Edge-AI NPU IP (ExSLerate), the Krsna AI SoC in development, and AI models and s
 
 ## Sources
 
+- [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
 - [SandLogic home page](https://www.sandlogic.com/)
 - [SandLogic - Krsna SoC](https://www.sandlogic.com/krsna)
