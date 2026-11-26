@@ -1,0 +1,51 @@
+---
+title: "Sampige Semiconductors"
+subtitle: "Indian Fabless"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Bengaluru startup led by co-founder and CEO Parag Naik (earlier co-founded Saankhya Labs). Signed an MoU with BharatGen in February 2026 to co-develop AI chipsets and an India-centric AI software stack. Pre-silicon.
+:::
+
+## What does this firm design?
+
+Chipsets for consumer electronics, IoT and AI inference, co-designed with India-centric AI models.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Indian Fabless |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Chipsets for consumer electronics, IoT and AI tailored to Indian markets |
+| **Application Domains** | Consumer, IoT, AI |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, IP ownership 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
+
+## Sources
+
+- [Sampige Semiconductors — company site](https://sampigesemi.com/)
+- [Sampige Semiconductors partners BharatGen (EFY)](https://www.electronicsforyou.biz/?p=131984)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

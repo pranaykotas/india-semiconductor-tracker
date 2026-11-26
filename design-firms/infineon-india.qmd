@@ -26,7 +26,7 @@ Power MOSFETs, IGBT modules, AURIX automotive microcontrollers, OPTIGA security 
 | **Application Domains** | Automotive, Power, IoT, Security |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

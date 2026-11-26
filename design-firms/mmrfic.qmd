@@ -1,6 +1,6 @@
 ---
 title: "MMRFIC Technology"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Millimetre-wave chips and subsystems for radar, 5G/6G communications and wireles
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2014 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Millimetre-wave chips and subsystems for radar, 5G/6G communications and wireles
 | **Application Domains** | Defence, Radar, Telecom |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — Indigenous Ka-Band Beamformer RADAR Chip |
 
 ### Design Scores
 

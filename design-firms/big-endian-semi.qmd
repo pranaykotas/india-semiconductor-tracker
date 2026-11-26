@@ -1,6 +1,6 @@
 ---
 title: "Big Endian Semi"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Secure IP-camera and surveillance SoCs with on-chip edge AI.
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2024 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Secure IP-camera and surveillance SoCs with on-chip edge AI.
 | **Application Domains** | Surveillance, AI, Security |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — SoC for Video Audio Surveillance Unit, Design and Development |
 
 ### Design Scores
 

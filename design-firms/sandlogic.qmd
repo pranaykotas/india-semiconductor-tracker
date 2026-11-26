@@ -26,7 +26,7 @@ Edge-AI NPU IP (ExSLerate), the Krsna AI SoC in development, and AI models and s
 | **Application Domains** | AI, Edge, IoT |
 | **Design Scope** | IP block (SoC in design) |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

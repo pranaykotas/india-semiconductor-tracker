@@ -118,7 +118,8 @@ Use exactly this format:
 For each firm found in results that is NOT in the current YAML:
 
 **[Firm name]**
-- Category: Indian Fabless / DLI Beneficiary / GCC Design Centre
+- Category: Indian Fabless / GCC Design Centre / EDA & IP Provider / Design Services
+- DLI support: PDLI grant / Listed as DLI beneficiary / none known
 - Why add: 1-2 sentences
 - Source: [URL] (date)
 - Suggested YAML entry:
@@ -291,7 +292,7 @@ def build_design_summary(design_yaml: str) -> str:
 def build_data_gaps(design_yaml: str) -> str:
     """List tracked firms with missing fields, grouped by field. No LLM involved."""
     firms = yaml.safe_load(design_yaml).get("design_firms", [])
-    indian = [f for f in firms if f.get("category") in ("Indian Fabless", "DLI Beneficiary")]
+    indian = [f for f in firms if f.get("category") == "Indian Fabless"]
     checks = {
         "India headcount missing": [f for f in firms if not f.get("india_headcount")],
         "Node sophistication missing (Indian fabless)": [f for f in indian if not f.get("node_sophistication")],

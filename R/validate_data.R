@@ -71,9 +71,12 @@ for (x in des) {
   id <- x$id
   check_required("design.yml", id, x, c("id", "name", "category", "locations"))
   check_enum("design.yml", id, "category", x$category,
-             c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider", "Design Services"))
-  if (!is.null(x$dli_beneficiary) && !is.null(x$dli$approved) && x$dli_beneficiary != x$dli$approved)
-    err("design.yml", id, "dli_beneficiary and dli.approved disagree")
+             c("Indian Fabless", "GCC Design Centre", "EDA & IP Provider", "Design Services"))
+  if (!is.null(x$dli_support))
+    check_enum("design.yml", id, "dli_support", x$dli_support, c("PDLI grant", "Listed as DLI beneficiary"))
+  # A PDLI grant must match the dli block, and vice versa
+  if (!is.null(x$dli$approved) && isTRUE(x$dli$approved) != identical(x$dli_support, "PDLI grant"))
+    err("design.yml", id, "dli_support and dli.approved disagree")
   check_sources("design.yml", id, x$sources)
 }
 

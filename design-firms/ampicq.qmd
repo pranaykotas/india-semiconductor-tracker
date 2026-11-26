@@ -26,7 +26,7 @@ Photonic integrated circuits for quantum key distribution (QKD) transmitters/rec
 | **Application Domains** | Defence, Finance, Healthcare, Telecom |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

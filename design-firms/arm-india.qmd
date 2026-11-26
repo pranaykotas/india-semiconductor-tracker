@@ -26,7 +26,7 @@ Cortex-A/R/M CPU IP cores, Mali and Immortalis GPU IP, system IP (interconnects,
 | **Application Domains** | Mobile, Computing, IoT, Automotive |
 | **Design Scope** | IP block |
 | **Node Sophistication** | 3nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

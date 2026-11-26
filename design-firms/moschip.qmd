@@ -1,6 +1,6 @@
 ---
 title: "MoSChip Technologies"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Turnkey ASIC and silicon-engineering services for global clients, and the VIDYUT
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 1999 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Turnkey ASIC and silicon-engineering services for global clients, and the VIDYUT
 | **Application Domains** | IoT, Connectivity, Industrial |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — Smart Energy Meter IC-VIDYUT |
 
 ### Design Scores
 

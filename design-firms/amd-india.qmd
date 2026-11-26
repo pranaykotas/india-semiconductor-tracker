@@ -26,7 +26,7 @@ CPU (Ryzen, EPYC) and GPU (Radeon) design, adaptive computing platforms (Versal,
 | **Application Domains** | Computing, Data Centre, Gaming, FPGA |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

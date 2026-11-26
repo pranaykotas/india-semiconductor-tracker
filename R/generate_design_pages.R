@@ -37,7 +37,7 @@ date: last-modified
 | **Application Domains** | {application_domains} |
 | **Design Scope** | {design_scope} |
 | **Node Sophistication** | {node_text} |
-| **DLI Beneficiary** | {dli_text} |
+| **DLI Support** | {dli_text} |
 
 ### Design Scores
 
@@ -70,7 +70,8 @@ for (i in 1:nrow(firms)) {
   domains_text <- if (nchar(f$application_domains) > 0) f$application_domains else "Not yet documented"
   design_scope_text <- if (nchar(f$design_scope) > 0) f$design_scope else "Not yet documented"
   node_text <- if (nchar(f$node_sophistication) > 0) f$node_sophistication else "Not applicable / not disclosed"
-  dli_text <- if (isTRUE(f$dli_beneficiary)) "Yes" else "No"
+  # PDLI grant = financial support (24 projects); "Listed" = on the Chips-DLI portal beneficiary list without a grant
+  dli_text <- if (is.na(f$dli_support)) "—" else if (f$dli_support == "PDLI grant") paste0("PDLI grant", if (!is.na(f$dli_product)) paste0(" — ", f$dli_product) else "") else "Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant)"
 
   # Two scores (see design.qmd): Ambition = what the firm attempts; Progress = what it has delivered.
   # Each row shows the bar, the score and the two dimensions it averages.

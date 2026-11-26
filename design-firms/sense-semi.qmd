@@ -1,6 +1,6 @@
 ---
 title: "Sensesemi Technologies"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ SenseSoC ultra-low-power SoCs combining AI inference, wireless connectivity and 
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2014 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ SenseSoC ultra-low-power SoCs combining AI inference, wireless connectivity and 
 | **Application Domains** | IoT, Wearables, Healthcare |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — SenseSoC-200 SoC for IOT and Medical Applications |
 
 ### Design Scores
 

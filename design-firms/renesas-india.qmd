@@ -26,7 +26,7 @@ RH850 and RL78 automotive microcontrollers, analog power management ICs, and IoT
 | **Application Domains** | Automotive, Industrial, IoT |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 22nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

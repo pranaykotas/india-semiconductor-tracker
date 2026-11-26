@@ -26,7 +26,7 @@ EDA flow support, yield-learning and automated test-equipment services.
 | **Application Domains** | Not yet documented |
 | **Design Scope** | Services |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

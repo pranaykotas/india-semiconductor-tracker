@@ -1,0 +1,47 @@
+---
+title: "PRS Semicon"
+subtitle: "EDA & IP Provider"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Chennai-headquartered firm with offices in Hyderabad and Kochi, licensing interface IP and offering SoC verification services and VLSI training.
+:::
+
+## What does this firm design?
+
+MIPI, PCIe, CXL, USB, UFS, Ethernet and DDR IP; design-verification services.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | EDA & IP Provider |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Chennai, Hyderabad, Kochi |
+| **Product Focus** | Interface IP (MIPI, PCIe, CXL, USB, UFS, DDR) plus verification services and training |
+| **Application Domains** | Computing, Mobile |
+| **Design Scope** | IP blocks + services |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+*Not yet scored.*
+
+## Sources
+
+- [PRS Semicon — IP solutions](https://prssemicon.com/)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

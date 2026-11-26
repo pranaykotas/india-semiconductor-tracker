@@ -1,0 +1,47 @@
+---
+title: "Interex Semiconductor"
+subtitle: "EDA & IP Provider"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Established 2023, with offices in Bengaluru (HSR Layout) and Hyderabad (IIIT-H CIE). Offers silicon IP and custom ASIC development along with embedded and silicon services.
+:::
+
+## What does this firm design?
+
+Silicon IP blocks and turnkey ASIC/FPGA design.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | EDA & IP Provider |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2023 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru, Hyderabad |
+| **Product Focus** | Silicon IP, custom ASIC and embedded/silicon services |
+| **Application Domains** | Computing, Embedded |
+| **Design Scope** | IP blocks + services |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+*Not yet scored.*
+
+## Sources
+
+- [Interex Semi — company site](https://interexsemi.com/)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

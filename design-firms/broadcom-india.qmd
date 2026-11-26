@@ -26,7 +26,7 @@ Ethernet switch ASICs (Memory), broadband SoCs, Wi-Fi chipsets, enterprise stora
 | **Application Domains** | Networking, Data Centre, Broadband, Storage |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 5nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

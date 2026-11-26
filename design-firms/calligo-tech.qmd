@@ -1,6 +1,6 @@
 ---
 title: "Calligo Technologies"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Posit-arithmetic RISC-V CPUs and accelerator cards for HPC, AI and big-data work
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2012 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Posit-arithmetic RISC-V CPUs and accelerator cards for HPC, AI and big-data work
 | **Application Domains** | AI, Computing |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — SoC with RISC V and POSIT Coprocessor based Accelerator Card with Software Ecosystem |
 
 ### Design Scores
 

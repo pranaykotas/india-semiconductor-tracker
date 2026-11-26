@@ -1,0 +1,50 @@
+---
+title: "Ananant Systems"
+subtitle: "Indian Fabless"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Noida-headquartered (IIT Kanpur outreach centre) with offices in Bengaluru and San Diego; founder and CEO Amiya Pathak (earlier built ZipDial). The company says its Gen 1 5G small-cell connectivity chip is in production and supplied with its L1 software and femto system; Gen 2, combining connectivity and perception on one die, has a tape-out plan in place, with samples to OEMs targeted for H2 2027.
+:::
+
+## What does this firm design?
+
+Deterministic RISC-V/DSP compute and 5G small-cell connectivity chips, with a perception (edge-AI) SoC on the same architecture.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Indian Fabless |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Noida, Bengaluru |
+| **Product Focus** | RISC-V/DSP silicon for 5G small cells and industrial edge perception |
+| **Application Domains** | Telecom, Industrial, Edge AI |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
+| **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
+
+## Sources
+
+- [Ananant Systems — products, roadmap and offices](https://ananantsys.com/)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

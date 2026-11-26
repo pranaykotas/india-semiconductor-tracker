@@ -1,6 +1,6 @@
 ---
 title: "FermionIC Design"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ X-band (8–12 GHz) beamformer and RF front-end ICs for phased-array radar, sate
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2020 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ X-band (8–12 GHz) beamformer and RF front-end ICs for phased-array radar, sate
 | **Application Domains** | Telecom, 5G, Defence |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — A 4-channel Mux-Demux Gain Phase Shifter for Hybrid Beamformer in 8-12GHz for satellite communication and 5G Antenna Array systems |
 
 ### Design Scores
 

@@ -26,7 +26,7 @@ Silicon-photonics (PIC) single- and multi-gas sensor chips for industrial and en
 | **Application Domains** | Industrial, Environmental Sensing |
 | **Design Scope** | Not yet documented |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

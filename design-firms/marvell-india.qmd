@@ -26,7 +26,7 @@ Custom data centre ASICs, 5G baseband processors, networking switches, storage c
 | **Application Domains** | Data Centre, 5G, Cloud, AI |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 2nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

@@ -26,7 +26,7 @@ EDA tools (synthesis, place-and-route, simulation, verification), DesignWare IP 
 | **Application Domains** | EDA, IP, Verification, Security |
 | **Design Scope** | IP block |
 | **Node Sophistication** | 2nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

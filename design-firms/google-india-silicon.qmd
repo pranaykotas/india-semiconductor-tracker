@@ -26,7 +26,7 @@ Tensor mobile SoCs for Pixel phones, TPU (Tensor Processing Unit) components for
 | **Application Domains** | Mobile, AI/ML, Cloud |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

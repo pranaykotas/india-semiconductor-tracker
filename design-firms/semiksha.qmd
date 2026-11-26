@@ -26,7 +26,7 @@ MATOMAC SoC/ASIC chipsets for machine-to-machine automation, and embedded IoT pr
 | **Application Domains** | IoT, Wireless, Medical, Transportation |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

@@ -1,6 +1,6 @@
 ---
 title: "Morphing Machines"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ REDEFINE many-core reconfigurable processors with dynamic scheduling, delivered 
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2005 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ REDEFINE many-core reconfigurable processors with dynamic scheduling, delivered 
 | **Application Domains** | Computing, HPC, AI |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — SoC, IP and Acclerator card powered by REDEFINE architecture and Ecosystem |
 
 ### Design Scores
 

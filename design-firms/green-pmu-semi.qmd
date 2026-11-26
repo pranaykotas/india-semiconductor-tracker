@@ -1,6 +1,6 @@
 ---
 title: "Green PMU Semi"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Multi-input energy-harvesting power-management ICs that let IoT devices run with
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Multi-input energy-harvesting power-management ICs that let IoT devices run with
 | **Application Domains** | IoT, Power |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — Energy-Harvesting power management Chip for IoT applications |
 
 ### Design Scores
 

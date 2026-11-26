@@ -1,0 +1,47 @@
+---
+title: "Xtremesilica Technologies"
+subtitle: "EDA & IP Provider"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Bengaluru (Whitefield) IP firm founded by Basheer Boddikonda. Licenses high-speed controller IP, customised for FPGAs and hardened for ASICs; says its cores are silicon-proven on TSMC 28nm to 3nm.
+:::
+
+## What does this firm design?
+
+PCIe, CXL, DDR, Ethernet and USB4 controller IP cores; FPGA customisation and ASIC hardening.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | EDA & IP Provider |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | PCIe, CXL, DDR, Ethernet and USB4 controller IP |
+| **Application Domains** | Computing, Data Centre |
+| **Design Scope** | IP blocks |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+*Not yet scored.*
+
+## Sources
+
+- [Xtremesilica — Silicon IP cores](https://xtremesilica.com/)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

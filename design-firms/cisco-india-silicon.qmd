@@ -26,7 +26,7 @@ Networking ASIC design, verification, and physical design for Cisco's switching 
 | **Application Domains** | Networking, Data Centre |
 | **Design Scope** | Subsystem |
 | **Node Sophistication** | 7nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

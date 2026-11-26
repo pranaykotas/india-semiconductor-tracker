@@ -1,6 +1,6 @@
 ---
 title: "Sophrosyne Technologies"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ SPARSH ultra-low-power biosensing SoCs for medical wearables; v1 captures ECG, v
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2022 |
 | **India Headcount** | ~30 |
@@ -26,7 +26,7 @@ SPARSH ultra-low-power biosensing SoCs for medical wearables; v1 captures ECG, v
 | **Application Domains** | Healthcare, Wearables |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 65nm |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — High-precision, Ultra-low-power SoC for real-time monitoring of cardiac activity and other vital health parameters |
 
 ### Design Scores
 

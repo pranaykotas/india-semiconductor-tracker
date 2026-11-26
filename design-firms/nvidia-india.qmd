@@ -26,7 +26,7 @@ GPU architecture and verification, CUDA software stack, AI/ML frameworks, autono
 | **Application Domains** | AI/ML, Data Centre, Automotive, Gaming |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

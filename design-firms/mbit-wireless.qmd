@@ -1,6 +1,6 @@
 ---
 title: "MBit Wireless"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Cellular-modem chip designer whose Indian entity is registered in Chennai (2007)
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2007 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Cellular-modem chip designer whose Indian entity is registered in Chennai (2007)
 | **Application Domains** | Telecom, 5G |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — Dualmode LTE Cat bis and NBIoT Baseband chipset for IoT applications |
 
 ### Design Scores
 

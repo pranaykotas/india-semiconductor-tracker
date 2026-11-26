@@ -1,0 +1,51 @@
+---
+title: "MOSart Semiconductor"
+subtitle: "Indian Fabless"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Set up in 2025 (incorporated in Bengaluru, operations in Hyderabad) by CEO Rajesh Gupta and veterans of TI, Micron and ams OSRAM. Developing an automotive-grade single-chip battery-management SoC for packs above 3 kWh. Pre-silicon.
+:::
+
+## What does this firm design?
+
+A single-chip battery-management system (BMS) SoC for EV and energy-storage batteries, and power-conversion ICs.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Indian Fabless |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | 2025 |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru, Hyderabad |
+| **Product Focus** | Battery-management and power-conversion ICs for EVs and energy storage |
+| **Application Domains** | Automotive, Energy Storage, Industrial |
+| **Design Scope** | Full chip |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 3, IP ownership 4 |
+| **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
+
+## Sources
+
+- [MOSart Semi — company site](https://mosartsemi.com/)
+- [The Startup Designing India's Next Battery Intelligence IC (EFY)](https://www.electronicsforyou.biz/startups/the-startup-designing-indias-next-battery-intelligence-ic/)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

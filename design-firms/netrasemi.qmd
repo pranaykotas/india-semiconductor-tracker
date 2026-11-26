@@ -1,6 +1,6 @@
 ---
 title: "Netrasemi"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Edge-AI SoCs and chiplets: NETRA A2000 (12 TOPS) and R1000 (1 TOPS edge MCU), pl
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2020 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Edge-AI SoCs and chiplets: NETRA A2000 (12 TOPS) and R1000 (1 TOPS edge MCU), pl
 | **Application Domains** | AI, Vision, Edge, Automotive, Robotics |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 12nm |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — A High-End Edge-AI SoC with on-chip video analytics and vector processing computing.; Development of ML Acceleration chip with Programmable Hardware Infrastructure for Robots, Drones, Industrial automation and Video Analytics systems (64 TOPS AI performance) on 12nm, TSMC |
 
 ### Design Scores
 

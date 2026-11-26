@@ -1,6 +1,6 @@
 ---
 title: "Vervesemi"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Analog and mixed-signal ICs and IP: motor-control MCUs, analog front-ends, data 
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2017 |
 | **India Headcount** | ~45 |
@@ -26,7 +26,7 @@ Analog and mixed-signal ICs and IP: motor-control MCUs, analog front-ends, data 
 | **Application Domains** | Analog, Power |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — A Mixed Signal Microcontroller for Motor Control and Smart Power Applications |
 
 ### Design Scores
 

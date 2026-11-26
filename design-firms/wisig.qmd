@@ -1,6 +1,6 @@
 ---
 title: "WiSig Networks"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ NB-IoT and non-terrestrial-network (satellite) IoT SoCs, plus FPGA-based 5G RAN 
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2016 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ NB-IoT and non-terrestrial-network (satellite) IoT SoCs, plus FPGA-based 5G RAN 
 | **Application Domains** | Telecom, 5G |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — A 5G NB-IoT based SoC for Terrestrial and Satcom Applications |
 
 ### Design Scores
 

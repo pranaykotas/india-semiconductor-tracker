@@ -1,0 +1,47 @@
+---
+title: "XSoC Tech"
+subtitle: "EDA & IP Provider"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Bengaluru (Marathahalli) firm offering silicon-engineering services today, with a stated product line of die-to-die PHY IP and HPC chiplets.
+:::
+
+## What does this firm design?
+
+Die-to-die PHY interface IP and chiplets for HPC and data centres.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | EDA & IP Provider |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Die-to-die PHY IP and chiplets for high-performance computing |
+| **Application Domains** | Computing, Data Centre |
+| **Design Scope** | IP blocks |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+*Not yet scored.*
+
+## Sources
+
+- [XSoC Tech — company site](https://xsoctech.com/)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

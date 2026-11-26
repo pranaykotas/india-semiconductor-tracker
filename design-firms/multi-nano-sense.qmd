@@ -1,6 +1,6 @@
 ---
 title: "Multi Nano Sense Technologies"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Gas sensors and a CMOS data-acquisition analog front-end SoC to read them out.
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2017 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Gas sensors and a CMOS data-acquisition analog front-end SoC to read them out.
 | **Application Domains** | Industrial, IoT |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — MEMS Platform Gas Sensors and CMOS Data Acquisition AFE SoC |
 
 ### Design Scores
 

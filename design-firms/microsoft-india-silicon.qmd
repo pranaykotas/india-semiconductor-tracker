@@ -26,7 +26,7 @@ Silicon engineering for Azure custom chips, including design verification, physi
 | **Application Domains** | Cloud, AI/ML, Data Centre |
 | **Design Scope** | Subsystem |
 | **Node Sophistication** | 5nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

@@ -26,7 +26,7 @@ Core and Xeon CPU microarchitecture, GPU design (Arc), AI accelerator IPs, platf
 | **Application Domains** | Computing, AI, Data Centre, Client |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

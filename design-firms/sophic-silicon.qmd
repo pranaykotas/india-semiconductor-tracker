@@ -1,0 +1,47 @@
+---
+title: "Sophic Silicon"
+subtitle: "EDA & IP Provider"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Bengaluru silicon-IP firm licensing wireless, power-management and analog/mixed-signal IP plus standard digital interface IP.
+:::
+
+## What does this firm design?
+
+Wireless and analog/mixed-signal IP, PMIC blocks and digital peripherals (AXI, I2C, QSPI, JTAG).
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | EDA & IP Provider |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Analog/RF, power-management and digital interface IP |
+| **Application Domains** | Wireless, AI, Power Management |
+| **Design Scope** | IP blocks |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+*Not yet scored.*
+
+## Sources
+
+- [Sophic Silicon — IP solutions](https://sophicsilicon.com/)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

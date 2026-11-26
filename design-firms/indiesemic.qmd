@@ -26,7 +26,7 @@ Certified BLE, Wi-Fi, LoRa, GNSS and Zigbee modules and SiPs; the ISC-VEGA-SOM m
 | **Application Domains** | IoT, Smart Metering, Smart City |
 | **Design Scope** | Modules + SoC |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 
@@ -43,6 +43,7 @@ Certified BLE, Wi-Fi, LoRa, GNSS and Zigbee modules and SiPs; the ISC-VEGA-SOM m
 - [IndieSemiC official website](https://www.indiesemic.com)
 - [IndieSemiC SoC page](https://www.indiesemic.com/socmodule)
 - [IndieSemiC News & Events](https://www.indiesemic.com/news-and-events)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
 
 ---
 

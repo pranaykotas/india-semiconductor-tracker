@@ -1,6 +1,6 @@
 ---
 title: "ABCR Labs"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ TireSynapse, a tire-monitoring sensing SoC with integrated Bluetooth for wear pr
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2019 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ TireSynapse, a tire-monitoring sensing SoC with integrated Bluetooth for wear pr
 | **Application Domains** | Automotive |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — Next Generation IC for Advanced Tire Monitoring System (TMS) |
 
 ### Design Scores
 

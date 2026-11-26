@@ -26,7 +26,7 @@ Snapdragon mobile SoCs, 5G modem chipsets, AI/ML inference engines, and automoti
 | **Application Domains** | Mobile, 5G, AI, Automotive |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

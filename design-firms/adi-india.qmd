@@ -26,7 +26,7 @@ Precision data converters (ADC/DAC), amplifiers, power management, RF transceive
 | **Application Domains** | Industrial, Automotive, Healthcare, Communications |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 16nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

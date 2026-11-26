@@ -26,7 +26,7 @@ Analog/RF/mixed-signal hard IP and RF front-end modules for GNSS, 5G and Ka-band
 | **Application Domains** | Telecom, 5G, Satellite |
 | **Design Scope** | IP + Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

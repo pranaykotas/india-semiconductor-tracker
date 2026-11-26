@@ -27,7 +27,7 @@ This page tracks three distinct groups:
 
 They have different strategic implications. Indian fabless firms build domestic IP ownership; GCCs bring design expertise, talent pipelines, and integration into global supply chains; EDA & IP providers underpin the entire design ecosystem. All matter, but differently.
 
-As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$category %in% c("Indian Fabless", "DLI Beneficiary"))` Indian fabless firms**, **`r sum(firms$category == "GCC Design Centre")` GCC design centres**, and **`r sum(firms$category == "EDA & IP Provider")` EDA & IP providers** (plus `r sum(firms$category == "Design Services")` design-services firms listed separately) across **`r length(unique(firms$states))`** states.
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r sum(firms$category == "Indian Fabless")` Indian fabless firms**, **`r sum(firms$category == "GCC Design Centre")` GCC design centres**, and **`r sum(firms$category == "EDA & IP Provider")` EDA & IP providers** (plus `r sum(firms$category == "Design Services")` design-services firms listed separately) across **`r length(unique(firms$states))`** states.
 
 ---
 
@@ -89,8 +89,8 @@ m <- leaflet(locations, width = "100%", options = leafletOptions(minZoom = 4, ma
   ) %>%
   addLegend(
     position = "bottomright",
-    colors = sapply(c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider", "Design Services"), design_category_color),
-    labels = c("Indian Fabless", "DLI Beneficiary", "GCC Design Centre", "EDA & IP Provider", "Design Services"),
+    colors = sapply(c("Indian Fabless", "GCC Design Centre", "EDA & IP Provider", "Design Services"), design_category_color),
+    labels = c("Indian Fabless", "GCC Design Centre", "EDA & IP Provider", "Design Services"),
     title = "Category",
     opacity = 0.8
   )
@@ -101,6 +101,10 @@ m
 ---
 
 ## Indian Fabless Firms
+
+### Two Tiers of DLI Support
+
+The Design Linked Incentive (DLI) scheme reaches far more firms than its grants do. Its **Product Design Linked Incentive (PDLI)** — financial support of up to 50% of eligible design expenditure — has gone to `r n_pdli <- sum(firms$dli_support %in% "PDLI grant"); n_pdli` firms (24 projects; [official list](https://chips-dli.gov.in/DLI/financialSupport)). Another `r n_listed <- sum(firms$category == "Indian Fabless" & firms$dli_support %in% "Listed as DLI beneficiary"); n_listed` Indian fabless firms tracked here appear on the scheme's [beneficiary list](https://chips-dli.gov.in/DLI/HomePage) without a PDLI grant. The portal does not say what each received; the scheme's other strand — design infrastructure such as EDA tools, IP and fabrication runs through C-DAC's ChipIN centre — is the likely form. The scheme's reach is wide; its money is narrow.
 
 Each firm gets two scores (1–5), kept separate so that a hard, unfinished bet and a simpler, shipped product are not averaged into the same number:
 
@@ -117,7 +121,7 @@ library(ggrepel)
 
 # Scored Indian fabless firms only (GCCs use different dimensions)
 scored <- firms %>%
-  filter(category %in% c("Indian Fabless", "DLI Beneficiary"), !is.na(ambition), !is.na(progress)) %>%
+  filter(category == "Indian Fabless", !is.na(ambition), !is.na(progress)) %>%
   # Short labels so ~30 names fit: drop corporate suffixes and parentheticals
   mutate(short = gsub(" \\(.*\\)| Technologies| Technology| Semiconductors| Digital Innovations| Networks| Infotech", "", name))
 
@@ -137,25 +141,26 @@ ggplot(scored, aes(x = ambition, y = progress)) +
   geom_vline(xintercept = 3, colour = "#cfc8c3", linewidth = 0.4) +
   geom_text(data = quads, aes(x = x, y = y, label = label, hjust = hjust, vjust = vjust),
             inherit.aes = FALSE, colour = "#8C8480", size = 3.4, fontface = "italic") +
-  geom_point(aes(colour = category), size = 3, alpha = 0.85) +
+  geom_point(data = filter(scored, is.na(dli_support)), colour = "#b5aca7", size = 3, alpha = 0.85) +
+  geom_point(data = filter(scored, !is.na(dli_support)), aes(colour = dli_support), size = 3, alpha = 0.85) +
   geom_text_repel(aes(label = short), size = 3.1, colour = "#2b2b2b", seed = 7,
                   max.overlaps = Inf, min.segment.length = 0, box.padding = 0.5,
                   force = 3, max.iter = 20000, segment.colour = "#9a918c") +
-  scale_colour_manual(values = c("Indian Fabless" = "#f1a222", "DLI Beneficiary" = "#2f6b4a"), name = NULL) +
+  scale_colour_manual(values = c("PDLI grant" = "#2f6b4a", "Listed as DLI beneficiary" = "#f1a222"), name = NULL) +
   scale_x_continuous("Ambition (domain difficulty + IP ownership)", limits = c(1.5, 5.3), breaks = 1:5) +
   scale_y_continuous("Progress (design completeness + market readiness)", limits = c(0.6, 5.1), breaks = 1:5) +
   theme_minimal(base_size = 11) +
   theme(panel.grid.minor = element_blank(), legend.position = "top")
 ```
 
-`r n_big <- sum(scored$ambition >= 3 & scored$progress < 3); n_big` of `r nrow(scored)` scored Indian firms sit in the shaded *big bets, yet to deliver* quadrant: high ambition, low progress. India's design constraint is commercialisation, not talent or ambition.
+`r n_big <- sum(scored$ambition >= 3 & scored$progress < 3); n_big` of `r nrow(scored)` scored Indian firms sit in the shaded *big bets, yet to deliver* quadrant: high ambition, low progress. India's design constraint is commercialisation, not talent or ambition. Firms with PDLI grants average a progress score of `r round(mean(scored$progress[scored$dli_support %in% "PDLI grant"]), 1)`, against `r round(mean(scored$progress[scored$dli_support %in% "Listed as DLI beneficiary"]), 1)` for firms listed without a grant.
 
 ```{r indian-table, echo=FALSE, warning=FALSE, message=FALSE}
 indian <- firms %>%
-  filter(category %in% c("Indian Fabless", "DLI Beneficiary")) %>%
+  filter(category == "Indian Fabless") %>%
   mutate(
     Name = paste0('<a href="design-firms/', id, '.html">', name, '</a>'),
-    Category = sapply(category, design_category_badge),
+    `DLI support` = sapply(dli_support, dli_support_badge),
     Focus = product_focus,
     Ambition = mapply(design_score_bar_html, ambition, "Ambition"),
     Progress = mapply(design_score_bar_html, progress, "Progress"),
@@ -164,7 +169,7 @@ indian <- firms %>%
     `Founded` = founded,
     Locations = cities
   ) %>%
-  select(Name, Category, Focus, Ambition, Progress, Scope, Node, Founded, Locations)
+  select(Name, `DLI support`, Focus, Ambition, Progress, Scope, Node, Founded, Locations)
 
 DT::datatable(
   indian,
@@ -294,7 +299,6 @@ ggplot(city_counts, aes(x = reorder(city, n, sum), y = n, fill = category)) +
   coord_flip() +
   scale_fill_manual(values = c(
     "Indian Fabless" = "#620d3c",
-    "DLI Beneficiary" = "#2f6b4a",
     "GCC Design Centre" = "#1565C0",
     "EDA & IP Provider" = "#f1a222",
     "Design Services" = "#8C8480"
@@ -316,7 +320,7 @@ ggplot(city_counts, aes(x = reorder(city, n, sum), y = n, fill = category)) +
 ::: {.callout-note}
 ## Data Coverage & Sources
 
-This tracker is a work in progress. We aim to cover all DLI beneficiaries (~30 firms) and major GCC design centres (~15-20). If you know of a firm or centre that should be listed, please [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose) or [submit via our form](https://forms.gle/FDESu4jRksmr7FTk7).
+This tracker is a work in progress. We aim to cover every chip-designing firm on the DLI beneficiary list and the major GCC design centres. Firms on that list that are system integrators, EMS providers or software companies are left out. If you know of a firm or centre that should be listed, please [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose) or [submit via our form](https://forms.gle/FDESu4jRksmr7FTk7).
 
 Primary sources: MeitY DLI scheme announcements, company websites, IESA reports, press releases.
 :::

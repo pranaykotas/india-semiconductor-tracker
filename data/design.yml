@@ -2,7 +2,7 @@ design_firms:
 - id: agrani-labs
   name: Agrani Labs
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: null
   parent_company: null
   parent_hq: null
   founded: 2024
@@ -48,7 +48,7 @@ design_firms:
 - id: signalchip
   name: Signalchip
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2010
@@ -92,11 +92,14 @@ design_firms:
   - url: https://www.signalchip.com/press-release/
     title: Signalchip press release (27 Feb 2019)
     date: '2019-02-27'
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
   website: https://www.signalchip.com
 - id: indiesemic
   name: IndieSemiC
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2022
@@ -147,11 +150,14 @@ design_firms:
   - url: https://www.indiesemic.com/news-and-events
     title: IndieSemiC News & Events
     date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
   website: https://www.indiesemic.com
 - id: mindgrove
   name: Mindgrove Technologies
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2021
@@ -203,7 +209,7 @@ design_firms:
 - id: vvdn
   name: VVDN Technologies
   category: Design Services
-  dli_beneficiary: false
+  dli_support: null
   parent_company: null
   parent_hq: null
   founded: 2007
@@ -227,7 +233,7 @@ design_firms:
   narrative:
     significance: Manesar-based product-engineering, ODM and electronics-manufacturing firm founded by Bhupender Saharan.
       Its silicon work is services for client chip companies (FPGA design, pre-silicon verification, post-silicon validation);
-      no chip of its own is publicly documented. Listed on the Chips-DLI portal but not among the 24 PDLI projects.
+      no chip of its own is publicly documented.
     what_it_designs: Silicon-engineering services and ODM/EMS for networking, 5G, IoT and camera products; not an own-chip
       designer.
   sources:
@@ -243,8 +249,8 @@ design_firms:
   website: https://www.vvdntech.com
 - id: saankhya-labs
   name: Saankhya Labs
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: Tejas Networks
   parent_hq: India
   founded: 2007
@@ -294,8 +300,8 @@ design_firms:
   website: https://www.saankhyalabs.com
 - id: incore-semi
   name: InCore Semiconductors
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2018
@@ -348,8 +354,8 @@ design_firms:
   website: https://incoresemi.com
 - id: morphing-machines
   name: Morphing Machines
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2005
@@ -403,8 +409,8 @@ design_firms:
   website: https://morphing.in/
 - id: wisig
   name: WiSig Networks
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2016
@@ -452,7 +458,7 @@ design_firms:
 - id: terminus-circuits
   name: Terminus Circuits
   category: EDA & IP Provider
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: null
@@ -492,8 +498,8 @@ design_firms:
   website: https://www.terminuscircuits.com/
 - id: calligo-tech
   name: Calligo Technologies
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2012
@@ -541,8 +547,8 @@ design_firms:
   website: https://calligotech.com/
 - id: fermionic-design
   name: FermionIC Design
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2020
@@ -589,8 +595,8 @@ design_firms:
   website: https://fermionicdesign.com/
 - id: netrasemi
   name: Netrasemi
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2020
@@ -647,7 +653,7 @@ design_firms:
 - id: sandlogic
   name: Sandlogic Technologies
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2018
@@ -693,8 +699,8 @@ design_firms:
   website: https://www.sandlogic.com/
 - id: moschip
   name: MoSChip Technologies
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 1999
@@ -743,8 +749,8 @@ design_firms:
   website: https://moschip.com/
 - id: vervesemi
   name: Vervesemi
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2017
@@ -791,8 +797,8 @@ design_firms:
     market_readiness: 2
 - id: mbit-wireless
   name: MBit Wireless
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2007
@@ -839,8 +845,8 @@ design_firms:
     market_readiness: 2
 - id: green-pmu-semi
   name: Green PMU Semi
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: null
@@ -886,8 +892,8 @@ design_firms:
     market_readiness: 1
 - id: sense-semi
   name: Sensesemi Technologies
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2014
@@ -940,7 +946,7 @@ design_firms:
 - id: qualivor
   name: Qualivon Technologies
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: null
@@ -983,8 +989,8 @@ design_firms:
     market_readiness: 1
 - id: aagya-vision
   name: Aagya Vision
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: null
@@ -1038,7 +1044,7 @@ design_firms:
 - id: vasbeam
   name: Vasbeam
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2022
@@ -1090,7 +1096,7 @@ design_firms:
 - id: chipspirit
   name: ChipSpirit
   category: Design Services
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2018
@@ -1130,7 +1136,7 @@ design_firms:
 - id: semiksha
   name: Semiksha
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2018
@@ -1181,7 +1187,7 @@ design_firms:
 - id: silizium-circuits
   name: Silizium Circuits
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2020
@@ -1231,8 +1237,8 @@ design_firms:
     market_readiness: 3
 - id: abcr-labs
   name: ABCR Labs
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2019
@@ -1280,7 +1286,7 @@ design_firms:
 - id: ampicq
   name: AmpicQ
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2022
@@ -1333,8 +1339,8 @@ design_firms:
     market_readiness: 3
 - id: big-endian-semi
   name: Big Endian Semi
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2024
@@ -1389,7 +1395,7 @@ design_firms:
 - id: silicon-support-solutions
   name: Silicon Support Solutions
   category: Design Services
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: null
@@ -1424,7 +1430,7 @@ design_firms:
 - id: stt-engineering
   name: Stteereng Silicon
   category: EDA & IP Provider
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: null
@@ -1463,7 +1469,7 @@ design_firms:
 - id: dheyo-ai
   name: Dheyo.ai
   category: Design Services
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: Dheyo AI Inc.
   parent_hq: United States
   founded: null
@@ -1504,7 +1510,7 @@ design_firms:
 - id: kris-emi
   name: Kris Emi Design Tech
   category: EDA & IP Provider
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2018
@@ -1554,7 +1560,7 @@ design_firms:
 - id: quanfluence
   name: Quanfluence
   category: Indian Fabless
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2021
@@ -1605,8 +1611,8 @@ design_firms:
     market_readiness: 3
 - id: sophrosyne-tech
   name: Sophrosyne Technologies
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2022
@@ -1662,7 +1668,7 @@ design_firms:
 - id: qualcomm-india
   name: Qualcomm India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Qualcomm Inc.
   parent_hq: United States
   founded: 1996
@@ -1713,7 +1719,7 @@ design_firms:
 - id: ti-india
   name: Texas Instruments India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Texas Instruments Inc.
   parent_hq: United States
   founded: 1985
@@ -1751,7 +1757,7 @@ design_firms:
 - id: intel-india
   name: Intel India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Intel Corporation
   parent_hq: United States
   founded: 1988
@@ -1794,7 +1800,7 @@ design_firms:
 - id: amd-india
   name: AMD India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Advanced Micro Devices Inc.
   parent_hq: United States
   founded: 2004
@@ -1837,7 +1843,7 @@ design_firms:
 - id: samsung-india-semi
   name: Samsung Semiconductor India R&D
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Samsung Electronics
   parent_hq: South Korea
   founded: 2007
@@ -1878,7 +1884,7 @@ design_firms:
 - id: broadcom-india
   name: Broadcom India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Broadcom Inc.
   parent_hq: United States
   founded: 2000
@@ -1921,7 +1927,7 @@ design_firms:
 - id: nxp-india
   name: NXP Semiconductors India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: NXP Semiconductors N.V.
   parent_hq: Netherlands
   founded: 2006
@@ -1968,7 +1974,7 @@ design_firms:
 - id: infineon-india
   name: Infineon Technologies India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Infineon Technologies AG
   parent_hq: Germany
   founded: 2000
@@ -2006,7 +2012,7 @@ design_firms:
 - id: stmicro-india
   name: STMicroelectronics India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: STMicroelectronics N.V.
   parent_hq: Switzerland
   founded: 2003
@@ -2048,7 +2054,7 @@ design_firms:
 - id: mediatek-india
   name: MediaTek India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: MediaTek Inc.
   parent_hq: Taiwan
   founded: 2004
@@ -2090,7 +2096,7 @@ design_firms:
 - id: synopsys-india
   name: Synopsys India
   category: EDA & IP Provider
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Synopsys Inc.
   parent_hq: United States
   founded: 1995
@@ -2137,7 +2143,7 @@ design_firms:
 - id: cadence-india
   name: Cadence Design Systems India
   category: EDA & IP Provider
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Cadence Design Systems Inc.
   parent_hq: United States
   founded: 1987
@@ -2184,7 +2190,7 @@ design_firms:
 - id: maieutic-semiconductors
   name: Maieutic Semiconductors
   category: EDA & IP Provider
-  dli_beneficiary: false
+  dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
   founded: 2025
@@ -2224,10 +2230,13 @@ design_firms:
   - url: https://www.business-standard.com/technology/tech-news/bengaluru-startup-maieutic-ai-chip-design-automation-125102100283_1.html
     title: Bengaluru startup taps AI to speed up analog chip development (Business Standard)
     date: '2025-10-21'
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
 - id: arm-india
   name: Arm India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Arm Ltd.
   parent_hq: United Kingdom
   founded: 2005
@@ -2270,7 +2279,7 @@ design_firms:
 - id: renesas-india
   name: Renesas Electronics India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Renesas Electronics Corp.
   parent_hq: Japan
   founded: 2010
@@ -2311,7 +2320,7 @@ design_firms:
 - id: adi-india
   name: Analog Devices India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Analog Devices Inc.
   parent_hq: United States
   founded: 1998
@@ -2354,7 +2363,7 @@ design_firms:
 - id: nvidia-india
   name: NVIDIA India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: NVIDIA Corporation
   parent_hq: United States
   founded: 2004
@@ -2401,7 +2410,7 @@ design_firms:
 - id: marvell-india
   name: Marvell India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Marvell Technology Inc.
   parent_hq: United States
   founded: 2006
@@ -2448,7 +2457,7 @@ design_firms:
 - id: apple-india
   name: Apple India (Silicon Engineering)
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Apple Inc.
   parent_hq: United States
   founded: 2019
@@ -2485,7 +2494,7 @@ design_firms:
 - id: google-india-silicon
   name: Google India (gChips)
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Alphabet Inc.
   parent_hq: United States
   founded: 2023
@@ -2523,7 +2532,7 @@ design_firms:
 - id: microchip-india
   name: Microchip Technology India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Microchip Technology Inc.
   parent_hq: United States
   founded: 2000
@@ -2571,7 +2580,7 @@ design_firms:
 - id: microsoft-india-silicon
   name: Microsoft India (Silicon Engineering)
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Microsoft Corporation
   parent_hq: United States
   founded: 2019
@@ -2613,7 +2622,7 @@ design_firms:
 - id: meta-india-silicon
   name: Meta India (Infra Silicon)
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Meta Platforms Inc.
   parent_hq: United States
   founded: 2022
@@ -2650,7 +2659,7 @@ design_firms:
 - id: cisco-india-silicon
   name: Cisco India (Silicon Engineering)
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: Cisco Systems Inc.
   parent_hq: United States
   founded: 2005
@@ -2687,7 +2696,7 @@ design_firms:
 - id: onsemi-india
   name: onsemi India
   category: GCC Design Centre
-  dli_beneficiary: false
+  dli_support: null
   parent_company: onsemi (ON Semiconductor)
   parent_hq: United States
   founded: 2009
@@ -2725,8 +2734,8 @@ design_firms:
     india_scale: 1
 - id: c2i-semiconductors
   name: C2i Semiconductors
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: Infineon Technologies
   parent_hq: Germany
   founded: 2024
@@ -2780,8 +2789,8 @@ design_firms:
     market_readiness: 1
 - id: mmrfic
   name: MMRFIC Technology
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2014
@@ -2832,8 +2841,8 @@ design_firms:
     market_readiness: 3
 - id: aheesa
   name: Aheesa Digital Innovations
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2021
@@ -2884,8 +2893,8 @@ design_firms:
     market_readiness: 2
 - id: multi-nano-sense
   name: Multi Nano Sense Technologies
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2017
@@ -2932,8 +2941,8 @@ design_firms:
     market_readiness: 3
 - id: incise-infotech
   name: Incise Infotech
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2010
@@ -2984,8 +2993,8 @@ design_firms:
     market_readiness: 2
 - id: bharat-semi
   name: Bharat Semi (3rdiTech, DV2JS Innovation)
-  category: DLI Beneficiary
-  dli_beneficiary: true
+  category: Indian Fabless
+  dli_support: PDLI grant
   parent_company: null
   parent_hq: null
   founded: 2018
@@ -3060,3 +3069,881 @@ design_firms:
     design_completeness: 2
     domain_difficulty: 4
     market_readiness: 3
+- id: ananant-systems
+  name: Ananant Systems
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: RISC-V/DSP silicon for 5G small cells and industrial edge perception
+  application_domains:
+  - Telecom
+  - Industrial
+  - Edge AI
+  design_scope: Full chip
+  node_sophistication: null
+  design_score:
+    ip_ownership: 4
+    design_completeness: 3
+    domain_difficulty: 4
+    market_readiness: 2
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Noida-headquartered (IIT Kanpur outreach centre) with offices in Bengaluru and San Diego; founder and CEO
+      Amiya Pathak (earlier built ZipDial). The company says its Gen 1 5G small-cell connectivity chip is in production and
+      supplied with its L1 software and femto system; Gen 2, combining connectivity and perception on one die, has a tape-out
+      plan in place, with samples to OEMs targeted for H2 2027.
+    what_it_designs: Deterministic RISC-V/DSP compute and 5G small-cell connectivity chips, with a perception (edge-AI) SoC
+      on the same architecture.
+  sources:
+  - url: https://ananantsys.com/
+    title: Ananant Systems — products, roadmap and offices
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://ananantsys.com
+- id: atantri
+  name: Atantri
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: 5G and LTE-Advanced chipsets and RF transceivers
+  application_domains:
+  - Telecom
+  - IoT
+  design_scope: Full chip
+  node_sophistication: null
+  design_score:
+    ip_ownership: 3
+    design_completeness: 1
+    domain_difficulty: 4
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Bengaluru (Yelahanka) startup developing 5G and LTE-Advanced chipsets and RF transceivers for broadband
+      and IoT, with designs it says are compatible with Tata Electronics' planned 28/22nm process. No tape-out publicly reported.
+    what_it_designs: 5G/LTE-Advanced baseband chipsets and RF transceivers with a full software stack.
+  sources:
+  - url: https://atantri.com/
+    title: Atantri — 5G & LTE-Advanced semiconductor solutions
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://atantri.com
+- id: cryologiq
+  name: Cryologiq
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: New Delhi
+    state: Delhi
+    lat: 28.614
+    lon: 77.209
+  product_focus: Cryogenic CMOS chips for quantum computing, space and defence
+  application_domains:
+  - Quantum
+  - Space
+  - Defence
+  design_scope: Full chip
+  node_sophistication: null
+  design_score:
+    ip_ownership: 3
+    design_completeness: 1
+    domain_difficulty: 5
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Incubated at IIT Delhi's FITT, designing semiconductor chips that operate at cryogenic temperatures — the
+      control electronics that quantum computers, space and defence systems need. Early stage; no tape-out publicly reported.
+    what_it_designs: Cryogenic CMOS integrated circuits for quantum-computer control, space and defence applications.
+  sources:
+  - url: https://cryologiq.in/
+    title: Cryologiq — vision, products and contact (IIT Delhi FITT)
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://cryologiq.in
+- id: linear-amptech
+  name: Linear-AmpTech
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Roorkee
+    state: Uttarakhand
+    lat: 29.854
+    lon: 77.888
+  product_focus: 'RF front-end ICs: CMOS/BiCMOS RFICs, GaN MMICs, phased-array components'
+  application_domains:
+  - Defence
+  - Satellite
+  - Telecom
+  design_scope: Full chip + modules
+  node_sophistication: 65nm
+  design_score:
+    ip_ownership: 4
+    design_completeness: 3
+    domain_difficulty: 4
+    market_readiness: 2
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Linearized Amplifier Technologies and Services, incubated at IIT Roorkee's iHUB DivyaSampark. Lists a 13–17
+      GHz 8-bit phase-shifter chip in TSMC 65nm CMOS and a radar front-end chip as products, alongside GaN power-amplifier
+      modules and mm-wave packaging.
+    what_it_designs: RF front-end chips (phase shifters, radar front-ends, CMOS/BiCMOS RFIC IP), GaN MMICs and power-amplifier
+      modules.
+  sources:
+  - url: https://linear-amptech.com/
+    title: Linear-AmpTech — RF front-end products (incl. 8-bit phase shifter, TSMC 65nm)
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://linear-amptech.com
+- id: mosart-semi
+  name: MOSart Semiconductor
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: 2025
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Battery-management and power-conversion ICs for EVs and energy storage
+  application_domains:
+  - Automotive
+  - Energy Storage
+  - Industrial
+  design_scope: Full chip
+  node_sophistication: null
+  design_score:
+    ip_ownership: 4
+    design_completeness: 1
+    domain_difficulty: 3
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Set up in 2025 (incorporated in Bengaluru, operations in Hyderabad) by CEO Rajesh Gupta and veterans of
+      TI, Micron and ams OSRAM. Developing an automotive-grade single-chip battery-management SoC for packs above 3 kWh. Pre-silicon.
+    what_it_designs: A single-chip battery-management system (BMS) SoC for EV and energy-storage batteries, and power-conversion
+      ICs.
+  sources:
+  - url: https://mosartsemi.com/
+    title: MOSart Semi — company site
+    date: null
+  - url: https://www.electronicsforyou.biz/startups/the-startup-designing-indias-next-battery-intelligence-ic/
+    title: The Startup Designing India's Next Battery Intelligence IC (EFY)
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://mosartsemi.com
+- id: optoml
+  name: optoML
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Analog in-memory-compute AI SoCs with optical interconnect
+  application_domains:
+  - Edge AI
+  - Data Centre
+  design_scope: Full chip
+  node_sophistication: 12nm
+  design_score:
+    ip_ownership: 4
+    design_completeness: 3
+    domain_difficulty: 5
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Founded by Saravana Maruthamuthu; reports place it in Chennai or Singapore with R&D in Bengaluru. Taped
+      out a 12nm FinFET test chip at TSMC (announced February 2026, alongside a $1.8M pre-Series A led by Bluehill.VC and
+      A99) and signed an assembly-and-test MoU with Kaynes Semicon.
+    what_it_designs: 'The Palani platform: analog in-memory-compute NPUs and SoCs with chip-to-chip optical links for AI inference.'
+  sources:
+  - url: https://opto-ml.com/
+    title: optoML — Palani platform, 12nm tape-out
+    date: null
+  - url: https://entrackr.com/snippets/semiconductor-startup-optoml-raises-18-mn-in-pre-series-a-round-11149795
+    title: Semiconductor startup optoML raises $1.8 Mn in pre-Series A (Entrackr)
+    date: '2026-02-24'
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://opto-ml.com
+- id: orvis-semi
+  name: Orvis Semi
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: New Delhi
+    state: Delhi
+    lat: 28.614
+    lon: 77.209
+  product_focus: CMOS image sensors and SWIR imaging for medical diagnostics
+  application_domains:
+  - Medical
+  - Imaging
+  - Quantum
+  design_scope: Full chip
+  node_sophistication: null
+  design_score:
+    ip_ownership: 3
+    design_completeness: 1
+    domain_difficulty: 4
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Delhi-based imaging startup developing CMOS sensor platforms for medical diagnostics and life sciences,
+      including SWIR (900–1700 nm) cameras. Raised funding under the National Quantum Mission through IIT Bombay's Qmet Tech
+      Foundation.
+    what_it_designs: CMOS image-sensor platforms and SWIR cameras for medical and industrial imaging.
+  sources:
+  - url: https://orvissemi.com/
+    title: Orvis Semi — company site
+    date: null
+  - url: https://www.barandbench.com/dealstreet/mr-lexcorp-advises-orvis-semi-on-national-quantum-mission-backed-fundraise
+    title: Orvis Semi National Quantum Mission-backed fundraise (Bar & Bench)
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://orvissemi.com
+- id: photonsilica
+  name: PhotonSilica (PHSI Technologies & Research)
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Silicon for mission-critical sectors (in stealth)
+  application_domains:
+  - Defence
+  - Strategic Electronics
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Early-stage Bengaluru fabless startup operating in sub-stealth mode; describes itself as designing sovereign
+      silicon for mission-critical sectors. No product details public.
+    what_it_designs: Not yet disclosed.
+  sources:
+  - url: https://photonsilica.in/
+    title: PhotonSilica — company site
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://photonsilica.in
+- id: pns-syslabs
+  name: PNS SysLabs (Phra Narai Semicon Systems Labs)
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Pune
+    state: Maharashtra
+    lat: 18.52
+    lon: 73.856
+  product_focus: Wireless IP and SoCs for MIMO, satcom and Wi-Fi
+  application_domains:
+  - Telecom
+  - Satellite
+  - Defence
+  design_scope: IP + SoC
+  node_sophistication: null
+  design_score:
+    ip_ownership: 3
+    design_completeness: 1
+    domain_difficulty: 4
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Pune fabless firm incubated at the Defence Institute of Advanced Technology (DIAT, DRDO campus). Develops
+      wireless IP and SoCs for MIMO, satellite communication and Wi-Fi, and also offers ASIC/FPGA design services. No tape-out
+      publicly reported.
+    what_it_designs: Wireless baseband IP cores and custom SoCs/ASICs for MIMO, SATCOM and Wi-Fi systems; verification IP.
+  sources:
+  - url: https://pnssyslabs.com/
+    title: PNS SysLabs — company site
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://pnssyslabs.com
+- id: sampige-semi
+  name: Sampige Semiconductors
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Chipsets for consumer electronics, IoT and AI tailored to Indian markets
+  application_domains:
+  - Consumer
+  - IoT
+  - AI
+  design_scope: Full chip
+  node_sophistication: null
+  design_score:
+    ip_ownership: 3
+    design_completeness: 1
+    domain_difficulty: 3
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Bengaluru startup led by co-founder and CEO Parag Naik (earlier co-founded Saankhya Labs). Signed an MoU
+      with BharatGen in February 2026 to co-develop AI chipsets and an India-centric AI software stack. Pre-silicon.
+    what_it_designs: Chipsets for consumer electronics, IoT and AI inference, co-designed with India-centric AI models.
+  sources:
+  - url: https://sampigesemi.com/
+    title: Sampige Semiconductors — company site
+    date: null
+  - url: https://www.electronicsforyou.biz/?p=131984
+    title: Sampige Semiconductors partners BharatGen (EFY)
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://sampigesemi.com
+- id: sigan
+  name: SiGaN Technologies
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: GaN power amplifiers and RF front-end ICs
+  application_domains:
+  - Defence
+  - Satellite
+  - Telecom
+  design_scope: Full chip
+  node_sophistication: null
+  design_score:
+    ip_ownership: 4
+    design_completeness: 2
+    domain_difficulty: 4
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Hyderabad startup designing gallium-nitride power amplifiers and RF front-end ICs (amplifiers, active-antenna
+      components, switches) for radar, satellite communication and wireless networks. Production status not disclosed.
+    what_it_designs: GaN power amplifiers, RF switches and front-end ICs for radar, satcom and 5G.
+  sources:
+  - url: https://sigansemi.com/
+    title: SiGaN — products
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://sigansemi.com
+- id: signitude
+  name: Signitude
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Fabless chips built on in-house IP (details not public)
+  application_domains: []
+  design_scope: Full chip
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Bengaluru (Whitefield) firm describing itself as a fabless semiconductor company building on its own IP
+      to address system-level cost. Product details not public.
+    what_it_designs: Not yet disclosed.
+  sources:
+  - url: http://www.signitude.com
+    title: Signitude — company site
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: http://www.signitude.com
+- id: struent-semi
+  name: Struent Semiconductors
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Chennai
+    state: Tamil Nadu
+    lat: 13.083
+    lon: 80.271
+  product_focus: Audio ICs and processors; semiconductor engineering services
+  application_domains:
+  - Consumer
+  - Audio
+  - Automotive
+  design_scope: Full chip + services
+  node_sophistication: null
+  design_score:
+    ip_ownership: 3
+    design_completeness: 2
+    domain_difficulty: 3
+    market_readiness: 1
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Chennai firm that lists its own audio chip products (STRU-SVP-01-ES, STRU-ACP-01-ES, STRU-AP-01-ES) alongside
+      spec-to-GDSII engineering services.
+    what_it_designs: Audio processing chips plus design services for clients.
+  sources:
+  - url: https://struentsemi.com/
+    title: Struent Semiconductors — products and services
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://struentsemi.com
+- id: vellore-semicon
+  name: Vellore Semicon
+  category: Indian Fabless
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Power-management and pin-compatible replacement ICs; custom IP
+  application_domains:
+  - Defence
+  - Automotive
+  - Industrial
+  design_scope: Full chip + services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Bengaluru (Indiranagar) firm offering end-to-end IC design, custom IP and pin-to-pin compatible replacement
+      chips for defence, automotive and industrial customers, plus an ESD-monitoring product. Mix of products and services.
+    what_it_designs: Pin-to-pin compatible ICs, power-gate and custom IP, and ESD-monitoring systems.
+  sources:
+  - url: https://velloresemicon.com/
+    title: Vellore Semicon — company site
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://velloresemicon.com
+- id: sophic-silicon
+  name: Sophic Silicon
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Analog/RF, power-management and digital interface IP
+  application_domains:
+  - Wireless
+  - AI
+  - Power Management
+  design_scope: IP blocks
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Bengaluru silicon-IP firm licensing wireless, power-management and analog/mixed-signal IP plus standard
+      digital interface IP.
+    what_it_designs: Wireless and analog/mixed-signal IP, PMIC blocks and digital peripherals (AXI, I2C, QSPI, JTAG).
+  sources:
+  - url: https://sophicsilicon.com/
+    title: Sophic Silicon — IP solutions
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://sophicsilicon.com
+- id: truesilicon
+  name: TrueSilicon
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: 2022
+  india_headcount: null
+  locations:
+  - city: New Delhi
+    state: Delhi
+    lat: 28.614
+    lon: 77.209
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
+  product_focus: Network-on-chip and interconnect silicon IP
+  application_domains:
+  - Computing
+  - SoC Infrastructure
+  design_scope: IP blocks
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Founded 2022; headquartered in New Delhi with a design centre in Noida. Licenses network-on-chip, crossbar
+      and related interconnect IP, with distributors abroad.
+    what_it_designs: NoC and crossbar interconnect IP for SoCs.
+  sources:
+  - url: https://www.truesilicon.net/
+    title: TrueSilicon — Silicon IP
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.truesilicon.net
+- id: xtremesilica
+  name: Xtremesilica Technologies
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: PCIe, CXL, DDR, Ethernet and USB4 controller IP
+  application_domains:
+  - Computing
+  - Data Centre
+  design_scope: IP blocks
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Bengaluru (Whitefield) IP firm founded by Basheer Boddikonda. Licenses high-speed controller IP, customised
+      for FPGAs and hardened for ASICs; says its cores are silicon-proven on TSMC 28nm to 3nm.
+    what_it_designs: PCIe, CXL, DDR, Ethernet and USB4 controller IP cores; FPGA customisation and ASIC hardening.
+  sources:
+  - url: https://xtremesilica.com/
+    title: Xtremesilica — Silicon IP cores
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://xtremesilica.com
+- id: prs-semicon
+  name: PRS Semicon
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Chennai
+    state: Tamil Nadu
+    lat: 13.083
+    lon: 80.271
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  - city: Kochi
+    state: Kerala
+    lat: 9.931
+    lon: 76.267
+  product_focus: Interface IP (MIPI, PCIe, CXL, USB, UFS, DDR) plus verification services and training
+  application_domains:
+  - Computing
+  - Mobile
+  design_scope: IP blocks + services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Chennai-headquartered firm with offices in Hyderabad and Kochi, licensing interface IP and offering SoC
+      verification services and VLSI training.
+    what_it_designs: MIPI, PCIe, CXL, USB, UFS, Ethernet and DDR IP; design-verification services.
+  sources:
+  - url: https://prssemicon.com/
+    title: PRS Semicon — IP solutions
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://prssemicon.com
+- id: cirissemi
+  name: Ciris Semiconductor
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Analog/mixed-signal and IO IP; ASIC realisation
+  application_domains:
+  - Analog
+  - Sensors
+  design_scope: IP blocks + ASIC
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Hyderabad firm offering silicon-proven analog, mixed-signal and IO IP, design porting and readout ICs (ROIC);
+      has PDK access agreements with X-FAB and imec/Europractice.
+    what_it_designs: ADCs and analog/mixed-signal IP, IO libraries, design porting and ROIC design.
+  sources:
+  - url: https://cirissemi.com/
+    title: Ciris Semi — company site and news
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://cirissemi.com
+- id: semifront
+  name: SemiFront Technologies
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Kolkata
+    state: West Bengal
+    lat: 22.573
+    lon: 88.364
+  product_focus: PCIe controller and SoC backbone IP; front-end and back-end services
+  application_domains:
+  - Computing
+  design_scope: IP blocks + services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Kolkata (Salt Lake) firm licensing a scalable PCIe controller and custom SoC backbone/DMA IP, alongside
+      front-end and back-end design services.
+    what_it_designs: SemiPCIe controller IP, SoC backbone and DMA IP.
+  sources:
+  - url: https://semifront.com/
+    title: SemiFront — products and services
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://semifront.com
+- id: xsoc-tech
+  name: XSoC Tech
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Die-to-die PHY IP and chiplets for high-performance computing
+  application_domains:
+  - Computing
+  - Data Centre
+  design_scope: IP blocks
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Bengaluru (Marathahalli) firm offering silicon-engineering services today, with a stated product line of
+      die-to-die PHY IP and HPC chiplets.
+    what_it_designs: Die-to-die PHY interface IP and chiplets for HPC and data centres.
+  sources:
+  - url: https://xsoctech.com/
+    title: XSoC Tech — company site
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://xsoctech.com
+- id: interex-semi
+  name: Interex Semiconductor
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: 2023
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Silicon IP, custom ASIC and embedded/silicon services
+  application_domains:
+  - Computing
+  - Embedded
+  design_scope: IP blocks + services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: Established 2023, with offices in Bengaluru (HSR Layout) and Hyderabad (IIIT-H CIE). Offers silicon IP and
+      custom ASIC development along with embedded and silicon services.
+    what_it_designs: Silicon IP blocks and turnkey ASIC/FPGA design.
+  sources:
+  - url: https://interexsemi.com/
+    title: Interex Semi — company site
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://interexsemi.com

@@ -26,7 +26,7 @@ IO, PHY, SerDes, PLL and analog IP blocks; ASIC design services; GAGAN/GNSS rece
 | **Application Domains** | Space, GNSS, Computing |
 | **Design Scope** | IP blocks |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

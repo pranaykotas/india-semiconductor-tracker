@@ -26,7 +26,7 @@ STM32 microcontrollers, MEMS inertial sensors and microphones, power management 
 | **Application Domains** | Automotive, Industrial, IoT, Consumer |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 18nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

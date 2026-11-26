@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Manesar-based product-engineering, ODM and electronics-manufacturing firm founded by Bhupender Saharan. Its silicon work is services for client chip companies (FPGA design, pre-silicon verification, post-silicon validation); no chip of its own is publicly documented. Listed on the Chips-DLI portal but not among the 24 PDLI projects.
+Manesar-based product-engineering, ODM and electronics-manufacturing firm founded by Bhupender Saharan. Its silicon work is services for client chip companies (FPGA design, pre-silicon verification, post-silicon validation); no chip of its own is publicly documented.
 :::
 
 ## What does this firm design?
@@ -26,7 +26,7 @@ Silicon-engineering services and ODM/EMS for networking, 5G, IoT and camera prod
 | **Application Domains** | Telecom, 5G, Networking |
 | **Design Scope** | Services |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

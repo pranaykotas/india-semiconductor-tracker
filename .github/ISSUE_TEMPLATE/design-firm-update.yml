@@ -10,8 +10,8 @@ body:
       description: What type of firm is this about?
       options:
         - "Indian Fabless"
-        - "DLI Beneficiary"
         - "GCC Design Centre"
+        - "EDA & IP Provider"
     validations:
       required: true
 

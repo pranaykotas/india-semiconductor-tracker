@@ -26,7 +26,7 @@ Microchip has operated in India for 25 years. In 2025, it announced a $300 milli
 | **Application Domains** | Industrial, Automotive, Aerospace & Defence, IoT |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

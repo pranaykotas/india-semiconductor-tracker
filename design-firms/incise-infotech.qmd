@@ -1,6 +1,6 @@
 ---
 title: "Incise Infotech"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Semiconductor design services and verification IP, plus its INC2106 linear LED d
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2010 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Semiconductor design services and verification IP, plus its INC2106 linear LED d
 | **Application Domains** | Lighting, Power Management |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — A Linear LED Driver IC. |
 
 ### Design Scores
 

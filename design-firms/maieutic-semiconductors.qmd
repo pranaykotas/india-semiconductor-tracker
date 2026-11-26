@@ -26,7 +26,7 @@ Not a chip itself — a generative-AI assistant embedded in existing EDA workflo
 | **Application Domains** | EDA, Analog Design |
 | **Design Scope** | Design Tool |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 
@@ -36,6 +36,7 @@ Not a chip itself — a generative-AI assistant embedded in existing EDA workflo
 
 - [Maieutic Semiconductors seed funding announcement](https://www.maieuticsemi.com/news/maieutic-funding-6-mil) (03 Jul 2025)
 - [Bengaluru startup taps AI to speed up analog chip development (Business Standard)](https://www.business-standard.com/technology/tech-news/bengaluru-startup-maieutic-ai-chip-design-automation-125102100283_1.html) (21 Oct 2025)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
 
 ---
 

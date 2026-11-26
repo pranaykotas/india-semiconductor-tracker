@@ -26,7 +26,7 @@ Image sensor ICs for automotive ADAS and industrial machine vision, power manage
 | **Application Domains** | Automotive, Industrial, IoT |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

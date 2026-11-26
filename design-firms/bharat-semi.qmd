@@ -1,6 +1,6 @@
 ---
 title: "Bharat Semi (3rdiTech, DV2JS Innovation)"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Programmable image sensors that integrate capture, signal processing and AI infe
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2018 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Programmable image sensors that integrate capture, signal processing and AI infe
 | **Application Domains** | Defence, Surveillance, Industrial, Aerospace, Automotive |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — LowLight Image Sensor with SinglePhoton Detection for Security, Surveillance, Automobile Cameras |
 
 ### Design Scores
 

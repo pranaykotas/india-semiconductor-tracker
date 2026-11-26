@@ -26,7 +26,7 @@ Baseband and RF transceiver chips for 4G LTE and 5G NR small cells, base station
 | **Application Domains** | Telecom, 5G |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 
@@ -41,6 +41,7 @@ Baseband and RF transceiver chips for 4G LTE and 5G NR small cells, base station
 - [About Signalchip](https://www.signalchip.com/about-signalchip/)
 - [Signalchip products](https://www.signalchip.com/products/)
 - [Signalchip press release (27 Feb 2019)](https://www.signalchip.com/press-release/) (27 Feb 2019)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
 
 ---
 

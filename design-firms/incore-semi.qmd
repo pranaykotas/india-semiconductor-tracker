@@ -1,6 +1,6 @@
 ---
 title: "InCore Semiconductors"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Configurable RISC-V core generators (Azurite, Calcite), an automated SoC Generat
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2018 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Configurable RISC-V core generators (Azurite, Calcite), an automated SoC Generat
 | **Application Domains** | Computing, IoT, Edge |
 | **Design Scope** | IP + SoC |
 | **Node Sophistication** | 40nm |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — RISC-V multi-core super scalar processor for smartphones and edge AI. |
 
 ### Design Scores
 

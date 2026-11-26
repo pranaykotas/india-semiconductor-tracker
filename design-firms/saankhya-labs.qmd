@@ -1,6 +1,6 @@
 ---
 title: "Saankhya Labs"
-subtitle: "DLI Beneficiary | Tejas Networks"
+subtitle: "Indian Fabless | Tejas Networks"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ Software-defined radio SoCs for broadcast (ATSC 3.0, 5G broadcast), satellite-te
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | Tejas Networks (India) |
 | **Founded** | 2007 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ Software-defined radio SoCs for broadcast (ATSC 3.0, 5G broadcast), satellite-te
 | **Application Domains** | Telecom, 5G, Broadcast, Satellite |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — SoC for Baseband Processing for 5G Telecom infrastructure |
 
 ### Design Scores
 

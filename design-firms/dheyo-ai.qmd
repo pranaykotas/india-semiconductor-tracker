@@ -26,7 +26,7 @@ Generative-AI software: compilers, heterogeneous-compute scheduling and video ge
 | **Application Domains** | Not yet documented |
 | **Design Scope** | Software |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

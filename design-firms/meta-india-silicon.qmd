@@ -26,7 +26,7 @@ Domain-specific SoCs and ASICs for Meta's data centres, covering architecture, R
 | **Application Domains** | AI/ML, Data Centre |
 | **Design Scope** | Subsystem |
 | **Node Sophistication** | 5nm |
-| **DLI Beneficiary** | No |
+| **DLI Support** | — |
 
 ### Design Scores
 

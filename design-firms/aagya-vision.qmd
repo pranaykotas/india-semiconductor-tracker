@@ -1,6 +1,6 @@
 ---
 title: "Aagya Vision"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ FMCW radar-on-chip ICs with radar hardware and AI software for drone detection, 
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ FMCW radar-on-chip ICs with radar hardware and AI software for drone detection, 
 | **Application Domains** | Defence, Drone Detection, Smart Infrastructure, 6G Sensing |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — Radar RF chips for edge applications |
 
 ### Design Scores
 

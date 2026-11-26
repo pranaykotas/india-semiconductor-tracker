@@ -1,0 +1,47 @@
+---
+title: "Vellore Semicon"
+subtitle: "Indian Fabless"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Bengaluru (Indiranagar) firm offering end-to-end IC design, custom IP and pin-to-pin compatible replacement chips for defence, automotive and industrial customers, plus an ESD-monitoring product. Mix of products and services.
+:::
+
+## What does this firm design?
+
+Pin-to-pin compatible ICs, power-gate and custom IP, and ESD-monitoring systems.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Indian Fabless |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Bengaluru |
+| **Product Focus** | Power-management and pin-compatible replacement ICs; custom IP |
+| **Application Domains** | Defence, Automotive, Industrial |
+| **Design Scope** | Full chip + services |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+*Not yet scored.*
+
+## Sources
+
+- [Vellore Semicon — company site](https://velloresemicon.com/)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

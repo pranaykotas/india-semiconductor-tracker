@@ -26,7 +26,7 @@ Beamforming ASICs (VAS7308) and electronically steered AESA/satcom antennas.
 | **Application Domains** | Defence, Aerospace, Satellite, 5G |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

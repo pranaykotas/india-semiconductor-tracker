@@ -1,6 +1,6 @@
 ---
 title: "Mindgrove Technologies"
-subtitle: "DLI Beneficiary"
+subtitle: "Indian Fabless"
 date: last-modified
 ---
 
@@ -17,7 +17,7 @@ RISC-V microcontrollers and SoCs: the Secure IoT S2401 for smart metering and in
 
 | | |
 |---|---|
-| **Category** | DLI Beneficiary |
+| **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
 | **Founded** | 2021 |
 | **India Headcount** | Not publicly disclosed |
@@ -26,7 +26,7 @@ RISC-V microcontrollers and SoCs: the Secure IoT S2401 for smart metering and in
 | **Application Domains** | IoT, Edge Computing |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 28nm |
-| **DLI Beneficiary** | Yes |
+| **DLI Support** | PDLI grant — Vision SoC using Shakti processor for Edge Computing |
 
 ### Design Scores
 

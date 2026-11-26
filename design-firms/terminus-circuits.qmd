@@ -26,7 +26,7 @@ High-speed SerDes, PHY and analog interface IP licensed to chip companies.
 | **Application Domains** | Data Centre, Networking |
 | **Design Scope** | IP blocks |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

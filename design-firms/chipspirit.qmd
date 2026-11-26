@@ -26,7 +26,7 @@ Hardware-only network encryption appliances (ABHED-1, Data Diode) and ASIC front
 | **Application Domains** | Defence, Security |
 | **Design Scope** | Systems (FPGA-based) |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 

@@ -236,7 +236,8 @@ load_design_firms <- function(path = "data/design.yml") {
       id                = f$id,
       name              = f$name,
       category          = f$category,
-      dli_beneficiary   = f$dli_beneficiary %||% FALSE,
+      # DLI tier: "PDLI grant" | "Listed as DLI beneficiary" | NA (see design.qmd)
+      dli_support       = f$dli_support %||% NA_character_,
       parent_company    = f$parent_company %||% NA_character_,
       parent_hq         = f$parent_hq %||% NA_character_,
       founded           = f$founded %||% NA_integer_,
@@ -328,7 +329,6 @@ load_design_locations <- function(path = "data/design.yml") {
 design_category_color <- function(category) {
   switch(category,
     "Indian Fabless"     = "#620d3c",
-    "DLI Beneficiary"    = "#2f6b4a",
     "GCC Design Centre"  = "#1565C0",
     "EDA & IP Provider"  = "#f1a222",
     "Design Services"    = "#8C8480",
@@ -347,11 +347,17 @@ design_score_bar_html <- function(score, label = "Design Score") {
   glue('<span class="complexity-bar" title="{label}: {score}/5">{paste(segments, collapse = "")}</span>')
 }
 
+# ---- DLI support badge (PDLI grant vs listed on the Chips-DLI portal without a grant) ----
+dli_support_badge <- function(tier) {
+  if (is.na(tier)) return("")
+  css_class <- if (tier == "PDLI grant") "badge-operational" else "badge-approved"
+  glue('<span class="status-badge {css_class}">{tier}</span>')
+}
+
 # ---- Design category badge ----
 design_category_badge <- function(category) {
   css_class <- switch(category,
     "Indian Fabless"     = "badge-approved",
-    "DLI Beneficiary"    = "badge-operational",
     "GCC Design Centre"  = "badge-construction",
     "EDA & IP Provider"  = "badge-onhold",
     "Design Services"    = "badge-announced",

@@ -26,7 +26,7 @@ UCIe, DDR/LPDDR, HBM3E and SerDes PHY IP, plus IO libraries, PLLs and power-mana
 | **Application Domains** | Not yet documented |
 | **Design Scope** | IP blocks |
 | **Node Sophistication** | Not applicable / not disclosed |
-| **DLI Beneficiary** | No |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
 
 ### Design Scores
 
