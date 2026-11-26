@@ -36,6 +36,13 @@ The Palani platform: analog in-memory-compute NPUs and SoCs with chip-to-chip op
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 5, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Design completeness 3, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Analog in-memory-compute NPUs with chip-to-chip optical links.
+- **IP ownership 4/5:** Own Palani platform architecture.
+- **Design completeness 3/5:** 12nm FinFET test chip taped out at TSMC, announced February 2026.
+- **Market readiness 1/5:** Test chip only; no samples or customers reported.
+
 ## Sources
 
 - [optoML — Palani platform, 12nm tape-out](https://opto-ml.com/)
@@ -46,7 +53,7 @@ The Palani platform: analog in-memory-compute NPUs and SoCs with chip-to-chip op
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for optoML**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20optoML&firm-name=optoML&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

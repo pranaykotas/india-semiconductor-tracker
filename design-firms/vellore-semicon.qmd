@@ -1,12 +1,12 @@
 ---
 title: "Vellore Semicon"
-subtitle: "Indian Fabless"
+subtitle: "Design Services"
 date: last-modified
 ---
 
 ::: {.callout-tip}
 ## Why This Matters
-Bengaluru (Indiranagar) firm offering end-to-end IC design, custom IP and pin-to-pin compatible replacement chips for defence, automotive and industrial customers, plus an ESD-monitoring product. Mix of products and services.
+Bengaluru (Indiranagar) firm, incorporated Jan 2025 per registry data, offering end-to-end IC design services, custom IP and pin-to-pin compatible replacement ICs (no parts named). Its one detailed product is 'ESD Monitron', a factory ESD-monitoring hardware and software system, not a chip. Says it is DLI-approved. No chip tape-out, part or customer publicly reported.
 :::
 
 ## What does this firm design?
@@ -17,14 +17,14 @@ Pin-to-pin compatible ICs, power-gate and custom IP, and ESD-monitoring systems.
 
 | | |
 |---|---|
-| **Category** | Indian Fabless |
+| **Category** | Design Services |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2025 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
 | **Product Focus** | Power-management and pin-compatible replacement ICs; custom IP |
 | **Application Domains** | Defence, Automotive, Industrial |
-| **Design Scope** | Full chip + services |
+| **Design Scope** | Design services |
 | **Node Sophistication** | Not applicable / not disclosed |
 | **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant; shared EDA tools and design infrastructure) |
 | **C2S Project** | — |
@@ -33,16 +33,19 @@ Pin-to-pin compatible ICs, power-gate and custom IP, and ESD-monitoring systems.
 
 *Not yet scored.*
 
+
+
 ## Sources
 
 - [Vellore Semicon — company site](https://velloresemicon.com/)
 - [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+- [Velloresemicon Pvt Ltd — Tracxn legal-entity profile](https://tracxn.com/d/legal-entities/india/velloresemicon-private-limited/__cVPt1QSRaM6C-TcNRzi9SDbZLb-lYwOUWn2nyP5pQWE)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Vellore Semicon**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Vellore%20Semicon&firm-name=Vellore%20Semicon&category=Design%20Services&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

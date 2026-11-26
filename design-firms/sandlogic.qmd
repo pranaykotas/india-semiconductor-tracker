@@ -36,6 +36,13 @@ Edge-AI NPU IP (ExSLerate), the Krsna AI SoC in development, and AI models and s
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Edge-AI NPU and inference SoC design.
+- **IP ownership 4/5:** Own ExSLerate NPU IP and the Krsna SoC design.
+- **Design completeness 1/5:** NPU IP only FPGA-validated; Krsna SoC still in design, no tape-out.
+- **Market readiness 1/5:** Pre-silicon; first silicon expected in 2026.
+
 ## Sources
 
 - [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
@@ -48,7 +55,7 @@ Edge-AI NPU IP (ExSLerate), the Krsna AI SoC in development, and AI models and s
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Sandlogic Technologies**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Sandlogic%20Technologies&firm-name=Sandlogic%20Technologies&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

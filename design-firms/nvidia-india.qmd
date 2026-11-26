@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-India accounts for 18% of NVIDIA's global workforce. Bengaluru and Pune together employ over 2,300 staff focused on GPU software, deep learning, and system software engineering.
+India accounts for 18% of NVIDIA's global workforce. Bengaluru and Pune together employ over 2,300 staff focused on GPU software, deep learning, and system software engineering. In April 2026 NVIDIA signed a 10-year lease for about 760,000 sq ft of office space in Bengaluru, reported as the largest single-tenant office commitment in India.
 :::
 
 ## What does this firm design?
@@ -20,8 +20,8 @@ GPU architecture and verification, CUDA software stack, AI/ML frameworks, autono
 | **Category** | GCC Design Centre |
 | **Parent Company** | NVIDIA Corporation (United States) |
 | **Founded** | 2004 |
-| **India Headcount** | ~2,500 |
-| **Locations** | Bengaluru, Pune, Hyderabad |
+| **India Headcount** | ~4,000 |
+| **Locations** | Bengaluru, Pune, Hyderabad, Gurugram |
 | **Product Focus** | GPU architecture, AI accelerators, deep learning frameworks |
 | **Application Domains** | AI/ML, Data Centre, Automotive, Gaming |
 | **Design Scope** | Full chip |
@@ -34,17 +34,26 @@ GPU architecture and verification, CUDA software stack, AI/ML frameworks, autono
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 5, strategic depth 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, India scale 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Design completeness 4, India scale 4 |
+
+**Why these scores**
+
+- **Domain difficulty 5/5:** Leading-edge GPUs and AI accelerators at the most advanced nodes.
+- **Strategic depth 4/5:** India hosts GPU architecture, verification and physical design teams; product ownership remains in the US.
+- **Design completeness 4/5:** Bengaluru/Hyderabad/Pune design centres cover RTL, verification, physical design for GPU and networking IP.
+- **India scale 4/5:** Raised 3->4: NVIDIA blog cited '4,000-some' India employees in Sept 2023, above the 1-3k band.
 
 ## Sources
 
 - [NVIDIA India offices](https://www.nvidia.com/en-in/contact/asia/) (01 Jan 2026)
+- [NVIDIA Partners With India Giants to Advance AI in World's Most Populous Nation](https://blogs.nvidia.com/blog/nvidia-india-giants-ai/) (08 Sep 2023)
+- [Nvidia signs 10-year Bengaluru office lease (DIGITIMES Asia)](https://www.digitimes.com/news/a20260428VL217.html) (28 Apr 2026)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for NVIDIA India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20NVIDIA%20India&firm-name=NVIDIA%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

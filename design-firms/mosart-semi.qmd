@@ -36,6 +36,13 @@ A single-chip battery-management system (BMS) SoC for EV and energy-storage batt
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 3, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 3/5:** Automotive-grade battery-management SoC and power-conversion ICs.
+- **IP ownership 4/5:** Own single-chip BMS SoC design by TI, Micron and ams OSRAM veterans.
+- **Design completeness 1/5:** Pre-silicon; BMS SoC still in development.
+- **Market readiness 1/5:** Pre-silicon; set up in 2025.
+
 ## Sources
 
 - [MOSart Semi — company site](https://mosartsemi.com/)
@@ -46,7 +53,7 @@ A single-chip battery-management system (BMS) SoC for EV and energy-storage batt
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for MOSart Semiconductor**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20MOSart%20Semiconductor&firm-name=MOSart%20Semiconductor&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

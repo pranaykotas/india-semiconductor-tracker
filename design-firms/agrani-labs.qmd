@@ -36,6 +36,13 @@ Full-stack AI compute platform — custom GPU hardware plus software stack inclu
 | **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, IP ownership 5 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Custom AI GPU hardware with a full compiler and software stack.
+- **IP ownership 5/5:** Building its own GPU architecture and software stack from scratch.
+- **Design completeness 1/5:** Founded December 2024; described as pre-silicon.
+- **Market readiness 1/5:** Pre-silicon; only an $8M seed round so far.
+
 ## Sources
 
 - [AI Semiconductor Startup Agrani Labs Raises $8 Mn From Peak XV Partners (Inc42)](https://inc42.com/buzz/ai-semiconductor-startup-agrani-labs-raises-8-mn-from-peak-xv-partners/) (28 Jan 2026)
@@ -46,7 +53,7 @@ Full-stack AI compute platform — custom GPU hardware plus software stack inclu
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Agrani Labs**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Agrani%20Labs&firm-name=Agrani%20Labs&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

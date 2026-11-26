@@ -36,6 +36,13 @@ Certified BLE, Wi-Fi, LoRa, GNSS and Zigbee modules and SiPs; the ISC-VEGA-SOM m
 | **Ambition** | <span class="complexity-bar" title="Ambition: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Domain difficulty 3, IP ownership 2 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 2, market readiness 3 |
 
+**Why these scores**
+
+- **Domain difficulty 3/5:** RF connectivity modules and a low-cost RISC-V MCU; moderate mixed-signal and digital work.
+- **IP ownership 2/5:** Modules built on others' chips, including C-DAC's VEGA processor; own RISC-V MCU only at prototype.
+- **Design completeness 2/5:** Own 32-bit RISC-V MCU is at prototype stage; the shipping products are modules.
+- **Market readiness 3/5:** About 60,000 certified modules shipped in a year, though not its own silicon.
+
 ## Sources
 
 - [Can IndieSemiC Win China's 20-Cent Chip Challenge To India? (Inc42)](https://inc42.com/startups/can-indiesemic-win-chinas-20-cent-chip-challenge-to-india/) (23 Apr 2026)
@@ -50,7 +57,7 @@ Certified BLE, Wi-Fi, LoRa, GNSS and Zigbee modules and SiPs; the ISC-VEGA-SOM m
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for IndieSemiC**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20IndieSemiC&firm-name=IndieSemiC&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

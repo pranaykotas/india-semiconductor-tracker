@@ -36,6 +36,13 @@ FMCW radar-on-chip ICs with radar hardware and AI software for drone detection, 
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** FMCW radar-on-chip RF ICs for drone detection and edge sensing.
+- **IP ownership 4/5:** Commercialising radar ICs developed in Prof Gaurab Banerjee's IISc lab.
+- **Design completeness 3/5:** Two CMOS radar chips fabricated in the IISc lab.
+- **Market readiness 2/5:** Prototype 'Ananta' system only; no customers reported.
+
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
@@ -48,7 +55,7 @@ FMCW radar-on-chip ICs with radar hardware and AI software for drone detection, 
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Aagya Vision**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Aagya%20Vision&firm-name=Aagya%20Vision&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

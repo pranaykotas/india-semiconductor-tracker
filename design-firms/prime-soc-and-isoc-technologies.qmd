@@ -33,6 +33,8 @@ Not yet documented.
 
 *Not yet scored.*
 
+
+
 ## Sources
 
 - [Prime SoC & iSOC Technologies — company website](https://www.primesoctechnologies.com)
@@ -42,7 +44,7 @@ Not yet documented.
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Prime SoC & iSOC Technologies**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Prime%20SoC%20%26%20iSOC%20Technologies&firm-name=Prime%20SoC%20%26%20iSOC%20Technologies&category=Design%20Services&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

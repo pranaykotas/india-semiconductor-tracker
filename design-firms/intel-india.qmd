@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Intel's largest design centre outside the United States. Bengaluru teams have contributed to multiple generations of Core processors and Xeon server chips.
+Intel's largest design centre outside the United States. Bengaluru teams have contributed to multiple generations of Core processors and Xeon server chips. Intel cut its global core workforce toward 75,000 by end-2025 and continued cuts in 2026; it has not disclosed India-specific impact.
 :::
 
 ## What does this firm design?
@@ -20,7 +20,7 @@ Core and Xeon CPU microarchitecture, GPU design (Arc), AI accelerator IPs, platf
 | **Category** | GCC Design Centre |
 | **Parent Company** | Intel Corporation (United States) |
 | **Founded** | 1988 |
-| **India Headcount** | ~14,000 |
+| **India Headcount** | ~13,000 |
 | **Locations** | Bengaluru, Hyderabad |
 | **Product Focus** | CPU/GPU design, AI accelerators, platform validation |
 | **Application Domains** | Computing, AI, Data Centre, Client |
@@ -36,15 +36,24 @@ Core and Xeon CPU microarchitecture, GPU design (Arc), AI accelerator IPs, platf
 | **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, strategic depth 5 |
 | **Progress** | <span class="complexity-bar" title="Progress: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Design completeness 5, India scale 5 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Leading-edge CPUs, GPUs and AI accelerators.
+- **Strategic depth 5/5:** Largest Intel design site outside the US; long-standing Core/Xeon microarchitecture and SoC contributions.
+- **Design completeness 5/5:** Front-end, verification, physical design and post-silicon validation all done in India.
+- **India scale 5/5:** Intel careers site cited 13,000+ India employees (2024), down from 14,000+ (2022).
+
 ## Sources
 
 - [Intel India overview](https://www.intel.in/content/www/in/en/company-overview/company-overview.html) (01 Jan 2026)
+- [Intel to cut down 30,000 jobs by end of 2025 (Business Today)](https://www.businesstoday.in/technology/news/story/tech-layoffs-intel-to-cut-down-30000-jobs-by-end-of-2025-axes-expansion-plans-486262-2025-07-25) (25 Jul 2025)
+- [Intel layoffs continue as Lip-Bu Tan pushes efficiency (Business Today)](https://www.businesstoday.in/technology/news/story/intel-layoffs-continue-more-employees-face-the-axe-as-lip-bu-tan-pushes-efficiency-568375-2026-11-19) (19 Nov 2026)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Intel India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Intel%20India&firm-name=Intel%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

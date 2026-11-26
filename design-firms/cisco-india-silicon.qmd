@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Cisco invested $150 million to expand its Bengaluru facility into a full chip design centre. India teams contribute to networking ASIC design for enterprise and data centre switches and routers.
+India teams in Bengaluru contribute to Cisco's Silicon One networking ASICs for enterprise and data centre switches and routers, including design-for-test and physical design.
 :::
 
 ## What does this firm design?
 
-Networking ASIC design, verification, and physical design for Cisco's switching and routing platforms. Bengaluru is being expanded to support full chip design capabilities.
+Networking ASIC design, verification, DFT and physical design for Cisco's Silicon One switching and routing platforms.
 
 ## Key Facts
 
@@ -22,7 +22,7 @@ Networking ASIC design, verification, and physical design for Cisco's switching 
 | **Founded** | 2005 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
-| **Product Focus** | Networking ASICs, switching silicon |
+| **Product Focus** | Silicon One networking ASICs (switching/routing), DFT and physical design |
 | **Application Domains** | Networking, Data Centre |
 | **Design Scope** | Subsystem |
 | **Node Sophistication** | 7nm |
@@ -36,15 +36,24 @@ Networking ASIC design, verification, and physical design for Cisco's switching 
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 4, strategic depth 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, India scale 2 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** High-bandwidth switching/routing ASICs (51.2T-102.4T class).
+- **Strategic depth 3/5:** Bengaluru teams contribute to Silicon One chip development; programme leadership remains in the US.
+- **Design completeness 3/5:** Postings cite full-chip integration, timing and DFT work; not India-owned end-to-end chips.
+- **India scale 2/5:** No silicon-specific headcount reported; estimate kept.
+
 ## Sources
 
 - [Cisco to begin chip design in India](https://www.eetimes.com/cisco-to-begin-chip-design-in-india/) (17 Aug 2000)
+- [Cisco Systems announces next phase of investment and growth strategy in India](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2000/m08/cisco-systems-announces-next-phase-of-investment-and-growth-strategy-in-india.html)
+- [Cisco Careers India](https://careers.cisco.com/global/en/india/)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Cisco India (Silicon Engineering)**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Cisco%20India%20%28Silicon%20Engineering%29&firm-name=Cisco%20India%20%28Silicon%20Engineering%29&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

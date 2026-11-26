@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Samsung's semiconductor R&D in Bengaluru works on Exynos mobile SoCs and modem design. Part of Samsung's broader India R&D footprint which is its largest outside South Korea.
+Samsung's semiconductor R&D in Bengaluru works on Exynos mobile SoCs and modem design. Part of Samsung's broader India R&D footprint which is its largest outside South Korea. In October 2025 SSIR launched a hiring push for AI chip design across System LSI, Memory and Foundry, aiming to become a core Samsung AI-chip design centre.
 :::
 
 ## What does this firm design?
@@ -20,7 +20,7 @@ Exynos mobile application processors, 5G modem IPs, display driver ICs, and cust
 | **Category** | GCC Design Centre |
 | **Parent Company** | Samsung Electronics (South Korea) |
 | **Founded** | 2007 |
-| **India Headcount** | ~4,500 |
+| **India Headcount** | ~5,000 |
 | **Locations** | Bengaluru |
 | **Product Focus** | Mobile SoCs, modem design, display controllers |
 | **Application Domains** | Mobile, Display, AI |
@@ -34,18 +34,27 @@ Exynos mobile application processors, 5G modem IPs, display driver ICs, and cust
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 5, strategic depth 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Design completeness 5, India scale 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Design completeness 5, India scale 4 |
+
+**Why these scores**
+
+- **Domain difficulty 5/5:** Leading-edge mobile SoCs, modems and AI NPUs.
+- **Strategic depth 4/5:** Works on Exynos SoCs, modems and NPUs; core R&D status but product ownership remains in Korea.
+- **Design completeness 5/5:** Teams contribute across SoC, modem and NPU design; full-chip scope per existing entry.
+- **India scale 4/5:** Semiconductor research workforce grew from ~1,000 (2019) to ~5,000 (2025).
 
 ## Sources
 
 - [Samsung R&D Institute India - Bengaluru](https://research.samsung.com/sri-b) (01 Jan 2026)
 - [Samsung Semiconductor India (SSIR) headcount — over 4,500 employees (BW People)](https://www.bwpeople.in/article/samsung-semiconductor-india-to-hire-over-700-employees-at-new-rd-facility-511630) (29 Feb 2024)
+- [Samsung semiconductor research workforce in India 1000 to 5000 (Financial News, Korea)](https://en.fnnews.com/news/202508290955002986) (01 Sep 2025)
+- [Samsung seeking talent in India to boost AI chip design capabilities (Tribune)](https://www.tribuneindia.com/news/business/samsung-seeking-talent-in-india-to-boost-ai-chip-design-capabilities)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Samsung Semiconductor India R&D**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Samsung%20Semiconductor%20India%20R%26D&firm-name=Samsung%20Semiconductor%20India%20R%26D&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

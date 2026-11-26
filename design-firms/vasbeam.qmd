@@ -36,6 +36,13 @@ Beamforming ASICs (VAS7308) and electronically steered AESA/satcom antennas.
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Beamforming ASICs for electronically steered AESA and satcom antennas.
+- **IP ownership 4/5:** Own VAS7308 beamforming ASIC design.
+- **Design completeness 4/5:** VAS7308 described by the company as foundry-proven.
+- **Market readiness 3/5:** Company says VAS7308 is in production (TRL 7), unverified and with the website down.
+
 ## Sources
 
 - [Chips-DLI scheme portal (not on the PDLI financial-support list as of Nov 2026)](https://chips-dli.gov.in/DLI/HomePage) (27 Jun 2026)
@@ -48,7 +55,7 @@ Beamforming ASICs (VAS7308) and electronically steered AESA/satcom antennas.
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Vasbeam**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Vasbeam&firm-name=Vasbeam&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

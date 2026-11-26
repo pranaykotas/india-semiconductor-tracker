@@ -34,7 +34,14 @@ Configurable RISC-V core generators (Azurite, Calcite), an automated SoC Generat
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 3, IP ownership 5 |
-| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 3, market readiness 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
+
+**Why these scores**
+
+- **Domain difficulty 3/5:** RISC-V processor cores and SoC generators; digital design.
+- **IP ownership 5/5:** Own configurable RISC-V core generators (Azurite, Calcite) and SoC Generator platform.
+- **Design completeness 4/5:** Six-core RISC-V test chip on TSMC 40nm, silicon-validated in June 2025.
+- **Market readiness 3/5:** Offers licensable cores and reference SoCs; no named customers in the entry.
 
 ## Sources
 
@@ -48,7 +55,7 @@ Configurable RISC-V core generators (Azurite, Calcite), an automated SoC Generat
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for InCore Semiconductors**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20InCore%20Semiconductors&firm-name=InCore%20Semiconductors&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

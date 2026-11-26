@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-India is Marvell's second-largest R&D hub globally. In July 2026, Marvell announced a $250 million investment to double its India workforce and expand Bengaluru and Hyderabad campuses. Teams work on 2nm-and-beyond process nodes.
+India is Marvell's second-largest R&D hub globally. In July 2026, Marvell announced a $250 million investment to double its India workforce and expand Bengaluru and Hyderabad campuses. Teams work on 2nm-and-beyond process nodes. On 2026-07-29 Marvell announced a $250 million, three-year India investment to double its India workforce and add a new wing in Bengaluru and expand Hyderabad.
 :::
 
 ## What does this firm design?
@@ -20,7 +20,7 @@ Custom data centre ASICs, 5G baseband processors, networking switches, storage c
 | **Category** | GCC Design Centre |
 | **Parent Company** | Marvell Technology Inc. (United States) |
 | **Founded** | 2006 |
-| **India Headcount** | ~2,000 |
+| **India Headcount** | ~1,700 |
 | **Locations** | Bengaluru, Hyderabad, Pune |
 | **Product Focus** | Data infrastructure semiconductors, networking, storage, custom silicon |
 | **Application Domains** | Data Centre, 5G, Cloud, AI |
@@ -34,17 +34,27 @@ Custom data centre ASICs, 5G baseband processors, networking switches, storage c
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, strategic depth 5 |
-| **Progress** | <span class="complexity-bar" title="Progress: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Design completeness 5, India scale 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 5, India scale 2 |
+
+**Why these scores**
+
+- **Domain difficulty 5/5:** Custom data-centre ASICs, high-speed SerDes/analog IP at leading-edge nodes.
+- **Strategic depth 5/5:** India is Marvell's second-largest R&D organisation; teams work on custom AI/cloud silicon.
+- **Design completeness 5/5:** Full-chip custom ASIC, networking and storage design work across three Indian sites.
+- **India scale 2/5:** Lowered 3->2: Reuters reported a 1,700-strong India workforce in Nov 2025, below ~2k; may rise as hiring doubles.
 
 ## Sources
 
 - [Marvell to invest $250M in Bengaluru, Hyderabad R&D](https://indiawest.com/us-chipmaker-marvell-to-invest-250-million-in-bengaluru-hyderabad/) (29 Jul 2026)
+- [U.S. chipmaker Marvell plans India hiring spree, R&D push to tap AI boom (Reuters)](https://finance.yahoo.com/news/u-chipmaker-marvell-plans-india-132928674.html) (20 Nov 2025)
+- [Semiconductor Major Marvell To Invest $250 Mn in India, Double Headcount](https://inc42.com/buzz/semiconductor-major-marvell-to-invest-250-mn-in-india-double-headcount/) (29 Jul 2026)
+- [Marvell Technology to Invest $250 mn in India, Double Workforce](https://telecomlead.com/semiconductor/marvell-technology-to-invest-250-mn-in-india-double-workforce-to-expand-ai-and-semiconductor-engineering-126976) (29 Jul 2026)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Marvell India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Marvell%20India&firm-name=Marvell%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

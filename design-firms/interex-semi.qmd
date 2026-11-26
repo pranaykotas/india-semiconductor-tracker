@@ -33,6 +33,8 @@ Silicon IP blocks and turnkey ASIC/FPGA design.
 
 *Not yet scored.*
 
+
+
 ## Sources
 
 - [Interex Semi — company site](https://interexsemi.com/)
@@ -42,7 +44,7 @@ Silicon IP blocks and turnkey ASIC/FPGA design.
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Interex Semiconductor**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Interex%20Semiconductor&firm-name=Interex%20Semiconductor&category=EDA%20%26%20IP%20Provider&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

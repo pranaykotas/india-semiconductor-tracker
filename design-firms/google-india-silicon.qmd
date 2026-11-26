@@ -19,10 +19,10 @@ Tensor mobile SoCs for Pixel phones, TPU (Tensor Processing Unit) components for
 |---|---|
 | **Category** | GCC Design Centre |
 | **Parent Company** | Alphabet Inc. (United States) |
-| **Founded** | 2023 |
+| **Founded** | 2019 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
-| **Product Focus** | Tensor SoC design, custom server processors |
+| **Product Focus** | TPU AI accelerators, Tensor SoC design, custom cloud silicon |
 | **Application Domains** | Mobile, AI/ML, Cloud |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | 3nm |
@@ -36,15 +36,23 @@ Tensor mobile SoCs for Pixel phones, TPU (Tensor Processing Unit) components for
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 5, strategic depth 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Design completeness 3, India scale 1 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** TPU AI accelerators and mobile SoCs at leading-edge nodes.
+- **Strategic depth 4/5:** Bengaluru postings describe teams delivering TPU IPs and subsystems; architecture roles present.
+- **Design completeness 3/5:** Work evidenced at IP/subsystem level (TPU core, SoC integration); full-chip ownership not shown.
+- **India scale 1/5:** Reported at ~16+ hires growing toward 80 in 2019; no current headcount reported.
+
 ## Sources
 
 - [Google on chip engineer hiring spree in India](https://www.datacenterknowledge.com/data-center-chips/google-said-to-be-on-a-chip-engineer-hiring-spree-in-india) (01 Jun 2025)
+- [Google Said to Be On a Chip Engineer Hiring Spree in India](https://www.datacenterknowledge.com/google-alphabet/google-said-be-chip-engineer-hiring-spree-india) (12 Feb 2019)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Google India (gChips)**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Google%20India%20%28gChips%29&firm-name=Google%20India%20%28gChips%29&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

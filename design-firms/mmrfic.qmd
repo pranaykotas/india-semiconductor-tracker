@@ -36,6 +36,13 @@ Millimetre-wave chips and subsystems for radar, 5G/6G communications and wireles
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 5, IP ownership 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 2, market readiness 3 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Millimetre-wave GaAs/GaN MMICs and front-ends for radar and 5G/6G.
+- **IP ownership 3/5:** Mix of own MMICs and subsystems; the entry does not separate own from bought-in IP.
+- **Design completeness 2/5:** No public confirmation that the DLI Ka-band beamformer has taped out.
+- **Market readiness 3/5:** Sells chips and subsystems, with packaging and test in its 2024 facility.
+
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
@@ -48,7 +55,7 @@ Millimetre-wave chips and subsystems for radar, 5G/6G communications and wireles
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for MMRFIC Technology**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20MMRFIC%20Technology&firm-name=MMRFIC%20Technology&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -34,7 +34,14 @@ RISC-V microcontrollers and SoCs: the Secure IoT S2401 for smart metering and in
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 3, IP ownership 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 3, market readiness 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
+
+**Why these scores**
+
+- **Domain difficulty 3/5:** RISC-V microcontrollers and a vision SoC for IoT and edge computing.
+- **IP ownership 4/5:** Own SoCs built around the open Shakti RISC-V core.
+- **Design completeness 4/5:** Secure IoT S2401 taped out first-time-right at 28nm in May 2024.
+- **Market readiness 3/5:** Customer sampling under way with Pinetics named; commercial production being readied in 2026.
 
 ## Sources
 
@@ -48,7 +55,7 @@ RISC-V microcontrollers and SoCs: the Secure IoT S2401 for smart metering and in
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Mindgrove Technologies**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Mindgrove%20Technologies&firm-name=Mindgrove%20Technologies&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

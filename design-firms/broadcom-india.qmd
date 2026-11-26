@@ -6,12 +6,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Major networking and infrastructure chip design centre. India teams design switch ASICs, Memory, and storage controllers that power global data centre infrastructure.
+Major networking and infrastructure chip design centre. India teams design switch ASICs and storage controllers that power global data centre infrastructure.
 :::
 
 ## What does this firm design?
 
-Ethernet switch ASICs (Memory), broadband SoCs, Wi-Fi chipsets, enterprise storage/RAID controllers, and custom silicon for hyperscale data centres.
+Ethernet switch ASICs, broadband SoCs, Wi-Fi chipsets, enterprise storage/RAID controllers, and custom silicon for hyperscale data centres.
 
 ## Key Facts
 
@@ -36,6 +36,13 @@ Ethernet switch ASICs (Memory), broadband SoCs, Wi-Fi chipsets, enterprise stora
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, strategic depth 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Design completeness 5, India scale 4 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Networking switch ASICs, SerDes/HBM IP and custom AI silicon.
+- **Strategic depth 4/5:** Bangalore Development Center hosts ASIC Product Division and Central Engineering IP roles; product ownership mostly US.
+- **Design completeness 5/5:** Job postings show RTL, verification, emulation, memory circuit and DFT work for networking and ASICs.
+- **India scale 4/5:** No company figure found; third-party aggregators show a few thousand across Bengaluru, Hyderabad, Pune.
+
 ## Sources
 
 - [Broadcom company overview](https://www.broadcom.com/company/about-us) (01 Jan 2026)
@@ -44,7 +51,7 @@ Ethernet switch ASICs (Memory), broadband SoCs, Wi-Fi chipsets, enterprise stora
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Broadcom India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Broadcom%20India&firm-name=Broadcom%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

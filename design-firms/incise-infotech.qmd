@@ -36,6 +36,13 @@ Semiconductor design services and verification IP, plus its INC2106 linear LED d
 | **Ambition** | <span class="complexity-bar" title="Ambition: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Domain difficulty 2, IP ownership 2 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Design completeness 2, market readiness 2 |
 
+**Why these scores**
+
+- **Domain difficulty 2/5:** Linear LED driver IC; simple power analog.
+- **IP ownership 2/5:** Mainly a design-services and verification-IP firm; INC2106 is its only own chip.
+- **Design completeness 2/5:** INC2106 LED driver is the DLI project; no tape-out reported.
+- **Market readiness 2/5:** No product shipments reported; smallest PDLI outlay at Rs 4.28 crore.
+
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
@@ -47,7 +54,7 @@ Semiconductor design services and verification IP, plus its INC2106 linear LED d
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Incise Infotech**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Incise%20Infotech&firm-name=Incise%20Infotech&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

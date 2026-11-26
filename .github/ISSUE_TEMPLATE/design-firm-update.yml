@@ -12,6 +12,7 @@ body:
         - "Indian Fabless"
         - "GCC Design Centre"
         - "EDA & IP Provider"
+        - "Design Services"
     validations:
       required: true
 

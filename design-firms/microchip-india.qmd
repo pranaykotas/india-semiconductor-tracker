@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Microchip has operated in India for 25 years. In 2025, it announced a $300 million investment to expand its India operations, including a new Bengaluru facility that can accommodate 3,000+ employees. India supports design for MCUs, FPGAs, networking, and security products.
+Microchip has operated in India for 25 years. In July 2023 it announced a $300 million investment to expand its India operations. In November 2025, marking 25 years in India, it acquired about 1.72 lakh sq ft in Whitefield, Bengaluru, able to hold 3,000+ employees over ten years. India teams support design for MCUs, FPGAs, networking and security products.
 :::
 
 ## What does this firm design?
@@ -36,15 +36,24 @@ Microchip has operated in India for 25 years. In 2025, it announced a $300 milli
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, strategic depth 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Design completeness 5, India scale 3 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** FPGAs and mixed-signal MCUs are moderately advanced, mostly mature nodes.
+- **Strategic depth 4/5:** India centres support design across MCU, FPGA, networking and security product lines.
+- **Design completeness 5/5:** Company cites 'advanced IC design' across Bengaluru, Chennai and Hyderabad development centres.
+- **India scale 3/5:** About 2,500 employees in India (2023 and 2025 company figures).
+
 ## Sources
 
 - [Microchip launches $300M investment in India](https://www.microchip.com/en-us/about/news-releases/corporate/microchip-launches-300m-investment-in-india) (01 Nov 2025)
+- [Microchip expands India footprint with new office facility in Bengaluru](https://www.dqindia.com/esdm/microchip-expands-india-footprint-with-new-office-facility-in-bengaluru-10647074) (11 Nov 2025)
+- [US-headquartered Microchip Technology expands presence in India, to invest $300 million](https://www.businesstoday.in/latest/corporate/story/us-headquartered-microchip-technology-expands-presence-in-india-to-invest-300-million-in-next-few-years-388001-2023-07-03) (03 Jul 2023)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Microchip Technology India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Microchip%20Technology%20India&firm-name=Microchip%20Technology%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

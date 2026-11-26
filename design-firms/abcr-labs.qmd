@@ -36,6 +36,13 @@ TireSynapse, a tire-monitoring sensing SoC with integrated Bluetooth for wear pr
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 3, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 3/5:** Tire-monitoring sensing SoC with integrated Bluetooth.
+- **IP ownership 4/5:** Own TireSynapse sensing SoC design.
+- **Design completeness 1/5:** TireSynapse was in advanced design in 2022; no tape-out reported.
+- **Market readiness 1/5:** Pre-silicon.
+
 ## Sources
 
 - [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
@@ -48,7 +55,7 @@ TireSynapse, a tire-monitoring sensing SoC with integrated Bluetooth for wear pr
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for ABCR Labs**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20ABCR%20Labs&firm-name=ABCR%20Labs&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

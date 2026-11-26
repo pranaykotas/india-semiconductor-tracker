@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Incubated at IIT Delhi's FITT, designing semiconductor chips that operate at cryogenic temperatures — the control electronics that quantum computers, space and defence systems need. Early stage; no tape-out publicly reported.
+Incubated at IIT Delhi's FITT; promoter Prof. Abhisek Dixit (IIT Delhi, cryo-CMOS and qubit device researcher). Company says it signed a three-year service agreement (Apr 2025) to assess cryogenic aging reliability of GlobalFoundries' 22nm and 12nm CMOS, received DST-NIDHI seed approval (Sep 2025) and DLI design-infrastructure (EDA tools) support (Oct 2025). Current work is mainly characterisation and modelling; no tape-out publicly reported.
 :::
 
 ## What does this firm design?
@@ -22,7 +22,7 @@ Cryogenic CMOS integrated circuits for quantum-computer control, space and defen
 | **Founded** | Unknown |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | New Delhi |
-| **Product Focus** | Cryogenic CMOS chips for quantum computing, space and defence |
+| **Product Focus** | Cryogenic CMOS chip design, cryo PDK/device models and cryogenic characterisation services for quantum, space and defence |
 | **Application Domains** | Quantum, Space, Defence |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
@@ -36,6 +36,13 @@ Cryogenic CMOS integrated circuits for quantum-computer control, space and defen
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 5, IP ownership 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Domain difficulty 5: cryogenic (4K to mK) CMOS for qubit control; few firms worldwide.
+- **IP ownership 3/5:** IP ownership 3: own cryo device models and PDK work; no chip architecture disclosed.
+- **Design completeness 1/5:** Design completeness 1: no chip design or tape-out disclosed; activity is characterisation and modelling.
+- **Market readiness 1/5:** Market readiness 1: no chip product; revenue appears to be characterisation services (GlobalFoundries SLA, self-reported).
+
 ## Sources
 
 - [Cryologiq — vision, products and contact (IIT Delhi FITT)](https://cryologiq.in/)
@@ -45,7 +52,7 @@ Cryogenic CMOS integrated circuits for quantum-computer control, space and defen
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Cryologiq**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Cryologiq&firm-name=Cryologiq&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -36,15 +36,23 @@ Wireless modem silicon, SoC platform architecture, and hardware verification for
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 5, strategic depth 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Design completeness 3, India scale 1 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Cellular modems and advanced-node mobile SoCs are leading-edge.
+- **Strategic depth 4/5:** Bengaluru modem team inherited from Intel's modem business; no public detail on product ownership.
+- **Design completeness 3/5:** Reported work is modem and SoC subsystems; no evidence of full chips from India.
+- **India scale 1/5:** About 160 Intel modem engineers joined in 2019; no later silicon headcount reported.
+
 ## Sources
 
 - [Apple starts chip-designing in Bengaluru](https://www.ilounge.com/news/apple-chip-design-bengaluru) (24 Oct 2019)
+- [Apple Accelerates Modem Chip India Unit With 160 Intel Engineers Joining](https://inc42.com/buzz/apple-accelerates-modem-chip-india-unit-with-160-intel-engineers-joining) (24 Oct 2019)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Apple India (Silicon Engineering)**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Apple%20India%20%28Silicon%20Engineering%29&firm-name=Apple%20India%20%28Silicon%20Engineering%29&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

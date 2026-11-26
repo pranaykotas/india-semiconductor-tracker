@@ -36,6 +36,13 @@ Chipsets for consumer electronics, IoT and AI inference, co-designed with India-
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, IP ownership 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 3/5:** Consumer, IoT and AI-inference chipsets; mainstream digital SoCs.
+- **IP ownership 3/5:** Co-developing chipsets with BharatGen; own IP share not detailed.
+- **Design completeness 1/5:** Pre-silicon.
+- **Market readiness 1/5:** Pre-silicon; only a February 2026 BharatGen MoU so far.
+
 ## Sources
 
 - [Sampige Semiconductors — company site](https://sampigesemi.com/)
@@ -46,7 +53,7 @@ Chipsets for consumer electronics, IoT and AI inference, co-designed with India-
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Sampige Semiconductors**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Sampige%20Semiconductors&firm-name=Sampige%20Semiconductors&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

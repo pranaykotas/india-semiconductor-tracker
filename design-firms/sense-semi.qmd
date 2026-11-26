@@ -36,6 +36,13 @@ SenseSoC ultra-low-power SoCs combining AI inference, wireless connectivity and 
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, IP ownership 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 3/5:** Ultra-low-power edge-AI SoCs combining inference, wireless and analog front-ends.
+- **IP ownership 3/5:** SenseSoC designs; the entry gives little detail on how much IP is its own.
+- **Design completeness 1/5:** Raised Rs 25 crore to fund two test-chip tape-outs during 2026; none reported yet.
+- **Market readiness 1/5:** Pre-silicon; production chip targeted for 2027.
+
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
@@ -48,7 +55,7 @@ SenseSoC ultra-low-power SoCs combining AI inference, wireless connectivity and 
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Sensesemi Technologies**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Sensesemi%20Technologies&firm-name=Sensesemi%20Technologies&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

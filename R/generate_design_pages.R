@@ -44,6 +44,8 @@ date: last-modified
 
 {score_block}
 
+{score_notes_block}
+
 ## Sources
 
 {source_links}
@@ -52,7 +54,7 @@ date: last-modified
 
 ::: {{.callout-note}}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for {name}**]({correction_url}) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>
@@ -97,6 +99,28 @@ for (i in 1:nrow(firms)) {
       sep = "\n")
   }
 
+  # One-line reason behind each score (score_notes in design.yml), shown under the score table
+  notes <- this_firm$score_notes
+  note_labels <- c(domain_difficulty = "Domain difficulty", ip_ownership = "IP ownership",
+                   strategic_depth = "Strategic depth", design_completeness = "Design completeness",
+                   market_readiness = "Market readiness", india_scale = "India scale")
+  if (!is.null(notes) && length(notes) > 0) {
+    note_lines <- sapply(names(note_labels)[names(note_labels) %in% names(notes)], function(k) {
+      paste0("- **", note_labels[[k]], " ", this_firm$design_score[[k]], "/5:** ", notes[[k]])
+    })
+    score_notes_block <- paste0("**Why these scores**\n\n", paste(note_lines, collapse = "\n"))
+  } else {
+    score_notes_block <- ""
+  }
+
+  # Pre-filled GitHub issue form for corrections (template: .github/ISSUE_TEMPLATE/design-firm-update.yml)
+  correction_url <- paste0(
+    "https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml",
+    "&title=", utils::URLencode(paste0("[Design]: Correction for ", f$name), reserved = TRUE),
+    "&firm-name=", utils::URLencode(f$name, reserved = TRUE),
+    "&category=", utils::URLencode(f$category, reserved = TRUE),
+    "&update-type=", utils::URLencode("Correction to existing data", reserved = TRUE))
+
   significance <- if (nchar(f$significance) > 0) f$significance else "Details coming soon — this firm is tracked via the DLI beneficiary list but has not yet been independently researched."
   what_it_designs <- if (nchar(f$what_it_designs) > 0) f$what_it_designs else "*Details coming soon.*"
 
@@ -127,6 +151,8 @@ for (i in 1:nrow(firms)) {
     dli_text = dli_text,
     c2s_text = c2s_text,
     score_block = score_block,
+    score_notes_block = score_notes_block,
+    correction_url = correction_url,
     significance = significance,
     what_it_designs = what_it_designs,
     source_links = source_links

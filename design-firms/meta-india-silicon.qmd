@@ -36,15 +36,23 @@ Domain-specific SoCs and ASICs for Meta's data centres, covering architecture, R
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 5, strategic depth 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2/5 | Design completeness 3, India scale 1 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Custom AI/ML accelerator ASICs for hyperscale data centres.
+- **Strategic depth 3/5:** Bengaluru postings cover architecture, RTL, validation and firmware for in-house data-centre ASICs.
+- **Design completeness 3/5:** Work spans design through silicon bring-up, but no India-led full chip reported.
+- **India scale 1/5:** No headcount reported; postings suggest a small, growing team.
+
 ## Sources
 
 - [Meta ASIC Engineer Design — Bengaluru](https://www.foundit.in/job/asic-engineer-design-meta-bengaluru-bangalore-47072024) (01 Jan 2026)
+- [ASIC Engineer, Infra Silicon Enablement (Meta Careers, seen in search results)](https://metacareers.com/jobs/597025942666816)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Meta India (Infra Silicon)**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Meta%20India%20%28Infra%20Silicon%29&firm-name=Meta%20India%20%28Infra%20Silicon%29&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

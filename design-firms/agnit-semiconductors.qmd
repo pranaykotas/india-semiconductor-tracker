@@ -36,6 +36,13 @@ GaN-on-silicon/SiC epitaxial wafers, RF transistors and power devices for defenc
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 4, IP ownership 5 |
 | **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** GaN RF transistors and power devices for radar and base stations; compound-semiconductor RF work.
+- **IP ownership 5/5:** Owns the full GaN chain, from epitaxial wafers to device design, built on 15 years of IISc research.
+- **Design completeness 4/5:** Devices made at IISc's GEECI line; customer pilots and pilot wafer exports show working parts.
+- **Market readiness 3/5:** Customer pilots, pilot wafer exports and an iDEX contract; 1 lakh chips a year is still a target.
+
 ## Sources
 
 - [AGNIT Semiconductor aims to scale GaN chip production to 1 lakh units — Business Standard](https://www.business-standard.com/india-news/agnit-semiconductor-aims-to-scale-gan-chip-production-to-1-lakh-units-126031701251_1.html) (17 Mar 2026)
@@ -47,7 +54,7 @@ GaN-on-silicon/SiC epitaxial wafers, RF transistors and power devices for defenc
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for AGNIT Semiconductors**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20AGNIT%20Semiconductors&firm-name=AGNIT%20Semiconductors&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

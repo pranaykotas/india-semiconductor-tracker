@@ -34,7 +34,14 @@ Edge-AI SoCs and chiplets: NETRA A2000 (12 TOPS) and R1000 (1 TOPS edge MCU), pl
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 3, market readiness 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
+
+**Why these scores**
+
+- **Domain difficulty 4/5:** Edge-AI vision SoCs with vector processing on 12nm.
+- **IP ownership 4/5:** Own NETRA family of edge-AI SoCs and chiplets.
+- **Design completeness 4/5:** NETRA A2000 on TSMC 12nm reached silicon bring-up.
+- **Market readiness 3/5:** A2000 launched for customer trials in May 2026; commercial production targeted for late 2026-27.
 
 ## Sources
 
@@ -49,7 +56,7 @@ Edge-AI SoCs and chiplets: NETRA A2000 (12 TOPS) and R1000 (1 TOPS edge MCU), pl
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Netrasemi**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Netrasemi&firm-name=Netrasemi&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

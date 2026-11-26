@@ -34,7 +34,14 @@ Analog/RF/mixed-signal hard IP and RF front-end modules for GNSS, 5G and Ka-band
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 3, market readiness 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
+
+**Why these scores**
+
+- **Domain difficulty 4/5:** Analog/RF hard IP and GaAs front-end modules for GNSS, 5G and Ka-band.
+- **IP ownership 4/5:** Own analog/RF/mixed-signal hard IP portfolio.
+- **Design completeness 3/5:** SC2391 GNSS/5G front-end module taped out in August 2022.
+- **Market readiness 2/5:** Holds a Rs 7.59 crore government grant; no customers or samples named in the entry.
 
 ## Sources
 
@@ -49,7 +56,7 @@ Analog/RF/mixed-signal hard IP and RF front-end modules for GNSS, 5G and Ka-band
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Silizium Circuits**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Silizium%20Circuits&firm-name=Silizium%20Circuits&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

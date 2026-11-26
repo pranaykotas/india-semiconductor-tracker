@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Hyderabad startup designing gallium-nitride power amplifiers and RF front-end ICs (amplifiers, active-antenna components, switches) for radar, satellite communication and wireless networks. Production status not disclosed.
+Hyderabad startup founded in 2024 to design gallium-nitride power amplifiers and RF front-end ICs (amplifiers, beamformers, switches) for radar, satellite communication and wireless networks; lists support under the Startup India Seed Fund Scheme. Its site lists product categories but no part numbers, and says product images are conceptual. Production status not disclosed.
 :::
 
 ## What does this firm design?
@@ -19,7 +19,7 @@ GaN power amplifiers, RF switches and front-end ICs for radar, satcom and 5G.
 |---|---|
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2024 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Hyderabad |
 | **Product Focus** | GaN power amplifiers and RF front-end ICs |
@@ -36,6 +36,13 @@ GaN power amplifiers, RF switches and front-end ICs for radar, satcom and 5G.
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1.5/5 | Design completeness 2, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Domain difficulty 4: GaN PAs and RF front-end/beamformer ICs for radar and satcom.
+- **IP ownership 4/5:** IP ownership 4: claims own GaN PA and front-end designs; generous given no disclosed parts.
+- **Design completeness 2/5:** Design completeness 2: product categories only, images labelled conceptual; no tape-out reported.
+- **Market readiness 1/5:** Market readiness 1: no part numbers, samples or customers disclosed.
+
 ## Sources
 
 - [SiGaN — products](https://sigansemi.com/)
@@ -45,7 +52,7 @@ GaN power amplifiers, RF switches and front-end ICs for radar, satcom and 5G.
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for SiGaN Technologies**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20SiGaN%20Technologies&firm-name=SiGaN%20Technologies&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

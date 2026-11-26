@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Bengaluru (Yelahanka) startup developing 5G and LTE-Advanced chipsets and RF transceivers for broadband and IoT, with designs it says are compatible with Tata Electronics' planned 28/22nm process. No tape-out publicly reported.
+Bengaluru startup led by Chairman and CEO Alok Sharma (formerly Ericsson; Sequans board 2011-22, per company site) developing 5G/LTE-Advanced chipsets and sub-6 GHz/mmWave RF transceivers, with designs it says are compatible with Tata Electronics' planned 28/22nm process. Exhibited at Semicon India 2026 and was among indigenous chip firms at a DoT conclave in Nov 2026 seeking market support for domestic telecom chipsets. No tape-out publicly reported.
 :::
 
 ## What does this firm design?
@@ -36,16 +36,24 @@ Bengaluru (Yelahanka) startup developing 5G and LTE-Advanced chipsets and RF tra
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 4, IP ownership 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Domain difficulty 4: 5G baseband plus mixed-signal RF transceivers including mmWave.
+- **IP ownership 3/5:** IP ownership 3: claims own baseband, RF front end and software stack; no detail on licensed vs custom cores.
+- **Design completeness 1/5:** Design completeness 1: no tape-out, silicon or prototype disclosed; process 'compatibility' claim only.
+- **Market readiness 1/5:** Market readiness 1: pre-silicon; no customers or pilots named.
+
 ## Sources
 
 - [Atantri — 5G & LTE-Advanced semiconductor solutions](https://atantri.com/)
 - [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+- [Scindia Announces Advisory Group for Telecom Startups and MSMEs — Entrepreneur India (names Atantri Semiconductors)](https://india.entrepreneur.com/business-news/scindia-announces-advisory-group-for-telecom-startups-and-msmes) (25 Nov 2026)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Atantri**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Atantri&firm-name=Atantri&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

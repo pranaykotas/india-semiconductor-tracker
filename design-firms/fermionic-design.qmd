@@ -36,6 +36,13 @@ X-band (8–12 GHz) beamformer and RF front-end ICs for phased-array radar, sate
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 5, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** X-band 8-12 GHz RF beamformer ICs for phased-array radar and satcom.
+- **IP ownership 4/5:** Own FD3R4411 4-channel X-band beamformer design.
+- **Design completeness 4/5:** FD3R4411 beamformer heading to staggered volume production with Tata Electronics assembly.
+- **Market readiness 3/5:** Volume production announced from Q4 2025, but only in a company press release.
+
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
@@ -46,7 +53,7 @@ X-band (8–12 GHz) beamformer and RF front-end ICs for phased-array radar, sate
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for FermionIC Design**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20FermionIC%20Design&firm-name=FermionIC%20Design&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

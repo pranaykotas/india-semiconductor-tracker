@@ -36,6 +36,13 @@ REDEFINE many-core reconfigurable processors with dynamic scheduling, delivered 
 | **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, IP ownership 5 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Many-core reconfigurable REDEFINE processors for AI and signal processing.
+- **IP ownership 5/5:** Own REDEFINE reconfigurable architecture, rooted in founders' IISc research.
+- **Design completeness 3/5:** MuDRA-1 test chip taped out on TSMC 28nm; bring-up still pending.
+- **Market readiness 2/5:** Test chip only; commercial MuDRA planned for late 2027.
+
 ## Sources
 
 - [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
@@ -48,7 +55,7 @@ REDEFINE many-core reconfigurable processors with dynamic scheduling, delivered 
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Morphing Machines**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Morphing%20Machines&firm-name=Morphing%20Machines&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -36,15 +36,23 @@ CPU (Ryzen, EPYC) and GPU (Radeon) design, adaptive computing platforms (Versal,
 | **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, strategic depth 5 |
 | **Progress** | <span class="complexity-bar" title="Progress: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Design completeness 5, India scale 5 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Leading-edge CPUs, GPUs and adaptive SoCs.
+- **Strategic depth 5/5:** Bengaluru Technostar is AMD's largest global design centre; India teams work on EPYC, Ryzen, Radeon, Versal.
+- **Design completeness 5/5:** RTL, verification, physical design and emulation done in India across product lines.
+- **India scale 5/5:** 6,500+ (2023 AMD release), ~7,000 by late 2023; 11,000+ reported later but unverified. Scale 5 borderline.
+
 ## Sources
 
 - [AMD global locations](https://www.amd.com/en/corporate/locations) (01 Jan 2026)
+- [AMD inaugurates its largest global design center in India (AMD press release)](https://www.amd.com/en/newsroom/press-releases/2023-11-27-amd-inaugurates-its-largest-global-design-center-in-india.html) (27 Nov 2023)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for AMD India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20AMD%20India&firm-name=AMD%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Pune fabless firm incubated at the Defence Institute of Advanced Technology (DIAT, DRDO campus). Develops wireless IP and SoCs for MIMO, satellite communication and Wi-Fi, and also offers ASIC/FPGA design services. No tape-out publicly reported.
+Phra Narai Semicon Systems Labs, incorporated in Aug 2024 with its registered office in Dibrugarh, Assam (founder and CEO Bhubon Chandra Mech, CTO Deepak Babu); engineering team at the DIAT (DRDO campus) Innovation & Incubation Centre in Pune. Develops wireless IP and SoCs for MIMO, satellite communication and Wi-Fi, and offers ASIC/FPGA design services. Small team; no tape-out publicly reported.
 :::
 
 ## What does this firm design?
@@ -19,9 +19,9 @@ Wireless baseband IP cores and custom SoCs/ASICs for MIMO, SATCOM and Wi-Fi syst
 |---|---|
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2024 |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | Pune |
+| **Locations** | Dibrugarh, Pune |
 | **Product Focus** | Wireless IP and SoCs for MIMO, satcom and Wi-Fi |
 | **Application Domains** | Telecom, Satellite, Defence |
 | **Design Scope** | IP + SoC |
@@ -36,16 +36,24 @@ Wireless baseband IP cores and custom SoCs/ASICs for MIMO, SATCOM and Wi-Fi syst
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 4, IP ownership 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1/5"><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1/5 | Design completeness 1, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Domain difficulty 4: MIMO and SATCOM baseband signal processing; digital, not RF front-end.
+- **IP ownership 3/5:** IP ownership 3: offers own IP and verification-IP cores; none named or characterised.
+- **Design completeness 1/5:** Design completeness 1: no named SoC, tape-out or FPGA prototype disclosed.
+- **Market readiness 1/5:** Market readiness 1: no customers or products disclosed; revenue likely design services.
+
 ## Sources
 
 - [PNS SysLabs — company site](https://pnssyslabs.com/)
 - [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+- [Phra Narai Semicon Systems Labs Pvt Ltd — company registration details (MCA-derived)](https://www.falconebiz.com/company/PHRA-NARAI-SEMICON-SYSTEMS-LABS-PRIVATE-LIMITED-U26103AS2024PTC026819)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for PNS SysLabs (Phra Narai Semicon Systems Labs)**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20PNS%20SysLabs%20%28Phra%20Narai%20Semicon%20Systems%20Labs%29&firm-name=PNS%20SysLabs%20%28Phra%20Narai%20Semicon%20Systems%20Labs%29&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Bengaluru (Whitefield) firm describing itself as a fabless semiconductor company building on its own IP to address system-level cost. Product details not public.
+Bengaluru (Whitefield) fabless firm incorporated in June 2023 (directors Nitin and Parul Gupta). Lists two power ICs with full specs: a 4.5-28 V, 3 A synchronous buck converter (SIGBPCMV3X) and a 2.5-60 V linear LED driver (SIGLLNHVFX), aimed at automotive, industrial and consumer uses. Also offers analog, mixed-signal and digital IP and design services. No tape-out or customer publicly reported.
 :::
 
 ## What does this firm design?
@@ -19,10 +19,10 @@ Not yet disclosed.
 |---|---|
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2023 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Bengaluru |
-| **Product Focus** | Fabless chips built on in-house IP (details not public) |
+| **Product Focus** | Power-management ICs (synchronous buck converter, linear LED driver) and analog/mixed-signal IP |
 | **Application Domains** | Not yet documented |
 | **Design Scope** | Full chip |
 | **Node Sophistication** | Not applicable / not disclosed |
@@ -31,18 +31,29 @@ Not yet disclosed.
 
 ### Design Scores
 
-*Not yet scored.*
+| | Score | Made up of |
+|---|---|---|
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, IP ownership 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 1.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1.5/5 | Design completeness 2, market readiness 1 |
+
+**Why these scores**
+
+- **Domain difficulty 3/5:** Domain difficulty 3: high-voltage analog power ICs; established product categories.
+- **IP ownership 3/5:** IP ownership 3: claims in-house analog IP; standard buck and LED-driver architectures.
+- **Design completeness 2/5:** Design completeness 2: datasheet-level specs for two parts; no tape-out or silicon reported.
+- **Market readiness 1/5:** Market readiness 1: no samples, distribution or customers for its chips disclosed.
 
 ## Sources
 
 - [Signitude — company site](http://www.signitude.com)
 - [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+- [Signitude Pvt Ltd — company registration details (MCA-derived)](https://www.falconebiz.com/company/SIGNITUDE-PRIVATE-LIMITED-U26103KA2023PTC175048)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Signitude**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Signitude&firm-name=Signitude&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

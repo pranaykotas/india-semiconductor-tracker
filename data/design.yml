@@ -31,12 +31,12 @@ design_firms:
   narrative:
     significance: IISc Bengaluru spin-off (CEO Hareesh Chandrasekar, co-founder Srinivasan Raghavan) built on over 15 years
       of GaN research at IISc. Not strictly fabless; it owns the whole GaN chain from epitaxial wafers to devices, which are
-      made at IISc's MeitY-funded GaN Ecosystem Enabling Centre and Incubator (GEECI), housed in CeNSE (see the facility page). Raised a $3.5 million seed round
-      (3one4 Capital, Zephyr Peacock) in October 2024 and a $2.6 million extension (Shastra VC) in March 2026. It runs
-      customer pilots, has begun pilot wafer exports, holds an iDEX contract for GaN wireless transmitters, and targets
-      1 lakh chips a year; it has also said it wants a GaN factory under Semicon 2.0.
-    what_it_designs: GaN-on-silicon/SiC epitaxial wafers, RF transistors and power devices for defence radar and
-      communications, telecom base stations and power electronics.
+      made at IISc's MeitY-funded GaN Ecosystem Enabling Centre and Incubator (GEECI), housed in CeNSE (see the facility page).
+      Raised a $3.5 million seed round (3one4 Capital, Zephyr Peacock) in October 2024 and a $2.6 million extension (Shastra
+      VC) in March 2026. It runs customer pilots, has begun pilot wafer exports, holds an iDEX contract for GaN wireless transmitters,
+      and targets 1 lakh chips a year; it has also said it wants a GaN factory under Semicon 2.0.
+    what_it_designs: GaN-on-silicon/SiC epitaxial wafers, RF transistors and power devices for defence radar and communications,
+      telecom base stations and power electronics.
   sources:
   - url: https://www.business-standard.com/india-news/agnit-semiconductor-aims-to-scale-gan-chip-production-to-1-lakh-units-126031701251_1.html
     title: AGNIT Semiconductor aims to scale GaN chip production to 1 lakh units — Business Standard
@@ -51,6 +51,11 @@ design_firms:
     title: AGNIT, IISc startup aims to put India on GaN map — ThePrint
     date: null
   website: https://agnitsemi.com
+  score_notes:
+    ip_ownership: Owns the full GaN chain, from epitaxial wafers to device design, built on 15 years of IISc research.
+    design_completeness: Devices made at IISc's GEECI line; customer pilots and pilot wafer exports show working parts.
+    domain_difficulty: GaN RF transistors and power devices for radar and base stations; compound-semiconductor RF work.
+    market_readiness: Customer pilots, pilot wafer exports and an iDEX contract; 1 lakh chips a year is still a target.
 - id: agrani-labs
   name: Agrani Labs
   category: Indian Fabless
@@ -97,6 +102,11 @@ design_firms:
     title: AI Semiconductor Startup Agrani Labs Secures USD 8 Mn Seed Funding (Entrepreneur India)
     date: '2026-01-29'
   website: https://agranilabs.com
+  score_notes:
+    ip_ownership: Building its own GPU architecture and software stack from scratch.
+    design_completeness: Founded December 2024; described as pre-silicon.
+    domain_difficulty: Custom AI GPU hardware with a full compiler and software stack.
+    market_readiness: Pre-silicon; only an $8M seed round so far.
 - id: signalchip
   name: Signalchip
   category: Indian Fabless
@@ -148,6 +158,11 @@ design_firms:
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
   website: https://www.signalchip.com
+  score_notes:
+    ip_ownership: Own SCBM34xx baseband and SCRF34xx RF transceiver family, billed as indigenous modem chips.
+    design_completeness: Unveiled the SCBM34xx/SCRF34xx chip family in February 2019.
+    domain_difficulty: 4G LTE/5G NR baseband plus RF transceiver chips for base stations.
+    market_readiness: Chips unveiled in 2019 but no public product news in 2025-26.
 - id: indiesemic
   name: IndieSemiC
   category: Indian Fabless
@@ -206,6 +221,11 @@ design_firms:
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
   website: https://www.indiesemic.com
+  score_notes:
+    ip_ownership: Modules built on others' chips, including C-DAC's VEGA processor; own RISC-V MCU only at prototype.
+    design_completeness: Own 32-bit RISC-V MCU is at prototype stage; the shipping products are modules.
+    domain_difficulty: RF connectivity modules and a low-cost RISC-V MCU; moderate mixed-signal and digital work.
+    market_readiness: About 60,000 certified modules shipped in a year, though not its own silicon.
 - id: mindgrove
   name: Mindgrove Technologies
   category: Indian Fabless
@@ -227,7 +247,7 @@ design_firms:
   node_sophistication: 28nm
   design_score:
     ip_ownership: 4
-    design_completeness: 3
+    design_completeness: 4
     domain_difficulty: 3
     market_readiness: 3
   dli:
@@ -258,6 +278,11 @@ design_firms:
     title: Mindgrove Secure IoT S2401
     date: null
   website: https://www.mindgrovetech.in
+  score_notes:
+    ip_ownership: Own SoCs built around the open Shakti RISC-V core.
+    design_completeness: Secure IoT S2401 taped out first-time-right at 28nm in May 2024.
+    domain_difficulty: RISC-V microcontrollers and a vision SoC for IoT and edge computing.
+    market_readiness: Customer sampling under way with Pinetics named; commercial production being readied in 2026.
 - id: vvdn
   name: VVDN Technologies
   category: Design Services
@@ -346,10 +371,15 @@ design_firms:
     date: '2020-06-25'
   design_score:
     ip_ownership: 5
-    design_completeness: 4
+    design_completeness: 5
     domain_difficulty: 4
-    market_readiness: 3
+    market_readiness: 4
   website: https://www.saankhyalabs.com
+  score_notes:
+    ip_ownership: Own Pruthvi SDR chip family, developed in-house since 2015.
+    design_completeness: Pruthvi chips launched in 2015; Pruthvi-3 on 28nm FD-SOI followed in 2018.
+    domain_difficulty: Software-defined radio SoCs for broadcast, satellite and 5G baseband.
+    market_readiness: Clients include ISRO and BEL with Rs 75 crore turnover; the DLI 5G SoC is still in development.
 - id: incore-semi
   name: InCore Semiconductors
   category: Indian Fabless
@@ -380,8 +410,8 @@ design_firms:
     project_outlay_inr_lakh: 1743.0
     grant_inr: null
   c2s:
-    partner: "CUSAT, Kochi (with PES University)"
-    project: "DSP and AI workload tuned embedded RISC-V processors"
+    partner: CUSAT, Kochi (with PES University)
+    project: DSP and AI workload tuned embedded RISC-V processors
   narrative:
     significance: IIT Madras spin-off (G.S. Madhusudan, Neel Gala) commercialising RISC-V processor cores derived from the
       SHAKTI programme. Its SoC Generator platform produced a six-core heterogeneous RISC-V test chip on TSMC 40nm, silicon-validated
@@ -406,10 +436,15 @@ design_firms:
     date: null
   design_score:
     ip_ownership: 5
-    design_completeness: 3
+    design_completeness: 4
     domain_difficulty: 3
     market_readiness: 3
   website: https://incoresemi.com
+  score_notes:
+    ip_ownership: Own configurable RISC-V core generators (Azurite, Calcite) and SoC Generator platform.
+    design_completeness: Six-core RISC-V test chip on TSMC 40nm, silicon-validated in June 2025.
+    domain_difficulty: RISC-V processor cores and SoC generators; digital design.
+    market_readiness: Offers licensable cores and reference SoCs; no named customers in the entry.
 - id: morphing-machines
   name: Morphing Machines
   category: Indian Fabless
@@ -440,8 +475,8 @@ design_firms:
     project_outlay_inr_lakh: 2048.83
     grant_inr: null
   c2s:
-    partner: "IISc Bangalore"
-    project: "Verification, validation and prototyping of REDEFINE many-core IP for AI/ML acceleration"
+    partner: IISc Bangalore
+    project: Verification, validation and prototyping of REDEFINE many-core IP for AI/ML acceleration
   narrative:
     significance: Bengaluru firm founded 2005 out of its founders' research at IISc (CEO Deepak Shapeti, CTO Dr Ranjani Narayan;
       Prof S.K. Nandy of IISc as mentor). Its MuDRA-1 test chip — 16 RISC-V cores on the REDEFINE architecture, TSMC 28nm
@@ -471,6 +506,11 @@ design_firms:
     domain_difficulty: 5
     market_readiness: 2
   website: https://morphing.in/
+  score_notes:
+    ip_ownership: Own REDEFINE reconfigurable architecture, rooted in founders' IISc research.
+    design_completeness: MuDRA-1 test chip taped out on TSMC 28nm; bring-up still pending.
+    domain_difficulty: Many-core reconfigurable REDEFINE processors for AI and signal processing.
+    market_readiness: Test chip only; commercial MuDRA planned for late 2027.
 - id: wisig
   name: WiSig Networks
   category: Indian Fabless
@@ -519,6 +559,11 @@ design_firms:
     domain_difficulty: 4
     market_readiness: 3
   website: https://www.wisig.com/
+  score_notes:
+    ip_ownership: Koala SoC built on a licensed CEVA Dragonfly platform, with Cyient handling IC design and production.
+    design_completeness: Koala NB-IoT SoC announced in June 2021, with Cyient handling production.
+    domain_difficulty: NB-IoT and satellite-IoT modem SoCs plus 5G RAN platforms.
+    market_readiness: Koala announced as a product; its 5G radios are FPGA-based; the DLI SoC is still in development.
 - id: terminus-circuits
   name: Terminus Circuits
   category: EDA & IP Provider
@@ -605,10 +650,15 @@ design_firms:
     date: null
   design_score:
     ip_ownership: 3
-    design_completeness: 3
+    design_completeness: 4
     domain_difficulty: 4
     market_readiness: 2
   website: https://calligotech.com/
+  score_notes:
+    ip_ownership: Own Posit arithmetic built on top of C-DAC's VEGA RISC-V core.
+    design_completeness: TUNGA 8-core Posit RISC-V chip taped out.
+    domain_difficulty: Posit-arithmetic CPUs and accelerators for HPC and AI workloads.
+    market_readiness: TUNGA accelerator card shown at ISC 2025; no customers or shipments reported.
 - id: fermionic-design
   name: FermionIC Design
   category: Indian Fabless
@@ -657,6 +707,11 @@ design_firms:
     domain_difficulty: 5
     market_readiness: 3
   website: https://fermionicdesign.com/
+  score_notes:
+    ip_ownership: Own FD3R4411 4-channel X-band beamformer design.
+    design_completeness: FD3R4411 beamformer heading to staggered volume production with Tata Electronics assembly.
+    domain_difficulty: X-band 8-12 GHz RF beamformer ICs for phased-array radar and satcom.
+    market_readiness: Volume production announced from Q4 2025, but only in a company press release.
 - id: netrasemi
   name: Netrasemi
   category: Indian Fabless
@@ -687,8 +742,8 @@ design_firms:
     project_outlay_inr_lakh: 10555.0
     grant_inr: null
   c2s:
-    partner: "College of Engineering Trivandrum"
-    project: "A Shakti CPU based smart vision SoC"
+    partner: College of Engineering Trivandrum
+    project: A Shakti CPU based smart vision SoC
   narrative:
     significance: Thiruvananthapuram edge-AI chip firm founded 2020 (Jyothis Indirabhai, Deepa Geetha, Sreejith Varma) and
       the only firm with two PDLI projects. Its NETRA A2000 (12 TOPS, TSMC 12nm) achieved silicon bring-up and launched in
@@ -716,10 +771,15 @@ design_firms:
     date: null
   design_score:
     ip_ownership: 4
-    design_completeness: 3
+    design_completeness: 4
     domain_difficulty: 4
     market_readiness: 3
   website: https://netrasemi.com/
+  score_notes:
+    ip_ownership: Own NETRA family of edge-AI SoCs and chiplets.
+    design_completeness: NETRA A2000 on TSMC 12nm reached silicon bring-up.
+    domain_difficulty: Edge-AI vision SoCs with vector processing on 12nm.
+    market_readiness: A2000 launched for customer trials in May 2026; commercial production targeted for late 2026-27.
 - id: sandlogic
   name: Sandlogic Technologies
   category: Indian Fabless
@@ -745,8 +805,8 @@ design_firms:
     product: null
     grant_inr: null
   c2s:
-    partner: "C-DAC Noida"
-    project: "Reconfigurable and scalable deep learning accelerator (RDFS_DLA) IP and chip"
+    partner: C-DAC Noida
+    project: Reconfigurable and scalable deep learning accelerator (RDFS_DLA) IP and chip
   narrative:
     significance: Bengaluru AI company founded 2018 (about 80 staff, mostly software). Its ExSLerate NPU IP is FPGA-validated;
       the Krsna AI SoC is in design with first silicon expected in 2026. No tape-out yet.
@@ -773,6 +833,11 @@ design_firms:
     domain_difficulty: 4
     market_readiness: 1
   website: https://www.sandlogic.com/
+  score_notes:
+    ip_ownership: Own ExSLerate NPU IP and the Krsna SoC design.
+    design_completeness: NPU IP only FPGA-validated; Krsna SoC still in design, no tape-out.
+    domain_difficulty: Edge-AI NPU and inference SoC design.
+    market_readiness: Pre-silicon; first silicon expected in 2026.
 - id: moschip
   name: MoSChip Technologies
   category: Indian Fabless
@@ -819,10 +884,15 @@ design_firms:
     date: '2026-09-19'
   design_score:
     ip_ownership: 3
-    design_completeness: 3
+    design_completeness: 4
     domain_difficulty: 3
     market_readiness: 2
   website: https://moschip.com/
+  score_notes:
+    ip_ownership: Mainly a design-services firm; VIDYUT100 is its own chip.
+    design_completeness: VIDYUT100 taped out in April-June 2026; initial bring-up done in September 2026.
+    domain_difficulty: Smart energy meter IC; mainstream mixed-signal metering.
+    market_readiness: Commercial availability awaits qualification.
 - id: vervesemi
   name: Vervesemi
   category: Indian Fabless
@@ -868,9 +938,14 @@ design_firms:
   website: http://www.vervesemi.com/
   design_score:
     ip_ownership: 4
-    design_completeness: 2
+    design_completeness: 4
     domain_difficulty: 3
-    market_readiness: 2
+    market_readiness: 3
+  score_notes:
+    ip_ownership: Own portfolio of 110+ analog IP blocks.
+    design_completeness: ICs at sampling stage in 2025-26 implies working silicon; no tape-out dates published.
+    domain_difficulty: Analog and mixed-signal motor-control MCUs, analog front-ends and data converters.
+    market_readiness: Motor-control and metering ICs described as at sampling stage in 2025-26.
 - id: mbit-wireless
   name: MBit Wireless
   category: Indian Fabless
@@ -919,6 +994,11 @@ design_firms:
     design_completeness: 2
     domain_difficulty: 4
     market_readiness: 2
+  score_notes:
+    ip_ownership: Own Skylark and Sunlark modem chipset lines.
+    design_completeness: Product lines are listed, but the entry gives no tape-out or silicon dates.
+    domain_difficulty: LTE and NB-IoT cellular baseband and modem chipsets.
+    market_readiness: No shipments or customers reported; the DLI dual-mode baseband is in development.
 - id: green-pmu-semi
   name: Green PMU Semi
   category: Indian Fabless
@@ -964,8 +1044,13 @@ design_firms:
   design_score:
     ip_ownership: 4
     design_completeness: 1
-    domain_difficulty: 2
+    domain_difficulty: 4
     market_readiness: 1
+  score_notes:
+    ip_ownership: Own multi-input energy-harvesting PMIC design.
+    design_completeness: No tape-out publicly reported.
+    domain_difficulty: Energy-harvesting power-management ICs for battery-free IoT.
+    market_readiness: Pre-silicon.
 - id: sense-semi
   name: Sensesemi Technologies
   category: Indian Fabless
@@ -1019,6 +1104,11 @@ design_firms:
     design_completeness: 1
     domain_difficulty: 3
     market_readiness: 1
+  score_notes:
+    ip_ownership: SenseSoC designs; the entry gives little detail on how much IP is its own.
+    design_completeness: Raised Rs 25 crore to fund two test-chip tape-outs during 2026; none reported yet.
+    domain_difficulty: Ultra-low-power edge-AI SoCs combining inference, wireless and analog front-ends.
+    market_readiness: Pre-silicon; production chip targeted for 2027.
 - id: qualivor
   name: Qualivon Technologies
   category: Indian Fabless
@@ -1061,8 +1151,13 @@ design_firms:
   design_score:
     ip_ownership: 4
     design_completeness: 1
-    domain_difficulty: 3
+    domain_difficulty: 5
     market_readiness: 1
+  score_notes:
+    ip_ownership: Designing its own silicon-photonics gas-sensor chips.
+    design_completeness: No tape-out or silicon reported.
+    domain_difficulty: Silicon-photonics integrated circuits for gas sensing.
+    market_readiness: No samples or customers reported.
 - id: aagya-vision
   name: Aagya Vision
   category: Indian Fabless
@@ -1117,6 +1212,11 @@ design_firms:
     design_completeness: 3
     domain_difficulty: 4
     market_readiness: 2
+  score_notes:
+    ip_ownership: Commercialising radar ICs developed in Prof Gaurab Banerjee's IISc lab.
+    design_completeness: Two CMOS radar chips fabricated in the IISc lab.
+    domain_difficulty: FMCW radar-on-chip RF ICs for drone detection and edge sensing.
+    market_readiness: Prototype 'Ananta' system only; no customers reported.
 - id: vasbeam
   name: Vasbeam
   category: Indian Fabless
@@ -1169,6 +1269,11 @@ design_firms:
     design_completeness: 4
     domain_difficulty: 4
     market_readiness: 3
+  score_notes:
+    ip_ownership: Own VAS7308 beamforming ASIC design.
+    design_completeness: VAS7308 described by the company as foundry-proven.
+    domain_difficulty: Beamforming ASICs for electronically steered AESA and satcom antennas.
+    market_readiness: Company says VAS7308 is in production (TRL 7), unverified and with the website down.
 - id: chipspirit
   name: ChipSpirit
   category: Design Services
@@ -1193,8 +1298,8 @@ design_firms:
     product: null
     grant_inr: null
   c2s:
-    partner: "IIT Bombay"
-    project: "Global navigation receiver SoC for NavIC and GPS"
+    partner: IIT Bombay
+    project: Global navigation receiver SoC for NavIC and GPS
   narrative:
     significance: Bengaluru firm founded 2018 by Mohan Jindal (ex-Intel); iDEX DISC1 winner with about ₹8.2 crore in government
       grants. Its ABHED-1 encryptor and Data Diode are FPGA/custom-circuit appliances supplied to Indian defence; no ASIC
@@ -1241,8 +1346,8 @@ design_firms:
     product: null
     grant_inr: null
   c2s:
-    partner: "KLE Technological University, Hubballi"
-    project: "MATOMAC: LPWAN ASIC/SoC"
+    partner: KLE Technological University, Hubballi
+    project: 'MATOMAC: LPWAN ASIC/SoC'
   narrative:
     significance: Hubballi startup incubated at KLE Technological University's CTIE (founding year given as both 2018 and
       2019 on its own site). Has taped out two test chips in its MATOMAC line of M2M/automation ICs; about 30 staff (Dec 2023).
@@ -1269,9 +1374,14 @@ design_firms:
   website: https://semiksha.com/
   design_score:
     ip_ownership: 3
-    design_completeness: 2
+    design_completeness: 3
     domain_difficulty: 3
     market_readiness: 2
+  score_notes:
+    ip_ownership: Own MATOMAC chipset line.
+    design_completeness: Taped out two MATOMAC test chips.
+    domain_difficulty: M2M automation and IoT SoC/ASIC chipsets.
+    market_readiness: Sells embedded IoT products; no customers reported for its own chips.
 - id: silizium-circuits
   name: Silizium Circuits
   category: Indian Fabless
@@ -1297,8 +1407,8 @@ design_firms:
     product: null
     grant_inr: null
   c2s:
-    partner: "IIT Kanpur"
-    project: "RF Transceiver SoC with DSP for 27MHz to 1.05 GHz"
+    partner: IIT Kanpur
+    project: RF Transceiver SoC with DSP for 27MHz to 1.05 GHz
   narrative:
     significance: Founded 2020 (registered in Kanhangad, Kasaragod; R&D team in Kochi) by Rijin John and Dr Arun Ashok. Taped
       out its SC2391 GNSS/5G front-end module in August 2022; ₹7.59 crore government grant (credited to C-DOT on its site,
@@ -1328,7 +1438,12 @@ design_firms:
     ip_ownership: 4
     design_completeness: 3
     domain_difficulty: 4
-    market_readiness: 3
+    market_readiness: 2
+  score_notes:
+    ip_ownership: Own analog/RF/mixed-signal hard IP portfolio.
+    design_completeness: SC2391 GNSS/5G front-end module taped out in August 2022.
+    domain_difficulty: Analog/RF hard IP and GaAs front-end modules for GNSS, 5G and Ka-band.
+    market_readiness: Holds a Rs 7.59 crore government grant; no customers or samples named in the entry.
 - id: abcr-labs
   name: ABCR Labs
   category: Indian Fabless
@@ -1353,8 +1468,8 @@ design_firms:
     project_outlay_inr_lakh: 4095.49
     grant_inr: null
   c2s:
-    partner: "IIT Dharwad"
-    project: "Tire pressure and temperature monitoring system based on the Shakti microprocessor"
+    partner: IIT Dharwad
+    project: Tire pressure and temperature monitoring system based on the Shakti microprocessor
   narrative:
     significance: Aryabhata Circuits and Research Labs (ABCRL), Bengaluru, founded 2019; Tushar K. Bhattacharyya is co-founder
       and CEO. Also backed by MeitY's Chips-to-Startup (C2S) programme. TireSynapse was in advanced design in 2022; no tape-out
@@ -1383,6 +1498,11 @@ design_firms:
     design_completeness: 1
     domain_difficulty: 3
     market_readiness: 1
+  score_notes:
+    ip_ownership: Own TireSynapse sensing SoC design.
+    design_completeness: TireSynapse was in advanced design in 2022; no tape-out reported.
+    domain_difficulty: Tire-monitoring sensing SoC with integrated Bluetooth.
+    market_readiness: Pre-silicon.
 - id: ampicq
   name: AmpicQ
   category: Indian Fabless
@@ -1435,8 +1555,13 @@ design_firms:
   design_score:
     ip_ownership: 4
     design_completeness: 3
-    domain_difficulty: 4
-    market_readiness: 3
+    domain_difficulty: 5
+    market_readiness: 2
+  score_notes:
+    ip_ownership: Own QKD transmitter/receiver photonic chip designs.
+    design_completeness: QKD receiver chip taped out by December 2023.
+    domain_difficulty: Photonic integrated circuits for quantum key distribution and random-number generation.
+    market_readiness: No customers or samples named; headquarters moved to Rochester, New York in 2025.
 - id: big-endian-semi
   name: Big Endian Semi
   category: Indian Fabless
@@ -1492,6 +1617,11 @@ design_firms:
     title: Fabless chip companies eye surveillance market play via edge-AI silicon (Telecomlive)
     date: '2025-12-29'
   website: https://bigendiansemi.com/
+  score_notes:
+    ip_ownership: Own SoC designs; the entry does not detail how much IP is licensed.
+    design_completeness: MPW tape-out in October 2025; commercial-chip tape-out on UMC 28nm announced May 2026.
+    domain_difficulty: Secure surveillance-camera SoCs with edge AI on 28nm.
+    market_readiness: No samples or customers yet; $6M seed raised in May 2026.
 - id: silicon-support-solutions
   name: Silicon Support Solutions
   category: Design Services
@@ -1706,9 +1836,14 @@ design_firms:
   website: https://quanfluence.com/
   design_score:
     ip_ownership: 5
-    design_completeness: 3
+    design_completeness: 2
     domain_difficulty: 5
-    market_readiness: 3
+    market_readiness: 1
+  score_notes:
+    ip_ownership: Own time-multiplexed optical Ising-machine architecture and photonic ICs.
+    design_completeness: Has an Ising machine handling up to 100,000 variables; no chip tape-out is recorded.
+    domain_difficulty: Photonic quantum and coherent Ising-machine hardware.
+    market_readiness: Raised $10M; early processors are on the roadmap for 2027.
 - id: sophrosyne-tech
   name: Sophrosyne Technologies
   category: Indian Fabless
@@ -1762,9 +1897,14 @@ design_firms:
   website: https://sophrosynetechnologies.com/
   design_score:
     ip_ownership: 3
-    design_completeness: 3
+    design_completeness: 4
     domain_difficulty: 3
     market_readiness: 2
+  score_notes:
+    ip_ownership: Own SPARSH SoC design; IP mix not detailed.
+    design_completeness: SPARSH v1 ECG chip taped out on TSMC 65nm in April 2026 and validated.
+    domain_difficulty: Ultra-low-power biosensing analog front-end SoC for medical wearables.
+    market_readiness: Validated v1 silicon, no customers yet; v2 multi-vital chip still to come.
 - id: qualcomm-india
   name: Qualcomm India
   category: GCC Design Centre
@@ -1772,7 +1912,7 @@ design_firms:
   parent_company: Qualcomm Inc.
   parent_hq: United States
   founded: 1996
-  india_headcount: 7000
+  india_headcount: 16000
   locations:
   - city: Hyderabad
     state: Telangana
@@ -1804,18 +1944,37 @@ design_firms:
     grant_inr: null
   narrative:
     significance: One of the earliest and largest semiconductor design operations in India. Hyderabad is Qualcomm's largest
-      engineering centre outside San Diego.
+      engineering centre outside San Diego. Qualcomm announced a 2nm tape-out by its Bengaluru, Chennai and Hyderabad teams
+      on 2026-02-07, then began India layoffs reportedly affecting about 1,000 roles from November 2026.
     what_it_designs: Snapdragon mobile SoCs, 5G modem chipsets, AI/ML inference engines, and automotive connectivity chips.
       India teams contribute across the full design cycle — architecture, RTL, verification, physical design, and software.
   sources:
   - url: https://www.qualcomm.com/company/locations/india
     title: Qualcomm India operations
     date: '2026-01-01'
+  - url: https://www.dtnext.in/amp/story/news/business/qualcomm-india-on-a-hiring-spree-for-its-chennai-facility
+    title: Qualcomm India on a hiring spree for its Chennai facility (DT Next)
+    date: '2022-05-21'
+  - url: https://www.businesstoday.in/amp/technology/news/story/qualcomms-tapes-out-2nm-chip-design-with-their-indian-design-labs-515107-2026-02-07
+    title: Qualcomm tapes out 2nm chip design with its Indian design labs (Business Today)
+    date: '2026-02-07'
+  - url: https://www.dqchannels.com/news/qualcomm-2nm-chip-design-milestone-in-india-signals-deeper-engineering-role-11088870
+    title: Qualcomm 2nm chip design milestone in India signals deeper engineering role (DQ Channels)
+    date: '2026-02-09'
+  - url: https://www.goodreturns.in/news/qualcomm-layoffs-hit-india-bengaluru-hyderabad-hit-as-1000-jobs-face-uncertainty-senior-engineer-1546395.html
+    title: 'Qualcomm layoffs hit India: Bengaluru, Hyderabad hit as 1,000 jobs face uncertainty (GoodReturns)'
+    date: '2026-11-11'
   design_score:
     strategic_depth: 5
     design_completeness: 5
     domain_difficulty: 5
     india_scale: 5
+  score_notes:
+    strategic_depth: India centres form Qualcomm's largest engineering footprint outside the US; contribute across full Snapdragon
+      design cycle.
+    design_completeness: Indian teams taped out a 2nm design in Feb 2026, the final pre-manufacturing design stage.
+    domain_difficulty: Leading-edge mobile SoCs, 5G modems and RF at 2nm/3nm.
+    india_scale: About 16,000 employees incl. contract staff (2022); ~20,000 estimated in Nov 2026 reporting.
 - id: ti-india
   name: Texas Instruments India
   category: GCC Design Centre
@@ -1842,18 +2001,27 @@ design_firms:
     grant_inr: null
   narrative:
     significance: TI Bengaluru is one of the longest-running semiconductor design centres in India, operational since 1985.
-      It is a full chip design centre, not just a support office.
+      It is a full chip design centre, not just a support office. TI opened a 550,000 sq ft product R&D centre in Bengaluru,
+      inaugurated by Ashwini Vaishnaw, marking 40 years in India (2026-02-07).
     what_it_designs: Analog and mixed-signal ICs, power management chips, embedded microcontrollers (MSP430, C2000 series),
       and industrial interface chips. Bengaluru handles complete chip ownership from concept to production.
   sources:
   - url: https://www.ti.com/about-ti/company/ti-india.html
     title: Texas Instruments India
     date: '2026-01-01'
+  - url: https://cxotoday.com/media-coverage/texas-instruments-unveils-new-state-of-the-art-rd-center-marking-40-years-in-india/
+    title: Texas Instruments unveils new, state-of-the-art R&D center, marking 40 years in India (CXOToday)
+    date: '2026-02-07'
   design_score:
     strategic_depth: 5
     design_completeness: 5
     domain_difficulty: 4
     india_scale: 4
+  score_notes:
+    strategic_depth: First MNC R&D centre in India (1985); Bengaluru product teams own analog and embedded product development.
+    design_completeness: New centre houses product design teams, IC design labs and an end-to-end reliability lab.
+    domain_difficulty: 'Analog, mixed-signal and power ICs: hard but on mature nodes.'
+    india_scale: Company says 'thousands' of India employees; 5,000 figure not independently confirmed.
 - id: intel-india
   name: Intel India
   category: GCC Design Centre
@@ -1861,7 +2029,7 @@ design_firms:
   parent_company: Intel Corporation
   parent_hq: United States
   founded: 1988
-  india_headcount: 14000
+  india_headcount: 13000
   locations:
   - city: Bengaluru
     state: Karnataka
@@ -1885,18 +2053,30 @@ design_firms:
     grant_inr: null
   narrative:
     significance: Intel's largest design centre outside the United States. Bengaluru teams have contributed to multiple generations
-      of Core processors and Xeon server chips.
+      of Core processors and Xeon server chips. Intel cut its global core workforce toward 75,000 by end-2025 and continued
+      cuts in 2026; it has not disclosed India-specific impact.
     what_it_designs: Core and Xeon CPU microarchitecture, GPU design (Arc), AI accelerator IPs, platform validation, and firmware.
       India teams are involved in front-end design, verification, physical design, and post-silicon validation.
   sources:
   - url: https://www.intel.in/content/www/in/en/company-overview/company-overview.html
     title: Intel India overview
     date: '2026-01-01'
+  - url: https://www.businesstoday.in/technology/news/story/tech-layoffs-intel-to-cut-down-30000-jobs-by-end-of-2025-axes-expansion-plans-486262-2025-07-25
+    title: Intel to cut down 30,000 jobs by end of 2025 (Business Today)
+    date: '2025-07-25'
+  - url: https://www.businesstoday.in/technology/news/story/intel-layoffs-continue-more-employees-face-the-axe-as-lip-bu-tan-pushes-efficiency-568375-2026-11-19
+    title: Intel layoffs continue as Lip-Bu Tan pushes efficiency (Business Today)
+    date: '2026-11-19'
   design_score:
     strategic_depth: 5
     design_completeness: 5
     domain_difficulty: 5
     india_scale: 5
+  score_notes:
+    strategic_depth: Largest Intel design site outside the US; long-standing Core/Xeon microarchitecture and SoC contributions.
+    design_completeness: Front-end, verification, physical design and post-silicon validation all done in India.
+    domain_difficulty: Leading-edge CPUs, GPUs and AI accelerators.
+    india_scale: Intel careers site cited 13,000+ India employees (2024), down from 14,000+ (2022).
 - id: amd-india
   name: AMD India
   category: GCC Design Centre
@@ -1935,11 +2115,20 @@ design_firms:
   - url: https://www.amd.com/en/corporate/locations
     title: AMD global locations
     date: '2026-01-01'
+  - url: https://www.amd.com/en/newsroom/press-releases/2023-11-27-amd-inaugurates-its-largest-global-design-center-in-india.html
+    title: AMD inaugurates its largest global design center in India (AMD press release)
+    date: '2023-11-27'
   design_score:
     strategic_depth: 5
     design_completeness: 5
     domain_difficulty: 5
     india_scale: 5
+  score_notes:
+    strategic_depth: Bengaluru Technostar is AMD's largest global design centre; India teams work on EPYC, Ryzen, Radeon,
+      Versal.
+    design_completeness: RTL, verification, physical design and emulation done in India across product lines.
+    domain_difficulty: Leading-edge CPUs, GPUs and adaptive SoCs.
+    india_scale: 6,500+ (2023 AMD release), ~7,000 by late 2023; 11,000+ reported later but unverified. Scale 5 borderline.
 - id: samsung-india-semi
   name: Samsung Semiconductor India R&D
   category: GCC Design Centre
@@ -1947,7 +2136,7 @@ design_firms:
   parent_company: Samsung Electronics
   parent_hq: South Korea
   founded: 2007
-  india_headcount: 4500
+  india_headcount: 5000
   locations:
   - city: Bengaluru
     state: Karnataka
@@ -1966,7 +2155,8 @@ design_firms:
     grant_inr: null
   narrative:
     significance: Samsung's semiconductor R&D in Bengaluru works on Exynos mobile SoCs and modem design. Part of Samsung's
-      broader India R&D footprint which is its largest outside South Korea.
+      broader India R&D footprint which is its largest outside South Korea. In October 2025 SSIR launched a hiring push for
+      AI chip design across System LSI, Memory and Foundry, aiming to become a core Samsung AI-chip design centre.
     what_it_designs: Exynos mobile application processors, 5G modem IPs, display driver ICs, and custom neural processing
       units for on-device AI.
   sources:
@@ -1976,11 +2166,22 @@ design_firms:
   - url: https://www.bwpeople.in/article/samsung-semiconductor-india-to-hire-over-700-employees-at-new-rd-facility-511630
     title: Samsung Semiconductor India (SSIR) headcount — over 4,500 employees (BW People)
     date: '2024-02-29'
+  - url: https://en.fnnews.com/news/202508290955002986
+    title: Samsung semiconductor research workforce in India 1000 to 5000 (Financial News, Korea)
+    date: '2025-09-01'
+  - url: https://www.tribuneindia.com/news/business/samsung-seeking-talent-in-india-to-boost-ai-chip-design-capabilities
+    title: Samsung seeking talent in India to boost AI chip design capabilities (Tribune)
+    date: null
   design_score:
     strategic_depth: 4
     design_completeness: 5
     domain_difficulty: 5
-    india_scale: 3
+    india_scale: 4
+  score_notes:
+    strategic_depth: Works on Exynos SoCs, modems and NPUs; core R&D status but product ownership remains in Korea.
+    design_completeness: Teams contribute across SoC, modem and NPU design; full-chip scope per existing entry.
+    domain_difficulty: Leading-edge mobile SoCs, modems and AI NPUs.
+    india_scale: Semiconductor research workforce grew from ~1,000 (2019) to ~5,000 (2025).
 - id: broadcom-india
   name: Broadcom India
   category: GCC Design Centre
@@ -2011,10 +2212,10 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Major networking and infrastructure chip design centre. India teams design switch ASICs, Memory, and storage
-      controllers that power global data centre infrastructure.
-    what_it_designs: Ethernet switch ASICs (Memory), broadband SoCs, Wi-Fi chipsets, enterprise storage/RAID controllers,
-      and custom silicon for hyperscale data centres.
+    significance: Major networking and infrastructure chip design centre. India teams design switch ASICs and storage controllers
+      that power global data centre infrastructure.
+    what_it_designs: Ethernet switch ASICs, broadband SoCs, Wi-Fi chipsets, enterprise storage/RAID controllers, and custom
+      silicon for hyperscale data centres.
   sources:
   - url: https://www.broadcom.com/company/about-us
     title: Broadcom company overview
@@ -2024,6 +2225,12 @@ design_firms:
     design_completeness: 5
     domain_difficulty: 4
     india_scale: 4
+  score_notes:
+    strategic_depth: Bangalore Development Center hosts ASIC Product Division and Central Engineering IP roles; product ownership
+      mostly US.
+    design_completeness: Job postings show RTL, verification, emulation, memory circuit and DFT work for networking and ASICs.
+    domain_difficulty: Networking switch ASICs, SerDes/HBM IP and custom AI silicon.
+    india_scale: No company figure found; third-party aggregators show a few thousand across Bengaluru, Hyderabad, Pune.
 - id: nxp-india
   name: NXP Semiconductors India
   category: GCC Design Centre
@@ -2031,7 +2238,7 @@ design_firms:
   parent_company: NXP Semiconductors N.V.
   parent_hq: Netherlands
   founded: 2006
-  india_headcount: 3500
+  india_headcount: 3000
   locations:
   - city: Bengaluru
     state: Karnataka
@@ -2045,6 +2252,10 @@ design_firms:
     state: Uttar Pradesh
     lat: 28.535
     lon: 77.391
+  - city: Pune
+    state: Maharashtra
+    lat: 18.52
+    lon: 73.856
   product_focus: Automotive processors, secure connectivity, NFC
   application_domains:
   - Automotive
@@ -2066,11 +2277,23 @@ design_firms:
   - url: https://www.nxp.com/company/about-nxp/worldwide-locations:WORLDWIDE-LOCATIONS
     title: NXP worldwide locations
     date: '2026-01-01'
+  - url: https://inc42.com/buzz/semiconductor-major-nxp-to-invest-1-bn-in-india-to-expand-rd
+    title: Semiconductor major NXP to invest $1 Bn in India to expand R&D (Inc42)
+    date: '2024-09-12'
+  - url: https://www.outlookbusiness.com/news/nxp-semiconductors-will-double-its-workforce-in-india-to-over-6000-in-five-years-says-chief-executive-kurt-sievers
+    title: NXP will double its workforce in India to over 6,000 in five years (Outlook Business)
+    date: '2024-09-12'
   design_score:
     strategic_depth: 4
     design_completeness: 5
     domain_difficulty: 4
     india_scale: 3
+  score_notes:
+    strategic_depth: CEO says most innovative NXP products were 'co-designed in India'; Noida is CoE for edge and automotive
+      processing.
+    design_completeness: Hardware/software design, validation and enablement done across four Indian design centres.
+    domain_difficulty: Automotive processors, radar and secure ICs; 5nm automotive chips in portfolio.
+    india_scale: About 3,000 employees (CEO, Sept 2024); plan to double to 6,000+ within five years.
 - id: infineon-india
   name: Infineon Technologies India
   category: GCC Design Centre
@@ -2078,12 +2301,16 @@ design_firms:
   parent_company: Infineon Technologies AG
   parent_hq: Germany
   founded: 2000
-  india_headcount: 2000
+  india_headcount: 2500
   locations:
   - city: Bengaluru
     state: Karnataka
     lat: 12.972
     lon: 77.594
+  - city: Ahmedabad
+    state: Gujarat
+    lat: 23.16
+    lon: 72.684
   product_focus: Power semiconductors, automotive MCUs, security ICs
   application_domains:
   - Automotive
@@ -2098,30 +2325,45 @@ design_firms:
     grant_inr: null
   narrative:
     significance: Infineon's Bengaluru centre is a core design hub for power management and automotive microcontroller development.
+      Infineon opened a GCC at GIFT City, Ahmedabad (2025-03-24), announced the 630,000 sq ft SILANE campus in Bengaluru for
+      up to 4,500 staff (2025-10-15), and acquired Bengaluru's C2i Semiconductors in 2026.
     what_it_designs: Power MOSFETs, IGBT modules, AURIX automotive microcontrollers, OPTIGA security chips, and PSoC connectivity
       solutions.
   sources:
   - url: https://www.infineon.com/cms/en/about-infineon/company/locations/
     title: Infineon global locations
     date: '2026-01-01'
+  - url: https://www.prnewswire.com/in/news-releases/infineon-strengthens-its-position-as-innovation-driver-in-the-semiconductor-industry-in-india-with-new-rd-hub-302409370.html
+    title: Infineon strengthens its position as innovation driver in India with new R&D hub (Infineon via PR Newswire)
+    date: '2025-03-24'
+  - url: https://www.prnewswire.com/in/news-releases/infineon-reinforces-its-position-as-key-innovation-hub-in-india-with-a-new-state-of-the-art-facility-in-bengaluru-302584551.html
+    title: Infineon reinforces its position as key innovation hub in India with new facility in Bengaluru (Infineon via PR
+      Newswire)
+    date: '2025-10-15'
   design_score:
     strategic_depth: 4
     design_completeness: 5
     domain_difficulty: 4
-    india_scale: 2
+    india_scale: 3
+  score_notes:
+    strategic_depth: India holds ~2,500 of Infineon's ~11,000 R&D engineers; second-largest R&D hub outside Germany (reported).
+    design_completeness: Company describes India expertise as semiconductor design and software; C2i adds India-owned power
+      products.
+    domain_difficulty: Power semiconductors, automotive MCUs and security ICs on mature nodes.
+    india_scale: More than 2,500 employees across five Indian locations (Infineon, 2025).
 - id: stmicro-india
   name: STMicroelectronics India
   category: GCC Design Centre
   dli_support: null
   parent_company: STMicroelectronics N.V.
   parent_hq: Switzerland
-  founded: 2003
+  founded: 1989
   india_headcount: 2500
   locations:
-  - city: Noida
+  - city: Greater Noida
     state: Uttar Pradesh
-    lat: 28.535
-    lon: 77.391
+    lat: 28.474
+    lon: 77.504
   - city: Bengaluru
     state: Karnataka
     lat: 12.972
@@ -2146,11 +2388,22 @@ design_firms:
   - url: https://www.st.com/content/st_com/en/about/st_company_information/st-in-india.html
     title: ST in India
     date: '2026-01-01'
+  - url: https://www.design-reuse.com/news/12630/stmicroelectronics-inaugurates-design-campus-india.html
+    title: STMicroelectronics inaugurates its new design campus in India (Design & Reuse)
+    date: '2006-02-20'
+  - url: https://evertiq.com/news/6100
+    title: 'ST Greater Noida: largest design centre outside Europe (Evertiq)'
+    date: '2006-12-11'
   design_score:
     strategic_depth: 4
     design_completeness: 5
     domain_difficulty: 4
     india_scale: 3
+  score_notes:
+    strategic_depth: Greater Noida is ST's largest design centre outside Europe; has produced designed-in-India chips.
+    design_completeness: Current postings cover RTL design leadership, analog design, AI accelerator digital design and validation.
+    domain_difficulty: MCUs, analog, MEMS and power; some AI accelerator work.
+    india_scale: No 2024–26 India figure found; 1,500 in 2006 on a 5,000-capacity campus; 2,500 unverified.
 - id: mediatek-india
   name: MediaTek India
   category: GCC Design Centre
@@ -2181,18 +2434,30 @@ design_firms:
     grant_inr: null
   narrative:
     significance: MediaTek's India centre contributes to Dimensity mobile SoC and connectivity chip design. India is a growing
-      design hub for the Taiwanese chipmaker.
+      design hub for the Taiwanese chipmaker. MediaTek opened a second 1.04 lakh sq ft R&D centre at BPTP Capital City, Sector
+      94, Noida, on a 10-year lease worth about Rs 144 crore (reported 2026-05-11).
     what_it_designs: Dimensity mobile SoCs, Wi-Fi 7 chipsets, smart TV and streaming media SoCs, and AI processing units for
       mobile.
   sources:
   - url: https://www.mediatek.com/about/locations
     title: MediaTek locations
     date: '2026-01-01'
+  - url: https://www.ibef.org/news/taiwan-s-mediatek-expands-india-footprint-with-new-noida-r-d-centre
+    title: Taiwan's MediaTek expands India footprint with new Noida R&D centre (IBEF)
+    date: '2026-05-11'
+  - url: https://www.mediatek.com/press-room/mediatek-launches-rd-center-in-bengaluru
+    title: MediaTek launches R&D center in Bengaluru (MediaTek press release)
+    date: '2014-08-20'
   design_score:
     strategic_depth: 3
     design_completeness: 4
     domain_difficulty: 4
     india_scale: 2
+  score_notes:
+    strategic_depth: Contributes to Dimensity and connectivity design; product ownership remains in Taiwan.
+    design_completeness: Bengaluru (2014) focuses on wireless communications; Noida on chip design; block-to-subsystem contributions.
+    domain_difficulty: Mobile SoCs and Wi-Fi/cellular connectivity.
+    india_scale: Over 1,000 engineers across Noida and Bengaluru (2024 reporting).
 - id: synopsys-india
   name: Synopsys India
   category: EDA & IP Provider
@@ -2364,18 +2629,30 @@ design_firms:
     grant_inr: null
   narrative:
     significance: Arm's India centre contributes to the design of Cortex CPU and Mali/Immortalis GPU IP that powers billions
-      of devices globally.
+      of devices globally. Arm opened a new Bengaluru office at Bagmane Constellation, its third-largest global office, inaugurated
+      by Ashwini Vaishnaw on 2025-09-16; the minister said it would design 2nm chips (no Arm confirmation).
     what_it_designs: Cortex-A/R/M CPU IP cores, Mali and Immortalis GPU IP, system IP (interconnects, memory controllers),
       and physical IP for advanced nodes.
   sources:
   - url: https://www.arm.com/company/offices
     title: Arm office locations
     date: '2026-01-01'
+  - url: https://www.tribuneindia.com/news/business/british-semiconductor-firm-arm-to-develop-advanced-2nm-chips-in-india-opens-office-in-bengaluru
+    title: British semiconductor firm Arm to develop advanced 2nm chips in India, opens office in Bengaluru (Tribune/ANI)
+    date: '2025-09-17'
+  - url: https://careers.arm.com/bangalore-office
+    title: Arm Bengaluru office (Arm careers)
+    date: null
   design_score:
     strategic_depth: 4
     design_completeness: 5
     domain_difficulty: 5
     india_scale: 3
+  score_notes:
+    strategic_depth: Bengaluru is Arm's third-largest global office; works on architecture, CPU and system design.
+    design_completeness: Design, verification and physical implementation of IP; Arm ships IP rather than chips.
+    domain_difficulty: Leading-edge CPU/GPU IP and physical IP for advanced nodes.
+    india_scale: About 2,000 in Bangalore per Arm official (undated); 2,500 overall plausible.
 - id: renesas-india
   name: Renesas Electronics India
   category: GCC Design Centre
@@ -2383,48 +2660,71 @@ design_firms:
   parent_company: Renesas Electronics Corp.
   parent_hq: Japan
   founded: 2010
-  india_headcount: 1000
+  india_headcount: 850
   locations:
   - city: Bengaluru
     state: Karnataka
     lat: 12.972
     lon: 77.594
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
   - city: Hyderabad
     state: Telangana
     lat: 17.385
     lon: 78.487
+  - city: Pune
+    state: Maharashtra
+    lat: 18.52
+    lon: 73.855
   product_focus: Automotive MCUs, analog, IoT connectivity
   application_domains:
   - Automotive
   - Industrial
   - IoT
   design_scope: Full chip
-  node_sophistication: 22nm
+  node_sophistication: 3nm
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
     significance: Renesas India designs automotive microcontrollers and analog ICs. Part of the Japanese chipmaker's global
-      design network for automotive electronics.
+      design network for automotive electronics. On 2025-05-13 Union Minister Ashwini Vaishnaw inaugurated Renesas' new Noida
+      and Bengaluru design centres, which the government said would work on 3nm chip design (incl. R-Car automotive SoCs).
     what_it_designs: RH850 and RL78 automotive microcontrollers, analog power management ICs, and IoT connectivity solutions.
   sources:
   - url: https://www.renesas.com/en/about/company/locations
     title: Renesas global locations
     date: '2026-01-01'
+  - url: https://www.autocarpro.in/news/renesas-showcases-automotive-semiconductor-solutions-at-electronica-india-2025-128775
+    title: Renesas Showcases Automotive Semiconductor Solutions at Electronica India 2025
+    date: '2025-09-19'
+  - url: https://analyticsindiamag.com/ai-news-updates/india-gets-first-3nm-chip-design-centres-in-noida-and-bengaluru
+    title: India Gets First 3nm Chip Design Centres in Noida and Bengaluru
+    date: '2025-05-13'
+  - url: https://www.renesas.com/en/blogs/india-re-emerges-global-semiconductor-growth-engine
+    title: India Re-emerges as a Global Semiconductor Growth Engine (Renesas blog)
+    date: '2024-10-07'
   design_score:
     strategic_depth: 3
     design_completeness: 4
-    domain_difficulty: 3
+    domain_difficulty: 4
     india_scale: 2
+  score_notes:
+    strategic_depth: Co-develops high-end automotive SoCs with other geographies; India does not own product lines outright.
+    design_completeness: Multiple chip design teams cover MCU, analog and SoC work, including end-to-end 3nm design per MeitY.
+    domain_difficulty: 'Raised 3->4: 3nm R-Car automotive SoC work plus analog/power; leading-node automotive is demanding.'
+    india_scale: About 850 staff across four sites (Sept 2025), target 1,000 by end-2025.
 - id: adi-india
   name: Analog Devices India
   category: GCC Design Centre
   dli_support: null
   parent_company: Analog Devices Inc.
   parent_hq: United States
-  founded: 1998
-  india_headcount: 2000
+  founded: 1995
+  india_headcount: 1500
   locations:
   - city: Bengaluru
     state: Karnataka
@@ -2455,11 +2755,25 @@ design_firms:
   - url: https://www.analog.com/en/about-adi/our-locations.html
     title: Analog Devices locations
     date: '2026-01-01'
+  - url: https://www.bizzbuzz.news/industry/auto/analog-devices-expands-its-presence-in-india-with-new-centre-in-hy-1327778
+    title: Analog Devices expands its presence in India with new centre in Hyderabad
+    date: '2024-07-11'
+  - url: https://www.electronicsforyou.biz/industry-buzz/us-based-analog-devices-boosts-india-staff-by-30/
+    title: US-Based Analog Devices Boosts India Staff By 30%
+    date: '2024-07-11'
+  - url: https://www.deccanherald.com/business/transforming-analog-digital-672050.html
+    title: Transforming analog to digital (Deccan Herald)
+    date: null
   design_score:
     strategic_depth: 4
     design_completeness: 5
     domain_difficulty: 5
     india_scale: 2
+  score_notes:
+    strategic_depth: Bengaluru reported as ADI's third-largest design centre globally, after the US and Ireland.
+    design_completeness: Long-running product development centre with full analog/mixed-signal design teams; kept.
+    domain_difficulty: Precision converters, RF and power analog are among the hardest design domains.
+    india_scale: About 1,500 staff incl. 1,200 engineers (July 2024); upper end of score 2.
 - id: nvidia-india
   name: NVIDIA India
   category: GCC Design Centre
@@ -2467,7 +2781,7 @@ design_firms:
   parent_company: NVIDIA Corporation
   parent_hq: United States
   founded: 2004
-  india_headcount: 2500
+  india_headcount: 4000
   locations:
   - city: Bengaluru
     state: Karnataka
@@ -2481,6 +2795,10 @@ design_firms:
     state: Telangana
     lat: 17.385
     lon: 78.487
+  - city: Gurugram
+    state: Haryana
+    lat: 28.459
+    lon: 77.027
   product_focus: GPU architecture, AI accelerators, deep learning frameworks
   application_domains:
   - AI/ML
@@ -2495,18 +2813,32 @@ design_firms:
     grant_inr: null
   narrative:
     significance: India accounts for 18% of NVIDIA's global workforce. Bengaluru and Pune together employ over 2,300 staff
-      focused on GPU software, deep learning, and system software engineering.
+      focused on GPU software, deep learning, and system software engineering. In April 2026 NVIDIA signed a 10-year lease
+      for about 760,000 sq ft of office space in Bengaluru, reported as the largest single-tenant office commitment in India.
     what_it_designs: GPU architecture and verification, CUDA software stack, AI/ML frameworks, autonomous vehicle computing
       platforms, and system software for data centre accelerators.
   sources:
   - url: https://www.nvidia.com/en-in/contact/asia/
     title: NVIDIA India offices
     date: '2026-01-01'
+  - url: https://blogs.nvidia.com/blog/nvidia-india-giants-ai/
+    title: NVIDIA Partners With India Giants to Advance AI in World's Most Populous Nation
+    date: '2023-09-08'
+  - url: https://www.digitimes.com/news/a20260428VL217.html
+    title: Nvidia signs 10-year Bengaluru office lease (DIGITIMES Asia)
+    date: '2026-04-28'
   design_score:
     strategic_depth: 4
     design_completeness: 4
     domain_difficulty: 5
-    india_scale: 3
+    india_scale: 4
+  score_notes:
+    strategic_depth: India hosts GPU architecture, verification and physical design teams; product ownership remains in the
+      US.
+    design_completeness: Bengaluru/Hyderabad/Pune design centres cover RTL, verification, physical design for GPU and networking
+      IP.
+    domain_difficulty: Leading-edge GPUs and AI accelerators at the most advanced nodes.
+    india_scale: 'Raised 3->4: NVIDIA blog cited ''4,000-some'' India employees in Sept 2023, above the 1-3k band.'
 - id: marvell-india
   name: Marvell India
   category: GCC Design Centre
@@ -2514,7 +2846,7 @@ design_firms:
   parent_company: Marvell Technology Inc.
   parent_hq: United States
   founded: 2006
-  india_headcount: 2000
+  india_headcount: 1700
   locations:
   - city: Bengaluru
     state: Karnataka
@@ -2543,17 +2875,34 @@ design_firms:
   narrative:
     significance: India is Marvell's second-largest R&D hub globally. In July 2026, Marvell announced a $250 million investment
       to double its India workforce and expand Bengaluru and Hyderabad campuses. Teams work on 2nm-and-beyond process nodes.
+      On 2026-07-29 Marvell announced a $250 million, three-year India investment to double its India workforce and add a
+      new wing in Bengaluru and expand Hyderabad.
     what_it_designs: Custom data centre ASICs, 5G baseband processors, networking switches, storage controllers, and high-speed
       analog IP. Hyderabad focuses on security solutions; Pune on embedded development for networking and storage.
   sources:
   - url: https://indiawest.com/us-chipmaker-marvell-to-invest-250-million-in-bengaluru-hyderabad/
     title: Marvell to invest $250M in Bengaluru, Hyderabad R&D
     date: '2026-07-29'
+  - url: https://finance.yahoo.com/news/u-chipmaker-marvell-plans-india-132928674.html
+    title: U.S. chipmaker Marvell plans India hiring spree, R&D push to tap AI boom (Reuters)
+    date: '2025-11-20'
+  - url: https://inc42.com/buzz/semiconductor-major-marvell-to-invest-250-mn-in-india-double-headcount/
+    title: Semiconductor Major Marvell To Invest $250 Mn in India, Double Headcount
+    date: '2026-07-29'
+  - url: https://telecomlead.com/semiconductor/marvell-technology-to-invest-250-mn-in-india-double-workforce-to-expand-ai-and-semiconductor-engineering-126976
+    title: Marvell Technology to Invest $250 mn in India, Double Workforce
+    date: '2026-07-29'
   design_score:
     strategic_depth: 5
     design_completeness: 5
     domain_difficulty: 5
-    india_scale: 3
+    india_scale: 2
+  score_notes:
+    strategic_depth: India is Marvell's second-largest R&D organisation; teams work on custom AI/cloud silicon.
+    design_completeness: Full-chip custom ASIC, networking and storage design work across three Indian sites.
+    domain_difficulty: Custom data-centre ASICs, high-speed SerDes/analog IP at leading-edge nodes.
+    india_scale: 'Lowered 3->2: Reuters reported a 1,700-strong India workforce in Nov 2025, below ~2k; may rise as hiring
+      doubles.'
 - id: apple-india
   name: Apple India (Silicon Engineering)
   category: GCC Design Centre
@@ -2586,25 +2935,33 @@ design_firms:
   - url: https://www.ilounge.com/news/apple-chip-design-bengaluru
     title: Apple starts chip-designing in Bengaluru
     date: '2019-10-24'
+  - url: https://inc42.com/buzz/apple-accelerates-modem-chip-india-unit-with-160-intel-engineers-joining
+    title: Apple Accelerates Modem Chip India Unit With 160 Intel Engineers Joining
+    date: '2019-10-24'
   design_score:
     strategic_depth: 4
     design_completeness: 3
     domain_difficulty: 5
     india_scale: 1
+  score_notes:
+    strategic_depth: Bengaluru modem team inherited from Intel's modem business; no public detail on product ownership.
+    design_completeness: Reported work is modem and SoC subsystems; no evidence of full chips from India.
+    domain_difficulty: Cellular modems and advanced-node mobile SoCs are leading-edge.
+    india_scale: About 160 Intel modem engineers joined in 2019; no later silicon headcount reported.
 - id: google-india-silicon
   name: Google India (gChips)
   category: GCC Design Centre
   dli_support: null
   parent_company: Alphabet Inc.
   parent_hq: United States
-  founded: 2023
+  founded: 2019
   india_headcount: null
   locations:
   - city: Bengaluru
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  product_focus: Tensor SoC design, custom server processors
+  product_focus: TPU AI accelerators, Tensor SoC design, custom cloud silicon
   application_domains:
   - Mobile
   - AI/ML
@@ -2624,11 +2981,19 @@ design_firms:
   - url: https://www.datacenterknowledge.com/data-center-chips/google-said-to-be-on-a-chip-engineer-hiring-spree-in-india
     title: Google on chip engineer hiring spree in India
     date: '2025-06-01'
+  - url: https://www.datacenterknowledge.com/google-alphabet/google-said-be-chip-engineer-hiring-spree-india
+    title: Google Said to Be On a Chip Engineer Hiring Spree in India
+    date: '2019-02-12'
   design_score:
     strategic_depth: 4
     design_completeness: 3
     domain_difficulty: 5
     india_scale: 1
+  score_notes:
+    strategic_depth: Bengaluru postings describe teams delivering TPU IPs and subsystems; architecture roles present.
+    design_completeness: Work evidenced at IP/subsystem level (TPU core, SoC integration); full-chip ownership not shown.
+    domain_difficulty: TPU AI accelerators and mobile SoCs at leading-edge nodes.
+    india_scale: Reported at ~16+ hires growing toward 80 in 2019; no current headcount reported.
 - id: microchip-india
   name: Microchip Technology India
   category: GCC Design Centre
@@ -2663,20 +3028,32 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Microchip has operated in India for 25 years. In 2025, it announced a $300 million investment to expand
-      its India operations, including a new Bengaluru facility that can accommodate 3,000+ employees. India supports design
-      for MCUs, FPGAs, networking, and security products.
+    significance: Microchip has operated in India for 25 years. In July 2023 it announced a $300 million investment to expand
+      its India operations. In November 2025, marking 25 years in India, it acquired about 1.72 lakh sq ft in Whitefield,
+      Bengaluru, able to hold 3,000+ employees over ten years. India teams support design for MCUs, FPGAs, networking and
+      security products.
     what_it_designs: 8/16/32-bit microcontrollers, microprocessors, FPGA development, networking and data centre solutions,
       security and authentication products, wired and wireless connectivity solutions.
   sources:
   - url: https://www.microchip.com/en-us/about/news-releases/corporate/microchip-launches-300m-investment-in-india
     title: Microchip launches $300M investment in India
     date: '2025-11-01'
+  - url: https://www.dqindia.com/esdm/microchip-expands-india-footprint-with-new-office-facility-in-bengaluru-10647074
+    title: Microchip expands India footprint with new office facility in Bengaluru
+    date: '2025-11-11'
+  - url: https://www.businesstoday.in/latest/corporate/story/us-headquartered-microchip-technology-expands-presence-in-india-to-invest-300-million-in-next-few-years-388001-2023-07-03
+    title: US-headquartered Microchip Technology expands presence in India, to invest $300 million
+    date: '2023-07-03'
   design_score:
     strategic_depth: 4
     design_completeness: 5
     domain_difficulty: 4
     india_scale: 3
+  score_notes:
+    strategic_depth: India centres support design across MCU, FPGA, networking and security product lines.
+    design_completeness: Company cites 'advanced IC design' across Bengaluru, Chennai and Hyderabad development centres.
+    domain_difficulty: FPGAs and mixed-signal MCUs are moderately advanced, mostly mature nodes.
+    india_scale: About 2,500 employees in India (2023 and 2025 company figures).
 - id: microsoft-india-silicon
   name: Microsoft India (Silicon Engineering)
   category: GCC Design Centre
@@ -2694,6 +3071,10 @@ design_firms:
     state: Telangana
     lat: 17.385
     lon: 78.487
+  - city: Noida
+    state: Uttar Pradesh
+    lat: 28.535
+    lon: 77.391
   product_focus: Custom AI accelerators, Arm-based cloud processors
   application_domains:
   - Cloud
@@ -2719,6 +3100,11 @@ design_firms:
     design_completeness: 3
     domain_difficulty: 5
     india_scale: 2
+  score_notes:
+    strategic_depth: India roles (design, PD, DV, firmware, CAD) support Redmond-led Cobalt and Maia programmes.
+    design_completeness: Postings span logic design, physical design and verification; no India-owned full chip reported.
+    domain_difficulty: Leading-edge AI accelerators and Arm server CPUs for Azure.
+    india_scale: No public headcount; score kept as an estimate, not verified.
 - id: meta-india-silicon
   name: Meta India (Infra Silicon)
   category: GCC Design Centre
@@ -2751,11 +3137,19 @@ design_firms:
   - url: https://www.foundit.in/job/asic-engineer-design-meta-bengaluru-bangalore-47072024
     title: Meta ASIC Engineer Design — Bengaluru
     date: '2026-01-01'
+  - url: https://metacareers.com/jobs/597025942666816
+    title: ASIC Engineer, Infra Silicon Enablement (Meta Careers, seen in search results)
+    date: null
   design_score:
     strategic_depth: 3
     design_completeness: 3
     domain_difficulty: 5
     india_scale: 1
+  score_notes:
+    strategic_depth: Bengaluru postings cover architecture, RTL, validation and firmware for in-house data-centre ASICs.
+    design_completeness: Work spans design through silicon bring-up, but no India-led full chip reported.
+    domain_difficulty: Custom AI/ML accelerator ASICs for hyperscale data centres.
+    india_scale: No headcount reported; postings suggest a small, growing team.
 - id: cisco-india-silicon
   name: Cisco India (Silicon Engineering)
   category: GCC Design Centre
@@ -2769,7 +3163,7 @@ design_firms:
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  product_focus: Networking ASICs, switching silicon
+  product_focus: Silicon One networking ASICs (switching/routing), DFT and physical design
   application_domains:
   - Networking
   - Data Centre
@@ -2780,19 +3174,30 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Cisco invested $150 million to expand its Bengaluru facility into a full chip design centre. India teams
-      contribute to networking ASIC design for enterprise and data centre switches and routers.
-    what_it_designs: Networking ASIC design, verification, and physical design for Cisco's switching and routing platforms.
-      Bengaluru is being expanded to support full chip design capabilities.
+    significance: India teams in Bengaluru contribute to Cisco's Silicon One networking ASICs for enterprise and data centre
+      switches and routers, including design-for-test and physical design.
+    what_it_designs: Networking ASIC design, verification, DFT and physical design for Cisco's Silicon One switching and routing
+      platforms.
   sources:
   - url: https://www.eetimes.com/cisco-to-begin-chip-design-in-india/
     title: Cisco to begin chip design in India
     date: '2000-08-17'
+  - url: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2000/m08/cisco-systems-announces-next-phase-of-investment-and-growth-strategy-in-india.html
+    title: Cisco Systems announces next phase of investment and growth strategy in India
+    date: null
+  - url: https://careers.cisco.com/global/en/india/
+    title: Cisco Careers India
+    date: null
   design_score:
     strategic_depth: 3
     design_completeness: 3
     domain_difficulty: 4
     india_scale: 2
+  score_notes:
+    strategic_depth: Bengaluru teams contribute to Silicon One chip development; programme leadership remains in the US.
+    design_completeness: Postings cite full-chip integration, timing and DFT work; not India-owned end-to-end chips.
+    domain_difficulty: High-bandwidth switching/routing ASICs (51.2T-102.4T class).
+    india_scale: No silicon-specific headcount reported; estimate kept.
 - id: onsemi-india
   name: onsemi India
   category: GCC Design Centre
@@ -2827,11 +3232,19 @@ design_firms:
   - url: https://www.onsemi.com/company/about-onsemi/locations/bangalore-india
     title: onsemi Bangalore India
     date: '2026-01-01'
+  - url: https://www.onsemi.com/company/about-onsemi/locations-hidden/bangalore-india
+    title: onsemi Bangalore, India location page
+    date: null
   design_score:
     strategic_depth: 3
     design_completeness: 4
     domain_difficulty: 4
     india_scale: 1
+  score_notes:
+    strategic_depth: Bengaluru design centre supports global sensing and analog groups; no India product ownership reported.
+    design_completeness: Active analog, digital IC, layout and validation hiring suggests full-chip capability.
+    domain_difficulty: Image sensors, GaN drivers and power/analog ICs.
+    india_scale: No verified headcount; 400 is unconfirmed and kept as estimate.
 - id: c2i-semiconductors
   name: C2i Semiconductors
   category: Indian Fabless
@@ -2887,6 +3300,11 @@ design_firms:
     design_completeness: 3
     domain_difficulty: 3
     market_readiness: 1
+  score_notes:
+    ip_ownership: Own software-defined multiphase controller and power-stage designs.
+    design_completeness: First smart power stage taped out in May 2026; DLI controller tape-out not confirmed.
+    domain_difficulty: Multiphase controllers and smart power stages for data-centre power delivery.
+    market_readiness: No samples or customers reported; acquired by Infineon in October 2026.
 - id: mmrfic
   name: MMRFIC Technology
   category: Indian Fabless
@@ -2939,6 +3357,11 @@ design_firms:
     design_completeness: 2
     domain_difficulty: 5
     market_readiness: 3
+  score_notes:
+    ip_ownership: Mix of own MMICs and subsystems; the entry does not separate own from bought-in IP.
+    design_completeness: No public confirmation that the DLI Ka-band beamformer has taped out.
+    domain_difficulty: Millimetre-wave GaAs/GaN MMICs and front-ends for radar and 5G/6G.
+    market_readiness: Sells chips and subsystems, with packaging and test in its 2024 facility.
 - id: aheesa
   name: Aheesa Digital Innovations
   category: Indian Fabless
@@ -2988,9 +3411,14 @@ design_firms:
   website: https://www.aheesa.com
   design_score:
     ip_ownership: 3
-    design_completeness: 3
+    design_completeness: 4
     domain_difficulty: 3
     market_readiness: 2
+  score_notes:
+    ip_ownership: Built on C-DAC's VEGA core; about 60% of the chip is licensed IP.
+    design_completeness: VIHAAN-I taped out on UMC 28nm in January 2026; first-pass silicon success in August 2026.
+    domain_difficulty: GPON/EPON broadband network SoC built on RISC-V.
+    market_readiness: Production tape-out targeted for 2027; no customer shipments yet.
 - id: multi-nano-sense
   name: Multi Nano Sense Technologies
   category: Indian Fabless
@@ -3039,6 +3467,11 @@ design_firms:
     design_completeness: 2
     domain_difficulty: 3
     market_readiness: 3
+  score_notes:
+    ip_ownership: CMOS-MEMS sensor platform licensed from Cambridge Enterprise; AFE SoC is its own.
+    design_completeness: Sensor prototyped at IIT Bombay; the AFE SoC is a DLI project with no tape-out reported.
+    domain_difficulty: MEMS gas sensors with a CMOS analog front-end SoC.
+    market_readiness: Already sells hydrogen detectors, though not yet with its own SoC.
 - id: incise-infotech
   name: Incise Infotech
   category: Indian Fabless
@@ -3091,6 +3524,11 @@ design_firms:
     design_completeness: 2
     domain_difficulty: 2
     market_readiness: 2
+  score_notes:
+    ip_ownership: Mainly a design-services and verification-IP firm; INC2106 is its only own chip.
+    design_completeness: INC2106 LED driver is the DLI project; no tape-out reported.
+    domain_difficulty: Linear LED driver IC; simple power analog.
+    market_readiness: No product shipments reported; smallest PDLI outlay at Rs 4.28 crore.
 - id: bharat-semi
   name: Bharat Semi (3rdiTech, DV2JS Innovation)
   category: Indian Fabless
@@ -3123,8 +3561,8 @@ design_firms:
     project_outlay_inr_lakh: 748.0
     grant_inr: null
   c2s:
-    partner: "IIT Delhi"
-    project: "High temporal resolution sensors for collision detection in automotive applications (DV2JS)"
+    partner: IIT Delhi
+    project: High temporal resolution sensors for collision detection in automotive applications (DV2JS)
   narrative:
     significance: 'One group, three names: Bharat Semi (founded late 2021), its design division 3rdiTech (IIT Delhi-linked;
       iDEX winner; co-founder Dr Mukul Sarkar), and DV2JS Innovation LLP (incorporated January 2018), the entity on the official
@@ -3175,13 +3613,18 @@ design_firms:
     design_completeness: 2
     domain_difficulty: 4
     market_readiness: 3
+  score_notes:
+    ip_ownership: Own sensor architecture integrating capture, processing and AI inference on one chip.
+    design_completeness: Gen-1 sensor in prototyping; Gen-2 prototypes expected mid-2027.
+    domain_difficulty: Programmable AI image sensors and single-photon low-light CMOS sensors.
+    market_readiness: Design wins with General Atomics and Kaynes Semicon; $24M seed in November 2026.
 - id: ananant-systems
   name: Ananant Systems
   category: Indian Fabless
   dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2023
   india_headcount: null
   locations:
   - city: Noida
@@ -3209,10 +3652,11 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Noida-headquartered (IIT Kanpur outreach centre) with offices in Bengaluru and San Diego; founder and CEO
-      Amiya Pathak (earlier built ZipDial). The company says its Gen 1 5G small-cell connectivity chip is in production and
-      supplied with its L1 software and femto system; Gen 2, combining connectivity and perception on one die, has a tape-out
-      plan in place, with samples to OEMs targeted for H2 2027.
+    significance: Noida-headquartered, with offices in Bengaluru and San Diego; founded in 2023 by Chitranjan (Chitu) Singh,
+      founder, CEO and chief architect. Said in May 2024 it was working with telecom OEMs to supply chips for BSNL's planned
+      5G network. Its website says Gen 1 5G small-cell connectivity silicon has been in production since 2026 and Gen 2 (connectivity
+      plus perception on one die) was committed to tape-out in July 2026, with OEM sampling targeted for H2 2027. The production
+      claim is self-reported. Reported in Sept 2026 to be seeking about $5 million.
     what_it_designs: Deterministic RISC-V/DSP compute and 5G small-cell connectivity chips, with a perception (edge-AI) SoC
       on the same architecture.
   sources:
@@ -3222,7 +3666,23 @@ design_firms:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
+  - url: https://tele.net.in/ananant-systems-working-with-local-oems-to-develop-bsnls-5g-chip/
+    title: Ananant Systems working with local OEMs to develop BSNL's 5G chip — tele.net
+    date: '2024-05-21'
+  - url: https://www.dtnext.in/news/business/ananant-systems-joins-india-electronics-and-semiconductor-association-to-drive-innovation-785865
+    title: Ananant Systems joins India Electronics and Semiconductor Association to drive innovation — DT Next
+    date: '2024-05-20'
+  - url: https://www.newskart.com/ananant-systems-seeks-5-million-to-build-indias-5g-and-6g-chip-future/
+    title: Ananant Systems Seeks $5 Million to Build India's 5G and 6G Chip Future — Newskart
+    date: '2026-09-02'
   website: https://ananantsys.com
+  score_notes:
+    ip_ownership: 'IP ownership 4: claims in-house deterministic RISC-V/DSP architecture, L1 software and IP, ''developed
+      and owned in India''.'
+    design_completeness: 'Design completeness 3: company says Gen 1 silicon in production; no independent confirmation of
+      tape-out or silicon.'
+    domain_difficulty: 'Domain difficulty 4: 5G small-cell baseband/L1 plus RISC-V/DSP compute; hard but not RF/mmWave front-end.'
+    market_readiness: 'Market readiness 2: OEM partnerships for BSNL 5G reported in 2024; no named customers or shipments.'
 - id: atantri
   name: Atantri
   category: Indian Fabless
@@ -3252,8 +3712,10 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Bengaluru (Yelahanka) startup developing 5G and LTE-Advanced chipsets and RF transceivers for broadband
-      and IoT, with designs it says are compatible with Tata Electronics' planned 28/22nm process. No tape-out publicly reported.
+    significance: Bengaluru startup led by Chairman and CEO Alok Sharma (formerly Ericsson; Sequans board 2011-22, per company
+      site) developing 5G/LTE-Advanced chipsets and sub-6 GHz/mmWave RF transceivers, with designs it says are compatible
+      with Tata Electronics' planned 28/22nm process. Exhibited at Semicon India 2026 and was among indigenous chip firms
+      at a DoT conclave in Nov 2026 seeking market support for domestic telecom chipsets. No tape-out publicly reported.
     what_it_designs: 5G/LTE-Advanced baseband chipsets and RF transceivers with a full software stack.
   sources:
   - url: https://atantri.com/
@@ -3262,7 +3724,16 @@ design_firms:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
+  - url: https://india.entrepreneur.com/business-news/scindia-announces-advisory-group-for-telecom-startups-and-msmes
+    title: Scindia Announces Advisory Group for Telecom Startups and MSMEs — Entrepreneur India (names Atantri Semiconductors)
+    date: '2026-11-25'
   website: https://atantri.com
+  score_notes:
+    ip_ownership: 'IP ownership 3: claims own baseband, RF front end and software stack; no detail on licensed vs custom cores.'
+    design_completeness: 'Design completeness 1: no tape-out, silicon or prototype disclosed; process ''compatibility'' claim
+      only.'
+    domain_difficulty: 'Domain difficulty 4: 5G baseband plus mixed-signal RF transceivers including mmWave.'
+    market_readiness: 'Market readiness 1: pre-silicon; no customers or pilots named.'
 - id: cryologiq
   name: Cryologiq
   category: Indian Fabless
@@ -3276,7 +3747,8 @@ design_firms:
     state: Delhi
     lat: 28.614
     lon: 77.209
-  product_focus: Cryogenic CMOS chips for quantum computing, space and defence
+  product_focus: Cryogenic CMOS chip design, cryo PDK/device models and cryogenic characterisation services for quantum, space
+    and defence
   application_domains:
   - Quantum
   - Space
@@ -3293,8 +3765,10 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Incubated at IIT Delhi's FITT, designing semiconductor chips that operate at cryogenic temperatures — the
-      control electronics that quantum computers, space and defence systems need. Early stage; no tape-out publicly reported.
+    significance: Incubated at IIT Delhi's FITT; promoter Prof. Abhisek Dixit (IIT Delhi, cryo-CMOS and qubit device researcher).
+      Company says it signed a three-year service agreement (Apr 2025) to assess cryogenic aging reliability of GlobalFoundries'
+      22nm and 12nm CMOS, received DST-NIDHI seed approval (Sep 2025) and DLI design-infrastructure (EDA tools) support (Oct
+      2025). Current work is mainly characterisation and modelling; no tape-out publicly reported.
     what_it_designs: Cryogenic CMOS integrated circuits for quantum-computer control, space and defence applications.
   sources:
   - url: https://cryologiq.in/
@@ -3304,13 +3778,19 @@ design_firms:
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
   website: https://cryologiq.in
+  score_notes:
+    ip_ownership: 'IP ownership 3: own cryo device models and PDK work; no chip architecture disclosed.'
+    design_completeness: 'Design completeness 1: no chip design or tape-out disclosed; activity is characterisation and modelling.'
+    domain_difficulty: 'Domain difficulty 5: cryogenic (4K to mK) CMOS for qubit control; few firms worldwide.'
+    market_readiness: 'Market readiness 1: no chip product; revenue appears to be characterisation services (GlobalFoundries
+      SLA, self-reported).'
 - id: linear-amptech
   name: Linear-AmpTech
   category: Indian Fabless
   dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2017
   india_headcount: null
   locations:
   - city: Roorkee
@@ -3334,9 +3814,10 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Linearized Amplifier Technologies and Services, incubated at IIT Roorkee's iHUB DivyaSampark. Lists a 13–17
-      GHz 8-bit phase-shifter chip in TSMC 65nm CMOS and a radar front-end chip as products, alongside GaN power-amplifier
-      modules and mm-wave packaging.
+    significance: Linearized Amplifier Technologies and Services, formed in Dec 2017 by IIT Roorkee faculty and students (founding
+      director Prof. Karun Rawat) and incubated at iHUB DivyaSampark. Lists a 13-17 GHz 8-bit phase-shifter chip in TSMC 65nm
+      bulk CMOS (1 x 1.38 mm die) and a radar front-end chip, plus GaN-on-SiC MMIC power amplifiers and modules. Won first
+      prize (start-up category) in DRDO's Dare to Dream 4.0 in 2024 for a gunshot-detection system, a non-chip product.
     what_it_designs: RF front-end chips (phase shifters, radar front-ends, CMOS/BiCMOS RFIC IP), GaN MMICs and power-amplifier
       modules.
   sources:
@@ -3346,7 +3827,22 @@ design_firms:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
+  - url: https://www.drdo.gov.in/drdo/sites/default/files/whats_new_document/D2D4_Result22032024.pdf
+    title: Dare to Dream 4.0 results — DRDO (Linearized Amplifier Technologies and Services, start-up first prize)
+    date: '2024-03-22'
+  - url: https://ianslive.in/iit-roorkee-based-startup-secures-top-spot-in-dare-to-dream-40-contest--20240501185705
+    title: IIT Roorkee-based startup secures top spot in 'Dare to Dream 4.0' contest — IANS
+    date: '2024-05-01'
+  - url: https://www.analog.com/en/support/our-partners/linearized-amplifier-technologies-and-services-privated-limited.html
+    title: Linearized Amplifier Technologies and Services — Analog Devices partner listing
+    date: null
   website: https://linear-amptech.com
+  score_notes:
+    ip_ownership: 'IP ownership 4: own RFIC designs from an IIT Roorkee RF research group; standard foundry processes.'
+    design_completeness: 'Design completeness 3: product page gives die size and specs for a TSMC 65nm chip; no independent
+      tape-out report.'
+    domain_difficulty: 'Domain difficulty 4: Ku-band CMOS phase shifters, radar front-ends and GaN MMIC PAs.'
+    market_readiness: 'Market readiness 2: quote-on-request products and modules; no named customers or volume sales.'
 - id: mosart-semi
   name: MOSart Semiconductor
   category: Indian Fabless
@@ -3396,6 +3892,11 @@ design_firms:
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
   website: https://mosartsemi.com
+  score_notes:
+    ip_ownership: Own single-chip BMS SoC design by TI, Micron and ams OSRAM veterans.
+    design_completeness: Pre-silicon; BMS SoC still in development.
+    domain_difficulty: Automotive-grade battery-management SoC and power-conversion ICs.
+    market_readiness: Pre-silicon; set up in 2025.
 - id: optoml
   name: optoML
   category: Indian Fabless
@@ -3440,6 +3941,11 @@ design_firms:
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
   website: https://opto-ml.com
+  score_notes:
+    ip_ownership: Own Palani platform architecture.
+    design_completeness: 12nm FinFET test chip taped out at TSMC, announced February 2026.
+    domain_difficulty: Analog in-memory-compute NPUs with chip-to-chip optical links.
+    market_readiness: Test chip only; no samples or customers reported.
 - id: orvis-semi
   name: Orvis Semi
   category: Indian Fabless
@@ -3485,20 +3991,21 @@ design_firms:
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
   website: https://orvissemi.com
+  score_notes:
+    ip_ownership: Develops sensor platforms; the entry does not say how much design is its own.
+    design_completeness: No tape-out or silicon reported.
+    domain_difficulty: CMOS image sensors and SWIR imaging for medical diagnostics.
+    market_readiness: No customers or samples reported; early National Quantum Mission funding.
 - id: photonsilica
   name: PhotonSilica (PHSI Technologies & Research)
   category: Indian Fabless
   dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2025
   india_headcount: null
-  locations:
-  - city: Bengaluru
-    state: Karnataka
-    lat: 12.972
-    lon: 77.594
-  product_focus: Silicon for mission-critical sectors (in stealth)
+  locations: []
+  product_focus: ASIC/SoC design, verification and semiconductor IP for defence and space (in sub-stealth mode)
   application_domains:
   - Defence
   - Strategic Electronics
@@ -3509,8 +4016,10 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Early-stage Bengaluru fabless startup operating in sub-stealth mode; describes itself as designing sovereign
-      silicon for mission-critical sectors. No product details public.
+    significance: Early-stage fabless startup (PHSI Technologies & Research Pvt Ltd, founder Tushar Raj) registered in Uttar
+      Pradesh in 2025 (CIN U72100UP2025PTC232742) and recognised under Startup UP; exhibited in the UP Startup Mission pavilion
+      at Bengaluru Tech Summit 2026. Describes ASIC/SoC design, IP, prototyping and qualification for defence and space while
+      in 'sub-stealth mode'. No product details public.
     what_it_designs: Not yet disclosed.
   sources:
   - url: https://photonsilica.in/
@@ -3526,9 +4035,13 @@ design_firms:
   dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2024
   india_headcount: null
   locations:
+  - city: Dibrugarh
+    state: Assam
+    lat: 27.472
+    lon: 94.912
   - city: Pune
     state: Maharashtra
     lat: 18.52
@@ -3550,9 +4063,10 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Pune fabless firm incubated at the Defence Institute of Advanced Technology (DIAT, DRDO campus). Develops
-      wireless IP and SoCs for MIMO, satellite communication and Wi-Fi, and also offers ASIC/FPGA design services. No tape-out
-      publicly reported.
+    significance: Phra Narai Semicon Systems Labs, incorporated in Aug 2024 with its registered office in Dibrugarh, Assam
+      (founder and CEO Bhubon Chandra Mech, CTO Deepak Babu); engineering team at the DIAT (DRDO campus) Innovation & Incubation
+      Centre in Pune. Develops wireless IP and SoCs for MIMO, satellite communication and Wi-Fi, and offers ASIC/FPGA design
+      services. Small team; no tape-out publicly reported.
     what_it_designs: Wireless baseband IP cores and custom SoCs/ASICs for MIMO, SATCOM and Wi-Fi systems; verification IP.
   sources:
   - url: https://pnssyslabs.com/
@@ -3561,7 +4075,15 @@ design_firms:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
+  - url: https://www.falconebiz.com/company/PHRA-NARAI-SEMICON-SYSTEMS-LABS-PRIVATE-LIMITED-U26103AS2024PTC026819
+    title: Phra Narai Semicon Systems Labs Pvt Ltd — company registration details (MCA-derived)
+    date: null
   website: https://pnssyslabs.com
+  score_notes:
+    ip_ownership: 'IP ownership 3: offers own IP and verification-IP cores; none named or characterised.'
+    design_completeness: 'Design completeness 1: no named SoC, tape-out or FPGA prototype disclosed.'
+    domain_difficulty: 'Domain difficulty 4: MIMO and SATCOM baseband signal processing; digital, not RF front-end.'
+    market_readiness: 'Market readiness 1: no customers or products disclosed; revenue likely design services.'
 - id: sampige-semi
   name: Sampige Semiconductors
   category: Indian Fabless
@@ -3606,13 +4128,18 @@ design_firms:
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
   website: https://sampigesemi.com
+  score_notes:
+    ip_ownership: Co-developing chipsets with BharatGen; own IP share not detailed.
+    design_completeness: Pre-silicon.
+    domain_difficulty: Consumer, IoT and AI-inference chipsets; mainstream digital SoCs.
+    market_readiness: Pre-silicon; only a February 2026 BharatGen MoU so far.
 - id: sigan
   name: SiGaN Technologies
   category: Indian Fabless
   dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2024
   india_headcount: null
   locations:
   - city: Hyderabad
@@ -3636,8 +4163,10 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Hyderabad startup designing gallium-nitride power amplifiers and RF front-end ICs (amplifiers, active-antenna
-      components, switches) for radar, satellite communication and wireless networks. Production status not disclosed.
+    significance: Hyderabad startup founded in 2024 to design gallium-nitride power amplifiers and RF front-end ICs (amplifiers,
+      beamformers, switches) for radar, satellite communication and wireless networks; lists support under the Startup India
+      Seed Fund Scheme. Its site lists product categories but no part numbers, and says product images are conceptual. Production
+      status not disclosed.
     what_it_designs: GaN power amplifiers, RF switches and front-end ICs for radar, satcom and 5G.
   sources:
   - url: https://sigansemi.com/
@@ -3647,20 +4176,25 @@ design_firms:
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
   website: https://sigansemi.com
+  score_notes:
+    ip_ownership: 'IP ownership 4: claims own GaN PA and front-end designs; generous given no disclosed parts.'
+    design_completeness: 'Design completeness 2: product categories only, images labelled conceptual; no tape-out reported.'
+    domain_difficulty: 'Domain difficulty 4: GaN PAs and RF front-end/beamformer ICs for radar and satcom.'
+    market_readiness: 'Market readiness 1: no part numbers, samples or customers disclosed.'
 - id: signitude
   name: Signitude
   category: Indian Fabless
   dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2023
   india_headcount: null
   locations:
   - city: Bengaluru
     state: Karnataka
     lat: 12.972
     lon: 77.594
-  product_focus: Fabless chips built on in-house IP (details not public)
+  product_focus: Power-management ICs (synchronous buck converter, linear LED driver) and analog/mixed-signal IP
   application_domains: []
   design_scope: Full chip
   node_sophistication: null
@@ -3669,8 +4203,10 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Bengaluru (Whitefield) firm describing itself as a fabless semiconductor company building on its own IP
-      to address system-level cost. Product details not public.
+    significance: 'Bengaluru (Whitefield) fabless firm incorporated in June 2023 (directors Nitin and Parul Gupta). Lists
+      two power ICs with full specs: a 4.5-28 V, 3 A synchronous buck converter (SIGBPCMV3X) and a 2.5-60 V linear LED driver
+      (SIGLLNHVFX), aimed at automotive, industrial and consumer uses. Also offers analog, mixed-signal and digital IP and
+      design services. No tape-out or customer publicly reported.'
     what_it_designs: Not yet disclosed.
   sources:
   - url: http://www.signitude.com
@@ -3679,21 +4215,34 @@ design_firms:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
+  - url: https://www.falconebiz.com/company/SIGNITUDE-PRIVATE-LIMITED-U26103KA2023PTC175048
+    title: Signitude Pvt Ltd — company registration details (MCA-derived)
+    date: null
   website: http://www.signitude.com
+  design_score:
+    ip_ownership: 3
+    design_completeness: 2
+    domain_difficulty: 3
+    market_readiness: 1
+  score_notes:
+    ip_ownership: 'IP ownership 3: claims in-house analog IP; standard buck and LED-driver architectures.'
+    design_completeness: 'Design completeness 2: datasheet-level specs for two parts; no tape-out or silicon reported.'
+    domain_difficulty: 'Domain difficulty 3: high-voltage analog power ICs; established product categories.'
+    market_readiness: 'Market readiness 1: no samples, distribution or customers for its chips disclosed.'
 - id: struent-semi
   name: Struent Semiconductors
   category: Indian Fabless
   dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2021
   india_headcount: null
   locations:
   - city: Chennai
     state: Tamil Nadu
     lat: 13.083
     lon: 80.271
-  product_focus: Audio ICs and processors; semiconductor engineering services
+  product_focus: Edge-AI audio processor chips; spec-to-GDSII design services
   application_domains:
   - Consumer
   - Audio
@@ -3710,8 +4259,10 @@ design_firms:
     product: null
     grant_inr: null
   narrative:
-    significance: Chennai firm that lists its own audio chip products (STRU-SVP-01-ES, STRU-ACP-01-ES, STRU-AP-01-ES) alongside
-      spec-to-GDSII engineering services.
+    significance: Chennai firm founded in May 2021 by CEO Hiram Prasanna Samuel. Mainly a spec-to-GDSII engineering-services
+      house (RTL to physical design, analog layout, test chips), and it claims '10+ first-silicon successes', presumably on
+      client projects. Lists its own edge-AI audio processor products (STRU-SVP-01-ES, STRU-ACP-01-ES, STRU-AP-01-ES) with
+      no public specs or silicon status. No outside funding reported.
     what_it_designs: Audio processing chips plus design services for clients.
   sources:
   - url: https://struentsemi.com/
@@ -3720,14 +4271,22 @@ design_firms:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
+  - url: https://anysilicon.com/ceo-talk-hiram-prasanna-samuel-struent-semiconductors/
+    title: 'CEO Talk: Hiram Prasanna Samuel, Struent Semiconductors — AnySilicon'
+    date: null
   website: https://struentsemi.com
+  score_notes:
+    ip_ownership: 'IP ownership 3: own audio products claimed; architecture and licensed-core content undisclosed.'
+    design_completeness: 'Design completeness 2: three named audio parts (''-ES'' suffix) but no tape-out or silicon reported.'
+    domain_difficulty: 'Domain difficulty 3: audio DSP/edge-AI processors with analog front ends; moderate complexity.'
+    market_readiness: 'Market readiness 1: no samples or customers for own chips; first-silicon claims relate to services.'
 - id: vellore-semicon
   name: Vellore Semicon
-  category: Indian Fabless
+  category: Design Services
   dli_support: Listed as DLI beneficiary
   parent_company: null
   parent_hq: null
-  founded: null
+  founded: 2025
   india_headcount: null
   locations:
   - city: Bengaluru
@@ -3739,15 +4298,17 @@ design_firms:
   - Defence
   - Automotive
   - Industrial
-  design_scope: Full chip + services
+  design_scope: Design services
   node_sophistication: null
   dli:
     approved: false
     product: null
     grant_inr: null
   narrative:
-    significance: Bengaluru (Indiranagar) firm offering end-to-end IC design, custom IP and pin-to-pin compatible replacement
-      chips for defence, automotive and industrial customers, plus an ESD-monitoring product. Mix of products and services.
+    significance: Bengaluru (Indiranagar) firm, incorporated Jan 2025 per registry data, offering end-to-end IC design services,
+      custom IP and pin-to-pin compatible replacement ICs (no parts named). Its one detailed product is 'ESD Monitron', a
+      factory ESD-monitoring hardware and software system, not a chip. Says it is DLI-approved. No chip tape-out, part or
+      customer publicly reported.
     what_it_designs: Pin-to-pin compatible ICs, power-gate and custom IP, and ESD-monitoring systems.
   sources:
   - url: https://velloresemicon.com/
@@ -3756,6 +4317,9 @@ design_firms:
   - url: https://chips-dli.gov.in/DLI/HomePage
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
+  - url: https://tracxn.com/d/legal-entities/india/velloresemicon-private-limited/__cVPt1QSRaM6C-TcNRzi9SDbZLb-lYwOUWn2nyP5pQWE
+    title: Velloresemicon Pvt Ltd — Tracxn legal-entity profile
+    date: null
   website: https://velloresemicon.com
 - id: sophic-silicon
   name: Sophic Silicon
@@ -4431,8 +4995,8 @@ design_firms:
     product: null
     grant_inr: null
   c2s:
-    partner: "Dr. Mahalingam College of Engineering and Technology, Coimbatore"
-    project: "16-channel neural signal amplifier front end for EEG (SCL 180nm)"
+    partner: Dr. Mahalingam College of Engineering and Technology, Coimbatore
+    project: 16-channel neural signal amplifier front end for EEG (SCL 180nm)
   narrative:
     significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
       chips of its own, on current evidence. Respiratory-care and biomedical test devices.
@@ -4698,8 +5262,8 @@ design_firms:
     product: null
     grant_inr: null
   c2s:
-    partner: "Cambridge Institute of Technology, Bengaluru (with BMSCE, REVA, SNS)"
-    project: "Ground penetrating radar with on-field reconfiguration"
+    partner: Cambridge Institute of Technology, Bengaluru (with BMSCE, REVA, SNS)
+    project: Ground penetrating radar with on-field reconfiguration
   narrative:
     significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
       its own found.
@@ -5275,8 +5839,8 @@ design_firms:
     product: null
     grant_inr: null
   c2s:
-    partner: "VES Institute of Technology, Mumbai"
-    project: "Programmable gain amplifier and reconfigurable ADC SoCs"
+    partner: VES Institute of Technology, Mumbai
+    project: Programmable gain amplifier and reconfigurable ADC SoCs
   narrative:
     significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
       (November 2026); not yet classified.

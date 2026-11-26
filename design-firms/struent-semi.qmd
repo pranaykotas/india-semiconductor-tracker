@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Chennai firm that lists its own audio chip products (STRU-SVP-01-ES, STRU-ACP-01-ES, STRU-AP-01-ES) alongside spec-to-GDSII engineering services.
+Chennai firm founded in May 2021 by CEO Hiram Prasanna Samuel. Mainly a spec-to-GDSII engineering-services house (RTL to physical design, analog layout, test chips), and it claims '10+ first-silicon successes', presumably on client projects. Lists its own edge-AI audio processor products (STRU-SVP-01-ES, STRU-ACP-01-ES, STRU-AP-01-ES) with no public specs or silicon status. No outside funding reported.
 :::
 
 ## What does this firm design?
@@ -19,10 +19,10 @@ Audio processing chips plus design services for clients.
 |---|---|
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2021 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Chennai |
-| **Product Focus** | Audio ICs and processors; semiconductor engineering services |
+| **Product Focus** | Edge-AI audio processor chips; spec-to-GDSII design services |
 | **Application Domains** | Consumer, Audio, Automotive |
 | **Design Scope** | Full chip + services |
 | **Node Sophistication** | Not applicable / not disclosed |
@@ -36,16 +36,24 @@ Audio processing chips plus design services for clients.
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, IP ownership 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 1.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 1.5/5 | Design completeness 2, market readiness 1 |
 
+**Why these scores**
+
+- **Domain difficulty 3/5:** Domain difficulty 3: audio DSP/edge-AI processors with analog front ends; moderate complexity.
+- **IP ownership 3/5:** IP ownership 3: own audio products claimed; architecture and licensed-core content undisclosed.
+- **Design completeness 2/5:** Design completeness 2: three named audio parts ('-ES' suffix) but no tape-out or silicon reported.
+- **Market readiness 1/5:** Market readiness 1: no samples or customers for own chips; first-silicon claims relate to services.
+
 ## Sources
 
 - [Struent Semiconductors — products and services](https://struentsemi.com/)
 - [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+- [CEO Talk: Hiram Prasanna Samuel, Struent Semiconductors — AnySilicon](https://anysilicon.com/ceo-talk-hiram-prasanna-samuel-struent-semiconductors/)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Struent Semiconductors**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Struent%20Semiconductors&firm-name=Struent%20Semiconductors&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

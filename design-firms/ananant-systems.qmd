@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Noida-headquartered (IIT Kanpur outreach centre) with offices in Bengaluru and San Diego; founder and CEO Amiya Pathak (earlier built ZipDial). The company says its Gen 1 5G small-cell connectivity chip is in production and supplied with its L1 software and femto system; Gen 2, combining connectivity and perception on one die, has a tape-out plan in place, with samples to OEMs targeted for H2 2027.
+Noida-headquartered, with offices in Bengaluru and San Diego; founded in 2023 by Chitranjan (Chitu) Singh, founder, CEO and chief architect. Said in May 2024 it was working with telecom OEMs to supply chips for BSNL's planned 5G network. Its website says Gen 1 5G small-cell connectivity silicon has been in production since 2026 and Gen 2 (connectivity plus perception on one die) was committed to tape-out in July 2026, with OEM sampling targeted for H2 2027. The production claim is self-reported. Reported in Sept 2026 to be seeking about $5 million.
 :::
 
 ## What does this firm design?
@@ -19,7 +19,7 @@ Deterministic RISC-V/DSP compute and 5G small-cell connectivity chips, with a pe
 |---|---|
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2023 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Noida, Bengaluru |
 | **Product Focus** | RISC-V/DSP silicon for 5G small cells and industrial edge perception |
@@ -36,16 +36,26 @@ Deterministic RISC-V/DSP compute and 5G small-cell connectivity chips, with a pe
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Domain difficulty 4: 5G small-cell baseband/L1 plus RISC-V/DSP compute; hard but not RF/mmWave front-end.
+- **IP ownership 4/5:** IP ownership 4: claims in-house deterministic RISC-V/DSP architecture, L1 software and IP, 'developed and owned in India'.
+- **Design completeness 3/5:** Design completeness 3: company says Gen 1 silicon in production; no independent confirmation of tape-out or silicon.
+- **Market readiness 2/5:** Market readiness 2: OEM partnerships for BSNL 5G reported in 2024; no named customers or shipments.
+
 ## Sources
 
 - [Ananant Systems — products, roadmap and offices](https://ananantsys.com/)
 - [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+- [Ananant Systems working with local OEMs to develop BSNL's 5G chip — tele.net](https://tele.net.in/ananant-systems-working-with-local-oems-to-develop-bsnls-5g-chip/) (21 May 2024)
+- [Ananant Systems joins India Electronics and Semiconductor Association to drive innovation — DT Next](https://www.dtnext.in/news/business/ananant-systems-joins-india-electronics-and-semiconductor-association-to-drive-innovation-785865) (20 May 2024)
+- [Ananant Systems Seeks $5 Million to Build India's 5G and 6G Chip Future — Newskart](https://www.newskart.com/ananant-systems-seeks-5-million-to-build-indias-5g-and-6g-chip-future/) (02 Sep 2026)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Ananant Systems**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Ananant%20Systems&firm-name=Ananant%20Systems&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

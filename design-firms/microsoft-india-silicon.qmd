@@ -21,7 +21,7 @@ Silicon engineering for Azure custom chips, including design verification, physi
 | **Parent Company** | Microsoft Corporation (United States) |
 | **Founded** | 2019 |
 | **India Headcount** | Not publicly disclosed |
-| **Locations** | Bengaluru, Hyderabad |
+| **Locations** | Bengaluru, Hyderabad, Noida |
 | **Product Focus** | Custom AI accelerators, Arm-based cloud processors |
 | **Application Domains** | Cloud, AI/ML, Data Centre |
 | **Design Scope** | Subsystem |
@@ -36,6 +36,13 @@ Silicon engineering for Azure custom chips, including design verification, physi
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 5, strategic depth 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, India scale 2 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Leading-edge AI accelerators and Arm server CPUs for Azure.
+- **Strategic depth 3/5:** India roles (design, PD, DV, firmware, CAD) support Redmond-led Cobalt and Maia programmes.
+- **Design completeness 3/5:** Postings span logic design, physical design and verification; no India-owned full chip reported.
+- **India scale 2/5:** No public headcount; score kept as an estimate, not verified.
+
 ## Sources
 
 - [Microsoft Bengaluru careers — silicon engineering roles](https://careers.microsoft.com/v2/global/en/locations/bengaluru.html) (01 Jan 2026)
@@ -44,7 +51,7 @@ Silicon engineering for Azure custom chips, including design verification, physi
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Microsoft India (Silicon Engineering)**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Microsoft%20India%20%28Silicon%20Engineering%29&firm-name=Microsoft%20India%20%28Silicon%20Engineering%29&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

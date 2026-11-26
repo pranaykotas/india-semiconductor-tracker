@@ -36,6 +36,13 @@ NB-IoT and non-terrestrial-network (satellite) IoT SoCs, plus FPGA-based 5G RAN 
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 4, IP ownership 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** NB-IoT and satellite-IoT modem SoCs plus 5G RAN platforms.
+- **IP ownership 3/5:** Koala SoC built on a licensed CEVA Dragonfly platform, with Cyient handling IC design and production.
+- **Design completeness 4/5:** Koala NB-IoT SoC announced in June 2021, with Cyient handling production.
+- **Market readiness 3/5:** Koala announced as a product; its 5G radios are FPGA-based; the DLI SoC is still in development.
+
 ## Sources
 
 - [DLI — Applications approved for financial support (PDLI), MeitY](https://chips-dli.gov.in/DLI/financialSupport) (25 Nov 2026)
@@ -47,7 +54,7 @@ NB-IoT and non-terrestrial-network (satellite) IoT SoCs, plus FPGA-based 5G RAN 
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for WiSig Networks**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20WiSig%20Networks&firm-name=WiSig%20Networks&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

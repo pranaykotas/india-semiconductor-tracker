@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-One of the earliest and largest semiconductor design operations in India. Hyderabad is Qualcomm's largest engineering centre outside San Diego.
+One of the earliest and largest semiconductor design operations in India. Hyderabad is Qualcomm's largest engineering centre outside San Diego. Qualcomm announced a 2nm tape-out by its Bengaluru, Chennai and Hyderabad teams on 2026-02-07, then began India layoffs reportedly affecting about 1,000 roles from November 2026.
 :::
 
 ## What does this firm design?
@@ -20,7 +20,7 @@ Snapdragon mobile SoCs, 5G modem chipsets, AI/ML inference engines, and automoti
 | **Category** | GCC Design Centre |
 | **Parent Company** | Qualcomm Inc. (United States) |
 | **Founded** | 1996 |
-| **India Headcount** | ~7,000 |
+| **India Headcount** | ~16,000 |
 | **Locations** | Hyderabad, Bengaluru, Chennai, Noida |
 | **Product Focus** | Mobile SoCs, 5G modems, AI accelerators |
 | **Application Domains** | Mobile, 5G, AI, Automotive |
@@ -36,15 +36,26 @@ Snapdragon mobile SoCs, 5G modem chipsets, AI/ML inference engines, and automoti
 | **Ambition** | <span class="complexity-bar" title="Ambition: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Domain difficulty 5, strategic depth 5 |
 | **Progress** | <span class="complexity-bar" title="Progress: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> 5/5 | Design completeness 5, India scale 5 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Leading-edge mobile SoCs, 5G modems and RF at 2nm/3nm.
+- **Strategic depth 5/5:** India centres form Qualcomm's largest engineering footprint outside the US; contribute across full Snapdragon design cycle.
+- **Design completeness 5/5:** Indian teams taped out a 2nm design in Feb 2026, the final pre-manufacturing design stage.
+- **India scale 5/5:** About 16,000 employees incl. contract staff (2022); ~20,000 estimated in Nov 2026 reporting.
+
 ## Sources
 
 - [Qualcomm India operations](https://www.qualcomm.com/company/locations/india) (01 Jan 2026)
+- [Qualcomm India on a hiring spree for its Chennai facility (DT Next)](https://www.dtnext.in/amp/story/news/business/qualcomm-india-on-a-hiring-spree-for-its-chennai-facility) (21 May 2022)
+- [Qualcomm tapes out 2nm chip design with its Indian design labs (Business Today)](https://www.businesstoday.in/amp/technology/news/story/qualcomms-tapes-out-2nm-chip-design-with-their-indian-design-labs-515107-2026-02-07) (07 Feb 2026)
+- [Qualcomm 2nm chip design milestone in India signals deeper engineering role (DQ Channels)](https://www.dqchannels.com/news/qualcomm-2nm-chip-design-milestone-in-india-signals-deeper-engineering-role-11088870) (09 Feb 2026)
+- [Qualcomm layoffs hit India: Bengaluru, Hyderabad hit as 1,000 jobs face uncertainty (GoodReturns)](https://www.goodreturns.in/news/qualcomm-layoffs-hit-india-bengaluru-hyderabad-hit-as-1000-jobs-face-uncertainty-senior-engineer-1546395.html) (11 Nov 2026)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Qualcomm India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Qualcomm%20India&firm-name=Qualcomm%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

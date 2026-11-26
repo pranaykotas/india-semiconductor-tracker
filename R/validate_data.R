@@ -77,6 +77,9 @@ for (x in des) {
   # A PDLI grant must match the dli block, and vice versa
   if (!is.null(x$dli$approved) && isTRUE(x$dli$approved) != identical(x$dli_support, "PDLI grant"))
     err("design.yml", id, "dli_support and dli.approved disagree")
+  # score_notes keys must name a score the firm actually has
+  for (k in names(x$score_notes %||% list())) if (is.null(x$design_score[[k]]))
+    err("design.yml", id, sprintf("score_notes.%s has no matching design_score", k))
   check_sources("design.yml", id, x$sources)
 }
 

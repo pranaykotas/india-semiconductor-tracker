@@ -19,9 +19,9 @@ STM32 microcontrollers, MEMS inertial sensors and microphones, power management 
 |---|---|
 | **Category** | GCC Design Centre |
 | **Parent Company** | STMicroelectronics N.V. (Switzerland) |
-| **Founded** | 2003 |
+| **Founded** | 1989 |
 | **India Headcount** | ~2,500 |
-| **Locations** | Noida, Bengaluru |
+| **Locations** | Greater Noida, Bengaluru |
 | **Product Focus** | MCUs, MEMS sensors, analog, power |
 | **Application Domains** | Automotive, Industrial, IoT, Consumer |
 | **Design Scope** | Full chip |
@@ -36,15 +36,24 @@ STM32 microcontrollers, MEMS inertial sensors and microphones, power management 
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, strategic depth 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Design completeness 5, India scale 3 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** MCUs, analog, MEMS and power; some AI accelerator work.
+- **Strategic depth 4/5:** Greater Noida is ST's largest design centre outside Europe; has produced designed-in-India chips.
+- **Design completeness 5/5:** Current postings cover RTL design leadership, analog design, AI accelerator digital design and validation.
+- **India scale 3/5:** No 2024–26 India figure found; 1,500 in 2006 on a 5,000-capacity campus; 2,500 unverified.
+
 ## Sources
 
 - [ST in India](https://www.st.com/content/st_com/en/about/st_company_information/st-in-india.html) (01 Jan 2026)
+- [STMicroelectronics inaugurates its new design campus in India (Design & Reuse)](https://www.design-reuse.com/news/12630/stmicroelectronics-inaugurates-design-campus-india.html) (20 Feb 2006)
+- [ST Greater Noida: largest design centre outside Europe (Evertiq)](https://evertiq.com/news/6100) (11 Dec 2006)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for STMicroelectronics India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20STMicroelectronics%20India&firm-name=STMicroelectronics%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

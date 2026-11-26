@@ -34,7 +34,14 @@ Software-defined radio SoCs for broadcast (ATSC 3.0, 5G broadcast), satellite-te
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 4, IP ownership 5 |
-| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 4, market readiness 3 |
+| **Progress** | <span class="complexity-bar" title="Progress: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Design completeness 5, market readiness 4 |
+
+**Why these scores**
+
+- **Domain difficulty 4/5:** Software-defined radio SoCs for broadcast, satellite and 5G baseband.
+- **IP ownership 5/5:** Own Pruthvi SDR chip family, developed in-house since 2015.
+- **Design completeness 5/5:** Pruthvi chips launched in 2015; Pruthvi-3 on 28nm FD-SOI followed in 2018.
+- **Market readiness 4/5:** Clients include ISRO and BEL with Rs 75 crore turnover; the DLI 5G SoC is still in development.
 
 ## Sources
 
@@ -47,7 +54,7 @@ Software-defined radio SoCs for broadcast (ATSC 3.0, 5G broadcast), satellite-te
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Saankhya Labs**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Saankhya%20Labs&firm-name=Saankhya%20Labs&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

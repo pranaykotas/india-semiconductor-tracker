@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-MediaTek's India centre contributes to Dimensity mobile SoC and connectivity chip design. India is a growing design hub for the Taiwanese chipmaker.
+MediaTek's India centre contributes to Dimensity mobile SoC and connectivity chip design. India is a growing design hub for the Taiwanese chipmaker. MediaTek opened a second 1.04 lakh sq ft R&D centre at BPTP Capital City, Sector 94, Noida, on a 10-year lease worth about Rs 144 crore (reported 2026-05-11).
 :::
 
 ## What does this firm design?
@@ -36,15 +36,24 @@ Dimensity mobile SoCs, Wi-Fi 7 chipsets, smart TV and streaming media SoCs, and 
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 4, strategic depth 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 4, India scale 2 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Mobile SoCs and Wi-Fi/cellular connectivity.
+- **Strategic depth 3/5:** Contributes to Dimensity and connectivity design; product ownership remains in Taiwan.
+- **Design completeness 4/5:** Bengaluru (2014) focuses on wireless communications; Noida on chip design; block-to-subsystem contributions.
+- **India scale 2/5:** Over 1,000 engineers across Noida and Bengaluru (2024 reporting).
+
 ## Sources
 
 - [MediaTek locations](https://www.mediatek.com/about/locations) (01 Jan 2026)
+- [Taiwan's MediaTek expands India footprint with new Noida R&D centre (IBEF)](https://www.ibef.org/news/taiwan-s-mediatek-expands-india-footprint-with-new-noida-r-d-centre) (11 May 2026)
+- [MediaTek launches R&D center in Bengaluru (MediaTek press release)](https://www.mediatek.com/press-room/mediatek-launches-rd-center-in-bengaluru) (20 Aug 2014)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for MediaTek India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20MediaTek%20India&firm-name=MediaTek%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

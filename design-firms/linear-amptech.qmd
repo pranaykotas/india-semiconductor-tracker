@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Linearized Amplifier Technologies and Services, incubated at IIT Roorkee's iHUB DivyaSampark. Lists a 13–17 GHz 8-bit phase-shifter chip in TSMC 65nm CMOS and a radar front-end chip as products, alongside GaN power-amplifier modules and mm-wave packaging.
+Linearized Amplifier Technologies and Services, formed in Dec 2017 by IIT Roorkee faculty and students (founding director Prof. Karun Rawat) and incubated at iHUB DivyaSampark. Lists a 13-17 GHz 8-bit phase-shifter chip in TSMC 65nm bulk CMOS (1 x 1.38 mm die) and a radar front-end chip, plus GaN-on-SiC MMIC power amplifiers and modules. Won first prize (start-up category) in DRDO's Dare to Dream 4.0 in 2024 for a gunshot-detection system, a non-chip product.
 :::
 
 ## What does this firm design?
@@ -19,7 +19,7 @@ RF front-end chips (phase shifters, radar front-ends, CMOS/BiCMOS RFIC IP), GaN 
 |---|---|
 | **Category** | Indian Fabless |
 | **Parent Company** | None (Indian-origin) |
-| **Founded** | Unknown |
+| **Founded** | 2017 |
 | **India Headcount** | Not publicly disclosed |
 | **Locations** | Roorkee |
 | **Product Focus** | RF front-end ICs: CMOS/BiCMOS RFICs, GaN MMICs, phased-array components |
@@ -36,16 +36,26 @@ RF front-end chips (phase shifters, radar front-ends, CMOS/BiCMOS RFIC IP), GaN 
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 3, market readiness 2 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Domain difficulty 4: Ku-band CMOS phase shifters, radar front-ends and GaN MMIC PAs.
+- **IP ownership 4/5:** IP ownership 4: own RFIC designs from an IIT Roorkee RF research group; standard foundry processes.
+- **Design completeness 3/5:** Design completeness 3: product page gives die size and specs for a TSMC 65nm chip; no independent tape-out report.
+- **Market readiness 2/5:** Market readiness 2: quote-on-request products and modules; no named customers or volume sales.
+
 ## Sources
 
 - [Linear-AmpTech — RF front-end products (incl. 8-bit phase shifter, TSMC 65nm)](https://linear-amptech.com/)
 - [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+- [Dare to Dream 4.0 results — DRDO (Linearized Amplifier Technologies and Services, start-up first prize)](https://www.drdo.gov.in/drdo/sites/default/files/whats_new_document/D2D4_Result22032024.pdf) (22 Mar 2024)
+- [IIT Roorkee-based startup secures top spot in 'Dare to Dream 4.0' contest — IANS](https://ianslive.in/iit-roorkee-based-startup-secures-top-spot-in-dare-to-dream-40-contest--20240501185705) (01 May 2024)
+- [Linearized Amplifier Technologies and Services — Analog Devices partner listing](https://www.analog.com/en/support/our-partners/linearized-amplifier-technologies-and-services-privated-limited.html)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Linear-AmpTech**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Linear-AmpTech&firm-name=Linear-AmpTech&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

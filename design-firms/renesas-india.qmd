@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Renesas India designs automotive microcontrollers and analog ICs. Part of the Japanese chipmaker's global design network for automotive electronics.
+Renesas India designs automotive microcontrollers and analog ICs. Part of the Japanese chipmaker's global design network for automotive electronics. On 2025-05-13 Union Minister Ashwini Vaishnaw inaugurated Renesas' new Noida and Bengaluru design centres, which the government said would work on 3nm chip design (incl. R-Car automotive SoCs).
 :::
 
 ## What does this firm design?
@@ -20,12 +20,12 @@ RH850 and RL78 automotive microcontrollers, analog power management ICs, and IoT
 | **Category** | GCC Design Centre |
 | **Parent Company** | Renesas Electronics Corp. (Japan) |
 | **Founded** | 2010 |
-| **India Headcount** | ~1,000 |
-| **Locations** | Bengaluru, Hyderabad |
+| **India Headcount** | ~850 |
+| **Locations** | Bengaluru, Noida, Hyderabad, Pune |
 | **Product Focus** | Automotive MCUs, analog, IoT connectivity |
 | **Application Domains** | Automotive, Industrial, IoT |
 | **Design Scope** | Full chip |
-| **Node Sophistication** | 22nm |
+| **Node Sophistication** | 3nm |
 | **DLI Support** | — |
 | **C2S Project** | — |
 
@@ -33,18 +33,28 @@ RH850 and RL78 automotive microcontrollers, analog power management ICs, and IoT
 
 | | Score | Made up of |
 |---|---|---|
-| **Ambition** | <span class="complexity-bar" title="Ambition: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Domain difficulty 3, strategic depth 3 |
+| **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 4, strategic depth 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 3/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 3/5 | Design completeness 4, India scale 2 |
+
+**Why these scores**
+
+- **Domain difficulty 4/5:** Raised 3->4: 3nm R-Car automotive SoC work plus analog/power; leading-node automotive is demanding.
+- **Strategic depth 3/5:** Co-develops high-end automotive SoCs with other geographies; India does not own product lines outright.
+- **Design completeness 4/5:** Multiple chip design teams cover MCU, analog and SoC work, including end-to-end 3nm design per MeitY.
+- **India scale 2/5:** About 850 staff across four sites (Sept 2025), target 1,000 by end-2025.
 
 ## Sources
 
 - [Renesas global locations](https://www.renesas.com/en/about/company/locations) (01 Jan 2026)
+- [Renesas Showcases Automotive Semiconductor Solutions at Electronica India 2025](https://www.autocarpro.in/news/renesas-showcases-automotive-semiconductor-solutions-at-electronica-india-2025-128775) (19 Sep 2025)
+- [India Gets First 3nm Chip Design Centres in Noida and Bengaluru](https://analyticsindiamag.com/ai-news-updates/india-gets-first-3nm-chip-design-centres-in-noida-and-bengaluru) (13 May 2025)
+- [India Re-emerges as a Global Semiconductor Growth Engine (Renesas blog)](https://www.renesas.com/en/blogs/india-re-emerges-global-semiconductor-growth-engine) (07 Oct 2024)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Renesas Electronics India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Renesas%20Electronics%20India&firm-name=Renesas%20Electronics%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

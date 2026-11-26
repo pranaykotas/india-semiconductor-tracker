@@ -36,15 +36,23 @@ Image sensor ICs for automotive ADAS and industrial machine vision, power manage
 | **Ambition** | <span class="complexity-bar" title="Ambition: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Domain difficulty 4, strategic depth 3 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 4, India scale 1 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Image sensors, GaN drivers and power/analog ICs.
+- **Strategic depth 3/5:** Bengaluru design centre supports global sensing and analog groups; no India product ownership reported.
+- **Design completeness 4/5:** Active analog, digital IC, layout and validation hiring suggests full-chip capability.
+- **India scale 1/5:** No verified headcount; 400 is unconfirmed and kept as estimate.
+
 ## Sources
 
 - [onsemi Bangalore India](https://www.onsemi.com/company/about-onsemi/locations/bangalore-india) (01 Jan 2026)
+- [onsemi Bangalore, India location page](https://www.onsemi.com/company/about-onsemi/locations-hidden/bangalore-india)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for onsemi India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20onsemi%20India&firm-name=onsemi%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

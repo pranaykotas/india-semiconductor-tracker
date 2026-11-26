@@ -19,8 +19,8 @@ Precision data converters (ADC/DAC), amplifiers, power management, RF transceive
 |---|---|
 | **Category** | GCC Design Centre |
 | **Parent Company** | Analog Devices Inc. (United States) |
-| **Founded** | 1998 |
-| **India Headcount** | ~2,000 |
+| **Founded** | 1995 |
+| **India Headcount** | ~1,500 |
 | **Locations** | Bengaluru, Hyderabad |
 | **Product Focus** | High-performance analog, mixed-signal, DSP |
 | **Application Domains** | Industrial, Automotive, Healthcare, Communications |
@@ -36,15 +36,25 @@ Precision data converters (ADC/DAC), amplifiers, power management, RF transceive
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4.5/5 | Domain difficulty 5, strategic depth 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 5, India scale 2 |
 
+**Why these scores**
+
+- **Domain difficulty 5/5:** Precision converters, RF and power analog are among the hardest design domains.
+- **Strategic depth 4/5:** Bengaluru reported as ADI's third-largest design centre globally, after the US and Ireland.
+- **Design completeness 5/5:** Long-running product development centre with full analog/mixed-signal design teams; kept.
+- **India scale 2/5:** About 1,500 staff incl. 1,200 engineers (July 2024); upper end of score 2.
+
 ## Sources
 
 - [Analog Devices locations](https://www.analog.com/en/about-adi/our-locations.html) (01 Jan 2026)
+- [Analog Devices expands its presence in India with new centre in Hyderabad](https://www.bizzbuzz.news/industry/auto/analog-devices-expands-its-presence-in-india-with-new-centre-in-hy-1327778) (11 Jul 2024)
+- [US-Based Analog Devices Boosts India Staff By 30%](https://www.electronicsforyou.biz/industry-buzz/us-based-analog-devices-boosts-india-staff-by-30/) (11 Jul 2024)
+- [Transforming analog to digital (Deccan Herald)](https://www.deccanherald.com/business/transforming-analog-digital-672050.html)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Analog Devices India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Analog%20Devices%20India&firm-name=Analog%20Devices%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

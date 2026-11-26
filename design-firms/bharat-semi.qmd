@@ -36,6 +36,13 @@ Programmable image sensors that integrate capture, signal processing and AI infe
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, IP ownership 4 |
 | **Progress** | <span class="complexity-bar" title="Progress: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> 2.5/5 | Design completeness 2, market readiness 3 |
 
+**Why these scores**
+
+- **Domain difficulty 4/5:** Programmable AI image sensors and single-photon low-light CMOS sensors.
+- **IP ownership 4/5:** Own sensor architecture integrating capture, processing and AI inference on one chip.
+- **Design completeness 2/5:** Gen-1 sensor in prototyping; Gen-2 prototypes expected mid-2027.
+- **Market readiness 3/5:** Design wins with General Atomics and Kaynes Semicon; $24M seed in November 2026.
+
 ## Sources
 
 - [List of proposals selected under C2S — MeitY Chips to Startup programme](https://c2s.gov.in/list_of_proposals_selected_under_c2s.jsp) (26 Nov 2026)
@@ -53,7 +60,7 @@ Programmable image sensors that integrate capture, signal processing and AI infe
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Bharat Semi (3rdiTech, DV2JS Innovation)**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Bharat%20Semi%20%283rdiTech%2C%20DV2JS%20Innovation%29&firm-name=Bharat%20Semi%20%283rdiTech%2C%20DV2JS%20Innovation%29&category=Indian%20Fabless&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

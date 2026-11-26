@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Infineon's Bengaluru centre is a core design hub for power management and automotive microcontroller development.
+Infineon's Bengaluru centre is a core design hub for power management and automotive microcontroller development. Infineon opened a GCC at GIFT City, Ahmedabad (2025-03-24), announced the 630,000 sq ft SILANE campus in Bengaluru for up to 4,500 staff (2025-10-15), and acquired Bengaluru's C2i Semiconductors in 2026.
 :::
 
 ## What does this firm design?
@@ -20,8 +20,8 @@ Power MOSFETs, IGBT modules, AURIX automotive microcontrollers, OPTIGA security 
 | **Category** | GCC Design Centre |
 | **Parent Company** | Infineon Technologies AG (Germany) |
 | **Founded** | 2000 |
-| **India Headcount** | ~2,000 |
-| **Locations** | Bengaluru |
+| **India Headcount** | ~2,500 |
+| **Locations** | Bengaluru, Ahmedabad |
 | **Product Focus** | Power semiconductors, automotive MCUs, security ICs |
 | **Application Domains** | Automotive, Power, IoT, Security |
 | **Design Scope** | Full chip |
@@ -34,17 +34,26 @@ Power MOSFETs, IGBT modules, AURIX automotive microcontrollers, OPTIGA security 
 | | Score | Made up of |
 |---|---|---|
 | **Ambition** | <span class="complexity-bar" title="Ambition: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Domain difficulty 4, strategic depth 4 |
-| **Progress** | <span class="complexity-bar" title="Progress: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 3.5/5 | Design completeness 5, India scale 2 |
+| **Progress** | <span class="complexity-bar" title="Progress: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> 4/5 | Design completeness 5, India scale 3 |
+
+**Why these scores**
+
+- **Domain difficulty 4/5:** Power semiconductors, automotive MCUs and security ICs on mature nodes.
+- **Strategic depth 4/5:** India holds ~2,500 of Infineon's ~11,000 R&D engineers; second-largest R&D hub outside Germany (reported).
+- **Design completeness 5/5:** Company describes India expertise as semiconductor design and software; C2i adds India-owned power products.
+- **India scale 3/5:** More than 2,500 employees across five Indian locations (Infineon, 2025).
 
 ## Sources
 
 - [Infineon global locations](https://www.infineon.com/cms/en/about-infineon/company/locations/) (01 Jan 2026)
+- [Infineon strengthens its position as innovation driver in India with new R&D hub (Infineon via PR Newswire)](https://www.prnewswire.com/in/news-releases/infineon-strengthens-its-position-as-innovation-driver-in-the-semiconductor-industry-in-india-with-new-rd-hub-302409370.html) (24 Mar 2025)
+- [Infineon reinforces its position as key innovation hub in India with new facility in Bengaluru (Infineon via PR Newswire)](https://www.prnewswire.com/in/news-releases/infineon-reinforces-its-position-as-key-innovation-hub-in-india-with-a-new-state-of-the-art-facility-in-bengaluru-302584551.html) (15 Oct 2025)
 
 ---
 
 ::: {.callout-note}
 ## Have an update about this firm?
-If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+Spotted something wrong or out of date? [**Suggest a correction for Infineon Technologies India**](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new?template=design-firm-update.yml&title=%5BDesign%5D%3A%20Correction%20for%20Infineon%20Technologies%20India&firm-name=Infineon%20Technologies%20India&category=GCC%20Design%20Centre&update-type=Correction%20to%20existing%20data) (opens a short GitHub form with this firm filled in), or [use our Google form](https://forms.gle/FDESu4jRksmr7FTk7).
 :::
 
 <a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>
