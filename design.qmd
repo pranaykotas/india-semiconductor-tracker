@@ -230,14 +230,15 @@ DT::datatable(
 
 ## EDA & IP Providers
 
-These are not chip design firms — they build the electronic design automation (EDA) tools and semiconductor IP blocks that chip designers use. Their India operations are massive, often among the largest R&D centres outside the US, and they train a significant share of India's semiconductor design workforce.
+These are not chip design firms — they build the electronic design automation (EDA) tools and semiconductor IP blocks that chip designers use. **Origin** separates two tiers: India centres of global EDA companies (`r sum(firms$category == "EDA & IP Provider" & !is.na(firms$parent_company))`), which are among their largest R&D centres outside the US and train much of India's design workforce, and Indian-origin IP and EDA firms (`r sum(firms$category == "EDA & IP Provider" & is.na(firms$parent_company))`), most of them small and listed as DLI beneficiaries.
 
 ```{r eda-table, echo=FALSE, warning=FALSE, message=FALSE}
 eda <- firms %>%
   filter(category == "EDA & IP Provider") %>%
   mutate(
     Name = paste0('<a href="design-firms/', id, '.html">', name, '</a>'),
-    Parent = paste0(parent_company, " (", parent_hq, ")"),
+    # Tier: Indian-origin firm vs India centre of a global EDA/IP company
+    Origin = ifelse(is.na(parent_company), "Indian firm", paste0("Global (", parent_company, ", ", parent_hq, ")")),
     Focus = product_focus,
     Scope = design_scope,
     Node = node_sophistication,
@@ -245,7 +246,7 @@ eda <- firms %>%
     `Headcount` = ifelse(is.na(india_headcount), "—", paste0("~", format(india_headcount, big.mark = ","))),
     Locations = cities
   ) %>%
-  select(Name, Parent, Focus, Scope, Node, Est., Headcount, Locations)
+  select(Name, Origin, Focus, Scope, Est., Headcount, Locations)
 
 DT::datatable(
   eda,
@@ -265,21 +266,21 @@ DT::datatable(
 
 ## Design Services & Non-Chip Firms
 
-These firms appear on the Chips-DLI portal or in earlier versions of this tracker, but a review of their own websites (November 2026) found no chip of their own. They offer silicon-engineering services, FPGA-based systems or software. They are not counted as Indian fabless firms and are not scored.
+Most of these firms are on the Chips-DLI portal's beneficiary list, but a review of their own websites (November 2026) found no chip of their own. **Type** says why: *Integrator / systems* (products built on others' chips, or not a semiconductor business), *Design services*, *Unclear product* (may design chips; too little is public) or *Site down* (not yet classified). They are not counted as Indian fabless firms and are not scored. The monthly sweep checks each for news, such as a tape-out, that would move it into the fabless list.
 
 ```{r services-table, echo=FALSE, warning=FALSE, message=FALSE}
 services <- firms %>%
   filter(category == "Design Services") %>%
   mutate(
     Name = paste0('<a href="design-firms/', id, '.html">', name, '</a>'),
+    Type = design_scope,
     Focus = product_focus,
-    Scope = design_scope,
-    Locations = cities
+    Locations = ifelse(cities == "", "—", cities)
   ) %>%
-  select(Name, Focus, Scope, Locations)
+  select(Name, Type, Focus, Locations)
 
 DT::datatable(services, escape = FALSE, rownames = FALSE,
-  options = list(pageLength = 10, dom = 't', order = list(list(0, 'asc'))),
+  options = list(pageLength = 15, dom = 'ftip', order = list(list(1, 'asc'), list(0, 'asc'))),
   class = "display compact stripe")
 ```
 

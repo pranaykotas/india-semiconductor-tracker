@@ -1,0 +1,47 @@
+---
+title: "Vanik Semiconductors"
+subtitle: "Design Services"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than chips of its own, on current evidence. Plans a fab; no design product.
+:::
+
+## What does this firm design?
+
+Plans a fab; no design product.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Design Services |
+| **Parent Company** | None (Indian-origin) |
+| **Founded** | Unknown |
+| **India Headcount** | Not publicly disclosed |
+| **Locations** | Not yet documented |
+| **Product Focus** | Plans a fab; no design product |
+| **Application Domains** | Not yet documented |
+| **Design Scope** | Integrator / systems |
+| **Node Sophistication** | Not applicable / not disclosed |
+| **DLI Support** | Listed as DLI beneficiary on chips-dli.gov.in (no PDLI grant) |
+
+### Design Scores
+
+*Not yet scored.*
+
+## Sources
+
+- [Vanik Semiconductors — company website](https://vaniksemi.com)
+- [DLI Beneficiaries — Chips-DLI portal, MeitY](https://chips-dli.gov.in/DLI/HomePage) (26 Nov 2026)
+
+---
+
+::: {.callout-note}
+## Have an update about this firm?
+If you have new information, a correction, or a source to add, please [submit it via our form](https://forms.gle/FDESu4jRksmr7FTk7) or [open a GitHub Issue](https://github.com/pranaykotas/india-semiconductor-tracker/issues/new/choose).
+:::
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

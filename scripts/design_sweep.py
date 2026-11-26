@@ -101,7 +101,7 @@ Takshashila Institution).
 {design_summary}
 ```
 
-## Watchlist: DLI-listed firms not yet tracked (with why they were left out)
+## Watchlist: Design Services & non-chip firms (type = why they are not counted as chip designers)
 
 ```yaml
 {watchlist}
@@ -151,14 +151,14 @@ For each tracked firm with new information:
 ### Watchlist firms
 
 For each watchlist firm that appears in the search results, say whether the news
-changes the decision to leave it out (e.g. a tape-out or own chip product for an
-"Integrator / systems" or "Design services" firm, a confirmed location for
-"Location unverified", product details for "Unclear product"). Format:
+changes its classification (e.g. a tape-out or own chip product for an
+"Integrator / systems" or "Design services" firm, product details for
+"Unclear product", a working website for "Site down"). Format:
 
-**[Firm name]** — current reason: [reason]
+**[Firm name]** — current type: [type]
 - What's new: 1-2 sentences
 - Source: [URL] (date)
-- Recommendation: Add as Indian Fabless / Add as EDA & IP Provider / Keep watching
+- Recommendation: Move to Indian Fabless / Move to EDA & IP Provider / Keep as is
 
 Omit watchlist firms with no news.
 
@@ -242,13 +242,12 @@ def resolve_google_news_url(url: str) -> str:
     return url
 
 
-def load_watchlist(path: str = "data/design_watchlist.yml") -> list[dict]:
-    """DLI-listed firms we have not added yet; the sweep checks them for news every month."""
-    try:
-        with open(path) as f:
-            return (yaml.safe_load(f) or {}).get("firms", [])
-    except FileNotFoundError:
-        return []
+def load_watchlist(design_yaml: str) -> list[dict]:
+    """Design Services & non-chip firms (mostly from the DLI beneficiary list). The sweep checks each
+    for news that would justify reclassifying it as a chip designer or IP vendor."""
+    firms = yaml.safe_load(design_yaml).get("design_firms", [])
+    return [{"name": f["name"], "type": f.get("design_scope"), "focus": f.get("product_focus")}
+            for f in firms if f.get("category") == "Design Services"]
 
 
 def watchlist_queries(watchlist: list[dict]) -> list[str]:
@@ -336,9 +335,9 @@ def build_data_gaps(design_yaml: str) -> str:
         "Only one source": [f for f in firms if len(f.get("sources") or []) < 2],
     }
     dli_count = sum(1 for f in firms if (f.get("dli") or {}).get("approved"))
-    watch = load_watchlist()
+    watch = load_watchlist(design_yaml)
     lines = ["### Data gaps in design.yml", "",
-             f"- Watchlist (DLI-listed firms not yet added, data/design_watchlist.yml): **{len(watch)}**", "",
+             f"- Design Services & non-chip firms watched for reclassification: **{len(watch)}**", "",
              (f"- DLI-approved firms in tracker: **{dli_count}** "
               "(official PDLI list: 24 projects from 23 firms - Netrasemi has two; reconcile if these differ)"), ""]
     for label, items in checks.items():
@@ -354,7 +353,7 @@ def to_html(subject: str, digest_md: str) -> str:
 
 def generate_sweep(design_yaml: str, today: str) -> str:
     print(f"  Fetching search snippets ({LOOKBACK_DAYS}-day lookback)...")
-    watchlist = load_watchlist()
+    watchlist = load_watchlist(design_yaml)
     search_results = fetch_snippets(QUERIES + watchlist_queries(watchlist), max_results=3)
 
     design_summary = build_design_summary(design_yaml)

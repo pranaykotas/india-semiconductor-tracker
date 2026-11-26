@@ -97,9 +97,9 @@ External contributors submit updates via GitHub Issues using the template at `.g
 - `format_equipment_investment(inr, usd_m)` — formats ₹ crore and/or $ million investment figures
 - `equipment_category_color(category)` / `equipment_category_badge(category)` — colour/badge for equipment/materials categories
 
-### Design Watchlist
+### Design Services & Non-Chip Firms
 
-`data/design_watchlist.yml` lists firms on the Chips-DLI beneficiary list that are not yet in `design.yml` (integrators, design-services firms, unclear products, sites down), each with a `reason`. The monthly design sweep searches news for every one and reports anything that changes the decision. When a firm is added to `design.yml`, delete it from the watchlist (the validator flags overlaps).
+`category: Design Services` holds firms (mostly from the Chips-DLI beneficiary list) with no chip of their own. `design_scope` records the type: `Integrator / systems` | `Design services` | `Unclear product` | `Site down`. The monthly design sweep searches news for every one of them and recommends moving any that tape out a chip into `Indian Fabless` (or `EDA & IP Provider`). The EDA & IP table shows an Origin tier derived from `parent_company` (null = Indian firm; set = India centre of a global company).
 
 ### Design Firm Data Schema
 

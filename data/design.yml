@@ -3947,3 +3947,1456 @@ design_firms:
     title: DLI Beneficiaries — Chips-DLI portal, MeitY
     date: '2026-11-26'
   website: https://interexsemi.com
+- id: vicharak
+  name: Vicharak
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: FPGA-based reconfigurable computing boards (Vaaman
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. FPGA-based reconfigurable computing boards (Vaaman.
+    what_it_designs: FPGA-based reconfigurable computing boards (Vaaman.
+  sources:
+  - url: https://vicharak.in
+    title: Vicharak — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://vicharak.in
+- id: astrome
+  name: Astrome
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Satellite and terrestrial communication systems
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Satellite and terrestrial communication systems.
+    what_it_designs: Satellite and terrestrial communication systems.
+  sources:
+  - url: https://astrome.co
+    title: Astrome — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://astrome.co
+- id: asnaviram-networks
+  name: Asnaviram Networks
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Software-defined radio boards and FPGA gateware
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Software-defined radio boards and FPGA gateware.
+    what_it_designs: Software-defined radio boards and FPGA gateware.
+  sources:
+  - url: https://www.asnaviram.in
+    title: Asnaviram Networks — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.asnaviram.in
+- id: syrma-sgs
+  name: Syrma SGS
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Electronics manufacturing services (EMS)
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Electronics manufacturing services (EMS).
+    what_it_designs: Electronics manufacturing services (EMS).
+  sources:
+  - url: https://syrmasgs.com
+    title: Syrma SGS — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://syrmasgs.com
+- id: terafence
+  name: Terafence
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: FPGA-based data diodes
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. FPGA-based data diodes.
+    what_it_designs: FPGA-based data diodes.
+  sources:
+  - url: https://terafence.in
+    title: Terafence — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://terafence.in
+- id: citilight
+  name: CitiLight
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Smart street-lighting IoT controllers
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Smart street-lighting IoT controllers.
+    what_it_designs: Smart street-lighting IoT controllers.
+  sources:
+  - url: https://www.citilight.co
+    title: CitiLight — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.citilight.co
+- id: smartkosh-technologies
+  name: SmartKosh Technologies
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Battery-management systems (boards)
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Battery-management systems (boards).
+    what_it_designs: Battery-management systems (boards).
+  sources:
+  - url: https://www.smartkosh.com
+    title: SmartKosh Technologies — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.smartkosh.com
+- id: synchronous-drives-and-inverters
+  name: Synchronous Drives & Inverters
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: EV motor controllers; says it plans semiconductors
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. EV motor controllers; says it plans semiconductors.
+    what_it_designs: EV motor controllers; says it plans semiconductors.
+  sources:
+  - url: https://syncmotor.com
+    title: Synchronous Drives & Inverters — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://syncmotor.com
+- id: cimware
+  name: CIMware
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Memory-centric top-of-rack data-centre switch
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Memory-centric top-of-rack data-centre switch.
+    what_it_designs: Memory-centric top-of-rack data-centre switch.
+  sources:
+  - url: https://cimware.in
+    title: CIMware — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://cimware.in
+- id: securemachines
+  name: SecureMachines
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Post-quantum HSMs; mentions secure silicon components
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Post-quantum HSMs; mentions secure silicon components.
+    what_it_designs: Post-quantum HSMs; mentions secure silicon components.
+  sources:
+  - url: https://securemachines.in
+    title: SecureMachines — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://securemachines.in
+- id: trispace-technologies
+  name: TriSpace Technologies
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Products built on partner chipsets; thermal/battery IP
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Products built on partner chipsets; thermal/battery IP.
+    what_it_designs: Products built on partner chipsets; thermal/battery IP.
+  sources:
+  - url: https://trispacetech.com
+    title: TriSpace Technologies — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://trispacetech.com
+- id: a-one-defence-and-aerospace
+  name: A-One Defence & Aerospace
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Ammunition
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Ammunition.
+    what_it_designs: Ammunition.
+  sources:
+  - url: https://www.aonedefence.com
+    title: A-One Defence & Aerospace — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.aonedefence.com
+- id: aries-biomed-technology
+  name: Aries Biomed Technology
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Coimbatore
+    state: Tamil Nadu
+    lat: 11.017
+    lon: 76.956
+  product_focus: Respiratory-care and biomedical test devices
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Respiratory-care and biomedical test devices.
+    what_it_designs: Respiratory-care and biomedical test devices.
+  sources:
+  - url: https://www.ariesbiomed.com
+    title: Aries Biomed Technology — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.ariesbiomed.com
+- id: banashree-renewable-energy-systems
+  name: Banashree Renewable Energy Systems
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Battery refurbishment and clean-tech
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Battery refurbishment and clean-tech.
+    what_it_designs: Battery refurbishment and clean-tech.
+  sources:
+  - url: https://banashreesystems.com
+    title: Banashree Renewable Energy Systems — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://banashreesystems.com
+- id: reslink-energy
+  name: Reslink Energy
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Solar design software
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Solar design software.
+    what_it_designs: Solar design software.
+  sources:
+  - url: https://www.reslink.org
+    title: Reslink Energy — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.reslink.org
+- id: adg-catalyst
+  name: ADG Catalyst
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Healthcare consultancy
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Healthcare consultancy.
+    what_it_designs: Healthcare consultancy.
+  sources:
+  - url: https://adgcatalyst.com
+    title: ADG Catalyst — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://adgcatalyst.com
+- id: vanik-semiconductors
+  name: Vanik Semiconductors
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Plans a fab; no design product
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Plans a fab; no design product.
+    what_it_designs: Plans a fab; no design product.
+  sources:
+  - url: https://vaniksemi.com
+    title: Vanik Semiconductors — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://vaniksemi.com
+- id: semicon-design-technologies
+  name: Semicon Design Technologies
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Agritech
+  application_domains: []
+  design_scope: Integrator / systems
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Builds systems or products rather than
+      chips of its own, on current evidence. Agritech.
+    what_it_designs: Agritech.
+  sources:
+  - url: https://semicondesign.com
+    title: Semicon Design Technologies — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://semicondesign.com
+- id: bitsilica
+  name: Bitsilica
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Acquired by Quest Global
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found. Acquired by Quest Global.
+    what_it_designs: Acquired by Quest Global.
+  sources:
+  - url: https://bitsilica.com
+    title: Bitsilica — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://bitsilica.com
+- id: leadsoc
+  name: LeadSoC
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Semiconductor design and verification services
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://leadsoc.com
+    title: LeadSoC — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://leadsoc.com
+- id: keenheads
+  name: KeenHeads
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Semiconductor design and verification services
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://keenheads.com
+    title: KeenHeads — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://keenheads.com
+- id: intsemi-technologies
+  name: IntSemi Technologies
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Semiconductor design and verification services
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://www.intsemi.com
+    title: IntSemi Technologies — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.intsemi.com
+- id: aritrak
+  name: Aritrak
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Semiconductor design and verification services
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://aritrak.com
+    title: Aritrak — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://aritrak.com
+- id: chipextech
+  name: ChipexTech
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Turnkey ASIC; Rambus IP partner
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found. Turnkey ASIC; Rambus IP partner.
+    what_it_designs: Turnkey ASIC; Rambus IP partner.
+  sources:
+  - url: https://chipextech.com
+    title: ChipexTech — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://chipextech.com
+- id: ciliconchip
+  name: Ciliconchip
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Semiconductor design and verification services
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://ciliconchip.com
+    title: Ciliconchip — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://ciliconchip.com
+- id: sicrest-semiconductors
+  name: SiCrest Semiconductors
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Verification and RF validation
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found. Verification and RF validation.
+    what_it_designs: Verification and RF validation.
+  sources:
+  - url: https://sicrestsemiconductors.com
+    title: SiCrest Semiconductors — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://sicrestsemiconductors.com
+- id: wnp
+  name: WnP
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Mixed-signal design and layout
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found. Mixed-signal design and layout.
+    what_it_designs: Mixed-signal design and layout.
+  sources:
+  - url: https://www.wnp.io
+    title: WnP — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.wnp.io
+- id: spintronics-ai-semiconductors
+  name: Spintronics AI Semiconductors
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Founded 2024; Bengaluru
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found. Founded 2024; Bengaluru.
+    what_it_designs: Founded 2024; Bengaluru.
+  sources:
+  - url: https://spintronicsai.com
+    title: Spintronics AI Semiconductors — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://spintronicsai.com
+- id: nevxoaulio-ventures
+  name: Nevxoaulio Ventures
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: IT services incl. VLSI
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found. IT services incl. VLSI.
+    what_it_designs: IT services incl. VLSI.
+  sources:
+  - url: https://nevxoaulio.com
+    title: Nevxoaulio Ventures — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://nevxoaulio.com
+- id: trellisign-technologies
+  name: Trellisign Technologies
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Cadence/Dassault reseller
+  application_domains: []
+  design_scope: Design services
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Offers design services; no chip of
+      its own found. Cadence/Dassault reseller.
+    what_it_designs: Cadence/Dassault reseller.
+  sources:
+  - url: https://www.trellisign.com
+    title: Trellisign Technologies — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.trellisign.com
+- id: smartdv-technologies
+  name: SmartDV Technologies
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Verification and design IP
+  application_domains: []
+  design_scope: IP blocks
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Licenses silicon IP; location not confirmed.
+      Verification and design IP.
+    what_it_designs: Verification and design IP.
+  sources:
+  - url: https://smart-dv.com
+    title: SmartDV Technologies — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://smart-dv.com
+- id: synergy-quantum
+  name: Synergy Quantum
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Quantum-safe silicon IP for RISC-V SoCs (June 2026 release)
+  application_domains: []
+  design_scope: IP blocks
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Licenses silicon IP; location not confirmed.
+      Quantum-safe silicon IP for RISC-V SoCs (June 2026 release).
+    what_it_designs: Quantum-safe silicon IP for RISC-V SoCs (June 2026 release).
+  sources:
+  - url: https://synergyquantum.in
+    title: Synergy Quantum — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://synergyquantum.in
+- id: maxvy-technologies
+  name: Maxvy Technologies
+  category: EDA & IP Provider
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Design and verification IP; site has placeholder text
+  application_domains: []
+  design_scope: IP blocks
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Licenses silicon IP; location not confirmed.
+      Design and verification IP; site has placeholder text.
+    what_it_designs: Design and verification IP; site has placeholder text.
+  sources:
+  - url: https://maxvytech.com
+    title: Maxvy Technologies — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://maxvytech.com
+- id: manjeera-digital-systems
+  name: Manjeera Digital Systems
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Hyderabad
+    state: Telangana
+    lat: 17.385
+    lon: 78.487
+  product_focus: Hyderabad; UMA computing architecture demonstrated with Intel
+  application_domains: []
+  design_scope: Unclear product
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). May design chips, but too little is
+      public to classify it. Hyderabad; UMA computing architecture demonstrated with Intel.
+    what_it_designs: Hyderabad; UMA computing architecture demonstrated with Intel.
+  sources:
+  - url: https://www.manjeerads.com
+    title: Manjeera Digital Systems — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.manjeerads.com
+- id: nanojoules
+  name: Nanojoules
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations:
+  - city: Bengaluru
+    state: Karnataka
+    lat: 12.972
+    lon: 77.594
+  product_focus: Bengaluru; says it makes silicon products for Indian OEMs
+  application_domains: []
+  design_scope: Unclear product
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). May design chips, but too little is
+      public to classify it. Bengaluru; says it makes silicon products for Indian OEMs.
+    what_it_designs: Bengaluru; says it makes silicon products for Indian OEMs.
+  sources:
+  - url: http://www.nanojoules.com
+    title: Nanojoules — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: http://www.nanojoules.com
+- id: gts25
+  name: GTS25
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Site title claims a secure edge-vision SoC
+  application_domains: []
+  design_scope: Unclear product
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). May design chips, but too little is
+      public to classify it. Site title claims a secure edge-vision SoC.
+    what_it_designs: Site title claims a secure edge-vision SoC.
+  sources:
+  - url: https://gts25.com
+    title: GTS25 — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://gts25.com
+- id: manovega-ai
+  name: Manovega AI
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Reconfigurable RISC-V silicon for edge inference
+  application_domains: []
+  design_scope: Unclear product
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). May design chips, but too little is
+      public to classify it. Reconfigurable RISC-V silicon for edge inference.
+    what_it_designs: Reconfigurable RISC-V silicon for edge inference.
+  sources:
+  - url: https://manovega.ai
+    title: Manovega AI — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://manovega.ai
+- id: pentarisc-systems
+  name: Pentarisc Systems
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: In stealth
+  application_domains: []
+  design_scope: Unclear product
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). May design chips, but too little is
+      public to classify it. In stealth.
+    what_it_designs: In stealth.
+  sources:
+  - url: https://pentarisc.systems
+    title: Pentarisc Systems — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://pentarisc.systems
+- id: linesemi
+  name: LineSemi
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: http://www.linesemi.co.in
+    title: LineSemi — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: http://www.linesemi.co.in
+- id: memrym
+  name: Memrym
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://memrym.com
+    title: Memrym — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://memrym.com
+- id: panache-digilife
+  name: Panache Digilife
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://www.panachedigilife.com
+    title: Panache Digilife — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.panachedigilife.com
+- id: prime-soc-and-isoc-technologies
+  name: Prime SoC & iSOC Technologies
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://www.primesoctechnologies.com
+    title: Prime SoC & iSOC Technologies — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.primesoctechnologies.com
+- id: qailsh
+  name: Qailsh
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://qailsh.com
+    title: Qailsh — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://qailsh.com
+- id: inquantumshift
+  name: InQuantumShift
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://www.quantumshift.in
+    title: InQuantumShift — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.quantumshift.in
+- id: seleneantech
+  name: Seleneantech
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: http://www.seleneantech.com
+    title: Seleneantech — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: http://www.seleneantech.com
+- id: sikern
+  name: Sikern
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://sikern.com
+    title: Sikern — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://sikern.com
+- id: speedbus-semiconductors
+  name: Speedbus Semiconductors
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://speedbussemiconductors.com
+    title: Speedbus Semiconductors — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://speedbussemiconductors.com
+- id: univision-tech-solutions
+  name: Univision Tech Solutions
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://univisiontechsolutions.com
+    title: Univision Tech Solutions — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://univisiontechsolutions.com
+- id: vconnect-tech-systems
+  name: vConnect Tech Systems
+  category: Design Services
+  dli_support: Listed as DLI beneficiary
+  parent_company: null
+  parent_hq: null
+  founded: null
+  india_headcount: null
+  locations: []
+  product_focus: Not known — company website unavailable when checked
+  application_domains: []
+  design_scope: Site down
+  node_sophistication: null
+  dli:
+    approved: false
+    product: null
+    grant_inr: null
+  narrative:
+    significance: On the Chips-DLI portal's list of DLI beneficiaries (no PDLI grant). Its website was unavailable when checked
+      (November 2026); not yet classified.
+    what_it_designs: Not yet documented.
+  sources:
+  - url: https://www.vconnectechsystems.com
+    title: vConnect Tech Systems — company website
+    date: null
+  - url: https://chips-dli.gov.in/DLI/HomePage
+    title: DLI Beneficiaries — Chips-DLI portal, MeitY
+    date: '2026-11-26'
+  website: https://www.vconnectechsystems.com
