@@ -82,6 +82,20 @@ h4 { font-weight: 500; line-height: 1.3; }
   font-weight: 600;
 }
 
+/* Mobile: Quarto truncates the title with "…" when the search and menu
+   icons take up room. Shrink it a little and let it wrap instead. */
+@media (max-width: 991.98px) {
+  .navbar-brand-container { max-width: calc(100% - 100px); }
+  .navbar-brand { white-space: normal; }
+  .navbar-title {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    font-size: 1.05rem;
+    line-height: 1.2;
+  }
+}
+
 /* ── Meta / eyebrow text ── */
 .tk-meta, .tk-meta-sm, .tk-meta-strong {
   font-family: 'Roboto Mono', ui-monospace, monospace;
